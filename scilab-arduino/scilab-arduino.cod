@@ -1,0 +1,125 @@
+\addvspace {10pt}
+\contentsline {section}{\numberline {3.{1}}A code to check whether the firmware is properly installed or not}{47}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {3.{1}}A code to check whether the firmware is properly installed or not}{47}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {3.{1}}A code to check whether the firmware is properly installed or not}{48}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {3.{1}}A code to check whether the firmware is properly installed or not}{48}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{1}}Turning on the LED}{68}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{68}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{68}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{69}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{4}}Turning on the LED}{69}%
+\contentsline {section}{\numberline {4.{4}}Turning on the blue LED and turning it off after two seconds}{70}%
+\contentsline {section}{\numberline {4.{4}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{71}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{72}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{4}}Turning on the LED}{73}%
+\contentsline {section}{\numberline {4.{4}}Turning on the blue LED and turning it off after two seconds}{73}%
+\contentsline {section}{\numberline {4.{4}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{73}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{73}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{4}}Turning on the LED}{74}%
+\contentsline {section}{\numberline {4.{4}}Turning on the blue LED and turning it off after two seconds}{74}%
+\contentsline {section}{\numberline {4.{4}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{75}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{76}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{87}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{87}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{88}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{88}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{2}}Read the status of the pushbutton and displaying on the serial monitor}{89}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{90}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{2}}Read the status of the pushbutton and displaying on the serial monitor}{90}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{91}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{103}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{103}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{2}}Read and display the LDR values}{104}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{104}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{2}}Read and display the LDR values}{105}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{106}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{2}}Read and display the LDR values}{106}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{107}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{123}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{123}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{123}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{124}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{125}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{126}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor}{127}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions}{127}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{127}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor}{128}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions}{128}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{129}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{138}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{139}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{140}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{141}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{154}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{154}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{155}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{155}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{2}}Read and display the thermistor values}{157}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{157}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{2}}Read and display the thermistor values}{157}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{158}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{174}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{174}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{174}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{174}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{175}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{176}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{177}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{178}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a specified degree}{179}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a specified degree and reversing}{179}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor in steps of $20^\circ $}{179}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{180}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a specified degree}{180}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a specified degree and reversing}{181}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor in steps of $20^\circ $}{181}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{182}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{199}%
+\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for Single Phase Current Output}{199}%
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Voltage Output}{200}%
+\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{200}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{200}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{201}%
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Active Power Output}{201}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Current Output}{201}%
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Voltage Output}{202}%
+\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{202}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Current Output}{202}%
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Voltage Output}{203}%
+\contentsline {section}{\numberline {11.{4}}Code for Single Phase Active Power Output}{203}%

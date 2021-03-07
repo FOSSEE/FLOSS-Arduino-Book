@@ -1,0 +1,139 @@
+\documentclass[a4paper,11pt]{book}
+%\newcommand{\Origin}{/Users/kannan/FOSS/scilab-arduino}
+% \newcommand{\Origin}{D:/Latex_files/scilab-arduino}
+\newcommand{\Origin}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
+%\newcommand{\Origin}{/home/manas/Desktop/scilab-arduino}
+%\newcommand{\Origin}{E:/scilab-arduino/scilab-arduino}
+%\newcommand{\Home}{/Users/kannan/FOSS/scilab-arduino}
+% \newcommand{\Home}{D:/Latex_files/scilab-arduino}
+\newcommand{\Home}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
+
+%\newcommand{\Home}{E:/scilab-arduino/scilab-arduino}
+
+\newcommand{\bluecolor}[1]{\color{blue}#1\color{black}}
+\usepackage{color}
+\usepackage{layouts}
+\usepackage{cclicenses}
+\usepackage{morefloats}
+\usepackage{paralist}
+\usepackage{chngcntr}
+\usepackage{layouts}
+\usepackage{fancyhdr}
+\pagestyle{headings}
+\usepackage{amsmath,graphicx,makeidx}
+\usepackage{fancybox,url}
+\usepackage{cite}
+%\usepackage{appendix}
+\counterwithout{footnote}{chapter}
+\usepackage{subfig}
+\usepackage{listings}
+\usepackage{varioref} % for \vref commands
+%\usepackage{hyperref}
+
+%\DeclareFontFamily{OT1}{cmtt}{\hyphenchar \font=-1}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{seqsplit}
+
+\newcommand{\portcmd}{\small%
+, see \fnrefp{fn:port}}
+
+\newcommand{\redcolor}[1]{\color{red}#1\color{black}}
+\newcommand{\codclr}{10pt}
+\newcommand{\scilab}{Scilab}
+\newcommand{\arduino}{Arduino Uno}
+\newcommand{\ie}{\emph{i.e.},}
+
+\newcommand{\ourname}[1]{\\ [1.5mm] \noindent{\bf #1}}
+% Shroff book size
+%\textheight 7.75in
+\textheight 7.5in
+\textwidth 5.5in
+\evensidemargin 0.625in
+\oddsidemargin 0.625in
+
+
+\input{\Home/suppl/styles}
+\renewcommand\chaptermark[1]{\markboth{\bf {\thechapter. #1}}{}}
+\renewcommand\sectionmark[1]{\markright{\bf {\thesection. #1}}}
+\cfoot{}
+\fancyfoot{}
+
+\newcommand{\tnfig}{0.3\linewidth}
+\newcommand{\smfig}{0.45\linewidth}%0.42
+\newcommand{\smfigp}{0.49\linewidth}%0.42
+\newcommand{\lgfig}{0.65\linewidth}%0.65
+\newcommand{\hgfig}{0.9\linewidth}
+
+\renewcommand\bibname{References}
+
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\figrefp}[1]{Fig.~\vref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\tabrefp}[1]{Table~\vref{#1}}
+\newcommand{\chapref}[1]{Chapter~\ref{#1}}
+\newcommand{\secref}[1]{Sec.~\ref{#1}}
+\newcommand{\sciref}[1]{Scilab~Code~\ref{#1}}
+\newcommand{\pyref}[1]{Python-Code-\ref{#1}} % added for python
+\newcommand{\juliaref}[1]{Julia-Code-\ref{#1}} % added for julia
+\newcommand{\OpenModelicaref}[1]{OpenModelica-Code-\ref{#1}} % added for OpenModelica
+\newcommand{\ardref}[1]{Arduino~Code~\ref{#1}}
+\newcommand{\mypageref}[1]{Page~\pageref{#1}}
+\newcommand{\fnref}[1]{Footnote~\ref{#1}}
+\newcommand{\fnrefp}[1]{Footnote~\vref{#1}}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\textfraction}{0}
+\renewcommand{\floatpagefraction}{1}
+% \bibliographystyle{./IEEEtran}
+\bibliographystyle{unsrt}
+
+\hyphenation{Ashu-tosh pr-ess}
+
+\makeindex
+\begin{document}
+\pagestyle{plain}
+\pagestyle{empty}
+\frontmatter
+\thispagestyle{empty}
+%\input{suppl/dedicate}
+\pagestyle{headings}
+\tableofcontents
+\listoffigures
+\listoftables
+\listofard
+\listofcode
+%\thispagestyle{empty}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+%\input{suppl/preface}
+%\input{suppl/acr}
+\input{suppl/acr}
+
+\mainmatter
+\pagestyle{headings}
+\renewcommand\chaptermark[1]{\markboth{\bf {\thechapter. #1}}{}}
+\renewcommand\sectionmark[1]{\markright{\bf {\thesection. #1}}}
+
+%\input{texfiles/microcontintro.tex}
+%\input{texfiles/sciaurint.tex}
+\input{suppl/intro.tex}
+\input{user-code/hw-env/hw-env.tex}
+\input{user-code/sw-env/sw-env.tex}
+\input{user-code/led/led.tex}
+\input{user-code/push/push.tex}
+\input{user-code/ldr/ldr.tex}
+\input{user-code/dcmotor/dcmotor.tex}
+\input{user-code/pot/pot.tex}
+\input{user-code/thermistor/thermistor.tex}
+\input{user-code/servo/servo.tex}
+\input{user-code/modbus/modbus.tex}
+%\input{texfiles/servo.tex}
+%\input{texfiles/Appendix.tex}
+%\appendix
+%\input{texfiles/sp-appendix.tex}
+%\input{windows/windows}
+
+\bibliography{bibliography.bib}
+%\printindex
+%\input{texfiles/AuthorInfo.tex}
+\end{document}

@@ -1,0 +1,40 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Uno hardware specifications\relax }}{10}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Values of components used in the shield\relax }}{16}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Information on sensors and pin numbers\relax }}{16}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Parameters to light the blue LED in Xcos\relax }}{58}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Parameters to light the blue LED in Xcos for two seconds\relax }}{59}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{60}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{60}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the push button status on the display block\relax }}{83}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{84}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{98}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{100}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces A numbering convention used in the DC motor breakout board\relax }}{114}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Parameters for DC motor initialization\relax }}{114}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{117}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{118}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{119}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{135}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{148}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{150}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{162}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{165}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{167}%
+\contentsline {table}{\numberline {10.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{168}%
+\contentsline {table}{\numberline {10.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{169}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{188}%
+\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{188}%
+\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{189}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{189}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{198}%

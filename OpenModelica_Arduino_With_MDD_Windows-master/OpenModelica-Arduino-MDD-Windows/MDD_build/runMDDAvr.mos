@@ -1,0 +1,8 @@
+loadModel(Modelica);
+getErrorString();
+
+loadFile("D:/Modelica_DeviceDrivers/package.mo");
+getErrorString();
+
+translateModel(Modelica_DeviceDrivers.EmbeddedTargets.AVR.Examples.Arduino.UNO.Blink, fileNamePrefix="Blink");
+getErrorString();

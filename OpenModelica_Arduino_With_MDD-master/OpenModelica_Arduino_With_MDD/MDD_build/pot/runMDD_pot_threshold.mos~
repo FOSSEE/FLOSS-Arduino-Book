@@ -1,0 +1,14 @@
+loadModel(Modelica);
+getErrorString();
+
+loadFile("/home/sumeet/Modelica_DeviceDrivers/package.mo");
+getErrorString();
+
+loadFile("/home/sumeet/MDD_Arduino/linux-version-4/OpenModelica-Arduino-MDD_Arduino_Revised/Arduino.mo");
+getErrorString();
+
+translateModel(Arduino.SerialCommunication.MDD_Examples.MDD_pot.MDD_pot_threshold, fileNamePrefix="pot_threshold");
+getErrorString();
+
+simulate(pot_threshold, outputFormat="csv", startTime=0, stopTime=4, numberOfIntervals=5)
+plot(y)
