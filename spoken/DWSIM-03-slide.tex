@@ -1,0 +1,215 @@
+\documentclass[17pt,xcolor=table]{beamer} 
+\setbeamersize{text margin left=0cm,text margin right=0.25cm}
+\mathversion{bold}
+%\usepackage{paralist}
+\usepackage{beamerthemesplit}
+\usepackage{beamerthemeshadow}
+\definecolor{Green}{RGB}{0,190,0}
+\definecolor{Brown}{RGB}{205,0,0}
+\setbeamercolor{structure}{fg=Green}
+\setbeamercolor{alerted text}{fg=Brown}
+\logo{\includegraphics[height=0.7cm]{FOSSEE.jpeg}\hspace{9.7cm}
+\includegraphics[height=1cm]{ST-logo.jpeg}}
+\hyphenation{phosphorylated}
+
+\begin{document}
+\sffamily \bfseries
+\title
+[Introduction to Flowsheeting]
+{Introduction to Flowsheeting}
+\author [Rahul, Neelesh, Kannan]
+{\small Spoken Tutorial Project \\
+http://spoken-tutorial.org \\ [0.3cm]
+  National Mission
+  on Education 
+  through ICT \\ 
+  http://sakshat.ac.in \\ [0.3cm]
+  Rahul, Neelesh, Kannan \\ IIT Bombay \\ [0.35cm]
+\small 26 May 2015}
+\date{}
+\begin{frame}
+   \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Learning Objectives}
+\vspace{-0.25in}
+We will learn to 
+\begin{itemize}
+\item Simulate a mixer
+\item Follow it up with a separator
+\item Learn how to give a mixed phase feed
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{System Requirements}
+\begin{itemize}
+\item DWSIM 3.4
+\item Any OS: Windows, Linux, Mac OS X or FOSSEE OS on ARM
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Prerequisites}
+  \begin{itemize}
+  \item Introductory exposure to DWSIM
+  \item Prerequisite tutorials are mentioned on our website \\
+    http://spoken-tutorial.org
+  \end{itemize}
+\end{frame}
+
+\begin{frame} 
+  \frametitle{Contents of {\color{blue}flow-begin.dwxml}}
+\vspace{-0.15in}
+Thermodynamics: Raoult's law \\
+Units: CGS
+\begin{center}
+  \begin{tabular}{|l|c|c|}\hline
+&    \textbf{\color{blue}Inlet1} & \textbf{\color{blue}Inlet2}\\
+    \hline	
+Mole fractions & & \\
+Benzene & 0.8 & 0.2 \\
+Toluene & 0.2 & 0.8 \\ \hline
+Molar flow rate & 100 & 100 \\
+(mol/s) & & \\ \hline
+T ($^\circ$C) & 25 & 25 \\ \hline
+P (atm) & 1 & 1 \\ \hline
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Summary}
+  We defined a simple flowsheet
+  \begin{itemize}
+  \item Explained how to create mixed feed
+  \item Introduced mixer and separator
+  \item Showed how to connect them
+  \item Explained how to simulate
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Assignment 1: Verify Flow Rates}
+\vspace{-0.4in}
+  \begin{itemize}
+  \item Check if the molar flow rate of
+    {\color{blue}Inlet1}+{\color{blue}Inlet2} =
+    {\color{blue}mixer-out}, and \\
+    {\color{blue}Inlet1}+{\color{blue}Inlet2} = 
+    {\color{blue}Vapour}+{\color{blue}Liquid} 
+  \item Check if the flow rate of the {\color{blue}Vapour} stream is
+    equal to the 
+    flow rate of vapour fraction in {\color{blue}mixer-out}
+  \item Do the same thing for {\color{blue}Liquid}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Assignment 2: \\ Verify Mole Fractions}
+  \begin{itemize}
+  \item Check if the mole fractions of benzene and toluene in
+    {\color{blue}mixer-out} = that of {\color{blue}Liquid}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Assignment 3: Get rid of mixer}
+  \begin{itemize}
+  \item As the {\color{blue}Separator} has 6 inputs,
+    {\color{blue}Inlet1} and {\color{blue}Inlet2} can directly
+    be connected to two input ports - do this
+  \item Remove the {\color{blue}mixer} and {\color{blue}mixer-out}
+  \item See if you get the same answers
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Assignment 4: Energy Stream}
+  \vspace{-0.2in}
+   \begin{itemize}
+   \item Click on Separator
+   \item Change {\color{blue}Override separation temperature} to true
+   \item Change the resulting temperature value to $100^\circ$ C
+   \item Bring {\color{blue}Energy stream} from {\color{blue}Object
+       Palette} to the Flowsheet
+   \item Connect this stream to the {\color{blue}Energy Stream} of the
+     {\color{blue}Separator }
+   \end{itemize}
+Simulate and analyse your results
+\end{frame}
+
+\begin{frame}
+\frametitle{About the Spoken Tutorial Project}
+\begin{itemize}
+\item Watch the video available at {\color{blue} http://spoken-tutorial.org /What\_is\_a\_Spoken\_Tutorial}
+\item It summarises the Spoken Tutorial project \pause
+\item If you do not have good bandwidth, you can download and watch it
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Spoken Tutorial Workshops}
+The Spoken Tutorial Project Team
+\begin{itemize}
+\item Conducts workshops using spoken tutorials
+\item Gives certificates to those who pass an online test
+\item For more details, please write to {\color{blue} contact@spoken-tutorial.org}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Forum to answer questions}
+\vspace{-0.5in}
+\begin{itemize}
+\item Do you have questions in THIS Spoken Tutorial?
+\item Choose the minute and second where you have the question.
+\item Explain your question briefly.
+\item Someone from the FOSSEE team will answer them.
+\end{itemize}
+Please visit {\small \color{blue}
+  http://forums.spoken-tutorial.org/} 
+\end{frame}
+
+\begin{frame}
+\frametitle{Textbook Companion Project}
+\begin{itemize}
+\item The FOSSEE team coordinates coding of solved examples of popular
+  books 
+\item We give honorarium and certificate to those who do this
+\end{itemize}
+For more details, please visit this site: 
+{\small \color{blue} http://dwsim.fossee.in/Textbook\_Companion\_Project}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lab Migration Project}
+\begin{itemize}
+\item The FOSSEE team helps migrate commercial simulator labs to DWSIM
+\item We give honorarium and certificates to those who do this
+\end{itemize}
+For more details, please visit this site: 
+{\color{blue} http://dwsim.fossee.in/lab-migration-project}
+\end{frame}
+
+\begin{frame}
+\frametitle{Acknowledgements}
+\begin{itemize}
+\item Spoken Tutorial and FOSSEE are funded by the National Mission on
+  Education through ICT, MHRD, Government of India
+\item More information on this mission is available at \\
+\hspace{0.25in}
+{\small \color{blue}http://spoken-tutorial.org/NMEICT-Intro}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Thanks!}
+\begin{center}
+http://dwsim.inforside.com.br/
+\end{center}
+\end{frame}
+
+\end{document}
+

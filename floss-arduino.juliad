@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {3.{1}}A Julia code to check whether the firmware is properly installed or not}{47}
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{1}}Turning on the LED}{71}
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{72}
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{72}
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{72}
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{88}
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{88}
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{103}
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{103}
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{124}
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{125}
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{125}
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{138}
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{154}
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{154}
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{176}
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{176}
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{177}
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{177}
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{199}
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{199}
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Active Power Output}{200}

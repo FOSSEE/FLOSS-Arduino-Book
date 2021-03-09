@@ -1,0 +1,103 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Functional block diagram of a microcontroller\relax }}{4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ADC resolution\relax }}{6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The logo of Open Source Hardware\relax }}{7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Arduino Uno Board\relax }}{9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Arduino Mega Board\relax }}{10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces LilyPad Arduino Board\relax }}{11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Arduino Phone\relax }}{11}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 3D printer\relax }}{12}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces PCB image of the shield}}{13}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pictorial representation of the schematic of the shield}}{14}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces PCB of the shield}}{15}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Picture of the shield with all components\relax }}{15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Windows device manager\relax }}{19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Windows update driver option\relax }}{20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Confirmation for executing Arduino script\relax }}{21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Arduino IDE\relax }}{22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux terminal to launch Scilab\relax }}{26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Changing scilab directory\relax }}{27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Browsing toolbox directory\relax }}{28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Output of builder.sce\relax }}{29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Output of loader.sce\relax }}{30}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Device Manager in windows\relax }}{31}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces COM port properties window\relax }}{32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Port number on Linux terminal\relax }}{32}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Scilab test code output\relax }}{33}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Arduino toolbox functions used in this book\relax }}{33}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sine generator in palette browser\relax }}{35}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces CSCOPE block in xcos\relax }}{36}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces CLOCK\_c block in xcos\relax }}{36}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sine generator in Xcos\relax }}{37}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sine generator Xcos output\relax }}{38}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces CSCOPE configuration window\relax }}{38}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Simulation setup window\relax }}{39}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Palette browser showing Arduino blocks\relax }}{40}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Xcos block help\relax }}{40}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Linux terminal to launch Julia\relax }}{44}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Linux Atom Text Editor\relax }}{45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{51}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{52}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino and Shield\relax }}{52}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{55}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Turning the blue LED on through Xcos}}{60}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{61}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{62}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Blinking the green LED every second through Xcos}}{63}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{78}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Printing the push button status on the display block}}{82}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{83}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Light Dependent Resistor\relax }}{92}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{92}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{92}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{92}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Xcos diagram to read LDR values}}{97}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{98}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces L293D motor driver board\relax }}{108}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces A schematic of DC motor connections\relax }}{109}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{109}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{116}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{118}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{119}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{130}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{130}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{130}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{134}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{142}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{142}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{142}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{142}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{142}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{142}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Xcos diagram to read thermistor values}}{148}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Output of Xcos diagram to read thermistor values}}{149}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{149}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{150}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{166}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{167}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{168}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{169}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{184}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{184}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{185}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{189}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{190}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{191}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{192}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{193}
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{193}
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{194}
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{194}
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{195}
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{195}
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{196}

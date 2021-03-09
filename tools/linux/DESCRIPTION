@@ -1,0 +1,34 @@
+Toolbox: arduino
+
+Title: Arduino
+
+Summary: Arduino Communication through Serial
+
+Version: 1.2
+
+Author: Bruno JOFRET
+
+Maintainer: Bruno Jofret <bruno.jofret@scilab-enterprises.com>
+
+Category: Instruments Control
+
+Entity: Scilab Enterprises
+
+WebSite: http://www.scilab-enterprises.com/
+
+URL: http://atoms.scilab.org/toolboxes/arduino/1.1
+
+License: CeCILL
+
+ScilabVersion: >= 5.4
+
+Depends: 
+
+Date: 2013-06-28 14:15:43
+
+Description: This toolbox provides Arduino communication blocks for Xcos.
+ 
+ Communication is performed through Serial port.
+ 
+ Only works under Windows platform.
+

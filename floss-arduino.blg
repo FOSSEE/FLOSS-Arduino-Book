@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: floss-arduino.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib.bib
+Warning--I didn't find a database entry for "therm-wiki"
+You've used 15 entries,
+            1791 wiz_defined-function locations,
+            496 strings with 4771 characters,
+and the built_in function-call counts, 1732 in all, are:
+= -- 156
+> -- 24
+< -- 0
++ -- 18
+- -- 3
+* -- 2
+:= -- 206
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 75
+empty$ -- 271
+format.name$ -- 3
+if$ -- 445
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 81
+num.names$ -- 3
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 41
+stack$ -- 0
+substring$ -- 0
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 3
+width$ -- 17
+write$ -- 143
+(There was 1 warning)

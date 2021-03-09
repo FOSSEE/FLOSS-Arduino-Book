@@ -1,0 +1,259 @@
+% code environment
+\usepackage{ntheorem}
+{\theorembodyfont{\rmfamily} \newtheorem{codemass}{Scilab Code}[chapter]}
+\newenvironment{scicode}%
+{\begin{codemass}}{\hrule \end{codemass}}
+
+% create listing for code
+
+\newcommand\ccaption[1]
+     {\addcontentsline{cod}{section}{\protect\numberline {\thecodemass}#1}}
+\makeatletter \newcommand\listofcode
+     {\chapter*{List of Scilab, Python, Julia \& OpenModelica Code\markboth%
+                        {\bf List of Scilab, Python, Julia \& OpenModelica Code}{}}%
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Scilab, Python, Julia \& OpenModelica Code}}
+\@starttoc{cod}}
+\newcommand\l@scilab[3]
+     {#1 \par\noindent#2, #3 \par} 
+\renewcommand\@pnumwidth{2.1em}
+\makeatother
+
+
+% Arduino Code Listing
+\usepackage{ntheorem}
+{\theorembodyfont{\rmfamily} \newtheorem{ardmass}{Arduino Code}[chapter]}
+
+\newenvironment{ardcode}%
+{\begin{ardmass}}{\hrule \end{ardmass}}
+
+\newcommand\acaption[1]
+     {\addcontentsline{ard}{section}{\protect\numberline {\theardmass}#1}}
+
+\makeatletter \newcommand\listofard
+     {\chapter*{List of Arduino Code\markboth%
+                        {\bf List of Arduino Code}{}}%
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Arduino \ Code}}
+\@starttoc{ard}}
+\newcommand\l@arduino[3]
+     {#1 \par\noindent#2, #3 \par} 
+\renewcommand\@pnumwidth{2.1em}
+\makeatother
+
+%%%%%%%%%%python
+\usepackage{ntheorem}
+{\theorembodyfont{\rmfamily} \newtheorem{pymass}{Python Code}[chapter]}
+\newenvironment{pycode}%
+{\begin{pymass}}{\hrule \end{pymass}}
+
+% create listing for Python code
+
+\newcommand\pcaption[1]
+     {\addcontentsline{pyd}{section}{\protect\numberline {\thepymass}#1}}
+\makeatletter \newcommand\listofpyd
+     {\chapter*{List of Python Code\markboth%
+                        {\bf List of Python Code}{}}%
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Python \ Code}}
+\@starttoc{pyd}}
+\newcommand\l@python[3]
+     {#1 \par\noindent#2, #3 \par} 
+\renewcommand\@pnumwidth{2.1em}
+\makeatother
+%%%%%%%%%python
+
+%%%%%%%%%%julia
+\usepackage{ntheorem}
+{\theorembodyfont{\rmfamily} \newtheorem{juliamass}{Julia Code}[chapter]}
+\newenvironment{juliacode}%
+{\begin{juliamass}}{\hrule \end{juliamass}}
+
+% create listing for code
+
+\newcommand\jcaption[1]
+     {\addcontentsline{juliad}{section}{\protect\numberline {\thejuliamass}#1}}
+\makeatletter \newcommand\listofjuliad
+     {\chapter*{List of Julia Code\markboth%
+                        {\bf List of Julia Code}{}}%
+                        %{\bf List of Julia Code}{}}%
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Julia\ Code}}
+\@starttoc{juliad}}
+\newcommand\l@julia[3]
+     {#1 \par\noindent#2, #3 \par} 
+\renewcommand\@pnumwidth{2.1em}
+\makeatother
+%%%%%%%%%julia
+
+%%%%%%%%%%OpenModelica
+\usepackage{ntheorem}
+{\theorembodyfont{\rmfamily} \newtheorem{OpenModelicamass}{OpenModelica Code}[chapter]}
+\newenvironment{OpenModelicacode}%
+{\begin{OpenModelicamass}}{\hrule \end{OpenModelicamass}}
+
+% create listing for code
+
+\newcommand\mcaption[1]
+     {\addcontentsline{OpenModelicad}{section}{\protect\numberline {\theOpenModelicamass}#1}}
+\makeatletter \newcommand\listofOpenModelicad
+     {\chapter*{List of OpenModelica Code\markboth%
+                        {\bf List of OpenModelica Code}{}}%
+                        %{\bf List of Julia Code}{}}%
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of OpenModelica\ Code}}
+\@starttoc{OpenModelicad}}
+\newcommand\l@OpenModelica[3]
+     {#1 \par\noindent#2, #3 \par} 
+\renewcommand\@pnumwidth{2.1em}
+\makeatother
+%%%%%%%%%OpenModelica
+
+
+\makeatletter
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\contentsname
+        \@mkboth{%
+           \bf \contentsname}{\bf \contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+%
+\renewcommand\listoffigures{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\listfigurename
+        \@mkboth{%
+           \bf \listfigurename}{\bf \listfigurename}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Figures}}
+    \@starttoc{lof}%
+    \if@restonecol\twocolumn\fi
+    }
+%
+\renewcommand\listoftables{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\listtablename
+        \@mkboth{%
+           \bf \listtablename}{\bf \listtablename}}%
+\addcontentsline{toc}{chapter}{\protect\numberline{List of Tables}}
+    \@starttoc{lot}%
+    \if@restonecol\twocolumn\fi
+    }
+%
+\renewenvironment{theindex}
+               {\if@twocolumn
+                  \@restonecolfalse
+                \else
+                  \@restonecoltrue
+                \fi
+                \columnseprule \z@
+                \columnsep 35\p@
+                \twocolumn[\@makeschapterhead{\indexname}]%
+                \@mkboth{\bf \indexname}%
+                        {\bf \indexname}%
+\addcontentsline{toc}{chapter}{\protect\numberline{\indexname}}%
+                \thispagestyle{plain}\parindent\z@
+                \parskip\z@ \@plus .3\p@\relax
+                \let\item\@idxitem}
+               {\if@restonecol\onecolumn\else\clearpage\fi}
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}%
+      \@mkboth{\bf \bibname}{\bf \bibname}%
+\addcontentsline{toc}{chapter}{\protect\numberline{References}}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+%\makeatletter
+%\renewcommand{\p@subfigure}{}
+%\renewcommand{\@thesubfigure}{\thesubfigure:\hskip\subfiglabelskip}
+%\makeatother
+%\setcounter{lofdepth}{2}
+
+%\makeatletter\renewcommand{\p@subfigure}{}\renewcommand{\@thesubfigure}{\thesubfigure:\hskip\subfiglabelskip}\makeatother
+
+%\setcounter{lofdepth}{2}
+
+\lstdefinestyle{mystyle}{
+    numberstyle=\tiny,
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle,language=Scilab,numbers=left,numberstyle=\tiny,
+  breaklines,commentstyle=\scriptsize}
+
+\lstdefinestyle{nonumbers}{
+    numbers=none,
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle,language=C,numbers=left,numberstyle=\tiny,
+  breaklines,commentstyle=\scriptsize}
+
+\newenvironment{indented}[1][]%
+               {\list{}%
+                {\leftmargin \parindent%
+                 \rightmargin \parindent%
+                 \labelsep   1em%
+                 \itemindent 0in}%
+                \item#1\relax}%
+               {\endlist\noindent}%
+\def\eop{ \hbox{{\vrule height7pt width3pt depth0pt}}}
+\def\qed{\hspace*{\fill}\eop}
+
+\newenvironment{thmenumerate}{%
+\leavevmode\vspace{-1.4em}
+\begin{enumerate}[label=(\arabic*),leftmargin=*,align=left]
+}{%
+\end{enumerate}
+}
+
+\usepackage{theorem}
+{\theorembodyfont{\sffamily} \newtheorem{egmass}{Exercise}[chapter]}
+\newenvironment{exercise}%
+{\begin{indented}\begin{egmass} }{\end{egmass} \vspace{-2ex} \qed%
+\end{indented}} 
