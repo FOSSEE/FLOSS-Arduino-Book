@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  8 MAR 2021 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  12 MAR 2021 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,8 +372,7 @@ Package: beramono 2004/01/31 (WaS)
 Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
  etc.) 
 )
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-suppl/styles.tex
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/suppl/styles.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
@@ -446,18 +445,18 @@ LaTeX Warning: Label `sci:current-modbus' multiply defined.
 )
 \openout1 = `floss-arduino.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count178
@@ -521,7 +520,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 98.
+Package layouts Warning: Layout scale set to 0.5 on input line 99.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -543,8 +542,8 @@ Overfull \hbox (99.11014pt too wide) detected at line 3
  []
 
 
-Overfull \hbox (257.72578pt too wide) detected at line 4
-\T1/cmr/bx/n/10.95 List of Scilab, Python, Julia & OpenModelica Code 
+Overfull \hbox (83.67537pt too wide) detected at line 4
+\T1/cmr/bx/n/10.95 List of Scilab Code 
  []
 
 
@@ -680,55 +679,51 @@ Chapter 2.
 [3
 
 ]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/miccontblk.png, id=102, 419.6478pt x 413.3844pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/miccontblk.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/miccontblk.png, id=102, 419.6478pt x 413.3844pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/miccontblk.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/miccontblk.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/miccontblk.png used on input l
-ine 50.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/miccontblk.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/miccontblk.png used on input line 50.
 (pdftex.def)             Requested size: 258.36281pt x 254.51689pt.
- [4 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/miccontblk.png>] [5]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/resolution.png, id=111, 207.77625pt x 330.23375pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/resolution.png Graphic file (type png)
+ [4 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/miccontblk.png>] [5]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/resolution.png, id=111, 207.77625pt x 330.23375pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/resolution.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/resolution.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/resolution.png used on input l
-ine 127.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/resolution.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/resolution.png used on input line 127.
 (pdftex.def)             Requested size: 119.2467pt x 189.52515pt.
- [6 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/resolution.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/OSHW-138px.png, id=116, 138.5175pt x 145.54375pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/OSHW-138px.png Graphic file (type png)
+ [6 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/resolution.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/OSHW-138px.png, id=116, 138.5175pt x 145.54375pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/OSHW-138px.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/OSHW-138px.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/OSHW-138px.png used on input l
-ine 182.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/OSHW-138px.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/OSHW-138px.png used on input line 182.
 (pdftex.def)             Requested size: 72.26999pt x 75.93634pt.
- [7 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/OSHW-138px.png>] [8]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/arduino.png, id=126, 585.18625pt x 221.82875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/arduino.png Graphic file (type png)
+ [7 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/OSHW-138px.png>] [8]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/arduino.png, id=126, 585.18625pt x 221.82875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/arduino.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/arduino.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/arduino.png used on input line
- 254.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/arduino.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/arduino.png used on input line 254.
 (pdftex.def)             Requested size: 357.73405pt x 135.61319pt.
 
 Overfull \hbox (7.4056pt too wide) in paragraph at lines 261--281
@@ -736,73 +731,66 @@ Overfull \hbox (7.4056pt too wide) in paragraph at lines 261--281
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/mega.jpg, id=127, 481.8pt x 316.7835pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/mega.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/mega.jpg, id=127, 481.8pt x 316.7835pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/mega.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/mega.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/mega.jpg used on input line 29
-5.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/mega.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/mega.jpg used on input line 295.
 (pdftex.def)             Requested size: 258.36281pt x 169.87627pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/lily.jpg, id=128, 321.2pt x 321.2pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/lily.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/lily.jpg, id=128, 321.2pt x 321.2pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/lily.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/lily.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/lily.jpg used on input line 30
-6.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/lily.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/lily.jpg used on input line 306.
 (pdftex.def)             Requested size: 178.86702pt x 178.87094pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/arduino-phone.jpg, id=129, 230.15924pt x 153.5162pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/arduino-phone.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/arduino-phone.jpg, id=129, 230.15924pt x 153.5162pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/arduino-phone.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/arduino-phone.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/arduino-phone.jpg used on inpu
-t line 325.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/arduino-phone.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/arduino-phone.jpg used on input line 325.
 (pdftex.def)             Requested size: 178.86702pt x 119.30411pt.
- [9 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/arduino.png>]
+ [9 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/arduino.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/mega.jpg>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/arduino-3d-printer.jpg, id=136, 770.88pt x 364.36125pt
->
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/arduino-3d-printer.jpg Graphic file (type jpg)
+ [10 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/mega.jpg>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/arduino-3d-printer.jpg, id=136, 770.88pt x 364.36125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/arduino-3d-printer.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/arduino-3d-printer.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/arduino-3d-printer.jpg used on
- input line 339.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/arduino-3d-printer.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/arduino-3d-printer.jpg used on input line 339.
 (pdftex.def)             Requested size: 178.86702pt x 84.54076pt.
- [11 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/lily.jpg> </Users/kannan/FOSS/scilab-arduino/foss
-ee-scilab-arduino-master/scilab-arduino/user-code/hw-env/figures/arduino-phone.
-jpg>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/shield/pcb_board_V1p2.png, id=140, 405.76593pt x 347.79938pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/tools/shield/pcb_board_V1p2.png Graphic file (type png)
+ [11 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/lily.jpg> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-cod
+e/hw-env/figures/arduino-phone.jpg>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/pcb_board_V
+1p2.png, id=140, 405.76593pt x 347.79938pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/pcb_bo
+ard_V1p2.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/tools/shield/pcb_board_V1p2.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/tools/shield/pcb_board_V1p2.png used on input line 371.
-
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/pcb_boa
+rd_V1p2.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+tools/shield/pcb_board_V1p2.png used on input line 371.
 (pdftex.def)             Requested size: 178.86702pt x 153.31877pt.
 
 Underfull \hbox (badness 1755) in paragraph at lines 373--373
@@ -811,26 +799,26 @@ found at
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/shield/shield-V1p2.png, id=141, 453.94594pt x 320.69812pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/tools/shield/shield-V1p2.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield-V1p2
+.png, id=141, 453.94594pt x 320.69812pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield
+-V1p2.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/tools/shield/shield-V1p2.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/tools/shield/shield-V1p2.png used on input line 381.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield-
+V1p2.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+tools/shield/shield-V1p2.png used on input line 381.
 (pdftex.def)             Requested size: 397.48499pt x 280.81079pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/shield/shield-V1p2.jpg, id=142, 494.59781pt x 376.40625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/tools/shield/shield-V1p2.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield-V1p2
+.jpg, id=142, 494.59781pt x 376.40625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield
+-V1p2.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/tools/shield/shield-V1p2.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/tools/shield/shield-V1p2.jpg used on input line 392.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/shield/shield-
+V1p2.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+tools/shield/shield-V1p2.jpg used on input line 392.
 (pdftex.def)             Requested size: 238.49341pt x 181.5pt.
 
 Underfull \hbox (badness 2689) in paragraph at lines 396--396
@@ -839,137 +827,123 @@ found at
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/shield-crop.jpg, id=143, 608.2725pt x 443.6575pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/shield-crop.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/shield-crop.jpg, id=143, 608.2725pt x 443.6575pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/shield-crop.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/shield-crop.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/shield-crop.jpg used on input 
-line 460.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/shield-crop.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/shield-crop.jpg used on input line 460.
 (pdftex.def)             Requested size: 397.48499pt x 289.9242pt.
- [12 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/arduino-3d-printer.jpg>]) (./user-code/sw-env/sw-
-env.tex [13 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/sci
-lab-arduino/tools/shield/pcb_board_V1p2.png>] [14 </Users/kannan/FOSS/scilab-ar
-duino/fossee-scilab-arduino-master/scilab-arduino/tools/shield/shield-V1p2.png>
-] [15 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/tools/shield/shield-V1p2.jpg> </Users/kannan/FOSS/scilab-arduino/fossee-s
-cilab-arduino-master/scilab-arduino/user-code/hw-env/figures/shield-crop.jpg>] 
-[16]
+ [12 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/arduino-3d-printer.jpg>])
+(./user-code/sw-env/sw-env.tex [13 </Users/kannan/FOSS/scilab-arduino/floss-ard
+uino-clone/tools/shield/pcb_board_V1p2.png>] [14 </Users/kannan/FOSS/scilab-ard
+uino/floss-arduino-clone/tools/shield/shield-V1p2.png>] [15 </Users/kannan/FOSS
+/scilab-arduino/floss-arduino-clone/tools/shield/shield-V1p2.jpg> </Users/kanna
+n/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures/shield-crop.
+jpg>] [16]
 Chapter 3.
 [17
 
 ]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/hw-device-manager.jpg, id=165, 793.96625pt x 579.16376
-pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/hw-device-manager.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/hw-device-manager.jpg, id=165, 793.96625pt x 579.16376pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/hw-device-manager.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/hw-device-manager.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/hw-device-manager.jpg used on 
-input line 103.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/hw-device-manager.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/hw-device-manager.jpg used on input line 103.
 (pdftex.def)             Requested size: 397.48499pt x 289.95233pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/update-driver.png, id=166, 635.37375pt x 423.5825pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/update-driver.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/update-driver.png, id=166, 635.37375pt x 423.5825pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/update-driver.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/update-driver.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/update-driver.png used on inpu
-t line 110.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/update-driver.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/update-driver.png used on input line 110.
 (pdftex.def)             Requested size: 397.48499pt x 264.99695pt.
- [18] [19 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scila
-b-arduino/user-code/hw-env/figures/hw-device-manager.jpg>] [20 </Users/kannan/F
-OSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/hw-env
-/figures/update-driver.png (PNG copy)>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/run.png, id=178, 545.03625pt x 155.58125pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/run.png Graphic file (type png)
+ [18] [19 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-e
+nv/figures/hw-device-manager.jpg>] [20 </Users/kannan/FOSS/scilab-arduino/floss
+-arduino-clone/user-code/hw-env/figures/update-driver.png (PNG copy)>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/run.png, id=178, 545.03625pt x 155.58125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/run.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/run.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/run.png used on input line 181
-.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/run.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/run.png used on input line 181.
 (pdftex.def)             Requested size: 272.51746pt x 77.79042pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/hw-env/figures/arduino-ide.jpg, id=179, 856.19875pt x 657.45625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/arduino-ide.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/figures
+/arduino-ide.jpg, id=179, 856.19875pt x 657.45625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/arduino-ide.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/hw-env/figures/arduino-ide.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/hw-env/figures/arduino-ide.jpg used on input 
-line 198.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fig
+ures/arduino-ide.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/hw-env/figures/arduino-ide.jpg used on input line 198.
 (pdftex.def)             Requested size: 397.48499pt x 305.22243pt.
- [21 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/hw-env/figures/run.png>] [22 </Users/kannan/FOSS/scilab-arduino/
-fossee-scilab-arduino-master/scilab-arduino/user-code/hw-env/figures/arduino-id
-e.jpg>] [23]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/arduino-firmware/arduino-firmware.ino
+ [21 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/hw-env/fi
+gures/run.png>] [22 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user
+-code/hw-env/figures/arduino-ide.jpg>] [23]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/arduino-firmware/a
+rduino-firmware.ino
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
 ) [24]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/linux-cd.png, id=193, 787.94376pt x 192.72pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/linux-cd.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/linux-cd.png, id=193, 787.94376pt x 192.72pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/linux-cd.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/linux-cd.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/linux-cd.png used on input lin
-e 404.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/linux-cd.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/linux-cd.png used on input line 404.
 (pdftex.def)             Requested size: 393.97092pt x 96.35976pt.
  [25]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/change-directory.png, id=198, 602.25pt x 451.6875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/change-directory.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/change-directory.png, id=198, 602.25pt x 451.6875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/change-directory.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/change-directory.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/change-directory.png used on i
-nput line 435.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/change-directory.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/change-directory.png used on input line 435.
 (pdftex.def)             Requested size: 397.48499pt x 298.12845pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/browse-directory.png, id=199, 450.18187pt x 327.47343p
-t>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/browse-directory.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/browse-directory.png, id=199, 450.18187pt x 327.47343pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/browse-directory.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/browse-directory.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/browse-directory.png used on i
-nput line 445.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/browse-directory.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/browse-directory.png used on input line 445.
 (pdftex.def)             Requested size: 357.73405pt x 260.23521pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/builder.png, id=200, 600.74437pt x 421.575pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/builder.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/builder.png, id=200, 600.74437pt x 421.575pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/builder.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/builder.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/builder.png used on input line
- 461.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/builder.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/builder.png used on input line 461.
 (pdftex.def)             Requested size: 397.48499pt x 278.94795pt.
 
 Overfull \hbox (1.53204pt too wide) in paragraph at lines 455--465
@@ -978,177 +952,159 @@ Overfull \hbox (1.53204pt too wide) in paragraph at lines 455--465
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/loader.png, id=201, 600.74437pt x 421.575pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/loader.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/loader.png, id=201, 600.74437pt x 421.575pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/loader.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/loader.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/loader.png used on input line 
-477.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/loader.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/loader.png used on input line 477.
 (pdftex.def)             Requested size: 300.37144pt x 210.78697pt.
- [26 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/linux-cd.png>] [27 </Users/kannan/FOSS/scilab-ard
-uino/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/chang
-e-directory.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/device-manager.png, id=210, 602.25pt x 451.6875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/device-manager.png Graphic file (type png)
+ [26 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/linux-cd.png>] [27 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone
+/user-code/sw-env/figures/change-directory.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/device-manager.png, id=210, 602.25pt x 451.6875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/device-manager.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/device-manager.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/device-manager.png used on inp
-ut line 505.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/device-manager.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/device-manager.png used on input line 505.
 (pdftex.def)             Requested size: 397.48499pt x 298.12845pt.
- [28 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/browse-directory.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/com-properties.png, id=214, 602.25pt x 451.6875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/com-properties.png Graphic file (type png)
+ [28 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/browse-directory.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/com-properties.png, id=214, 602.25pt x 451.6875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/com-properties.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/com-properties.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/com-properties.png used on inp
-ut line 526.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/com-properties.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/com-properties.png used on input line 526.
 (pdftex.def)             Requested size: 301.12425pt x 225.84319pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/linux-port.png, id=215, 634.37pt x 246.9225pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/linux-port.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/linux-port.png, id=215, 634.37pt x 246.9225pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/linux-port.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/linux-port.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/linux-port.png used on input l
-ine 550.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/linux-port.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/linux-port.png used on input line 550.
 (pdftex.def)             Requested size: 317.18422pt x 123.46094pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/builder.png>] [30 </Users/kannan/FOSS/scilab-ardu
-ino/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/loader
-.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/test_firmware.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/test-console.png, id=222, 600.74437pt x 421.575pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/test-console.png Graphic file (type png)
+ [29 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/builder.png>] [30 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/loader.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/test_firmware.sce)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/test-console.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/test-console.png used on input
- line 601.
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/test-console.png, id=222, 600.74437pt x 421.575pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/test-console.png Graphic file (type png)
+
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/test-console.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/test-console.png used on input line 601.
 (pdftex.def)             Requested size: 300.37144pt x 210.78697pt.
- [31 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/device-manager.png>] [32 </Users/kannan/FOSS/scil
-ab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures
-/com-properties.png> </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-m
-aster/scilab-arduino/user-code/sw-env/figures/linux-port.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/table_functions_crop.pdf, id=231, 1055.945pt x 543.028
-75pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/table_functions_crop.pdf Graphic file (type pdf)
+ [31 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/device-manager.png>] [32 </Users/kannan/FOSS/scilab-arduino/floss-arduino
+-clone/user-code/sw-env/figures/com-properties.png> </Users/kannan/FOSS/scilab-
+arduino/floss-arduino-clone/user-code/sw-env/figures/linux-port.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/table_functions_crop.pdf, id=231, 1055.945pt x 543.02875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/table_functions_crop.pdf Graphic file (type pdf)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/table_functions_crop.pdf>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/table_functions_crop.pdf used 
-on input line 626.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/table_functions_crop.pdf>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/table_functions_crop.pdf used on input line 626.
 (pdftex.def)             Requested size: 397.48499pt x 204.40587pt.
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
- [33 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/test-console.png> </Users/kannan/FOSS/scilab-ardu
-ino/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/table_
-functions_crop.pdf>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-tools/test_firmware.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/sine-blk.png, id=241, 376.40625pt x 376.40625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sine-blk.png Graphic file (type png)
+ [33 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/test-console.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/table_functions_crop.pdf>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/tools/test_firmware.sce)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/sine-blk.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/sine-blk.png used on input lin
-e 674.
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/sine-blk.png, id=241, 376.40625pt x 376.40625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sine-blk.png Graphic file (type png)
+
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/sine-blk.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/sine-blk.png used on input line 674.
 (pdftex.def)             Requested size: 357.73405pt x 357.76195pt.
- [34] [35 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scila
-b-arduino/user-code/sw-env/figures/sine-blk.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/plot-blk.png, id=249, 310.15875pt x 109.1578pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/plot-blk.png Graphic file (type png)
+ [34] [35 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-e
+nv/figures/sine-blk.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/plot-blk.png, id=249, 310.15875pt x 109.1578pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/plot-blk.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/plot-blk.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/plot-blk.png used on input lin
-e 726.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/plot-blk.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/plot-blk.png used on input line 726.
 (pdftex.def)             Requested size: 357.73405pt x 125.90192pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/clock-blk.png, id=250, 307.90031pt x 108.405pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/clock-blk.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/clock-blk.png, id=250, 307.90031pt x 108.405pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/clock-blk.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/clock-blk.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/clock-blk.png used on input li
-ne 740.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/clock-blk.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/clock-blk.png used on input line 740.
 (pdftex.def)             Requested size: 357.73405pt x 125.95995pt.
- [36 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/plot-blk.png> </Users/kannan/FOSS/scilab-arduino/
-fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/clock-blk.
-png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/sine-gen.png, id=254, 207.77625pt x 253.69781pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sine-gen.png Graphic file (type png)
+ [36 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/plot-blk.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user
+-code/sw-env/figures/clock-blk.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/sine-gen.png, id=254, 207.77625pt x 253.69781pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sine-gen.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/sine-gen.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/sine-gen.png used on input lin
-e 761.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/sine-gen.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/sine-gen.png used on input line 761.
 (pdftex.def)             Requested size: 178.86702pt x 218.40813pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/sine-output.png, id=255, 383.18156pt x 184.43906pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sine-output.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/sine-output.png, id=255, 383.18156pt x 184.43906pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sine-output.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/sine-output.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/sine-output.png used on input 
-line 772.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/sine-output.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/sine-output.png used on input line 772.
 (pdftex.def)             Requested size: 258.36281pt x 124.36716pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/cscope-config.png, id=256, 310.15875pt x 289.08pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/cscope-config.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/cscope-config.png, id=256, 310.15875pt x 289.08pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/cscope-config.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/cscope-config.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/cscope-config.png used on inpu
-t line 786.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/cscope-config.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/cscope-config.png used on input line 786.
 (pdftex.def)             Requested size: 258.36281pt x 240.8053pt.
 
 Overfull \hbox (0.16797pt too wide) in paragraph at lines 791--800
@@ -1156,54 +1112,48 @@ Overfull \hbox (0.16797pt too wide) in paragraph at lines 791--800
  pa-ram-e-ter is \T1/fvm/m/n/10.95 Final integration
  []
 
-[37 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/sine-gen.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/sim-setup.png, id=261, 333.49594pt x 225.84375pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sim-setup.png Graphic file (type png)
+[37 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/sine-gen.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/sim-setup.png, id=261, 333.49594pt x 225.84375pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sim-setup.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/sim-setup.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/sim-setup.png used on input li
-ne 803.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/sim-setup.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/sim-setup.png used on input line 803.
 (pdftex.def)             Requested size: 258.36281pt x 174.97539pt.
- [38 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sine-output.png> </Users/kannan/FOSS/scilab-ardui
-no/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/cscope-
-config.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/arduino-palette.png, id=265, 292.84406pt x 107.65219pt
->
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/arduino-palette.png Graphic file (type png)
+ [38 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sine-output.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/u
+ser-code/sw-env/figures/cscope-config.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/arduino-palette.png, id=265, 292.84406pt x 107.65219pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/arduino-palette.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/arduino-palette.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/arduino-palette.png used on in
-put line 834.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/arduino-palette.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/arduino-palette.png used on input line 834.
 (pdftex.def)             Requested size: 258.36281pt x 94.98553pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/xcos-help.png, id=266, 617.30624pt x 466.74374pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/xcos-help.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/xcos-help.png, id=266, 617.30624pt x 466.74374pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/xcos-help.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/xcos-help.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/xcos-help.png used on input li
-ne 841.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/xcos-help.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/xcos-help.png used on input line 841.
 (pdftex.def)             Requested size: 258.36281pt x 195.35445pt.
- [39 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/sim-setup.png>] [40 </Users/kannan/FOSS/scilab-ar
-duino/fossee-scilab-arduino-master/scilab-arduino/user-code/sw-env/figures/ardu
-ino-palette.png> </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-maste
-r/scilab-arduino/user-code/sw-env/figures/xcos-help.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/python/led-blue.py [41])
+ [39 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/sim-setup.png>] [40 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clon
+e/user-code/sw-env/figures/arduino-palette.png> </Users/kannan/FOSS/scilab-ardu
+ino/floss-arduino-clone/user-code/sw-env/figures/xcos-help.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/python/led
+-blue.py [41])
 Underfull \hbox (badness 10000) in paragraph at lines 946--950
 
  []
@@ -1235,29 +1185,27 @@ N"]="";Pkg.build
  []
 
 [43]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/julia-terminal.png, id=283, 725.71124pt x 469.755pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/julia-terminal.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/julia-terminal.png, id=283, 725.71124pt x 469.755pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/julia-terminal.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/julia-terminal.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/julia-terminal.png used on inp
-ut line 1030.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/julia-terminal.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/julia-terminal.png used on input line 1030.
 (pdftex.def)             Requested size: 362.85474pt x 234.87692pt.
- [44 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/julia-terminal.png (PNG copy)>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/sw-env/figures/atom-lunch.png, id=287, 1857.94125pt x 1058.95625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/sw-env/figures/atom-lunch.png Graphic file (type png)
+ [44 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/julia-terminal.png (PNG copy)>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/figures
+/atom-lunch.png, id=287, 1857.94125pt x 1058.95625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fi
+gures/atom-lunch.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/atom-lunch.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/sw-env/figures/atom-lunch.png used on input l
-ine 1049.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/atom-lunch.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/sw-env/figures/atom-lunch.png used on input line 1049.
 (pdftex.def)             Requested size: 371.58167pt x 211.78749pt.
 
 Overfull \hbox (5.509pt too wide) in paragraph at lines 1065--1066
@@ -1265,16 +1213,16 @@ Overfull \hbox (5.509pt too wide) in paragraph at lines 1065--1066
 .com/sjkelly/SerialPorts.jl.git 
  []
 
-[45 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/sw-env/figures/atom-lunch.png (PNG copy)>]
+[45 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/sw-env/fig
+ures/atom-lunch.png (PNG copy)>]
 Overfull \hbox (14.89163pt too wide) in paragraph at lines 1113--1115
 []\T1/cmr/m/n/10.95 open(ser::SerialPort) and close(ser::SerialPort) - To open 
 and close a pre-initialized
  []
 
 [46]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/julia/test_firmware.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/julia/test
+_firmware.jl)
 Overfull \hbox (29.76828pt too wide) in paragraph at lines 1150--1155
 \T1/cmr/m/n/10.95 lan-guage for sim-u-lat-ing, op-ti-miz-ing and an-a-lyz-ing c
 om-plex dy-namic sys-tems.OpenModelica
@@ -1294,115 +1242,107 @@ indows/Linux
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/OpenModelica/test_firmware.mo [48])) (./user-code/led/led.tex
-[49] [50
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/OpenModeli
+ca/test_firmware.mo [48])) (./user-code/led/led.tex [49] [50
 
 ]
 Chapter 4.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led.png, id=307, 149.8097pt x 84.315pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d.png, id=307, 149.8097pt x 84.315pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led.png used on input line 51.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led.png used on input line 51.
 (pdftex.def)             Requested size: 79.49577pt x 44.74203pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/schematic.png, id=308, 415.5525pt x 456.70625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/schematic.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/sc
+hematic.png, id=308, 415.5525pt x 456.70625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/schematic.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/schematic.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/schematic.png used on input line 
-64.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/schematic.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/schematic.png used on input line 64.
 (pdftex.def)             Requested size: 178.86702pt x 196.58194pt.
- [51 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/arduino-shield.JPG, id=313, 951.48618pt x 713.61462pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/arduino-shield.JPG Graphic file (type jpg)
+ [51 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/ar
+duino-shield.JPG, id=313, 951.48618pt x 713.61462pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/arduino-shield.JPG Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/arduino-shield.JPG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/arduino-shield.JPG used on input 
-line 78.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/arduino-shield.JPG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/arduino-shield.JPG used on input line 78.
 (pdftex.def)             Requested size: 178.86702pt x 134.15085pt.
- [52 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/schematic.png> </Users/kannan/FOSS/scilab-arduino/fo
-ssee-scilab-arduino-master/scilab-arduino/user-code/led/figures/arduino-shield.
-JPG>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue/led-blue.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue/led-blue.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue-delay/led-blue-delay.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue-delay/led-blue-delay.ino) [53]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led_output.png, id=321, 3035.34pt x 1947.275pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led_output.png Graphic file (type png)
+ [52 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/schematic.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-c
+ode/led/figures/arduino-shield.JPG>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue/led-blue.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue/led-blue.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue-delay/led-blue-delay.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue-delay/led-blue-delay.ino) [53]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d_output.png, id=321, 3035.34pt x 1947.275pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led_output.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led_output.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led_output.png used on input line
- 168.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led_output.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led_output.png used on input line 168.
 (pdftex.def)             Requested size: 357.73405pt x 229.47339pt.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 180.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmss.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [54]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue/led-blue.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue-delay/led-blue-delay.ino [55 </Users/kannan/FOSS
-/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/led/figur
-es/led_output.png>])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blue-red/led-blue-red.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/arduino/led-blink/led-blink.ino) [56]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue.sce) [57]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue-delay.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue-delay.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue-delay.sce [58])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-blue-red.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/scilab/led-green-blink.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led-blue.png, id=340, 233.37187pt x 252.19218pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led-blue.png Graphic file (type png)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue/led-blue.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue-delay/led-blue-delay.ino [55 </Users/kannan/FOSS/scilab-arduino/floss-ar
+duino-clone/user-code/led/figures/led_output.png>])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blue-red/led-blue-red.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/arduino/le
+d-blink/led-blink.ino) [56]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue.sce) [57]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue-delay.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue-delay.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue-delay.sce [58])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-blue-red.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/scilab/led
+-green-blink.sce)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d-blue.png, id=340, 233.37187pt x 252.19218pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led-blue.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led-blue.png used on input line 3
-66.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led-blue.png used on input line 366.
 (pdftex.def)             Requested size: 178.86702pt x 193.29965pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 382--391
@@ -1410,65 +1350,62 @@ Overfull \hbox (4.77843pt too wide) in paragraph at lines 382--391
  []
 
 [59]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led-blue-delay.png, id=344, 226.59656pt x 243.91125pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led-blue-delay.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d-blue-delay.png, id=344, 226.59656pt x 243.91125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led-blue-delay.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue-delay.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led-blue-delay.png used on input 
-line 401.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue-delay.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led-blue-delay.png used on input line 401.
 (pdftex.def)             Requested size: 178.86702pt x 192.53517pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 416--428
  [][] 
  []
 
-[60 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led-blue-red.png, id=350, 245.41687pt x 339.51843pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led-blue-red.png Graphic file (type png)
+[60 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d-blue-red.png, id=350, 245.41687pt x 339.51843pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led-blue-red.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue-red.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led-blue-red.png used on input li
-ne 439.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue-red.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led-blue-red.png used on input line 439.
 (pdftex.def)             Requested size: 178.86702pt x 247.45784pt.
 
 Overfull \hbox (13.8529pt too wide) in paragraph at lines 455--472
  [][] 
  []
 
-[61 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue-delay.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/figures/led-green-blink.png, id=356, 246.9225pt x 251.43938pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/led/figures/led-green-blink.png Graphic file (type png)
+[61 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue-delay.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figures/le
+d-green-blink.png, id=356, 246.9225pt x 251.43938pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figur
+es/led-green-blink.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-green-blink.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/led/figures/led-green-blink.png used on input
- line 482.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-green-blink.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/led/figures/led-green-blink.png used on input line 482.
 (pdftex.def)             Requested size: 178.86702pt x 182.13731pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 497--510
  [][] 
  []
 
-[62 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-blue-red.png>]
+[62 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-blue-red.png>]
 Overfull \vbox (31.42311pt too high) has occurred while \output is active []
 
 
-[63 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/led/figures/led-green-blink.png>] [64]
+[63 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/figure
+s/led-green-blink.png>] [64]
 Underfull \hbox (badness 10000) in paragraph at lines 587--591
 
  []
@@ -1484,49 +1421,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--609
  []
 
 [65]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/python/led-blue.py [66])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/python/led-blue-delay.py [67])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/python/led-blue-red.py [68])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/python/led-green-blink.py [69]) [70]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/julia/led-blue.jl) [71]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/julia/led-blue-delay.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/julia/led-blue-red.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/julia/led-green-blink.jl) [72]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/python/led
+-blue.py [66])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/python/led
+-blue-delay.py [67])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/python/led
+-blue-red.py [68])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/python/led
+-green-blink.py [69]) [70]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/julia/led-
+blue.jl) [71]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/julia/led-
+blue-delay.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/julia/led-
+blue-red.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/julia/led-
+green-blink.jl) [72]
 Overfull \hbox (2.4842pt too wide) in paragraph at lines 814--815
 []\T1/cmr/m/n/10.95 sComm.close_serial(1) : This closes the pre-de-fined se-ria
 l port which is presently
  []
 
 [73]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/OpenModelica/led-blue.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/OpenModelica/led-blue-delay.mo [74])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/OpenModelica/led-blue-red.mo [75])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/led/OpenModelica/led-green-blink.mo)) (./user-code/push/push.tex
-[76]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/OpenModeli
+ca/led-blue.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/OpenModeli
+ca/led-blue-delay.mo [74])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/OpenModeli
+ca/led-blue-red.mo [75])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/led/OpenModeli
+ca/led-green-blink.mo)) (./user-code/push/push.tex [76]
 Chapter 5.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/figures/pushbutton-conn.png, id=407, 415.5525pt x 438.63875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/push/figures/pushbutton-conn.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figures/p
+ushbutton-conn.png, id=407, 415.5525pt x 438.63875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figu
+res/pushbutton-conn.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/push/figures/pushbutton-conn.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/push/figures/pushbutton-conn.png used on inpu
-t line 63.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figur
+es/pushbutton-conn.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/push/figures/pushbutton-conn.png used on input line 63.
 (pdftex.def)             Requested size: 178.86702pt x 188.80507pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1534,32 +1469,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [77
 
 ]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/arduino/push-button-status/push-button-status.ino) [78 </Users/k
-annan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code
-/push/figures/pushbutton-conn.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/arduino/push-button-status/push-button-status.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/arduino/led-push-button/led-push-button.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/arduino/push-button-status/push-button-status.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/arduino/p
+ush-button-status/push-button-status.ino) [78 </Users/kannan/FOSS/scilab-arduin
+o/floss-arduino-clone/user-code/push/figures/pushbutton-conn.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/arduino/p
+ush-button-status/push-button-status.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/arduino/l
+ed-push-button/led-push-button.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/arduino/p
+ush-button-status/push-button-status.ino)
 Overfull \hbox (0.16989pt too wide) in paragraph at lines 127--130
 []\T1/cmr/m/n/10.95 Turning the LED on or off de-pend-ing on the push-but-ton. 
 Avail-
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/arduino/led-push-button/led-push-button.ino [79])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/scilab/push-button-status.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/scilab/push-button-status.sce) [80]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/scilab/led-push-button.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/scilab/push-button-status.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/arduino/l
+ed-push-button/led-push-button.ino [79])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/scilab/pu
+sh-button-status.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/scilab/pu
+sh-button-status.sce) [80]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/scilab/le
+d-push-button.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/scilab/pu
+sh-button-status.sce)
 Overfull \hbox (0.145pt too wide) in paragraph at lines 180--183
 \T1/cmr/m/n/10.95 able at \T1/fvm/m/n/10.95 O r i g i n / u s e r - c o d e / p
  u s h / s c i l a b / l e d - p u s h - b u t t o n . s c e\T1/cmr/m/n/10.95 ,
@@ -1567,18 +1501,17 @@ Overfull \hbox (0.145pt too wide) in paragraph at lines 180--183
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/scilab/led-push-button.sce) [81]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/figures/push-button-status.PNG, id=425, 264.99pt x 268.00125pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/push/figures/push-button-status.PNG Graphic file (type png)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/scilab/le
+d-push-button.sce) [81]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figures/p
+ush-button-status.PNG, id=425, 264.99pt x 268.00125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figu
+res/push-button-status.PNG Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/push/figures/push-button-status.PNG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/push/figures/push-button-status.PNG used on i
-nput line 211.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figur
+es/push-button-status.PNG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/push/figures/push-button-status.PNG used on input line 211.
 (pdftex.def)             Requested size: 178.86702pt x 180.9012pt.
 
 Overfull \hbox (3.33745pt too wide) in paragraph at lines 229--239
@@ -1586,382 +1519,358 @@ Overfull \hbox (3.33745pt too wide) in paragraph at lines 229--239
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/figures/led-push-button.PNG, id=426, 298.86656pt x 264.99pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/push/figures/led-push-button.PNG Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figures/l
+ed-push-button.PNG, id=426, 298.86656pt x 264.99pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figu
+res/led-push-button.PNG Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/push/figures/led-push-button.PNG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/push/figures/led-push-button.PNG used on inpu
-t line 254.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figur
+es/led-push-button.PNG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/push/figures/led-push-button.PNG used on input line 254.
 (pdftex.def)             Requested size: 178.86702pt x 158.59492pt.
- [82 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/push/figures/push-button-status.PNG>]
+ [82 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figu
+res/push-button-status.PNG>]
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 271--282
  [][] 
  []
 
-[83 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/push/figures/led-push-button.PNG>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/python/push-button-status.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/python/push-button-status.py) [84]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/python/led-push-button.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/python/push-button-status.py [85])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/python/led-push-button.py [86])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/julia/push-button-status.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/julia/led-push-button.jl) [87]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/julia/push-button-status.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/julia/led-push-button.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/OpenModelica/push-button-status.mo [88])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/OpenModelica/push-button-status.mo) [89]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/OpenModelica/led-push-button.mo)) (./user-code/ldr/ldr.tex
-[90]
+[83 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/figur
+es/led-push-button.PNG>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/python/pu
+sh-button-status.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/python/pu
+sh-button-status.py) [84]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/python/le
+d-push-button.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/python/pu
+sh-button-status.py [85])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/python/le
+d-push-button.py [86])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/julia/pus
+h-button-status.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/julia/led
+-push-button.jl) [87]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/julia/pus
+h-button-status.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/julia/led
+-push-button.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/OpenModel
+ica/push-button-status.mo [88])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/OpenModel
+ica/push-button-status.mo) [89]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/OpenModel
+ica/led-push-button.mo)) (./user-code/ldr/ldr.tex [90]
 Chapter 6.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/figures/ldr.jpg, id=457, 106.89937pt x 94.85437pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figures/ld
+r.jpg, id=457, 106.89937pt x 94.85437pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/ldr/figures/ldr.jpg used on input line 62.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/ldr/figures/ldr.jpg used on input line 62.
 (pdftex.def)             Requested size: 178.86702pt x 158.72462pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/figures/ldr_sym.png, id=458, 1009.52156pt x 741.52031pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr_sym.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figures/ld
+r_sym.png, id=458, 1009.52156pt x 741.52031pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr_sym.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr_sym.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/ldr/figures/ldr_sym.png used on input line 65
-.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr_sym.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/ldr/figures/ldr_sym.png used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 131.37468pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/figures/ldr-conn.png, id=459, 415.5525pt x 450.68375pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr-conn.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figures/ld
+r-conn.png, id=459, 415.5525pt x 450.68375pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr-conn.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr-conn.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/ldr/figures/ldr-conn.png used on input line 7
-1.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr-conn.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/ldr/figures/ldr-conn.png used on input line 71.
 (pdftex.def)             Requested size: 178.86702pt x 193.98965pt.
  [91
 
 ]
 Underfull \vbox (badness 3333) has occurred while \output is active []
 
- [92 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr.jpg> </Users/kannan/FOSS/scilab-arduino/fossee-s
-cilab-arduino-master/scilab-arduino/user-code/ldr/figures/ldr_sym.png> </Users/
-kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-cod
-e/ldr/figures/ldr-conn.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/arduino/ldr-read/ldr-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/arduino/ldr-read/ldr-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/arduino/ldr-read/ldr-read.ino) [93]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/arduino/ldr-read/ldr-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/arduino/ldr-led/ldr-led.ino) [94]
+ [92 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr.jpg> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ld
+r/figures/ldr_sym.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/u
+ser-code/ldr/figures/ldr-conn.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/arduino/ld
+r-read/ldr-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/arduino/ld
+r-read/ldr-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/arduino/ld
+r-read/ldr-read.ino) [93]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/arduino/ld
+r-read/ldr-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/arduino/ld
+r-led/ldr-led.ino) [94]
 Overfull \hbox (19.20517pt too wide) in paragraph at lines 182--193
 []\T1/cmr/m/n/10.95 In this ex-per-i-ment, we will ob-serve the sat-u-ra-tion p
 oint of LDR, see Scilab Code 6.2[].
  []
 
 [95]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/scilab/ldr-read.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/scilab/ldr-led.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/scilab/ldr
+-read.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/scilab/ldr
+-led.sce)
 Overfull \hbox (0.34052pt too wide) in paragraph at lines 226--232
 \T1/cmr/m/n/10.95 Next, we shall per-form the above men-tioned ex-per-i-ment, t
 o read LDR val-ues, through
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/figures/ldr-read-xcos.PNG, id=478, 257.46187pt x 304.13625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr-read-xcos.PNG Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figures/ld
+r-read-xcos.PNG, id=478, 257.46187pt x 304.13625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr-read-xcos.PNG Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr-read-xcos.PNG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG used on input l
-ine 242.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr-read-xcos.PNG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/ldr/figures/ldr-read-xcos.PNG used on input line 242.
 (pdftex.def)             Requested size: 178.86702pt x 211.2975pt.
- [96] [97 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scila
-b-arduino/user-code/ldr/figures/ldr-read-xcos.PNG>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/figures/ldr-led.png, id=487, 769.87625pt x 640.3925pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/ldr/figures/ldr-led.png Graphic file (type png)
+ [96] [97 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/
+figures/ldr-read-xcos.PNG>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figures/ld
+r-led.png, id=487, 769.87625pt x 640.3925pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figur
+es/ldr-led.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr-led.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/ldr/figures/ldr-led.png used on input line 29
-8.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr-led.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/ldr/figures/ldr-led.png used on input line 298.
 (pdftex.def)             Requested size: 258.36281pt x 214.91635pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 319--339
  [][] 
  []
 
-[98 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/ldr/figures/ldr-led.png>] [99]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/python/ldr-read.py [100])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/python/ldr-led.py [101])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/julia/led-push-button.jl) [102]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/julia/ldr-read.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/julia/ldr-led.jl) [103]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/push/OpenModelica/led-push-button.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/OpenModelica/ldr-read.mo [104])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/ldr/OpenModelica/ldr-led.mo [105])) (./user-code/dcmotor/dcmotor.tex
-[106]
+[98 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/figure
+s/ldr-led.png>] [99]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/python/ldr
+-read.py [100])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/python/ldr
+-led.py [101])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/julia/led
+-push-button.jl) [102]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/julia/ldr-
+read.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/julia/ldr-
+led.jl) [103]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/push/OpenModel
+ica/led-push-button.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/OpenModeli
+ca/ldr-read.mo [104])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/ldr/OpenModeli
+ca/ldr-led.mo [105])) (./user-code/dcmotor/dcmotor.tex [106]
 Chapter 7.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/dcmotor_board.png, id=517, 247.92625pt x 232.87pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/dcmotor_board.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/dcmotor_board.png, id=517, 247.92625pt x 232.87pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/dcmotor_board.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/dcmotor_board.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png used on inp
-ut line 62.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/dcmotor_board.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/dcmotor_board.png used on input line 62.
 (pdftex.def)             Requested size: 258.36281pt x 242.69075pt.
  [107
 
 ]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/schematic.png, id=521, 415.5525pt x 467.7475pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/schematic.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/schematic.png, id=521, 415.5525pt x 467.7475pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/schematic.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/schematic.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/schematic.png used on input l
-ine 102.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/schematic.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/schematic.png used on input line 102.
 (pdftex.def)             Requested size: 178.86702pt x 201.33447pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/dc_motor_description.jpg, id=522, 2469.97781pt x 1973
-.12157pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/dc_motor_description.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/dc_motor_description.jpg, id=522, 2469.97781pt x 1973.12157pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/dc_motor_description.jpg Graphic file (type jpg)
 
-
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/dc_motor_description.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg used
- on input line 108.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/dc_motor_description.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/dc_motor_description.jpg used on input line 108.
 (pdftex.def)             Requested size: 258.36281pt x 206.38603pt.
- [108 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/dcmotor/figures/dcmotor_board.png>]
+ [108 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/
+figures/dcmotor_board.png>]
 Overfull \vbox (9.00647pt too high) has occurred while \output is active []
 
 
-[109 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/schematic.png> </Users/kannan/FOSS/scilab-arduin
-o/fossee-scilab-arduino-master/scilab-arduino/user-code/dcmotor/figures/dc_moto
-r_description.jpg>] [110]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/arduino/dcmotor-clock/dcmotor-clock.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/arduino/dcmotor-both/dcmotor-both.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/arduino/dcmotor-loop/dcmotor-loop.ino [111])
+[109 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/schematic.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/us
+er-code/dcmotor/figures/dc_motor_description.jpg>] [110]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/arduin
+o/dcmotor-clock/dcmotor-clock.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/arduin
+o/dcmotor-both/dcmotor-both.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/arduin
+o/dcmotor-loop/dcmotor-loop.ino [111])
 Underfull \hbox (badness 10000) in paragraph at lines 221--237
 
  []
 
 [112]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-clock.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-clock.sce) [113]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-clock.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-clock.sce) [114]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-clock.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-both.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/scilab/dcmotor-loop.sce [115])
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/dcmotor-clock.png, id=552, 275.52937pt x 290.58563pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/dcmotor-clock.png Graphic file (type png)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-clock.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-clock.sce) [113]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-clock.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-clock.sce) [114]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-clock.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-both.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/scilab
+/dcmotor-loop.sce [115])
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/dcmotor-clock.png, id=552, 275.52937pt x 290.58563pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/dcmotor-clock.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/dcmotor-clock.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png used on inp
-ut line 399.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/dcmotor-clock.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/dcmotor-clock.png used on input line 399.
 (pdftex.def)             Requested size: 178.86702pt x 188.64784pt.
- [116 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/dcmotor/figures/dcmotor-clock.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/dcmotor-both.png, id=556, 292.09125pt x 322.95656pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/dcmotor-both.png Graphic file (type png)
+ [116 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/
+figures/dcmotor-clock.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/dcmotor-both.png, id=556, 292.09125pt x 322.95656pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/dcmotor-both.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/dcmotor-both.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png used on inpu
-t line 453.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/dcmotor-both.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/dcmotor-both.png used on input line 453.
 (pdftex.def)             Requested size: 178.86702pt x 197.77196pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/figures/dcmotor-loop.png, id=557, 281.55188pt x 307.90031pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/dcmotor/figures/dcmotor-loop.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/figure
+s/dcmotor-loop.png, id=557, 281.55188pt x 307.90031pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/f
+igures/dcmotor-loop.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/dcmotor/figures/dcmotor-loop.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png used on inpu
-t line 497.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/fi
+gures/dcmotor-loop.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/dcmotor/figures/dcmotor-loop.png used on input line 497.
 (pdftex.def)             Requested size: 178.86702pt x 195.60847pt.
- [117] [118 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/sci
-lab-arduino/user-code/dcmotor/figures/dcmotor-both.png>] [119 </Users/kannan/FO
-SS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/dcmotor
-/figures/dcmotor-loop.png>]
-[120]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/python/dcmotor-clock.py [121])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/python/dcmotor-both.py) [122]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/python/dcmotor-loop.py) [123]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/julia/dcmotor-clock.jl [124])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/julia/dcmotor-both.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/julia/dcmotor-loop.jl) [125]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/OpenModelica/dcmotor-clock.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/OpenModelica/dcmotor-both.mo [126])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/dcmotor/OpenModelica/dcmotor-loop.mo [127])) (./user-code/pot/pot.tex
-[128]
+ [117] [118 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dc
+motor/figures/dcmotor-both.png>] [119 </Users/kannan/FOSS/scilab-arduino/floss-
+arduino-clone/user-code/dcmotor/figures/dcmotor-loop.png>] [120]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/python
+/dcmotor-clock.py [121])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/python
+/dcmotor-both.py) [122]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/python
+/dcmotor-loop.py) [123]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/julia/
+dcmotor-clock.jl [124])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/julia/
+dcmotor-both.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/julia/
+dcmotor-loop.jl) [125]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/OpenMo
+delica/dcmotor-clock.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/OpenMo
+delica/dcmotor-both.mo [126])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/dcmotor/OpenMo
+delica/dcmotor-loop.mo [127])) (./user-code/pot/pot.tex [128]
 Chapter 8.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/figures/potmeter.png, id=599, 1576.38937pt x 1305.37688pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/pot/figures/potmeter.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figures/po
+tmeter.png, id=599, 1576.38937pt x 1305.37688pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figur
+es/potmeter.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/pot/figures/potmeter.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/pot/figures/potmeter.png used on input line 6
-5.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figure
+s/potmeter.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/pot/figures/potmeter.png used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 148.11337pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/figures/schematic.png, id=600, 415.5525pt x 417.56pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/pot/figures/schematic.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figures/sc
+hematic.png, id=600, 415.5525pt x 417.56pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figur
+es/schematic.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/pot/figures/schematic.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/pot/figures/schematic.png used on input line 
-68.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figure
+s/schematic.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/pot/figures/schematic.png used on input line 68.
 (pdftex.def)             Requested size: 178.86702pt x 179.73206pt.
  [129
 
-] [130 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-a
-rduino/user-code/pot/figures/potmeter.png> </Users/kannan/FOSS/scilab-arduino/f
-ossee-scilab-arduino-master/scilab-arduino/user-code/pot/figures/schematic.png>
-]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/arduino/pot-threshold/pot-threshold.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/arduino/pot-threshold/pot-threshold.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/arduino/pot-threshold/pot-threshold.ino [131])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/scilab/pot-threshold.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/scilab/pot-threshold.sce) [132]
+] [130 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/fig
+ures/potmeter.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-
+code/pot/figures/schematic.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/arduino/po
+t-threshold/pot-threshold.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/arduino/po
+t-threshold/pot-threshold.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/arduino/po
+t-threshold/pot-threshold.ino [131])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/scilab/pot
+-threshold.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/scilab/pot
+-threshold.sce) [132]
 Overfull \hbox (6.93184pt too wide) in paragraph at lines 171--175
 []\T1/cmr/m/n/10.95 Turning on LEDs de-pend-ing on the po-ten-tiome-ter thresh-
 old. Avail-
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/scilab/pot-threshold.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/figures/pot-threshold.PNG, id=615, 548.80031pt x 493.845pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/pot/figures/pot-threshold.PNG Graphic file (type png)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/scilab/pot
+-threshold.sce)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figures/po
+t-threshold.PNG, id=615, 548.80031pt x 493.845pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figur
+es/pot-threshold.PNG Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/pot/figures/pot-threshold.PNG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/pot/figures/pot-threshold.PNG used on input l
-ine 189.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/figure
+s/pot-threshold.PNG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/pot/figures/pot-threshold.PNG used on input line 189.
 (pdftex.def)             Requested size: 258.36281pt x 232.49149pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 207--236
  [][] 
  []
 
-[133] [134 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scil
-ab-arduino/user-code/pot/figures/pot-threshold.PNG>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/python/pot-threshold.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/python/pot-threshold.py [135])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/python/pot-threshold.py [136])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/julia/pot-threshold.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/julia/pot-threshold.jl)
+[133] [134 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot
+/figures/pot-threshold.PNG>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/python/pot
+-threshold.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/python/pot
+-threshold.py [135])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/python/pot
+-threshold.py [136])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/julia/pot-
+threshold.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/julia/pot-
+threshold.jl)
 Overfull \hbox (9.15074pt too wide) in paragraph at lines 289--290
 \T1/cmr/m/n/10.95 where \T1/fvm/m/n/10.95 digiWrite \T1/cmr/m/n/10.95 is used t
 o set the pin 11 high (1) or low (0). We used \T1/fvm/m/n/10.95 sleep(1000)
@@ -1974,33 +1883,31 @@ old. Avail-
  []
 
 [137]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/julia/pot-threshold.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/OpenModelica/pot-threshold.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/OpenModelica/pot-threshold.mo [138])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/julia/pot-
+threshold.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/OpenModeli
+ca/pot-threshold.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/OpenModeli
+ca/pot-threshold.mo [138])
 Overfull \hbox (7.95369pt too wide) in paragraph at lines 319--323
 []\T1/cmr/m/n/10.95 Turning on LEDs de-pend-ing on the po-ten-tiome-ter thresh-
 
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/pot/OpenModelica/pot-threshold.mo [139]))
-(./user-code/thermistor/thermistor.tex [140]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/pot/OpenModeli
+ca/pot-threshold.mo [139])) (./user-code/thermistor/thermistor.tex [140]
 Chapter 9.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/NTC-bead.jpg, id=643, 139.9629pt x 126.2316pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/NTC-bead.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/NTC-bead.jpg, id=643, 139.9629pt x 126.2316pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/NTC-bead.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/NTC-bead.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg used on input
- line 70.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/NTC-bead.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/NTC-bead.jpg used on input line 70.
 (pdftex.def)             Requested size: 178.86702pt x 161.32933pt.
 
 
@@ -2010,44 +1917,38 @@ LaTeX Warning: Citation `therm-wiki' on page 141 undefined on input line 70.
 LaTeX Warning: Citation `therm-wiki' on page 141 undefined on input line 70.
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/therm-sym.png, id=644, 1284.8pt x 913.4125pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-sym.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/therm-sym.png, id=644, 1284.8pt x 913.4125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-sym.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/therm-sym.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/therm-sym.png used on inpu
-t line 73.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/therm-sym.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-sym.png used on input line 73.
 (pdftex.def)             Requested size: 119.2467pt x 84.76808pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf, id=645, 329.23pt x 42
-2.57875pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf Graphic file (typ
-e pdf)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/THERMISTOR-Diagram-crop.pdf, id=645, 329.23pt x 422.57875pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/THERMISTOR-Diagram-crop.pdf Graphic file (type pdf)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pd
-f used on input line 83.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/THERMISTOR-Diagram-crop.pdf>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf used on input line 83.
+
 (pdftex.def)             Requested size: 178.86702pt x 229.58835pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/BUZZER-Diagram-crop.pdf, id=646, 307.1475pt x 366.
-36874pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf Graphic file (type pd
-f)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/BUZZER-Diagram-crop.pdf, id=646, 307.1475pt x 366.36874pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/BUZZER-Diagram-crop.pdf Graphic file (type pdf)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf us
-ed on input line 87.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/BUZZER-Diagram-crop.pdf>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/BUZZER-Diagram-crop.pdf used on input line 87.
 (pdftex.def)             Requested size: 178.86702pt x 213.35492pt.
  [141
 
@@ -2055,64 +1956,57 @@ ed on input line 87.
 Overfull \vbox (33.20364pt too high) has occurred while \output is active []
 
 
-[142 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/NTC-bead.jpg> </Users/kannan/FOSS/scilab-ardu
-ino/fossee-scilab-arduino-master/scilab-arduino/user-code/thermistor/figures/th
-erm-sym.png> </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/sc
-ilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf> </Users/
-kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-cod
-e/thermistor/figures/BUZZER-Diagram-crop.pdf>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/arduino/therm-read/therm-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/arduino/therm-read/therm-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/arduino/therm-read/therm-read.ino) [143]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/arduino/therm-read/therm-read.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/arduino/therm-buzzer/therm-buzzer.ino [144]) [145]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/scilab/therm-read.sce) [146]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/scilab/therm-buzzer.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/therm-read-xcos.png, id=681, 617.30624pt x 548.047
-5pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-read-xcos.png Graphic file (type png)
+[142 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/NTC-bead.jpg> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-sym.png> </Users/kannan/FOSS/scilab-arduino/
+floss-arduino-clone/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf> <
+/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/figu
+res/BUZZER-Diagram-crop.pdf>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/ard
+uino/therm-read/therm-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/ard
+uino/therm-read/therm-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/ard
+uino/therm-read/therm-read.ino) [143]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/ard
+uino/therm-read/therm-read.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/ard
+uino/therm-buzzer/therm-buzzer.ino [144]) [145]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/sci
+lab/therm-read.sce) [146]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/sci
+lab/therm-buzzer.sce)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/therm-read-xcos.png, id=681, 617.30624pt x 548.0475pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-read-xcos.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/therm-read-xcos.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png used o
-n input line 262.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/therm-read-xcos.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-read-xcos.png used on input line 262.
 (pdftex.def)             Requested size: 194.76982pt x 172.91183pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/therm-read.png, id=682, 632.3625pt x 529.98pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-read.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/therm-read.png, id=682, 632.3625pt x 529.98pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-read.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/therm-read.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/therm-read.png used on inp
-ut line 295.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/therm-read.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-read.png used on input line 295.
 (pdftex.def)             Requested size: 194.76982pt x 163.23271pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/therm-buzzer-xcos.png, id=683, 627.34375pt x 530.9
-8375pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-buzzer-xcos.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/therm-buzzer-xcos.png, id=683, 627.34375pt x 530.98375pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-buzzer-xcos.png Graphic file (type png)
 
-
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/therm-buzzer-xcos.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png used
- on input line 311.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/therm-buzzer-xcos.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-buzzer-xcos.png used on input line 311.
 (pdftex.def)             Requested size: 258.36281pt x 218.68509pt.
 
 Overfull \hbox (4.77843pt too wide) in paragraph at lines 329--349
@@ -2120,48 +2014,44 @@ Overfull \hbox (4.77843pt too wide) in paragraph at lines 329--349
  []
 
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/figures/therm-buzzer.png, id=684, 612.2875pt x 589.20125pt
->
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-buzzer.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/fig
+ures/therm-buzzer.png, id=684, 612.2875pt x 589.20125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-buzzer.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/thermistor/figures/therm-buzzer.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/thermistor/figures/therm-buzzer.png used on i
-nput line 355.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor
+/figures/therm-buzzer.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/thermistor/figures/therm-buzzer.png used on input line 355.
 (pdftex.def)             Requested size: 178.86702pt x 172.12265pt.
  [147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/thermistor/figures/therm-read-xcos.png>]
+ [148 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermist
+or/figures/therm-read-xcos.png>]
 Overfull \vbox (37.60379pt too high) has occurred while \output is active []
 
 
-[149 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-read.png> </Users/kannan/FOSS/scilab-ar
-duino/fossee-scilab-arduino-master/scilab-arduino/user-code/thermistor/figures/
-therm-buzzer-xcos.png>]
+[149 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-read.png> </Users/kannan/FOSS/scilab-arduino/floss-arduino-clon
+e/user-code/thermistor/figures/therm-buzzer-xcos.png>]
 
 LaTeX Warning: Text page 150 contains only floats.
 
-[150 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/thermistor/figures/therm-buzzer.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/python/therm-read.py [151])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/python/therm-buzzer.py [152]) [153]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/julia/therm-read.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/julia/therm-buzzer.jl) [154]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/OpenModelica/therm-read.mo [155])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/thermistor/OpenModelica/therm-buzzer.mo [156]))
-(./user-code/servo/servo.tex [157] [158
+[150 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermisto
+r/figures/therm-buzzer.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/pyt
+hon/therm-read.py [151])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/pyt
+hon/therm-buzzer.py [152]) [153]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/jul
+ia/therm-read.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/jul
+ia/therm-buzzer.jl) [154]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/Ope
+nModelica/therm-read.mo [155])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/thermistor/Ope
+nModelica/therm-buzzer.mo [156])) (./user-code/servo/servo.tex [157] [158
 
 ]
 Chapter 10.
@@ -2175,87 +2065,83 @@ by $\OT1/cmr/m/n/10.95 30[]$ \T1/cmr/m/n/10.95 us-ing Ar-duino Code 10.1[].
  []
 
 [160]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/arduino/servo-init/servo-init.ino [161])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/arduino/servo-reverse/servo-reverse.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/arduino/servo-loop/servo-loop.ino) [162]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/arduino/servo-pot/servo-pot.ino)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-init.sce) [163]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-pot.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-pot.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-init.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-reverse.sce [164])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-loop.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/scilab/servo-pot.sce)
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/figures/servo-init.png, id=748, 265.74281pt x 309.40594pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/servo/figures/servo-init.png Graphic file (type png)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/arduino/
+servo-init/servo-init.ino [161])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/arduino/
+servo-reverse/servo-reverse.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/arduino/
+servo-loop/servo-loop.ino) [162]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/arduino/
+servo-pot/servo-pot.ino)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-init.sce) [163]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-pot.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-pot.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-init.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-reverse.sce [164])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-loop.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/scilab/s
+ervo-pot.sce)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figures/
+servo-init.png, id=748, 265.74281pt x 309.40594pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fig
+ures/servo-init.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/servo/figures/servo-init.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/servo/figures/servo-init.png used on input li
-ne 299.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figu
+res/servo-init.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/servo/figures/servo-init.png used on input line 299.
 (pdftex.def)             Requested size: 178.86702pt x 208.2593pt.
  [165]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/figures/servo-reverse.png, id=752, 244.66406pt x 281.55188pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/servo/figures/servo-reverse.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figures/
+servo-reverse.png, id=752, 244.66406pt x 281.55188pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fig
+ures/servo-reverse.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/servo/figures/servo-reverse.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/servo/figures/servo-reverse.png used on input
- line 334.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figu
+res/servo-reverse.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/servo/figures/servo-reverse.png used on input line 334.
 (pdftex.def)             Requested size: 178.86702pt x 205.84047pt.
 
 Underfull \vbox (badness 3199) has occurred while \output is active []
 
- [166 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/servo/figures/servo-init.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/figures/servo-loop.png, id=756, 281.55188pt x 347.04657pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/servo/figures/servo-loop.png Graphic file (type png)
+ [166 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fi
+gures/servo-init.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figures/
+servo-loop.png, id=756, 281.55188pt x 347.04657pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fig
+ures/servo-loop.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/servo/figures/servo-loop.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/servo/figures/servo-loop.png used on input li
-ne 372.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figu
+res/servo-loop.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/servo/figures/servo-loop.png used on input line 372.
 (pdftex.def)             Requested size: 178.86702pt x 220.47803pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/figures/servo-pot.png, id=757, 286.06876pt x 292.09125pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/servo/figures/servo-pot.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figures/
+servo-pot.png, id=757, 286.06876pt x 292.09125pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fig
+ures/servo-pot.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/servo/figures/servo-pot.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/servo/figures/servo-pot.png used on input lin
-e 415.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/figu
+res/servo-pot.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/servo/figures/servo-pot.png used on input line 415.
 (pdftex.def)             Requested size: 178.86702pt x 182.63234pt.
- [167 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/servo/figures/servo-reverse.png>]
+ [167 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fi
+gures/servo-reverse.png>]
 Overfull \hbox (17.60951pt too wide) in paragraph at lines 435--446
  [][] 
  []
 
-[168 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/servo/figures/servo-loop.png>]
+[168 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fig
+ures/servo-loop.png>]
 
 LaTeX Warning: Reference `sec:py-start' on page 169 undefined on input line 459
 .
@@ -2263,245 +2149,222 @@ LaTeX Warning: Reference `sec:py-start' on page 169 undefined on input line 459
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [169 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/servo/figures/servo-pot.png>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-init.py) [170]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-pot.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-pot.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-init.py [171])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-reverse.py [172])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-loop.py [173])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/python/servo-pot.py [174])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-init.jl) [175]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-pot.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-pot.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-init.jl)
+ [169 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/fi
+gures/servo-pot.png>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-init.py) [170]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-pot.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-pot.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-init.py [171])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-reverse.py [172])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-loop.py [173])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/python/s
+ervo-pot.py [174])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-init.jl) [175]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-pot.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-pot.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-init.jl)
 Overfull \hbox (2.67752pt too wide) in paragraph at lines 600--604
 []\T1/cmr/m/n/10.95 Rotating the ser-vo-mo-tor to a spec-i-fied de-gree and re-
 vers-ing. Avail-
  []
 
 
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-reverse.jl) [176]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-loop.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/julia/servo-pot.jl) [177]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo-init.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo_pot.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo_pot.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo-init.mo [178])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo-reverse.mo [179])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo-loop.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/servo/OpenModelica/servo_pot.mo [180]))
-(./user-code/modbus/modbus.tex [181] [182
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-reverse.jl) [176]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-loop.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/julia/se
+rvo-pot.jl) [177]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo-init.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo_pot.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo_pot.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo-init.mo [178])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo-reverse.mo [179])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo-loop.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/servo/OpenMode
+lica/servo_pot.mo [180])) (./user-code/modbus/modbus.tex [181] [182
 
 ]
 Chapter 11.
 [183]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/fig1.png, id=813, 672.5125pt x 224.84pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/fig1.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/fig1.png, id=813, 672.5125pt x 224.84pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/fig1.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/fig1.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/fig1.png used on input line 71
-.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/fig1.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/fig1.png used on input line 71.
 (pdftex.def)             Requested size: 357.73405pt x 119.60033pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/fig2.png, id=814, 360.34625pt x 375.4025pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/fig2.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/fig2.png, id=814, 360.34625pt x 375.4025pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/fig2.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/fig2.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/fig2.png used on input line 79
-.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/fig2.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/fig2.png used on input line 79.
 (pdftex.def)             Requested size: 178.86702pt x 186.33748pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/fig3.png, id=815, 481.04718pt x 214.55156pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/fig3.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/fig3.png, id=815, 481.04718pt x 214.55156pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/fig3.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/fig3.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/fig3.png used on input line 10
-6.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/fig3.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/fig3.png used on input line 106.
 (pdftex.def)             Requested size: 357.73405pt x 159.55464pt.
- [184 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/modbus/figures/fig1.png (PNG copy)> </Users/kannan/FOSS/scilab-
-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/modbus/figures/fi
-g2.png (PNG copy)>] [185 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-ardui
-no-master/scilab-arduino/user-code/modbus/figures/fig3.png (PNG copy)>] [186] [
-187]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/Full-Set-Up.png, id=830, 722.7pt x 542.025pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/Full-Set-Up.png Graphic file (type png)
+ [184 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/f
+igures/fig1.png (PNG copy)> </Users/kannan/FOSS/scilab-arduino/floss-arduino-cl
+one/user-code/modbus/figures/fig2.png (PNG copy)>] [185 </Users/kannan/FOSS/sci
+lab-arduino/floss-arduino-clone/user-code/modbus/figures/fig3.png (PNG copy)>] 
+[186] [187]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/Full-Set-Up.png, id=830, 722.7pt x 542.025pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/Full-Set-Up.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/Full-Set-Up.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/Full-Set-Up.png used on input 
-line 300.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/Full-Set-Up.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/Full-Set-Up.png used on input line 300.
 (pdftex.def)             Requested size: 258.36281pt x 193.77246pt.
  [188]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/block-diagram.PNG, id=834, 398.23781pt x 255.95625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/block-diagram.PNG Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/block-diagram.PNG, id=834, 398.23781pt x 255.95625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/block-diagram.PNG Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/block-diagram.PNG>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/block-diagram.PNG used on inpu
-t line 329.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/block-diagram.PNG>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/block-diagram.PNG used on input line 329.
 (pdftex.def)             Requested size: 258.36281pt x 166.06104pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/arduino_code_flowchart.png, id=835, 327.2225pt x 480.7
-9625pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/arduino_code_flowchart.png Graphic file (type png
-)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/arduino_code_flowchart.png, id=835, 327.2225pt x 480.79625pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/arduino_code_flowchart.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/arduino_code_flowchart.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png use
-d on input line 348.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/arduino_code_flowchart.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/arduino_code_flowchart.png used on input line 348.
 (pdftex.def)             Requested size: 258.36281pt x 379.61945pt.
- [189 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/modbus/figures/Full-Set-Up.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/flowchart.png, id=840, 482.55281pt x 362.10281pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/flowchart.png Graphic file (type png)
+ [189 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/f
+igures/Full-Set-Up.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/flowchart.png, id=840, 482.55281pt x 362.10281pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/flowchart.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/flowchart.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/flowchart.png used on input li
-ne 376.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/flowchart.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/flowchart.png used on input line 376.
 (pdftex.def)             Requested size: 357.73405pt x 268.44914pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/current-output.png, id=841, 1028.34187pt x 578.16pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/current-output.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/current-output.png, id=841, 1028.34187pt x 578.16pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/current-output.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/current-output.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/current-output.png used on inp
-ut line 393.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/current-output.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/current-output.png used on input line 393.
 (pdftex.def)             Requested size: 397.48499pt x 223.4789pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/current-output-setup.jpg, id=842, 2509.375pt x 1411.27
-25pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/current-output-setup.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/current-output-setup.jpg, id=842, 2509.375pt x 1411.2725pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/current-output-setup.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/current-output-setup.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/current-output-setup.jpg used 
-on input line 400.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/current-output-setup.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/current-output-setup.jpg used on input line 400.
 (pdftex.def)             Requested size: 258.36281pt x 145.29163pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/voltage-output.png, id=843, 1028.34187pt x 578.16pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/voltage-output.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/voltage-output.png, id=843, 1028.34187pt x 578.16pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/voltage-output.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/voltage-output.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/voltage-output.png used on inp
-ut line 412.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/voltage-output.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/voltage-output.png used on input line 412.
 (pdftex.def)             Requested size: 397.48499pt x 223.4789pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/voltage-output-setup.jpg, id=844, 2509.375pt x 1411.27
-25pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/voltage-output-setup.jpg Graphic file (type jpg)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/voltage-output-setup.jpg, id=844, 2509.375pt x 1411.2725pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/voltage-output-setup.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/voltage-output-setup.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg used 
-on input line 419.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/voltage-output-setup.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/voltage-output-setup.jpg used on input line 419.
 (pdftex.def)             Requested size: 258.36281pt x 145.29163pt.
 
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/active-power-output.png, id=845, 1028.34187pt x 578.16
-pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/active-power-output.png Graphic file (type png)
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/active-power-output.png, id=845, 1028.34187pt x 578.16pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/active-power-output.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/active-power-output.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/active-power-output.png used o
-n input line 429.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/active-power-output.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/active-power-output.png used on input line 429.
 (pdftex.def)             Requested size: 397.48499pt x 223.4789pt.
- [190 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/modbus/figures/block-diagram.PNG>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/active-power-output-setup.jpg, id=850, 2509.375pt x 14
-11.2725pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/active-power-output-setup.jpg Graphic file (type 
-jpg)
+ [190 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/f
+igures/block-diagram.PNG>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/active-power-output-setup.jpg, id=850, 2509.375pt x 1411.2725pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/active-power-output-setup.jpg Graphic file (type jpg)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/active-power-output-setup.jpg>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg 
-used on input line 436.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/active-power-output-setup.jpg>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/active-power-output-setup.jpg used on input line 436.
 (pdftex.def)             Requested size: 258.36281pt x 145.29163pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [191 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/modbus/figures/arduino_code_flowchart.png>]
-</Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/figures/read_value_xcos.png, id=855, 635.37375pt x 455.7025pt>
-File: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/read_value_xcos.png Graphic file (type png)
+ [191 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/f
+igures/arduino_code_flowchart.png>]
+</Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures
+/read_value_xcos.png, id=855, 635.37375pt x 455.7025pt>
+File: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/read_value_xcos.png Graphic file (type png)
 
-<use /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ardu
-ino/user-code/modbus/figures/read_value_xcos.png>
-Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduin
-o-master/scilab-arduino/user-code/modbus/figures/read_value_xcos.png used on in
-put line 463.
+<use /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fig
+ures/read_value_xcos.png>
+Package pdftex.def Info: /Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/
+user-code/modbus/figures/read_value_xcos.png used on input line 463.
 (pdftex.def)             Requested size: 258.36281pt x 185.30946pt.
 
 Underfull \hbox (badness 1259) in paragraph at lines 466--466
@@ -2514,52 +2377,48 @@ Overfull \hbox (16.70491pt too wide) in paragraph at lines 479--491
  [][] 
  []
 
-[192 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ard
-uino/user-code/modbus/figures/flowchart.png (PNG copy)>] [193 </Users/kannan/FO
-SS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/modbus/
-figures/current-output.png (PNG copy)> </Users/kannan/FOSS/scilab-arduino/fosse
-e-scilab-arduino-master/scilab-arduino/user-code/modbus/figures/current-output-
-setup.jpg>]
+[192 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/fi
+gures/flowchart.png (PNG copy)>] [193 </Users/kannan/FOSS/scilab-arduino/floss-
+arduino-clone/user-code/modbus/figures/current-output.png (PNG copy)> </Users/k
+annan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/figures/current-
+output-setup.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [194 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-ar
-duino/user-code/modbus/figures/voltage-output.png (PNG copy)> </Users/kannan/FO
-SS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/user-code/modbus/
-figures/voltage-output-setup.jpg>]
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/arduino/send_packet.ino [195 </Users/kannan/FOSS/scilab-arduin
-o/fossee-scilab-arduino-master/scilab-arduino/user-code/modbus/figures/active-p
-ower-output.png (PNG copy)> </Users/kannan/FOSS/scilab-arduino/fossee-scilab-ar
-duino-master/scilab-arduino/user-code/modbus/figures/active-power-output-setup.
-jpg>] [196 </Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scil
-ab-arduino/user-code/modbus/figures/read_value_xcos.png>])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/scilab/read_val.sce)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/scilab/read_current.sci)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/scilab/read_voltage.sci [197])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/scilab/read_active_power.sci)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/python/read_current.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/python/read_voltage.py [198])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/python/read_active_power.py)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/julia/readCurrent.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/julia/readVoltage.jl [199])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/julia/readPower.jl)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/OpenModelica/readCurrent.mo)
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/OpenModelica/readVoltage.mo [200])
-(/Users/kannan/FOSS/scilab-arduino/fossee-scilab-arduino-master/scilab-arduino/
-user-code/modbus/OpenModelica/readPower.mo)) (./floss-arduino.bbl [201]
-[202
+ [194 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/f
+igures/voltage-output.png (PNG copy)> </Users/kannan/FOSS/scilab-arduino/floss-
+arduino-clone/user-code/modbus/figures/voltage-output-setup.jpg>]
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/arduino
+/send_packet.ino [195 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/us
+er-code/modbus/figures/active-power-output.png (PNG copy)> </Users/kannan/FOSS/
+scilab-arduino/floss-arduino-clone/user-code/modbus/figures/active-power-output
+-setup.jpg>] [196 </Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-c
+ode/modbus/figures/read_value_xcos.png>])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/scilab/
+read_val.sce)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/scilab/
+read_current.sci)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/scilab/
+read_voltage.sci [197])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/scilab/
+read_active_power.sci)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/python/
+read_current.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/python/
+read_voltage.py [198])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/python/
+read_active_power.py)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/julia/r
+eadCurrent.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/julia/r
+eadVoltage.jl [199])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/julia/r
+eadPower.jl)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/OpenMod
+elica/readCurrent.mo)
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/OpenMod
+elica/readVoltage.mo [200])
+(/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone/user-code/modbus/OpenMod
+elica/readPower.mo)) (./floss-arduino.bbl [201] [202
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
@@ -2604,8 +2463,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8815 strings out of 492995
- 203831 string characters out of 6132705
- 445649 words of memory out of 5000000
+ 185855 string characters out of 6132705
+ 445463 words of memory out of 5000000
  11643 multiletter control sequences out of 15000+600000
  24957 words of font info for 56 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2638,7 +2497,7 @@ sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
 si1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss
 1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti10
 95.pfb>
-Output written on floss-arduino.pdf (228 pages, 22305375 bytes).
+Output written on floss-arduino.pdf (228 pages, 22304254 bytes).
 PDF statistics:
  991 PDF objects out of 1000 (max. 8388607)
  598 compressed objects within 6 object streams

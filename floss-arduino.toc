@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {List of Figures}}{vii}
 \contentsline {chapter}{\numberline {List of Tables}}{xi}
 \contentsline {chapter}{\numberline {List of Arduino \ Code}}{xiii}
-\contentsline {chapter}{\numberline {List of Scilab, Python, Julia \& OpenModelica Code}}{xv}
+\contentsline {chapter}{\numberline {List of Scilab Code}}{xv}
 \contentsline {chapter}{\numberline {List of Python \ Code}}{xvii}
 \contentsline {chapter}{\numberline {List of Julia\ Code}}{xix}
 \contentsline {chapter}{\numberline {List of OpenModelica\ Code}}{xxi}
