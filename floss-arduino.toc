@@ -95,22 +95,23 @@
 \contentsline {subsection}{\numberline {5.8.2}OpenModelica Code}{91}%
 \contentsline {chapter}{\numberline {6}Interfacing a Light Dependent Resistor}{95}%
 \contentsline {section}{\numberline {6.1}Preliminaries}{95}%
-\contentsline {section}{\numberline {6.2}Interfacing the LDR through the Arduino IDE}{97}%
-\contentsline {subsection}{\numberline {6.2.1}Interfacing the LDR}{97}%
-\contentsline {subsection}{\numberline {6.2.2}Arduino Code}{98}%
-\contentsline {section}{\numberline {6.3}Interfacing the LDR through Scilab}{99}%
-\contentsline {subsection}{\numberline {6.3.1}Interfacing the LDR}{99}%
-\contentsline {subsection}{\numberline {6.3.2}Scilab Code}{100}%
-\contentsline {section}{\numberline {6.4}Interfacing the LDR through Xcos}{100}%
-\contentsline {section}{\numberline {6.5}Interfacing the LDR through Python}{102}%
-\contentsline {subsection}{\numberline {6.5.1}Interfacing the LDR}{102}%
-\contentsline {subsection}{\numberline {6.5.2}Python Code}{104}%
-\contentsline {section}{\numberline {6.6}Interfacing the LDR through Julia}{106}%
-\contentsline {subsection}{\numberline {6.6.1}Interfacing the LDR}{106}%
-\contentsline {subsection}{\numberline {6.6.2}Julia Code}{107}%
-\contentsline {section}{\numberline {6.7}Interfacing the LDR through OpenModelica}{108}%
-\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{108}%
-\contentsline {subsection}{\numberline {6.7.2}OpenModelica Code}{108}%
+\contentsline {section}{\numberline {6.2}Connecting an LDR with Arduino Uno\ using a breadboard}{97}%
+\contentsline {section}{\numberline {6.3}Interfacing the LDR through the Arduino IDE}{97}%
+\contentsline {subsection}{\numberline {6.3.1}Interfacing the LDR}{97}%
+\contentsline {subsection}{\numberline {6.3.2}Arduino Code}{99}%
+\contentsline {section}{\numberline {6.4}Interfacing the LDR through Scilab}{99}%
+\contentsline {subsection}{\numberline {6.4.1}Interfacing the LDR}{99}%
+\contentsline {subsection}{\numberline {6.4.2}Scilab Code}{100}%
+\contentsline {section}{\numberline {6.5}Interfacing the LDR through Xcos}{101}%
+\contentsline {section}{\numberline {6.6}Interfacing the LDR through Python}{103}%
+\contentsline {subsection}{\numberline {6.6.1}Interfacing the LDR}{103}%
+\contentsline {subsection}{\numberline {6.6.2}Python Code}{105}%
+\contentsline {section}{\numberline {6.7}Interfacing the LDR through Julia}{107}%
+\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{107}%
+\contentsline {subsection}{\numberline {6.7.2}Julia Code}{108}%
+\contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{108}%
+\contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{108}%
+\contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{109}%
 \contentsline {chapter}{\numberline {7}Controlling a DC motor}{111}%
 \contentsline {section}{\numberline {7.1}Preliminaries}{111}%
 \contentsline {section}{\numberline {7.2}Controlling the DC motor from Arduino}{113}%
@@ -152,22 +153,23 @@
 \contentsline {subsection}{\numberline {8.7.2}OpenModelica Code}{143}%
 \contentsline {chapter}{\numberline {9}Interfacing a Thermistor}{145}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{145}%
-\contentsline {section}{\numberline {9.2}Interfacing the Thermistor from the Arduino IDE}{146}%
-\contentsline {subsection}{\numberline {9.2.1}Interfacing the Thermistor}{146}%
-\contentsline {subsection}{\numberline {9.2.2}Arduino Code}{148}%
-\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from Scilab}{149}%
-\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{149}%
-\contentsline {subsection}{\numberline {9.3.2}Scilab Code}{150}%
-\contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Xcos}{151}%
-\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Python}{153}%
-\contentsline {subsection}{\numberline {9.5.1}Interfacing the Thermistor}{153}%
-\contentsline {subsection}{\numberline {9.5.2}Python Code}{155}%
-\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Julia}{157}%
-\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{157}%
-\contentsline {subsection}{\numberline {9.6.2}Julia Code}{158}%
-\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from OpenModelica}{158}%
+\contentsline {section}{\numberline {9.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{146}%
+\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{147}%
+\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{147}%
+\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{148}%
+\contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Scilab}{150}%
+\contentsline {subsection}{\numberline {9.4.1}Interfacing the Thermistor}{150}%
+\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{151}%
+\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{152}%
+\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{154}%
+\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{154}%
+\contentsline {subsection}{\numberline {9.6.2}Python Code}{156}%
+\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{158}%
 \contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{158}%
-\contentsline {subsection}{\numberline {9.7.2}OpenModelica Code}{159}%
+\contentsline {subsection}{\numberline {9.7.2}Julia Code}{158}%
+\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{159}%
+\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{159}%
+\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{160}%
 \contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{163}%
 \contentsline {section}{\numberline {10.1}Preliminaries}{163}%
 \contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{164}%

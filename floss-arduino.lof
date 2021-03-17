@@ -50,7 +50,7 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{64}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{80}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Interfacing an RGB LED with Arduino Uno using a breadboard\relax }}{81}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Interfacing a pushbutton with Arduino Uno using a breadboard\relax }}{81}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Printing the push button status on the display block}}{85}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{86}%
 \addvspace {10\p@ }
@@ -58,8 +58,9 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{96}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{96}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{96}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Xcos diagram to read LDR values}}{101}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{102}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Interfacing an LDR with Arduino Uno using a breadboard\relax }}{97}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Xcos diagram to read LDR values}}{102}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{103}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces L293D motor driver board\relax }}{112}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces A schematic of DC motor connections\relax }}{113}%
@@ -79,10 +80,11 @@
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{146}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{146}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{146}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Xcos diagram to read thermistor values}}{152}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Output of Xcos diagram to read thermistor values}}{153}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{153}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{154}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Interfacing a thermistor with Arduino Uno using a breadboard\relax }}{147}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Xcos diagram to read thermistor values}}{152}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Output of Xcos diagram to read thermistor values}}{153}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{154}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{155}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{170}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{171}%

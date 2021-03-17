@@ -531,6 +531,9 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.pn
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
@@ -730,6 +733,9 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THE
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/ard-therm.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/ard-therm.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/ard-therm.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/arduino/therm-read/therm-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/arduino/therm-read/therm-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/arduino/therm-read/therm-read.ino
