@@ -1,9 +1,0 @@
-\frametitle{Summary}
-In this tutorial, we have learnt how to,
-\begin{itemize}[<+-|alert@+>]
-\item Perform Arduino IDE installation
-\item Perform LED blinking experiment using Arduino IDE
-\item Load scilab-arduino toolbox in scilab
-\item Perform LED blinking experiment using scilab script
-\item Perform LED blinking experiment using Xcos
-\end{itemize}

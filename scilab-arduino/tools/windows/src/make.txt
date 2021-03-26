@@ -1,4 +1,0 @@
-c:\mingw32\bin\gcc.exe -shared -o libserial.dll -O3 main.c
-
-"c:\mingw64\bin\x86_64-w64-mingw32-gcc.exe" -shared -o libserial64.ll -O3 main.c
-

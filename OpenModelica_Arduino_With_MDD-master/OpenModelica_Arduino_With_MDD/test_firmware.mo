@@ -15,6 +15,6 @@ algorithm
   c_OK := sComm.close_serial(1) "To close the connection safely";
   end when;
   annotation(
-    experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
+    experiment(StartTime = 0, StopTime = 50, Tolerance = 1e-6, Interval = 10));
 
 end test_firmware;

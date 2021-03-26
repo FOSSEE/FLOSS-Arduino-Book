@@ -1,5 +1,0 @@
-\chapter*{List of Acronyms\markboth{\bf List of Acronyms}{}}
-\addcontentsline{toc}{chapter}{\protect\numberline{List of Acronyms}}
-\begin{tabular}{ll} \\
-IDE & Integrated Development Environment \\
-\end{tabular}

@@ -1,204 +1,204 @@
-\contentsline {chapter}{\numberline {List of Figures}}{vii}
-\contentsline {chapter}{\numberline {List of Tables}}{xi}
-\contentsline {chapter}{\numberline {List of Arduino \ Code}}{xiii}
-\contentsline {chapter}{\numberline {List of Scilab Code}}{xv}
-\contentsline {chapter}{\numberline {List of Python \ Code}}{xvii}
-\contentsline {chapter}{\numberline {List of Julia\ Code}}{xix}
-\contentsline {chapter}{\numberline {List of OpenModelica\ Code}}{xxi}
+\contentsline {chapter}{\numberline {List of Figures}}{vii}%
+\contentsline {chapter}{\numberline {List of Tables}}{xi}%
+\contentsline {chapter}{\numberline {List of Arduino \ Code}}{xiii}%
+\contentsline {chapter}{\numberline {List of Scilab Code}}{xv}%
+\contentsline {chapter}{\numberline {List of Python \ Code}}{xvii}%
+\contentsline {chapter}{\numberline {List of Julia\ Code}}{xix}%
+\contentsline {chapter}{\numberline {List of OpenModelica\ Code}}{xxi}%
 \thispagestyle {empty}
-\contentsline {chapter}{\numberline {List of Acronyms}}{xxiii}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Hardware Environment}{3}
-\contentsline {section}{\numberline {2.1}Microcontroller}{3}
-\contentsline {subsection}{\numberline {2.1.1}Organization of a Microcontroller}{3}
-\contentsline {subsection}{\numberline {2.1.2}Microcontroller Peripherals}{5}
-\contentsline {section}{\numberline {2.2}Open Source Hardware (OSHW)}{7}
-\contentsline {section}{\numberline {2.3}Arduino}{8}
-\contentsline {subsection}{\numberline {2.3.1}Brief History}{8}
-\contentsline {subsection}{\numberline {2.3.2}Arduino Uno Board}{9}
-\contentsline {subsection}{\numberline {2.3.3}Popular Arduino Projects}{9}
-\contentsline {paragraph}{Arduino phone:}{10}
-\contentsline {paragraph}{Candy sorting machine:}{11}
-\contentsline {paragraph}{3D printers:}{11}
-\contentsline {section}{\numberline {2.4}Shield}{11}
-\contentsline {section}{\numberline {2.5}Experimental Test Bed}{12}
-\contentsline {chapter}{\numberline {3}Communcation between Software and Arduino}{17}
-\contentsline {section}{\numberline {3.1}Arduino IDE}{17}
-\contentsline {subsection}{\numberline {3.1.1}Downloading and installing on Windows}{18}
-\contentsline {subsection}{\numberline {3.1.2}Downloading and installing on GNU/Linux Ubuntu}{18}
-\contentsline {subsection}{\numberline {3.1.3}Arduino Development Environment}{21}
-\contentsline {subsection}{\numberline {3.1.4}Testing Arduino with a sample program}{23}
-\contentsline {subsection}{\numberline {3.1.5}Firmware}{24}
-\contentsline {section}{\numberline {3.2}Scilab}{25}
-\contentsline {subsection}{\numberline {3.2.1}Downloading and installing Scilab}{25}
-\contentsline {subsection}{\numberline {3.2.2}Scilab Arduino toolbox}{25}
-\contentsline {subsection}{\numberline {3.2.3}Identifying Arduino communication port number}{27}
-\contentsline {subsection}{\numberline {3.2.4}Testing Scilab-Arduino toolbox}{30}
-\contentsline {subsection}{\numberline {3.2.5}Firmware}{34}
-\contentsline {section}{\numberline {3.3}Xcos}{34}
-\contentsline {subsection}{\numberline {3.3.1}Downloading, installing and testing}{34}
-\contentsline {subsection}{\numberline {3.3.2}Use case}{35}
-\contentsline {subsection}{\numberline {3.3.3}Xcos-Arduino}{39}
-\contentsline {section}{\numberline {3.4}Python}{39}
-\contentsline {subsection}{\numberline {3.4.1}Downloading and installing Python}{40}
-\contentsline {subsection}{\numberline {3.4.2}Firmware}{41}
-\contentsline {section}{\numberline {3.5}Julia}{42}
-\contentsline {subsection}{\numberline {3.5.1}Downloading and installing Julia}{42}
-\contentsline {subsection}{\numberline {3.5.2}Downloading and installing Juno IDE}{43}
-\contentsline {subsection}{\numberline {3.5.3}Julia Arduino toolbox}{45}
-\contentsline {subsection}{\numberline {3.5.4}Using the serial port package}{46}
-\contentsline {subsection}{\numberline {3.5.5}Firmware}{47}
-\contentsline {section}{\numberline {3.6}OpenModelica}{47}
-\contentsline {subsection}{\numberline {3.6.1}Downloading and installing OpenModelica}{47}
-\contentsline {subsection}{\numberline {3.6.2}Executing OpenModelica}{48}
-\contentsline {subsection}{\numberline {3.6.3}OpenModelica Arduino toolbox}{48}
-\contentsline {subsection}{\numberline {3.6.4}Firmware}{48}
-\contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{51}
-\contentsline {section}{\numberline {4.1}Preliminaries}{51}
-\contentsline {section}{\numberline {4.2}Connecting an RGB LED with Arduino Uno\ using a breadboard}{53}
-\contentsline {section}{\numberline {4.3}Lighting the LED from the Arduino IDE}{54}
-\contentsline {subsection}{\numberline {4.3.1}Lighting the LED}{54}
-\contentsline {paragraph}{Note:}{55}
-\contentsline {paragraph}{Note:}{55}
-\contentsline {subsection}{\numberline {4.3.2}Arduino Code}{56}
-\contentsline {section}{\numberline {4.4}Lighting the LED from Scilab}{58}
-\contentsline {subsection}{\numberline {4.4.1}Lighting the LED}{58}
-\contentsline {subsection}{\numberline {4.4.2}Scilab Code}{59}
-\contentsline {section}{\numberline {4.5}Lighting the LED from Scilab Xcos}{60}
-\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{65}
-\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{65}
-\contentsline {subsection}{\numberline {4.6.2}Python Code}{68}
-\contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{71}
-\contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{71}
-\contentsline {subsection}{\numberline {4.7.2}Julia Code}{73}
-\contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{74}
-\contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{74}
-\contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{75}
-\contentsline {chapter}{\numberline {5}Interfacing a Pushbutton}{79}
-\contentsline {section}{\numberline {5.1}Preliminaries}{79}
-\contentsline {section}{\numberline {5.2}Connecting a pushbutton with Arduino Uno\ using a breadboard}{79}
-\contentsline {section}{\numberline {5.3}Reading the Pushbutton Status from the Arduino IDE}{80}
-\contentsline {subsection}{\numberline {5.3.1}Reading the Pushbutton Status}{80}
-\contentsline {subsection}{\numberline {5.3.2}Arduino Code}{82}
-\contentsline {section}{\numberline {5.4}Reading the Pushbutton Status from Scilab}{83}
-\contentsline {subsection}{\numberline {5.4.1}Reading the Pushbutton Status}{83}
-\contentsline {subsection}{\numberline {5.4.2}Scilab Code}{84}
-\contentsline {section}{\numberline {5.5}Accessing the Pushbutton from Xcos}{84}
-\contentsline {section}{\numberline {5.6}Reading the Pushbutton Status from Python}{87}
-\contentsline {subsection}{\numberline {5.6.1}Reading the Pushbutton Status}{87}
-\contentsline {subsection}{\numberline {5.6.2}Python Code}{88}
-\contentsline {section}{\numberline {5.7}Reading the Pushbutton Status from Julia}{90}
-\contentsline {subsection}{\numberline {5.7.1}Reading the Pushbutton Status}{90}
-\contentsline {subsection}{\numberline {5.7.2}Julia Code}{90}
-\contentsline {section}{\numberline {5.8}Reading the Pushbutton Status from OpenModelica}{91}
-\contentsline {subsection}{\numberline {5.8.1}Reading the Pushbutton Status}{91}
-\contentsline {subsection}{\numberline {5.8.2}OpenModelica Code}{91}
-\contentsline {chapter}{\numberline {6}Interfacing a Light Dependent Resistor}{95}
-\contentsline {section}{\numberline {6.1}Preliminaries}{95}
-\contentsline {section}{\numberline {6.2}Connecting an LDR with Arduino Uno\ using a breadboard}{97}
-\contentsline {section}{\numberline {6.3}Interfacing the LDR through the Arduino IDE}{97}
-\contentsline {subsection}{\numberline {6.3.1}Interfacing the LDR}{97}
-\contentsline {subsection}{\numberline {6.3.2}Arduino Code}{99}
-\contentsline {section}{\numberline {6.4}Interfacing the LDR through Scilab}{99}
-\contentsline {subsection}{\numberline {6.4.1}Interfacing the LDR}{99}
-\contentsline {subsection}{\numberline {6.4.2}Scilab Code}{100}
-\contentsline {section}{\numberline {6.5}Interfacing the LDR through Xcos}{101}
-\contentsline {section}{\numberline {6.6}Interfacing the LDR through Python}{103}
-\contentsline {subsection}{\numberline {6.6.1}Interfacing the LDR}{103}
-\contentsline {subsection}{\numberline {6.6.2}Python Code}{105}
-\contentsline {section}{\numberline {6.7}Interfacing the LDR through Julia}{107}
-\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{107}
-\contentsline {subsection}{\numberline {6.7.2}Julia Code}{108}
-\contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{108}
-\contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{108}
-\contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{109}
-\contentsline {chapter}{\numberline {7}Controlling a DC motor}{111}
-\contentsline {section}{\numberline {7.1}Preliminaries}{111}
-\contentsline {section}{\numberline {7.2}Controlling the DC motor from Arduino}{113}
-\contentsline {subsection}{\numberline {7.2.1}Controlling the DC motor}{113}
-\contentsline {subsection}{\numberline {7.2.2}Arduino Code}{115}
-\contentsline {section}{\numberline {7.3}Controlling the DC motor from Scilab}{116}
-\contentsline {subsection}{\numberline {7.3.1}Initialization}{116}
-\contentsline {subsection}{\numberline {7.3.2}Rotation for a specified time}{117}
-\contentsline {subsection}{\numberline {7.3.3}Using the capabilities of Scilab}{118}
-\contentsline {subsection}{\numberline {7.3.4}Scilab Code}{119}
-\contentsline {section}{\numberline {7.4}Controlling the DC Motor from Xcos}{120}
-\contentsline {section}{\numberline {7.5}Controlling the DC Motor from Python}{123}
-\contentsline {subsection}{\numberline {7.5.1}Controlling the DC Motor}{123}
-\contentsline {subsection}{\numberline {7.5.2}Python Code}{125}
-\contentsline {section}{\numberline {7.6}Controlling the DC Motor from Julia}{128}
-\contentsline {subsection}{\numberline {7.6.1}Controlling the DC Motor}{128}
-\contentsline {subsection}{\numberline {7.6.2}Julia Code}{128}
-\contentsline {section}{\numberline {7.7}Controlling the DC Motor from OpenModelica}{129}
-\contentsline {subsection}{\numberline {7.7.1}Controlling the DC Motor}{129}
-\contentsline {subsection}{\numberline {7.7.2}OpenModelica Code}{130}
-\contentsline {chapter}{\numberline {8}Interfacing a Potentiometer}{133}
-\contentsline {section}{\numberline {8.1}Preliminaries}{133}
-\contentsline {section}{\numberline {8.2}Reading the potentiometer from the Arduino IDE}{134}
-\contentsline {subsection}{\numberline {8.2.1}Reading the potentiometer}{134}
-\contentsline {subsection}{\numberline {8.2.2}Arduino Code}{135}
-\contentsline {section}{\numberline {8.3}Reading the potentiometer from Scilab}{136}
-\contentsline {subsection}{\numberline {8.3.1}Reading the potentiometer}{136}
-\contentsline {subsection}{\numberline {8.3.2}Scilab Code}{137}
-\contentsline {section}{\numberline {8.4}Reading the potentiometer from Xcos}{137}
-\contentsline {paragraph}{Exercise:}{138}
-\contentsline {section}{\numberline {8.5}Reading the potentiometer from Python}{138}
-\contentsline {subsection}{\numberline {8.5.1}Reading the potentiometer}{138}
-\contentsline {subsection}{\numberline {8.5.2}Python Code}{140}
-\contentsline {section}{\numberline {8.6}Reading the potentiometer from Julia}{141}
-\contentsline {subsection}{\numberline {8.6.1}Reading the potentiometer}{141}
-\contentsline {subsection}{\numberline {8.6.2}Julia Code}{142}
-\contentsline {section}{\numberline {8.7}Reading the potentiometer from OpenModelica}{142}
-\contentsline {subsection}{\numberline {8.7.1}Reading the potentiometer}{142}
-\contentsline {subsection}{\numberline {8.7.2}OpenModelica Code}{143}
-\contentsline {chapter}{\numberline {9}Interfacing a Thermistor}{145}
-\contentsline {section}{\numberline {9.1}Preliminaries}{145}
-\contentsline {section}{\numberline {9.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{146}
-\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{147}
-\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{147}
-\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{148}
-\contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Scilab}{150}
-\contentsline {subsection}{\numberline {9.4.1}Interfacing the Thermistor}{150}
-\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{151}
-\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{152}
-\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{154}
-\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{154}
-\contentsline {subsection}{\numberline {9.6.2}Python Code}{156}
-\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{158}
-\contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{158}
-\contentsline {subsection}{\numberline {9.7.2}Julia Code}{158}
-\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{159}
-\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{159}
-\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{160}
-\contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{163}
-\contentsline {section}{\numberline {10.1}Preliminaries}{163}
-\contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{164}
-\contentsline {subsection}{\numberline {10.2.1}Controlling the Servometer}{164}
-\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{165}
-\contentsline {section}{\numberline {10.3}Controlling the Servomotor through Scilab}{167}
-\contentsline {subsection}{\numberline {10.3.1}Controlling the Servomotor}{167}
-\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{168}
-\contentsline {section}{\numberline {10.4}Controling the Servomotor through Xcos}{169}
-\contentsline {section}{\numberline {10.5}Controlling the Servomotor through Python}{174}
-\contentsline {subsection}{\numberline {10.5.1}Controlling the Servomotor}{174}
-\contentsline {subsection}{\numberline {10.5.2}Python Code}{175}
-\contentsline {section}{\numberline {10.6}Controlling the Servomotor through Julia}{179}
-\contentsline {subsection}{\numberline {10.6.1}Controlling the Servomotor}{179}
-\contentsline {subsection}{\numberline {10.6.2}Julia Code}{180}
-\contentsline {section}{\numberline {10.7}Controlling the Servomotor through OpenModelica}{181}
-\contentsline {subsection}{\numberline {10.7.1}Controlling the Servomotor}{181}
-\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{182}
-\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{187}
-\contentsline {section}{\numberline {11.1}Preliminaries}{187}
-\contentsline {section}{\numberline {11.2}Objective}{192}
-\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{192}
-\contentsline {section}{\numberline {11.4}Software}{193}
-\contentsline {section}{\numberline {11.5}Output}{194}
-\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{196}
-\contentsline {section}{\numberline {11.7}Code}{199}
-\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{199}
-\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{201}
-\contentsline {subsection}{\numberline {11.7.3}Python Code}{202}
-\contentsline {subsection}{\numberline {11.7.4}Julia Code}{203}
-\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{204}
-\contentsline {chapter}{\numberline {References}}{207}
+\contentsline {chapter}{\numberline {List of Acronyms}}{xxiii}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {chapter}{\numberline {2}Hardware Environment}{3}%
+\contentsline {section}{\numberline {2.1}Microcontroller}{3}%
+\contentsline {subsection}{\numberline {2.1.1}Organization of a Microcontroller}{3}%
+\contentsline {subsection}{\numberline {2.1.2}Microcontroller Peripherals}{5}%
+\contentsline {section}{\numberline {2.2}Open Source Hardware (OSHW)}{7}%
+\contentsline {section}{\numberline {2.3}Arduino}{8}%
+\contentsline {subsection}{\numberline {2.3.1}Brief History}{8}%
+\contentsline {subsection}{\numberline {2.3.2}Arduino Uno Board}{9}%
+\contentsline {subsection}{\numberline {2.3.3}Popular Arduino Projects}{9}%
+\contentsline {paragraph}{Arduino phone:}{10}%
+\contentsline {paragraph}{Candy sorting machine:}{11}%
+\contentsline {paragraph}{3D printers:}{11}%
+\contentsline {section}{\numberline {2.4}Shield}{11}%
+\contentsline {section}{\numberline {2.5}Experimental Test Bed}{12}%
+\contentsline {chapter}{\numberline {3}Communcation between Software and Arduino}{17}%
+\contentsline {section}{\numberline {3.1}Arduino IDE}{17}%
+\contentsline {subsection}{\numberline {3.1.1}Downloading and installing on Windows}{18}%
+\contentsline {subsection}{\numberline {3.1.2}Downloading and installing on GNU/Linux Ubuntu}{18}%
+\contentsline {subsection}{\numberline {3.1.3}Arduino Development Environment}{21}%
+\contentsline {subsection}{\numberline {3.1.4}Testing Arduino with a sample program}{23}%
+\contentsline {subsection}{\numberline {3.1.5}Firmware}{24}%
+\contentsline {section}{\numberline {3.2}Scilab}{25}%
+\contentsline {subsection}{\numberline {3.2.1}Downloading and installing Scilab}{25}%
+\contentsline {subsection}{\numberline {3.2.2}Scilab Arduino toolbox}{25}%
+\contentsline {subsection}{\numberline {3.2.3}Identifying Arduino communication port number}{27}%
+\contentsline {subsection}{\numberline {3.2.4}Testing Scilab-Arduino toolbox}{30}%
+\contentsline {subsection}{\numberline {3.2.5}Firmware}{34}%
+\contentsline {section}{\numberline {3.3}Xcos}{34}%
+\contentsline {subsection}{\numberline {3.3.1}Downloading, installing and testing}{34}%
+\contentsline {subsection}{\numberline {3.3.2}Use case}{35}%
+\contentsline {subsection}{\numberline {3.3.3}Xcos-Arduino}{39}%
+\contentsline {section}{\numberline {3.4}Python}{39}%
+\contentsline {subsection}{\numberline {3.4.1}Downloading and installing Python}{40}%
+\contentsline {subsection}{\numberline {3.4.2}Firmware}{41}%
+\contentsline {section}{\numberline {3.5}Julia}{42}%
+\contentsline {subsection}{\numberline {3.5.1}Downloading and installing Julia}{42}%
+\contentsline {subsection}{\numberline {3.5.2}Downloading and installing Juno IDE}{43}%
+\contentsline {subsection}{\numberline {3.5.3}Julia Arduino toolbox}{45}%
+\contentsline {subsection}{\numberline {3.5.4}Using the serial port package}{46}%
+\contentsline {subsection}{\numberline {3.5.5}Firmware}{47}%
+\contentsline {section}{\numberline {3.6}OpenModelica}{47}%
+\contentsline {subsection}{\numberline {3.6.1}Downloading and installing OpenModelica}{47}%
+\contentsline {subsection}{\numberline {3.6.2}Executing OpenModelica}{48}%
+\contentsline {subsection}{\numberline {3.6.3}OpenModelica Arduino toolbox}{48}%
+\contentsline {subsection}{\numberline {3.6.4}Firmware}{48}%
+\contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{51}%
+\contentsline {section}{\numberline {4.1}Preliminaries}{51}%
+\contentsline {section}{\numberline {4.2}Connecting an RGB LED with Arduino Uno\ using a breadboard}{53}%
+\contentsline {section}{\numberline {4.3}Lighting the LED from the Arduino IDE}{54}%
+\contentsline {subsection}{\numberline {4.3.1}Lighting the LED}{54}%
+\contentsline {paragraph}{Note:}{55}%
+\contentsline {paragraph}{Note:}{55}%
+\contentsline {subsection}{\numberline {4.3.2}Arduino Code}{56}%
+\contentsline {section}{\numberline {4.4}Lighting the LED from Scilab}{58}%
+\contentsline {subsection}{\numberline {4.4.1}Lighting the LED}{58}%
+\contentsline {subsection}{\numberline {4.4.2}Scilab Code}{59}%
+\contentsline {section}{\numberline {4.5}Lighting the LED from Scilab Xcos}{60}%
+\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{65}%
+\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{65}%
+\contentsline {subsection}{\numberline {4.6.2}Python Code}{68}%
+\contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{71}%
+\contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{71}%
+\contentsline {subsection}{\numberline {4.7.2}Julia Code}{73}%
+\contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{74}%
+\contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{74}%
+\contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{75}%
+\contentsline {chapter}{\numberline {5}Interfacing a Pushbutton}{79}%
+\contentsline {section}{\numberline {5.1}Preliminaries}{79}%
+\contentsline {section}{\numberline {5.2}Connecting a pushbutton with Arduino Uno\ using a breadboard}{79}%
+\contentsline {section}{\numberline {5.3}Reading the Pushbutton Status from the Arduino IDE}{80}%
+\contentsline {subsection}{\numberline {5.3.1}Reading the Pushbutton Status}{80}%
+\contentsline {subsection}{\numberline {5.3.2}Arduino Code}{82}%
+\contentsline {section}{\numberline {5.4}Reading the Pushbutton Status from Scilab}{83}%
+\contentsline {subsection}{\numberline {5.4.1}Reading the Pushbutton Status}{83}%
+\contentsline {subsection}{\numberline {5.4.2}Scilab Code}{84}%
+\contentsline {section}{\numberline {5.5}Accessing the Pushbutton from Xcos}{84}%
+\contentsline {section}{\numberline {5.6}Reading the Pushbutton Status from Python}{87}%
+\contentsline {subsection}{\numberline {5.6.1}Reading the Pushbutton Status}{87}%
+\contentsline {subsection}{\numberline {5.6.2}Python Code}{88}%
+\contentsline {section}{\numberline {5.7}Reading the Pushbutton Status from Julia}{90}%
+\contentsline {subsection}{\numberline {5.7.1}Reading the Pushbutton Status}{90}%
+\contentsline {subsection}{\numberline {5.7.2}Julia Code}{90}%
+\contentsline {section}{\numberline {5.8}Reading the Pushbutton Status from OpenModelica}{91}%
+\contentsline {subsection}{\numberline {5.8.1}Reading the Pushbutton Status}{91}%
+\contentsline {subsection}{\numberline {5.8.2}OpenModelica Code}{91}%
+\contentsline {chapter}{\numberline {6}Interfacing a Light Dependent Resistor}{95}%
+\contentsline {section}{\numberline {6.1}Preliminaries}{95}%
+\contentsline {section}{\numberline {6.2}Connecting an LDR with Arduino Uno\ using a breadboard}{97}%
+\contentsline {section}{\numberline {6.3}Interfacing the LDR through the Arduino IDE}{97}%
+\contentsline {subsection}{\numberline {6.3.1}Interfacing the LDR}{97}%
+\contentsline {subsection}{\numberline {6.3.2}Arduino Code}{99}%
+\contentsline {section}{\numberline {6.4}Interfacing the LDR through Scilab}{99}%
+\contentsline {subsection}{\numberline {6.4.1}Interfacing the LDR}{99}%
+\contentsline {subsection}{\numberline {6.4.2}Scilab Code}{100}%
+\contentsline {section}{\numberline {6.5}Interfacing the LDR through Xcos}{101}%
+\contentsline {section}{\numberline {6.6}Interfacing the LDR through Python}{103}%
+\contentsline {subsection}{\numberline {6.6.1}Interfacing the LDR}{103}%
+\contentsline {subsection}{\numberline {6.6.2}Python Code}{105}%
+\contentsline {section}{\numberline {6.7}Interfacing the LDR through Julia}{107}%
+\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{107}%
+\contentsline {subsection}{\numberline {6.7.2}Julia Code}{108}%
+\contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{108}%
+\contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{108}%
+\contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{109}%
+\contentsline {chapter}{\numberline {7}Controlling a DC motor}{111}%
+\contentsline {section}{\numberline {7.1}Preliminaries}{111}%
+\contentsline {section}{\numberline {7.2}Controlling the DC motor from Arduino}{113}%
+\contentsline {subsection}{\numberline {7.2.1}Controlling the DC motor}{113}%
+\contentsline {subsection}{\numberline {7.2.2}Arduino Code}{115}%
+\contentsline {section}{\numberline {7.3}Controlling the DC motor from Scilab}{116}%
+\contentsline {subsection}{\numberline {7.3.1}Initialization}{116}%
+\contentsline {subsection}{\numberline {7.3.2}Rotation for a specified time}{117}%
+\contentsline {subsection}{\numberline {7.3.3}Using the capabilities of Scilab}{118}%
+\contentsline {subsection}{\numberline {7.3.4}Scilab Code}{119}%
+\contentsline {section}{\numberline {7.4}Controlling the DC Motor from Xcos}{120}%
+\contentsline {section}{\numberline {7.5}Controlling the DC Motor from Python}{123}%
+\contentsline {subsection}{\numberline {7.5.1}Controlling the DC Motor}{123}%
+\contentsline {subsection}{\numberline {7.5.2}Python Code}{125}%
+\contentsline {section}{\numberline {7.6}Controlling the DC Motor from Julia}{128}%
+\contentsline {subsection}{\numberline {7.6.1}Controlling the DC Motor}{128}%
+\contentsline {subsection}{\numberline {7.6.2}Julia Code}{128}%
+\contentsline {section}{\numberline {7.7}Controlling the DC Motor from OpenModelica}{129}%
+\contentsline {subsection}{\numberline {7.7.1}Controlling the DC Motor}{129}%
+\contentsline {subsection}{\numberline {7.7.2}OpenModelica Code}{130}%
+\contentsline {chapter}{\numberline {8}Interfacing a Potentiometer}{133}%
+\contentsline {section}{\numberline {8.1}Preliminaries}{133}%
+\contentsline {section}{\numberline {8.2}Reading the potentiometer from the Arduino IDE}{134}%
+\contentsline {subsection}{\numberline {8.2.1}Reading the potentiometer}{134}%
+\contentsline {subsection}{\numberline {8.2.2}Arduino Code}{135}%
+\contentsline {section}{\numberline {8.3}Reading the potentiometer from Scilab}{136}%
+\contentsline {subsection}{\numberline {8.3.1}Reading the potentiometer}{136}%
+\contentsline {subsection}{\numberline {8.3.2}Scilab Code}{137}%
+\contentsline {section}{\numberline {8.4}Reading the potentiometer from Xcos}{137}%
+\contentsline {paragraph}{Exercise:}{138}%
+\contentsline {section}{\numberline {8.5}Reading the potentiometer from Python}{138}%
+\contentsline {subsection}{\numberline {8.5.1}Reading the potentiometer}{138}%
+\contentsline {subsection}{\numberline {8.5.2}Python Code}{140}%
+\contentsline {section}{\numberline {8.6}Reading the potentiometer from Julia}{141}%
+\contentsline {subsection}{\numberline {8.6.1}Reading the potentiometer}{141}%
+\contentsline {subsection}{\numberline {8.6.2}Julia Code}{142}%
+\contentsline {section}{\numberline {8.7}Reading the potentiometer from OpenModelica}{142}%
+\contentsline {subsection}{\numberline {8.7.1}Reading the potentiometer}{142}%
+\contentsline {subsection}{\numberline {8.7.2}OpenModelica Code}{143}%
+\contentsline {chapter}{\numberline {9}Interfacing a Thermistor}{145}%
+\contentsline {section}{\numberline {9.1}Preliminaries}{145}%
+\contentsline {section}{\numberline {9.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{146}%
+\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{147}%
+\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{147}%
+\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{148}%
+\contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Scilab}{150}%
+\contentsline {subsection}{\numberline {9.4.1}Interfacing the Thermistor}{150}%
+\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{151}%
+\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{152}%
+\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{154}%
+\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{154}%
+\contentsline {subsection}{\numberline {9.6.2}Python Code}{156}%
+\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{158}%
+\contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{158}%
+\contentsline {subsection}{\numberline {9.7.2}Julia Code}{158}%
+\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{159}%
+\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{159}%
+\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{160}%
+\contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{163}%
+\contentsline {section}{\numberline {10.1}Preliminaries}{163}%
+\contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{164}%
+\contentsline {subsection}{\numberline {10.2.1}Controlling the Servometer}{164}%
+\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{165}%
+\contentsline {section}{\numberline {10.3}Controlling the Servomotor through Scilab}{167}%
+\contentsline {subsection}{\numberline {10.3.1}Controlling the Servomotor}{167}%
+\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{168}%
+\contentsline {section}{\numberline {10.4}Controling the Servomotor through Xcos}{169}%
+\contentsline {section}{\numberline {10.5}Controlling the Servomotor through Python}{174}%
+\contentsline {subsection}{\numberline {10.5.1}Controlling the Servomotor}{174}%
+\contentsline {subsection}{\numberline {10.5.2}Python Code}{175}%
+\contentsline {section}{\numberline {10.6}Controlling the Servomotor through Julia}{179}%
+\contentsline {subsection}{\numberline {10.6.1}Controlling the Servomotor}{179}%
+\contentsline {subsection}{\numberline {10.6.2}Julia Code}{180}%
+\contentsline {section}{\numberline {10.7}Controlling the Servomotor through OpenModelica}{181}%
+\contentsline {subsection}{\numberline {10.7.1}Controlling the Servomotor}{181}%
+\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{182}%
+\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{187}%
+\contentsline {section}{\numberline {11.1}Preliminaries}{187}%
+\contentsline {section}{\numberline {11.2}Objective}{192}%
+\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{192}%
+\contentsline {section}{\numberline {11.4}Software}{193}%
+\contentsline {section}{\numberline {11.5}Output}{194}%
+\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{196}%
+\contentsline {section}{\numberline {11.7}Code}{199}%
+\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{199}%
+\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{201}%
+\contentsline {subsection}{\numberline {11.7.3}Python Code}{202}%
+\contentsline {subsection}{\numberline {11.7.4}Julia Code}{203}%
+\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{204}%
+\contentsline {chapter}{\numberline {References}}{207}%
