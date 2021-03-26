@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  26 MAR 2021 06:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  26 MAR 2021 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -675,7 +675,7 @@ pg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/mega.jp
 g>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw
--env/figures/mega.jpg  used on input line 295.
+-env/figures/mega.jpg  used on input line 293.
 (pdftex.def)             Requested size: 258.36281pt x 169.87627pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/lily.jpg, i
 d=127, 321.2pt x 321.2pt>
@@ -684,21 +684,19 @@ pg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/lily.jp
 g>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw
--env/figures/lily.jpg  used on input line 306.
+-env/figures/lily.jpg  used on input line 304.
 (pdftex.def)             Requested size: 178.86702pt x 178.87094pt.
+[9 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino.
+png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino-pho
-ne.jpg, id=128, 230.15924pt x 153.5162pt>
+ne.jpg, id=131, 230.15924pt x 153.5162pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduin
 o-phone.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino
 -phone.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw
--env/figures/arduino-phone.jpg  used on input line 325.
+-env/figures/arduino-phone.jpg  used on input line 323.
 (pdftex.def)             Requested size: 178.86702pt x 119.30411pt.
-[9 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino.
-png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [10 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/mega.j
 pg>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino-3d-
@@ -708,12 +706,11 @@ o-3d-printer.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino
 -3d-printer.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw
--env/figures/arduino-3d-printer.jpg  used on input line 339.
+-env/figures/arduino-3d-printer.jpg  used on input line 337.
 (pdftex.def)             Requested size: 178.86702pt x 84.54076pt.
-
-[11 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/lily.jp
-g> </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino-
-phone.jpg>]
+ [11 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/lily.j
+pg> </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino
+-phone.jpg>]
 </home/fossee/Desktop/floss-scilab-arduino/tools/shield/pcb_board_V1p2.png, id=
 139, 405.76593pt x 347.79938pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/tools/shield/pcb_board_V1p2.png
@@ -721,10 +718,10 @@ File: /home/fossee/Desktop/floss-scilab-arduino/tools/shield/pcb_board_V1p2.png
 <use /home/fossee/Desktop/floss-scilab-arduino/tools/shield/pcb_board_V1p2.png>
 
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/tools/shield
-/pcb_board_V1p2.png  used on input line 371.
+/pcb_board_V1p2.png  used on input line 369.
 (pdftex.def)             Requested size: 178.86702pt x 153.31877pt.
 
-Underfull \hbox (badness 1755) in paragraph at lines 373--373
+Underfull \hbox (badness 1755) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 Figure 2.9: |PCB im-age of the shield. The PCB file can be 
 found at
  []
@@ -735,7 +732,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/tools/shield/shield-V1p2.png Gr
 aphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/tools/shield/shield-V1p2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/tools/shield
-/shield-V1p2.png  used on input line 381.
+/shield-V1p2.png  used on input line 379.
 (pdftex.def)             Requested size: 397.48499pt x 280.81079pt.
 </home/fossee/Desktop/floss-scilab-arduino/tools/shield/shield-V1p2.jpg, id=141
 , 494.59781pt x 376.40625pt>
@@ -743,10 +740,10 @@ File: /home/fossee/Desktop/floss-scilab-arduino/tools/shield/shield-V1p2.jpg Gr
 aphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/tools/shield/shield-V1p2.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/tools/shield
-/shield-V1p2.jpg  used on input line 392.
+/shield-V1p2.jpg  used on input line 390.
 (pdftex.def)             Requested size: 238.49341pt x 181.5pt.
 
-Underfull \hbox (badness 2689) in paragraph at lines 396--396
+Underfull \hbox (badness 2689) in paragraph at lines 394--394
 []\T1/cmr/m/n/10.95 Figure 2.11: |PCB of the shield. The ac-tual im-age can be 
 found at
  []
@@ -758,7 +755,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/shield
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/shield-
 crop.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw
--env/figures/shield-crop.jpg  used on input line 460.
+-env/figures/shield-crop.jpg  used on input line 458.
 (pdftex.def)             Requested size: 397.48499pt x 289.9242pt.
 [12 </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino
 -3d-printer.jpg>]) (./user-code/sw-env/sw-env.tex [13 </home/fossee/Desktop/flo
@@ -2321,7 +2318,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (232 pages, 22708731 bytes).
+Output written on floss-arduino.pdf (232 pages, 22708773 bytes).
 PDF statistics:
  1020 PDF objects out of 1200 (max. 8388607)
  614 compressed objects within 7 object streams

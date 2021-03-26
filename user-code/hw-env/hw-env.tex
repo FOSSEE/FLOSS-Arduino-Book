@@ -63,7 +63,7 @@ briefly review the functionality of each block.
   CPU can execute millions of instructions per second (MIPS). 
 
 \item {Memory:}
-A computer memory, usually a semiconductor device, is used to hold data and instructions. Depending on the make, it could be volatile or non volatile in nature. There are different types of memory:
+A computer memory, usually a semiconductor device, is used to hold data and instructions. Depending on the make, it could be volatile or non-volatile in nature. There are different types of memory:
 \begin{enumerate}
 \item Read Only Memory (ROM): It is a non-volatile storage entity. It
   is used in computers, phones, modems, watches and other electronic
@@ -71,17 +71,17 @@ A computer memory, usually a semiconductor device, is used to hold data and inst
   Its content cannot be modified; it can only be erased and flashed
   using compatible tools.
 \item Random-access Memory: RAM is a volatile storage entity. It is
-  used by CPU to store intermediate data during execution of a
+  used by CPU to store intermediate data during the execution of a
   program. RAM is usually faster than ROM.   
 \item Electronically Erasable Programmable Read-Only Memory: EEPROM is
   an optional non-volatile storage entity. It can be erased and
   written by the running program.  For example, it can be used to
-  store values of a temperature sensor connected to the microcontroller.
+  store the values of a temperature sensor connected to the microcontroller.
 \end{enumerate}
 \end{description}
 
 \subsection{Microcontroller Peripherals}
-Microcontrollers have a few built in peripherals.  In this section, we
+Microcontrollers have a few built-in peripherals.  In this section, we
 will review them briefly.
 
 \begin{description}
@@ -93,16 +93,16 @@ will review them briefly.
   cycle (time between two consecutive clock pulses).
 
 \item {Timer/Counter:} A timer is a pulse counter. A timer circuit is
-  controlled by registers. An 8 bit timer can count from 0 to 255. A
+  controlled by registers. An 8-bit timer can count from 0 to 255. A
   timer is primarily used to generate delay, and could be configured
   to count events.
     
 \item{Input/Output Ports:} I/O ports correspond to physical pins on
-  microcontroller. They are used to interface external peripherals. A
+  the microcontroller. They are used to interface external peripherals. A
   port can be configured as input or output by setting bits in I/O
   registers. Each pin can be individually addressed too.
 
-\item{Interrupts:} An interrupt to the CPU suspends running program
+\item{Interrupts:} An interrupt to the CPU suspends the running program
   and executes a code block corresponding to it. After serving/attending
   interrupts, the CPU resumes the previous program and continues. An
   interrupt could be originated by the software or the hardware. A
@@ -117,7 +117,7 @@ will review them briefly.
 \item {Analog to Digital Converter (ADC):} Most of the signals around
   us are continuous. Digital circuits cannot process them. An ADC
   converts them into digital signals. The resolution of the ADC
-  determines the efficiency of conversion. For example, a 10 bit
+  determines the efficiency of conversion. For example, a 10-bit
   resolution of the ADC relates to 1024 values per sample. This is
   shown pictorially in \figref{resolution}. Higher resolution relates
   to better translation of an analog signal.
@@ -129,8 +129,8 @@ will review them briefly.
   \label{resolution}
 \end{figure}
 
-\item {Digital to Analog Converter (DAC):} Digital output of CPU is
-  converted to analog signals using pulse width modulation (PWM)
+\item {Digital to Analog Converter (DAC):} Digital output of the CPU is
+  converted to analog signals using the pulse width modulation (PWM)
   technique. The output of a DAC is used to drive analog devices and actuators.
 
 \item {Serial Peripheral Interface (SPI):} SPI is a synchronous 4 wire
@@ -145,7 +145,7 @@ will review them briefly.
   \end{enumerate}
 
 \item {Firmware:} Firmware is an application that configures the
-  hardware. It is programmed to a non volatile memory such as ROM,
+  hardware. It is programmed to a non-volatile memory such as ROM,
   EPROM (Erasable Programmable ROM). This concept is used in computer
   BIOS and embedded devices.  In a microcontroller setup, a firmware
   file contains addresses and hexadecimal values.
@@ -174,7 +174,7 @@ available so that anyone can study, modify, distribute, make, and sell
 the design or hardware based on that design...
 \end{quote}
 The OSHW website \cite{oshw-ref} gives additional conditions to be
-fulfilled before a hardware can be called as OSHW.  It also argues why
+fulfilled before the hardware can be called OSHW.  It also argues why
 we should promote and contribute to OSHW.  The logo of OSHW is given
 in \figref{fig:OSHW-logo} \cite{OSHW-logo-ref}.
 \begin{figure}
@@ -183,9 +183,9 @@ in \figref{fig:OSHW-logo} \cite{OSHW-logo-ref}.
 \caption{The logo of Open Source Hardware}
 \label{fig:OSHW-logo}
 \end{figure}
-The open source hardware initiative is popular in electronic,
+The open-source hardware initiative is popular in the electronic,
 computing hardware and automation industry.  Here are some examples of
-open source hardware projects:
+open-source hardware projects:
 \begin{enumerate}
 \item The ``open compute project'' at Facebook shares the design of
   data center products.
@@ -194,11 +194,11 @@ open source hardware projects:
 \item ``Open Graphics Project (OGP)'' releases the designs of
   graphics card.
 \item ``ArduCopter'' is a UAV (unmanned aerial vehicle) created by
-  \emph{DIY Drones} community.
+  the \emph{DIY Drones} community.
 \item ``NetFPGA'' is a prototyping of computer network devices.
 \item ``OpenROV'' project (Open Source Remotely Operated Vehicle)
   aims at affordable underwater exploration.
-\item ``OpenMoko'' project set foundation for open source mobile
+\item ``OpenMoko'' project set the foundation for open-source mobile
   phones. ``Neo 1973'' was the first smartphone released in 2007
   with Linux based operating system, it had 128MB RAM and 64MB ROM.
 \end{enumerate}
@@ -206,12 +206,12 @@ open source hardware projects:
 Companies like Adafruit Industries, Texas Instruments, Solarbotics,
 Sparkfun electronics, MakerBot industries and DIY Drones have proven
 the power of OSHW with their revenues.  Nevertheless, collaborative
-innovation using OSHW is yet to establish itself in mainstream.  But
+innovation using OSHW is yet to establish itself in the mainstream.  But
 the trend has certainly started and is going strong.  There are now
 many robotics startups taking full use of OSHW.
 
 \section {Arduino}
-Arduino is an open source microcontroller board and a software
+Arduino is an open-source microcontroller board and a software
 development environment. Arduino language is a \emph{C} like
 programming language which is easy to learn and understand.  Arduino
 has two components, open source hardware and open source software.  We
@@ -219,7 +219,7 @@ will cover the basics of the Arduino hardware in this section.
 
 \subsection{Brief History}
 Arduino project was started at the \emph{Interaction Design Institute
-  Ivrea} in Ivrea, Italy. The aim was to create a low cost
+  Ivrea} in Ivrea, Italy. The aim was to create a low-cost
 microcontroller board that anyone with little or no background domain
 knowledge can design and develop. Arduino uses expansion circuit
 boards known as \emph{shields}. Shields can provide GPS, GSM,
@@ -227,12 +227,12 @@ Bluetooth, Zigbee, motor and other functionality.
 
 Within the first two years of its inception, the Arduino Team sold
 more than 50,000 boards. In 2011, Google announced \emph{The Android
-Open Accessory Development Kit (ADK)}, which enables Arduino boards to
+Open Accessory Development Kit (ADK)}, which enables the Arduino boards to
 interface with Android mobile platform.
 
 Today Arduino is the first choice for electronic designers and
 hobbyists. There are  more than 13 official variants of Arduino and
-many more third party Arduino software compatible boards.  
+many more third-party Arduino software compatible boards.  
 
 \subsection{Arduino Uno Board}
 There are different Arduino boards for different requirements. All
@@ -244,9 +244,9 @@ Arduino board.  We will illustrate all applications using the
 Based on ATmega328, the \arduino\ board has 14 digital input/output
 pins, 6 analog inputs, 6 PWM pins, a 16 MHz ceramic resonator, a power
 jack, an ICSP (In-Circuit Serial Programming) header, and a reset
-button. It has on board USB to serial converter, and can be connected
-to PC using USB cable.  \figref{arduino} has a picture of this board
-\cite{uno-ref}.  \tabref{micro-table} has the specifications of the
+button. It has an on-board USB to serial converter and can be connected
+to a PC using a USB cable.  \figref{arduino} has a picture of this board
+\cite{uno-ref}.  \tabref{micro-table} has the specifications of the
 \arduino\ board.
 
 \begin{figure}
@@ -283,8 +283,6 @@ Weight & 25 g\\
 \end{center}
 \end{table}
 
-
-
 Another popular board is Arduino Mega board.  Based on
 ATmega2560, this board has almost double the size of program
 memory (ROM) compared to Arduino Uno.  It also has extra serial ports,
@@ -315,10 +313,10 @@ Duemilanove, Arduino serial and so on.
 \subsection{Popular Arduino Projects}
 Arduino is intuitive and it's easy to setup and use. That's why people around the globe 
 are using Arduino in innovative ways. We list a few of these projects to give a 
-flavour of some of these interesting applications.
+flavor of some of these interesting applications.
 
-\paragraph{Arduino phone:} An Arduino connected with graphic LCD and a
-GSM shield. This low tech phone, shown in \figref{arduino-phone} can
+\paragraph{Arduino phone:} An Arduino connected with a graphic LCD and a
+GSM shield. This low-tech phone, shown in \figref{arduino-phone} can
 be built in a few hours \cite{phone-ref}.  
 \begin{figure}
   \centering
@@ -330,9 +328,9 @@ be built in a few hours \cite{phone-ref}.
 \paragraph{Candy sorting machine:} As the name suggests, this machine 
 can sort candy based on its color to separate jars \cite{candy-ref}.
 
-\paragraph{3D printers:} There are open source 3D printers based on
+\paragraph{3D printers:} There are open-source 3D printers based on
 Arduino and  Raspberry Pi. Although 3D printers, shown in \figref{3dprinter},
- are relatively slow and lack precision, but they can be ideal for building prototypes by
+ are relatively slow and lack precision, they can be ideal for building prototypes by
 hobbyists \cite{3d-printer-ref}.
 \begin{figure}
   \centering
@@ -360,7 +358,7 @@ Arduino boards as easy as writing software.
 All the experiments in this book have been verified with the use of a
 modified version of Diyode Codeshield, as mentioned above.  We make
 available all the required information to make a shield, thus making
-this a OSHW, see \secref{sec:oshw}.
+this an OSHW, see \secref{sec:oshw}.
 
 We now explain where the required files to make our shield are given.
 The gerber file to make the shield is given in
@@ -432,7 +430,7 @@ HEADER & 8x pin header & 2 \\
 \end{tabular}
 \end{table}
 \tabref{shield-table} provides information about various sensors,
-components on Shield and its corresponding pin number on Arduino Board
+components on Shield and its corresponding Pin on Arduino Board
 \cite{shield-ref}.  
 \begin{table}
 \centering
@@ -463,7 +461,7 @@ A picture of the completed shield is in \figref{shield}.
 \end{figure}
 
 \section{Experimental Test Bed}
-We experimented the contents of this book with the
+We experimented with the contents of this book with the
 following list.  We will refer to this as a \emph{kit} in the rest of
 this book.
 \begin{enumerate}
@@ -482,7 +480,7 @@ this book.
 
 The \arduino\ board is easily available in the market.  The shield is
 designed by us.  Details of most of these units are provided in the
-previous sections.  Information on all of these is available at the
+previous sections.  Information on all of these is available in the
 file, mentioned in \fnref{fn:file-loc}.
 
 
