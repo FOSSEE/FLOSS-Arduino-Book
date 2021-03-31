@@ -26,18 +26,18 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces COM port properties window\relax }}{32}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Port number on Linux terminal\relax }}{32}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Scilab test code output\relax }}{33}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Arduino toolbox functions used in this book\relax }}{33}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Arduino toolbox functions used in this book\relax }}{34}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Sine generator in palette browser\relax }}{35}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces CSCOPE block in xcos\relax }}{36}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces CLOCK\_c block in xcos\relax }}{36}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Sine generator in Xcos\relax }}{37}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces CLOCK\_c block in xcos\relax }}{37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sine generator in Xcos\relax }}{38}%
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Sine generator Xcos output\relax }}{38}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces CSCOPE configuration window\relax }}{38}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces CSCOPE configuration window\relax }}{39}%
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Simulation setup window\relax }}{39}%
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Palette browser showing Arduino blocks\relax }}{40}%
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Xcos block help\relax }}{40}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Linux terminal to launch Julia\relax }}{44}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Linux Atom Text Editor\relax }}{45}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Linux terminal to launch Julia\relax }}{45}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Linux Atom Text Editor\relax }}{46}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{51}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{52}%

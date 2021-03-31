@@ -65,7 +65,8 @@ system is used:
 \begin{enumerate}
       \item To begin, we need an \arduino\ board with a USB cable (A plug to
             B plug) as shown in the \figref{arduino}.
-      \item Connect it to a computer and power it up.
+      \item Connect it to a computer and power it up. The moment you connect \arduino\
+            to the computer, an on-board LED will turn ON.
 \end{enumerate}
 
 \subsection{Downloading and installing on Windows}
@@ -115,51 +116,54 @@ Arduino IDE on Windows OS:
 
 \subsection{Downloading and installing on GNU/Linux Ubuntu}
 We will now explain the installation of Arduino software on the
-GNU/Linux operating system. We shall perform the installation on the 64
-bit Ubuntu 14.04 LTS (Trusty Tahr) operating system.  These
+GNU/Linux operating system. We shall perform the installation on the 64-bit 
+Ubuntu 18.04 LTS operating system.  These
 instructions will work for other GNU distributions too, with little or
 no modification.  First carry out the steps numbered 1 and 2 given
 above.  Then carry out the following:
 
 \begin{enumerate}
       \setcounter{enumi}2
+      \item First, update your system. Open the terminal emulator, type, 
+      {\tt sudo apt-get update} and press Enter. 
       \item Find out your operating system support for 64 bit
             instructions. Open the terminal emulator and type, {\tt uname -m}
-      \item If it returns ``x86\_64'', then your computer has 64 bit
+      \item If it returns ``x86\_64'', then your computer has 64-bit
             operating system.   There is no visible performance difference in 32
-            and 64 bit Arduino versions.
+            and 64-bit Arduino versions.
       \item Download the suitable Arduino Software version (32 or 64 bits)
             from \\ {\tt https://www.arduino.cc/en/software}.  As mentioned
-            earlier, we
-            will perform experiments with a 64 bit installation.
+            earlier, we will perform experiments with a 64-bit installation.
             
-      \item At the time of writing this book, we worked with version 1.05.
+      \item At the time of writing this book, we worked with version 1.8.13.
             Assuming that you have downloaded tar file in~
             {\large \textasciitilde}/Downloads directory, perform the following
             steps on the terminal:
             \begin{quote}
                   {\tt cd {\large\textasciitilde}/Downloads\\
-                        tar -zxvf arduino-1.0.5-linux64.tgz\\
-                        sudo mv arduino-1.0.5 /opt}
+                  tar -xvf arduino-1.8.13-linux64.tar.xz\\
+                        sudo mv arduino-1.8.13 /opt}
             \end{quote}
             
       \item In the same terminal session, install the required Java Runtime
             Environment with a command like,
-            {\tt sudo apt-get -y install openjdk-7-jre}
+            {\tt sudo apt-get -y install openjdk-8-jre}
             
-      \item Execute the
+      \item \label{itm:port-check} Execute the
             following command on the terminal to list the serial port number.\\
             {\tt ls /dev/ttyACM*}\\
             Note down the serial device filename.  Suppose that it
             is {\tt ttyACM0}.
-      \item To make USB port available to all users, set the read write
+      \item \label{itm:port-access} To make USB port available to all users, set the read write
             permission to the listed port:
-            {\tt sudo chmod a+rw /dev/ttyACM0}
+            {\tt sudo chmod a+rw /dev/ttyACM0}. Each time you plug the \arduino\
+            into the computer, you need to execute the commands given in the steps 
+            numbered \ref{itm:port-check} and \ref{itm:port-access}. 
             
-      \item Create a shortcut on the desktop:\\
+      \item \label{itm:create-shortcut} Create a shortcut on the desktop:\\
             {\tt cd {\large \textasciitilde}/Desktop\\
-            ln -s /opt/arduino-1.0.5/arduino}
-      \item Give executable permission to this file through the following
+            ln -s /opt/arduino-1.8.13/arduino}
+      \item \label{itm:give-permission} Give executable permission to this file through the following
             command on the terminal: {\tt chmod +x arduino}
             %   Ubuntu opens executable text files with an editor instead of
             %   executing them. To be able execute a file, open the ``Files''
@@ -182,7 +186,12 @@ in the dialog window to start the Arduino IDE. The dialog box is shown in \figre
       \caption{Confirmation for executing Arduino script}
       \label{ard-lin-run}
 \end{figure}
-The Arduino IDE is now ready for use.
+The Arduino IDE is now ready for use. There are chances that you might not 
+get the Arduino shortcut on your Desktop after executing the commands given in 
+steps numbered \ref{itm:create-shortcut} and \ref{itm:give-permission}. 
+In that case, you can navigate into the {\tt /opt/} directory and execute the 
+commands as given in Fig. to start the Arduino IDE. 
+
 
 \subsection{Arduino Development Environment}
 \label{sec:Arduino-IDE}
@@ -298,12 +307,17 @@ Troubleshooting.
 
 \subsection{Firmware}
 We have provided a code to check whether the Arduino firmware has been
-properly installed.  The first few lines of this code follow.
+properly installed.  The first few lines of this code follow. 
 
 \begin{ardcode}
       \acaption{First 10 lines of the Arduino firmware}{First 10 lines of
             the Arduino firmware.  Available at
-            \LocSWfirmbrief{arduino-firmware.ino}.}
+            \LocSWfirmbrief{arduino-firmware.ino}. By following the
+            steps given in sections \ref{sec:Arduino-IDE} and 
+            \ref{sec:testing-arduino}, open this code in 
+            Arduino IDE and upload it to Arduino Uno. 
+            Once the upload is successful, you should expect a message 
+            in the bottom of Arduino IDE as shown in \figref{ard-ide}. }
       \label{ard:firmware}
       \lstinputlisting[firstline=1,lastline=10]
       {\LocSWfirmcode/arduino-firmware.ino}
@@ -560,7 +574,7 @@ Now let us test the functioning of the toolbox.
             launch it.
       \item Read into the Arduino IDE, the firmware \ardref{ard:firmware}.
       \item Using the {\tt Upload} option of the Arduino IDE, load this
-            firmware on to the Arduino Uno board.
+            firmware on to the \arduino\ board.
       \item Inside the {\tt Origin/tools} directory, locate a file {\tt
                         test\_firmware.sce}. This file will be used to test whether the
             firmware is properly installed.  This is an important step, as the
@@ -639,7 +653,9 @@ properly installed.  That code is listed below.
       \ccaption{A Scilab code to check whether the firmware is
         properly installed or not}{A Scilab code to check whether the
         firmware is properly installed or not.  Available at 
-            \LocSWchkbrief{test\_firmware.sce}.}
+            \LocSWchkbrief{test\_firmware.sce}. Execute this code 
+            by following the steps given in section 
+            \ref{sec:testing-scilab-arduino}.}
       \label{sci:test-firmware}
       \lstinputlisting{\LocSWchkcode/test_firmware.sce}
 \end{scicode}
@@ -875,9 +891,17 @@ For this, one can download the
 Windows pyserial package from the PyPI website, i.e., {\tt https://pypi.python.org/pypi/pyserial/3.4} and 
 install it by double-clicking on the downloaded file. 
 
-On Linux, we can install Python from the terminal. Open a terminal by pressing the Alt+Ctrl+T keys together. Then, 
-execute the command {\tt sudo apt-get install python3.5}. Next, we will install Python Serial Port Extension by 
-executing {\tt pip3 install pyserial}. 
+On Linux, we can install Python from the terminal. Open a terminal by 
+pressing the Alt+Ctrl+T keys together. Then, update the system by executing the 
+command {\tt sudo apt-get update}. Next, install Python3.5 by executing the command given below:\\
+{\tt sudo apt-get install python3.5}\\
+Now, we will install Python Serial Port Extension by executing the commands given below:\\ 
+{\tt sudo apt-get install python3-pip \\
+pip3 install pyserial}. 
+
+To execute a Python code (or script) on Linux, one should 
+navigate the terminal to the directory where the script is located using the {\tt cd} command.
+Next, type {\tt python3 SCRIPTNAME.py} in the terminal to execute the script. 
 
 % \begin{enumerate}
 %       \item On Ubuntu, Python can be installed from the command line by typing in the
@@ -909,13 +933,16 @@ executing {\tt pip3 install pyserial}.
 \label{sec:test-firmware-python}
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 We have provided a Python code to check whether the firmware has been
-properly installed.  That code is listed below.
+properly installed. That code is listed below. 
+Please ensure that you have uploaded the Arduino firmware given in \ardref{ard:firmware} on the \arduino\ board.
+
 
 \begin{pycode}
       \pcaption{A Python code to check whether the firmware is properly installed
             or not}{A Python code to check whether the firmware is properly installed
             or not.  Available at 
-            \LocFIMpybrief{led-blue.py}.}
+            \LocFIMpybrief{led-blue.py}. 
+            Execute this code by following the steps given in section \ref{python-installation}.}
       \label{py:test-firmware}
       \lstinputlisting{\LocFIMpycode/led-blue.py}
 \end{pycode}
