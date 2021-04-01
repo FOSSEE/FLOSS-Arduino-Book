@@ -1,4 +1,4 @@
-\chapter{Communcation between Software and Arduino}
+\chapter{Communication between Software and Arduino}
 \thispagestyle{empty}
 \label{sec:sw-env}
 
@@ -36,20 +36,20 @@
 
 In this chapter, we shall briefly walk through the software
 environment that needs to be set up before we could start with the
-\arduino\ board based experiments. We shall start with the \arduino\
+\arduino\ board-based experiments. We shall start with the \arduino\
 compatible Integrated Development Environment (IDE), termed as Arduino
 IDE, that would be used to load the firmware on to the
 microcontroller. The firmware to be loaded could be developed to serve
 different purposes as per the requirement. For example, 
 \begin{itemize}
-      \item To run \arduino\ stand alone, without waiting for any commands
+      \item To run \arduino\ stand-alone, without waiting for any commands
             from other software or hardware, for the specified time or until
             power off
       \item To decode the commands sent by other software, such as \scilab,
             through serial port, and execute the given instructions
             %\item Combination of the above two
 \end{itemize}
-Next, we shall discuss Scilab and Xcos, which are open source software
+Next, we shall discuss Scilab and Xcos, which are open-source software
 tools, and a related toolbox that can communicate with \arduino\ 
 over a serial port using RS232 protocol.
 
@@ -59,18 +59,18 @@ Arduino development environment is compatible with popular desktop
 operating systems. In this section, we will learn to set up this tool
 for the computers running Microsoft Windows or Linux. Later, we shall
 explore the important menu options in the Arduino IDE and run a sample
-program.  Following two steps have to be followed whatever operating
+program.  The following two steps have to be followed whatever operating
 system is used:
 
 \begin{enumerate}
       \item To begin, we need an \arduino\ board with a USB cable (A plug to
-            B plug) as shown in the \figref{arduino}.
+            B plug) as shown in \figref{arduino}.
       \item Connect it to a computer and power it up. The moment you connect \arduino\
-            to the computer, an on-board LED will turn ON.
+            to the computer, an on-board power LED will turn ON.
 \end{enumerate}
 
 \subsection{Downloading and installing on Windows}
-First carry out the steps numbered 1 and 2 given above.
+First, carry out the steps numbered 1 and 2 given above.
 Starting from download, we shall go through the steps to set up
 Arduino IDE on Windows OS:
 
@@ -78,7 +78,7 @@ Arduino IDE on Windows OS:
       \setcounter{enumi}2
       \item Visit the URL, \\{\tt https://www.arduino.cc/en/software} \\
             locate on the right side of the page the link \emph{Windows ZIP file} and click it.  
-            This may redirect you to download/donate page. Read the instructions and proceed with the
+            This may redirect you to the download/donate page. Read the instructions and proceed with the
             download.
       \item Extract the downloaded ZIP file to Desktop. Do not alter any
             file or directory structure.
@@ -89,11 +89,11 @@ Arduino IDE on Windows OS:
       \item Look for ``Other devices'' in the ``Device Manager'' list,
             expand and locate ``Unknown device''.  This may be similar to what
             is shown in \figref{win-device-manager}.
-      \item Right click on the ``Unknown device'' and select the ``Update
+      \item Right-click on the ``Unknown device'' and select the ``Update
             Driver Software'' option as shown in \figref{win-dri-update}.
       \item Next, choose the ``Browse my computer for Driver software''
             option.
-      \item Navigate to newly extracted Arduino folder on the Desktop and
+      \item Navigate to the newly extracted Arduino folder on the Desktop and
             select ``drivers'' folder.
       \item Windows will now finish the driver installation. The Arduino IDE
             is ready for use.
@@ -119,19 +119,19 @@ We will now explain the installation of Arduino software on the
 GNU/Linux operating system. We shall perform the installation on the 64-bit 
 Ubuntu 18.04 LTS operating system.  These
 instructions will work for other GNU distributions too, with little or
-no modification.  First carry out the steps numbered 1 and 2 given
+no modification.  First, carry out the steps numbered 1 and 2 given
 above.  Then carry out the following:
 
 \begin{enumerate}
       \setcounter{enumi}2
       \item First, update your system. Open the terminal emulator, type, 
       {\tt sudo apt-get update} and press Enter. 
-      \item Find out your operating system support for 64 bit
+      \item Find out your operating system support for 64-bit
             instructions. Open the terminal emulator and type, {\tt uname -m}
       \item If it returns ``x86\_64'', then your computer has 64-bit
             operating system.   There is no visible performance difference in 32
             and 64-bit Arduino versions.
-      \item Download the suitable Arduino Software version (32 or 64 bits)
+      \item Download the suitable Arduino Software version (32 or 64-bit)
             from \\ {\tt https://www.arduino.cc/en/software}.  As mentioned
             earlier, we will perform experiments with a 64-bit installation.
             
@@ -154,7 +154,7 @@ above.  Then carry out the following:
             {\tt ls /dev/ttyACM*}\\
             Note down the serial device filename.  Suppose that it
             is {\tt ttyACM0}.
-      \item \label{itm:port-access} To make USB port available to all users, set the read write
+      \item \label{itm:port-access} To make the USB port available to all users, set the read-write
             permission to the listed port:
             {\tt sudo chmod a+rw /dev/ttyACM0}. Each time you plug the \arduino\
             into the computer, you need to execute the commands given in the steps 
@@ -208,7 +208,7 @@ with them.
       \caption{Arduino IDE}
       \label{ard-ide}
 \end{figure}
-Software written using Arduino are called sketches. These sketches are
+Software written using Arduino is called sketches. These sketches are
 written in the text editor. Sketches are saved with the file extension
 ``.ino''. The frequently used icons shown in the toolbar, below the menu bar, are explained next. The names of these icons can be viewed by hovering the mouse pointer over each of them.
 
@@ -221,15 +221,15 @@ written in the text editor. Sketches are saved with the file extension
             sketchbook - clicking one will open it within the current window
       \item Save: Saves your sketch
       \item Serial Monitor: Opens the serial port window - the location of
-            this is shown in the top right hand corner of \figref{ard-ide}
+            this is shown in the top right-hand corner of \figref{ard-ide}
 \end{enumerate}
-Note that these appear from left to right in the editor window. Next, we shall go through the additional useful options under menu.
+Note that these appear from left to right in the editor window. Next, we shall go through the additional useful options under the menu.
 \begin{enumerate}
       \item File
             \begin{enumerate}
                   \item Examples: Examples that come at the time of installation
-                  \item Page Setup: Configures the page parameters for printer
-                  \item Preferences: Customizes font, language and other parameters for
+                  \item Page Setup: Configures the page parameters for the printer
+                  \item Preferences: Customizes font, language, and other parameters for
                         the IDE
             \end{enumerate}
       \item Sketch
@@ -270,37 +270,37 @@ example program.
       \item In the Arduino IDE, to know the path of your sketch files,
             navigate to File, then Preferences and then locate the ``Sketchbook
             location'' text box at the top.  You may change the path of your
-            storage location. In this book we will keep it unchanged. The path
+            storage location. In this book, we will keep it unchanged. The path
             will be different for Windows and Ubuntu.
       \item To load a sample program, navigate and click on sketch ``File'',
             then Examples, then 01.Basics, and then Blink.
       \item A new IDE instance will open with Blink LED code.  You may close
             the previous IDE window now.
-      \item Click ``verify'' to compile. The ``status bar'' below text editor
+      \item Click ``verify'' to compile. The ``status bar'' below the text editor
             shall show ``Done compiling'' on success.
       \item Connect Arduino UNO board to PC. You may connect the board
             before writing the sketch too.
-      \item Now, navigate to ``Tools'', then Port and select the available
-            port. If port option is greyed out (or disabled) then reinsert the
-            USB cable to PC.
+      \item Now, navigate to ``Tools'', then Port, and select the available
+            port. If the port option is greyed out (or disabled) then reinsert the
+            USB cable to the PC.
       \item Now select the upload button to compile and send the firmware to
             the Arduino Uno board.
       \item If the upload is successful, you will notice the onboard orange LED
             next to the Arduino logo will start blinking.
-      \item It is safe to detach USB cable at any moment.
+      \item It is safe to detach the USB cable at any moment.
 \end{enumerate}
 
 Arduino programming syntax is different from other languages. In an
-embedded set up, a program is expected to run forever. To facilitate
-this, Arduino programming structure has two main functions: setup():
-Used to initialize variables, pin modes, libraries etc. The setup
-function will run only once after each power up or board reset.
+embedded setup, a program is expected to run forever. To facilitate
+this, the Arduino programming structure has two main functions: setup():
+Used to initialize variables, pin modes, libraries, etc. The setup
+function will run only once after each powerup or board reset.
 loop(): Code inside this function runs forever. An Arduino program
 must have setup() and loop() functions.  We will give several examples
 in this book to explain this usage.
 
 An inbuilt offline help is available within the IDE. You may access
-explanation on IDE by navigating to ``Help'' and then
+the explanation on IDE by navigating to ``Help'' and then
 Environment. Access Arduino language reference at ``Help'' and then
 Reference. Access FAQs and troubleshooting tricks at ``Help'' and then
 Troubleshooting.
@@ -371,32 +371,32 @@ properly installed.  The first few lines of this code follow.
 
 \section{Scilab}
 \label{sec:sci-start}
-Scilab is a free and open source computing software for science and
+Scilab is a free and open-source computing software for science and
 engineering applications \cite{scilab-ref}. It is released under GPL
-compatible CeCILL licence.  It uses the state of the art linear
+compatible CeCILL license.  It uses the state-of-the-art linear
 algebra package LAPACK, just as in Matlab.  Scilab has hundreds of
 inbuilt functions which cater to a variety of areas such as signal
-processing, control system design, statistics, optimization and many
+processing, control system design, statistics, optimization, and many
 more. It has 2D and 3D visualisation capabilities for generating
 excellent plots. It provides Matlab binary files reading and writing
 capabilities and also a Matlab to \scilab\ conversion tool. Scilab can
 also interact with other major programming languages such as Fortran,
-C, C++, Python, Java and TCL/TK \cite{scilab-interop}.  It has a
+C, C++, Python, Java, and TCL/TK \cite{scilab-interop}.  It has a
 graphical editor called Xcos, which is similar to Simulink of Matlab. 
 
 \subsection{Downloading and installing \scilab}\label{scilab-installation}
 Scilab can be downloaded free of cost from {\tt https://www.scilab.org/}. It is
-available for all popular operating systems, including Windows, Linux
+available for all popular operating systems, including Windows, Linux,
 and Mac OS X systems.  This book uses Scilab-5.5.2 for demonstrating
 the experiments, both on Windows and Linux.
 
-For Windows system, the downloaded file is an executable (.exe) file.
-It has to be double clicked to start the installation. All the default
+For the Windows system, the downloaded file is an executable (.exe) file.
+It has to be double-clicked to start the installation. All the default
 parameters of installation are acceptable.  It has to be noted that
 \scilab\ requires internet connectivity during installation on
-Windows.  There is an option in the beginning of the installation to
+Windows.  There is an option at the beginning of the installation to
 continue offline but it is not recommended.  Scilab can be launched
-either from the Start menu or by double clicking on \scilab\ icon
+either from the Start menu or by double-clicking on the \scilab\ icon
 created on the Desktop (if any).
 
 Package managers of Linux do not have the latest versions of Scilab.
@@ -436,8 +436,8 @@ many sub-directories as per the experiments.
 Let us now see how to load the Scilab Arduino toolbox. 
 \begin{enumerate}
       \item First launch \scilab. On a Windows system, one may start/launch
-            \scilab\ either through the Start menu or by double clicking on the
-            shorcut icon created on the Desktop. On a Linux system, one has to
+            \scilab\ either through the Start menu or by double-clicking on the
+            shortcut icon created on the Desktop. On a Linux system, one has to
             start \scilab\ through a terminal with root permissions, as
             explained in section \ref{scilab-installation}.
       \item After launching \scilab, first we have to change the working
@@ -462,14 +462,14 @@ Let us now see how to load the Scilab Arduino toolbox.
             \end{figure}
       \item After the previous step, the \scilab\ working directory becomes
             the toolbox folder.  See the {\tt file browser} panel on the
-            left hand side of the \scilab\ console, see \figref{builder}.  It
+            left-hand side of the \scilab\ console, see \figref{builder}.  It
             will list out the contents of your current working directory. For a
             check, look for the file {\tt builder.sce}.  If you see this file,
             then you are in the right directory.
       \item Next, type the following command on the \scilab\ console: {\tt
             exec builder.sce} - this will build the toolbox and create a file
                   {\tt loader.sce}. This step has to be executed only the first
-            time. Output of this step is illustrated in \figref{builder}.
+            time. The output of this step is illustrated in \figref{builder}.
             \begin{figure}
                   \centering
                   \includegraphics[width=\linewidth]{\LocSWfig/builder.png}
@@ -479,10 +479,10 @@ Let us now see how to load the Scilab Arduino toolbox.
       \item Next, type the command,
             {\tt exec loader.sce} -
             this will load the toolbox. This means all the new functions
-            corresponding to the toolbox are all loaded in the workspace. It
+            corresponding to the toolbox are loaded in the workspace. It
             will also make available new Xcos blocks, if any.  The
             output of this command is as shown in \figref{loader}.  If you clear
-            the work space for any reason, you will have to execute this command
+            the workspace for any reason, you will have to execute this command
             once again\footnote{Be careful
                   not to execute the {\tt clear} command.  This will clear the loaded
                   toolbox and you will have to execute the loader.sce file again.}
@@ -498,7 +498,7 @@ The toolbox is now loaded and available for use.
 \subsection{Identifying Arduino communication port number}
 
 Connect \arduino\ board to your computer. On a Windows system, doing
-so for the first time will initiate Windows device identification
+so for the first time will initiate the Windows device identification
 routine. It may take a while before it finishes assigning a COM port
 number to the \arduino\ board.  If Arduino IDE is installed using the
 procedure outlined in \secref{arduino-ide}, required USB drivers for
@@ -508,9 +508,9 @@ usually Linux systems come with required drivers, the device is
 automatically detected by the OS on connection.
 
 Now let us see how to identify the COM port number. For a Windows
-system, open the Device Manager. To do so, right click on ``My
+system, open the Device Manager. To do so, right-click on ``My
 Computer'' and choose Properties. The Properties window that will open
-will have Device Manager in the list on the left hand side. In the
+will have Device Manager in the list on the left-hand side. In the
 Device Manager window, look for ``Ports (COM and LPT)''. Double click on
 it. It will show you the COM number for \arduino. 
 
@@ -542,7 +542,7 @@ Settings'' tab and then click on ``Advanced'' button as shown in
       \label{com}
 \end{figure}
 
-Click on the drop down menu for COM port numbers. Choose the port
+Click on the drop-down menu for COM port numbers. Choose the port
 number COM2.  On clicking on ``OK'', Windows may warn you that the port
 number is already in use. But given that you do not have any other USB
 device connected you may force change it. Click on ``OK'' to close
@@ -555,7 +555,7 @@ system. Open a terminal by pressing Alt+Ctrl+T keys together. Then
 type the following command and press enter, {\tt ls
             /dev/ttyACM*} -
 the output of this command is shown in \figref{linux-port}. It has
-detected the Arduino with port number ``ttyACM0''.  The last character
+detected the Arduino with the port number ``ttyACM0''.  The last character
 in this string, namely 0, is the port number.  You may get 0 or a
 number such as 1 or 2 in your case, for the port number.
 
@@ -667,10 +667,10 @@ Xcos is a graphical editor for \scilab\ \cite{xcos-ref}. Most of the
 mathematical manipulations that can be done using \scilab\ scripts,
 can be done using Xcos also.  The major advantage of Xcos is the
 intuitive interface and easy connectivity across blocks. Xcos even
-supports {\tt if else}, {\tt for} and {\tt while} looping which form
+supports {\tt if else}, {\tt for}, and {\tt while} looping which forms
 an integral part of any programming language. It is possible to code
 the entire algorithm using Xcos blocks alone. It is also possible to
-read from and write to \scilab\ workspace through Xcos.
+read from and write to the \scilab\ workspace through Xcos.
 
 \subsection{Downloading, installing and testing}
 Xcos comes pre-installed with \scilab. Hence a separate installation
@@ -682,7 +682,7 @@ available on the \scilab\ menu bar. It can also be launched by simply
 typing the command {\tt xcos} in the \scilab\ console. When Xcos is
 launched, it will open a palette browser.  We have shown this in
 \figref{sine-blk}, where we have selected a sine block.  At the time
-of launch, Xcos will also open an empty canvas, called untitled
+of launch, Xcos will also open an empty canvas, called an untitled
 Xcos window.
 
 \begin{figure}
@@ -709,8 +709,8 @@ Xcos window.
 
 Palette browser shows all of the available blocks that can be used. It
 has been nicely categorized as per the functionality. For example,
-blocks which generate signals/values without any input, fall under the
-category {\tt Sources}. Similarly, blocks which take signals/values
+blocks that generate signals/values without any input, fall under the
+category {\tt Sources}. Similarly, blocks that take signals/values
 without giving any output are categorized as {\tt Sinks}. This makes
 finding a particular block very easy, specially when one does not know
 the name of a block.
@@ -730,12 +730,12 @@ block in the untitled Xcos window.
 Next, we need a block to plot the sine wave. A plotting block can be
 found in the {\tt Sinks} category as shown in \figref{plot-blk}. The
 name of this block is CSCOPE. Drag and drop this block in the untitled
-Xcos window.  On the left hand side, this block has an input port for
+Xcos window.  On the left-hand side, this block has an input port for
 data.  It is black in colour, which may not be obvious in a black and
-white print out.  The output from the sine block has to be connected
+white printout.  The output from the sine block has to be connected
 to this port.  At its top side, the CSCOPE block has another input
 port, called an event port.  This is red in colour.  This port is used
-to synchronise it with event generating devices.
+to synchronize it with event generating devices.
 
 \begin{figure}
       \centering
@@ -745,7 +745,7 @@ to synchronise it with event generating devices.
 \end{figure}
 
 As the CSCOPE block has an
-input event port, we need a source which generates events. Hence, the
+input event port, we need a source that generates events. Hence, the
 next block that we need is an event generator block and it can be
 found in the {\tt Sources} category. This is illustrated in figure
 \ref{clk-blk}. The name of this block is CLOCK\_c. Drag and drop this
@@ -759,17 +759,17 @@ block in the untitled Xcos window.
 \end{figure}
 
 The next step is to interconnect the blocks together. A black color
-port can only be connected to other black color port. A black color
+port can only be connected to another black color port. A black color
 port cannot be connected to a red color port and vice versa.  That is,
 a data port cannot be connected to an event port.  Linking
-two blocks is bit crucial and may need a few attempts before one gets
+two blocks is a bit crucial and may need a few attempts before one gets
 comfortable. To link two blocks, first click and hold the left mouse
 button over the output port of the source block. Without releasing the
 mouse button, touch the mouse pointer to the input port of the sink
 block. If a connection is possible there, the port will turn
 ``green''. At this point, release the mouse button and the blocks should
 get connected. Follow this procedure and complete the connection as
-shown in the \figref{sine-gen}.  Save this file with name {\tt
+shown in \figref{sine-gen}.  Save this file with the name {\tt
             sine-generator}.  
 
 \begin{figure}
@@ -812,7 +812,7 @@ of the CSCOPE block.  That is, change it to 30 as shown in
 \figref{sim-setup}. Now start the simulation and you will get a static
 plot.  Other paramenters of blocks can also be changed. For example,
 one may want to change the input amplitude/frequency or change the
-plot scales etc. All these are left to the reader to explore.
+plot scales, etc. All these are left to the reader to explore.
 
 \begin{figure}
       \centering
@@ -829,20 +829,20 @@ from Xcos.  It is also possible to create subsystems.
 One can even read from and write to C binaries.  Xcos comes with
 several pre-defined libraries and hence, it is possible to carry out
 other kinds of simulation, such as electrical circuit simulation and
-basic thermo-hydraulic simulation, for example.  A detailed
-explanation and demonstration is beyond the scope for this book.
+basic thermo-hydraulic simulation, for example.  A detailed 
+explanation and demonstration are beyond the scope of this book.
+
 
 \subsection{Xcos-Arduino}
 The \scilab\ Arduino toolbox not only provides functions to be used in
-\scilab\ scripts but also provides with new Arduino-specific blocks. As
+\scilab\ scripts but also provides new Arduino-specific blocks. As
 shown in \figref{arduino-palette} new Arduino blocks are now available
 for use.  Similar to the categorization of the functions, the Xcos
 blocks are also categorized as configuration, digital, analog and
 motors. Again, it is possible to conduct the experiments only using
-Xcos. Xcos codes for every experiment are provided througout the
+Xcos. Xcos codes for every experiment are provided throughout the
 book. The Arduino blocks can be easily connected to Xcos native
-blocks. A detailed block help for every block can be sought by right
-clicking on the block and choosing ``Block help''. This is illustrated
+blocks. A detailed block help for every block can be sought by right-clicking on the block and choosing ``Block help''. This is illustrated
 in \figref{blk-help}.
 
 \begin{figure}
@@ -863,7 +863,7 @@ in \figref{blk-help}.
 \section{Python}
 \label{sec:python-start}
 Python is a general-purpose, high-level, remarkably powerful dynamic programming language 
-that is used in a wide variety of application domains. Its high-level built in data structures, 
+that is used in a wide variety of application domains. Its high-level built-in data structures, 
 combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, 
 as well as for use as a scripting or glue language to connect existing components together. 
 Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. 
@@ -878,10 +878,10 @@ available for all popular operating systems, including Windows, Linux
 and Mac OS X systems.  This book uses Python 3.5 for demonstrating
 the experiments, both on Windows and Linux.
 
-For Windows system, the downloaded file is an executable (.exe) file. One can download 
+For the Windows system, the downloaded file is an executable (.exe) file. One can download 
 this executable file (32-bit or 64-bit as per your system) from Python's webpage i.e.,
 {\tt https://www.python.org/downloads/windows/}. 
-It has to be double clicked to start the installation. All the default parameters of installation
+It has to be double-clicked to start the installation. All the default parameters of installation
 are acceptable. Once Python has completed the downloading and installation process, we can verify whether
 Python is installed correctly. For this, we need to open Windows PowerShell using the Start menu. 
 Once PowerShell is open, enter {\tt Python -{}-version} to confirm that Python has installed on your machine. 
@@ -1012,7 +1012,7 @@ Possible errors:
             julia>Pkg.clone("paste link")
             
       \item PyCall error
-            This error may occur if the Python installed on your system is the 32 bit version, whereas the Julia that you just installed is the 64 bit version.
+            This error may occur if the Python installed on your system is the 32-bit version, whereas the Julia that you just installed is the 64-bit version.
             Sol: In Julia terminal, type:
             julia> ENV["PYTHON"]="";Pkg.build ("PyCall")
             Let the packages download and install.
@@ -1021,11 +1021,11 @@ Possible errors:
 Julia should work fine now.
 
 
-\item Other platform specific instructions can be found at \\ 
+\item Other platform-specific instructions can be found at \\ 
 http://www.julialang.org/downloads/platform.html 
 
 \item You can also clone the source repository and compile/build it to get the  
-latest development version of julia. However this may prove to be unstable.
+latest development version of Julia. However, this may prove to be unstable.
 https://github.com/JuliaLang/julia/tree/master 
 
 \end {enumerate}
@@ -1040,7 +1040,7 @@ https://github.com/JuliaLang/julia/tree/master
 
 \subsection{Downloading and installing Juno IDE}\label{juno-ide-installation}
 
-Juno is a powerful IDE for the Julia language, hosted as a package on the Atom IDE. Installing it also installs some common Julia packages such as PyCall and Plots.The package is hosted at \\
+Juno is a powerful IDE for the Julia language, hosted as a package on the Atom IDE. Installing it also installs some common Julia packages such as PyCall and Plots. The package is hosted at \\
 https://github.com/JunoLab/uber-juno/blob/master/setup.md 
 
 Download, install and open Atom. If you have it already, make sure it's up to date (version 1.7+).
@@ -1063,7 +1063,7 @@ Julia filenames have the extension '.jl' . There are several ways to run a julia
 
 \begin{enumerate}
       \item By clicking the Run button in the above environment. This runs the file as a whole and prints any output on the console. Pressing 'Ctrl$+$Enter' evaluates and runs only the line on which the cursor is present.
-      \item In the julia REPL: Typing 'include("filename.jl")'' at the julia prompt runs the file. Note that this works only if the file is in the present working directory. Otherwise the entire path to the file should be mentioned in the include command. Alternatively, you can change the present directory to the one in which the file is available by typing ';'.
+      \item In the Julia REPL: Typing 'include("filename.jl")'' at the Julia prompt runs the file. Note that this works only if the file is in the present working directory. Otherwise, the entire path to the file should be mentioned in the include command. Alternatively, you can change the present directory to the one in which the file is available by typing ';'.
       \item In the terminal: Navigate to the directory with the file and type command 'julia filename.jl'
 \end{enumerate}
 
@@ -1083,7 +1083,7 @@ Registered packages (those which are listed in the 'packages' section on the jul
 
 julia> Pkg.add("Pyplot").
 
-All julia packages are GitHub repositories which can be cloned via the appropriate protocol. Unregistered packages which cannot be added as above can be added using Pkg.clone() command and the git clone url. For example,
+All Julia packages are GitHub repositories that can be cloned via the appropriate protocol. Unregistered packages which cannot be added as above can be added using Pkg.clone() command and the git clone URL. For example,
 
 julia> Pkg.clone("https://github.com/cshekhard/MyPackage.jl.git") 
 
@@ -1099,7 +1099,7 @@ To install:
 \item julia> Pkg.clone ("https://github.com/cshekhard/SerialPorts.jl.git")
 
 Make sure the package is installed by checking Pkg.status() again.
-After a package is installed, it is imported into the current julia session with the keyword 'using'
+After a package is installed, it is imported into the current Julia session with the keyword 'using'
 
 \item julia> using SerialPorts
 The toolbox is now loaded and available for use. 
@@ -1116,7 +1116,7 @@ This is because when we use include("ArduinoTools.jl"), the function 'include' s
 
 The generic functions available with this package are:
 \begin{enumerate}
-      \item write() - To write data into serial port. Returns the number of bytes written.
+      \item write() - To write data into a serial port. Returns the number of bytes written.
             It has three methods:
             \begin{enumerate}
                   \item write(ser::SerialPort,data::UInt8) :
@@ -1174,8 +1174,8 @@ properly installed.  That code is listed below.
 
 \section{OpenModelica}
 \label{sec:OpenModelica-start}
-OpenModelica is a free and open source environment based on the Modelica modeling language for simulating, optimizing and analyzing complex
-dynamic systems.OpenModelica is a powerful tool that can be used to design and
+OpenModelica is a free and open-source environment based on the Modelica modeling language for simulating, optimizing, and analyzing complex
+dynamic systems. OpenModelica is a powerful tool that can be used to design and
 simulate complete control systems.The toolbox 'OpenModelica-Arduino'
 enables the interfacing of Arduino with OpenModelica by calling a set of c functions
 from OpenModelica.   
@@ -1213,7 +1213,7 @@ But in our case, we will execute the code by OMEdit.
 
 \begin{itemize}
       \item On Ubuntu systems by pressing 'Ctrl$+$Alt$+$T', a new terminal will come up.
-      \item Then type 'OMEdit' to start OMEdit connection editor. On Widows, OMEdit can be started by clicking on 'OMEdit Connection Editor' icon.
+      \item Then type 'OMEdit' to start the OMEdit connection editor. On Windows, OMEdit can be started by clicking on the 'OMEdit Connection Editor' icon.
       \item Now from File -> Load Model/Libray File(s) browse to the folder having files having .mo extensions and open it on the OMEdit Editor.
       \item But as OMEdit is a graphical editor so at the first instance, the texts on the code won't be visible on it.
       \item To see the codes, click on the 'Text View' icon.
@@ -1226,9 +1226,9 @@ But in our case, we will execute the code by OMEdit.
 \begin{itemize}
       \item To install and run the OpenModelica Arduino toolbox, browse to
             File -> Open Model and browse to Arduino.mo in the OpenModelica-Arduino-Windows/Linux library and load it.
-      \item Click on the '$+$' on left side of Arduino on OMEdit
+      \item Click on the '$+$' on the left side of Arduino on OMEdit
       \item Then click on '$+$' on the left side of SerialCommunication
-      \item Now, click on '$+$' on the left side next to Examples icon. Then you will come to see all
+      \item Now, click on '$+$' on the left side next to the Examples icon. Then you will come to see all
             the experiments available on this toolbox. You can perform any experiment by clicking on the experiment
             name and then execute the 'Simulate' button. 
       \item But don't forget to load the arduino\_firmware used for scilab-arduino to the Arduino board.
