@@ -40,10 +40,11 @@
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Linux terminal to launch Julia\relax }}{45}%
 \contentsline {figure}{\numberline {3.26}{\ignorespaces Linux Atom Text Editor\relax }}{46}%
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Setup of Modelica Standard Library version\relax }}{49}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces User Interface of OMEdit (OpenModelica Connection Editor)\relax }}{50}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Opening a model in OMEdit (OpenModelica Connection Editor)\relax }}{51}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces User Interface of OMEdit (OpenModelica Connection Editor)\relax }}{51}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Output window of OMEdit\relax }}{52}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces User Interface of OMEdit\relax }}{50}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{51}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Different views of a model in OMEdit\relax }}{51}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Opening a model in text view in OMEdit\relax }}{52}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Output window of OMEdit\relax }}{52}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{55}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{56}%

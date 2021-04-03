@@ -1201,7 +1201,7 @@ Connection Editor (OMEdit) can be launched either from the Start menu or by doub
 On Linux, we can install OpenModelica from the terminal. The readers are advised to visit 
 {\tt https://openmodelica.org/download/download-linux} and follow the instructions for installing OpenModelica.
 We recommend the readers should install the latest stable version of OpenModelica. 
-Once OpenModelica has been installed successfully, OpenModelica Connection Editor (OMEdit) can be launched
+Once OpenModelica has been installed successfully, OMEdit can be launched
 from the terminal. Open a terminal by pressing Alt+Ctrl+T and type OMEdit. When you 
 launch OMEdit for the first time, you might get a notification for setting up 
 Modelica Standard Library version, as shown in \figref{om-help}. Here, you 
@@ -1213,8 +1213,6 @@ should choose the option "Load MSL v3.2.3" and click OK.
       \caption{Setup of Modelica Standard Library version}
       \label{om-help}
 \end{figure}
-
-
 
 \subsection{Simulating models in OpenModelica}\label{OpenModelica-code-execution}
 Once you launch OMEdit, you should expect a user interface, 
@@ -1245,17 +1243,9 @@ Modelica Standard Library version, as given in \figref{om-help}.
 \begin{figure}
       \centering
       \includegraphics[width=\lgfig]{\LocSWfig/OMEdit-UI.png}
-      \caption{User Interface of OMEdit (OpenModelica Connection Editor)}
+      \caption{User Interface of OMEdit}
       \label{om-ui}
 \end{figure}
-
-For our experiments, we will use Modeling Perspective mainly. In this perspective, there 
-are four different views of a model: Icon View, Diagram View, Text View, 
-and Documentation View. All these views have been highlighted in Fig. 
-By default, OMEdit opens any model in Diagram View. Hence, the models 
-having code in text format won't be visible by defalt in Modeling 
-perspective. To see the code in text format, we need to open the model in 
-Text View. For our experiments, we will use Text view mainly. 
 
 The files or models in OpenModelica have `.mo' extensions. Though there are several ways to simulate or run 
 an OpenModelica model, we will execute the models by utilizing the user interface of OMEdit. To open 
@@ -1267,22 +1257,36 @@ of difference in these names while working with other versions of OpenModelica.
 \begin{figure}
       \centering
       \includegraphics[width=\lgfig]{\LocSWfig/om-Modeling.png}
-      \caption{Opening a model in OMEdit (OpenModelica Connection Editor)}
+      \caption{Opening a model in diagram view in OMEdit}
       \label{om-modeling}
 \end{figure}
+
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-modeling-views.png}
+      \caption{Different views of a model in OMEdit}
+      \label{om-views}
+\end{figure}
+
 
 \begin{figure}
       \centering
       \includegraphics[width=\lgfig]{\LocSWfig/om-text-view.png}
-      \caption{User Interface of OMEdit (OpenModelica Connection Editor)}
+      \caption{Opening a model in text view in OMEdit}
       \label{om-text-view}
 \end{figure}
 
 Once you have opened the model in OMEdit, that model should appear under the Libraries
-browser, as shown in \figref{om-ui}. To simulate that model, you need to 
+browser, as shown in \figref{om-ui}. To view or simulate that model, you need to 
 double-click on the model. It will open the model in Modeling perspective with a Diagram View, as shown 
-in the \figref{om-modeling}. To view the code written for this model, 
-we need click on Text View, as shown in Fig. In Text view, the code is now visible, as 
+in the \figref{om-modeling}. In this perspective, there are four different views of 
+a model: Icon View, Diagram View, Text View, and Documentation View. All these views have been highlighted in \figref{om-views}. 
+By default, OMEdit opens any model in Diagram View. Hence, the models 
+having code in text format won't be visible by default in Modeling 
+Perspective. To see the code in text format, we need to open the model in 
+Text View. For our experiments, we will use Text view mainly. To view the code written for this model, 
+we need to click on Text View, as shown in \figref{om-views}. In Text view, the code is now visible, as 
 shown in \figref{om-text-view}. Now, one can modify the model as per the requirements. 
 
 Now, we will see how to simulate this model. For this, we need to ensure that OMEdit 
@@ -1293,12 +1297,14 @@ As OMEdit provides an elegant user interface for simulating the models,
 it will open an output window the moment you click on Simulate. \figref{om-sim-success}
 shows the output window after the simulation of our model is finished. Also, we can
 observe that the OMEdit is now in Plotting Perspective. 
+
 \begin{figure}
       \centering
       \includegraphics[width=\lgfig]{\LocSWfig/om-sim-success.png}
       \caption{Output window of OMEdit}
       \label{om-sim-success}
 \end{figure}
+
 As shown in \figref{om-sim-success}, OMEdit displays the message that "The 
 Simulation finished successfully". Had there been any error in simulating the model, 
 we would not have received this message. 
