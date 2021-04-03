@@ -124,8 +124,8 @@ above.  Then carry out the following:
 
 \begin{enumerate}
       \setcounter{enumi}2
-      \item First, update your system. Open the terminal emulator, type, 
-      {\tt sudo apt-get update} and press Enter. 
+      \item First, update your system. Open the terminal emulator, type,
+            {\tt sudo apt-get update} and press Enter. 
       \item Find out your operating system support for 64-bit
             instructions. Open the terminal emulator and type, {\tt uname -m}
       \item If it returns ``x86\_64'', then your computer has 64-bit
@@ -141,7 +141,7 @@ above.  Then carry out the following:
             steps on the terminal:
             \begin{quote}
                   {\tt cd {\large\textasciitilde}/Downloads\\
-                  tar -xvf arduino-1.8.13-linux64.tar.xz\\
+                        tar -xvf arduino-1.8.13-linux64.tar.xz\\
                         sudo mv arduino-1.8.13 /opt}
             \end{quote}
             
@@ -190,7 +190,14 @@ The Arduino IDE is now ready for use. There are chances that you might not
 get the Arduino shortcut on your Desktop after executing the commands given in 
 steps numbered \ref{itm:create-shortcut} and \ref{itm:give-permission}. 
 In that case, you can navigate into the {\tt /opt/} directory and execute the 
-commands as given in Fig. to start the Arduino IDE. 
+commands as given in \figref{arduino-opt} to start the Arduino IDE. 
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/launch-arduino-opt.png}
+      \caption{Linux terminal to launch Arduino IDE}
+      \label{arduino-opt}
+\end{figure}
 
 
 \subsection{Arduino Development Environment}
@@ -651,8 +658,8 @@ properly installed.  That code is listed below.
 
 \begin{scicode}
       \ccaption{A Scilab code to check whether the firmware is
-        properly installed or not}{A Scilab code to check whether the
-        firmware is properly installed or not.  Available at 
+            properly installed or not}{A Scilab code to check whether the
+            firmware is properly installed or not.  Available at 
             \LocSWchkbrief{test\_firmware.sce}. Execute this code 
             by following the steps given in section 
             \ref{sec:testing-scilab-arduino}.}
@@ -897,7 +904,7 @@ command {\tt sudo apt-get update}. Next, install Python3.5 by executing the comm
 {\tt sudo apt-get install python3.5}\\
 Now, we will install Python Serial Port Extension by executing the commands given below:\\ 
 {\tt sudo apt-get install python3-pip \\
-pip3 install pyserial}. 
+pip3 install pyserial}
 
 To execute a Python code (or script) on Linux, one should 
 navigate the terminal to the directory where the script is located using the {\tt cd} command.
@@ -906,26 +913,26 @@ Next, type {\tt python3 SCRIPTNAME.py} in the terminal to execute the script.
 % \begin{enumerate}
 %       \item On Ubuntu, Python can be installed from the command line by typing in the
 %             following commands:
-            
+
 %             \$ sudo apt-get install python3.5 \\
 %             This will install python 3.5 as this set of tools are compatible with python3. It also
 %             works all other versions of python3.  
 %             \$ pip3 install python-serial \\
 %             This will install serial package required for communicating with Arduino Uno.
 %       \item 1. On Windows,
-            
-            
+
+
 %             Download Windows python compiler Self Extracting Archive (.exe)  (32-bit or 64-bit as per your system) from https://www.python.org/downloads/windows/
-            
+
 %             Download Windows pyserial package .exe from https://pypi.python.org/pypi/pyserial/3.4.
 %             After downloading run the .exe file and follow the instructions.
-            
+
 %             Now that we have Python installed, open the terminal by typing 'Ctrl+Alt+T'.
 %             Enter the command 'python'. This opens the Python REPL (Read Eval Print Loop).
 %             Python files have .py extension and .py files can be executed by typing "python3 filename.py"
 %             on the python terminal. Please visit the link https://github.com/manasdas17/Python3-Arduino for 
 %             the library. 
-            
+
 % \end{enumerate}
 
 \subsection{Firmware}
@@ -1174,51 +1181,127 @@ properly installed.  That code is listed below.
 
 \section{OpenModelica}
 \label{sec:OpenModelica-start}
-OpenModelica is a free and open-source environment based on the Modelica modeling language for simulating, optimizing, and analyzing complex
-dynamic systems. OpenModelica is a powerful tool that can be used to design and
-simulate complete control systems.The toolbox 'OpenModelica-Arduino'
-enables the interfacing of Arduino with OpenModelica by calling a set of c functions
-from OpenModelica.   
+OpenModelica is a free and open-source environment based on the Modelica modeling language 
+for simulating, optimizing, and analyzing complex dynamic systems \cite{om-ref}.
+It is a powerful tool that can be used to design and simulate complete control systems. 
+% The toolbox 'OpenModelica-Arduino' enables the interfacing of Arduino with OpenModelica by calling a set of c functions from OpenModelica.   
+
+
+\subsection{Downloading and installing OpenModelica} \label{OpenModelica-installation}
+OpenModelica can be downloaded free of cost from {\tt https://openmodelica.org/}. 
+It is available for all popular operating systems, including Windows, Linux, 
+and Mac OS X systems. This book uses OpenModelica 1.17.0 for demonstrating the experiments, both on
+Windows and Linux.
+
+For the Windows system, the downloaded file is an executable (.exe) file. It has to
+be double-clicked to start the installation. All the default parameters of installation
+are acceptable. Once OpenModelica has been installed successfully, OpenModelica 
+Connection Editor (OMEdit) can be launched either from the Start menu or by double-clicking on the OMEdit icon created on the Desktop (if any).
+
+On Linux, we can install OpenModelica from the terminal. The readers are advised to visit 
+{\tt https://openmodelica.org/download/download-linux} and follow the instructions for installing OpenModelica.
+We recommend the readers should install the latest stable version of OpenModelica. 
+Once OpenModelica has been installed successfully, OpenModelica Connection Editor (OMEdit) can be launched
+from the terminal. Open a terminal by pressing Alt+Ctrl+T and type OMEdit. When you 
+launch OMEdit for the first time, you might get a notification for setting up 
+Modelica Standard Library version, as shown in \figref{om-help}. Here, you 
+should choose the option "Load MSL v3.2.3" and click OK.  
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/OMEdit-libraries.png}
+      \caption{Setup of Modelica Standard Library version}
+      \label{om-help}
+\end{figure}
 
 
 
+\subsection{Simulating models in OpenModelica}\label{OpenModelica-code-execution}
+Once you launch OMEdit, you should expect a user interface, 
+as shown in \figref{om-ui}. In the bottom right of \figref{om-ui}, we can 
+see that there are four different tabs - Welcome, Modeling, Plotting, and 
+Debugging. In the language of OpenModelica, we call these tabs Perspectives. 
+By default, OMEdit gets launched in the Welcome Perspective. 
+The Welcome Perspective shows the list of recent files and the list of the 
+latest news from {\tt https://www.openmodelica.org}. 
+The Modeling Perpective provides the 
+interface where users can create and design their models. 
+The Plotting Perspective shows the simulation results of the models. 
+Plotting Perspective will automatically become active 
+when the simulation of the model is finished successfully. 
+The application automatically switches to Debugging Perspective 
+when the user simulates the class with an algorithmic debugger \cite{om-ref}. The readers 
+are advised to visit {\tt https://openmodelica.org/} to know more about OMEdit. Apart
+from this, the readers should watch the tutorials on 
+OpenModelica provided on {\tt https://spoken-tutorial.org/}. Ideally, one should 
+go through all the tutorials labeled as Basic. However, we strongly recommend the readers should watch the second and third tutorials, i.e., 
+Introduction to OMEdit and Examples through OMEdit. 
 
-\subsection{Downloading and installing OpenModelica}\label{OpenModelica-installation}
+In the left of \figref{om-ui}, there is Libraries Browser below which you can view
+the list of libraries loaded in your current session of OMEdit. By default, OMEdit 
+comes with a few default libraries, like Modelica, ModelicaReference, etc., as shown in
+\figref{om-ui}. These default libraries might not be visible if you have not set up the
+Modelica Standard Library version, as given in \figref{om-help}. 
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/OMEdit-UI.png}
+      \caption{User Interface of OMEdit (OpenModelica Connection Editor)}
+      \label{om-ui}
+\end{figure}
 
-On Ubuntu, OpenModelica can be installed from the command line by typing in the 
-following commands:
+For our experiments, we will use Modeling Perspective mainly. In this perspective, there 
+are four different views of a model: Icon View, Diagram View, Text View, 
+and Documentation View. All these views have been highlighted in Fig. 
+By default, OMEdit opens any model in Diagram View. Hence, the models 
+having code in text format won't be visible by defalt in Modeling 
+perspective. To see the code in text format, we need to open the model in 
+Text View. For our experiments, we will use Text view mainly. 
 
-\$ for deb in deb deb-src; do echo "$deb http://build.openmodelica.org/apt $'lsb\_release -cs'$ stable$"; done | sudo tee /etc/apt/sources.list.d/openmodelica.list \\
-\$ wget -q http://build.openmodelica.org/apt/openmodelica.asc -O- | sudo apt-key add -  \\
-\$ apt-key fingerprint
-\$ sudo apt-get update \\
-\$ sudo apt-get install openmodelica \\
-\$ sudo apt install omlib-.* \\
-On Windows,
-download Windows Self Extracting Archive (.exe)  (32-bit or 64-bit as per your system) from https://openmodelica.org/download/download-windows. Run the .exe file and follow the instructions to complete the
-installation.
+The files or models in OpenModelica have `.mo' extensions. Though there are several ways to simulate or run 
+an OpenModelica model, we will execute the models by utilizing the user interface of OMEdit. To open 
+a model in OMEdit, go to the menu bar of OMEdit and click on File -> Open Model/Library File(s). Then, 
+select the desired model (with `.mo' extension) and click Open. The names of tabs in
+this book have been mentioned according to OpenModelica 1.17.0. You might observe a bit
+of difference in these names while working with other versions of OpenModelica. 
 
-%This process is illustrated in
-%\figref{linux-cd}.
-%\begin{figure}
-%\centering
-%\includegraphics[scale=0.5]{\LocSWfig/linux-cd.png}
-%\caption{Linux terminal to launch Scilab}
-%\label{linux-cd}
-%\end{figure}
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-Modeling.png}
+      \caption{Opening a model in OMEdit (OpenModelica Connection Editor)}
+      \label{om-modeling}
+\end{figure}
 
-\subsection{Executing OpenModelica}\label{OpenModelica-code-execution}
-OpenModelica filenames have the extension '.mo' . There are several ways to run an OpenModelica file.
-But in our case, we will execute the code by OMEdit.
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-text-view.png}
+      \caption{User Interface of OMEdit (OpenModelica Connection Editor)}
+      \label{om-text-view}
+\end{figure}
 
-\begin{itemize}
-      \item On Ubuntu systems by pressing 'Ctrl$+$Alt$+$T', a new terminal will come up.
-      \item Then type 'OMEdit' to start the OMEdit connection editor. On Windows, OMEdit can be started by clicking on the 'OMEdit Connection Editor' icon.
-      \item Now from File -> Load Model/Libray File(s) browse to the folder having files having .mo extensions and open it on the OMEdit Editor.
-      \item But as OMEdit is a graphical editor so at the first instance, the texts on the code won't be visible on it.
-      \item To see the codes, click on the 'Text View' icon.
-\end{itemize}
+Once you have opened the model in OMEdit, that model should appear under the Libraries
+browser, as shown in \figref{om-ui}. To simulate that model, you need to 
+double-click on the model. It will open the model in Modeling perspective with a Diagram View, as shown 
+in the \figref{om-modeling}. To view the code written for this model, 
+we need click on Text View, as shown in Fig. In Text view, the code is now visible, as 
+shown in \figref{om-text-view}. Now, one can modify the model as per the requirements. 
 
+Now, we will see how to simulate this model. For this, we need to ensure that OMEdit 
+is in Modeling Perspective. Next, we will click on the green right-sided arrow, named as 
+Simulate, as shown in the Fig. When we click on Simulate, OMEdit will first 
+compile the model and then, it will simulate the model for the time specified in the model itself. 
+As OMEdit provides an elegant user interface for simulating the models, 
+it will open an output window the moment you click on Simulate. \figref{om-sim-success}
+shows the output window after the simulation of our model is finished. Also, we can
+observe that the OMEdit is now in Plotting Perspective. 
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-sim-success.png}
+      \caption{Output window of OMEdit}
+      \label{om-sim-success}
+\end{figure}
+As shown in \figref{om-sim-success}, OMEdit displays the message that "The 
+Simulation finished successfully". Had there been any error in simulating the model, 
+we would not have received this message. 
 
 
 \subsection{OpenModelica Arduino toolbox}
@@ -1426,7 +1509,7 @@ But in our case, we will execute the code by OMEdit.
 %% \lstset{style=mystyle}
 %% \label{sec:hw-arduino}
 %% \addtocontents{ard}{\protect\addvspace{\codclr}}
- 
+
 
 %python code
 %%%%%%%%%end python code

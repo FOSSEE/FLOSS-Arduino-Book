@@ -1,28 +1,28 @@
-\contentsline {section}{\numberline {3.{1}}First 10 lines of the Arduino firmware}{24}%
+\contentsline {section}{\numberline {3.{1}}First 10 lines of the Arduino firmware}{25}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{56}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{57}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{57}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{57}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{60}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{61}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{61}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{61}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{82}%
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{82}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{86}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{86}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{99}%
-\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{99}%
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{103}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{103}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{115}%
-\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{115}%
-\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{115}%
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{119}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{119}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{119}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{135}%
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{139}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{148}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{149}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{152}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{153}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{165}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{166}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in increments}{166}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor through the potentiometer}{167}%
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{169}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{170}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in increments}{170}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor through the potentiometer}{171}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{199}%
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{203}%
