@@ -1249,10 +1249,17 @@ Modelica Standard Library version, as given in \figref{om-help}.
 
 The files or models in OpenModelica have `.mo' extensions. Though there are several ways to simulate or run 
 an OpenModelica model, we will execute the models by utilizing the user interface of OMEdit. To open 
-a model in OMEdit, go to the menu bar of OMEdit and click on File -> Open Model/Library File(s). Then, 
-select the desired model (with `.mo' extension) and click Open. The names of tabs in
+a model in OMEdit, go to the menu bar of OMEdit and click on File -> Open Model/Library File(s), as shown 
+in \figref{om-model-open}. Then, select the desired model (with `.mo' extension) and click Open. The names of tabs in
 this book have been mentioned according to OpenModelica 1.17.0. You might observe a bit
 of difference in these names while working with other versions of OpenModelica. 
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-open-model.png}
+      \caption{Opening a model in OMEdit}
+      \label{om-model-open}
+\end{figure}
 
 \begin{figure}
       \centering
@@ -1311,17 +1318,46 @@ we would not have received this message.
 
 
 \subsection{OpenModelica Arduino toolbox}
+OpenModelica, by default, does not have the capability to connect to Arduino. 
+All such add-on functionalities are added to OpenModelica using toolboxes. 
+The OpenModelica-Arduino toolbox can be found inside
+the {\tt Origin/tools/windows} or {\tt Origin/tools/linux} directory,
+see \fnrefp{fn:file-loc}.  Use the one depending upon
+which operating system you are using. The OpenModelica codes for various
+experiments mentioned throughout this book can be found in {\tt Origin/user-code} directory. The {\tt user-code} directory will have
+many sub-directories as per the experiments. 
 
-\begin{itemize}
-      \item To install and run the OpenModelica Arduino toolbox, browse to
-            File -> Open Model and browse to Arduino.mo in the OpenModelica-Arduino-Windows/Linux library and load it.
-      \item Click on the '$+$' on the left side of Arduino on OMEdit
-      \item Then click on '$+$' on the left side of SerialCommunication
-      \item Now, click on '$+$' on the left side next to the Examples icon. Then you will come to see all
-            the experiments available on this toolbox. You can perform any experiment by clicking on the experiment
-            name and then execute the 'Simulate' button. 
-      \item But don't forget to load the arduino\_firmware used for scilab-arduino to the Arduino board.
-\end{itemize}
+Let us now see how to load the OpenModelica Arduino toolbox. 
+\begin{enumerate}
+      \item First launch OMEdit. On a Windows system, one may start/launch
+            OMEdit either through the Start menu or by double-clicking on the
+            shortcut icon created on the Desktop. On a Linux system, one has to
+            start OMEdit through a terminal, as
+            explained in section \ref{OpenModelica-installation}.
+      \item After launching, we have to load OpenModelica-Arduino 
+            toolbox. To do so, go to the menu bar of OMEdit. 
+            Click on {\tt File} and then click on
+            the {\tt Open Model/Library File(s)} option as shown in \figref{om-model-open}.
+      \item Navigate to {\tt Origin/tools/windows/OpenModelica-Arduino}, select \\ {\tt Arduino.mo}, 
+            and click Open. 
+      \item In OMEdit, under Libraries Browser, look for three new libraries: Arduino, 
+      Modelica\_Synchronous, and Modelica\_DeviceDrivers. If you are able to view these three,
+      it means that OpenModelica-Arduino toolbox has been loaded successfully. 
+      Please note that each time you launch OMEdit, you need to load this toolbox for
+      performing the experiments. 
+\end{enumerate}
+The toolbox is now loaded and available for use.
+
+%\begin{itemize}
+%      \item To install and run the OpenModelica Arduino toolbox, browse to
+%            File -> Open Model and browse to Arduino.mo in the OpenModelica-Arduino-Windows/Linux library and load it.
+%      \item Click on the '$+$' on the left side of Arduino on OMEdit
+%      \item Then click on '$+$' on the left side of SerialCommunication
+%      \item Now, click on '$+$' on the left side next to the Examples icon. Then you will come to see all
+%            the experiments available on this toolbox. You can perform any experiment by clicking on the experiment
+%            name and then execute the 'Simulate' button. 
+%      \item But don't forget to load the arduino\_firmware used for scilab-arduino to the Arduino board.
+%\end{itemize}
 
 
 
@@ -1529,14 +1565,19 @@ we would not have received this message.
 \lstset{style=mystyle}
 \label{sec:test-firmware-OpenModelica}
 \addtocontents{cod}{\protect\addvspace{\codclr}}
-We have provided an OpenModelica code to check whether the firmware has been
-properly installed.  That code is listed below.
+We have provided an OpenModelica code/model to check whether the firmware has been
+properly installed.  That code/model is listed below. Please ensure that 
+you have uploaded the Arduino firmware given 
+in \ardref{ard:firmware} on the \arduino\ board.
+
 
 \begin{OpenModelicacode}
       \mcaption{An OpenModelica code to check whether the firmware is properly installed
-            or not}{An OpenModelica code to check whether the firmware is properly installed
-            or not.  Available at
-            \LocFIMOpenModelicabrief{test\_firmware.mo}.}
+            or not}{An OpenModelica code/model to check whether the firmware is properly installed
+            or not.  Available at \LocFIMOpenModelicabrief{test\_firmware.mo}. Simulate this code/model by following the steps 
+            given in section \ref{OpenModelica-code-execution}. If the simulation is
+            successful, you should expect an output window in OMEdit as shown in 
+            \figref{om-sim-success}.}
       \label{OpenModelica:test-firmware}
       \lstinputlisting{\LocFIMOpenModelicacode/test_firmware.mo}
 \end{OpenModelicacode}
