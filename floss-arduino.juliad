@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {3.{1}}A Julia code to check whether the firmware is properly installed or not}{48}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the LED}{77}%
+\contentsline {section}{\numberline {4.{1}}Turning on the LED}{76}%
 \contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{77}%
 \contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{77}%
 \contentsline {section}{\numberline {4.{4}}Blinking the green LED}{77}%

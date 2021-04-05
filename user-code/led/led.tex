@@ -27,7 +27,7 @@
 
 In this chapter, we will learn how to control the LEDs on the shield
 and on the \arduino\ board.  We will do this through the Arduino IDE,
-Scilab scripts and Scilab Xcos.  These are beginner level experiments,
+Scilab scripts, Scilab Xcos, Python, and OpenModelica.  These are beginner level experiments,
 and often referred to as the \emph{hello world} task of Arduino.
 Although simple, controlling LED is a very important task in all
 kinds of electronic boards.
@@ -93,21 +93,21 @@ for performing the experiments given in this chapter. 
 A breadboard is a device for holding the components of a circuit, and connecting them together.
 We can build an electronic circuit on a breadboard without doing any soldering. To know more about the 
 breadboard and other electronic components, one should watch the Spoken Tutorials on Arduino as published on 
-  {\tt https://spoken-tutorial.org/}. In case, you have an RGB LED and you want to try connecting it with \arduino\ on a breadboard, you should 
-refer to the sixth tutorial titled Arduino with Tricolor LED and Push button on {\tt https://spoken-tutorial.org/}.
-To know the connections, please refer to the figure \ref{fig:ard-rgb-bread}. 
+{\tt https://spoken-tutorial.org/}. In case, you have an RGB LED and you want to try connecting it with \arduino\ on a breadboard,  
+please refer to \figref{fig:ard-rgb-bread}. Also, you should refer to the sixth tutorial titled Arduino with Tricolor LED and 
+Push button on {\tt https://spoken-tutorial.org/}. 
 
 \begin{figure}
   \centering
-  \includegraphics[width=\hgfig]{\LocLEDfig/rgbled_bb.png}
+  \includegraphics[width=\hgfig]{\LocLEDfig/rgb-led-bb.png}
   \caption{Interfacing an RGB LED with Arduino Uno using a breadboard}
   \label{fig:ard-rgb-bread}
 \end{figure}
 
-In figure \ref{fig:ard-rgb-bread}, there is an RGB LED with four legs. 
+In \figref{fig:ard-rgb-bread}, there is an RGB LED with four legs. 
 From the left, the first leg represents the anode (+) pin for the red LED. 
 The second leg represents the common cathode for every color. 
-The third and fourth legs represent the anode (+) pin for blue LED, and green LED respectively. 
+The third and fourth legs represent the anode (+) pin for green LED and blue LED respectively. 
 The anode pins of red, green, and blue are, respectively, connected to digital pins 11, 10, and 9 of Arduino Uno. 
 On the other hand, common cathode is connected to the ground (GND) terminal.
 

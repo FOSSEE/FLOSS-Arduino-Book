@@ -61,16 +61,16 @@
 \contentsline {paragraph}{Note:}{59}%
 \contentsline {paragraph}{Note:}{59}%
 \contentsline {subsection}{\numberline {4.3.2}Arduino Code}{60}%
-\contentsline {section}{\numberline {4.4}Lighting the LED from Scilab}{62}%
-\contentsline {subsection}{\numberline {4.4.1}Lighting the LED}{62}%
+\contentsline {section}{\numberline {4.4}Lighting the LED from Scilab}{61}%
+\contentsline {subsection}{\numberline {4.4.1}Lighting the LED}{61}%
 \contentsline {subsection}{\numberline {4.4.2}Scilab Code}{63}%
 \contentsline {section}{\numberline {4.5}Lighting the LED from Scilab Xcos}{64}%
-\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{69}%
-\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{69}%
-\contentsline {subsection}{\numberline {4.6.2}Python Code}{72}%
+\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{67}%
+\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{67}%
+\contentsline {subsection}{\numberline {4.6.2}Python Code}{71}%
 \contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{75}%
 \contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{75}%
-\contentsline {subsection}{\numberline {4.7.2}Julia Code}{77}%
+\contentsline {subsection}{\numberline {4.7.2}Julia Code}{76}%
 \contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{78}%
 \contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{78}%
 \contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{79}%
