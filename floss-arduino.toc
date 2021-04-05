@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {3.6}OpenModelica}{48}%
 \contentsline {subsection}{\numberline {3.6.1}Downloading and installing OpenModelica}{48}%
 \contentsline {subsection}{\numberline {3.6.2}Simulating models in OpenModelica}{49}%
-\contentsline {subsection}{\numberline {3.6.3}OpenModelica Arduino toolbox}{53}%
+\contentsline {subsection}{\numberline {3.6.3}OpenModelica Arduino toolbox}{52}%
 \contentsline {subsection}{\numberline {3.6.4}Firmware}{54}%
 \contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{55}%
 \contentsline {section}{\numberline {4.1}Preliminaries}{55}%

@@ -908,7 +908,7 @@ pip3 install pyserial}
 
 To execute a Python code (or script) on Linux, one should 
 navigate the terminal to the directory where the script is located using the {\tt cd} command.
-Next, type {\tt python3 SCRIPTNAME.py} in the terminal to execute the script. 
+Next, type {\tt python3 FILENAME.py} in the terminal to execute the script. 
 
 % \begin{enumerate}
 %       \item On Ubuntu, Python can be installed from the command line by typing in the
@@ -1298,12 +1298,20 @@ shown in \figref{om-text-view}. Now, one can modify the model as per the require
 
 Now, we will see how to simulate this model. For this, we need to ensure that OMEdit 
 is in Modeling Perspective. Next, we will click on the green right-sided arrow, named as 
-Simulate, as shown in the Fig. When we click on Simulate, OMEdit will first 
+Simulate, as shown in \figref{om-simulate}. When we click on Simulate, OMEdit will first 
 compile the model and then, it will simulate the model for the time specified in the model itself. 
 As OMEdit provides an elegant user interface for simulating the models, 
 it will open an output window the moment you click on Simulate. \figref{om-sim-success}
 shows the output window after the simulation of our model is finished. Also, we can
 observe that the OMEdit is now in Plotting Perspective. 
+
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/om-simulate.png}
+      \caption{Simulating a model in OMEdit}
+      \label{om-simulate}
+\end{figure}
 
 \begin{figure}
       \centering
