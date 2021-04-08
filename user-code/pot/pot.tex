@@ -92,6 +92,32 @@ digital I/O pins 9,10 and 11 of Arduino. In order to switch on a
 particular LED, we need to provide HIGH(5V) voltage to the
 corresponding pin of the \arduino\ board.
 
+\section{Connecting a potentiometer with \arduino\ using a breadboard}
+This section is useful for those who either don't have a shield or don't want to use the shield
+for performing the experiments given in this chapter. 
+
+To know more about a pushbutton, one should watch the Spoken Tutorials on Arduino as published on 
+{\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+tutorials labeled as Basic. However, we strongly recommend the readers should
+watch the fifth and sixth tutorials, i.e., First Arduino Program and 
+Arduino with Tricolor LED and Push button.
+
+In case you have a potentiometer, and you want to connect it with \arduino\ on a breadboard, 
+please refer to \figref{fig:pot-led}. The connections given in this figure 
+can be used to control an RGB LED read the status of a pushbutton. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{\LocPotfig/POT-led.png}
+  \caption{A potentiometer to control an LED with Arduino Uno using a breadboard}
+  %\redcolor{connected on pin no. D12}}
+  \label{fig:pot-led}
+\end{figure}
+As shown in \figref{fig:pot-led}, there are three legs of the potentiometer connected to 
+5V, analog pin 2, and GND on \arduino. Depending upon how much the potentiometer's shaft is rotated, one can get a value on analog pin 2. On the other hand, 
+there is an RGB LED, and its four legs are connected to three different digital pins and GND on \arduino\, as discussed in 
+\chapref{led}. 
+
+
 
 \section{Reading the potentiometer from the Arduino IDE}
 \subsection{Reading the potentiometer}

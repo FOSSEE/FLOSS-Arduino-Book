@@ -88,19 +88,46 @@ N5AC501A085 and NSL19M51 from ADVANCED PHOTONIX.
 This section is useful for those who either don't have a shield or don't want to use the shield
 for performing the experiments given in this chapter. 
 
-In case, you have an LDR and you want to try connecting it with \arduino\ on a breadboard, you should
-refer to the figure \ref{fig:ard-ldr-bread}. The connections given in this 
-figure can be used to read the voltage values from an LDR. To know more about the 
-breadboard and other electronic components, one should watch the Spoken Tutorials on Arduino as published on 
-  {\tt https://spoken-tutorial.org/}. 
+A breadboard is a device for holding the components of a circuit and connecting 
+them together. We can build an electronic circuit on a breadboard without doing any 
+soldering. To know more about the breadboard and other electronic components, 
+one should watch the Spoken Tutorials on Arduino as published on
+{\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+tutorials labeled as Basic. However, we strongly recommend the readers should
+watch the fifth and sixth tutorials, i.e., First Arduino Program and 
+Arduino with Tricolor LED and Push button.
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{\LocLDRfig/ard-ldr.png}
-  \caption{Interfacing an LDR with Arduino Uno using a breadboard}
+  \includegraphics[width=\textwidth]{\LocLDRfig/LDR.png}
+  \caption{An LDR to read its values with Arduino Uno using a breadboard}
   %\redcolor{connected on pin no. D12}}
-  \label{fig:ard-ldr-bread}
+  \label{fig:ard-ldr}
 \end{figure}
+
+In case you have an LDR, and you want to connect it with \arduino\ on a breadboard, 
+please refer to \figref{fig:ard-ldr}. The connections given in this figure can be 
+used to read the voltage values from an LDR connected to the analog pin 5 on 
+\arduino\ board. As shown in \figref{fig:ard-ldr}, one leg of the LDR is connected 
+to 5V on \arduino\ and the other leg to the analog pin 5 on  \arduino. A resistor is also connected to the same leg and grounded. 
+From \figref{fig:ldrconn} and \figref{fig:ard-ldr}, one can infer that a resistor 
+along with the LDR is used to create a voltage divider circuit. The varying 
+resistance of the LDR is converted to a varying voltage. Finally, this voltage is used 
+by the analog pin 5 of \arduino\ in its logic. 
+
+The connections shown in \figref{fig:ard-ldr-led} can be used to control an RGB LED, 
+depending on the voltage values from the LDR. As shown in \figref{fig:ard-ldr-led}, 
+digital pin 11 on \arduino\ is connected to the leftmost leg of the RGB LED. Rest connections
+are same as that in \figref{fig:ard-ldr}. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{\LocLDRfig/LDR-led.png}
+  \caption{An LDR to control an LED with Arduino Uno using a breadboard}
+  %\redcolor{connected on pin no. D12}}
+  \label{fig:ard-ldr-led}
+\end{figure}
+
 
 \section{Interfacing the LDR through the Arduino IDE}
 \subsection{Interfacing the LDR}

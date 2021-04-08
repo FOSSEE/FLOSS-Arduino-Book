@@ -68,50 +68,52 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{100}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{100}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{100}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Interfacing an LDR with Arduino Uno using a breadboard\relax }}{101}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Xcos diagram to read LDR values}}{106}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{107}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno using a breadboard\relax }}{101}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{102}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{107}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{108}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces L293D motor driver board\relax }}{116}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces A schematic of DC motor connections\relax }}{117}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{117}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{124}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{126}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{127}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces L293D motor driver board\relax }}{118}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces A schematic of DC motor connections\relax }}{119}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{119}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{126}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{128}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{129}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{138}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{138}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{138}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{142}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{140}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{140}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{140}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{141}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{145}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{150}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{150}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{150}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{150}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{150}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{150}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Interfacing a thermistor with Arduino Uno using a breadboard\relax }}{151}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Xcos diagram to read thermistor values}}{156}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Output of Xcos diagram to read thermistor values}}{157}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{158}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{159}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{154}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{154}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{154}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{154}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{154}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{154}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Interfacing a thermistor with Arduino Uno using a breadboard\relax }}{155}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Xcos diagram to read thermistor values}}{160}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Output of Xcos diagram to read thermistor values}}{161}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{162}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{163}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{174}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{175}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{176}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{177}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{178}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{179}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{180}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{181}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{192}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{192}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{193}%
-\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{197}%
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{198}%
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{199}%
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{200}%
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{201}%
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{201}%
-\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{202}%
-\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{202}%
-\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{203}%
-\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{203}%
-\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{204}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{196}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{196}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{197}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{201}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{202}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{203}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{204}%
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{205}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{205}%
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{206}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{206}%
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{207}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{207}%
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{208}%

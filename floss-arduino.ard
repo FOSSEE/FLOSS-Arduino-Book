@@ -9,20 +9,20 @@
 \contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{87}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{103}%
-\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{103}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{104}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{119}%
-\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{119}%
-\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{119}%
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{121}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{121}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{121}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{139}%
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{142}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{152}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{153}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{156}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{157}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{169}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{170}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in increments}{170}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor through the potentiometer}{171}%
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{173}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{174}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in increments}{174}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor through the potentiometer}{175}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{203}%
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{207}%

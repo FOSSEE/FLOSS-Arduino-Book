@@ -561,9 +561,12 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.pn
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ard-ldr.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino
@@ -701,6 +704,9 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.p
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/arduino/pot-threshold/pot-threshold.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/arduino/pot-threshold/pot-threshold.ino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/arduino/pot-threshold/pot-threshold.ino
