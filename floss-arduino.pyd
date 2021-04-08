@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{73}%
 \contentsline {section}{\numberline {4.{4}}Blinking the green LED}{74}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{92}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{93}%
 \contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{93}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{110}%
@@ -18,8 +18,8 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{147}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{164}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{165}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{165}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{166}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{183}%
 \contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{184}%

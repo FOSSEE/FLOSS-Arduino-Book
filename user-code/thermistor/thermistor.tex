@@ -92,19 +92,45 @@ connect any wire or component explicitly.
 This section is useful for those who either don't have a shield or don't want to use the shield
 for performing the experiments given in this chapter. 
 
-In case, you have a thermistor and you want to try connecting it with \arduino\ on a breadboard, you should 
-refer to the figure \ref{fig:ard-therm-bread}. The connections given in this 
-figure can be used to read the analog values from thermistor. To know more about the 
-breadboard and other electronic components, one should watch the Spoken Tutorials on Arduino as published on 
-  {\tt https://spoken-tutorial.org/}. 
+A breadboard is a device for holding the components of a circuit and connecting 
+them together. We can build an electronic circuit on a breadboard without doing any 
+soldering. To know more about the breadboard and other electronic components, 
+one should watch the Spoken Tutorials on Arduino as published on
+{\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+tutorials labeled as Basic. However, we strongly recommend the readers should
+watch the fifth and sixth tutorials, i.e., First Arduino Program and 
+Arduino with Tricolor LED and Push button.
 
+In case you have a thermistor, and you want to connect it with \arduino\ on a breadboard, 
+please refer to \figref{fig:ard-therm-bread}. The connections given in this figure 
+can be used to read values from the thermistor connected to analog pin 4 on \arduino\
+board. 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{\LocTHERMfig/ard-therm.png}
-  \caption{Interfacing a thermistor with Arduino Uno using a breadboard}
+  \includegraphics[width=\textwidth]{\LocTHERMfig/thermistor.png}
+  \caption{A thermistor to read its values with Arduino Uno using a breadboard}
   %\redcolor{connected on pin no. D12}}
   \label{fig:ard-therm-bread}
 \end{figure}
+As shown in \figref{fig:ard-therm-bread}, one leg of the thermistor is connected 
+to 5V on \arduino\ and the other leg to the analog pin 4 on  \arduino. A resistor is also 
+connected to the same leg and grounded. From \figref{fig:therm-conn} and \figref{fig:ard-therm-bread}, one can infer that a resistor 
+along with the thermistor is used to create a voltage divider circuit. The varying 
+resistance of the thermistor is converted to a varying voltage. Finally, this voltage is used 
+by the analog pin 4 of \arduino\ in its logic. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{\LocTHERMfig/thermistor-buzzer.png}
+  \caption{A thermistor to control a buzzer with Arduino Uno using a breadboard}
+  %\redcolor{connected on pin no. D12}}
+  \label{fig:ard-therm-buzzer}
+\end{figure}
+The connections shown in \figref{fig:ard-therm-buzzer} can be used to control a buzzer, 
+depending on the values from the thermistor. As shown in \figref{fig:ard-therm-buzzer}, 
+digital pin 3 on \arduino\ is connected to the one of the legs of the buzzer. Another 
+leg of the buzzer is connected to GND of \arduino.    
+
 
 \section{Interfacing the Thermistor from the Arduino IDE}
 \subsection{Interfacing the Thermistor}

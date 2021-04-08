@@ -92,11 +92,12 @@
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{154}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{154}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{154}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Interfacing a thermistor with Arduino Uno using a breadboard\relax }}{155}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Xcos diagram to read thermistor values}}{160}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Output of Xcos diagram to read thermistor values}}{161}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{162}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{163}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{155}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{156}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos diagram to read thermistor values}}{161}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Output of Xcos diagram to read thermistor values}}{162}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{163}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{163}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{178}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{179}%

@@ -17,8 +17,8 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{142}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{156}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{157}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{157}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{158}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{173}%
 \contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{174}%

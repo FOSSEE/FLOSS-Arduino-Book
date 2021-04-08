@@ -24,8 +24,8 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{146}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{161}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{163}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{162}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{164}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{172}%
 \contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{178}%

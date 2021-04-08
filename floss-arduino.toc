@@ -82,13 +82,13 @@
 \contentsline {subsection}{\numberline {5.3.2}Arduino Code}{87}%
 \contentsline {section}{\numberline {5.4}Reading the Pushbutton Status from Scilab}{88}%
 \contentsline {subsection}{\numberline {5.4.1}Reading the Pushbutton Status}{88}%
-\contentsline {subsection}{\numberline {5.4.2}Scilab Code}{88}%
+\contentsline {subsection}{\numberline {5.4.2}Scilab Code}{89}%
 \contentsline {section}{\numberline {5.5}Accessing the Pushbutton from Xcos}{89}%
 \contentsline {section}{\numberline {5.6}Reading the Pushbutton Status from Python}{92}%
 \contentsline {subsection}{\numberline {5.6.1}Reading the Pushbutton Status}{92}%
-\contentsline {subsection}{\numberline {5.6.2}Python Code}{92}%
-\contentsline {section}{\numberline {5.7}Reading the Pushbutton Status from Julia}{94}%
-\contentsline {subsection}{\numberline {5.7.1}Reading the Pushbutton Status}{94}%
+\contentsline {subsection}{\numberline {5.6.2}Python Code}{93}%
+\contentsline {section}{\numberline {5.7}Reading the Pushbutton Status from Julia}{95}%
+\contentsline {subsection}{\numberline {5.7.1}Reading the Pushbutton Status}{95}%
 \contentsline {subsection}{\numberline {5.7.2}Julia Code}{95}%
 \contentsline {section}{\numberline {5.8}Reading the Pushbutton Status from OpenModelica}{96}%
 \contentsline {subsection}{\numberline {5.8.1}Reading the Pushbutton Status}{96}%
@@ -155,22 +155,22 @@
 \contentsline {chapter}{\numberline {9}Interfacing a Thermistor}{153}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{153}%
 \contentsline {section}{\numberline {9.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{154}%
-\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{155}%
-\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{155}%
-\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{156}%
+\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{156}%
+\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{156}%
+\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{157}%
 \contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Scilab}{158}%
 \contentsline {subsection}{\numberline {9.4.1}Interfacing the Thermistor}{158}%
-\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{159}%
-\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{160}%
-\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{162}%
-\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{162}%
-\contentsline {subsection}{\numberline {9.6.2}Python Code}{164}%
-\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{166}%
-\contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{166}%
-\contentsline {subsection}{\numberline {9.7.2}Julia Code}{166}%
-\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{167}%
-\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{167}%
-\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{168}%
+\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{160}%
+\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{161}%
+\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{164}%
+\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{164}%
+\contentsline {subsection}{\numberline {9.6.2}Python Code}{165}%
+\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{167}%
+\contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{167}%
+\contentsline {subsection}{\numberline {9.7.2}Julia Code}{167}%
+\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{168}%
+\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{168}%
+\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{169}%
 \contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{171}%
 \contentsline {section}{\numberline {10.1}Preliminaries}{171}%
 \contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{172}%

@@ -79,8 +79,11 @@ is provided by the manufacturer in the datasheet.
 This section is useful for those who either don't have a shield or don't want to use the shield
 for performing the experiments given in this chapter. 
 
-To know more about a pushbutton, one should watch the Spoken Tutorials on Arduino as published on 
-  {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+A breadboard is a device for holding the components of a circuit and connecting 
+them together. We can build an electronic circuit on a breadboard without doing any 
+soldering. To know more about the breadboard and other electronic components, 
+one should watch the Spoken Tutorials on Arduino as published on
+{\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
 watch the fifth and sixth tutorials, i.e., First Arduino Program and 
 Arduino with Tricolor LED and Push button.
@@ -94,9 +97,9 @@ the side of the breadboard to provide access to the ground (GND) on \arduino.
 The blue wire goes from digital pin 12 to one leg of the pushbutton on another side. 
 That same leg of the pushbutton connects through a pull-down resistor to GND on \arduino. 
 When the pushbutton is open (unpressed), there is no connection between the two legs of the pushbutton, 
-so the pin is connected to the ground (through the pull-down resistor), and we read a LOW. 
-When the pushbutton is closed (pressed), it makes a connection between its two legs, 
-connecting the pin to 5V so that we read a HIGH.
+so the pin is connected to the ground (through the pull-down resistor), and we read a LOW on
+digital pin 12. When the pushbutton is closed (pressed), it makes a connection between its two legs, 
+connecting the pin to 5V so that we read a HIGH on digital pin 12. 
 
 \begin{figure}
   \centering
@@ -107,7 +110,7 @@ connecting the pin to 5V so that we read a HIGH.
 \end{figure}
 The connections shown in \figref{fig:switch-led} can be used to control an RGB LED, 
 depending on the status of the pushbutton. As shown in \figref{fig:switch-led}, digital
-pin 9 on \arduino\ is connected to the rightmost leg of the RGB LED. Rest connections
+pin 9 on \arduino\ is connected to the rightmost leg of the RGB LED. Rest of the connections
 are same as that in \figref{fig:switch-bread}. 
 
 \section{Reading the Pushbutton Status from the Arduino IDE}
