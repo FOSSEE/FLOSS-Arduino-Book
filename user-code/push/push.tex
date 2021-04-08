@@ -66,23 +66,49 @@ is provided by the manufacturer in the datasheet.
 \label{fig:pushbuttonconn}
 \end{figure}
 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{\LocPushfig/switch.png}
+  \caption{A pushbutton to read its status with Arduino Uno using a breadboard}
+  %\redcolor{connected on pin no. D12}}
+  \label{fig:switch-bread}
+\end{figure}
+
 \section{Connecting a pushbutton with \arduino\ using a breadboard}
 This section is useful for those who either don't have a shield or don't want to use the shield
 for performing the experiments given in this chapter. 
 
-To know more about the pushbutton, one should watch the Spoken Tutorials on Arduino as published on 
-  {\tt https://spoken-tutorial.org/}. In case, you have a pushbutton and you want to try connecting it with \arduino\ on a breadboard, you should 
-refer to the sixth tutorial titled Arduino with Tricolor LED and Push button on {\tt https://spoken-tutorial.org/}.
-To know the connections, please refer to the figure \ref{fig:ard-pushbtn-bread}. The connections given in this 
-figure can be used to read the status of a pushbutton. 
+To know more about a pushbutton, one should watch the Spoken Tutorials on Arduino as published on 
+  {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+tutorials labeled as Basic. However, we strongly recommend the readers should
+watch the fifth and sixth tutorials, i.e., First Arduino Program and 
+Arduino with Tricolor LED and Push button.
+
+In case you have a pushbutton, and you want to connect it with \arduino\ on a breadboard, 
+please refer to \figref{fig:switch-bread}. The connections given in this figure can be used to 
+read the status of a pushbutton. As shown in \figref{fig:switch-bread}, 
+there are three different wires - red, black, and blue. The red wire is used to connect 5V on 
+\arduino\ and one leg of the pushbutton. The black wire connects to one long vertical row on 
+the side of the breadboard to provide access to the ground (GND) on \arduino. 
+The blue wire goes from digital pin 12 to one leg of the pushbutton on another side. 
+That same leg of the pushbutton connects through a pull-down resistor to GND on \arduino. 
+When the pushbutton is open (unpressed), there is no connection between the two legs of the pushbutton, 
+so the pin is connected to the ground (through the pull-down resistor), and we read a LOW. 
+When the button is closed (pressed), it makes a connection between its two legs, 
+connecting the pin to 5V so that we read a HIGH.
 
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{\LocPushfig/ard-pushbtn.png}
-  \caption{Interfacing a pushbutton with Arduino Uno using a breadboard}
+  \includegraphics[width=\textwidth]{\LocPushfig/switch-led.png}
+  \caption{A pushbutton to control an LED with Arduino Uno using a breadboard}
   %\redcolor{connected on pin no. D12}}
-  \label{fig:ard-pushbtn-bread}
+  \label{fig:switch-led}
 \end{figure}
+The connections shown in \figref{fig:switch-led} can be used to control an RGB LED, 
+depending on the status of the pushbutton. As shown in \figref{fig:switch-led}, digital
+pin 9 on \arduino\ is connected to the rightmost leg of the RGB LED. Rest connections
+are same as that in \figref{fig:switch-bread}. 
 
 \section{Reading the Pushbutton Status from the Arduino IDE}
 \subsection{Reading the Pushbutton Status}

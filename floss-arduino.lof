@@ -59,9 +59,10 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{68}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{84}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Interfacing a pushbutton with Arduino Uno using a breadboard\relax }}{85}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Printing the push button status on the display block}}{89}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{90}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{84}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A pushbutton to control an LED with Arduino Uno using a breadboard\relax }}{85}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Printing the push button status on the display block}}{90}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{91}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Light Dependent Resistor\relax }}{100}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{100}%

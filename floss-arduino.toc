@@ -77,22 +77,22 @@
 \contentsline {chapter}{\numberline {5}Interfacing a Pushbutton}{83}%
 \contentsline {section}{\numberline {5.1}Preliminaries}{83}%
 \contentsline {section}{\numberline {5.2}Connecting a pushbutton with Arduino Uno\ using a breadboard}{83}%
-\contentsline {section}{\numberline {5.3}Reading the Pushbutton Status from the Arduino IDE}{84}%
-\contentsline {subsection}{\numberline {5.3.1}Reading the Pushbutton Status}{84}%
-\contentsline {subsection}{\numberline {5.3.2}Arduino Code}{86}%
-\contentsline {section}{\numberline {5.4}Reading the Pushbutton Status from Scilab}{87}%
-\contentsline {subsection}{\numberline {5.4.1}Reading the Pushbutton Status}{87}%
+\contentsline {section}{\numberline {5.3}Reading the Pushbutton Status from the Arduino IDE}{86}%
+\contentsline {subsection}{\numberline {5.3.1}Reading the Pushbutton Status}{86}%
+\contentsline {subsection}{\numberline {5.3.2}Arduino Code}{87}%
+\contentsline {section}{\numberline {5.4}Reading the Pushbutton Status from Scilab}{88}%
+\contentsline {subsection}{\numberline {5.4.1}Reading the Pushbutton Status}{88}%
 \contentsline {subsection}{\numberline {5.4.2}Scilab Code}{88}%
-\contentsline {section}{\numberline {5.5}Accessing the Pushbutton from Xcos}{88}%
-\contentsline {section}{\numberline {5.6}Reading the Pushbutton Status from Python}{91}%
-\contentsline {subsection}{\numberline {5.6.1}Reading the Pushbutton Status}{91}%
+\contentsline {section}{\numberline {5.5}Accessing the Pushbutton from Xcos}{89}%
+\contentsline {section}{\numberline {5.6}Reading the Pushbutton Status from Python}{92}%
+\contentsline {subsection}{\numberline {5.6.1}Reading the Pushbutton Status}{92}%
 \contentsline {subsection}{\numberline {5.6.2}Python Code}{92}%
 \contentsline {section}{\numberline {5.7}Reading the Pushbutton Status from Julia}{94}%
 \contentsline {subsection}{\numberline {5.7.1}Reading the Pushbutton Status}{94}%
-\contentsline {subsection}{\numberline {5.7.2}Julia Code}{94}%
-\contentsline {section}{\numberline {5.8}Reading the Pushbutton Status from OpenModelica}{95}%
-\contentsline {subsection}{\numberline {5.8.1}Reading the Pushbutton Status}{95}%
-\contentsline {subsection}{\numberline {5.8.2}OpenModelica Code}{95}%
+\contentsline {subsection}{\numberline {5.7.2}Julia Code}{95}%
+\contentsline {section}{\numberline {5.8}Reading the Pushbutton Status from OpenModelica}{96}%
+\contentsline {subsection}{\numberline {5.8.1}Reading the Pushbutton Status}{96}%
+\contentsline {subsection}{\numberline {5.8.2}OpenModelica Code}{96}%
 \contentsline {chapter}{\numberline {6}Interfacing a Light Dependent Resistor}{99}%
 \contentsline {section}{\numberline {6.1}Preliminaries}{99}%
 \contentsline {section}{\numberline {6.2}Connecting an LDR with Arduino Uno\ using a breadboard}{101}%
