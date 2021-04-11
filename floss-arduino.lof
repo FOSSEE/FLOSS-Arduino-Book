@@ -68,7 +68,7 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{100}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{100}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{100}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno using a breadboard\relax }}{101}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno\ using a breadboard\relax }}{101}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{102}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{107}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{108}%

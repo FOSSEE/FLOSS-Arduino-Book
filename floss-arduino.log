@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  9 APR 2021 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  11 APR 2021 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,22 +1810,22 @@ t/figures/schematic.png  used on input line 68.
 ] [140 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmete
 r.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schemat
 ic.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.png, i
-d=671, 453.695pt x 243.309pt>
-File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.p
-ng Graphic file (type png)
-<use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.pn
-g>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png
+, id=671, 453.695pt x 243.309pt>
+File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-b
+b.png Graphic file (type png)
+<use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb
+.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/po
-t/figures/POT-led.png  used on input line 113.
+t/figures/POT-led-bb.png  used on input line 113.
 (pdftex.def)             Requested size: 397.48499pt x 213.16588pt.
 
 Overfull \hbox (9.68646pt too wide) in paragraph at lines 112--114
  []    [] 
  []
 
-[141 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led.p
-ng>]
+[141 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-b
+b.png>]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/arduino/pot-threshold/
 pot-threshold.ino)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/arduino/pot-threshold/
@@ -2426,7 +2426,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  9698 strings out of 481239
- 207095 string characters out of 5920377
+ 207113 string characters out of 5920377
  742688 words of memory out of 5000000
  24247 multiletter control sequences out of 15000+600000
  554670 words of font info for 69 fonts, out of 8000000 for 9000
@@ -2456,7 +2456,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 er/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (240 pages, 24670636 bytes).
+Output written on floss-arduino.pdf (240 pages, 24670471 bytes).
 PDF statistics:
  1071 PDF objects out of 1200 (max. 8388607)
  631 compressed objects within 7 object streams
