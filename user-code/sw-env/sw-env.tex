@@ -971,60 +971,59 @@ computational science. Julia provides a sophisticated compiler, distributed
 parallel execution, numerical accuracy, and an extensive mathematical function
 library. 
 
-%This is a set of tools that provide functionality in Julia, to program the \arduino. 
+% This is a set of tools that provide functionality in Julia, to program the \arduino. 
 
 \subsection{Downloading and installing Julia} \label{julia-installation}
 Julia can be downloaded free of cost from {\tt https://julialang.org/}. 
 It is available for all popular operating systems, including Windows, Linux, 
-and Mac OS X systems. This book uses Julia  1.6.0 for demonstrating the experiments, 
+and Mac OS X systems. This book uses Julia v1.6.0 for demonstrating the experiments, 
 both on Windows and Linux.
 
 For the Windows system, the downloaded file is an executable (.exe) file. It has to
 be double-clicked to start the installation. All the default parameters of installation
-are acceptable. Once Julia has been installed successfully, Julia can be invoked by 
+are acceptable. Once Julia has been installed successfully, Julia can be invoked 
 by simply typing {\tt julia} in the command line. 
 
 We will now explain the installation of Julia on the GNU/Linux operating system. 
 We shall perform the installation on the 64-bit Ubuntu 18.04 LTS operating system.  
-These instructions will work for other GNU distributions too, with little or 
-no modification. This book uses Julia 1.6.0. To install it, carry out the steps
+These instructions will work for other GNU distributions, too, with little or 
+no modification. This book uses Julia v1.6.0. To install it, carry out the steps
 given below: 
 
+\begin{figure}
+      \centering
+      \includegraphics[width=\textwidth]{\LocSWfig/julia-download.png}
+      \caption{Julia's website to download 64-bit Linux binaries}
+      \label{julia-download}
+\end{figure}
+
 \begin{enumerate}
-      \item First, update your system. Open the Terminal. Type 
-            {\tt sudo apt-get update} and press Enter. 
+      \item First, update your system. Open the Terminal. Type
+                  {\tt sudo apt-get update} and press Enter. 
       \item Find out your operating system support for 64-bit
-            instructions. Open the terminal emulator and type, {\tt uname -m}
-      \item If it returns ``x86\_64'', then your computer has 64-bit
+            instructions. Open the Terminal. Type {\tt uname -m} and press Enter. If it returns ``x86\_64'', then your computer has 64-bit
             operating system. 
-      \item Download the latest compressed Julia Linux Binaries from the website of Julia. 
-            Go to {\tt https://julialang.org/downloads/} and download the 
-            required Julia Linux binaries (32 or 64-bit) for Generic Linux on x86.  
-            As mentioned earlier, we will perform experiments with a 64-bit installation.
-      \item At the time of writing this book, we worked with Julia version 1.6.0.
-            Assuming that you have downloaded the tar file in {\tt Downloads} directory, perform the following
-            steps on the terminal:
+      \item Go to {\tt https://julialang.org/downloads/}. From the Current stable release, download the 
+            required Julia Linux binaries (32 or 64-bit) for Generic Linux on x86, as shown in \figref{julia-download}.  
+            At the time of writing this book, the Current stable release refers to Julia v1.6.0 as of March 24, 2021, 
+            as shown in  \figref{julia-download}. In this book, we will perform experiments with a 64-bit installation of Julia  v1.6.0. 
+      \item Assuming that you have downloaded the tar file in {\tt Downloads} directory, perform the following
+            steps on the Terminal:
             \begin{quote}
                   {\tt cd {\large\textasciitilde}/Downloads\\
                         tar -xvzf julia-1.6.0-linux-x86\_64.tar.gz\\
                         sudo cp -r julia-1.6.0 /opt/}
             \end{quote}
-      \item Finally, create a symbolic link to {\tt julia} inside the 
-            {\tt /usr/local/bin} folder. In the same Terminal session, issue the 
+      \item Finally, create a symbolic link to {\tt julia} inside the
+            {\tt /usr/local/bin} folder. In the same Terminal session from the previous step, issue the 
             following command: \\
             {\tt sudo ln -s /opt/julia-1.6.0/bin/julia /usr/local/bin/julia} 
-      \item Close the Terminal.            
 \end{enumerate}
 
-Julia is now installed and can be invoked from the Terminal. Open the Terminal, type {\tt julia} and press Enter. It should launch julia in 
-an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
-in \figref{julia-repl}. When run in interactive mode, julia displays a banner and 
-prompts the user for input. Once the user has entered a complete expression, 
-such as 1 + 2, and hits Enter, the interactive session evaluates the expression 
-and shows its value, as shown in \figref{julia-repl}. If an expression is entered 
-into an interactive session with a trailing semicolon, its value is not shown. The variable {\tt ans} is 
-bound to the value of the last evaluated expression, whether it is shown or not. 
-The {\tt ans} variable is only bound in interactive sessions, not when Julia code is run in other ways.
+Julia is now installed and can be invoked from the Terminal. In the Terminal, type {\tt julia} and press Enter. 
+It should launch Julia in an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
+in \figref{julia-repl}. When run in interactive mode, Julia displays a banner and 
+prompts the user for input. 
 \begin{figure}
       \centering
       \includegraphics[width=\textwidth]{\LocSWfig/julia-terminal-repl.png}
@@ -1038,256 +1037,93 @@ Hitting return or Enter after a complete expression has been entered will evalua
 the entry and show the result of the last expression. 
 
 Now, we will install a package named LibSerialPort. This package will be required to 
-establish serial port communication with Arduino boards. Please ensure that you 
+establish serial communication with Arduino boards. Please ensure that you 
 are connected to the Internet. To install the package,  
 we will use {\tt Pkg}. It is Julia's built-in package manager, and 
 handles operations such as installing, updating and removing packages in Julia. 
-For installing LibSerialPort, we need to enter the {\tt Pkg} REPL in Julia. 
-For this, launch Julia in interactive mode, as shown in \figref{julia-repl}. 
-From the Julia REPL, press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
-{\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg}.  
+For installing LibSerialPort, carry out the steps given below:
+\begin{enumerate}
+      \item Launch Julia in interactive mode, as shown in \figref{julia-repl}.
+      \item Now, we need to enter the {\tt Pkg} REPL in Julia. From the Julia REPL, 
+            press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
+            {\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg}. 
+      \item In {\tt Pkg} REPL, type {\tt add LibSerialPort} and press Enter. It might take a few seconds  
+            to get this package installed. Once it is installed, {\tt Pkg} REPL should show a message,
+            like "5 dependencies successfully precompiled in 12 seconds." 
+\end{enumerate}
+
 \begin{figure}
       \centering
       \includegraphics[width=\textwidth]{\LocSWfig/julia-pkg.png}
       \caption{Linux terminal to enter Pkg REPL in Julia}
       \label{julia-pkg}
 \end{figure}
-Now, type {\tt add LibSerialPort} in {\tt Pkg} REPL and press Enter. It might take a few minutes 
-to get this package installed. Once it is installed, {\tt Pkg} REPL should show the message, 
-as shown in Fig. We can also check the status of this package to verify whether it has been installed 
+
+We can also check the status of this package to verify whether it has been installed 
 successfully or not. For this, we need to get back to the Julia REPL. Inside {\tt Pkg}
 REPL, press backspace. The moment you press backspace, you get back to Julia REPL, as shown in 
 \figref{julia-repl}. Now, type {\tt using Pkg} and press Enter. This command will not 
 generate any output. Now type {\tt Pkg.status()} and press Enter. It should display the 
-list of packages installed in Julia, as shown in Fig. Please make sure that LibSerialPort 
-is present in the list of packages being shown. 
-To exit the interactive session, type CTRL+D or type {\tt exit()}. 
+list of packages installed in Julia's environment. Please make sure that LibSerialPort 
+is present in the list of packages being shown. To exit the interactive session, type CTRL+D or type {\tt exit()}. 
 
 \subsection{Executing source files in Julia} \label{julia-execution}
-The source files in Julia have  `'.jl' extensions. There are two ways to execute 
-these source files, as given below: 
+The source files in Julia have  ".jl" extensions. There are two modes in which these 
+source files can be executed: Interactive mode and Non-interactive mode. In this book, 
+we will execute sources files in the latter mode. The readers are encouraged to explore
+the former mode on their own. 
+
+To run code in a source file non-interactively, you can give it as the first argument to the {\tt julia} command. 
+Let us say we have a source file named {\tt myScript.jl}. To run code in this source file, carry out the steps
+given below: 
 
 \begin{enumerate}
-      \item Interactive mode: First, we launch Julia REPL, as shown in 
-            \figref{julia-repl}. Now, to evaluate expressions written in a source file 
-            like {\tt file.jl}, go to Julia REPL, type {\tt include("file.jl")}, and press Enter. 
-            When this command is run in Julia REPL, Julia will only look for the source 
-            file in the current working directory. That's why if your source file is at 
-            some different location, you need to pass the full path of the file. 
-            Assuming that you have launched Julia REPL in {\tt /home/fossee} and the 
-            source file {\tt file.jl} is located inside a folder named {\tt Origin} at {\tt Desktop},
-            then you should issue the command
-            {\tt include("/home/fossee/Desktop/Origin/file.jl")}. Another way could be to 
-            change the working directory in Julia REPL only. For this, we need to 
-            change the mode of Julia REPL from Julian prompt to Shell mode. Inside Julia REPL,
-            press {\tt ;} (semicolon) at the beginning of the line ({\tt julia>}). 
-            The moment you press {\tt ;} (semicolon), you enter shell mode, as shown in Fig. 
-            In this mode, you can use the system shell to execute system commands, like 
-            changing the directory using {\tt cd} command. And shell mode can be exited by 
-            pressing backspace at the beginning of the line ({\tt shell>}).
-      \item Non-interactive mode: To run code in a source file non-interactively, 
-            you can give it as the first argument to the {\tt julia} command. To execute 
-            the source file given in the previous step, open a Terminal. Type 
-            {\tt julia file.jl} and press Enter. Just like the previous step, you need to check for the 
-            path of the source file.  
+      \item Open a Terminal on your Linux operating system. 
+      \item Navigate to the directory where you have the source file {\tt myScript.jl} by using the {\tt cd}
+            command.
+      \item Type {\tt julia myScript.jl} and press Enter. 
+      \item You should expect the desired output in the same Terminal. 
 \end{enumerate}
-
-\begin{enumerate}
-\item On Ubuntu, Julia can be installed from the command line by typing in the 
-following commands:
-
-\$ sudo add-apt-repository ppa:staticfloat/juliareleases \\
-\$ sudo add-apt-repository ppa:staticfloat/julia-deps \\
-\$ sudo apt-get update \\
-\$ sudo apt-get install julia \\
-\item 1. On Windows,
-
-
-Download Windows Self Extracting Archive (.exe)  (32-bit or 64-bit as per your system) from http://julialang.org/downloads/
-
-\begin{enumerate}
-      \item Run the .exe file and follow the instructions. Note the location of the extracted files and folders
-      \item Download 'Git Bash' from https://git-scm.com/download/win
-      \item Open Git Bash, in the prompt type:
-            git config --global url.https://github.com/.insteadOf git://github.com/
-            
-      \item Download the Editor for Julia, 'Atom' from https://atom.io/
-      \item Run AtomSetup.exe and follow the instructions to install Atom on windows
-      \item Open Atom>File>Settings>Install
-            In the search engine, search for the package 'uber-juno'
-            Click on 'Install'
-\end{enumerate}
-
-Possible errors:
-
-\begin{enumerate}
-
-      \item Juno could not be found
-            Solution: Open Atom>File>Settings>Packages>julia-client:Settings>Julia path
-            Change the path to $\backslash$....$\backslash$Julia-0.4.5$\backslash$bin$\backslash$julia.exe
-            
-      \item Atoms.jl error\\
-            Solution: Open Julia terminal\\
-            in the prompt, type:\\
-            julia>Pkg.status()\\
-            julia>Pkg.build()\\
-            8. Go to https://github.com/cshekhard/SerialPorts.jl
-            Click on 'Clone or Download' and copy the link
-            
-            9. Open Julia terminal and in the prompt, type:
-            julia>Pkg.clone("paste link")
-            
-      \item PyCall error
-            This error may occur if the Python installed on your system is the 32-bit version, whereas the Julia that you just installed is the 64-bit version.
-            Sol: In Julia terminal, type:
-            julia> ENV["PYTHON"]="";Pkg.build ("PyCall")
-            Let the packages download and install.
-\end{enumerate}
-
-Julia should work fine now.
-
-
-\item Other platform-specific instructions can be found at \\ 
-http://www.julialang.org/downloads/platform.html 
-
-\item You can also clone the source repository and compile/build it to get the  
-latest development version of Julia. However, this may prove to be unstable.
-https://github.com/JuliaLang/julia/tree/master 
-
-\end {enumerate}
-%This process is illustrated in
-%\figref{linux-cd}.
-%\begin{figure}
-%\centering
-%\includegraphics[scale=0.5]{\LocSWfig/linux-cd.png}
-%\caption{Linux terminal to launch Scilab}
-%\label{linux-cd}
-%\end{figure}
-
-\subsection{Downloading and installing Juno IDE}\label{juno-ide-installation}
-
-Juno is a powerful IDE for the Julia language, hosted as a package on the Atom IDE. Installing it also installs some common Julia packages such as PyCall and Plots. The package is hosted at \\
-https://github.com/JunoLab/uber-juno/blob/master/setup.md 
-
-Download, install and open Atom. If you have it already, make sure it's up to date (version 1.7+).
-In Atom, go to Settings and go to the "Install" panel.
-Type uber-juno into the search box and hit enter. Click the install button on the package of the same name.
-Atom will then set up Juno for you, installing the required Atom and Julia packages.
-
-Now that you have Julia installed,open the terminal by typing 'Ctrl+Alt+T'.
-Enter the command 'julia'. This opens the Julia REPL (Read Eval Print Loop)
-as shown in
-\figref{julia-terminal}.
-\begin{figure}
-      \centering
-      \includegraphics[scale=0.5]{\LocSWfig/julia-terminal.png}
-      \caption{Linux terminal to launch Julia}
-      \label{julia-terminal}
-\end{figure}
-
-Julia filenames have the extension '.jl' . There are several ways to run a julia file:
-
-\begin{enumerate}
-      \item By clicking the Run button in the above environment. This runs the file as a whole and prints any output on the console. Pressing 'Ctrl$+$Enter' evaluates and runs only the line on which the cursor is present.
-      \item In the Julia REPL: Typing 'include("filename.jl")'' at the Julia prompt runs the file. Note that this works only if the file is in the present working directory. Otherwise, the entire path to the file should be mentioned in the include command. Alternatively, you can change the present directory to the one in which the file is available by typing ';'.
-      \item In the terminal: Navigate to the directory with the file and type command 'julia filename.jl'
-\end{enumerate}
-
-
-After setting up the JUNO IDE as a plugin in the Atom editor, launching Atom will result in something like this:
-
-\figref{atom-lunch}.
-\begin{figure}
-      \centering
-      \includegraphics[scale=0.2]{\LocSWfig/atom-lunch.png}
-      \caption{Linux Atom Text Editor}
-      \label{atom-lunch}
-\end{figure}
 
 \subsection{Julia Arduino toolbox}
-Registered packages (those which are listed in the 'packages' section on the julia site) can be added by the command 'Pkg.add()' command, for e.g.
+Julia, by default, does not have the capability to connect to Arduino. 
+All such add-on functionalities are added to Julia using toolboxes. 
+The Julia-Arduino toolbox can be found inside the {\tt Origin/tools/windows} directory, 
+see \fnrefp{fn:file-loc}.  This toolbox is compatible for both of the operating systems: Windows and Linux. 
+The Julia source files (or codes) for various experiments mentioned throughout this book can be found in 
+{\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
 
-julia> Pkg.add("Pyplot").
+In this book, we have created a module named "ArduinoTools" in Julia.  This module is available at 
+{\tt Origin/tools/windows}. This module makes use of the functions available in LibSerialPort package to 
+establish serial communication with Arduino. In this module, we have added functions required to run 
+various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
+upon the Arduino. Please note that the module "ArduinoTools" and the Arduino firmware  given 
+in \ardref{ard:firmware} are required to run the experiments. 
 
-All Julia packages are GitHub repositories that can be cloned via the appropriate protocol. Unregistered packages which cannot be added as above can be added using Pkg.clone() command and the git clone URL. For example,
-
-julia> Pkg.clone("https://github.com/cshekhard/MyPackage.jl.git") 
-
-Care should be taken to use the appropriate protocol - git:// or https:// (if you are behind a firewall). 
-
-This tool makes use of a slightly modified version of the package 'SerialPorts' originally developed by Steve Kelly (sjkelly) - https://github.com/sjkelly/SerialPorts.jl.git 
-
-Let us now see how to load the Julia Arduino toolbox. 
-
-
-To install:
-\begin {itemize}
-\item julia> Pkg.clone ("https://github.com/cshekhard/SerialPorts.jl.git")
-
-Make sure the package is installed by checking Pkg.status() again.
-After a package is installed, it is imported into the current Julia session with the keyword 'using'
-
-\item julia> using SerialPorts
-The toolbox is now loaded and available for use. 
-
-\end{itemize}
-
-All the codes or .jl files must be saved in a folder that contains the file 'ArduinoTools.jl'
-This is because when we use include("ArduinoTools.jl"), the function 'include' searches for 'ArduinoTools.jl' only in that directory where our program file is saved.
-
-
-
-
-\subsection{Using the serial port package}
-
-The generic functions available with this package are:
-\begin{enumerate}
-      \item write() - To write data into a serial port. Returns the number of bytes written.
-            It has three methods:
-            \begin{enumerate}
-                  \item write(ser::SerialPort,data::UInt8) :
-                        To write a single Integer byte (0 to 255).
-                  \item write(ser::SerialPort,data::ASCIIString) :
-                        To write an ASCIIString into the serial port.
-                  \item write(ser::SerialPort,data::UTF8String) :
-                        To write a Unicode String into the serial port. Available only in the
-                        modified package.
-            \end{enumerate}
-            
-      \item read(ser::SerialPort,n::Integer) - To read n bytes of data from the serial
-            port. Returns the data read as a String.
-            
-      \item readavailable(ser::SerialPort) - To read all available bytes from the serial
-            port. Returns the data read as a String. 
-            
-      \item nb\_available(ser::SerialPort) - Returns the number of bytes waiting to be read
-            in the input buffer.
-            
-      \item open(ser::SerialPort) and close(ser::SerialPort) - To open and close a
-            pre-initialized serial port.   
-            
-\end{enumerate}
-
-All the aforementioned functions have identical analogues defined in
-the ArduinoTools module:  Write(), Read(), ReadAvailable(),
-nbAvailable(), openSerial() and closeSerial(). Hence, importing only
-the ArduinoTools module suffices for using any function. Using this
-basic set of functions, the user can define other functions to operate
-upon the Arduino.
-
+Now. we will see how to import (or load) the module named "ArduinoTools.jl" inside a Julia source file to run 
+various experiments provided in this book. In a Julia source file, add {\tt include("ArduinoTools.jl")} at the top of the file. 
+When we add {\tt include("ArduinoTools.jl")} in a source file, the function "include" searches for "ArduinoTools.jl" 
+only in that directory where our source file is saved. That's why, all the source files in Julia 
+must be saved in a folder that contains the file "ArduinoTools.jl." In this book, "ArduinoTools.jl" has been saved 
+in the folder where the Julia source files for each chapter are available. For the sake of convenience, we have 
+added {\tt include("ArduinoTools.jl")} in all the Julia source files provided in this book. 
+To run a particular experiment, one can simply follow the steps as given in \secref{julia-execution}. 
 
 \subsection{Firmware}
 \lstset{style=mystyle}
 \label{sec:test-firmware-julia}
 \addtocontents{cod}{\protect\addvspace{\codclr}}
-We have provided a Julia code to check whether the firmware has been
-properly installed.  That code is listed below.
+We have provided a Julia source file (code) to check whether the firmware has been
+properly installed.  That file is listed below.  Please ensure that 
+you have uploaded the Arduino firmware given in \ardref{ard:firmware} on \arduino.
 
 \begin{juliacode}
-      \jcaption{A Julia code to check whether the firmware is properly installed
-            or not}{A Julia code to check whether the firmware is properly installed
+      \jcaption{A Julia source file to check whether the firmware is properly installed
+            or not}{A Julia source file (code) to check whether the firmware is properly installed
             or not.  Available at
-            \LocFIMjuliabrief{test\_firmware.jl}.}
+            \LocFIMjuliabrief{test\_firmware.jl}. Execute this source file by following the steps 
+            given in \secref{julia-execution}. If the execution is
+            successful, you should expect three "ok" messages in the Linux Terminal. }
       \label{julia:test-firmware}
       \lstinputlisting{\LocFIMjuliacode/test_firmware.jl}
 \end{juliacode}
@@ -1475,216 +1311,6 @@ Let us now see how to load the OpenModelica Arduino toolbox.
 \end{enumerate}
 The toolbox is now loaded and available for use.
 
-%\begin{itemize}
-%      \item To install and run the OpenModelica Arduino toolbox, browse to
-%            File -> Open Model and browse to Arduino.mo in the OpenModelica-Arduino-Windows/Linux library and load it.
-%      \item Click on the '$+$' on the left side of Arduino on OMEdit
-%      \item Then click on '$+$' on the left side of SerialCommunication
-%      \item Now, click on '$+$' on the left side next to the Examples icon. Then you will come to see all
-%            the experiments available on this toolbox. You can perform any experiment by clicking on the experiment
-%            name and then execute the 'Simulate' button. 
-%      \item But don't forget to load the arduino\_firmware used for scilab-arduino to the Arduino board.
-%\end{itemize}
-
-
-
-%%%%%%%%OpenModelica description ends
-
-% \begin{enumerate}
-
-% \item THE connectBoard FUNCTION
-%       connectBoard(baudrate::Int64)
-
-%     \begin{enumerate}
-%         \item Function that opens the first serial port among the names returned by the 
-%               list\_serialports() function, with the specified baud rate.
-%         \item Works fine as long as there is no other active serial port in use.
-%         \item If there are multiple active serial ports, use the openSerial() function as 
-%               follows: openSerial(" <portname> ",<baudrate>)
-%         \item Usage: connectBoard(115200)
-%     \end{enumerate}
-
-% \item THE pinMode FUNCTION
-
-%       pinMode(file\_des::SerialPorts.SerialPort, pin\_no::Int64, mode::ASCIIString)
-
-
-%  A function to set the mode of a digital pin as INPUT or OUTPUT \\
-%  Parameters:
-%  \begin{enumerate}
-%  \item file\_des: file descriptor (SerialPort object)
-%   \item pin\_no: pin number 
-%   \item mode: "INPUT" or "OUTPUT" 
-% Similar to the pinMode function in Arduino.
-% Usage example : pinMode(ser,9,"OUTPUT")
-
-% \end{enumerate}
-
-
-
-% \item THE digiWrite FUNCTION
-
-
-% digiWrite(file\_des::SerialPorts.SerialPort , pin\_no::Int64 , val::Int64)
-% Function to send a digital signal (High(1) or Low(0)) to a connected Arduino
-%   board.
-%  Parameters:
-
-% \begin{enumerate}
-
-% \item  file\_des: file descriptor (SerialPort object)
-%  \item pin\_no: pin number
-%   \item val: Digital value to be sent to pin, 0 (for LOW/0V) or 1 (for HIGH/5V)
-% \end{enumerate}
-
-% \item THE digiRead FUNCTION
-
-
-
-% digiRead(file\_des::SerialPorts.SerialPort, pin\_no::Int64)
-
-%  Function to read the digital value on a pin. Returns 0 or 1 (Integer)\\
-%  Parameters:
-%  \begin{enumerate}
-% \item  file\_des: file descriptor (SerialPort object)
-%  \item  pin\_no: pin number
-% similar to digitlRead function in Arduino.
-% Usage example: digiRead(ser,9)
-% \end{enumerate}
-
-% \item THE analogWrite FUNCTION
-
-
-% analogWrite(file\_des::SerialPorts.SerialPort, pin\_no::Int64, val::Int64)
-
-% - Function to send an analog signal to a connected Arduino board.\\
-% - Parameters:
-% \begin{enumerate}
-%   \item file\_des: SerialPort object
-%   \item pin\_no: pin number (3,5,6,9,10 or 11 only in case of Arduino UNO)
-%   \item val: The value between 0-255 sent to the pin which will then be scaled to 
-%        0V-5V.
-%   \end{enumerate}
-
-% \item THE analogRead FUNCTION:
-
-
-% analogRead(file\_des::SerialPorts.SerialPort , pin\_no::Int64)
-
-% - Function to read analog signal from a pin on Arduino board. Returns a value 
-%   between 0-1023.\\
-% - Parameters: 
-% \begin{enumerate}
-%   \item file\_des: SerialPort object
-%      \item pin\_no: pin number
-
-%   \end{enumerate}
-
-
-% \item THE DCMotorSetup FUNCTION
-
-% DCMotorSetup(file\_des::SerialPorts.SerialPort, driver\_type::Int64,  
-%              motor\_no::Int64, pin1::Int64, pin2::Int64)
-
-% - Function to initialize and setup a DC motor.\\
-% - Parameters:
-
-% \begin{enumerate}
-
-%  \item file\_des: SerialPort object
-%   \item driver\_type: 1 for adafruit
-%                    2 for L298
-%                    3 for L293
-%   \item motor\_no: A number for identifying the motor – 1,2,3 or 4.
-
-% \end{enumerate}
-
-% \item THE DCMotorRun FUNCTION
-
-% DCMotorRun(file\_des::SerialPorts.SerialPort, motor\_no::Int64, speed::Int64)
-
-% - Function to run the motor at a desired speed, clockwise or anticlockwise.\\
-% - Parameters:
-
-% \begin{enumerate}
-
-
-%   \item file\_des: SerialPort object
-%   \item motor\_no: The ID number given to the motor in the setup function
-%   \item speed: Ranging from -255 to 255, change in sign will reverse the direction
-% \end{enumerate}
-
-% \item THE DCMotorRelease FUNCTION 
-% DCMotorRelease(file\_des::SerialPorts.SerialPort, motor\_no::Int64)
-
-% - Function to release a DC motor from the Arduino board i.e revoke the
-%   parameters from the setup function \\
-% - Parameters:
-% \begin{enumerate}
-
-
-
-%  \item file\_des: SerialPort object
-%   \item motor\_no: ID number of the motor from setup.
-
-% \end{enumerate}
-
-
-% \item THE ServoAttach FUNCTION
-
-% ServoAttach(file\_des::SerialPorts.SerialPort, servo\_no::Int64)
-
-% - Function to attach and initialize a servomotor \\
-% - Parameters:
-
-% \begin{enumerate}
-
-%   \item file\_des: SerialPort object
-%   \item servo\_no: 1 (for servo attached to pin 9) and 2 (for servo attached to 
-%                 pin 10)
-% \end{enumerate}
-
-% \item THE ServoMove FUNCTION
-
-% - Function to move the rotating part of motor to a specific angular position\\
-% - Parameters:
-
-% \begin{enumerate}
-
-%   \item file\_des: SerialPort object
-%   \item servo\_no: 1 (pin 9) or 2 (pin 10)
-%   \item val: angular position from 0 – 180 (in degrees)
-% \end{enumerate}
-
-% \item THE ServoDetach FUNCTION
-
-% ServoDetach(file\_des::SerialPorts.SerialPort, servo\_no::Int64)
-
-% - Function to detach the servomotor from arduino board \\
-% - Parameters:
-% \begin{enumerate}
-
-% \item  file\_des: Serialport object
-%  \item  servo\_no: 1 or 2
-% \end{enumerate}
-
-
-
-% \end{enumerate}
-
-
-
-%% \section{Code}
-%% \lstset{style=mystyle}
-%% \label{sec:hw-arduino}
-%% \addtocontents{ard}{\protect\addvspace{\codclr}}
-
-
-%python code
-%%%%%%%%%end python code
-
-%%%%%begin julia code
-%%%%%end julia
 
 %%%%%begin OpenModelica code
 
