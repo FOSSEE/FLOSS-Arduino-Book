@@ -898,7 +898,8 @@ For this, one can download the
 Windows pyserial package from the PyPI website, i.e., {\tt https://pypi.python.org/pypi/pyserial/3.4} and 
 install it by double-clicking on the downloaded file. 
 
-On Linux, we can install Python from the terminal. Open a terminal by 
+On Linux, we can install Python from the terminal. Please ensure that you 
+are connected to the Internet. Open a terminal by 
 pressing the Alt+Ctrl+T keys together. Then, update the system by executing the 
 command {\tt sudo apt-get update}. Next, install Python3.5 by executing the command given below:\\
 {\tt sudo apt-get install python3.5}\\
@@ -956,23 +957,141 @@ Please ensure that you have uploaded the Arduino firmware given in \ardref{ard:f
 
 
 
-
-
-
 %%%%%python description ends
 
 %%%%%%Julia descrition starts
 
 \section{Julia}
 \label{sec:julia-start}
-Julia is a high-level, high-performance dynamic programming language for
-technical computing, with syntax that is familiar to users of other technical
-computing environments. It provides a sophisticated compiler, distributed
+Julia is a high-level, high-performance dynamic programming language for 
+technical computing, with a syntax familiar to users of other technical computing 
+environments \cite{julia-ref}. While it is a general-purpose language and can be used to write any 
+application, many of its features are well suited for numerical analysis and 
+computational science. Julia provides a sophisticated compiler, distributed 
 parallel execution, numerical accuracy, and an extensive mathematical function
-library. This is a set of tools that provide functionality in Julia, to program the
-\arduino. 
+library. 
 
-\subsection{Downloading and installing Julia}\label{julia-installation}
+%This is a set of tools that provide functionality in Julia, to program the \arduino. 
+
+\subsection{Downloading and installing Julia} \label{julia-installation}
+Julia can be downloaded free of cost from {\tt https://julialang.org/}. 
+It is available for all popular operating systems, including Windows, Linux, 
+and Mac OS X systems. This book uses Julia  1.6.0 for demonstrating the experiments, 
+both on Windows and Linux.
+
+For the Windows system, the downloaded file is an executable (.exe) file. It has to
+be double-clicked to start the installation. All the default parameters of installation
+are acceptable. Once Julia has been installed successfully, Julia can be invoked by 
+by simply typing {\tt julia} in the command line. 
+
+We will now explain the installation of Julia on the GNU/Linux operating system. 
+We shall perform the installation on the 64-bit Ubuntu 18.04 LTS operating system.  
+These instructions will work for other GNU distributions too, with little or 
+no modification. This book uses Julia 1.6.0. To install it, carry out the steps
+given below: 
+
+\begin{enumerate}
+      \item First, update your system. Open the Terminal. Type 
+            {\tt sudo apt-get update} and press Enter. 
+      \item Find out your operating system support for 64-bit
+            instructions. Open the terminal emulator and type, {\tt uname -m}
+      \item If it returns ``x86\_64'', then your computer has 64-bit
+            operating system. 
+      \item Download the latest compressed Julia Linux Binaries from the website of Julia. 
+            Go to {\tt https://julialang.org/downloads/} and download the 
+            required Julia Linux binaries (32 or 64-bit) for Generic Linux on x86.  
+            As mentioned earlier, we will perform experiments with a 64-bit installation.
+      \item At the time of writing this book, we worked with Julia version 1.6.0.
+            Assuming that you have downloaded the tar file in {\tt Downloads} directory, perform the following
+            steps on the terminal:
+            \begin{quote}
+                  {\tt cd {\large\textasciitilde}/Downloads\\
+                        tar -xvzf julia-1.6.0-linux-x86\_64.tar.gz\\
+                        sudo cp -r julia-1.6.0 /opt/}
+            \end{quote}
+      \item Finally, create a symbolic link to {\tt julia} inside the 
+            {\tt /usr/local/bin} folder. In the same Terminal session, issue the 
+            following command: \\
+            {\tt sudo ln -s /opt/julia-1.6.0/bin/julia /usr/local/bin/julia} 
+      \item Close the Terminal.            
+\end{enumerate}
+
+Julia is now installed and can be invoked from the Terminal. Open the Terminal, type {\tt julia} and press Enter. It should launch julia in 
+an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
+in \figref{julia-repl}. When run in interactive mode, julia displays a banner and 
+prompts the user for input. Once the user has entered a complete expression, 
+such as 1 + 2, and hits Enter, the interactive session evaluates the expression 
+and shows its value, as shown in \figref{julia-repl}. If an expression is entered 
+into an interactive session with a trailing semicolon, its value is not shown. The variable {\tt ans} is 
+bound to the value of the last evaluated expression, whether it is shown or not. 
+The {\tt ans} variable is only bound in interactive sessions, not when Julia code is run in other ways.
+\begin{figure}
+      \centering
+      \includegraphics[width=\textwidth]{\LocSWfig/julia-terminal-repl.png}
+      \caption{Linux terminal to launch Julia REPL}
+      \label{julia-repl}
+\end{figure}
+By default, Julia REPL appears in Julian prompt. It is the default mode of 
+operation; each new line initially starts with {\tt julia>}, as 
+shown in \figref{julia-repl}. It is here that you can enter Julia expressions. 
+Hitting return or Enter after a complete expression has been entered will evaluate 
+the entry and show the result of the last expression. 
+
+Now, we will install a package named LibSerialPort. This package will be required to 
+establish serial port communication with Arduino boards. Please ensure that you 
+are connected to the Internet. To install the package,  
+we will use {\tt Pkg}. It is Julia's built-in package manager, and 
+handles operations such as installing, updating and removing packages in Julia. 
+For installing LibSerialPort, we need to enter the {\tt Pkg} REPL in Julia. 
+For this, launch Julia in interactive mode, as shown in \figref{julia-repl}. 
+From the Julia REPL, press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
+{\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg}.  
+\begin{figure}
+      \centering
+      \includegraphics[width=\textwidth]{\LocSWfig/julia-pkg.png}
+      \caption{Linux terminal to enter Pkg REPL in Julia}
+      \label{julia-pkg}
+\end{figure}
+Now, type {\tt add LibSerialPort} in {\tt Pkg} REPL and press Enter. It might take a few minutes 
+to get this package installed. Once it is installed, {\tt Pkg} REPL should show the message, 
+as shown in Fig. We can also check the status of this package to verify whether it has been installed 
+successfully or not. For this, we need to get back to the Julia REPL. Inside {\tt Pkg}
+REPL, press backspace. The moment you press backspace, you get back to Julia REPL, as shown in 
+\figref{julia-repl}. Now, type {\tt using Pkg} and press Enter. This command will not 
+generate any output. Now type {\tt Pkg.status()} and press Enter. It should display the 
+list of packages installed in Julia, as shown in Fig. Please make sure that LibSerialPort 
+is present in the list of packages being shown. 
+To exit the interactive session, type CTRL+D or type {\tt exit()}. 
+
+\subsection{Executing source files in Julia} \label{julia-execution}
+The source files in Julia have  `'.jl' extensions. There are two ways to execute 
+these source files, as given below: 
+
+\begin{enumerate}
+      \item Interactive mode: First, we launch Julia REPL, as shown in 
+            \figref{julia-repl}. Now, to evaluate expressions written in a source file 
+            like {\tt file.jl}, go to Julia REPL, type {\tt include("file.jl")}, and press Enter. 
+            When this command is run in Julia REPL, Julia will only look for the source 
+            file in the current working directory. That's why if your source file is at 
+            some different location, you need to pass the full path of the file. 
+            Assuming that you have launched Julia REPL in {\tt /home/fossee} and the 
+            source file {\tt file.jl} is located inside a folder named {\tt Origin} at {\tt Desktop},
+            then you should issue the command
+            {\tt include("/home/fossee/Desktop/Origin/file.jl"}. Another way could be to 
+            change the working directory in Julia REPL only. For this, we need to 
+            change the mode of Julia REPL from Julian prompt to Shell mode. Inside Julia REPL,
+            press {\tt ;} (semicolon) at the beginning of the line ({\tt julia>}). 
+            The moment you press {\tt ;} (semicolon), you enter shell mode, as shown in Fig. 
+            In this mode, you can use the system shell to execute system commands, like 
+            changing the directory using {\tt cd} command. And shell mode can be exited by 
+            pressing backspace at the beginning of the line ({\tt shell>}).
+      \item Non-interactive mode: To run code in a source file non-interactively, 
+            you can give it as the first argument to the {\tt julia} command. To execute 
+            the source file given in the previous step, open a Terminal. Type 
+            {\tt julia file.jl} and press Enter. Just like the previous step, you need to check for the 
+            path of the source file.  
+\end{enumerate}
+
 \begin{enumerate}
 \item On Ubuntu, Julia can be installed from the command line by typing in the 
 following commands:
@@ -1199,7 +1318,7 @@ are acceptable. Once OpenModelica has been installed successfully, OpenModelica
 Connection Editor (OMEdit) can be launched either from the Start menu or by double-clicking on the OMEdit icon created on the Desktop (if any).
 
 On Linux, we can install OpenModelica from the terminal. The readers are advised to visit 
-{\tt https://openmodelica.org/download/download-linux} and follow the instructions for installing OpenModelica.
+      {\tt https://openmodelica.org/download/download-linux} and follow the instructions for installing OpenModelica.
 We recommend the readers should install the latest stable version of OpenModelica. 
 Once OpenModelica has been installed successfully, OMEdit can be launched
 from the terminal. Open a terminal by pressing Alt+Ctrl+T and type OMEdit. When you 
@@ -1209,7 +1328,7 @@ should choose the option "Load MSL v3.2.3" and click OK.
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/OMEdit-libraries.png}
+      \includegraphics[scale=0.55]{\LocSWfig/OMEdit-libraries.png}
       \caption{Setup of Modelica Standard Library version}
       \label{om-help}
 \end{figure}
@@ -1242,7 +1361,7 @@ comes with a few default libraries, like Modelica, ModelicaReference, etc., as s
 Modelica Standard Library version, as given in \figref{om-help}. 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/OMEdit-UI.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/OMEdit-UI.png}
       \caption{User Interface of OMEdit}
       \label{om-ui}
 \end{figure}
@@ -1256,14 +1375,14 @@ of difference in these names while working with other versions of OpenModelica.
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-open-model.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-open-model.png}
       \caption{Opening a model in OMEdit}
       \label{om-model-open}
 \end{figure}
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-Modeling.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-Modeling.png}
       \caption{Opening a model in diagram view in OMEdit}
       \label{om-modeling}
 \end{figure}
@@ -1271,7 +1390,7 @@ of difference in these names while working with other versions of OpenModelica.
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-modeling-views.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-modeling-views.png}
       \caption{Different views of a model in OMEdit}
       \label{om-views}
 \end{figure}
@@ -1279,7 +1398,7 @@ of difference in these names while working with other versions of OpenModelica.
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-text-view.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-text-view.png}
       \caption{Opening a model in text view in OMEdit}
       \label{om-text-view}
 \end{figure}
@@ -1308,14 +1427,14 @@ observe that the OMEdit is now in Plotting Perspective.
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-simulate.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-simulate.png}
       \caption{Simulating a model in OMEdit}
       \label{om-simulate}
 \end{figure}
 
 \begin{figure}
       \centering
-      \includegraphics[width=\lgfig]{\LocSWfig/om-sim-success.png}
+      \includegraphics[width=\textwidth]{\LocSWfig/om-sim-success.png}
       \caption{Output window of OMEdit}
       \label{om-sim-success}
 \end{figure}
@@ -1342,17 +1461,17 @@ Let us now see how to load the OpenModelica Arduino toolbox.
             shortcut icon created on the Desktop. On a Linux system, one has to
             start OMEdit through a terminal, as
             explained in section \ref{OpenModelica-installation}.
-      \item After launching, we have to load OpenModelica-Arduino 
+      \item After launching, we have to load OpenModelica-Arduino
             toolbox. To do so, go to the menu bar of OMEdit. 
             Click on {\tt File} and then click on
             the {\tt Open Model/Library File(s)} option as shown in \figref{om-model-open}.
-      \item Navigate to {\tt Origin/tools/windows/OpenModelica-Arduino}, select \\ {\tt Arduino.mo}, 
+      \item Navigate to {\tt Origin/tools/windows/OpenModelica-Arduino}, select \\ {\tt Arduino.mo},
             and click Open. 
-      \item In OMEdit, under Libraries Browser, look for three new libraries: Arduino, 
-      Modelica\_Synchronous, and Modelica\_DeviceDrivers. If you are able to view these three,
-      it means that OpenModelica-Arduino toolbox has been loaded successfully. 
-      Please note that each time you launch OMEdit, you need to load this toolbox for
-      performing the experiments. 
+      \item In OMEdit, under Libraries Browser, look for three new libraries: Arduino,
+            Modelica\_Synchronous, and Modelica\_DeviceDrivers. If you are able to view these three,
+            it means that OpenModelica-Arduino toolbox has been loaded successfully. 
+            Please note that each time you launch OMEdit, you need to load this toolbox for
+            performing the experiments. 
 \end{enumerate}
 The toolbox is now loaded and available for use.
 
