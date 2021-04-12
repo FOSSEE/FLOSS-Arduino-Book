@@ -1039,8 +1039,8 @@ the entry and show the result of the last expression.
 Now, we will install a package named LibSerialPort. This package will be required to 
 establish serial communication with Arduino boards. Please ensure that you 
 are connected to the Internet. To install the package,  
-we will use {\tt Pkg}. It is Julia's built-in package manager, and 
-handles operations such as installing, updating and removing packages in Julia. 
+we will use {\tt Pkg}. It is Julia's built-in package manager and 
+handles operations such as installing, updating, and removing packages in Julia. 
 For installing LibSerialPort, carry out the steps given below:
 \begin{enumerate}
       \item Launch Julia in interactive mode, as shown in \figref{julia-repl}.
@@ -1060,7 +1060,7 @@ For installing LibSerialPort, carry out the steps given below:
 \end{figure}
 
 We can also check the status of this package to verify whether it has been installed 
-successfully or not. For this, we need to get back to the Julia REPL. Inside {\tt Pkg}
+successfully or not. For this, we need to get back to Julia REPL. Inside {\tt Pkg}
 REPL, press backspace. The moment you press backspace, you get back to Julia REPL, as shown in 
 \figref{julia-repl}. Now, type {\tt using Pkg} and press Enter. This command will not 
 generate any output. Now type {\tt Pkg.status()} and press Enter. It should display the 
@@ -1070,7 +1070,7 @@ is present in the list of packages being shown. To exit the interactive session,
 \subsection{Executing source files in Julia} \label{julia-execution}
 The source files in Julia have  ".jl" extensions. There are two modes in which these 
 source files can be executed: Interactive mode and Non-interactive mode. In this book, 
-we will execute sources files in the latter mode. The readers are encouraged to explore
+we will execute source files in the latter mode. The readers are encouraged to explore
 the former mode on their own. 
 
 To run code in a source file non-interactively, you can give it as the first argument to the {\tt julia} command. 
@@ -1094,20 +1094,20 @@ The Julia source files (or codes) for various experiments mentioned throughout t
 {\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
 
 In this book, we have created a module named "ArduinoTools" in Julia.  This module is available at 
-{\tt Origin/tools/windows}. This module makes use of the functions available in LibSerialPort package to 
+{\tt Origin/tools/windows}. This module makes use of the functions available in the LibSerialPort package to 
 establish serial communication with Arduino. In this module, we have added functions required to run 
 various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
 upon the Arduino. Please note that the module "ArduinoTools" and the Arduino firmware  given 
 in \ardref{ard:firmware} are required to run the experiments. 
 
-Now. we will see how to import (or load) the module named "ArduinoTools.jl" inside a Julia source file to run 
+Now, we will see how to import (or load) the module named "ArduinoTools.jl" inside a Julia source file to run 
 various experiments provided in this book. In a Julia source file, add {\tt include("ArduinoTools.jl")} at the top of the file. 
 When we add {\tt include("ArduinoTools.jl")} in a source file, the function "include" searches for "ArduinoTools.jl" 
-only in that directory where our source file is saved. That's why, all the source files in Julia 
+only in that directory where our source file is saved. That's why all the source files in Julia 
 must be saved in a folder that contains the file "ArduinoTools.jl." In this book, "ArduinoTools.jl" has been saved 
 in the folder where the Julia source files for each chapter are available. For the sake of convenience, we have 
 added {\tt include("ArduinoTools.jl")} in all the Julia source files provided in this book. 
-To run a particular experiment, one can simply follow the steps as given in \secref{julia-execution}. 
+To run a particular experiment, one can follow the steps as given in \secref{julia-execution}. 
 
 \subsection{Firmware}
 \lstset{style=mystyle}
@@ -1328,7 +1328,7 @@ in \ardref{ard:firmware} on the \arduino\ board.
       \mcaption{An OpenModelica code to check whether the firmware is properly installed
             or not}{An OpenModelica code/model to check whether the firmware is properly installed
             or not.  Available at \LocFIMOpenModelicabrief{test\_firmware.mo}. Simulate this code/model by following the steps 
-            given in section \ref{OpenModelica-code-execution}. If the simulation is
+            given in  \secref{OpenModelica-code-execution}. If the simulation is
             successful, you should expect an output window in OMEdit as shown in 
             \figref{om-sim-success}.}
       \label{OpenModelica:test-firmware}
