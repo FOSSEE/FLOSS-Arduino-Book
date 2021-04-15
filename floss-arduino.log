@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  13 APR 2021 04:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  16 APR 2021 00:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,11 +805,11 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-he
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-help.png  used on input line 864.
 (pdftex.def)             Requested size: 258.36281pt x 195.35445pt.
  [40 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/sim-setup.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/arduino-palette.png>] [41 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-help.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py [42])
-</home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-download.png, id=281, 1133.23375pt x 430.60875pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-download.png, id=281, 670.00313pt x 277.035pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-download.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-download.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-download.png  used on input line 995.
-(pdftex.def)             Requested size: 397.48499pt x 151.03726pt.
+(pdftex.def)             Requested size: 397.48499pt x 164.34962pt.
 
 Overfull \hbox (5.34262pt too wide) in paragraph at lines 1001--1003
 []\T1/cmr/m/n/10.95 First, up-date your sys-tem. Open the Ter-mi-nal. Type \T1/fvm/m/n/10.95 sudo apt-get update
@@ -831,6 +831,9 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-p
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-pkg.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-pkg.png  used on input line 1057.
 (pdftex.def)             Requested size: 397.48499pt x 274.37646pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [46 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-pkg.png>] [47] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/test_firmware.jl)
 Overfull \hbox (8.73886pt too wide) in paragraph at lines 1146--1150
 \T1/cmr/m/n/10.95 OpenModelica can be down-loaded free of cost from \T1/fvm/m/n/10.95 https://openmodelica.org/\T1/cmr/m/n/10.95 .
@@ -843,14 +846,14 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-libraries.png  used on input line 1167.
 (pdftex.def)             Requested size: 365.46649pt x 300.32292pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4036) has occurred while \output is active []
 
  [49 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-libraries.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-UI.png, id=312, 1327.96124pt x 792.9625pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-UI.png, id=312, 435.87843pt x 267.24844pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-UI.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-UI.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-UI.png  used on input line 1200.
-(pdftex.def)             Requested size: 397.48499pt x 237.3461pt.
+(pdftex.def)             Requested size: 397.48499pt x 243.70619pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-open-model.png, id=313, 1087.06125pt x 792.9625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-open-model.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-open-model.png>
@@ -1497,7 +1500,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  50i,11n,53p,509b,1777s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (242 pages, 24710073 bytes).
+Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (242 pages, 24659745 bytes).
 PDF statistics:
  1082 PDF objects out of 1200 (max. 8388607)
  636 compressed objects within 7 object streams
