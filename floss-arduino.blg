@@ -4,45 +4,45 @@ The top-level auxiliary file: floss-arduino.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "therm-wiki"
-You've used 17 entries,
+You've used 18 entries,
             1791 wiz_defined-function locations,
-            503 strings with 4892 characters,
-and the built_in function-call counts, 1950 in all, are:
-= -- 176
-> -- 26
+            507 strings with 5045 characters,
+and the built_in function-call counts, 2059 in all, are:
+= -- 186
+> -- 27
 < -- 0
-+ -- 20
++ -- 21
 - -- 3
 * -- 2
-:= -- 228
-add.period$ -- 54
-call.type$ -- 17
-change.case$ -- 17
+:= -- 239
+add.period$ -- 57
+call.type$ -- 18
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 85
-empty$ -- 307
+cite$ -- 18
+duplicate$ -- 90
+empty$ -- 325
 format.name$ -- 3
-if$ -- 503
+if$ -- 532
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 91
+newline$ -- 96
 num.names$ -- 3
-pop$ -- 133
+pop$ -- 141
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 47
+skip$ -- 50
 stack$ -- 0
 substring$ -- 0
-swap$ -- 17
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 3
-width$ -- 19
-write$ -- 161
+width$ -- 20
+write$ -- 170
 (There was 1 warning)

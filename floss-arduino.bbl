@@ -86,6 +86,11 @@ julialang.org/.
 \newblock https://julialang.org/.
 \newblock Seen on 12 April 2021.
 
+\bibitem{julia-serial-ports}
+Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
+\newblock https://github.com/JuliaIO/SerialPorts.jl.
+\newblock Seen on 15 April 2021.
+
 \bibitem{om-ref}
 python.org.
 \newblock https://www.openmodelica.org/.
