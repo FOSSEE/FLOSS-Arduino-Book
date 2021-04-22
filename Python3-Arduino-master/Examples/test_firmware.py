@@ -16,11 +16,12 @@ class TEST_FIRMWARE:
         self.exit()
 
     def setup(self):
-            self.obj_arduino = Arduino()
-            self.port = self.obj_arduino.locateport()
-            self.obj_arduino.open_serial(1, self.port,self.baudrate)
+        self.obj_arduino=Arduino()
+        self.port=self.obj_arduino.locateport()
+        self.obj_arduino.open_serial(1,self.port,self.baudrate)
 
     def run(self):
+    	self.obj_arduino.checkfirmware()
         
 
     def exit(self):

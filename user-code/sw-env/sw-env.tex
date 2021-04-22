@@ -45,13 +45,14 @@ different purposes as per the requirement. For example,
       \item To run \arduino\ stand-alone, without waiting for any commands
             from other software or hardware, for the specified time or until
             power off
-      \item To decode the commands sent by other software, such as \scilab,
-            through serial port, and execute the given instructions
-            %\item Combination of the above two
+      \item To decode the commands sent by other software, such as OpenModelica, 
+            Julia, Python, \scilab, etc., through a serial port, and 
+            execute the given instructions %\item Combination of the above two
 \end{itemize}
 Next, we shall discuss Scilab and Xcos, which are open-source software
 tools, and a related toolbox that can communicate with \arduino\ 
-over a serial port using RS232 protocol.
+over a serial port using RS232 protocol. Subsequently, we shall discuss 
+other open-source software tools such as Python, Julia, and OpenModelica. 
 
 \section{Arduino IDE}\label{arduino-ide}
 \label{sec:ard-start}
@@ -76,8 +77,8 @@ Arduino IDE on Windows OS:
 
 \begin{enumerate}
       \setcounter{enumi}2
-      \item Visit the URL, \\{\tt https://www.arduino.cc/en/software} \\
-            locate on the right side of the page the link \emph{Windows ZIP file} and click it.  
+      \item Visit the URL, {\tt https://www.arduino.cc/en/software}. On the 
+            right right side of the page, locate the link \emph{Windows ZIP file} and click on it.  
             This may redirect you to the download/donate page. Read the instructions and proceed with the
             download.
       \item Extract the downloaded ZIP file to Desktop. Do not alter any
@@ -88,9 +89,13 @@ Arduino IDE on Windows OS:
             click on ``System'' and then choose the ``Device Manager''.
       \item Look for ``Other devices'' in the ``Device Manager'' list,
             expand and locate ``Unknown device''.  This may be similar to what
-            is shown in \figref{win-device-manager}.
-      \item Right-click on the ``Unknown device'' and select the ``Update
-            Driver Software'' option as shown in \figref{win-dri-update}.
+            is shown in \figref{win-device-manager}. In case, you don't see  
+            ``Unknown device,'' look for ``Ports (COM \& LPT)'' and expand it to locate 
+            ``USB Serial Device (COM2)''.
+            This may be similar to what is shown in \figref{win-device-manager-com}.
+      \item Right-click on the ``Unknown device'' (or ``USB Serial Device (COM2)'' as shown in 
+            the previous step) and select the ``Update Driver Software'' (or ``Update driver'') option 
+            as shown in \figref{win-dri-update}. 
       \item Next, choose the ``Browse my computer for Driver software''
             option.
       \item Navigate to the newly extracted Arduino folder on the Desktop and
@@ -104,6 +109,13 @@ Arduino IDE on Windows OS:
       \includegraphics[width=\linewidth]{\LocHWfig/hw-device-manager.jpg}
       \caption{Windows device manager}
       \label{win-device-manager}
+\end{figure}
+
+\begin{figure}
+      \centering
+      \includegraphics[width=\linewidth]{\LocSWfig/device-manager-com.png}
+      \caption{Windows device manager}
+      \label{win-device-manager-com}
 \end{figure}
 
 \begin{figure}
@@ -136,9 +148,9 @@ above.  Then carry out the following:
             earlier, we will perform experiments with a 64-bit installation.
             
       \item At the time of writing this book, we worked with version 1.8.13.
-            Assuming that you have downloaded tar file in~
-            {\large \textasciitilde}/Downloads directory, perform the following
-            steps on the terminal:
+            Assuming that you have downloaded the tar file in 
+            the Downloads directory, execute the following
+            commands on the terminal:
             \begin{quote}
                   {\tt cd {\large\textasciitilde}/Downloads\\
                         tar -xvf arduino-1.8.13-linux64.tar.xz\\
@@ -299,18 +311,16 @@ example program.
 
 Arduino programming syntax is different from other languages. In an
 embedded setup, a program is expected to run forever. To facilitate
-this, the Arduino programming structure has two main functions: setup():
+this, the Arduino programming structure has two main functions: {\tt setup()}:
 Used to initialize variables, pin modes, libraries, etc. The setup
 function will run only once after each powerup or board reset.
-loop(): Code inside this function runs forever. An Arduino program
-must have setup() and loop() functions.  We will give several examples
+{\tt loop()}: Code inside this function runs forever. An Arduino program
+must have {\tt setup()} and {\tt loop()} functions.  We will give several examples
 in this book to explain this usage.
 
 An inbuilt offline help is available within the IDE. You may access
 the explanation on IDE by navigating to ``Help'' and then
-Environment. Access Arduino language reference at ``Help'' and then
-Reference. Access FAQs and troubleshooting tricks at ``Help'' and then
-Troubleshooting.
+Environment.
 
 \subsection{Firmware}
 We have provided a code to check whether the Arduino firmware has been
@@ -319,12 +329,12 @@ properly installed.  The first few lines of this code follow.
 \begin{ardcode}
       \acaption{First 10 lines of the Arduino firmware}{First 10 lines of
             the Arduino firmware.  Available at
-            \LocSWfirmbrief{arduino-firmware.ino}. By following the
+            \LocSWfirmbrief{arduino-firmware.ino}. Following the
             steps given in sections \ref{sec:Arduino-IDE} and 
             \ref{sec:testing-arduino}, open this code in 
-            Arduino IDE and upload it to Arduino Uno. 
-            Once the upload is successful, you should expect a message 
-            in the bottom of Arduino IDE as shown in \figref{ard-ide}. }
+            Arduino IDE and upload it to \arduino. 
+            Once the upload is successful, you should expect a success message 
+            at the bottom of Arduino IDE, as shown in \figref{ard-ide}. }
       \label{ard:firmware}
       \lstinputlisting[firstline=1,lastline=10]
       {\LocSWfirmcode/arduino-firmware.ino}
@@ -391,29 +401,57 @@ also interact with other major programming languages such as Fortran,
 C, C++, Python, Java, and TCL/TK \cite{scilab-interop}.  It has a
 graphical editor called Xcos, which is similar to Simulink of Matlab. 
 
-\subsection{Downloading and installing \scilab}\label{scilab-installation}
-Scilab can be downloaded free of cost from {\tt https://www.scilab.org/}. It is
-available for all popular operating systems, including Windows, Linux,
-and Mac OS X systems.  This book uses Scilab-5.5.2 for demonstrating
-the experiments, both on Windows and Linux.
+In the upcoming sections, we have provided the steps to install Scilab on 
+Windows and Linux. After installing Scilab, the readers are advised to 
+watch the tutorials on Scilab provided on {\tt https://spoken-tutorial.org/}. 
+Ideally, one should go through all the tutorials labeled as Basic. 
+However, we strongly recommend the readers should watch the sixth and 
+thirteenth tutorials, i.e., Getting Started and Xcos Introduction. 
 
-For the Windows system, the downloaded file is an executable (.exe) file.
-It has to be double-clicked to start the installation. All the default
-parameters of installation are acceptable.  It has to be noted that
-\scilab\ requires internet connectivity during installation on
-Windows.  There is an option at the beginning of the installation to
-continue offline but it is not recommended.  Scilab can be launched
-either from the Start menu or by double-clicking on the \scilab\ icon
-created on the Desktop (if any).
 
-Package managers of Linux do not have the latest versions of Scilab.
-As a result, downloading directly from the \scilab\ website, {\tt
-            https://www.scilab.org/}, is recommended, as there are differences in
-Scilab from version to version.  We expect such problems to be overcome
-in the future.  The file downloaded will be in a tar.gz format.  It has
-to be extracted before use.  It is a portable version and needs no
-installation. Scilab can be launched and used right away.  To launch
-\scilab, open a terminal by pressing the Alt+Ctrl+T keys
+\subsection{Downloading and installing \scilab\ on Windows}\label{scilab-installation-windows}
+This book uses Scilab 5.5.2 for demonstrating the experiments, 
+both on Windows and Linux. Starting from download, we shall go through 
+the steps to set up Scilab 5.5.2 on Windows OS:
+
+\begin{enumerate}
+      \item Visit the URL {\tt https://www.scilab.org/}. 
+      At the top of the page, locate the Download tab and click on it. 
+      It will take you to various software versions available for Scilab. 
+      On the left side of this page, find Scilab 5.5.2 and click on it. 
+      Now, download the executable file for Scilab 5.5.2 compatible with your machine. 
+      We will download Scilab 5.5.2 - Windows 64 bits provided under 
+      Windows Vista, 7, 8, 10. 
+      \item Locate the executable (.exe) file and double-click on it to 
+      begin the installation. All the default parameters of installation 
+      are acceptable. It may be noted that Scilab requires internet 
+      connectivity during installation on Windows. There is an option 
+      at the beginning of the installation to continue offline, 
+      but it is not recommended. 
+\end{enumerate}
+
+Once the installation is complete, Scilab can be launched either from the 
+Start menu or by double-clicking on the Scilab icon created on the Desktop. 
+
+\subsection{Downloading and installing \scilab\ on Linux}\label{scilab-installation-linux}
+
+Package managers of Linux do not have the latest versions of Scilab. 
+So, we will install Scilab by downloading the executable file 
+from {\tt https://www.scilab.org/}. Starting from download, we shall go 
+through the steps to set up Scilab 5.5.2 on Linux: 
+
+\begin{enumerate}
+      \item Visit the URL {\tt https://www.scilab.org/}. At the top of the page, 
+      locate the Download tab and click on it. It will take you to various 
+      software versions available for Scilab. On the left side of this page, 
+      find Scilab 5.5.2 and click on it. Now, download the executable file for Scilab 5.5.2 
+      compatible with your machine.  We will download Scilab 5.5.2 - Linux 64 bits provided under GNU/Linux.  
+      \item Locate the executable (tar.gz) file and extract it. 
+      It is a portable version and needs no installation. 
+      Scilab can be launched and used right away.
+\end{enumerate}
+
+To launch \scilab, open a terminal by pressing the Alt+Ctrl+T keys
 together. Change the directory where \scilab\ is extracted. Browse
 till the {\tt /bin} directory. Type the command {\tt ls} to see a few
 \scilab\ files.  Then execute the command {\tt sudo ./scilab}. Note
@@ -446,7 +484,7 @@ Let us now see how to load the Scilab Arduino toolbox.
             \scilab\ either through the Start menu or by double-clicking on the
             shortcut icon created on the Desktop. On a Linux system, one has to
             start \scilab\ through a terminal with root permissions, as
-            explained in section \ref{scilab-installation}.
+            explained in section \ref{scilab-installation-linux}.
       \item After launching \scilab, first we have to change the working
             directory. To do so, click on the {\tt File} menu and then click on
             the {\tt Change current directory} option as shown in
@@ -460,7 +498,7 @@ Let us now see how to load the Scilab Arduino toolbox.
       \item Then, one has to browse to the toolbox folder
                   {\tt Origin/tools/windows} or {\tt Origin/tools/linux}, as the case
             may be, and click on, {\tt
-                        open}, as shown in \figref{scilab-browse}.
+                        Open}, as shown in \figref{scilab-browse}.
             \begin{figure}
                   \centering
                   \includegraphics[width=\hgfig]{\LocSWfig/browse-directory.png}
@@ -616,7 +654,7 @@ Now let us test the functioning of the toolbox.
             
       \item To execute this code, on the menu bar, click on the {\tt
                         Execute}, option. Then choose {\tt File with no echo}. The output
-            will appear on the console as shown in \figref{test-console}.
+            will appear on the Console as shown in \figref{test-console}.
             \begin{figure}
                   \centering
                   \includegraphics[scale=0.5]{\LocSWfig/test-console.png}
@@ -879,37 +917,139 @@ The Python interpreter and the extensive standard library are available in sourc
 charge for all major platforms, and can be freely distributed \cite{python-ref}.
 
 
-\subsection{Downloading and installing Python}\label{python-installation}
-Python can be downloaded free of cost from {\tt https://www.python.org/}. It is
-available for all popular operating systems, including Windows, Linux
-and Mac OS X systems.  This book uses Python 3.5 for demonstrating
-the experiments, both on Windows and Linux.
+\subsection{Downloading and installing on Windows} \label{python-installation}
+This book uses Python 3 for demonstrating the experiments, both on Windows 
+and Linux. Since Python uses indentation to indicate a block of code, 
+the users are advised to install a programmer text editor like Atom. 
+This editor will allow the readers to modify the Python scripts on their 
+machines if they want to. Starting from download, we shall go through the 
+steps to set up Python 3 on Windows OS:
 
-For the Windows system, the downloaded file is an executable (.exe) file. One can download 
-this executable file (32-bit or 64-bit as per your system) from Python's webpage i.e.,
-{\tt https://www.python.org/downloads/windows/}. 
-It has to be double-clicked to start the installation. All the default parameters of installation
-are acceptable. Once Python has completed the downloading and installation process, we can verify whether
-Python is installed correctly. For this, we need to open Windows PowerShell using the Start menu. 
-Once PowerShell is open, enter {\tt Python -{}-version} to confirm that Python has installed on your machine. 
+\begin{enumerate}
+      \item Visit the URL {\tt https://www.python.org/}. 
+      At the top of the page, locate the Downloads tab and click on it. 
+      At the time of writing this book (as of 21 April 2021), Python 3.9.4 
+      is the latest version. Click on Download Python 3.9.4 to download the 
+      executable file. The readers may want to download the other versions of 
+      Python 3. However, we recommend the installation of Python 3.5 or above. 
+      It may be noted that some of the Python 3 versions cannot be used on Windows 7 or earlier.
+      \item Locate the executable file and double-click on it to begin the 
+      installation. Python 3.9.4 Setup window appears, as shown in \figref{python-windows}. 
+      In this window, check the box which says, Add Python 3.9 to PATH and 
+      click on Install now.  
+      \begin{figure}
+            \centering
+            \includegraphics[width=\lgfig]{\LocSWfig/python-windows-install.png}
+            \caption{Installing Python 3 on Windows}
+            \label{python-windows}
+      \end{figure}
+\end{enumerate}
 
-Apart from Python, we need to install Python Serial Port Extension. 
-For this, one can download the
-Windows pyserial package from the PyPI website, i.e., {\tt https://pypi.python.org/pypi/pyserial/3.4} and 
-install it by double-clicking on the downloaded file. 
+Once the installation is finished, Python 3.9 App can be launched 
+from the Start menu. In this book, we will use the Command Prompt to 
+execute the Python scripts. Please note that a Python script has .py as its 
+extension. Carry out the steps given below to execute a Python script from 
+the Command Prompt:
 
+\begin{enumerate}
+      \item Launch the Command Prompt. Press the Windows key+R together. 
+      A window, as shown in \figref{windows-run} appears. In the text box adjacent to {\tt Open}, type {\tt cmd}, 
+      and press Enter. The Command Prompt, as shown in \figref{windows-cmd} appears. 
+      By default, it points to the home directory.  
+      \begin{figure}
+            \centering
+            \includegraphics[width=\lgfig]{\LocSWfig/windows-cmd.png}
+            \caption{Launching the Command Prompt on Windows}
+            \label{windows-run}
+      \end{figure}
+      \item Now, we will check whether Python 3.9 was installed 
+      successfully or not. In the Command Prompt, type {\tt py -{}-version} and 
+      press Enter. If this step displays Python 3.9.4 in the following line, 
+      the installation was successful. 
+      \begin{figure}
+            \centering
+            \includegraphics[width=\lgfig]{\LocSWfig/win-command-prompt.png}
+            \caption{Command Prompt on Windows}
+            \label{windows-cmd}
+      \end{figure}
+      \item Using the {\tt cd} command, navigate to the directory where your Python 
+      script is located. Assuming that your Command Prompt points to the 
+      home directory, and you want to navigate to the folder Origin on 
+      Desktop, execute the following command: {\tt cd Desktop\textbackslash Origin} \\
+      It may be noted that a backslash (\textbackslash) has been used between 
+      Desktop and Origin. 
+      \item To view the contents of this folder, type {\tt dir} and press Enter.
+      \item Suppose you have a Python script named  {\tt FILENAME.py} in this 
+      folder. To execute this script, type {\tt python FILENAME.py} and press 
+      Enter. The required output will be displayed in the Command Prompt itself. 
+      We don’t expect the readers to run the command {\tt python FILENAME.py} at 
+      this instant. This command will be helpful while running the Python 
+      scripts in the upcoming sections and chapters. 
+      \item To exit the Command Prompt, type {\tt exit} and press Enter. 
+ 
+\end{enumerate}
+
+Apart from Python, we need to install Python Serial Port Extension, 
+also known as pyserial \cite{pySerial}. To do so, carry out the steps given 
+below:
+\begin{enumerate}
+      \item Launch the Command Prompt, as shown in \figref{windows-run}. 
+      \item First, we need to make sure we have pip available. 
+      In the Command Prompt, execute the following command: {\tt py -m pip --version} \\ 
+      This step should display an output with the version of pip installed. 
+      \item Now, install pyserial. In the Command Prompt, execute the following command: 
+      {\tt py -m pip install pyserial}  
+      \item We will verify whether the pyserial package was installed successfully or not. 
+      In the Command Prompt, execute the following command: 
+      {\tt pip show pyserial}
+      It should show the name, version, etc., of the package. 
+      \item To exit the Command Prompt, type {\tt exit} and press Enter. 
+\end{enumerate}
+
+\subsection{Downloading and installing on Linux} 
 On Linux, we can install Python from the terminal. Please ensure that you 
-are connected to the Internet. Open a terminal by 
-pressing the Alt+Ctrl+T keys together. Then, update the system by executing the 
-command {\tt sudo apt-get update}. Next, install Python3.5 by executing the command given below:\\
-{\tt sudo apt-get install python3.5}\\
-Now, we will install Python Serial Port Extension by executing the commands given below:\\ 
-{\tt sudo apt-get install python3-pip \\
-pip3 install pyserial}
+are connected to the Internet. To install Python 3.5, carry out the steps given below:
+\begin{enumerate}
+      \item Open a terminal by pressing the Alt+Ctrl+T keys together.
+      \item Update the system by executing the command {\tt sudo apt-get update}
+      \item Install Python3.5 by executing the command given below:\\
+      {\tt sudo apt-get install python3.5}
+      \item Now, we will check whether Python was installed 
+      successfully or not. In the terminal, type {\tt py -{}-version} and 
+      press Enter. If this step displays Python 3.8.4 in the following line, 
+      the installation was successful. 
+\end{enumerate}
 
-To execute a Python code (or script) on Linux, one should 
-navigate the terminal to the directory where the script is located using the {\tt cd} command.
-Next, type {\tt python3 FILENAME.py} in the terminal to execute the script. 
+Once the installation is finished, Python 3 can be launched 
+from the terminal. In this book, we will use the Linux terminal to 
+execute the Python scripts. Please note that a Python script has .py as its 
+extension. Carry out the steps given below to execute a Python script from 
+the terminal:
+\begin{enumerate}
+      \item Open a terminal by pressing the Alt+Ctrl+T keys together.
+      \item Using {\tt cd} command, navigate to the directory where the Python script is located. 
+      \item Suppose you have a Python script named  {\tt FILENAME.py}. 
+      To execute this script, type {\tt python3 FILENAME.py} and press 
+      Enter. The required output will be displayed in the terminal itself. 
+      We don’t expect the readers to run the command {\tt python3 FILENAME.py} at 
+      this instant. This command will be helpful while running the Python 
+      scripts in the upcoming sections and chapters. 
+\end{enumerate}
+
+Apart from Python, we need to install Python Serial Port Extension, 
+also known as pyserial \cite{pySerial}. To do so, carry out the steps given 
+below:
+\begin{enumerate}
+      \item Open a terminal by pressing the Alt+Ctrl+T keys together.
+      \item First, we need to install pip. In the terminal, execute the following command: 
+      {\tt sudo apt-get install python3-pip} 
+      \item Now, install pyserial. In the terminal, execute the following command:\\ 
+      {\tt pip3 install pyserial}  
+      \item We will verify whether the pyserial package was installed successfully or not. 
+      In the terminal, execute the following command: 
+      {\tt pip3 show pyserial}\\
+      It should show the name, version, etc., of the package. 
+\end{enumerate}
 
 % \begin{enumerate}
 %       \item On Ubuntu, Python can be installed from the command line by typing in the

@@ -222,6 +222,9 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/sw-env.tex
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/hw-device-manager.jpg
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/hw-device-manager.jpg
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/hw-device-manager.jpg
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/device-manager-com.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/device-manager-com.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/device-manager-com.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/update-driver.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/update-driver.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/update-driver.png
@@ -308,6 +311,15 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/arduino
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-help.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-help.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/xcos-help.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/python-windows-install.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/python-windows-install.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/python-windows-install.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/windows-cmd.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/windows-cmd.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/windows-cmd.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/win-command-prompt.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/win-command-prompt.png
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/win-command-prompt.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py
@@ -1054,7 +1066,6 @@ INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb

@@ -81,6 +81,11 @@ python.org.
 \newblock https://www.python.org/doc/essays/blurb/.
 \newblock Seen on 24 February 2021.
 
+\bibitem{pySerial}
+pyserial - pypi.
+\newblock https://pypi.org/project/pyserial/.
+\newblock Seen on 21 April 2021.
+
 \bibitem{julia-ref}
 julialang.org/.
 \newblock https://julialang.org/.

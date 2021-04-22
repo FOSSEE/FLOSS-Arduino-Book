@@ -1,30 +1,30 @@
-\contentsline {section}{\numberline {3.{1}}An OpenModelica code to check whether the firmware is properly installed or not}{56}%
+\contentsline {section}{\numberline {3.{1}}An OpenModelica code to check whether the firmware is properly installed or not}{60}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the LED}{81}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{81}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{82}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{83}%
+\contentsline {section}{\numberline {4.{1}}Turning on the LED}{85}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{85}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{86}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{87}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{98}%
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{99}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{102}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{103}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{116}%
-\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{117}%
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{120}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{121}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{138}%
-\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{138}%
-\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{139}%
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{142}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{142}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{143}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{152}%
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{156}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{171}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{172}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{175}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{176}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{192}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{193}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{194}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{194}%
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{196}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{197}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{198}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{198}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{214}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{214}%
-\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{215}%
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{218}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{218}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{219}%
