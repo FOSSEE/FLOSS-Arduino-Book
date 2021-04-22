@@ -409,7 +409,7 @@ However, we strongly recommend the readers should watch the sixth and
 thirteenth tutorials, i.e., Getting Started and Xcos Introduction. 
 
 
-\subsection{Downloading and installing \scilab\ on Windows}\label{scilab-installation-windows}
+\subsection{Downloading and installing on Windows}\label{scilab-installation-windows}
 This book uses Scilab 5.5.2 for demonstrating the experiments, 
 both on Windows and Linux. Starting from download, we shall go through 
 the steps to set up Scilab 5.5.2 on Windows OS:
@@ -433,7 +433,7 @@ the steps to set up Scilab 5.5.2 on Windows OS:
 Once the installation is complete, Scilab can be launched either from the 
 Start menu or by double-clicking on the Scilab icon created on the Desktop. 
 
-\subsection{Downloading and installing \scilab\ on Linux}\label{scilab-installation-linux}
+\subsection{Downloading and installing on GNU/Linux Ubuntu}\label{scilab-installation-linux}
 
 Package managers of Linux do not have the latest versions of Scilab. 
 So, we will install Scilab by downloading the executable file 
@@ -917,7 +917,7 @@ The Python interpreter and the extensive standard library are available in sourc
 charge for all major platforms, and can be freely distributed \cite{python-ref}.
 
 
-\subsection{Downloading and installing on Windows} \label{python-installation}
+\subsection{Downloading and installing on Windows} \label{py-windows}
 This book uses Python 3 for demonstrating the experiments, both on Windows 
 and Linux. Since Python uses indentation to indicate a block of code, 
 the users are advised to install a programmer text editor like Atom. 
@@ -1006,7 +1006,7 @@ below:
       \item To exit the Command Prompt, type {\tt exit} and press Enter. 
 \end{enumerate}
 
-\subsection{Downloading and installing on Linux} 
+\subsection{Downloading and installing on GNU/Linux Ubuntu} \label{py-linux}
 On Linux, we can install Python from the terminal. Please ensure that you 
 are connected to the Internet. To install Python 3.5, carry out the steps given below:
 \begin{enumerate}
@@ -1076,23 +1076,47 @@ below:
 
 % \end{enumerate}
 
+\subsection{Python Arduino toolbox}
+Python, by default, does not have the capability to connect to Arduino. 
+All such add-on functionalities are added to Python using packages. 
+The Python Arduino toolbox can be found inside the {\tt Origin/tools/windows} directory, 
+see \fnrefp{fn:file-loc}.  This toolbox is compatible for both of the operating systems: Windows and Linux. 
+The Python scripts (or codes) for various experiments mentioned throughout this book can be found in 
+{\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
+
+In this book, we have created a package named "Arduino" in Python 3.  This package is available at 
+{\tt Origin/tools/windows}. This package makes use of the functions available in pyserial \cite{pySerial} to 
+establish serial communication with Arduino. In this package, we have added functions required to run 
+various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
+upon the Arduino. Please note that the "Arduino" package and the Arduino firmware  given 
+in \ardref{ard:firmware} are required to run the experiments. 
+
+Now, we will see how to import (or load) the "Arduino" package inside a Python script to run 
+various experiments provided in this book. In a Python script, add {\tt from Arduino.Arduino import Arduino} 
+at the top of the script. When we add {\tt from Arduino.Arduino import Arduino} in a script, the function "from" 
+searches for "Arduino" only in that directory where our script is saved. That's why all the scripts in Python 
+must be saved in a folder that contains the "Arduino" package. In this book, "Arduino" package has been saved 
+in the folder where the Python scripts for each chapter are available. For the sake of convenience, we have 
+added {\tt from Arduino.Arduino import Arduino} in all the Python scripts provided in this book. 
+To run a particular experiment, one can follow the steps as given in \secref{py-windows} or \secref{py-linux}. 
+
+
 \subsection{Firmware}
 \lstset{style=mystyle}
 \label{sec:test-firmware-python}
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
-We have provided a Python code to check whether the firmware has been
-properly installed. That code is listed below. 
+We have provided a Python code to check whether the firmware has been properly installed. That code is listed below.  
 Please ensure that you have uploaded the Arduino firmware given in \ardref{ard:firmware} on the \arduino\ board.
 
-
 \begin{pycode}
-      \pcaption{A Python code to check whether the firmware is properly installed
-            or not}{A Python code to check whether the firmware is properly installed
+      \pcaption{A Python script to check whether the firmware is properly installed
+            or not}{A Python script to check whether the firmware is properly installed
             or not.  Available at 
-            \LocFIMpybrief{led-blue.py}. 
-            Execute this code by following the steps given in section \ref{python-installation}.}
+            \LocFIMpybrief{test\_firmware.py}. 
+            Execute this script by following the steps given in \secref{py-windows} or \secref{py-linux}. If the execution is
+            successful, you should expect three "ok" messages.}
       \label{py:test-firmware}
-      \lstinputlisting{\LocFIMpycode/led-blue.py}
+      \lstinputlisting{\LocFIMpycode/test_firmware.py}
 \end{pycode}
 
 
@@ -1101,8 +1125,7 @@ Please ensure that you have uploaded the Arduino firmware given in \ardref{ard:f
 
 %%%%%%Julia descrition starts
 
-\section{Julia}
-\label{sec:julia-start}
+\section{Julia} \label{sec:julia-start}
 Julia is a high-level, high-performance dynamic programming language for 
 technical computing, with a syntax familiar to users of other technical computing 
 environments \cite{julia-ref}. While it is a general-purpose language and can be used to write any 
@@ -1113,41 +1136,128 @@ library. 
 
 % This is a set of tools that provide functionality in Julia, to program the \arduino. 
 
-\subsection{Downloading and installing Julia} \label{julia-installation}
-Julia can be downloaded free of cost from {\tt https://julialang.org/}. 
-It is available for all popular operating systems, including Windows, Linux, 
-and Mac OS X systems. This book uses Julia v1.6.0 for demonstrating the experiments, 
-both on Windows and Linux.
-
-For the Windows system, the downloaded file is an executable (.exe) file. It has to
-be double-clicked to start the installation. All the default parameters of installation
-are acceptable. Once Julia has been installed successfully, Julia can be invoked 
-by simply typing {\tt julia} in the command line. 
-
-We will now explain the installation of Julia on the GNU/Linux operating system. 
-We shall perform the installation on the 64-bit Ubuntu 18.04 LTS operating system.  
-These instructions will work for other GNU distributions, too, with little or 
-no modification. This book uses Julia v1.6.0. To install it, carry out the steps
-given below: 
+\subsection{Downloading and installing on Windows} \label{julia-install-windows}
+This book uses Julia 1.6.0 for demonstrating the experiments, both on Windows and Linux. 
+Julia does not use indentation to indicate a block of code, unlike Python. However, 
+the users are advised to install a programmer text editor like Atom. This editor will 
+allow the readers to modify the Julia source files on their machines if they want to. 
+Alternatively, one can also use Notepad (on Windows) or gedit (on Linux Ubuntu) to edit 
+Julia source files. Starting from download, we shall go through the steps to set 
+up Julia 1.6.0 on Windows OS:
+\begin{enumerate}
+      \item Visit the URL {\tt https://julialang.org/}.  At the top of the page, 
+      locate the Download tab and click on it. From the Current stable release, 
+      download the required Julia binaries (32 or 64-bit) for Windows, as shown in \figref{julia-download}. 
+      At the time of writing this book, the Current stable release refers to Julia 1.6.0 
+      as of March 24, 2021, as shown in \figref{julia-download}. In this book, we will perform 
+      experiments with a 64-bit installation of Julia 1.6.0.
+      \item Locate the executable file. Right-click on it and hit 
+      Run as administrator to begin the installation. After selecting the Installation Directory, 
+      a window named Select Additional Tasks appears as shown in \figref{julia-windows-install}. 
+      In this window, check the box which says, Add Julia to PATH and click on Next to continue the installation. 
+\end{enumerate}
 
 \begin{figure}
       \centering
       \includegraphics[width=\textwidth]{\LocSWfig/julia-download.png}
-      \caption{Julia's website to download 64-bit Linux binaries}
+      \caption{Julia's website to download 64-bit Windows/Linux binaries}
       \label{julia-download}
 \end{figure}
 
+\begin{figure}
+      \centering
+      \includegraphics[width=\lgfig]{\LocSWfig/julia-windows-install.png}
+      \caption{Installing Julia 1.6.0 on Windows}
+      \label{julia-windows-install}
+\end{figure}
+
+Once the installation is finished, Julia 1.6.0 App can be launched either 
+from the Start menu or from the Command Prompt. In this book, we will use the Command 
+Prompt to execute the Julia source files. Please note that a Julia source file has .jl as its extension. 
+Carry out the steps given below to execute a Julia source file from the Command Prompt:
+\begin{enumerate}
+      \item Launch the Command Prompt. Press the Windows key+R together. A window, as shown in \figref{windows-run} 
+      appears. In the text box adjacent to Open, type cmd, and press Enter. The Command Prompt, as shown in
+       \figref{windows-cmd} appears. By default, it points to the home directory.
+      \item Now, we will check whether Julia 1.6.0 was installed successfully or not. 
+      In the Command Prompt, type {\tt julia -{}-version} and press Enter. 
+      If this step displays julia version 1.6.0 in the following line, the installation was successful.
+      \item Using the {\tt cd} command, navigate to the directory where your Julia source file is located. 
+      Assuming that your Command Prompt points to the 
+      home directory, and you want to navigate to the folder Origin on 
+      Desktop, execute the following command: {\tt cd Desktop\textbackslash Origin} \\
+      It may be noted that a backslash (\textbackslash) has been used between 
+      Desktop and Origin. 
+      \item To view the contents of this folder, type {\tt dir} and press Enter.
+      \item Suppose you have a Julia source file named {\tt FILENAME.jl} in this 
+      folder. To execute this script, type {\tt julia FILENAME.jl} and press 
+      Enter. The required output will be displayed in the Command Prompt itself. 
+      We don't expect the readers to run the command {\tt julia FILENAME.jl} at 
+      this instant. This command will be helpful while running the Python 
+      scripts in the upcoming sections and chapters. 
+      \item To exit the Command Prompt, type {\tt exit} and press Enter. 
+\end{enumerate}
+
+Apart from Julia, we need to install the SerialPorts \cite{julia-serial-ports} package in Julia. This package will be
+required to establish serial communication with Arduino boards. Please make sure that 
+you are connected to the Internet. To install the package, we will use {\tt Pkg}. 
+It is Julia's built-in package manager and handles operations such as installing, 
+updating and removing packages in Julia. To install the SerialPorts package, carry out the steps given below:
+\begin{enumerate}
+      \item Launch the Command Prompt, as shown in \figref{windows-run}.
+      \item In the Command Prompt, type {\tt julia} and press Enter. It should launch Julia in an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
+      in \figref{julia-repl-windows}. When run in interactive mode, Julia displays a banner and 
+      prompts the user for input. By default, Julia REPL appears in Julian prompt. It is the default mode of 
+      operation; each new line initially starts with {\tt julia>}, as 
+      shown in \figref{julia-repl-windows}. It is here that you can enter Julia expressions. 
+      Hitting return or Enter after a complete expression has been entered will evaluate 
+      the entry and show the result of the last expression. 
+      \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{\LocSWfig/julia-repl-windows.png}
+            \caption{Windows command prompt to launch Julia REPL}
+            \label{julia-repl-windows}
+      \end{figure}
+      \item Now, we need to enter the {\tt Pkg} REPL in Julia. From the Julia REPL, 
+      press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
+      {\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg-windows}.
+      \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{\LocSWfig/julia-pkg-windows.png}
+            \caption{Windows command prompt to enter Pkg REPL in Julia}
+            \label{julia-pkg-windows}
+      \end{figure}
+      \item In {\tt Pkg} REPL, type {\tt add SerialPorts} and press Enter. It might take a few seconds/minutes  
+      to get this package installed. Once it is installed, {\tt Pkg} REPL should show a message,
+      like "3 dependencies successfully precompiled in 9 seconds (4 already precompiled)."
+\end{enumerate}
+
+We can also check the status of this package to verify whether it has been installed 
+successfully or not. For this, we need to get back to Julia REPL. Inside {\tt Pkg}
+REPL, press backspace. The moment you press backspace, you get back to Julia REPL, as shown in 
+\figref{julia-repl-windows}. Now, type {\tt using Pkg} and press Enter. This command will not 
+generate any output. Now type {\tt Pkg.status()} and press Enter. It should display the 
+list of packages installed in Julia's environment. Please make sure that SerialPorts 
+is present in the list of packages being shown. To exit the interactive session, type CTRL+D or type {\tt exit()}. 
+
+\subsection{Downloading and installing GNU/Linux Ubuntu} \label{julia-install-linux}
+We will now explain the installation of Julia on the GNU/Linux operating system. 
+We shall perform the installation on the 64-bit Ubuntu 18.04 LTS operating system.  
+These instructions will work for other GNU distributions, too, with little or 
+no modification. This book uses Julia 1.6.0. To install it, carry out the steps
+given below: 
 \begin{enumerate}
       \item First, update your system. Open the Terminal. Type
                   {\tt sudo apt-get update} and press Enter. 
       \item Find out your operating system support for 64-bit
             instructions. Open the Terminal. Type {\tt uname -m} and press Enter. If it returns ``x86\_64'', then your computer has 64-bit
             operating system. 
-      \item Go to {\tt https://julialang.org/downloads/}. From the Current stable release, download the 
-            required Julia Linux binaries (32 or 64-bit) for Generic Linux on x86, as shown in \figref{julia-download}.  
-            At the time of writing this book, the Current stable release refers to Julia v1.6.0 as of March 24, 2021, 
+      \item Visit the URL {\tt https://julialang.org/}.  At the top of the page, 
+      locate the Download tab and click on it. From the Current stable release, download the 
+            required Linux binaries (32 or 64-bit) for Generic Linux on x86, as shown in \figref{julia-download}.  
+            At the time of writing this book, the Current stable release refers to Julia 1.6.0 as of March 24, 2021, 
             as shown in  \figref{julia-download}. In this book, we will perform experiments with a 64-bit installation of Julia  v1.6.0. 
-      \item Assuming that you have downloaded the tar file in {\tt Downloads} directory, perform the following
+      \item Locate the executable (tar.gz) file. Assuming that you have downloaded the tar file in {\tt Downloads} directory, perform the following
             steps on the Terminal:
             \begin{quote}
                   {\tt cd {\large\textasciitilde}/Downloads\\
@@ -1160,21 +1270,36 @@ given below:
             {\tt sudo ln -s /opt/julia-1.6.0/bin/julia /usr/local/bin/julia} 
 \end{enumerate}
 
-Julia is now installed and can be invoked from the Terminal. In the Terminal, type {\tt julia} and press Enter. 
-It should launch Julia in an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
-in \figref{julia-repl}. When run in interactive mode, Julia displays a banner and 
-prompts the user for input. 
+Julia is now installed and can be invoked from the Terminal. There are two modes in which Julia 
+source files can be executed: Interactive mode and Non-interactive mode. In this book, 
+we will execute source files in the latter mode i.e., from the Terminal. The readers are encouraged to explore
+the former mode on their own. Please note that a Julia source file has .jl
+as its extension. Carry out the steps given below to execute a Julia source file from
+the Terminal: 
+\begin{enumerate}
+      \item Open a Terminal by pressing Ctrl+Alt+T keys together.
+      \item Now, we will check whether Julia 1.6.0 was installed successfully or not. 
+      In the Terminal, type {\tt julia -{}-version} and press Enter. 
+      If this step displays {\tt julia version 1.6.0} in the following line, the installation was successful.
+      \item Using the {\tt cd} command, navigate to the directory where your Julia source file is located. 
+      Assuming that your Terminal points to the 
+      home directory, and you want to navigate to the folder Origin on 
+      Desktop, execute the following command: {\tt cd Desktop/Origin/}
+      \item Suppose you have a Julia source file named {\tt FILENAME.jl} in this 
+      folder. To execute this script, type {\tt julia FILENAME.jl} and press 
+      Enter. The required output will be displayed in the Terminal itself. 
+      We don't expect the readers to run the command {\tt julia FILENAME.jl} at 
+      this instant. This command will be helpful while running the Python 
+      scripts in the upcoming sections and chapters. 
+\end{enumerate}
+
 \begin{figure}
       \centering
       \includegraphics[width=\textwidth]{\LocSWfig/julia-terminal-repl.png}
       \caption{Linux terminal to launch Julia REPL}
       \label{julia-repl}
 \end{figure}
-By default, Julia REPL appears in Julian prompt. It is the default mode of 
-operation; each new line initially starts with {\tt julia>}, as 
-shown in \figref{julia-repl}. It is here that you can enter Julia expressions. 
-Hitting return or Enter after a complete expression has been entered will evaluate 
-the entry and show the result of the last expression. 
+
 
 Now, we will install a package named SerialPorts \cite{julia-serial-ports}. This package will be required to 
 establish serial communication with Arduino boards. Please ensure that you 
@@ -1183,7 +1308,14 @@ we will use {\tt Pkg}. It is Julia's built-in package manager and
 handles operations such as installing, updating, and removing packages in Julia. 
 For installing LibSerialPort, carry out the steps given below:
 \begin{enumerate}
-      \item Launch Julia in interactive mode, as shown in \figref{julia-repl}.
+      \item Open pen a Terminal by pressing Ctrl+Alt+T keys together. Type {\tt julia} and press Enter.
+      It should launch Julia in an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
+      in \figref{julia-repl}. When run in interactive mode, Julia displays a banner and 
+      prompts the user for input. By default, Julia REPL appears in Julian prompt. It is the default mode of 
+      operation; each new line initially starts with {\tt julia>}, as 
+      shown in \figref{julia-repl}. It is here that you can enter Julia expressions. 
+      Hitting return or Enter after a complete expression has been entered will evaluate 
+      the entry and show the result of the last expression.  
       \item Now, we need to enter the {\tt Pkg} REPL in Julia. From the Julia REPL, 
             press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
             {\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg}. 
@@ -1207,23 +1339,6 @@ generate any output. Now type {\tt Pkg.status()} and press Enter. It should disp
 list of packages installed in Julia's environment. Please make sure that SerialPorts 
 is present in the list of packages being shown. To exit the interactive session, type CTRL+D or type {\tt exit()}. 
 
-\subsection{Executing source files in Julia} \label{julia-execution}
-The source files in Julia have  ".jl" extensions. There are two modes in which these 
-source files can be executed: Interactive mode and Non-interactive mode. In this book, 
-we will execute source files in the latter mode. The readers are encouraged to explore
-the former mode on their own. 
-
-To run code in a source file non-interactively, you can give it as the first argument to the {\tt julia} command. 
-Let us say we have a source file named {\tt myScript.jl}. To run code in this source file, carry out the steps
-given below: 
-
-\begin{enumerate}
-      \item Open a Terminal on your Linux operating system. 
-      \item Navigate to the directory where you have the source file {\tt myScript.jl} by using the {\tt cd}
-            command.
-      \item Type {\tt julia myScript.jl} and press Enter. 
-      \item You should expect the desired output in the same Terminal. 
-\end{enumerate}
 
 \subsection{Julia Arduino toolbox}
 Julia, by default, does not have the capability to connect to Arduino. 
@@ -1247,7 +1362,7 @@ only in that directory where our source file is saved. That's why all the source
 must be saved in a folder that contains the file "ArduinoTools.jl." In this book, "ArduinoTools.jl" has been saved 
 in the folder where the Julia source files for each chapter are available. For the sake of convenience, we have 
 added {\tt include("ArduinoTools.jl")} in all the Julia source files provided in this book. 
-To run a particular experiment, one can follow the steps as given in \secref{julia-execution}. 
+To run a particular experiment, one can follow the steps as given in \secref{julia-install-windows} and \secref{julia-install-linux}. 
 
 \subsection{Firmware}
 \lstset{style=mystyle}
@@ -1262,8 +1377,8 @@ you have uploaded the Arduino firmware given in \ardref{ard:firmware} on \arduin
             or not}{A Julia source file (code) to check whether the firmware is properly installed
             or not.  Available at
             \LocFIMjuliabrief{test\_firmware.jl}. Execute this source file by following the steps 
-            given in \secref{julia-execution}. If the execution is
-            successful, you should expect three "ok" messages in the Linux Terminal. }
+            given in \secref{julia-install-windows} and \secref{julia-install-linux}. If the execution is
+            successful, you should expect three "ok" messages. }
       \label{julia:test-firmware}
       \lstinputlisting{\LocFIMjuliacode/test_firmware.jl}
 \end{juliacode}
