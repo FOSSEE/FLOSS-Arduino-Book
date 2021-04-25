@@ -508,7 +508,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
-              digital_out := sComm.cmd_digital_out(1, 27, 1) "This will turn ON the blue LED";
+              digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
             end if;
             strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
@@ -516,7 +516,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
         end led_blue;
-
 
         model led_blue_delay "Turn on Blue LED for a period of 2 seconds"
           extends Modelica.Icons.Example;

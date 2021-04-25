@@ -3,32 +3,32 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the LED through Scilab}{73}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{73}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{74}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{74}%
+\contentsline {section}{\numberline {4.{1}}Turning on the LED through Scilab}{77}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{77}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{78}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{78}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{99}%
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{99}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{103}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{103}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{115}%
-\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{116}%
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{119}%
+\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{120}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{135}%
-\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{135}%
-\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{135}%
+\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{139}%
+\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{139}%
+\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{139}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{154}%
+\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{158}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{170}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{170}%
+\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{174}%
+\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{174}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{186}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{186}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{187}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{187}%
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{190}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{190}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{191}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{191}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{219}%
-\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for Single Phase Current Output}{219}%
-\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Voltage Output}{219}%
-\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{220}%
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{223}%
+\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for Single Phase Current Output}{223}%
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Voltage Output}{223}%
+\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{224}%
