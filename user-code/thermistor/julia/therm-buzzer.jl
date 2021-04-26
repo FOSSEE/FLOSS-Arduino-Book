@@ -1,15 +1,15 @@
 using SerialPorts
-using ArduinoTools
+include("ArduinoTools.jl")
 
-ser = connectBoard(115200)
-pinMode(ser,3,"OUTPUT")
+ser = ArduinoTools.connectBoard(115200)
+ArduinoTools.pinMode(ser,3,"OUTPUT")
 for i = 1:50
-  p = analogRead(ser,4)
+  p = ArduinoTools.analogRead(ser,4)
   println(p)
   if p > 550  
-  digiWrite(ser,3,1)
+    ArduinoTools.digiWrite(ser,3,1)
   else 
-  digiWrite(ser,3,0) 
+    ArduinoTools.digiWrite(ser,3,0) 
   end
 end
 close(ser)

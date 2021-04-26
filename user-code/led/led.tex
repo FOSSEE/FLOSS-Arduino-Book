@@ -250,9 +250,9 @@ shield is not used.
 
 \begin{ardcode}
   \acaption{Blinking the green LED}{Blinking the green LED.  Available
-    at \LocLEDardbrief{led-blink/led-blink.ino}.}
+    at \LocLEDardbrief{led-green-blink/led-green-blink.ino}.}
   \label{ard:led-blink}
-  \lstinputlisting{\LocLEDardcode/led-blink/led-blink.ino}
+  \lstinputlisting{\LocLEDardcode/led-green-blink/led-green-blink.ino}
 \end{ardcode}
 
 
@@ -598,10 +598,7 @@ The reader should go through the instructions given in
 \secref{sec:sci-start} before getting started.
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
-    shield.  The code for this is given in Python-code-4.1.
-    \comment{Because this code number is hard coded, it gives wrong
-      numbers - please use variables}
-        It begins with a command of the form
+    shield.  The code for this is given in \pyref{py:led-blue}. It begins with a command of the form
   \item Import os : This module provides a portable way of using operating system dependent functionality.
   \item Import sys : This module provides access to some variables used or maintained by the interpreter
         and to functions that interact strongly with the interpreter. It is always available.
@@ -689,7 +686,7 @@ It makes the green LED blink five times.
   \pcaption{Turning on the LED through Python}
   {Turning on the LED through Python.  Available at
     \LocLEDpybrief{led-blue.py}.}
-  \label{py:led-blue1}
+  \label{py:led-blue}
   \lstinputlisting{\LocLEDpycode/led-blue.py}
 \end{pycode}
 

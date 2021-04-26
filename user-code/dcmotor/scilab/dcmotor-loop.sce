@@ -1,4 +1,4 @@
-ok = open_serial(1,4,115200)//COM port is 4 and baud rate is 115200
+ok = open_serial(1,2,115200)//COM port is 2 and baud rate is 115200
 if ok~=0, error('Serial port is not accesible'); end
 cmd_dcmotor_setup(1,3,1,9,10) // Setup DC motor of type 3 (L293D), motor 1, pins 9 and 10
 for x=1:4

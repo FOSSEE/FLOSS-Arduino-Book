@@ -10,26 +10,26 @@
 \newcommand{\LocSWardbrief}[1]{{\tt \seqsplit{
                         Origin/user-code/sw-env/arduino/#1}}, see \fnrefp{fn:file-loc}}
 
-\newcommand{\LocSWchkcode}{\Origin/tools}
+\newcommand{\LocSWchkcode}{\Origin/tools/scilab}
 \newcommand{\LocSWchkbrief}[1]{{\tt \seqsplit{
-                        Origin/tools/#1}}, see \fnrefp{fn:file-loc}}
+                        Origin/tools/scilab/#1}}, see \fnrefp{fn:file-loc}}
 \newcommand{\LocSWfirmcode}{\Origin/tools/arduino-firmware}
 \newcommand{\LocSWfirmbrief}[1]{{\tt \seqsplit{
                         Origin/tools/arduino-firmware/#1}}, see \fnrefp{fn:file-loc}}
 
-\newcommand{\LocFIMpycode}{\Origin/user-code/led/python}  %added for python
+\newcommand{\LocFIMpycode}{\Origin/tools/python}  %added for python
 \newcommand{\LocFIMpybrief}[1]{{\tt \seqsplit{%
-                        Origin/user-code/led/python/#1}}, see \fnrefp{fn:file-loc}} % added for python
+                        Origin/tools/python/#1}}, see \fnrefp{fn:file-loc}} % added for python
 
 
-\newcommand{\LocFIMjuliacode}{\Origin/user-code/led/julia}  %added for julia
+\newcommand{\LocFIMjuliacode}{\Origin/tools/julia}  %added for julia
 \newcommand{\LocFIMjuliabrief}[1]{{\tt \seqsplit{%
-                        Origin/user-code/led/julia/#1}}, see \fnrefp{fn:file-loc}} % added for julia
+                        Origin/tools/julia/#1}}, see \fnrefp{fn:file-loc}} % added for julia
 
 %%%%%%OpenModelica Starts
-\newcommand{\LocFIMOpenModelicacode}{\Origin/user-code/led/OpenModelica}  %added for OpenModelica
+\newcommand{\LocFIMOpenModelicacode}{\Origin/tools/openmodelica}  %added for OpenModelica
 \newcommand{\LocFIMOpenModelicabrief}[1]{{\tt \seqsplit{%
-                        Origin/user-code/led/OpenModelica/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
+                        Origin/tools/openmodelica/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
 
 %%%%%OpenModelica Ends
 
@@ -45,8 +45,8 @@ different purposes as per the requirement. For example,
       \item To run \arduino\ stand-alone, without waiting for any commands
             from other software or hardware, for the specified time or until
             power off
-      \item To decode the commands sent by other software, such as OpenModelica, 
-            Julia, Python, \scilab, etc., through a serial port, and 
+      \item To decode the commands sent by other software, such as Scilab, Python, 
+            Julia, OpenModelica, etc., through a serial port, and 
             execute the given instructions %\item Combination of the above two
 \end{itemize}
 Next, we shall discuss Scilab and Xcos, which are open-source software
@@ -471,7 +471,7 @@ Arduino. All such add-on functionalities are added to \scilab\ using
 toolboxes. Just like we have different installation binaries of
 \scilab\ for Windows and Linux, we have different toolboxes types for
 Windows and Linux. The \scilab\ Arduino toolbox can be found inside
-the {\tt Origin/tools/windows} or {\tt Origin/tools/linux} directory,
+the {\tt Origin/tools/scilab/windows} or {\tt Origin/tools/scilab/linux} directory,
 see \fnrefp{fn:file-loc}.  Use the one depending upon
 which operating system you are using. The \scilab\ codes for various
 experiments mentioned throughout this book can be found in {\tt
@@ -496,7 +496,7 @@ Let us now see how to load the Scilab Arduino toolbox.
                   \label{scilab-cd}
             \end{figure}
       \item Then, one has to browse to the toolbox folder
-                  {\tt Origin/tools/windows} or {\tt Origin/tools/linux}, as the case
+                  {\tt Origin/tools/scilab/windows} or {\tt Origin/tools/scilab/linux}, as the case
             may be, and click on, {\tt
                         Open}, as shown in \figref{scilab-browse}.
             \begin{figure}
@@ -530,7 +530,7 @@ Let us now see how to load the Scilab Arduino toolbox.
             the workspace for any reason, you will have to execute this command
             once again\footnote{Be careful
                   not to execute the {\tt clear} command.  This will clear the loaded
-                  toolbox and you will have to execute the loader.sce file again.}
+                  toolbox and you will have to execute the loader.sce file again.}.
             \begin{figure}
                   \centering
                   \includegraphics[scale=0.5]{\LocSWfig/loader.png}
@@ -620,7 +620,7 @@ Now let us test the functioning of the toolbox.
       \item Read into the Arduino IDE, the firmware \ardref{ard:firmware}.
       \item Using the {\tt Upload} option of the Arduino IDE, load this
             firmware on to the \arduino\ board.
-      \item Inside the {\tt Origin/tools} directory, locate a file {\tt
+      \item Inside the {\tt Origin/tools/scilab} directory, locate a file {\tt
                         test\_firmware.sce}. This file will be used to test whether the
             firmware is properly installed.  This is an important step, as the
             connection between the computer and Arduino breaks down sometimes.
@@ -630,7 +630,7 @@ Now let us test the functioning of the toolbox.
             the error.  This test has to be done in case of difficulties.
       \item In the \scilab\ console, type {\tt editor} and press the enter
             key. This will launch the editor. Click on ``File'' menu and choose
-            ``Open''. Browse to the directory {\tt Origin/tools} and choose the
+            ``Open''. Browse to the directory {\tt Origin/tools/scilab} and choose the
             file {\tt test\_firmware.sce}.  It will open
             \sciref{sci:test-firmware}.  
             %The \scilab\ editor with this file open is as shown in \figref{test-code}.
@@ -649,7 +649,7 @@ Now let us test the functioning of the toolbox.
             {\LocSWchkcode/test_firmware.sce}
             to
             \begin{lstlisting}[style=nonumbers]
-  h=open_serial(1,0,115200)
+  h = open_serial(1,0,115200); 
 \end{lstlisting}
             
       \item To execute this code, on the menu bar, click on the {\tt
@@ -1079,13 +1079,13 @@ below:
 \subsection{Python Arduino toolbox}
 Python, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Python using packages. 
-The Python Arduino toolbox can be found inside the {\tt Origin/tools/windows} directory, 
+The Python Arduino toolbox can be found inside the {\tt Origin/tools/python} directory, 
 see \fnrefp{fn:file-loc}.  This toolbox is compatible for both of the operating systems: Windows and Linux. 
 The Python scripts (or codes) for various experiments mentioned throughout this book can be found in 
 {\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
 
 In this book, we have created a package named "Arduino" in Python 3.  This package is available at 
-{\tt Origin/tools/windows}. This package makes use of the functions available in pyserial \cite{pySerial} to 
+{\tt Origin/tools/python}. This package makes use of the functions available in pyserial \cite{pySerial} to 
 establish serial communication with Arduino. In this package, we have added functions required to run 
 various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
 upon the Arduino. Please note that the "Arduino" package and the Arduino firmware  given 
@@ -1343,13 +1343,13 @@ is present in the list of packages being shown. To exit the interactive session,
 \subsection{Julia Arduino toolbox}
 Julia, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Julia using toolboxes. 
-The Julia-Arduino toolbox can be found inside the {\tt Origin/tools/windows} directory, 
+The Julia-Arduino toolbox can be found inside the {\tt Origin/tools/julia} directory, 
 see \fnrefp{fn:file-loc}.  This toolbox is compatible for both of the operating systems: Windows and Linux. 
 The Julia source files (or codes) for various experiments mentioned throughout this book can be found in 
 {\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
 
 In this book, we have created a module named "ArduinoTools" in Julia.  This module is available at 
-{\tt Origin/tools/windows}. This module makes use of the functions available in the SerialPorts package to 
+{\tt Origin/tools/julia}. This module makes use of the functions available in the SerialPorts package to 
 establish serial communication with Arduino. In this module, we have added functions required to run 
 various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
 upon the Arduino. Please note that the module "ArduinoTools" and the Arduino firmware  given 
@@ -1566,9 +1566,8 @@ we would not have received this message.
 
 \subsection{OpenModelica Arduino toolbox}\label{load-om-toolbox}
 OpenModelica, by default, does not have the capability to connect to Arduino. 
-All such add-on functionalities are added to OpenModelica using toolboxes. 
-The OpenModelica-Arduino toolbox can be found inside
-the {\tt Origin/tools/windows} or {\tt Origin/tools/linux} directory,
+All such add-on functionalities are added to OpenModelica using toolboxes.  
+The OpenModelica Arduino toolbox can be found inside {\tt Origin/tools/\\openmodelica/windows} or {\tt Origin/tools/openmodelica/linux} directory,
 see \fnrefp{fn:file-loc}.  Use the one depending upon
 which operating system you are using. The OpenModelica codes for various
 experiments mentioned throughout this book can be found in {\tt Origin/user-code} directory. The {\tt user-code} directory will have
@@ -1584,15 +1583,15 @@ Let us now see how to load the OpenModelica Arduino toolbox.
             toolbox. To do so, go to the menu bar of OMEdit. 
             Click on {\tt File} and then click on
             the {\tt Open Model/Library File(s)} option as shown in \figref{om-model-open}.
-      \item Navigate to {\tt Origin/tools/windows/OpenModelica-Arduino}. select \\ {\tt Arduino.mo} and 
-            {\tt test\_firmware.mo}, and click Open. 
+      \item Navigate to {\tt Origin/tools/openmodelica/windows} or {\tt Origin/tools/\\openmodelica/linux}, as the case maybe.
+            Select {\tt Arduino.mo} and \\{\tt test\_firmware.mo}, and click Open. The toolbox should now be loaded and available for use. 
       \item \label{itm:library} We will check whether the toolbox has been loaded successfully or not. 
             In OMEdit, under Libraries Browser, look for three new libraries: Arduino,
             Modelica\_Synchronous, Modelica\_DeviceDrivers, and one model test\_firmware.mo. 
             If you are able to view these files, it means that OpenModelica-Arduino toolbox has been loaded successfully. 
             Please note that each time you launch OMEdit, you need to load this toolbox for
             performing the experiments. 
-      \item The test\_firmware.mo in the step \ref{itm:library} is the same file which has been mentioned in \secref{om-firmware}.
+      \item The {\tt test\_firmware.mo} in the step \ref{itm:library} is the same file which has been mentioned in \secref{om-firmware}.
             While following \secref{om-firmware}, the readers are advised to execute (or simulate) this file (or model). 
       \item \label{itm:locate} Now, we will locate the models for running the experiments in the upcoming chapters. 
             Under Libraries Browser, click on the arrow before Arduino to see the 
@@ -1607,7 +1606,7 @@ Let us now see how to load the OpenModelica Arduino toolbox.
             are advised to locate the corresponding model by following the steps
              numbered \ref{itm:locate} and \ref{itm:simulate} and simulate it.  
 \end{enumerate}
-The toolbox is now loaded and available for use.
+
 
 
 \begin{figure}

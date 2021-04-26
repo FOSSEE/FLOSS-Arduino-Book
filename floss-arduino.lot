@@ -16,16 +16,16 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{121}%
 \contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{123}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces A numbering convention used in the DC motor breakout board\relax }}{137}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Parameters for DC motor initialization\relax }}{137}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{141}%
-\contentsline {table}{\numberline {7.4}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{142}%
-\contentsline {table}{\numberline {7.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{144}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{138}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{160}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{154}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{156}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{176}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{178}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces A numbering convention used in the DC motor breakout board\relax }}{169}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters for DC motor initialization\relax }}{169}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{173}%
+\contentsline {table}{\numberline {9.4}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{174}%
+\contentsline {table}{\numberline {9.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{176}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{186}%
 \contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{192}%

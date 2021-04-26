@@ -1,0 +1,91 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>cmd_analog_out</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="cmd_analog_in_volt.html">&lt;&lt; cmd_analog_in_volt</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="cmd_analog_out_volt.html">cmd_analog_out_volt &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path"><a href="index.html">Arduino toolbox</a> &gt;&gt; <a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a> &gt; cmd_analog_out</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">cmd_analog_out</h1>
+    <p class="refpurpose">Command to sent out analog signal to a connected Arduino board</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="functionid">cmd_analog_out</span><span class="default">(</span><span class="default">h</span><span class="default">,</span><span class="default">pin_no</span><span class="default">,</span><span class="default">val</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">h :</span>
+      <dd><p class="para">Board number, reserved for future use. For this version, any number would do</p></dd></dt>
+   <dt><span class="term">pin_no :</span>
+      <dd><p class="para">Digital pin with ~ to sent the signal</p></dd></dt>
+   <dt><span class="term">val :</span>
+      <dd><p class="para">The value of 0-255 to be sent to the digital pins with ~ sign. It will be then scaled to 0-5V</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">The analog outputs of the Arduino Uno is available at the pins 3,5,6,9,10 and 11, while on the Mega board, the outputs are on pins 1-13 and 44-46.
+It is a bit misleading to use the term &#0034;analog output&#0034;, because in order to generate this output while minimizing energy losses,
+the Arduino uses PWM (Pulse Width Modulation) available on these ports. By varying the duty cycle of the PWM is altered the average
+voltage across the component connected to this port, which has the effect of having a analog output voltage.</p>
+   <p class="para">The input port accepts the value from 0 to 255 which is correspoding to the duty cycle of 0 to 100%. In other words, sending 0 to the block will generate 0 V output at the port, 127 generates 2.5V and 255 generates 5V. (the port is 8 bits, so the resolutions of output would be 2^8 =256).</p>
+   <p class="para"></p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">ok</span> <span class="scilaboperator">=</span> <span class="scilabid">open_serial</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">9</span><span class="scilabdefault">,</span><span class="scilabnumber">115200</span><span class="scilabopenclose">)</span>
+<span class="scilabid">cmd_analog_out</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">9</span><span class="scilabdefault">,</span><span class="scilabnumber">100</span><span class="scilabopenclose">)</span>
+<span class="scilabid">close_serial</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabopenclose">)</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">See also</h3>
+   <ul class="itemizedlist"><li class="member"><a href="cmd_analog_out_volt.html" class="link">cmd_analog_out_volt</a></li>
+   <li class="member"><a href="cmd_arduino_a_control.html" class="link">cmd_arduino_a_control</a></li></ul></div>
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Bruno JOFRET, Tan C.L.</li></ul></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="cmd_analog_in_volt.html">&lt;&lt; cmd_analog_in_volt</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="cmd_analog_out_volt.html">cmd_analog_out_volt &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

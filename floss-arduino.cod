@@ -14,14 +14,14 @@
 \contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{119}%
 \contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{120}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Rotating the DC motor}{139}%
-\contentsline {section}{\numberline {7.{2}}Rotating the DC motor in both directions}{139}%
-\contentsline {section}{\numberline {7.{3}}Rotating the DC motor in both directions in a loop}{139}%
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{136}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Turning on LEDs depending on the potentiometer threshold}{158}%
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{152}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on and off using thermistor values}{152}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Read and display the thermistor values}{174}%
-\contentsline {section}{\numberline {9.{2}}Turning the buzzer on and off using thermistor values}{174}%
+\contentsline {section}{\numberline {9.{1}}Rotating the DC motor}{171}%
+\contentsline {section}{\numberline {9.{2}}Rotating the DC motor in both directions}{171}%
+\contentsline {section}{\numberline {9.{3}}Rotating the DC motor in both directions in a loop}{171}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{190}%
 \contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{190}%

@@ -8,18 +8,16 @@ model push_button_status "Checking Status of PushButton"
   Integer c_ok(fixed = false);
 algorithm
   when initial() then
-    ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
+    ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
   end when;
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
     digital_in := sComm.cmd_digital_in(1, 12);
     if digital_in == 0 then
-      digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
       strm.print("LOW");
       sComm.delay(200);
     else
-      digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
       strm.print("HIGH");
       sComm.delay(200);
     end if;

@@ -115,65 +115,65 @@
 \contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{127}%
 \contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{127}%
 \contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{128}%
-\contentsline {chapter}{\numberline {7}Controlling a DC motor}{131}%
+\contentsline {chapter}{\numberline {7}Interfacing a Potentiometer}{131}%
 \contentsline {section}{\numberline {7.1}Preliminaries}{131}%
-\contentsline {section}{\numberline {7.2}Controlling the DC motor from Arduino}{133}%
-\contentsline {subsection}{\numberline {7.2.1}Controlling the DC motor}{133}%
-\contentsline {subsection}{\numberline {7.2.2}Arduino Code}{135}%
-\contentsline {section}{\numberline {7.3}Controlling the DC motor from Scilab}{136}%
-\contentsline {subsection}{\numberline {7.3.1}Initialization}{136}%
-\contentsline {subsection}{\numberline {7.3.2}Rotation for a specified time}{137}%
-\contentsline {subsection}{\numberline {7.3.3}Using the capabilities of Scilab}{138}%
-\contentsline {subsection}{\numberline {7.3.4}Scilab Code}{139}%
-\contentsline {section}{\numberline {7.4}Controlling the DC Motor from Xcos}{140}%
-\contentsline {section}{\numberline {7.5}Controlling the DC Motor from Python}{143}%
-\contentsline {subsection}{\numberline {7.5.1}Controlling the DC Motor}{143}%
-\contentsline {subsection}{\numberline {7.5.2}Python Code}{145}%
-\contentsline {section}{\numberline {7.6}Controlling the DC Motor from Julia}{148}%
-\contentsline {subsection}{\numberline {7.6.1}Controlling the DC Motor}{148}%
-\contentsline {subsection}{\numberline {7.6.2}Julia Code}{148}%
-\contentsline {section}{\numberline {7.7}Controlling the DC Motor from OpenModelica}{149}%
-\contentsline {subsection}{\numberline {7.7.1}Controlling the DC Motor}{149}%
-\contentsline {subsection}{\numberline {7.7.2}OpenModelica Code}{150}%
-\contentsline {chapter}{\numberline {8}Interfacing a Potentiometer}{153}%
-\contentsline {section}{\numberline {8.1}Preliminaries}{153}%
-\contentsline {section}{\numberline {8.2}Connecting a potentiometer with Arduino Uno\ using a breadboard}{154}%
-\contentsline {section}{\numberline {8.3}Reading the potentiometer from the Arduino IDE}{155}%
-\contentsline {subsection}{\numberline {8.3.1}Reading the potentiometer}{155}%
-\contentsline {subsection}{\numberline {8.3.2}Arduino Code}{156}%
-\contentsline {section}{\numberline {8.4}Reading the potentiometer from Scilab}{157}%
-\contentsline {subsection}{\numberline {8.4.1}Reading the potentiometer}{157}%
-\contentsline {subsection}{\numberline {8.4.2}Scilab Code}{158}%
-\contentsline {section}{\numberline {8.5}Reading the potentiometer from Xcos}{158}%
-\contentsline {paragraph}{Exercise:}{159}%
-\contentsline {section}{\numberline {8.6}Reading the potentiometer from Python}{159}%
-\contentsline {subsection}{\numberline {8.6.1}Reading the potentiometer}{159}%
-\contentsline {subsection}{\numberline {8.6.2}Python Code}{161}%
-\contentsline {section}{\numberline {8.7}Reading the potentiometer from Julia}{162}%
-\contentsline {subsection}{\numberline {8.7.1}Reading the potentiometer}{162}%
-\contentsline {subsection}{\numberline {8.7.2}Julia Code}{163}%
-\contentsline {section}{\numberline {8.8}Reading the potentiometer from OpenModelica}{163}%
-\contentsline {subsection}{\numberline {8.8.1}Reading the potentiometer}{163}%
-\contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{164}%
-\contentsline {chapter}{\numberline {9}Interfacing a Thermistor}{167}%
-\contentsline {section}{\numberline {9.1}Preliminaries}{167}%
-\contentsline {section}{\numberline {9.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{168}%
-\contentsline {section}{\numberline {9.3}Interfacing the Thermistor from the Arduino IDE}{170}%
-\contentsline {subsection}{\numberline {9.3.1}Interfacing the Thermistor}{170}%
-\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{171}%
-\contentsline {section}{\numberline {9.4}Interfacing the Thermistor from Scilab}{172}%
-\contentsline {subsection}{\numberline {9.4.1}Interfacing the Thermistor}{172}%
-\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{174}%
-\contentsline {section}{\numberline {9.5}Interfacing the Thermistor from Xcos}{175}%
-\contentsline {section}{\numberline {9.6}Interfacing the Thermistor from Python}{178}%
-\contentsline {subsection}{\numberline {9.6.1}Interfacing the Thermistor}{178}%
-\contentsline {subsection}{\numberline {9.6.2}Python Code}{179}%
-\contentsline {section}{\numberline {9.7}Interfacing the Thermistor from Julia}{181}%
-\contentsline {subsection}{\numberline {9.7.1}Interfacing the Thermistor}{181}%
-\contentsline {subsection}{\numberline {9.7.2}Julia Code}{181}%
-\contentsline {section}{\numberline {9.8}Interfacing the Thermistor from OpenModelica}{182}%
-\contentsline {subsection}{\numberline {9.8.1}Interfacing the Thermistor}{182}%
-\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{183}%
+\contentsline {section}{\numberline {7.2}Connecting a potentiometer with Arduino Uno\ using a breadboard}{132}%
+\contentsline {section}{\numberline {7.3}Reading the potentiometer from the Arduino IDE}{133}%
+\contentsline {subsection}{\numberline {7.3.1}Reading the potentiometer}{133}%
+\contentsline {subsection}{\numberline {7.3.2}Arduino Code}{134}%
+\contentsline {section}{\numberline {7.4}Reading the potentiometer from Scilab}{135}%
+\contentsline {subsection}{\numberline {7.4.1}Reading the potentiometer}{135}%
+\contentsline {subsection}{\numberline {7.4.2}Scilab Code}{136}%
+\contentsline {section}{\numberline {7.5}Reading the potentiometer from Xcos}{136}%
+\contentsline {paragraph}{Exercise:}{137}%
+\contentsline {section}{\numberline {7.6}Reading the potentiometer from Python}{137}%
+\contentsline {subsection}{\numberline {7.6.1}Reading the potentiometer}{137}%
+\contentsline {subsection}{\numberline {7.6.2}Python Code}{139}%
+\contentsline {section}{\numberline {7.7}Reading the potentiometer from Julia}{140}%
+\contentsline {subsection}{\numberline {7.7.1}Reading the potentiometer}{140}%
+\contentsline {subsection}{\numberline {7.7.2}Julia Code}{141}%
+\contentsline {section}{\numberline {7.8}Reading the potentiometer from OpenModelica}{141}%
+\contentsline {subsection}{\numberline {7.8.1}Reading the potentiometer}{141}%
+\contentsline {subsection}{\numberline {7.8.2}OpenModelica Code}{142}%
+\contentsline {chapter}{\numberline {8}Interfacing a Thermistor}{145}%
+\contentsline {section}{\numberline {8.1}Preliminaries}{145}%
+\contentsline {section}{\numberline {8.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{146}%
+\contentsline {section}{\numberline {8.3}Interfacing the Thermistor from the Arduino IDE}{148}%
+\contentsline {subsection}{\numberline {8.3.1}Interfacing the Thermistor}{148}%
+\contentsline {subsection}{\numberline {8.3.2}Arduino Code}{149}%
+\contentsline {section}{\numberline {8.4}Interfacing the Thermistor from Scilab}{150}%
+\contentsline {subsection}{\numberline {8.4.1}Interfacing the Thermistor}{150}%
+\contentsline {subsection}{\numberline {8.4.2}Scilab Code}{152}%
+\contentsline {section}{\numberline {8.5}Interfacing the Thermistor from Xcos}{153}%
+\contentsline {section}{\numberline {8.6}Interfacing the Thermistor from Python}{156}%
+\contentsline {subsection}{\numberline {8.6.1}Interfacing the Thermistor}{156}%
+\contentsline {subsection}{\numberline {8.6.2}Python Code}{157}%
+\contentsline {section}{\numberline {8.7}Interfacing the Thermistor from Julia}{159}%
+\contentsline {subsection}{\numberline {8.7.1}Interfacing the Thermistor}{159}%
+\contentsline {subsection}{\numberline {8.7.2}Julia Code}{159}%
+\contentsline {section}{\numberline {8.8}Interfacing the Thermistor from OpenModelica}{160}%
+\contentsline {subsection}{\numberline {8.8.1}Interfacing the Thermistor}{160}%
+\contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{161}%
+\contentsline {chapter}{\numberline {9}Controlling a DC motor}{163}%
+\contentsline {section}{\numberline {9.1}Preliminaries}{163}%
+\contentsline {section}{\numberline {9.2}Controlling the DC motor from Arduino}{165}%
+\contentsline {subsection}{\numberline {9.2.1}Controlling the DC motor}{165}%
+\contentsline {subsection}{\numberline {9.2.2}Arduino Code}{167}%
+\contentsline {section}{\numberline {9.3}Controlling the DC motor from Scilab}{168}%
+\contentsline {subsection}{\numberline {9.3.1}Initialization}{168}%
+\contentsline {subsection}{\numberline {9.3.2}Rotation for a specified time}{169}%
+\contentsline {subsection}{\numberline {9.3.3}Using the capabilities of Scilab}{170}%
+\contentsline {subsection}{\numberline {9.3.4}Scilab Code}{171}%
+\contentsline {section}{\numberline {9.4}Controlling the DC Motor from Xcos}{172}%
+\contentsline {section}{\numberline {9.5}Controlling the DC Motor from Python}{175}%
+\contentsline {subsection}{\numberline {9.5.1}Controlling the DC Motor}{175}%
+\contentsline {subsection}{\numberline {9.5.2}Python Code}{177}%
+\contentsline {section}{\numberline {9.6}Controlling the DC Motor from Julia}{180}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the DC Motor}{180}%
+\contentsline {subsection}{\numberline {9.6.2}Julia Code}{180}%
+\contentsline {section}{\numberline {9.7}Controlling the DC Motor from OpenModelica}{181}%
+\contentsline {subsection}{\numberline {9.7.1}Controlling the DC Motor}{181}%
+\contentsline {subsection}{\numberline {9.7.2}OpenModelica Code}{182}%
 \contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{185}%
 \contentsline {section}{\numberline {10.1}Preliminaries}{185}%
 \contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{186}%

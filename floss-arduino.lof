@@ -83,31 +83,31 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{121}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{122}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces L293D motor driver board\relax }}{132}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces A schematic of DC motor connections\relax }}{133}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{133}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{140}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{142}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{143}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{132}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{132}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{132}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{133}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{137}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{154}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{154}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{154}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{155}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{159}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{146}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{146}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{146}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{146}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{146}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{146}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{147}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{148}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Xcos diagram to read thermistor values}}{153}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Output of Xcos diagram to read thermistor values}}{154}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{155}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{155}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{168}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{168}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{168}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{168}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{168}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{168}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{169}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{170}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos diagram to read thermistor values}}{175}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Output of Xcos diagram to read thermistor values}}{176}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{177}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{177}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces L293D motor driver board\relax }}{164}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces A schematic of DC motor connections\relax }}{165}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{165}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{172}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{174}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{175}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{192}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{193}%

@@ -1,15 +1,15 @@
 using SerialPorts
 include("ArduinoTools.jl")
 
-ser = connectBoard(115200)
-pinMode(ser,9,"OUTPUT")
-pinMode(ser,12,"INPUT")
+ser = ArduinoTools.connectBoard(115200)
+ArduinoTools.pinMode(ser,9,"OUTPUT")
+ArduinoTools.pinMode(ser,12,"INPUT")
 for i = 1:200
-  p = digiRead(ser,12)
+  p = ArduinoTools.digiRead(ser,12)
   if p == 0
-    digiWrite(ser,9,0)
+    ArduinoTools.digiWrite(ser,9,0)
   else
-    digiWrite(ser,9,1)
+    ArduinoTools.digiWrite(ser,9,1)
   end
 end
 close(ser)

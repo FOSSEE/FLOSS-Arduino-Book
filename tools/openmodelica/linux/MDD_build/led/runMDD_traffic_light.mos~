@@ -1,0 +1,13 @@
+loadModel(Modelica);
+getErrorString();
+
+loadFile("/home/manas/Documents/OpenModelica-HIL/ModelPlugin-openmodelica/OpenModelicaEmbedded/Modelica_DeviceDrivers/package.mo");
+getErrorString();
+
+loadFile("/home/manas/Documents/OpenModelica-HIL/ModelPlugin-openmodelica/OpenModelicaEmbedded/OpenModelica-Arduino-MDD_Arduino_Revised/Arduino.mo");
+
+getErrorString();
+
+translateModel(Arduino.SerialCommunication.MDD_Examples.MDD_led.MDD_led_blue, fileNamePrefix="traffic_light");
+
+getErrorString();
