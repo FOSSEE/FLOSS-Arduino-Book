@@ -1316,8 +1316,7 @@ For installing LibSerialPort, carry out the steps given below:
       shown in \figref{julia-repl}. It is here that you can enter Julia expressions. 
       Hitting return or Enter after a complete expression has been entered will evaluate 
       the entry and show the result of the last expression.  
-      \item Now, we need to enter the {\tt Pkg} REPL in Julia. From the Julia REPL, 
-            press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
+      \item From the Julia REPL, press {\tt ]} to enter the {\tt Pkg} REPL. The moment you press 
             {\tt ]}, you enter {\tt Pkg} REPL, as shown in \figref{julia-pkg}. 
       \item In {\tt Pkg} REPL, type {\tt add SerialPorts} and press Enter. It might take a few seconds  
             to get this package installed. Once it is installed, {\tt Pkg} REPL should show a message,
@@ -1352,8 +1351,9 @@ In this book, we have created a module named "ArduinoTools" in Julia.  This modu
 {\tt Origin/tools/julia}. This module makes use of the functions available in the SerialPorts package to 
 establish serial communication with Arduino. In this module, we have added functions required to run 
 various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
-upon the Arduino. Please note that the module "ArduinoTools" and the Arduino firmware  given 
-in \ardref{ard:firmware} are required to run the experiments. 
+upon the Arduino. 
+
+% Please note that the module "ArduinoTools" and the Arduino firmware  given in \ardref{ard:firmware} are required to run the experiments. 
 
 Now, we will see how to import (or load) the module named "ArduinoTools.jl" inside a Julia source file to run 
 various experiments provided in this book. In a Julia source file, add {\tt include("ArduinoTools.jl")} at the top of the file. 
