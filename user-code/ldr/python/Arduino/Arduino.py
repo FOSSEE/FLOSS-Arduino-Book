@@ -40,7 +40,7 @@ class Initialization:
         else:
             self.ser = Serial(PortNo,baudrate)
         sleep(2)
-        self.checkfirmware()
+        # self.checkfirmware()
         
     def close_serial(self):
         #global ser     
@@ -49,21 +49,25 @@ class Initialization:
     def checkfirmware(self):
         print ("Check Firm Ware")
         #global ser
-        self.ser.write(bytes([118])) #chr(118)
-        try: 
-            x=self.ser.read()
-            #print(x)
-            #x=self.ser.read()
-            #print(x)
-            if x==b'o':
-                try:
-                    x=self.ser.read()
-                except:
-                    sys.exit("aa..! error..! it seems correct firmware not loaded")
-            else:
+        i = 0
+        while i < 3:
+            self.ser.write(bytes([118])) #chr(118)
+            try: 
+                x=self.ser.read(2)
+                print(x.decode('UTF-8'))
+                #x=self.ser.read()
+                #print(x)
+                # if x==b'o':
+                #     try:
+                #         # x=self.ser.read()
+                #         # print(x.decode('UTF-8'))
+                #     except:
+                #         sys.exit("aa..! error..! it seems correct firmware not loaded")
+                # else:
+                #     sys.exit("aa..! error..! it seems correct firmware not loaded")
+            except:
                 sys.exit("aa..! error..! it seems correct firmware not loaded")
-        except:
-            sys.exit("aa..! error..! it seems correct firmware not loaded")
+            i = i + 1
     
         
 class Arduino(Initialization):
@@ -101,14 +105,14 @@ class Arduino(Initialization):
         cmd="D"+"r"+a[pin]
         self.ser.write(cmd.encode('utf-8'))
         a=self.ser.read()
-        return(a)
+        return(a.decode('UTF-8'))
     
     def cmd_analog_in(self,ard_no,pin):
         cmd=""
         a=["0","1","2","3","4","5","6","7","8","9",":",";","<","=",">","A","B","C","D"]    
         cmd="A"+a[pin]    
         self.ser.write(cmd.encode('utf-8'))
-        analog_times=[];
+        analog_times=[]
         b1=ord(self.ser.read(1))
         b2=ord(self.ser.read(1))
         a=b1+b2*256

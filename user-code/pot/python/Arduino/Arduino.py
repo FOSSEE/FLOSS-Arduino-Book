@@ -40,7 +40,7 @@ class Initialization:
         else:
             self.ser = Serial(PortNo,baudrate)
         sleep(2)
-        self.checkfirmware()
+        # self.checkfirmware()
         
     def close_serial(self):
         #global ser     
@@ -49,21 +49,25 @@ class Initialization:
     def checkfirmware(self):
         print ("Check Firm Ware")
         #global ser
-        self.ser.write(bytes([118])) #chr(118)
-        try: 
-            x=self.ser.read()
-            #print(x)
-            #x=self.ser.read()
-            #print(x)
-            if x==b'o':
-                try:
-                    x=self.ser.read()
-                except:
-                    sys.exit("aa..! error..! it seems correct firmware not loaded")
-            else:
+        i = 0
+        while i < 3:
+            self.ser.write(bytes([118])) #chr(118)
+            try: 
+                x=self.ser.read(2)
+                print(x.decode('UTF-8'))
+                #x=self.ser.read()
+                #print(x)
+                # if x==b'o':
+                #     try:
+                #         # x=self.ser.read()
+                #         # print(x.decode('UTF-8'))
+                #     except:
+                #         sys.exit("aa..! error..! it seems correct firmware not loaded")
+                # else:
+                #     sys.exit("aa..! error..! it seems correct firmware not loaded")
+            except:
                 sys.exit("aa..! error..! it seems correct firmware not loaded")
-        except:
-            sys.exit("aa..! error..! it seems correct firmware not loaded")
+            i = i + 1
     
         
 class Arduino(Initialization):
