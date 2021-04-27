@@ -502,8 +502,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
         end led_blue_delay;
 
-
-
         model led_blue_red "Turn on Red & Blue LED"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
@@ -532,7 +530,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
         end led_blue_red;
 
-        model led_blink "This will turn on and turn off the user LED for every second for 10 times"
+        model led_green_blink "This will turn on and turn off the green LED for every second for 5 times"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
@@ -546,47 +544,19 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
-              for i in 1:1000 loop
-                digital_out := sComm.cmd_digital_out(1, 13, 0) "This will turn off the LED";
-                sComm.delay(1000) "Delay for 1 second";
-                digital_out := sComm.cmd_digital_out(1, 13, 1) "This turns the Led";
-                sComm.delay(1000) "Delay for 1 second";
-              end for;
-            end if;
-            c_ok := sComm.close_serial(1) "To close the connection safely";
-          end when;
-          annotation(
-            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
-        end led_blink;
-
-        model led_green_blink "This will turn on and turn off the green LED for every second for 5 times"
-          extends Modelica.Icons.Example;
-          import sComm = Arduino.SerialCommunication.Functions;
-          import strm = Modelica.Utilities.Streams;
-          Integer ok(fixed = false);
-          Integer digital_out(fixed = false);
-          Integer c_ok(fixed = false);
-        algorithm
-          when initial() then
-            ok := sComm.open_serial(1, 2, 115200) "At port 0 with baudrate of 115200";
-            sComm.delay(2000);
-            if ok <> 0 then
-              strm.print("Check the serial port and try again");
-            else
               for i in 1:10 loop
-                digital_out := sComm.cmd_digital_out(1, 10, 0) "This will turn off the green LED";
+                digital_out := sComm.cmd_digital_out(1, 10, 1) "This will turn off the green LED";
                 sComm.delay(1000) "Delay for 1 second";
-                digital_out := sComm.cmd_digital_out(1, 10, 1) "This turns the green Led";
+                digital_out := sComm.cmd_digital_out(1, 10, 0) "This turns the green Led";
                 sComm.delay(1000) "Delay for 1 second";
               end for;
             end if;
-            strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
+//    strm.print(String(time));
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
         end led_green_blink;
-
       end led;
 
       package push
@@ -610,16 +580,18 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           else
             digital_in := sComm.cmd_digital_in(1, 12) "";
             if digital_in == 0 then
+              strm.print("0");
               digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
               sComm.delay(200);
             else
+              strm.print("1");
               digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
               sComm.delay(200);
             end if;
           end if;
 //for i in 1:1000 loop
 //end for;
-          strm.print(String(time));
+//  strm.print(String(time));
           when terminal() then
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
@@ -627,30 +599,26 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end led_push_button;
 
-
         model push_button_status "Checking Status of PushButton"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
           Integer ok(fixed = false);
           Integer digital_in(fixed = false);
-          Integer digital_out(start = 0, fixed = false);
           Integer c_ok(fixed = false);
         algorithm
           when initial() then
-            ok := sComm.open_serial(1, 2, 115200) "At port 0 with baudrate of 115200";
+            ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
             digital_in := sComm.cmd_digital_in(1, 12);
             if digital_in == 0 then
-              digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
-              strm.print("LOW");
+              strm.print("0");
               sComm.delay(200);
             else
-              digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
-              strm.print("HIGH");
+              strm.print("1");
               sComm.delay(200);
             end if;
           end if;
@@ -663,7 +631,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end push_button_status;
-
       end push;
 
       package ldr
@@ -679,13 +646,14 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           Integer c_ok(fixed = false);
         algorithm
           when initial() then
-            ok := sComm.open_serial(1, 2, 115200) "At port 0 with baudrate of 115200";
+            ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
             sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
+            strm.print("LDR Readings: " + String(analog_in));
             if analog_in < 300 then
               digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
             else
@@ -694,15 +662,13 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             sComm.delay(500);
           end if;
 //strm.print(String(time));
-          when time >=10 then
+          when time >= 10 then
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
 //Setting Threshold value of 300
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.2));
         end ldr_led;
-
-
 
         model ldr_read "Reading light intensity using ldr"
           extends Modelica.Icons.Example;
@@ -713,24 +679,22 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           Integer c_ok(fixed = false);
         algorithm
           when initial() then
-            ok := sComm.open_serial(1, 2, 115200) "At port 0 with baudrate of 115200";
+            ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
             sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
-            strm.print("LDR Readings" + " : " + String(analog_in));
+            strm.print("LDR Readings: " + String(analog_in));
             sComm.delay(500);
           end if;
-          when time >=10 then
+          when time >= 10 then
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 1));
         end ldr_read;
-
-
       end ldr;
 
       package pot
@@ -752,7 +716,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 2) "read analog pin 2";
-            strm.print("Potentiometer Readings:" + String(analog_in));
+            strm.print("Potentiometer Readings: " + String(analog_in));
             if analog_in >= 0 and analog_in < 320 then
               digital_out := sComm.cmd_digital_out(1, 11, 1) "Turn ON LED";
               sComm.delay(1000);
@@ -767,6 +731,9 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
             end if;
           end if;
+          digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
+          digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
+          digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
 //Threshold 1
 //Threshold 2
           when time >= 10 then
@@ -797,7 +764,8 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 4) "read analog pin 4";
-            if analog_in > 500 then
+            strm.print("Thermistor Readings: " + String(analog_in));
+            if analog_in > 550 then
               digital_out := sComm.cmd_digital_out(1, 3, 1) "Turn ON Buzzer";
             else
               digital_out := sComm.cmd_digital_out(1, 3, 0) "Turn OFF Buzzer";
@@ -815,7 +783,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end therm_buzzer;
 
-
         model therm_read "Thermistor Readings"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
@@ -832,7 +799,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 4) "read analog pin 5 (ldr)";
-            strm.print("Thermistor Readings " + " : " + String(analog_in));
+            strm.print("Thermistor Readings: " + String(analog_in));
             sComm.delay(500);
           end if;
           when terminal() then
@@ -841,7 +808,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           annotation(
             experiment(StartTime = 0, StopTime = 20, Tolerance = 1e-6, Interval = 1));
         end therm_read;
-
       end thermistor;
 
       package dcmotor
@@ -927,8 +893,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           annotation(
             experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 10));
         end dcmotor_loop;
-
-
       end dcmotor;
 
       package servo
@@ -949,20 +913,13 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               sComm.cmd_servo_attach(1, 1) "To attach the motor to pin 9 of servo1";
               sComm.cmd_servo_move(1, 1, 30) "tell servo to rotate by 30 degrees";
               sComm.delay(3000);
-              //sComm.cmd_servo_detach(1,1);
             end if;
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
-  
+//sComm.cmd_servo_detach(1,1);
           annotation(
             experiment(StartTime = 0, StopTime = 5, Tolerance = 1e-6, Interval = 5));
         end servo_init;
-
-
-
-
-
-
 
         model servo_loop "Rotate servo motor by 20 degrees 10 times"
           extends Modelica.Icons.Example;
@@ -1050,7 +1007,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           annotation(
             experiment(StartTime = 0, StopTime = 5, Tolerance = 1e-6, Interval = 5));
         end servo_pot;
-
       end servo;
 
       package modbus
@@ -1089,7 +1045,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         </p>
         </html>"));
         end read_current;
-
 
         function read_val
           extends Modelica.Icons.Function;
@@ -1135,21 +1090,14 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           //Integer c_ok(fixed = false);
         algorithm
           when initial() then
-            //ok:=sComm.open_serial(1,2,9600);
             modbus.read_voltage();
             modbus.read_current();
             modbus.read_active_power();
             sComm.delay(2000);
-            //c_ok:=sComm.close_serial(1);  
           end when;
+//ok:=sComm.open_serial(1,2,9600);
+//c_ok:=sComm.close_serial(1);
         end modbus_test;
-
-
-
-
-
-
-
       end modbus;
     end Examples;
 
@@ -1720,56 +1668,44 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
     end Types;
 
     package Icons "Collection of icons used for library components"
-  extends Modelica.Icons.IconsPackage;
-  
-  partial package GenericICPackage "Icon with a generic IC"
-  annotation(Icon(coordinateSystem(preserveAspectRatio = true, extent = {{-100, -100}, {100, 100}}), graphics = {Bitmap(extent = {{-95, -95}, {95, 95}}, fileName = "Resources/Images/Icons/tqfp32.png", rotation = 0)}), Documentation(info = "<html>
+      extends Modelica.Icons.IconsPackage;
+
+      partial package GenericICPackage "Icon with a generic IC"
+        annotation(
+          Icon(coordinateSystem(preserveAspectRatio = true, extent = {{-100, -100}, {100, 100}}), graphics = {Bitmap(extent = {{-95, -95}, {95, 95}}, fileName = "Resources/Images/Icons/tqfp32.png", rotation = 0)}),
+          Documentation(info = "<html>
 <p>
 This partial class is intended to design a <em>default icon for microcontrollers</em>.
 </p>
 </html>"));
-end GenericICPackage;
+      end GenericICPackage;
 
-
-
-partial block GenericIC "Icon with a generic IC"
-  annotation(Icon(coordinateSystem(preserveAspectRatio = true, extent = {{-100, -100}, {100, 100}}), graphics = {Bitmap(extent = {{-95, -95}, {95, 95}}, fileName = "Resources/Images/Icons/tqfp32.png", rotation = 0)}), Documentation(info = "<html>
+      partial block GenericIC "Icon with a generic IC"
+        annotation(
+          Icon(coordinateSystem(preserveAspectRatio = true, extent = {{-100, -100}, {100, 100}}), graphics = {Bitmap(extent = {{-95, -95}, {95, 95}}, fileName = "Resources/Images/Icons/tqfp32.png", rotation = 0)}),
+          Documentation(info = "<html>
 <p>
 This partial class is intended to design a <em>default icon for microcontrollers</em>.
 </p>
 </html>"));
-end GenericIC;
+      end GenericIC;
 
-
-
-partial package FunctionLayerIcon
-  "Icon for packages that represent the function layer"
-  extends Modelica.Icons.Package;
-
-  annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,100}}), graphics={
-        Text(
-          lineColor={128,128,128},
-          extent={{-90,-90},{90,90}},
-          textString="f"),
-        Ellipse(
-          lineColor={128,128,128},
-          extent={{-80,-80},{80,80}})}),
-Documentation(info="<html>
+      partial package FunctionLayerIcon "Icon for packages that represent the function layer"
+        extends Modelica.Icons.Package;
+        annotation(
+          Icon(coordinateSystem(preserveAspectRatio = false, extent = {{-100, -100}, {100, 100}}), graphics = {Text(lineColor = {128, 128, 128}, extent = {{-90, -90}, {90, 90}}, textString = "f"), Ellipse(lineColor = {128, 128, 128}, extent = {{-80, -80}, {80, 80}})}),
+          Documentation(info = "<html>
 <p>This icon indicates Modelica functions.</p>
 </html>"));
-end FunctionLayerIcon;
-
-
-  annotation (
-    preferredView="info",
-    Documentation(
-      info="<html>
+      end FunctionLayerIcon;
+      annotation(
+        preferredView = "info",
+        Documentation(info = "<html>
 <p>
 A collection of basic icons to be used for different elements of the library.
 </p>
 </html>"));
-end Icons;
-
+    end Icons;
     annotation(
       Documentation(info = "<html>
 <h4>Description</h4>

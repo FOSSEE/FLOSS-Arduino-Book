@@ -620,11 +620,11 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           else
             digital_in := sComm.cmd_digital_in(1, 12) "Read from digital pin 12";
             if digital_in == 0 then
-              strm.print("LOW");
+              strm.print("0");
               digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
               sComm.delay(200);
             else
-              strm.print("HIGH");
+              strm.print("1");
               digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
               sComm.delay(200);
             end if;
@@ -656,10 +656,10 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           else
             digital_in := sComm.cmd_digital_in(1, 12);
             if digital_in == 0 then
-              strm.print("LOW");
+              strm.print("0");
               sComm.delay(200);
             else
-              strm.print("HIGH");
+              strm.print("1");
               sComm.delay(200);
             end if;
           end if;
@@ -766,7 +766,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 2) "read analog pin 2";
-            strm.print("Potentiometer Readings:" + String(analog_in));
+            strm.print("Potentiometer Readings: " + String(analog_in));
             if analog_in >= 0 and analog_in < 320 then
               digital_out := sComm.cmd_digital_out(1, 11, 1) "Turn ON LED";
               sComm.delay(1000);
@@ -814,7 +814,8 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             analog_in := sComm.cmd_analog_in(1, 4) "read analog pin 4";
-            if analog_in > 500 then
+            strm.print("Thermistor Readings " + " : " + String(analog_in));
+            if analog_in > 550 then
               digital_out := sComm.cmd_digital_out(1, 3, 1) "Turn ON Buzzer";
             else
               digital_out := sComm.cmd_digital_out(1, 3, 0) "Turn OFF Buzzer";

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  26 APR 2021 08:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  27 APR 2021 05:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2585,7 +2585,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (254 pages, 26607709 bytes).
+Output written on floss-arduino.pdf (254 pages, 26607703 bytes).
 PDF statistics:
  1134 PDF objects out of 1200 (max. 8388607)
  660 compressed objects within 7 object streams
