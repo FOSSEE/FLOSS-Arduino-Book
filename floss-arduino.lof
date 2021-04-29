@@ -20,111 +20,110 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Linux terminal to launch Arduino IDE\relax }}{22}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Arduino IDE\relax }}{23}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Linux terminal to launch Scilab\relax }}{28}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Changing scilab directory\relax }}{29}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Browsing toolbox directory\relax }}{30}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Output of builder.sce\relax }}{31}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Output of loader.sce\relax }}{32}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Device Manager in windows\relax }}{33}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces COM port properties window\relax }}{34}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Port number on Linux terminal\relax }}{34}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Scilab test code output\relax }}{35}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Arduino toolbox functions used in this book\relax }}{35}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Sine generator in palette browser\relax }}{37}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces CSCOPE block in xcos\relax }}{38}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces CLOCK\_c block in xcos\relax }}{38}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Sine generator in Xcos\relax }}{39}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Sine generator Xcos output\relax }}{39}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces CSCOPE configuration window\relax }}{40}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Simulation setup window\relax }}{41}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Palette browser showing Arduino blocks\relax }}{41}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Xcos block help\relax }}{42}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Installing Python 3 on Windows\relax }}{43}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Launching the Command Prompt on Windows\relax }}{44}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Command Prompt on Windows\relax }}{44}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Julia's website to download 64-bit Windows/Linux binaries\relax }}{49}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Installing Julia 1.6.0 on Windows\relax }}{49}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Windows command prompt to launch Julia REPL\relax }}{51}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Windows command prompt to enter Pkg REPL in Julia\relax }}{51}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Linux terminal to launch Julia REPL\relax }}{54}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Linux terminal to enter Pkg REPL in Julia\relax }}{55}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Allowing Microsoft Defender to run the executable file\relax }}{58}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Setup of Modelica Standard Library version\relax }}{59}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces User Interface of OMEdit\relax }}{60}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Opening a model in OMEdit\relax }}{61}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{62}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Different views of a model in OMEdit\relax }}{62}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Opening a model in text view in OMEdit\relax }}{63}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Simulating a model in OMEdit\relax }}{63}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Output window of OMEdit\relax }}{64}%
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Examples provied in OpenModelica-Arduino Toolbox\relax }}{66}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Browsing toolbox directory\relax }}{29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Output of builder.sce\relax }}{30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Output of loader.sce\relax }}{31}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Device Manager in windows\relax }}{32}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces COM port properties window\relax }}{33}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Port number on Linux terminal\relax }}{33}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Scilab test code output\relax }}{34}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Arduino toolbox functions used in this book\relax }}{35}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sine generator in palette browser\relax }}{36}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces CSCOPE block in xcos\relax }}{37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces CLOCK\_c block in xcos\relax }}{38}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sine generator in Xcos\relax }}{39}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sine generator Xcos output\relax }}{39}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces CSCOPE configuration window\relax }}{40}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Simulation setup window\relax }}{40}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Palette browser showing Arduino blocks\relax }}{41}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Xcos block help\relax }}{41}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Installing Python 3 on Windows\relax }}{43}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Launching the Command Prompt on Windows\relax }}{43}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Command Prompt on Windows\relax }}{43}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Julia's website to download 64-bit Windows/Linux binaries\relax }}{48}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Installing Julia 1.6.0 on Windows\relax }}{49}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Windows command prompt to launch Julia REPL\relax }}{50}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Windows command prompt to enter Pkg REPL in Julia\relax }}{51}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Linux terminal to launch Julia REPL\relax }}{53}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Linux terminal to enter Pkg REPL in Julia\relax }}{54}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Allowing Microsoft Defender to run the executable file\relax }}{57}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Setup of Modelica Standard Library version\relax }}{58}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces User Interface of OMEdit\relax }}{60}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Opening a model in OMEdit\relax }}{61}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{62}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Different views of a model in OMEdit\relax }}{62}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Opening a model in text view in OMEdit\relax }}{63}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Simulating a model in OMEdit\relax }}{63}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Output window of OMEdit\relax }}{64}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Examples provied in OpenModelica-Arduino Toolbox\relax }}{66}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{69}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{70}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and shield\relax }}{70}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Interfacing an RGB LED with Arduino Uno using a breadboard\relax }}{71}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{74}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{79}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{80}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{81}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{82}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{67}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{68}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and shield\relax }}{68}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Interfacing an RGB LED with Arduino Uno using a breadboard\relax }}{69}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{72}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{77}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{78}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{79}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{98}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{98}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces A pushbutton to control an LED with Arduino Uno using a breadboard\relax }}{99}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Printing the push button status on the display block}}{104}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{105}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{96}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{96}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A pushbutton to control an LED with Arduino Uno using a breadboard\relax }}{97}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Printing the push button status on the display block}}{102}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Turning the LED on or off, depending on the pushbutton}}{103}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Light Dependent Resistor\relax }}{114}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{114}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{114}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{114}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno\ using a breadboard\relax }}{115}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{116}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{121}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{122}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Light Dependent Resistor\relax }}{112}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{112}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{112}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{112}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno\ using a breadboard\relax }}{113}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{114}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{119}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{120}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{132}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{132}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{132}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{133}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{137}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{130}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{130}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{130}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{131}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{135}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{146}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{146}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{146}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{146}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{146}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{146}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{147}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{148}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Xcos diagram to read thermistor values}}{153}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Output of Xcos diagram to read thermistor values}}{154}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{155}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{155}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{144}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{144}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{144}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{144}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{144}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{144}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{145}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{146}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Xcos diagram to read thermistor values}}{151}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Output of Xcos diagram to read thermistor values}}{152}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on or off}}{153}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Output of Xcos diagram to switch buzzer through thermistor values}}{153}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces L293D motor driver board\relax }}{164}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces A schematic of DC motor connections\relax }}{165}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{165}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{172}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{174}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{175}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces L293D motor driver board\relax }}{162}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces A schematic of DC motor connections\relax }}{163}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{163}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{170}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{172}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{173}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{192}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{193}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{194}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{195}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Rotating the servomotor by a fixed angle}}{190}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Rotating the servomotor forward and then reverse}}{191}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{192}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{193}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{210}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{210}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{211}%
-\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{215}%
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{216}%
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{217}%
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{218}%
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{219}%
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{219}%
-\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{220}%
-\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{220}%
-\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{221}%
-\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{221}%
-\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{222}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{208}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{208}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{209}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{213}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{214}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{215}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{216}%
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{217}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{217}%
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{218}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{218}%
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{219}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{219}%
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{220}%

@@ -15,7 +15,6 @@ algorithm
       digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn the blue LED";
       sComm.delay(2000) "let the blue LED be on for two seconds";
       digital_out := sComm.cmd_digital_out(1, 9, 0) "turn off blue LED";
-      sComm.delay(2000) "let the blue LED be off for two seconds";
     end if;
     strm.print(String(time));
     c_ok := sComm.close_serial(1) "To close the connection safely";

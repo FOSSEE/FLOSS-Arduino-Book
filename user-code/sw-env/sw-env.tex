@@ -406,7 +406,7 @@ Windows and Linux. After installing Scilab, the readers are advised to
 watch the tutorials on Scilab provided on {\tt https://spoken-tutorial.org/}. 
 Ideally, one should go through all the tutorials labeled as Basic. 
 However, we strongly recommend the readers should watch the sixth and 
-thirteenth tutorials, i.e., Getting Started and Xcos Introduction. 
+thirteenth tutorials, i.e., {\tt Getting Started} and {\tt Xcos Introduction}. 
 
 
 \subsection{Downloading and installing on Windows}\label{scilab-installation-windows}
@@ -486,15 +486,18 @@ Let us now see how to load the Scilab Arduino toolbox.
             start \scilab\ through a terminal with root permissions, as
             explained in section \ref{scilab-installation-linux}.
       \item After launching \scilab, first we have to change the working
-            directory. To do so, click on the {\tt File} menu and then click on
-            the {\tt Change current directory} option as shown in
-            \figref{scilab-cd}.
-            \begin{figure}
-                  \centering
-                  \includegraphics[width=\linewidth]{\LocSWfig/change-directory.png}
-                  \caption{Changing scilab directory}
-                  \label{scilab-cd}
-            \end{figure}
+            directory. Below the menu bar, locate the tab called {\tt File Browser}. 
+            Just below {\tt File Browser}, locate a folder-shaped icon. 
+            This icon is used to {\tt Select a directory}. Click on this icon.   
+            % click on the {\tt File} menu and then click on
+            % the {\tt Change current directory} option as shown in
+            % \figref{scilab-cd}.
+            % \begin{figure}
+            %       \centering
+            %       \includegraphics[width=\linewidth]{\LocSWfig/change-directory.png}
+            %       \caption{Changing scilab directory}
+            %       \label{scilab-cd}
+            % \end{figure}
       \item Then, one has to browse to the toolbox folder
                   {\tt Origin/tools/scilab/windows} or {\tt Origin/tools/scilab/linux}, as the case
             may be, and click on, {\tt
@@ -1076,11 +1079,11 @@ below:
 
 % \end{enumerate}
 
-\subsection{Python Arduino toolbox}
+\subsection{Python-Arduino toolbox}
 \label{sec:python-toolbox}
 Python, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Python using packages. 
-The Python Arduino toolbox can be found inside the {\tt Origin/tools/python} directory, 
+The Python-Arduino toolbox can be found inside the {\tt Origin/tools/python} directory, 
 see \fnrefp{fn:file-loc}.  This toolbox is compatible for both of the operating systems: Windows and Linux. 
 The Python scripts (or codes) for various experiments mentioned throughout this book can be found in 
 {\tt Origin/user-code} directory. The {\tt user-code} directory will have many sub-directories as per the experiments. 
@@ -1340,7 +1343,7 @@ list of packages installed in Julia's environment. Please make sure that SerialP
 is present in the list of packages being shown. To exit the interactive session, type CTRL+D or type {\tt exit()}. 
 
 
-\subsection{Julia Arduino toolbox}
+\subsection{Julia-Arduino toolbox}
 \label{sec:julia-toolbox}
 Julia, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Julia using toolboxes. 
@@ -1402,7 +1405,7 @@ In the upcoming sections, we have provided the steps to install OpenModelica on 
 After installing OpenModelica, the readers should watch the tutorials on OpenModelica provided on 
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the tutorials labeled as Basic. 
 However, we strongly recommend the readers should watch the second and third tutorials, i.e., 
-Introduction to OMEdit and Examples through OMEdit.
+{\tt Introduction to OMEdit} and {\tt Examples through OMEdit}.
 
 
 \subsection{Downloading and installing on Windows} \label{openmodelica-install-windows}
@@ -1633,7 +1636,7 @@ in \ardref{ard:firmware} on the \arduino\ board.
       \mcaption{An OpenModelica code to check whether the firmware is properly installed
             or not}{An OpenModelica code/model to check whether the firmware is properly installed
             or not.  Available at \LocFIMOpenModelicabrief{test\_firmware.mo}. Locate this file 
-            inside OpenModelica-Arduino toolbox, as explained in \secref{load-om-toolbox}. Simulate this code/model by following the steps 
+            inside OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}. Simulate this code/model by following the steps 
             given in  \secref{OpenModelica-code-execution}. If the simulation is
             successful, you should expect an output window in OMEdit as shown in 
             \figref{om-sim-success}.}

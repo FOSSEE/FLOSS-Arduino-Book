@@ -247,9 +247,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/change-directory.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/change-directory.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/change-directory.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/browse-directory.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/browse-directory.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/browse-directory.png
@@ -385,9 +382,9 @@ INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.png
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-shield.JPG
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-shield.JPG
-INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-shield.JPG
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-new-shield.jpeg
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-new-shield.jpeg
+INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-new-shield.jpeg
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/rgb-led-bb.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/rgb-led-bb.png
 INPUT /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/rgb-led-bb.png
