@@ -1,8 +1,8 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {3.{1}}A Python script to check whether the firmware is properly installed or not}{46}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED through Python}{83}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{84}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{83}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{83}%
 \contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{84}%
 \contentsline {section}{\numberline {4.{4}}Blinking the green LED}{85}%
 \addvspace {10pt}

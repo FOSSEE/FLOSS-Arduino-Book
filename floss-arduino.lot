@@ -7,8 +7,8 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Parameters to light the blue LED in Xcos\relax }}{77}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Parameters to light the blue LED in Xcos for two seconds\relax }}{78}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{80}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{81}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{79}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{80}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the push button status on the display block\relax }}{102}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{103}%

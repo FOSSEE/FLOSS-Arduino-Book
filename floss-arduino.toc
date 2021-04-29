@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {3.2}Scilab}{26}%
 \contentsline {subsection}{\numberline {3.2.1}Downloading and installing on Windows}{26}%
 \contentsline {subsection}{\numberline {3.2.2}Downloading and installing on GNU/Linux Ubuntu}{27}%
-\contentsline {subsection}{\numberline {3.2.3}Scilab Arduino toolbox}{27}%
+\contentsline {subsection}{\numberline {3.2.3}Scilab-Arduino toolbox}{27}%
 \contentsline {subsection}{\numberline {3.2.4}Identifying Arduino communication port number}{29}%
 \contentsline {subsection}{\numberline {3.2.5}Testing Scilab-Arduino toolbox}{31}%
 \contentsline {subsection}{\numberline {3.2.6}Firmware}{34}%
@@ -68,15 +68,15 @@
 \contentsline {subsection}{\numberline {4.4.1}Lighting the LED}{74}%
 \contentsline {subsection}{\numberline {4.4.2}Scilab Code}{75}%
 \contentsline {section}{\numberline {4.5}Lighting the LED from Scilab Xcos}{76}%
-\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{80}%
-\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{80}%
+\contentsline {section}{\numberline {4.6}Lighting the LED from Python}{81}%
+\contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{81}%
 \contentsline {subsection}{\numberline {4.6.2}Python Code}{83}%
 \contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{86}%
 \contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{86}%
-\contentsline {subsection}{\numberline {4.7.2}Julia Code}{88}%
+\contentsline {subsection}{\numberline {4.7.2}Julia Code}{87}%
 \contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{89}%
 \contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{89}%
-\contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{91}%
+\contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{90}%
 \contentsline {chapter}{\numberline {5}Interfacing a Pushbutton}{95}%
 \contentsline {section}{\numberline {5.1}Preliminaries}{95}%
 \contentsline {section}{\numberline {5.2}Connecting a pushbutton with Arduino Uno\ using a breadboard}{95}%
