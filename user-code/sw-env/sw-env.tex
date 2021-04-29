@@ -27,9 +27,9 @@
                         Origin/tools/julia/#1}}, see \fnrefp{fn:file-loc}} % added for julia
 
 %%%%%%OpenModelica Starts
-\newcommand{\LocFIMOpenModelicacode}{\Origin/tools/openmodelica}  %added for OpenModelica
+\newcommand{\LocFIMOpenModelicacode}{\Origin/tools/openmodelica/windows/}  %added for OpenModelica
 \newcommand{\LocFIMOpenModelicabrief}[1]{{\tt \seqsplit{%
-                        Origin/tools/openmodelica/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
+                        Origin/tools/openmodelica/windows/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
 
 %%%%%OpenModelica Ends
 
@@ -1077,6 +1077,7 @@ below:
 % \end{enumerate}
 
 \subsection{Python Arduino toolbox}
+\label{sec:python-toolbox}
 Python, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Python using packages. 
 The Python Arduino toolbox can be found inside the {\tt Origin/tools/python} directory, 
@@ -1308,7 +1309,7 @@ we will use {\tt Pkg}. It is Julia's built-in package manager and
 handles operations such as installing, updating, and removing packages in Julia. 
 For installing LibSerialPort, carry out the steps given below:
 \begin{enumerate}
-      \item Open pen a Terminal by pressing Ctrl+Alt+T keys together. Type {\tt julia} and press Enter.
+      \item Open a Terminal by pressing Ctrl+Alt+T keys together. Type {\tt julia} and press Enter.
       It should launch Julia in an interactive session (also known as a read-eval-print loop or "REPL"), as shown 
       in \figref{julia-repl}. When run in interactive mode, Julia displays a banner and 
       prompts the user for input. By default, Julia REPL appears in Julian prompt. It is the default mode of 
@@ -1340,6 +1341,7 @@ is present in the list of packages being shown. To exit the interactive session,
 
 
 \subsection{Julia Arduino toolbox}
+\label{sec:julia-toolbox}
 Julia, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to Julia using toolboxes. 
 The Julia-Arduino toolbox can be found inside the {\tt Origin/tools/julia} directory, 
@@ -1564,7 +1566,7 @@ Simulation finished successfully". Had there been any error in simulating the mo
 we would not have received this message. 
 
 
-\subsection{OpenModelica Arduino toolbox}\label{load-om-toolbox}
+\subsection{OpenModelica Arduino toolbox}\label{sec:load-om-toolbox}
 OpenModelica, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to OpenModelica using toolboxes.  
 The OpenModelica Arduino toolbox can be found inside {\tt Origin/tools/\\openmodelica/windows} or {\tt Origin/tools/openmodelica/linux} directory,
@@ -1591,8 +1593,8 @@ Let us now see how to load the OpenModelica Arduino toolbox.
             If you are able to view these files, it means that OpenModelica-Arduino toolbox has been loaded successfully. 
             Please note that each time you launch OMEdit, you need to load this toolbox for
             performing the experiments. 
-      \item The {\tt test\_firmware.mo} in the step \ref{itm:library} is the same file which has been mentioned in \secref{om-firmware}.
-            While following \secref{om-firmware}, the readers are advised to execute (or simulate) this file (or model). 
+      % \item The {\tt test\_firmware.mo} in the step \ref{itm:library} is the same file which has been mentioned in \secref{om-firmware}.
+            % While following \secref{om-firmware}, the readers are advised to execute (or simulate) this file (or model). 
       \item \label{itm:locate} Now, we will locate the models for running the experiments in the upcoming chapters. 
             Under Libraries Browser, click on the arrow before Arduino to see the 
             contents inside this package. Next go to SerialCommunication -> Examples. 
@@ -1601,10 +1603,9 @@ Let us now see how to load the OpenModelica Arduino toolbox.
       \item \label{itm:simulate} For running the experiments of a particular chapter, click on the corresponding 
             experiment's name. Subsequently, you will find a list of experiments which you can 
             simulate one by one, as explained in \secref{OpenModelica-code-execution}.
-      \item For each of the experiments given in the upcoming chapters, we have provided 
-            the OpenModelica model in {\tt Origin/user-code} folder. However, the readers 
+      \item For each of the experiments using OpenModelica given in the upcoming chapters, the readers 
             are advised to locate the corresponding model by following the steps
-             numbered \ref{itm:locate} and \ref{itm:simulate} and simulate it.  
+            numbered \ref{itm:locate} and \ref{itm:simulate} and simulate it.  
 \end{enumerate}
 
 

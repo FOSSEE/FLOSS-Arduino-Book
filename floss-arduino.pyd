@@ -1,10 +1,10 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {3.{1}}A Python script to check whether the firmware is properly installed or not}{47}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the LED through Python}{85}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED through Python}{85}%
 \contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{86}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{87}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{88}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{86}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{87}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and displaying on the serial monitor}{107}%
 \contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{107}%

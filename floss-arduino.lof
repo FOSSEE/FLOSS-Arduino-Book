@@ -60,7 +60,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{69}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{70}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino and Shield\relax }}{70}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and shield\relax }}{70}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Interfacing an RGB LED with Arduino Uno using a breadboard\relax }}{71}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{74}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{79}%

@@ -55,7 +55,7 @@
 \contentsline {subsection}{\numberline {3.6.2}Downloading and installing on GNU/Linux Ubuntu}{58}%
 \contentsline {subsection}{\numberline {3.6.3}Simulating models in OpenModelica}{58}%
 \contentsline {subsection}{\numberline {3.6.4}OpenModelica Arduino toolbox}{64}%
-\contentsline {subsection}{\numberline {3.6.5}Firmware}{66}%
+\contentsline {subsection}{\numberline {3.6.5}Firmware}{65}%
 \contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{69}%
 \contentsline {section}{\numberline {4.1}Preliminaries}{69}%
 \contentsline {section}{\numberline {4.2}Connecting an RGB LED with Arduino Uno\ using a breadboard}{71}%
@@ -71,11 +71,11 @@
 \contentsline {section}{\numberline {4.6}Lighting the LED from Python}{82}%
 \contentsline {subsection}{\numberline {4.6.1}Lighting the LED}{82}%
 \contentsline {subsection}{\numberline {4.6.2}Python Code}{85}%
-\contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{89}%
-\contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{89}%
+\contentsline {section}{\numberline {4.7}Lighting the LED from Julia}{88}%
+\contentsline {subsection}{\numberline {4.7.1}Lighting the LED}{88}%
 \contentsline {subsection}{\numberline {4.7.2}Julia Code}{90}%
-\contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{92}%
-\contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{92}%
+\contentsline {section}{\numberline {4.8}Lighting the LED from OpenModelica}{91}%
+\contentsline {subsection}{\numberline {4.8.1}Lighting the LED}{91}%
 \contentsline {subsection}{\numberline {4.8.2}OpenModelica Code}{93}%
 \contentsline {chapter}{\numberline {5}Interfacing a Pushbutton}{97}%
 \contentsline {section}{\numberline {5.1}Preliminaries}{97}%

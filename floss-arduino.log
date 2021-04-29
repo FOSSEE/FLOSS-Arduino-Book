@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  27 APR 2021 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  29 APR 2021 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,7 +1102,7 @@ fvm/m/n/10.95 pip show pyserial
 
 [45] [46]
 (/home/fossee/Desktop/floss-scilab-arduino/tools/python/test_firmware.py)
-Underfull \vbox (badness 7030) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-downl
@@ -1112,7 +1112,7 @@ download.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-d
 ownload.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-download.png  used on input line 1162.
+-env/figures/julia-download.png  used on input line 1163.
 (pdftex.def)             Requested size: 397.48499pt x 164.34962pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-windo
 ws-install.png, id=304, 756.8275pt x 632.3625pt>
@@ -1121,7 +1121,7 @@ windows-install.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-w
 indows-install.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-windows-install.png  used on input line 1169.
+-env/figures/julia-windows-install.png  used on input line 1170.
 (pdftex.def)             Requested size: 258.36281pt x 215.86882pt.
 
 [48] [49 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/ju
@@ -1134,7 +1134,7 @@ repl-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-r
 epl-windows.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-repl-windows.png  used on input line 1217.
+-env/figures/julia-repl-windows.png  used on input line 1218.
 (pdftex.def)             Requested size: 397.48499pt x 225.70088pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-pkg-w
 indows.png, id=315, 1353.055pt x 768.8725pt>
@@ -1143,7 +1143,7 @@ pkg-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-p
 kg-windows.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-pkg-windows.png  used on input line 1226.
+-env/figures/julia-pkg-windows.png  used on input line 1227.
 (pdftex.def)             Requested size: 397.48499pt x 225.86513pt.
  [50]
 
@@ -1152,13 +1152,13 @@ LaTeX Warning: Text page 51 contains only floats.
 [51 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-r
 epl-windows.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/fi
 gures/julia-pkg-windows.png>]
-Overfull \hbox (5.34262pt too wide) in paragraph at lines 1250--1252
+Overfull \hbox (5.34262pt too wide) in paragraph at lines 1251--1253
 []\T1/cmr/m/n/10.95 First, up-date your sys-tem. Open the Ter-mi-nal. Type \T1/
 fvm/m/n/10.95 sudo apt-get update
  []
 
 
-Overfull \hbox (12.2196pt too wide) in paragraph at lines 1267--1271
+Overfull \hbox (12.2196pt too wide) in paragraph at lines 1268--1272
 \T1/fvm/m/n/10.95 sudo ln -s /opt/julia-1.6.0/bin/julia /usr/local/bin/julia 
  []
 
@@ -1170,7 +1170,7 @@ terminal-repl.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-t
 erminal-repl.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-terminal-repl.png  used on input line 1298.
+-env/figures/julia-terminal-repl.png  used on input line 1299.
 (pdftex.def)             Requested size: 397.48499pt x 274.37646pt.
  [53]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-pkg.p
@@ -1180,7 +1180,7 @@ pkg.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/julia-p
 kg.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/julia-pkg.png  used on input line 1328.
+-env/figures/julia-pkg.png  used on input line 1329.
 (pdftex.def)             Requested size: 397.48499pt x 274.37646pt.
 
 Underfull \vbox (badness 3219) has occurred while \output is active []
@@ -1197,10 +1197,10 @@ delica-run-anyway.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/openmod
 elica-run-anyway.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/openmodelica-run-anyway.png  used on input line 1428.
+-env/figures/openmodelica-run-anyway.png  used on input line 1430.
 (pdftex.def)             Requested size: 258.36281pt x 238.55693pt.
 
-Overfull \hbox (13.35912pt too wide) in paragraph at lines 1433--1439
+Overfull \hbox (13.35912pt too wide) in paragraph at lines 1435--1441
 []\T1/cmr/m/n/10.95 Once Open-Mod-el-ica has been in-stalled, Open-Mod-el-ica C
 on-nec-tion Ed-i-tor (OMEdit)
  []
@@ -1212,7 +1212,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-
 libraries.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/OMEdit-libraries.png  used on input line 1452.
+-env/figures/OMEdit-libraries.png  used on input line 1454.
 (pdftex.def)             Requested size: 365.46649pt x 300.32292pt.
 [57] [58 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/op
 enmodelica-run-anyway.png>]
@@ -1223,7 +1223,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit-
 UI.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/OMEdit-UI.png  used on input line 1484.
+-env/figures/OMEdit-UI.png  used on input line 1486.
 (pdftex.def)             Requested size: 397.48499pt x 238.5865pt.
  [59 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit
 -libraries.png>]
@@ -1234,7 +1234,7 @@ n-model.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-open
 -model.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-open-model.png  used on input line 1498.
+-env/figures/om-open-model.png  used on input line 1500.
 (pdftex.def)             Requested size: 397.48499pt x 289.94313pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-Modeling
 .png, id=359, 1368.11125pt x 791.95876pt>
@@ -1243,7 +1243,7 @@ eling.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-Mode
 ling.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-Modeling.png  used on input line 1505.
+-env/figures/om-Modeling.png  used on input line 1507.
 (pdftex.def)             Requested size: 397.48499pt x 230.08511pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-modeling
 -views.png, id=360, 673.01437pt x 373.395pt>
@@ -1252,7 +1252,7 @@ eling-views.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-mode
 ling-views.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-modeling-views.png  used on input line 1513.
+-env/figures/om-modeling-views.png  used on input line 1515.
 (pdftex.def)             Requested size: 397.48499pt x 220.52904pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-text-vie
 w.png, id=361, 1370.11874pt x 796.9775pt>
@@ -1261,7 +1261,7 @@ t-view.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-text
 -view.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-text-view.png  used on input line 1521.
+-env/figures/om-text-view.png  used on input line 1523.
 (pdftex.def)             Requested size: 397.48499pt x 231.20267pt.
  [60 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/OMEdit
 -UI.png>]
@@ -1272,7 +1272,7 @@ ulate.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-simu
 late.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-simulate.png  used on input line 1550.
+-env/figures/om-simulate.png  used on input line 1552.
 (pdftex.def)             Requested size: 397.48499pt x 220.52904pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-sim-succ
 ess.png, id=367, 647.41875pt x 516.93124pt>
@@ -1281,7 +1281,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-sim
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-sim-
 success.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-sim-success.png  used on input line 1557.
+-env/figures/om-sim-success.png  used on input line 1559.
 (pdftex.def)             Requested size: 397.48499pt x 317.37051pt.
  [61 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-ope
 n-model.png>]
@@ -1297,20 +1297,20 @@ LaTeX Warning: Text page 63 contains only floats.
 [63 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-text
 -view.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/
 om-simulate.png>]
-Overfull \hbox (0.4131pt too wide) in paragraph at lines 1568--1575
+Overfull \hbox (0.4131pt too wide) in paragraph at lines 1570--1577
 \T1/fvm/m/n/10.95 openmodelica/windows \T1/cmr/m/n/10.95 or \T1/fvm/m/n/10.95 O
 rigin/tools/openmodelica/linux \T1/cmr/m/n/10.95 di-rec-tory,
  []
 
 [64 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-sim-
 success.png>]
-Overfull \hbox (4.19868pt too wide) in paragraph at lines 1586--1588
+Overfull \hbox (4.19868pt too wide) in paragraph at lines 1588--1590
 []\T1/cmr/m/n/10.95 Navigate to \T1/fvm/m/n/10.95 Origin/tools/openmodelica/win
 dows \T1/cmr/m/n/10.95 or \T1/fvm/m/n/10.95 Origin/tools/ 
  []
 
 
-Overfull \hbox (5.89722pt too wide) in paragraph at lines 1588--1594
+Overfull \hbox (5.89722pt too wide) in paragraph at lines 1590--1598
 \T1/cmr/m/n/10.95 el-ica_Synchronous, Mod-el-ica_DeviceDrivers, and one model t
 est_firmware.mo.
  []
@@ -1322,12 +1322,16 @@ lbox-loaded.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om-tool
 box-loaded.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw
--env/figures/om-toolbox-loaded.png  used on input line 1614.
+-env/figures/om-toolbox-loaded.png  used on input line 1615.
 (pdftex.def)             Requested size: 178.86702pt x 404.66306pt.
-[65] [66 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/om
--toolbox-loaded.png>]
-(/home/fossee/Desktop/floss-scilab-arduino/tools/openmodelica/test_firmware.mo)
-) (./user-code/led/led.tex [67] [68
+
+LaTeX Warning: Reference `load-om-toolbox' on page 65 undefined on input line 1
+636.
+
+[65]
+(/home/fossee/Desktop/floss-scilab-arduino/tools/openmodelica/windows//test_fir
+mware.mo [66 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figure
+s/om-toolbox-loaded.png>])) (./user-code/led/led.tex [67] [68
 
 ]
 Chapter 4.
@@ -1337,7 +1341,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led.png G
 raphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led.png  used on input line 51.
+d/figures/led.png  used on input line 52.
 (pdftex.def)             Requested size: 79.49577pt x 44.74203pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.png,
  id=404, 415.5525pt x 456.70625pt>
@@ -1346,7 +1350,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.
 png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/schematic.png  used on input line 64.
+d/figures/schematic.png  used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 196.58194pt.
 [69 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-shield
@@ -1356,7 +1360,7 @@ hield.JPG Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/arduino-sh
 ield.JPG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/arduino-shield.JPG  used on input line 78.
+d/figures/arduino-shield.JPG  used on input line 79.
 (pdftex.def)             Requested size: 178.86702pt x 134.15085pt.
 
 [70 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/schematic.
@@ -1369,7 +1373,7 @@ b.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/rgb-led-bb
 .png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/rgb-led-bb.png  used on input line 106.
+d/figures/rgb-led-bb.png  used on input line 107.
 (pdftex.def)             Requested size: 357.73405pt x 187.14034pt.
  [71 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/rgb-led-b
 b.png>]
@@ -1388,10 +1392,10 @@ t.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led_output
 .png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led_output.png  used on input line 195.
+d/figures/led_output.png  used on input line 196.
 (pdftex.def)             Requested size: 357.73405pt x 229.47339pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-07.
+08.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1427,10 +1431,10 @@ png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue.p
 ng>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue.png  used on input line 393.
+d/figures/led-blue.png  used on input line 394.
 (pdftex.def)             Requested size: 178.86702pt x 193.29965pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 409--418
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 410--419
  [][] 
  []
 
@@ -1442,10 +1446,10 @@ delay.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-d
 elay.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue-delay.png  used on input line 428.
+d/figures/led-blue-delay.png  used on input line 429.
 (pdftex.def)             Requested size: 178.86702pt x 192.53517pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 443--455
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 444--456
  [][] 
  []
 
@@ -1458,10 +1462,10 @@ red.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-r
 ed.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue-red.png  used on input line 466.
+d/figures/led-blue-red.png  used on input line 467.
 (pdftex.def)             Requested size: 178.86702pt x 247.45784pt.
 
-Overfull \hbox (13.85292pt too wide) in paragraph at lines 482--499
+Overfull \hbox (13.85292pt too wide) in paragraph at lines 483--500
  [][] 
  []
 
@@ -1474,10 +1478,10 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-
 blink.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-green-blink.png  used on input line 509.
+d/figures/led-green-blink.png  used on input line 510.
 (pdftex.def)             Requested size: 178.86702pt x 182.13731pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 524--537
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 525--538
  [][] 
  []
 
@@ -1487,44 +1491,53 @@ Overfull \vbox (31.42311pt too high) has occurred while \output is active []
 
 
 [82 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-
-blink.png>] [83]
-Underfull \hbox (badness 10000) in paragraph at lines 613--617
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--635
-
- []
-
-[84]
+blink.png>]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+[83]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.
+py)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.
+py) [84]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py
 [85])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.
-py [86])
+py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-red.py
-[87])
+[86])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-green-blink
-.py [88]) [89]
+.py [87]) [88]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl)
-[90]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.j
+l)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.j
+l) [89]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.j
 l)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-red.jl)
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-green-blink.
-jl) [91]
-Overfull \hbox (2.4842pt too wide) in paragraph at lines 840--841
-[]\T1/cmr/m/n/10.95 sComm.close_serial(1) : This closes the pre-de-fined se-ria
-l port which is presently
- []
-
-[92]
+jl [90])
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
+mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
+mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
+mo) [91]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
+mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
+delay.mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
+delay.mo) [92]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
 mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
@@ -1532,9 +1545,7 @@ delay.mo [93])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
 red.mo [94])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-green
--blink.mo)) (./user-code/push/push.tex [95] [96
-
-]
+-blink.mo) [95]) (./user-code/push/push.tex [96]
 Chapter 5.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-co
 nn.png, id=511, 415.5525pt x 438.63875pt>
@@ -1554,7 +1565,9 @@ g>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pu
 sh/figures/switch.png  used on input line 72.
 (pdftex.def)             Requested size: 397.48499pt x 209.64827pt.
-[97]
+[97
+
+]
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
  [98 </home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutt
@@ -2558,10 +2571,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9792 strings out of 481239
- 212749 string characters out of 5920377
+ 9827 strings out of 481239
+ 215869 string characters out of 5920377
  742688 words of memory out of 5000000
- 24329 multiletter control sequences out of 15000+600000
+ 24324 multiletter control sequences out of 15000+600000
  554670 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  50i,11n,53p,467b,1826s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2588,7 +2601,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (254 pages, 26607527 bytes).
+Output written on floss-arduino.pdf (254 pages, 26608779 bytes).
 PDF statistics:
  1134 PDF objects out of 1200 (max. 8388607)
  660 compressed objects within 7 object streams

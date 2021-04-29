@@ -27,7 +27,8 @@
 
 In this chapter, we will learn how to control the LEDs on the shield
 and on the \arduino\ board.  We will do this through the Arduino IDE,
-Scilab scripts, Scilab Xcos, Python, and OpenModelica.  These are beginner level experiments,
+Scilab scripts, Scilab Xcos, Python, Julia, and OpenModelica.  
+These are beginner level experiments,
 and often referred to as the \emph{hello world} task of Arduino.
 Although simple, controlling LED is a very important task in all
 kinds of electronic boards.
@@ -76,7 +77,7 @@ putting a high voltage on the corresponding anode pin.
 \begin{figure}
   \centering
   \includegraphics[width=\smfig]{\LocLEDfig/arduino-shield.JPG}
-  \caption{Connecting Arduino and Shield}
+  \caption{Connecting \arduino\ and shield}
   \label{fig:uno-shield-connect}
 \end{figure}
 
@@ -96,8 +97,8 @@ soldering. To know more about the breadboard and other electronic components,
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
-watch the fifth and sixth tutorials, i.e., First Arduino Program and 
-Arduino with Tricolor LED and Push button.
+watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
+{\tt Arduino with Tricolor LED and Push button}.
 
 In case you have an RGB LED and want to connect it with \arduino\ on a breadboard, 
 please refer to \figref{fig:ard-rgb-bread}. 
@@ -131,7 +132,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         blue.  It is extremely easy to explain this code.  Recall from the
         above discussion that we have to put a high voltage (5V) on pin 9 to
         turn the blue light on.  This is achieved by the following command:
-        \lstinputlisting[firstline=3,lastline=3]
+        \lstinputlisting[firstline=4,lastline=4]
         {\LocLEDardcode/led-blue/led-blue.ino}
         Before that, we need to define pin 9 as the
         output pin.  This is achieved by the command,
@@ -143,11 +144,11 @@ instructions given in \secref{sec:ard-start} before getting started.
         remains on for two seconds and then turns off.
         \ardref{ard:led-blue-delay} helps achieve this.  In this, we
         introduce a new command {\tt delay} as below:
-        \lstinputlisting[firstline=4,lastline=4]
+        \lstinputlisting[firstline=5,lastline=5]
         {\LocLEDardcode/led-blue-delay/led-blue-delay.ino} This delay
         command halts the code for the time passed as in input argument. In
         our case, it is 2,000 milliseconds, or 2 seconds.  The next command,
-        \lstinputlisting[firstline=5,lastline=5]
+        \lstinputlisting[firstline=6,lastline=6]
         {\LocLEDardcode/led-blue-delay/led-blue-delay.ino} puts a low
         voltage on pin 9 to turn it off.
         
@@ -178,7 +179,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         iteration, it will turn the green LED on for a second by giving the
           {\tt HIGH} signal and then turn it off for a second by giving the
           {\tt LOW} signal.  This cycle is carried out for a total of 5 times,
-        because of the {\tt for loop}.
+        because of the {\tt for} loop.
 \end{enumerate}
 
 \paragraph{Note:}
@@ -264,13 +265,13 @@ previous section from Scilab.  We will list the same four experiments,
 in the same order.  The shield has to be attached to the \arduino\
 before carrying out these experiments, as in \secref{sec:light-ard}.
 The reader should go through the instructions given in
-\secref{sec:sci-start} before getting started.
+\secref{sec:sci-start} before getting started. 
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
         shield.  The code for this is given in \sciref{sci:led-blue}.  It
         begins with a command of the form
         \begin{lstlisting}[style=nonumbers]
-     ok = open_serial(1,PORT NUMBER,BAUD RATE)
+     ok = open_serial(1, PORT NUMBER, BAUD RATE)
   \end{lstlisting}
         We have used 2 for {\tt PORT NUMBER} and 115200 for {\tt BAUD RATE}.
         As a result, this command becomes
@@ -287,9 +288,9 @@ The reader should go through the instructions given in
         terminate the program if the serial port does not open.  This is
         achieved using the error message of the following form:
         \begin{lstlisting}[style=nonumbers]
-     if ok~=0, error(Error Message in Quotes);
+     if ok ~= 0, error(Error Message in Quotes);
   \end{lstlisting}
-        It checks if {\tt ok=0}.  If not, it flashes an error message and
+        It checks if {\tt ok = 0}.  If not, it flashes an error message and
         terminates.  This line gets implemented in the following way in
         \sciref{sci:led-blue}.  
         \lstinputlisting[firstline=2,lastline=2]{\LocLEDscicode/led-blue.sce}
@@ -297,7 +298,7 @@ The reader should go through the instructions given in
         We turn the LED on in the next line.  This is achieved using a
         command of the form
         \begin{lstlisting}[style=nonumbers]
-    cmd_digital_out(1,PIN NUMBER,VALUE)
+    cmd_digital_out(1, PIN NUMBER, VALUE)
   \end{lstlisting}
         As we want to turn on the blue light in the shield, as discussed in
         \secref{sec:light-ard}, we choose {\tt PIN NUMBER} as 9.  We can put
@@ -582,8 +583,8 @@ getting started.
 \begin{exercise}
   Carry out the following exercise:
   \begin{enumerate}
-    \item Change the blink pattern for an array of LEDs
-    \item Change the delays
+    \item Change the blink pattern for an array of LEDs.
+    \item Change the delays.
   \end{enumerate}
 \end{exercise}
 
@@ -593,89 +594,102 @@ getting started.
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same four experiments,
 in the same order.  The shield has to be attached to the \arduino\
-before carrying out these experiments, as in \pyref{sec:light-ard}.
+before carrying out these experiments, as in \secref{sec:light-ard}.
 The reader should go through the instructions given in
-\secref{sec:sci-start} before getting started.
+\secref{sec:python-start} before getting started.
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
-    shield.  The code for this is given in \pyref{py:led-blue}. It begins with a command of the form
-  \item Import os : This module provides a portable way of using operating system dependent functionality.
-  \item Import sys : This module provides access to some variables used or maintained by the interpreter
-        and to functions that interact strongly with the interpreter. It is always available.
-  \item cwd=os.getcwd(): Get the current working directory
-  \item (setpath,Examples)=os.path.split(cwd) :- This split the current working directory to get and set the Example folder in the PYTHONPATH variable
-  \item sys.path.append(setpath) :- It appends the path to PYTHONPATH environment
-  \item from Arduino.Arduino import Arduino :- All the basic functions are defined in Arduino.py.So, we have to import all the available methods from Arduino library.This command import Arduino class to acceess all the functinalities available in that class.
-  \item from time import sleep :- It import the delay functionality from pyserial package
-  \item class LED\_ON :- Each experiment is defined as class.This experiment
-        is to switch on the blue led.Then we will initialize the parameters and functions.
-  \item def \_\_init\_\_(self,baudrate) :- "\_\_init\_\_" a constructor which initialises parameteres and other functions of the class.
-  \item self.baudrate=baudrate :- Here baudrate is intialized and rest of the  3 functions which will be defined later, are also initialized.\\
-        self.setup() \\
-        self.run()   \\
-        self.exit()  \\
+    shield.  The code for this is given in \pyref{py:led-blue}. It begins with importing 
+    necessary modules, as given below: 
+    \lstinputlisting[firstline=1,lastline=2]{\LocLEDpycode/led-blue.py}
+
+    Here, {\tt os} module provides functions for interacting with the operating system. On the 
+    other hand, the {\tt sys} module provides access to some variables used or maintained by the interpreter
+    and functions that interact strongly with the interpreter. Next, the following lines of code are used to get the current directory 
+    followed by splitting it and appending the path to {\tt PYTHONPATH} environment: 
+    \lstinputlisting[firstline=3,lastline=5]{\LocLEDpycode/led-blue.py}
+    
+    After importing the necessary modules, following line imports the Arduino module from the Python-Arduino
+    toolbox, as explained in \secref{sec:python-toolbox}:
+    \lstinputlisting[firstline=7,lastline=7]{\LocLEDpycode/led-blue.py}
+
+    Next, we will import {\tt sleep} module, which is a function available in the package pyserial \cite{pySerial}.
+    For the sake of simplicity, we have configured each experiment as a class. In \pyref{py:led-blue},
+    we have defined the experiment as {\tt class LED\_ON}. The following lines of code 
+    initilize the parameters and functions available in this class. 
+    \lstinputlisting[firstline=10,lastline=15]{\LocLEDpycode/led-blue.py}
+
+    The function {\tt setup} creates an object of the Arduino class
+    through which we can call all the methods available in the base class. 
+    Along with this, it locates the port to which \arduino\ is connected 
+    and opens the port for serial communication. Similar to the Scilab experiments 
+    given in \secref{sec:light-sci}, we require port number and BAUD RATE for opening the serial port. 
         
-        Next step is to define the 1st method setup \\
-  \item def setup(self):- This function locates the port to which arduino is connected and
-        also opens the port for serial communication.
+        % self.obj\_arduino = Arduino() :- It creates an object of the arduino class
+        % through which we can call all the methods available in the base class.Here 
+        % obj\_arduino is the object created for Arduino class.Then we will call the locateport().\\
+        % self.port = self.obj\_arduino.locateport() :-This method auto-detects to which port 
+        % arduino is connected and assigns the port no. to the variable to self.port. Once 
+        % serial port is assigned, then we will call the open\_serial() to open the serial 
+        % port for communication.This is done in the next step \\
+        % self.obj\_arduino.open\_serial(1, self.port,self.baudrate) :- This opens the 
+        % serial port and it needs 3 parameters such as :
         
-        self.obj\_arduino = Arduino() :- It creates an object of the arduino class
-        through which we can call all the methods available in the base class.Here 
-        obj\_arduino is the object created for Arduino class.Then we will call the locateport().\\
-        self.port = self.obj\_arduino.locateport() :-This method auto-detects to which port 
-        arduino is connected and assigns the port no. to the variable to self.port. Once 
-        serial port is assigned, then we will call the open\_serial() to open the serial 
-        port for communication.This is done in the next step \\
-        self.obj\_arduino.open\_serial(1, self.port,self.baudrate) :- This opens the 
-        serial port and it needs 3 parameters such as :
+        % i. 1st arguement:- This is the board no. (1 by default) for every experiment \\
+        % ii.self.port :- This is the port no. to which arduino is connected \\
+        % iii.baudrate :- It sets the baudrate for serial communication \\
         
-        i. 1st arguement:- This is the board no. (1 by default) for every experiment \\
-        ii.self.port :- This is the port no. to which arduino is connected \\
-        iii.baudrate :- It sets the baudrate for serial communication \\
-        
-        Then we will define the 2nd method run() in which we will define pin no. to which components are connected also apply digital or analog inputs to it depending on the digital or analog nature of the component.
-        
-  \item def run(self):- This method is to define the functionality of the experiment \\
-        self.blue=9 :- pin no. to which led is connected \\
-        self.obj\_arduino.cmd\_digital\_out(1,self.blue,1) :- As led works on digital input so we will use cmd\_digital\_out() which will switch on/off the blue colour of RGB led .
-        This method needs 3 parameters such as : \\
-        1st parameter:- This is the board no. (1 by default) for every experiment.
-        2nd parameter :- pin no. to which led is connected
-        3rd parameter :- It applies digital logic i.e. if 1, then switch on led 
-        0, then switch off led \\
-        Once all the functionalities are defined and the experiments are performed accordingly then we will close the serial port which  is done by the exit function.
-  \item def exit(self):- This function closes the serial port \\
-        self.obj\_arduino.close\_serial() :- this function is called from Arduino class which closes the serial port properly.
-        
-  \item def main():- Here we will create the main method \\
-        obj\_led=LED\_ON(115200) :- It creates an object of the class with baudrate of 115200.
-  \item if \_\_name\_\_== '\_\_main\_\_':- At last we will check for the main module
-        whether its directly run from the file or being imported from another module \\
-        main() :- It calls the main module and which in turn calls the object of the 
-        class and performs the experiment.
+        % Then we will define the 2nd method run() in which we will define pin no. to which components are connected also apply digital or analog inputs to it depending on the digital or analog nature of the component.
+    The function {\tt run} is used to define the functionality of the experiment. In this experiment, 
+    we have to switch on the blue LED. For this, we define the pin number (which is 9 in this case) 
+    and send the required signal to this pin. Following lines are used to implement this functionality:
+    \lstinputlisting[firstline=22,lastline=24]{\LocLEDpycode/led-blue.py}
+
+    
+    At last, the function {\tt exit} is invoked to close the serial port. 
+  % \item def run(self):- This method is to define the functionality of the experiment \\
+  %       self.blue=9 :- pin no. to which led is connected \\
+  %       self.obj\_arduino.cmd\_digital\_out(1,self.blue,1) :- As led works on digital input so we will use cmd\_digital\_out() which will switch on/off the blue colour of RGB led .
+  %       This method needs 3 parameters such as : \\
+  %       1st parameter:- This is the board no. (1 by default) for every experiment.
+  %       2nd parameter :- pin no. to which led is connected
+  %       3rd parameter :- It applies digital logic i.e. if 1, then switch on led 
+  %       0, then switch off led \\
+  %       Once all the functionalities are defined and the experiments are performed accordingly then we will close the serial port which  is done by the exit function.
+  % \item def exit(self):- This function closes the serial port \\
+        % self.obj\_arduino.close\_serial() :- this function is called from Arduino class which closes the serial port properly.
+      
+      Once all the parameters and functions available in {\tt class LED\_ON} have been 
+      initialized, we create a main method and call it, as given below: 
+      \lstinputlisting[firstline=29,lastline=33]{\LocLEDpycode/led-blue.py}
+
+  % \item def main():- Here we will create the main method \\
+  %       obj\_led=LED\_ON(115200) :- It creates an object of the class with baudrate of 115200.
+  % \item if \_\_name\_\_== '\_\_main\_\_':- At last we will check for the main module
+  %       whether its directly run from the file or being imported from another module \\
+  %       main() :- It calls the main module and which in turn calls the object of the 
+  %       class and performs the experiment.
+
+  \item \pyref{py:led-blue-delay} does the same thing as what \ardref{ard:led-blue-delay} does. 
+        It does two more things than what \pyref{py:led-blue} does: It makes the blue LED light up for two
+        seconds.  This is achieved by the command
+        \lstinputlisting[firstline=25,lastline=25]{\LocLEDpycode/led-blue-delay.py}
+        The second thing this code does is to turn the blue LED off.  This
+        is achieved by the command
+        \lstinputlisting[firstline=26,lastline=26]{\LocLEDpycode/led-blue-delay.py}
+        As evident, this line of code puts a 0 on pin 9.
+  \item \pyref{py:led-blue-red} does the same thing as what \ardref{ard:led-blue-red} does. 
+         It turns blue and red LEDs on for five seconds.  After that, it turns off blue 
+         first.  After 3 seconds, it turns off red also.  So, when the program ends, 
+         no LED is lit up.
+  
+  \item \pyref{py:led-green-blink} does exactly what its counterpart in the Arduino IDE does.  
+        It makes the green LED blink five times.
 \end{enumerate}
-Python Code 4.2 does the same thing as what Arduino Code 4.2 does. It does
-two more things than what Python Code 4.1 does: It makes the blue LED light
-up for two seconds. This is achieved by the command
 
-sleep(2)  //let the blue LED be on for two seconds
-
-The second thing this code does is to turn the blue LED off. This is achieved
-by the command
-
-\begin{lstlisting}[style=nonumbers]
-     cmd_digital_out ( 1 , 9 , 0 ) //turn off blue LED
-  \end{lstlisting}
-
-
-It is easy to see that this code puts a 0 on pin 9.
-
-Python Code 4.3 does the same thing as what Arduino Code 4.3 does. It turns
-blue and red LEDs on for five seconds. After that, it turns off blue first. After
-3 seconds, it turns off red also. So, when the program ends, no LED is lit up.
-
-Python Code 4.4 does exactly what its counterpart in the Arduino IDE does.
-It makes the green LED blink five times. 
+\begin{exercise}
+  Repeat the exercise of the previous section.
+\end{exercise}
 
 \subsection{Python Code}
 \lstset{style=mystyle}
@@ -683,8 +697,8 @@ It makes the green LED blink five times.
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 
 \begin{pycode}
-  \pcaption{Turning on the LED through Python}
-  {Turning on the LED through Python.  Available at
+  \pcaption{Turning on the blue LED through Python}
+  {Turning on the blue LED through Python. Available at
     \LocLEDpybrief{led-blue.py}.}
   \label{py:led-blue}
   \lstinputlisting{\LocLEDpycode/led-blue.py}
@@ -722,62 +736,47 @@ In this section, we discuss how to carry out the experiments of the
 previous section from Julia.  We will list the same four experiments,
 in the same order.  The shield has to be attached to the \arduino\
 before carrying out these experiments, as in \secref{sec:light-ard}.
-The reader should go through the instructions given in
-\secref{sec:sci-start} before getting started.
+The reader should go through the instructions given in \secref{sec:julia-start} before getting started.
 
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
-        shield.  The code for this is given in Julia-code-4.1.
-        It begins with a command of the form
+        shield.  The code for this is given in \juliaref{julia:led-blue}.
+        It begins with importing the SerialPorts \cite{julia-serial-ports} package 
+        and the module ArduinoTools, as given in \secref{sec:julia-toolbox}. Following lines 
+        import SerialPorts and ArduinoTools:
+        \lstinputlisting[firstline=1,lastline=2]{\LocLEDjuliacode/led-blue.jl}
+
+        Next, the following line of code is used to detect the port on which \arduino\
+        is connected. 
+        \lstinputlisting[firstline=4,lastline=4]{\LocLEDjuliacode/led-blue.jl}
+      Apart from detecting the port, it also opens a serial port with given BAUD RATE. 
+      In this experiment, we have to put a high voltage (5V) on pin 9 to
+        turn the blue light on.  This is achieved by the following command:
+        \lstinputlisting[firstline=6,lastline=6]{\LocLEDjuliacode/led-blue.jl}
+        Before that, we need to define pin 9 as the
+        output pin.  This is achieved by the following command: 
+        \lstinputlisting[firstline=5,lastline=5]{\LocLEDjuliacode/led-blue.jl}
+        The last line in the code closes the serial port. 
+        In this Julia source file, one can observe that the blue light will be on continuously.   
+\item \juliaref{julia:led-blue-delay} does the same thing as what
+        \ardref{ard:led-blue-delay} does.  It does two more things than what
+        \juliaref{julia:led-blue} does: It makes the blue LED light up for two
+        seconds.  This is achieved by the command
+      \lstinputlisting[firstline=7,lastline=7]{\LocLEDjuliacode/led-blue-delay.jl}
+      The second thing this code does is to turn the blue LED off.  This
+        is achieved by the command
+        \lstinputlisting[firstline=8,lastline=8]{\LocLEDjuliacode/led-blue-delay.jl}
+        It is easy to see that this code puts a 0 on pin 9.
+  \item \juliaref{julia:led-blue-red} does the same thing as what
+        \ardref{ard:led-blue-red} does.  It turns blue and red LEDs on for
+        five seconds.  After that, it turns off blue first.  After 3
+        seconds, it turns off red also.  So, when the program ends, no LED is
+        lit up.
         
-  \item using SerialPorts: This imports the SerialPorts library to the current workspace
-  \item include("ArduinoTools.jl") : It includes the ArduinoTools.jl to the workspce which has all the functions required to perform experiments
-  \item ser = connectBoard(115200):Function that opens the first serial port among the names returned by the
-        list\_serialports() function, with the specified baud rate.
-        
-  \item pinMode(ser,9,"OUTPUT") : pinMode function set the mode of a digital pin as INPUT or OUTPUT.It has following parametes:
-        \begin{itemize}
-          \item file\_des: file descriptor (SerialPort object)
-          \item pin\_no: pin number
-          \item mode: INPUT or OUTPUT
-        \end{itemize}
-        This function is similar to the pinMode function in Arduino.
-        
-        
-  \item digiWrite(ser,9,1) : Function to send a digital signal (High(1) or Low(0)) to a connected Arduino
-        board. It takes the parameters:
-        
-        \begin{itemize}
-          \item file\_des: file descriptor (SerialPort object)
-          \item pin\_no: pin number
-          \item val: Digital value to be sent to pin, 0 (for LOW/0V) or 1 (for HIGH/5V)
-        \end{itemize}
-        It is similar to the digitalWrite function in Arduino.
-        
-  \item close(ser) : This closes the predefined serial port which is presently opened.
+  \item \juliaref{julia:led-green-blink} does exactly what its counterpart
+        in the Arduino IDE does.  It makes the green LED blink five times.
 \end{enumerate}
 
-Julia Code 4.2 does the same thing as what Arduino Code 4.2 does. It does
-two more things than what Julia Code 4.1 does: It makes the blue LED light
-up for two seconds. This is achieved by the command
-
-sleep(2)  //let the blue LED be on for two seconds
-
-The second thing this code does is to turn the blue LED off. This is achieved
-by the command
-
-\begin{lstlisting}[style=nonumbers]
-     digiWrite(ser,9,0)//turn off blue LED
-  \end{lstlisting}
-
-It is easy to see that this code puts a 0 on pin 9.
-
-Julia Code 4.3 does the same thing as what Arduino Code 4.3 does. It turns
-blue and red LEDs on for five seconds. After that, it turns off blue first. After
-3 seconds, it turns off red also. So, when the program ends, no LED is lit up.
-
-Julia Code 4.4 does exactly what its counterpart in the Arduino IDE does.
-It makes the green LED blink five times. 
 
 \subsection{Julia Code}
 \lstset{style=mystyle}
@@ -786,7 +785,7 @@ It makes the green LED blink five times.
 
 \begin{juliacode}
   \jcaption{Turning on the LED}
-  {Turning on the LED.  Available at
+  {Turning on the blue LED.  Available at
     \LocLEDjuliabrief{led-blue.jl}.}
   \label{julia:led-blue}
   \lstinputlisting{\LocLEDjuliacode/led-blue.jl}
@@ -803,74 +802,107 @@ It makes the green LED blink five times.
 
 \begin{juliacode}
   \jcaption{Turning on blue and red LEDs for 5 seconds and then turning
-    them off one by one}{Turning on bluemond red LEDs for 5 seconds and
+    them off one by one}{Turning on blue and red LEDs for 5 seconds and
     then turning them off one by one.  Available at
     \LocLEDjuliabrief{led-blue-red.jl}.}
-  \label{juila:led-bmoe-red}
+  \label{julia:led-blue-red}
   \lstinputlisting{\LocLEDjuliacode/led-blue-red.jl}
 \end{juliacode}
 
 \begin{juliacode}
   \jcaption{Blinking the green LED}{Blinking the green LED.  Available
     at \LocLEDjuliabrief{led-green-blink.jl}.}
-  \label{julia:lemogreen-blink}
+  \label{julia:led-green-blink}
   \lstinputlisting{\LocLEDjuliacode/led-green-blink.jl}
 \end{juliacode}
+
+
 
 \section{Lighting the LED from OpenModelica}
 \subsection{Lighting the LED}
 \label{sec:light-OpenModelica}
 In this section, we discuss how to carry out the experiments of the
-previous section from Scilab.  We will list the same four experiments,
+previous section from OpenModelica.  We will list the same four experiments,
 in the same order.  The shield has to be attached to the \arduino\
 before carrying out these experiments, as in \secref{sec:light-ard}.
 The reader should go through the instructions given in
-\secref{sec:sci-start} before getting started.
+\secref{sec:OpenModelica-start} before getting started.
 
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
-        shield.  The code for this is given in OpenModelica-code-4.1.
-        It begins with a command of the form
-        
-  \item import sComm = Arduino.SerialCommunication.Functions: This imports the SerialPorts library to the current workspace
-  \item ok := sComm.open\_serial(1, 0, 115200): Function that opens the first serial port, with the specified baud rate.
-        
-  \item digital\_out := sComm.cmd\_digital\_out(1, 9, 1) : This will turn on the blue led
-        
-  \item sComm.close\_serial(1) : This closes the predefined serial port which is presently opened.
-\end{enumerate}
+        shield.  The code for this is given in \OpenModelicaref{OpenModelica:led-blue}.
+        It begins with importing the two packages: Streams and SerialCommunication from the toolbox, as 
+        given in \secref{sec:load-om-toolbox}. Following line imports this package: 
+        \lstinputlisting[firstline=3,lastline=4]{\LocLEDOpenModelicacode/led-blue.mo}
 
-OpenModelica Code 4.2 does the same thing as what Arduino Code 4.2 does. It does
-two more things than what OpenMOdelica Code 4.1 does: It makes the blue LED light
-up for two seconds. This is achieved by the command
+    We define some variables to collect the results coming from different functions. Following 
+    lines are used for these:
+    \lstinputlisting[firstline=5,lastline=7]{\LocLEDOpenModelicacode/led-blue.mo}
 
-sComm.delay(2000)  //let the blue LED be on for two seconds
-
-The second thing this code does is to turn the blue LED off. This is achieved
-by the command
-
-\begin{lstlisting}[style=nonumbers]
-     digital_out := sComm.cmd_digital_out(1, 9, 0)//turn off blue LED
+    Now, we have a command of the form 
+        \begin{lstlisting}[style=nonumbers]
+     ok := sComm.open_serial(1, PORT NUMBER, BAUD RATE)
   \end{lstlisting}
+        We have used 2 for {\tt PORT NUMBER} and 115200 for {\tt BAUD RATE}.
+        As a result, this command becomes 
+        \lstinputlisting[firstline=10,lastline=10]{\LocLEDOpenModelicacode/led-blue.mo}
+        This command is used to open the serial port.  When the port is
+        opened successfully, it returns a value of 0, which gets stored in
+        the variable {\tt ok}.
+        
+        Sometimes, the serial port does not open, as mentioned in the above
+        command.  This is typically due to not closing the serial port
+        properly in a previous experiment.  If this condition is not
+        trapped, the program will wait forever, without any information
+        about this difficulty.  One way to address this difficulty is to
+        terminate the program if the serial port does not open.  This is
+        achieved using the error message of the following form:
+        \begin{lstlisting}[style=nonumbers]
+            if ok <> 0 then strm.print(Error Message in Quotes);
+        \end{lstlisting}
 
-It is easy to see that this code puts a 0 on pin 9.
-
-OpenModelica Code 4.3 does the same thing as what Arduino Code 4.3 does. It turns
-blue and red LEDs on for five seconds. After that, it turns off blue first. After
-3 seconds, it turns off red also. So, when the program ends, no LED is lit up.
-
-OpenModelica Code 4.4 does exactly what its counterpart in the Arduino IDE does.
-It makes the green LED blink five times. 
+        We turn the LED on in the upcoming lines.  This is achieved using a
+        command of the form
+        \begin{lstlisting}[style=nonumbers]
+          digital_out := sComm.cmd_digital_out(1, PIN NUMBER, VALUE)
+  \end{lstlisting}
+        As we want to turn on the blue light in the shield, as discussed in
+        \secref{sec:light-ard}, we choose {\tt PIN NUMBER} as 9.  We can put
+        any positive integer in the place of {\tt VALUE}.  We arrive at the
+        following command:
+        \lstinputlisting[firstline=10,lastline=10]{\LocLEDOpenModelicacode/led-blue.mo}
+        Subsequently, we close the serial port and then define the simulation parameters. 
+  \item \OpenModelicaref{OpenModelica:led-blue-delay} does the same thing as what
+        \ardref{ard:led-blue-delay} does.  It does two more things than what
+        \OpenModelicaref{OpenModelica:led-blue} does: It makes the blue LED light up for two
+        seconds.  This is achieved by the command
+        \lstinputlisting[firstline=16,lastline=16]{\LocLEDOpenModelicacode/led-blue-delay.mo}
+        The second thing this code does is to turn the blue LED off.  This
+        is achieved by the command
+        \lstinputlisting[firstline=17,lastline=17]{\LocLEDOpenModelicacode/led-blue-delay.mo}
+        It is easy to see that this code puts a 0 on pin 9.
+        
+  \item \OpenModelicaref{OpenModelica:led-blue-red} does the same thing as what
+        \ardref{ard:led-blue-red} does.  It turns blue and red LEDs on for
+        five seconds.  After that, it turns off blue first.  After 3
+        seconds, it turns off red also.  So, when the program ends, no LED is
+        lit up.
+        
+  \item \OpenModelicaref{OpenModelica:led-green-blink} does exactly what its counterpart
+        in the Arduino IDE does.  It makes the green LED blink five times.
+  \end{enumerate}
 
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
 \lstset{style=mystyle}
 \label{sec:led-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
   \mcaption{Turning on the LED}
-  {Turning on the LED.  Available at
-    \LocLEDOpenModelicabrief{led-blue.mo}.}
+  {Turning on the blue LED. Available at Arduino -> SerialCommunication -> 
+  Examples -> led -> led\_blue.}
   \label{OpenModelica:led-blue}
   \lstinputlisting{\LocLEDOpenModelicacode/led-blue.mo}
 \end{OpenModelicacode}
@@ -878,8 +910,8 @@ It makes the green LED blink five times.
 \begin{OpenModelicacode}
   \mcaption{Turning on the blue LED and turning it off after two
     seconds}{Turning on the blue LED and turning it off after two
-    seconds.  Available  
-    at \LocLEDOpenModelicabrief{led-blue-delay.mo}.}
+    seconds.  Available at Arduino -> SerialCommunication -> Examples -> led 
+    -> led\_blue\_delay.}
   \label{OpenModelica:led-blue-delay}
   \lstinputlisting{\LocLEDOpenModelicacode/led-blue-delay.mo}
 \end{OpenModelicacode}
@@ -887,15 +919,13 @@ It makes the green LED blink five times.
 \begin{OpenModelicacode}
   \mcaption{Turning on blue and red LEDs for 5 seconds and then turning
     them off one by one}{Turning on blue and red LEDs for 5 seconds and
-    then turning them off one by one.  Available at
-    \LocLEDOpenModelicabrief{led-blue-red.mo}.}
+    then turning them off one by one.  Available at Arduino -> SerialCommunication -> Examples -> led -> led\_blue\_red.}
   \label{OpenModelica:led-blue-red}
   \lstinputlisting{\LocLEDOpenModelicacode/led-blue-red.mo}
 \end{OpenModelicacode}
 
 \begin{OpenModelicacode}
-  \mcaption{Blinking the green LED}{Blinking the green LED.  Available
-    at \LocLEDOpenModelicabrief{led-green-blink.mo}.}
+  \mcaption{Blinking the green LED}{Blinking the green LED.  Available at Arduino -> SerialCommunication -> Examples -> led -> led\_green\_blink.}
   \label{OpenModelica:led-green-blink}
   \lstinputlisting{\LocLEDOpenModelicacode/led-green-blink.mo}
 \end{OpenModelicacode}
