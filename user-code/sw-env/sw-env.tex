@@ -172,11 +172,11 @@ above.  Then carry out the following:
             into the computer, you need to execute the commands given in the steps 
             numbered \ref{itm:port-check} and \ref{itm:port-access}. 
             
-      \item \label{itm:create-shortcut} Create a shortcut on the desktop:\\
-            {\tt cd {\large \textasciitilde}/Desktop\\
-            ln -s /opt/arduino-1.8.13/arduino}
-      \item \label{itm:give-permission} Give executable permission to this file through the following
-            command on the terminal: {\tt chmod +x arduino}
+      % \item \label{itm:create-shortcut} Create a shortcut on the desktop:\\
+      %       {\tt cd {\large \textasciitilde}/Desktop\\
+      %       ln -s /opt/arduino-1.8.13/arduino}
+      % \item \label{itm:give-permission} Give executable permission to this file through the following
+      %       command on the terminal: {\tt chmod +x arduino}
             %   Ubuntu opens executable text files with an editor instead of
             %   executing them. To be able execute a file, open the ``Files''
             %   program from the launcher, go to menu ``Edit'', ``Preferences'', tab
@@ -190,19 +190,28 @@ above.  Then carry out the following:
 %   \caption{Executable permission to Arduino IDE}
 %   \label{ard-lin-executable}
 % \end{figure}
-Then double click the Arduino shortcut on the Desktop and, click ``Run''
-in the dialog window to start the Arduino IDE. The dialog box is shown in \figref{ard-lin-run} for reference.
-\begin{figure}
-      \centering
-      \includegraphics[scale=0.5]{\LocHWfig/run.png}
-      \caption{Confirmation for executing Arduino script}
-      \label{ard-lin-run}
-\end{figure}
-The Arduino IDE is now ready for use. There are chances that you might not 
-get the Arduino shortcut on your Desktop after executing the commands given in 
-steps numbered \ref{itm:create-shortcut} and \ref{itm:give-permission}. 
-In that case, you can navigate into the {\tt /opt/} directory and execute the 
-commands as given in \figref{arduino-opt} to start the Arduino IDE. 
+% Then double click the Arduino shortcut on the Desktop and, click ``Run''
+% in the dialog window to start the Arduino IDE. The dialog box is shown in \figref{ard-lin-run} for reference.
+% \begin{figure}
+%       \centering
+%       \includegraphics[scale=0.5]{\LocHWfig/run.png}
+%       \caption{Confirmation for executing Arduino script}
+%       \label{ard-lin-run}
+% \end{figure}
+The Arduino IDE is now ready for use. To launch it, carry out the steps given below:
+\begin{enumerate}
+      \item Open a terminal by pressing the Alt+Ctrl+T keys together.
+      \item Navigate into the {\tt opt} directory, as shown in \figref{arduino-opt}.\\
+      {\tt cd /opt/arduino-1.8.13/}
+      \item Start the Arduino IDE by executing the command {\tt ./arduino}
+\end{enumerate}
+
+
+% There are chances that you might not 
+% get the Arduino shortcut on your Desktop after executing the commands given in 
+% steps numbered \ref{itm:create-shortcut} and \ref{itm:give-permission}. 
+% In that case, you can navigate into the {\tt /opt/} directory and execute the 
+% commands as given in \figref{arduino-opt} to start the Arduino IDE. 
 
 \begin{figure}
       \centering

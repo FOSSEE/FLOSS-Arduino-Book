@@ -16,46 +16,45 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Windows device manager\relax }}{19}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Windows device manager\relax }}{20}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Windows update driver option\relax }}{21}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Confirmation for executing Arduino script\relax }}{22}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Linux terminal to launch Arduino IDE\relax }}{22}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Arduino IDE\relax }}{23}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Linux terminal to launch Scilab\relax }}{28}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Browsing toolbox directory\relax }}{29}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Output of builder.sce\relax }}{30}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Output of loader.sce\relax }}{31}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Device Manager in windows\relax }}{32}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces COM port properties window\relax }}{33}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Port number on Linux terminal\relax }}{33}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Scilab test code output\relax }}{34}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Arduino toolbox functions used in this book\relax }}{35}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Sine generator in palette browser\relax }}{36}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces CSCOPE block in xcos\relax }}{37}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces CLOCK\_c block in xcos\relax }}{38}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Sine generator in Xcos\relax }}{39}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Sine generator Xcos output\relax }}{39}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces CSCOPE configuration window\relax }}{40}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Simulation setup window\relax }}{40}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Palette browser showing Arduino blocks\relax }}{41}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Xcos block help\relax }}{41}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Installing Python 3 on Windows\relax }}{43}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Launching the Command Prompt on Windows\relax }}{43}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Command Prompt on Windows\relax }}{43}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Julia's website to download 64-bit Windows/Linux binaries\relax }}{48}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Installing Julia 1.6.0 on Windows\relax }}{49}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Windows command prompt to launch Julia REPL\relax }}{50}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Windows command prompt to enter Pkg REPL in Julia\relax }}{51}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Linux terminal to launch Julia REPL\relax }}{53}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Linux terminal to enter Pkg REPL in Julia\relax }}{54}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Allowing Microsoft Defender to run the executable file\relax }}{57}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Setup of Modelica Standard Library version\relax }}{58}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces User Interface of OMEdit\relax }}{60}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Opening a model in OMEdit\relax }}{61}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{62}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Different views of a model in OMEdit\relax }}{62}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Opening a model in text view in OMEdit\relax }}{63}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Simulating a model in OMEdit\relax }}{63}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Output window of OMEdit\relax }}{64}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Examples provied in OpenModelica-Arduino Toolbox\relax }}{66}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Linux terminal to launch Arduino IDE\relax }}{22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Arduino IDE\relax }}{22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Linux terminal to launch Scilab\relax }}{27}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Browsing toolbox directory\relax }}{28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Output of builder.sce\relax }}{29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Output of loader.sce\relax }}{30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Device Manager in windows\relax }}{31}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces COM port properties window\relax }}{32}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Port number on Linux terminal\relax }}{32}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Scilab test code output\relax }}{34}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Arduino toolbox functions used in this book\relax }}{34}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sine generator in palette browser\relax }}{36}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces CSCOPE block in xcos\relax }}{37}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces CLOCK\_c block in xcos\relax }}{37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sine generator in Xcos\relax }}{38}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sine generator Xcos output\relax }}{38}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces CSCOPE configuration window\relax }}{39}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Simulation setup window\relax }}{40}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Palette browser showing Arduino blocks\relax }}{40}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Xcos block help\relax }}{41}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Installing Python 3 on Windows\relax }}{42}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Launching the Command Prompt on Windows\relax }}{43}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Command Prompt on Windows\relax }}{43}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Julia's website to download 64-bit Windows/Linux binaries\relax }}{48}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Installing Julia 1.6.0 on Windows\relax }}{48}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Windows command prompt to launch Julia REPL\relax }}{50}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Windows command prompt to enter Pkg REPL in Julia\relax }}{50}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Linux terminal to launch Julia REPL\relax }}{53}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Linux terminal to enter Pkg REPL in Julia\relax }}{54}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Allowing Microsoft Defender to run the executable file\relax }}{57}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Setup of Modelica Standard Library version\relax }}{58}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces User Interface of OMEdit\relax }}{59}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Opening a model in OMEdit\relax }}{60}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{61}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Different views of a model in OMEdit\relax }}{61}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Opening a model in text view in OMEdit\relax }}{62}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Simulating a model in OMEdit\relax }}{62}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Output window of OMEdit\relax }}{63}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Examples provied in OpenModelica-Arduino Toolbox\relax }}{65}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{67}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{68}%

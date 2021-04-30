@@ -26,36 +26,36 @@
 \contentsline {section}{\numberline {3.1}Arduino IDE}{17}%
 \contentsline {subsection}{\numberline {3.1.1}Downloading and installing on Windows}{18}%
 \contentsline {subsection}{\numberline {3.1.2}Downloading and installing on GNU/Linux Ubuntu}{19}%
-\contentsline {subsection}{\numberline {3.1.3}Arduino Development Environment}{22}%
+\contentsline {subsection}{\numberline {3.1.3}Arduino Development Environment}{21}%
 \contentsline {subsection}{\numberline {3.1.4}Testing Arduino with a sample program}{24}%
 \contentsline {subsection}{\numberline {3.1.5}Firmware}{25}%
-\contentsline {section}{\numberline {3.2}Scilab}{26}%
+\contentsline {section}{\numberline {3.2}Scilab}{25}%
 \contentsline {subsection}{\numberline {3.2.1}Downloading and installing on Windows}{26}%
-\contentsline {subsection}{\numberline {3.2.2}Downloading and installing on GNU/Linux Ubuntu}{27}%
+\contentsline {subsection}{\numberline {3.2.2}Downloading and installing on GNU/Linux Ubuntu}{26}%
 \contentsline {subsection}{\numberline {3.2.3}Scilab-Arduino toolbox}{27}%
 \contentsline {subsection}{\numberline {3.2.4}Identifying Arduino communication port number}{29}%
 \contentsline {subsection}{\numberline {3.2.5}Testing Scilab-Arduino toolbox}{31}%
-\contentsline {subsection}{\numberline {3.2.6}Firmware}{34}%
+\contentsline {subsection}{\numberline {3.2.6}Firmware}{33}%
 \contentsline {section}{\numberline {3.3}Xcos}{35}%
-\contentsline {subsection}{\numberline {3.3.1}Downloading, installing and testing}{36}%
-\contentsline {subsection}{\numberline {3.3.2}Use case}{37}%
+\contentsline {subsection}{\numberline {3.3.1}Downloading, installing and testing}{35}%
+\contentsline {subsection}{\numberline {3.3.2}Use case}{36}%
 \contentsline {subsection}{\numberline {3.3.3}Xcos-Arduino}{40}%
 \contentsline {section}{\numberline {3.4}Python}{41}%
-\contentsline {subsection}{\numberline {3.4.1}Downloading and installing on Windows}{42}%
+\contentsline {subsection}{\numberline {3.4.1}Downloading and installing on Windows}{41}%
 \contentsline {subsection}{\numberline {3.4.2}Downloading and installing on GNU/Linux Ubuntu}{44}%
 \contentsline {subsection}{\numberline {3.4.3}Python-Arduino toolbox}{45}%
 \contentsline {subsection}{\numberline {3.4.4}Firmware}{46}%
 \contentsline {section}{\numberline {3.5}Julia}{47}%
 \contentsline {subsection}{\numberline {3.5.1}Downloading and installing on Windows}{47}%
 \contentsline {subsection}{\numberline {3.5.2}Downloading and installing GNU/Linux Ubuntu}{51}%
-\contentsline {subsection}{\numberline {3.5.3}Julia-Arduino toolbox}{55}%
+\contentsline {subsection}{\numberline {3.5.3}Julia-Arduino toolbox}{54}%
 \contentsline {subsection}{\numberline {3.5.4}Firmware}{55}%
-\contentsline {section}{\numberline {3.6}OpenModelica}{56}%
+\contentsline {section}{\numberline {3.6}OpenModelica}{55}%
 \contentsline {subsection}{\numberline {3.6.1}Downloading and installing on Windows}{56}%
-\contentsline {subsection}{\numberline {3.6.2}Downloading and installing on GNU/Linux Ubuntu}{58}%
-\contentsline {subsection}{\numberline {3.6.3}Simulating models in OpenModelica}{59}%
-\contentsline {subsection}{\numberline {3.6.4}OpenModelica Arduino toolbox}{61}%
-\contentsline {subsection}{\numberline {3.6.5}Firmware}{65}%
+\contentsline {subsection}{\numberline {3.6.2}Downloading and installing on GNU/Linux Ubuntu}{57}%
+\contentsline {subsection}{\numberline {3.6.3}Simulating models in OpenModelica}{57}%
+\contentsline {subsection}{\numberline {3.6.4}OpenModelica Arduino toolbox}{63}%
+\contentsline {subsection}{\numberline {3.6.5}Firmware}{64}%
 \contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{67}%
 \contentsline {section}{\numberline {4.1}Preliminaries}{67}%
 \contentsline {section}{\numberline {4.2}Connecting an RGB LED with Arduino Uno\ using a breadboard}{69}%
