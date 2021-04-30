@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  30 APR 2021 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  30 APR 2021 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,10 +1378,10 @@ t.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led_output
 .png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led_output.png  used on input line 196.
+d/figures/led_output.png  used on input line 197.
 (pdftex.def)             Requested size: 357.73405pt x 229.47339pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-08.
+09.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1397,8 +1397,8 @@ ed-blue-red.ino)
 k/led-green-blink.ino) [73]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue.sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue.sce)
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue.sce)
 [74]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue.sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue-delay.
 sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/scilab/led-blue-delay.
@@ -1417,14 +1417,13 @@ com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-c
 om-2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue-com-2.png  used on input line 394.
+d/figures/led-blue-com-2.png  used on input line 396.
 (pdftex.def)             Requested size: 178.86702pt x 162.47923pt.
-
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 410--419
+ [76]
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 412--421
  [][] 
  []
 
-[76]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-delay
 -com-2.png, id=439, 848.16875pt x 694.595pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-
@@ -1432,10 +1431,10 @@ delay-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-d
 elay-com-2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue-delay-com-2.png  used on input line 429.
+d/figures/led-blue-delay-com-2.png  used on input line 431.
 (pdftex.def)             Requested size: 178.86702pt x 146.47337pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 444--456
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 446--458
  [][] 
  []
 
@@ -1448,34 +1447,32 @@ red-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-r
 ed-com-2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-blue-red-com-2.png  used on input line 467.
+d/figures/led-blue-red-com-2.png  used on input line 469.
 (pdftex.def)             Requested size: 178.86702pt x 173.66284pt.
 
-Overfull \hbox (13.85292pt too wide) in paragraph at lines 483--500
+Overfull \hbox (13.85292pt too wide) in paragraph at lines 485--502
  [][] 
  []
 
+[78 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-d
+elay-com-2.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-blin
-k-com-2.png, id=446, 869.2475pt x 678.535pt>
+k-com-2.png, id=450, 869.2475pt x 678.535pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green
 -blink-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-
 blink-com-2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/le
-d/figures/led-green-blink-com-2.png  used on input line 510.
+d/figures/led-green-blink-com-2.png  used on input line 512.
 (pdftex.def)             Requested size: 178.86702pt x 139.61826pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 525--538
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 527--540
  [][] 
  []
 
-[78 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-d
-elay-com-2.png>] [79 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/f
-igures/led-blue-red-com-2.png>]
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
- [80 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green
--blink-com-2.png>]
+[79 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-r
+ed-com-2.png>] [80 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/fig
+ures/led-green-blink-com-2.png>]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py)
@@ -1520,15 +1517,15 @@ mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
 delay.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
-delay.mo)
+delay.mo) [90]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.
-mo [90])
+mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
 delay.mo [91])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-
-red.mo)
+red.mo) [92]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-green
--blink.mo [92])) (./user-code/push/push.tex [93] [94
+-blink.mo)) (./user-code/push/push.tex [93] [94
 
 ]
 Chapter 5.
@@ -1578,7 +1575,7 @@ tatus/push-button-status.ino)
 on/led-push-button.ino) [98]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/arduino/push-button-s
 tatus/push-button-status.ino)
-Overfull \hbox (0.16989pt too wide) in paragraph at lines 174--177
+Overfull \hbox (0.16989pt too wide) in paragraph at lines 179--182
 []\T1/cmr/m/n/10.95 Turning the LED on or off de-pend-ing on the push-but-ton. 
 Avail-
  []
@@ -1591,10 +1588,10 @@ atus.sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/push-button-st
 atus.sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/led-push-butto
-n.sce)
+n.sce) [100]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/push-button-st
-atus.sce [100])
-Overfull \hbox (0.145pt too wide) in paragraph at lines 227--230
+atus.sce)
+Overfull \hbox (0.145pt too wide) in paragraph at lines 232--235
 \T1/cmr/m/n/10.95 able at \T1/fvm/m/n/10.95 O r i g i n / u s e r - c o d e / p
  u s h / s c i l a b / l e d - p u s h - b u t t o n . s c e\T1/cmr/m/n/10.95 ,
  see Foot-
@@ -1610,10 +1607,10 @@ ton-status.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-butt
 on-status.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pu
-sh/figures/push-button-status.PNG  used on input line 258.
+sh/figures/push-button-status.PNG  used on input line 263.
 (pdftex.def)             Requested size: 178.86702pt x 180.9012pt.
 
-Overfull \hbox (3.33746pt too wide) in paragraph at lines 276--286
+Overfull \hbox (3.33746pt too wide) in paragraph at lines 281--291
  [][] 
  []
 
@@ -1626,10 +1623,10 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-
 button.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pu
-sh/figures/led-push-button.PNG  used on input line 301.
+sh/figures/led-push-button.PNG  used on input line 306.
 (pdftex.def)             Requested size: 178.86702pt x 158.59492pt.
 
-Overfull \hbox (4.77844pt too wide) in paragraph at lines 318--329
+Overfull \hbox (4.77844pt too wide) in paragraph at lines 323--334
  [][] 
  []
 
@@ -2584,7 +2581,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (252 pages, 20895255 bytes).
+Output written on floss-arduino.pdf (252 pages, 20895849 bytes).
 PDF statistics:
  1125 PDF objects out of 1200 (max. 8388607)
  654 compressed objects within 7 object streams

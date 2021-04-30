@@ -85,8 +85,8 @@ soldering. To know more about the breadboard and other electronic components,
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
-watch the fifth and sixth tutorials, i.e., First Arduino Program and 
-Arduino with Tricolor LED and Push button.
+watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
+{\tt Arduino with Tricolor LED and Push button}.
 
 In case you have a pushbutton, and you want to connect it with \arduino\ on a breadboard, 
 please refer to \figref{fig:switch-bread}. The connections given in this figure can be used to 
@@ -115,7 +115,7 @@ are same as that in \figref{fig:switch-bread}.
 
 \section{Reading the Pushbutton Status from the Arduino IDE}
 \subsection{Reading the Pushbutton Status}
-In this section, we shall learn commands to read the status of a
+In this section, we shall learn the commands to read the status of a
 pushbutton through Arduino IDE. Later, we shall change the state of
 the LED depending on the status of the pushbutton. 
 \begin{enumerate}
@@ -127,8 +127,10 @@ the LED depending on the status of the pushbutton.
   \ardref{ard:push-100}. In the initialization part of the code, we
   assign the sensor pin to be read, 12 in this case, to a variable for
   ease. Next, we initialize the port for serial port communication at
-  data rate of 9600 bits per second and declare the digital pin 12 as an input pin using the command {\tt pinMode}. After initialization, we start reading the status of the pushbutton using the following command:
-  \lstinputlisting[firstline=5,lastline=5]
+  data rate of 9600 bits per second and declare the digital pin 12 as an 
+  input pin using the command {\tt pinMode}.  After initialization, 
+  we start reading the status of the pushbutton using the following command:
+  \lstinputlisting[firstline=7,lastline=7]
   {\LocPushardcode/push-button-status/push-button-status.ino}
 
   Note that the input argument to this command is the digital pin 12
@@ -147,12 +149,15 @@ serial monitor.
   experiment is given in \ardref{ard:push-200}. This experiment can be
   taken as a step further to the previous one. We declare the LED pin
   to be controlled as an output pin by,
-  \lstinputlisting[firstline=6,lastline=6]
+  \lstinputlisting[firstline=7,lastline=7]
   {\LocPushardcode/led-push-button/led-push-button.ino} Next, we read
-  the potentiometer value from digital pin 12. If the value is ``1'',
+  the pusbhutton value from digital pin 12. If the value is ``1'',
   we turn on the LED at pin 9 else we turn it off. The
   condition check is performed using {\tt if else} statements. We run
-  these commands for 1000 iterations.
+  these commands for 1000 iterations. While running this experiment, the reader 
+  must press and release the pushbutton. Accordingly, they can observe whether 
+  the LED glows when the pushbutton is pressed 
+  %  \redcolor{Serial monitor}.
 \end{enumerate}
 
 \subsection{Arduino Code}
