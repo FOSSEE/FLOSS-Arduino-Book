@@ -108,13 +108,13 @@
 \contentsline {section}{\numberline {6.5}Interfacing the LDR through Xcos}{122}%
 \contentsline {section}{\numberline {6.6}Interfacing the LDR through Python}{125}%
 \contentsline {subsection}{\numberline {6.6.1}Interfacing the LDR}{125}%
-\contentsline {subsection}{\numberline {6.6.2}Python Code}{126}%
-\contentsline {section}{\numberline {6.7}Interfacing the LDR through Julia}{128}%
-\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{128}%
-\contentsline {subsection}{\numberline {6.7.2}Julia Code}{129}%
-\contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{130}%
-\contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{130}%
-\contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{131}%
+\contentsline {subsection}{\numberline {6.6.2}Python Code}{127}%
+\contentsline {section}{\numberline {6.7}Interfacing the LDR through Julia}{129}%
+\contentsline {subsection}{\numberline {6.7.1}Interfacing the LDR}{129}%
+\contentsline {subsection}{\numberline {6.7.2}Julia Code}{130}%
+\contentsline {section}{\numberline {6.8}Interfacing the LDR through OpenModelica}{131}%
+\contentsline {subsection}{\numberline {6.8.1}Interfacing the LDR}{131}%
+\contentsline {subsection}{\numberline {6.8.2}OpenModelica Code}{132}%
 \contentsline {chapter}{\numberline {7}Interfacing a Potentiometer}{135}%
 \contentsline {section}{\numberline {7.1}Preliminaries}{135}%
 \contentsline {section}{\numberline {7.2}Connecting a potentiometer with Arduino Uno\ using a breadboard}{136}%

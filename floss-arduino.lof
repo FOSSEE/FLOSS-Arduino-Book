@@ -80,7 +80,9 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno\ using a breadboard\relax }}{117}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{118}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{123}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{124}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Plot window in Xcos to read LDR values\relax }}{123}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{125}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Plot window in Xcos to read LDR values and the state of LED\relax }}{125}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{136}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{136}%
