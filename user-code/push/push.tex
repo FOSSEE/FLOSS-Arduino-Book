@@ -40,9 +40,9 @@ a circuit. It is commonly available as a \emph{normally open} or
 the push or depression of the switch. These switches are widely used
 in calculators, computer keyboards, home appliances, push-button
 telephones and basic mobile phones, etc. In this chapter, we shall
-perform a few experiments to read the status of the pushbutton mounted
+perform an experiment to read the status of the pushbutton mounted
 on the shield of the \arduino\ board. Advancing further, we shall
-perform a few tasks depending on the status of the pushbutton. Digital
+perform a task depending on the status of the pushbutton. Digital
 logic based status monitoring is a very basic and important task in
 many industrial applications. This chapter will enable us to have a
 smooth hands-on for such functionalities. 
@@ -115,9 +115,12 @@ are same as that in \figref{fig:switch-bread}.
 
 \section{Reading the Pushbutton Status from the Arduino IDE}
 \subsection{Reading the Pushbutton Status}
-In this section, we shall learn the commands to read the status of a
-pushbutton through Arduino IDE. Later, we shall change the state of
-the LED depending on the status of the pushbutton. 
+In this section, we shall describe an experiment that will help 
+to read the status of a pushbutton through Arduino IDE. 
+Later, we shall change the state of an LED depending on the status of the pushbutton. The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}. The reader should go through the
+instructions given in \secref{sec:ard-start} before getting started.
 \begin{enumerate}
 \item In the first experiment, we shall simply read the status of the
   pushbutton. Recall that it is a normally open type of switch. So, in
@@ -127,7 +130,7 @@ the LED depending on the status of the pushbutton.
   \ardref{ard:push-100}. In the initialization part of the code, we
   assign the sensor pin to be read, 12 in this case, to a variable for
   ease. Next, we initialize the port for serial port communication at
-  data rate of 9600 bits per second and declare the digital pin 12 as an 
+  data rate of 115200 bits per second and declare the digital pin 12 as an 
   input pin using the command {\tt pinMode}.  After initialization, 
   we start reading the status of the pushbutton using the following command:
   \lstinputlisting[firstline=7,lastline=7]
@@ -139,10 +142,9 @@ the LED depending on the status of the pushbutton.
   \lstinputlisting[firstline=8,lastline=8]
   {\LocPushardcode/push-button-status/push-button-status.ino} We
   repeat this read and print process 1000 times by putting the
-  commands in a {\tt for} loop. At the same time, the user must press
-  and release the pushbutton and observe the values printed on the
-%  \redcolor{Serial monitor}.
-serial monitor.
+  commands in a {\tt for} loop. While running this experiment, the user must press
+  and release the pushbutton and observe the values being printed on the
+  {\tt Serial Monitor} of Arduino IDE.
 
 \item In the second experiment, we shall control the power given to an
   LED as per the status of the pushbutton. The code for this
@@ -156,7 +158,7 @@ serial monitor.
   condition check is performed using {\tt if else} statements. We run
   these commands for 1000 iterations. While running this experiment, the reader 
   must press and release the pushbutton. Accordingly, they can observe whether 
-  the LED glows when the pushbutton is pressed 
+  the LED glows when the pushbutton is pressed. 
   %  \redcolor{Serial monitor}.
 \end{enumerate}
 
@@ -185,22 +187,32 @@ serial monitor.
 
 \section{Reading the Pushbutton Status from Scilab}
 \subsection{Reading the Pushbutton Status}
-In this section, we shall perform the pushbutton operation using
-Scilab-Arduino toolbox commands.
+In this section, we discuss how to carry out the experiments of the
+previous section from Scilab. We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:sci-start} before getting started. 
 \begin{enumerate}
-\item In the first experiment, we will read the pushbutton status in
-  \scilab\ Console. The code for this experiment is given in
-  \sciref{sci:push-100}. As explained earlier, we begin with serial
-  port initialization. Then, using the command,
+\item In the first experiment, we will read the pushbutton status using a 
+Graphical user interface (GUI) in Scilab. The code for this experiment is 
+given in  \sciref{sci:push-100}. As explained earlier in \secref{sec:light-sci}, 
+we begin with serial port initialization. Then, we read the input coming from
+digital pin 12 using the following command: 
   \lstinputlisting[firstline=4,lastline=4]
-  {\LocPushscicode/push-button-status.sce} we read the input of
-  digital pin 12. Note that the middle terminal of the potentiometer
-  is connected to this pin. The read value is displayed as a GUI using
-  the command, \lstinputlisting[firstline=5,lastline=5]
+  {\LocPushscicode/push-button-status.sce} Note that the one leg of the pushbutton on
+  the shield is connected to digital pin 12 of \arduino\, 
+  as given in \figref{fig:pushbuttonconn}. The read value is displayed as a GUI using
+  the following command: \lstinputlisting[firstline=5,lastline=5]
   {\LocPushscicode/push-button-status.sce} where {\tt val} contains
-  the potentiometer value acquired by the previous command. To
+  the pushbutton value acquired by the previous command.
+  When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''. To
   encourage the user to have a good hands-on, we run these commands in
-  a {\tt for} loop for 1000 iterations.
+  a {\tt for} loop for 1000 iterations. While running this experiment, 
+  the user must press and release the pushbutton and observe the values being printed on the
+  GUI, as shown in Fig.
 
 \item This experiment is an extension of the previous
   experiment. Here, we control the state of an LED as per the status
@@ -208,10 +220,12 @@ Scilab-Arduino toolbox commands.
   decided by the digital input received from the pushbutton. The code
   for this experiment is given in \sciref{sci:push-200}. After reading
   the pushbutton status, we turn the LED on if the pushbutton is
-  pressed, otherwise we turn it off. The lines,
+  pressed, otherwise we turn it off. The following lines,
   \lstinputlisting[firstline=5,lastline=9]
   {\LocPushscicode/led-push-button.sce} perform the condition check
-  and corresponding LED state control operation.
+  and corresponding LED state control operation. While running this experiment, the reader 
+  must press and release the pushbutton. Accordingly, they can observe whether 
+  the LED glows when the pushbutton is pressed. 
 \end{enumerate}
 
 \subsection{Scilab Code}
@@ -219,9 +233,8 @@ Scilab-Arduino toolbox commands.
 \addtocontents{cod}{\protect\addvspace{\codclr}}
 
 \begin{scicode}
-\ccaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and displaying on
-    the serial monitor.  Available at
+\ccaption{Read the status of the pushbutton and displaying it on the GUI}
+{Read the status of the pushbutton and displaying it on the GUI.  Available at
   \LocPushscibrief{push-button-status.sce}.}
 \label{sci:push-100}
 \lstinputlisting{\LocPushscicode/push-button-status.sce}
@@ -295,8 +308,8 @@ given in \secref{sec:xcos-start} before getting started.
   Xcos implementation for this experiment is shown in
   \figref{fig:led-push-button}. Each time a user presses the
   pushbutton, the LED on digital pin 9 of the shield is switched
-  on. If the shield is connected, the blue LED comes on.  When
-  button is released, the LED is switched off. Here, we note that
+  on. If the shield is connected, the blue LED turns on.  When
+  the pushbutton is released, the LED is switched off. Here, we note that
   the digital logic level of the pin of the \arduino\ board connected
   to pushbutton changes only for the time the pushbutton is being
   pressed.
@@ -352,22 +365,35 @@ Let us carry out the following exercise:
 %%%%%%%%%%%%python description starts
 \section{Reading the Pushbutton Status from Python}
 \subsection{Reading the Pushbutton Status}
-In this section, we shall perform the pushbutton operation using
-Python-Arduino toolbox commands.
+In this section, we discuss how to carry out the experiments of the
+previous section from Python.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+
 \begin{enumerate}
-\item In the first experiment, we will read the pushbutton status in
-  python Console. The code for this experiment is given in
-  \pyref{py:push-100}. As explained earlier, we begin with serial
-  port initialization. Then, using the command,
-  \lstinputlisting[firstline=4,lastline=4]
-  {\LocPushpycode/push-button-status.py} we read the input of
-  digital pin 12. Note that the middle terminal of the potentiometer
-  is connected to this pin. The read value is displayed as a GUI using
-  the command, \lstinputlisting[firstline=5,lastline=5]
+\item In the first experiment, we will read the pushbutton status. The code for this experiment is given in
+  \pyref{py:push-100}. As explained earlier in \secref{sec:light-py}, we begin with 
+  importing necessary modules followed by setting up the serial port. 
+  Then, we read the input coming from digital pin 12 using the
+  following command:
+  \lstinputlisting[firstline=26,lastline=26]
+  {\LocPushpycode/push-button-status.py} Note that the one leg of the pushbutton on
+  the shield is connected to digital pin 12 of \arduino\, 
+  as given in \figref{fig:pushbuttonconn}. The read value is displayed (or printed) 
+ by the following lines: 
+   \lstinputlisting[firstline=25,lastline=28]
   {\LocPushpycode/push-button-status.py} where {\tt val} contains
-  the potentiometer value acquired by the previous command. To
-  encourage the user to have a good hands-on, we run these commands in
-  a {\tt for} loop for 1000 iterations.
+  the pushbutton value acquired by the previous command. When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''.
+  To encourage the user to have a good hands-on, we run these commands in
+  a {\tt for} loop for 20 iterations. The readers are encouraged to change the number 
+  of iterations as per their requirements. While running this experiment, the user must press
+  and release the pushbutton and observe the values being printed on the
+  Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+
 
 \item This experiment is an extension of the previous
   experiment. Here, we control the state of an LED as per the status
@@ -375,10 +401,12 @@ Python-Arduino toolbox commands.
   decided by the digital input received from the pushbutton. The code
   for this experiment is given in \pyref{py:push-200}. After reading
   the pushbutton status, we turn the LED on if the pushbutton is
-  pressed, otherwise we turn it off. The lines,
-  \lstinputlisting[firstline=5,lastline=9]
+  pressed, otherwise we turn it off. The following lines,
+  \lstinputlisting[firstline=28,lastline=33]
   {\LocPushpycode/led-push-button.py} perform the condition check
-  and corresponding LED state control operation.
+  and corresponding LED state control operation. While running this experiment, the reader must press and release the push-
+  button. Accordingly, they can observe whether the LED glows when the push-
+  button is pressed.
 \end{enumerate}
 
 \subsection{Python Code}
@@ -387,9 +415,9 @@ Python-Arduino toolbox commands.
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 
 \begin{pycode}
-\pcaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and displaying on
-    the serial monitor.  Available at
+\pcaption{Read the status of the pushbutton and displaying it on the
+  Command Prompt or the Terminal}{Read the status of the pushbutton and displaying it on
+  Command Prompt or the Terminal.  Available at
   \LocPushpybrief{push-button-status.py}.}
 \label{py:push-100}
 \lstinputlisting{\LocPushpycode/push-button-status.py}
@@ -406,18 +434,34 @@ Python-Arduino toolbox commands.
 
 \section{Reading the Pushbutton Status from Julia}
 \subsection{Reading the Pushbutton Status} 
-In this section, we shall perform the pushbutton operation using
-Julia-Arduino toolbox commands.
+In this section, we discuss how to carry out the experiments of the
+previous section from Julia.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in \secref{sec:julia-start} before getting started.
+
 \begin{enumerate}
-\item In the first experiment, we will read the pushbutton status in
-  Atoms-text-Editor\ Console. The code for this experiment is given in
-  \juliaref{julia:push-100}. As explained earlier, we begin with serial
-  port initialization by using the command,\lstinputlisting[firstline=7,lastline=7]
-  {\LocPushjuliacode/push-button-status.jl} we read the input of
-  digital pin 12. The status of the push button as '0' for off and
-  '1' for on is dispalyed on the Atoms-Text-Editor console. To
-  encourage the user to have a good hands-on, we run these commands in
-  a {\tt for} loop for 100 iterations.
+\item In the first experiment, we will read the pushbutton status. 
+The code for this experiment is given in \juliaref{julia:push-100}. 
+As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
+\cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+Then, we read the input coming from digital pin 12 using the following
+command: 
+\lstinputlisting[firstline=7,lastline=7]
+  {\LocPushjuliacode/push-button-status.jl}
+  Note that the one leg of the pushbutton on the shield is connected to digital
+pin 12 of Arduino Uno as given in \figref{fig:pushbuttonconn}. The read value is displayed (or
+printed) by the following lines:
+\lstinputlisting[firstline=6,lastline=8]
+  {\LocPushjuliacode/push-button-status.jl} where {\tt val} contains the pushbutton value acquired by the previous command.
+  When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''. To encourage the user to have a good hands-on, we run these commands in a
+{\tt for} loop for 200 iterations. The readers are encouraged to change the number
+of iterations as per their requirements. While running this experiment, the user
+must press and release the pushbutton and observe the values being printed
+on the Command Prompt (on Windows) or Terminal (on Linux), as the case
+maybe.
 
 \item This experiment is an extension of the previous
   experiment. Here, we control the state of an LED as per the status
@@ -425,10 +469,12 @@ Julia-Arduino toolbox commands.
   decided by the digital input received from the pushbutton. The code
   for this experiment is given in \juliaref{julia:push-200}. After reading
   the pushbutton status, we turn the LED on if the pushbutton is
-  pressed, otherwise we turn it off. The lines,
-  \lstinputlisting[firstline=8,lastline=12]
+  pressed, otherwise we turn it off. The following lines, 
+  \lstinputlisting[firstline=7,lastline=12]
   {\LocPushjuliacode/led-push-button.jl} perform the condition check
-  and corresponding LED state control operation.
+  and corresponding LED state control operation. While running this experiment, the reader must press and release the push-
+  button. Accordingly, they can observe whether the LED glows when the push-
+  button is pressed.
 \end{enumerate}
 
 \subsection{Julia Code}
@@ -436,9 +482,7 @@ Julia-Arduino toolbox commands.
 \addtocontents{juliad}{\protect\addvspace{\codclr}}
 
 \begin{juliacode}
-\jcaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and displaying on
-    the serial monitor.  Available at
+\jcaption{Read the status of the pushbutton and displaying it on Command Prompt or the Terminal.}{Read the status of the pushbutton and displaying it on Command Prompt or the Terminal.  Available at
   \LocPushjuliabrief{push-button-status.jl}.}
 \label{julia:push-100}
 \lstinputlisting{\LocPushjuliacode/push-button-status.jl}
@@ -454,17 +498,45 @@ Julia-Arduino toolbox commands.
 
 \section{Reading the Pushbutton Status from OpenModelica}
 \subsection{Reading the Pushbutton Status}
-In this section, we shall perform the pushbutton operation using
-OpenModelica-Arduino toolbox commands.
+In this section, we discuss how to carry out the experiments of the
+previous section from OpenModelica.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
 \begin{enumerate}
-\item In the first experiment, we will read the pushbutton status in
-  OpenModelica output Console. The code for this experiment is given in
-  \OpenModelicaref{OpenModelica:push-100}. As explained earlier, we begin with serial
-  port initialization. Then, using the command,
-  \lstinputlisting[firstline=16,lastline=16]
-  {\LocPushOpenModelicacode/push-button-status.mo} we read the input of
-  digital pin 12. 
-\item This experiment is same as previously done with Scilab-Arduino.
+\item In the first experiment, we will read the pushbutton status. The code for this experiment is given in
+  \OpenModelicaref{OpenModelica:push-100}. As explained earlier in \secref{sec:light-OpenModelica}, 
+  we begin with importing the two packages: Streams and SerialCommunication followed 
+  by setting up the serial port. Then, we read the input coming
+ from digital pin 12 using the following command: 
+ \lstinputlisting[firstline=16,lastline=16]
+  {\LocPushOpenModelicacode/push-button-status.mo}
+  Note that the one leg of the pushbutton on the shield is connected to digital
+pin 12 of Arduino Uno as given in \figref{fig:pushbuttonconn}. The read value is displayed (or
+printed) by the following lines:
+\lstinputlisting[firstline=17,lastline=23]
+  {\LocPushOpenModelicacode/push-button-status.mo} where {\tt val} contains the pushbutton value acquired by the previous command.
+  When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''. To encourage the user to have a good hands-on, we run these commands in a
+{\tt for} loop for 200 iterations. The readers are encouraged to change the number
+of iterations as per their requirements. While executing this model in OpenModelica, 
+the user must press and release the pushbutton and observe the values being printed
+on the output window, as shown in \figref{om-sim-success}.
+\item This experiment is an extension of the previous
+  experiment. Here, we control the state of an LED as per the status
+  of the pushbutton. In other words, digital output to an LED is
+  decided by the digital input received from the pushbutton. The code
+  for this experiment is given in \OpenModelicaref{OpenModelica:push-200}. 
+  After reading the pushbutton status, we turn the LED on if the pushbutton is
+  pressed, otherwise we turn it off. The following lines, 
+  \lstinputlisting[firstline=17,lastline=23]
+  {\LocPushOpenModelicacode/led-push-button.mo} perform the condition check
+  and corresponding LED state control operation. While running this experiment, the reader must press and release the push-
+  button. Accordingly, they can observe whether the LED glows when the push-
+  button is pressed.
 \end{enumerate}
 %%%%%%%%%%%%OpenModelica decription ends
 
@@ -484,8 +556,7 @@ OpenModelica-Arduino toolbox commands.
 
 \begin{OpenModelicacode}
 \mcaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and displaying on
-    the serial monitor.  Available at
+  serial monitor}{Read the status of the pushbutton and displaying it on the output window.  Available at
   \LocPushOpenModelicabrief{push-button-status.mo}.}
 \label{OpenModelica:push-100}
 \lstinputlisting{\LocPushOpenModelicacode/push-button-status.mo}

@@ -3,7 +3,7 @@ const int ledPin = 9;
 int sensorValue;  
 int i;
 void setup() {
-  Serial.begin(9600);  
+  Serial.begin(115200);  
   pinMode(9, OUTPUT);
   pinMode(12, INPUT);
   for (i = 0; i < 1000; i++) {
