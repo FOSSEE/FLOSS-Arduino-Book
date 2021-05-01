@@ -94,8 +94,8 @@ soldering. To know more about the breadboard and other electronic components,
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
-watch the fifth and sixth tutorials, i.e., First Arduino Program and 
-Arduino with Tricolor LED and Push button.
+watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
+{\tt Arduino with Tricolor LED and Push button}.
 
 \begin{figure}
   \centering
@@ -131,9 +131,13 @@ are same as that in \figref{fig:ard-ldr}.
 
 \section{Interfacing the LDR through the Arduino IDE}
 \subsection{Interfacing the LDR}
-In this section, we shall learn to read the voltage values from an LDR
-connected to the analog pin 5 of the \arduino\ board. Later, the read
-values will be used to change the state of an LED.   
+In this section, we shall describe an experiment that will help 
+to read the voltage values from an LDR connected to the analog pin 5 
+of the \arduino\ board. Later, the read values will be used to change the state of an LED.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}. The reader should go through the
+instructions given in \secref{sec:ard-start} before getting started.
+
 \begin{enumerate}
 \item A simple code to read the LDR values is given in
   \ardref{ard:ldr-read}. As discussed earlier, the 0-5V LDR readings
