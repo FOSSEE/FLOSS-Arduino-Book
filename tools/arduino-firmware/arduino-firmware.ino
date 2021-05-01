@@ -790,5 +790,3 @@ void counter_4_change() { //counter 4
 void counter_5_change() { //counter 5
   counter_5++;
 }
-
-

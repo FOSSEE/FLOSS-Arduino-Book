@@ -10,22 +10,22 @@
 \contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{107}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{126}%
-\contentsline {section}{\numberline {6.{2}}Turning the blue LED on and off}{127}%
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{127}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{141}%
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{143}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{159}%
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on and off using thermistor values}{160}%
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{161}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on and off using thermistor values}{162}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the DC motor}{179}%
-\contentsline {section}{\numberline {9.{2}}Rotating the DC motor in both directions}{180}%
-\contentsline {section}{\numberline {9.{3}}Rotating the DC motor in both directions in a loop}{180}%
+\contentsline {section}{\numberline {9.{1}}Rotating the DC motor}{181}%
+\contentsline {section}{\numberline {9.{2}}Rotating the DC motor in both directions}{182}%
+\contentsline {section}{\numberline {9.{3}}Rotating the DC motor in both directions in a loop}{182}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{199}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{200}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{201}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{202}%
+\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{201}%
+\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{202}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{203}%
+\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{204}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{226}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{226}%
-\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{227}%
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{228}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{228}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{229}%
