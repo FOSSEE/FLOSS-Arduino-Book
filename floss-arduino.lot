@@ -13,28 +13,28 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the push button status on the display block\relax }}{103}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{104}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{121}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{123}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{123}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{125}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{138}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{140}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{154}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{156}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{156}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{158}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces A numbering convention used in the DC motor breakout board\relax }}{169}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters for DC motor initialization\relax }}{169}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{173}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{174}%
-\contentsline {table}{\numberline {9.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{176}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces A numbering convention used in the DC motor breakout board\relax }}{171}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters for DC motor initialization\relax }}{171}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{175}%
+\contentsline {table}{\numberline {9.4}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{176}%
+\contentsline {table}{\numberline {9.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{178}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{186}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{192}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{194}%
-\contentsline {table}{\numberline {10.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{195}%
-\contentsline {table}{\numberline {10.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{196}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{188}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{194}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{196}%
+\contentsline {table}{\numberline {10.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{197}%
+\contentsline {table}{\numberline {10.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{198}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{212}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{212}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{213}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{213}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{222}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{214}%
+\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{214}%
+\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{215}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{215}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{224}%

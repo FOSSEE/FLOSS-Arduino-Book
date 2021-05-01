@@ -3,7 +3,7 @@ model led_push_button "Conrolling LED with PushButton"
   import sComm = Arduino.SerialCommunication.Functions;
   import strm = Modelica.Utilities.Streams;
   Integer ok(fixed = false);
-  Integer digital_in(fixed = false);
+  Integer val(fixed = false);
   Integer digital_out(fixed = false);
   Integer c_ok(fixed = false);
 algorithm
@@ -13,13 +13,11 @@ algorithm
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
-    digital_in := sComm.cmd_digital_in(1, 12) "Read from digital pin 12";
-    if digital_in == 0 then
-      strm.print("LOW");
+    val := sComm.cmd_digital_in(1, 12) "Read from digital pin 12";
+    if val == 0 then
       digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
       sComm.delay(200);
     else
-      strm.print("HIGH");
       digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
       sComm.delay(200);
     end if;
@@ -30,5 +28,5 @@ algorithm
   when terminal() then
     c_ok := sComm.close_serial(1) "To close the connection safely";
   end when;
-  annotation(experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.01));
+  annotation(experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
 end led_push_button;

@@ -3,8 +3,7 @@ model push_button_status "Checking Status of PushButton"
   import sComm = Arduino.SerialCommunication.Functions;
   import strm = Modelica.Utilities.Streams;
   Integer ok(fixed = false);
-  Integer digital_in(fixed = false);
-  Integer digital_out(start = 0, fixed = false);
+  Integer val(fixed = false);
   Integer c_ok(fixed = false);
 algorithm
   when initial() then
@@ -13,12 +12,12 @@ algorithm
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
-    digital_in := sComm.cmd_digital_in(1, 12);
-    if digital_in == 0 then
-      strm.print("LOW");
+    val := sComm.cmd_digital_in(1, 12);
+    if val == 0 then
+      strm.print("0");
       sComm.delay(200);
     else
-      strm.print("HIGH");
+      strm.print("1");
       sComm.delay(200);
     end if;
   end if;
@@ -28,5 +27,5 @@ algorithm
     c_ok := sComm.close_serial(1) "To close the connection safely";
   end when;
   //sComm.cmd_arduino_meter(digital_in);
-  annotation(experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.01));
+  annotation(experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
 end push_button_status;

@@ -168,9 +168,9 @@ instructions given in \secref{sec:ard-start} before getting started.
 \addtocontents{ard}{\protect\addvspace{\codclr}}
 
 \begin{ardcode}
-  \acaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and display it on
-    the serial monitor.  Available at
+  \acaption{Read the status of the pushbutton and display it on the
+  Serial Monitor}{Read the status of the pushbutton and display it on
+    the Serial Monitor.  Available at
     \LocPushardbrief{push-button-status/push-button-status.ino}.}
 \label{ard:push-100}
 \lstinputlisting{\LocPushardcode/push-button-status/push-button-status.ino}
@@ -212,8 +212,14 @@ digital pin 12 using the following command:
   encourage the user to have a good hands-on, we run these commands in
   a {\tt for} loop for 1000 iterations. While running this experiment, 
   the user must press and release the pushbutton and observe the values being printed on the
-  GUI, as shown in Fig.
-
+  GUI, as shown in \figref{fig:ard-meter}.
+ \begin{figure}
+    \centering
+    \includegraphics[width=\smfig]{\LocPushfig/sci-ard-meter.png}
+    \caption{GUI in Scilab to show the status of the pushbutton}
+    %\redcolor{connected on pin no. D12}}
+    \label{fig:ard-meter}
+  \end{figure}
 \item This experiment is an extension of the previous
   experiment. Here, we control the state of an LED as per the status
   of the pushbutton. In other words, digital output to an LED is
@@ -233,8 +239,8 @@ digital pin 12 using the following command:
 \addtocontents{cod}{\protect\addvspace{\codclr}}
 
 \begin{scicode}
-\ccaption{Read the status of the pushbutton and displaying it on the GUI}
-{Read the status of the pushbutton and displaying it on the GUI.  Available at
+\ccaption{Read the status of the pushbutton and display it on the GUI}
+{Read the status of the pushbutton and display it on the GUI.  Available at
   \LocPushscibrief{push-button-status.sce}.}
 \label{sci:push-100}
 \lstinputlisting{\LocPushscicode/push-button-status.sce}
@@ -299,7 +305,7 @@ given in \secref{sec:xcos-start} before getting started.
       & Sampling period(s) & 0.1 \\ \hline
       DIGITAL\_READ\_SB & Digital pin & 12 \\
       & Arduino card number & 1 \\ \hline 
-      AFFICH\_m & Block inherits(1) or not  (0) & 1 \\ \hline
+      AFFICH\_m & Block inherits (1) or not  (0) & 1 \\ \hline
     \end{tabular}
   \end{table}
 
@@ -415,8 +421,8 @@ The reader should go through the instructions given in
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 
 \begin{pycode}
-\pcaption{Read the status of the pushbutton and displaying it on the
-  Command Prompt or the Terminal}{Read the status of the pushbutton and displaying it on
+\pcaption{Read the status of the pushbutton and display it on the
+  Command Prompt or the Terminal}{Read the status of the pushbutton and display it on
   Command Prompt or the Terminal.  Available at
   \LocPushpybrief{push-button-status.py}.}
 \label{py:push-100}
@@ -482,7 +488,7 @@ maybe.
 \addtocontents{juliad}{\protect\addvspace{\codclr}}
 
 \begin{juliacode}
-\jcaption{Read the status of the pushbutton and displaying it on Command Prompt or the Terminal.}{Read the status of the pushbutton and displaying it on Command Prompt or the Terminal.  Available at
+\jcaption{Read the status of the pushbutton and display it on Command Prompt or the Terminal.}{Read the status of the pushbutton and display it on Command Prompt or the Terminal.  Available at
   \LocPushjuliabrief{push-button-status.jl}.}
 \label{julia:push-100}
 \lstinputlisting{\LocPushjuliacode/push-button-status.jl}
@@ -512,17 +518,15 @@ The reader should go through the instructions given in
   we begin with importing the two packages: Streams and SerialCommunication followed 
   by setting up the serial port. Then, we read the input coming
  from digital pin 12 using the following command: 
- \lstinputlisting[firstline=16,lastline=16]
+ \lstinputlisting[firstline=15,lastline=15]
   {\LocPushOpenModelicacode/push-button-status.mo}
   Note that the one leg of the pushbutton on the shield is connected to digital
 pin 12 of Arduino Uno as given in \figref{fig:pushbuttonconn}. The read value is displayed (or
 printed) by the following lines:
-\lstinputlisting[firstline=17,lastline=23]
+\lstinputlisting[firstline=16,lastline=22]
   {\LocPushOpenModelicacode/push-button-status.mo} where {\tt val} contains the pushbutton value acquired by the previous command.
   When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
-  when the pushbutton is pressed, {\tt val} will be ``1''. To encourage the user to have a good hands-on, we run these commands in a
-{\tt for} loop for 200 iterations. The readers are encouraged to change the number
-of iterations as per their requirements. While executing this model in OpenModelica, 
+  when the pushbutton is pressed, {\tt val} will be ``1''. While executing this model in OpenModelica, 
 the user must press and release the pushbutton and observe the values being printed
 on the output window, as shown in \figref{om-sim-success}.
 \item This experiment is an extension of the previous
@@ -551,21 +555,25 @@ on the output window, as shown in \figref{om-sim-success}.
 
 
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
 \label{sec:led-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
 \mcaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and displaying it on the output window.  Available at
-  \LocPushOpenModelicabrief{push-button-status.mo}.}
+  serial monitor}{Read the status of the pushbutton and display it on the output window.  
+  Available at Available at Arduino -> SerialCommunication -> 
+  Examples -> push -> push\_button\_status. }
 \label{OpenModelica:push-100}
 \lstinputlisting{\LocPushOpenModelicacode/push-button-status.mo}
 \end{OpenModelicacode}
 
 \begin{OpenModelicacode}
 \mcaption{Turning the LED on or off depending on the pushbutton}
-  {Turning the LED on or off depending on the pushbutton.  Available at
-  \LocPushOpenModelicabrief{led-push-button.mo}.}
+  {Turning the LED on or off depending on the pushbutton.  Available at Arduino -> SerialCommunication -> 
+  Examples -> push -> led\_push\_button.}
 \label{OpenModelica:push-200}
 \lstinputlisting{\LocPushOpenModelicacode/led-push-button.mo}
 \end{OpenModelicacode}
