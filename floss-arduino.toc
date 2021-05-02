@@ -125,15 +125,15 @@
 \contentsline {subsection}{\numberline {7.4.1}Reading the potentiometer}{139}%
 \contentsline {subsection}{\numberline {7.4.2}Scilab Code}{140}%
 \contentsline {section}{\numberline {7.5}Reading the potentiometer from Xcos}{140}%
-\contentsline {section}{\numberline {7.6}Reading the potentiometer from Python}{142}%
-\contentsline {subsection}{\numberline {7.6.1}Reading the potentiometer}{142}%
+\contentsline {section}{\numberline {7.6}Reading the potentiometer from Python}{143}%
+\contentsline {subsection}{\numberline {7.6.1}Reading the potentiometer}{143}%
 \contentsline {subsection}{\numberline {7.6.2}Python Code}{143}%
-\contentsline {section}{\numberline {7.7}Reading the potentiometer from Julia}{144}%
-\contentsline {subsection}{\numberline {7.7.1}Reading the potentiometer}{144}%
+\contentsline {section}{\numberline {7.7}Reading the potentiometer from Julia}{145}%
+\contentsline {subsection}{\numberline {7.7.1}Reading the potentiometer}{145}%
 \contentsline {subsection}{\numberline {7.7.2}Julia Code}{145}%
 \contentsline {section}{\numberline {7.8}Reading the potentiometer from OpenModelica}{146}%
 \contentsline {subsection}{\numberline {7.8.1}Reading the potentiometer}{146}%
-\contentsline {subsection}{\numberline {7.8.2}OpenModelica Code}{146}%
+\contentsline {subsection}{\numberline {7.8.2}OpenModelica Code}{147}%
 \contentsline {chapter}{\numberline {8}Interfacing a Thermistor}{149}%
 \contentsline {section}{\numberline {8.1}Preliminaries}{149}%
 \contentsline {section}{\numberline {8.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{150}%
