@@ -80,16 +80,16 @@ middle terminal by hand. The connection diagram for the potentiometer
 is shown in \figref{fig:potmeterconn}.
 
 The reading of a potentiometer is an analog voltage varying from 0 to
-5V. As for LDR, we use the ADC functionality of the
-\arduino\ board. Thus, we obtain digital values between 0 and 1023 in
-Scilab Console or Arduino Serial Monitor.
+5V. Like LDR, we use the ADC functionality of the
+\arduino\ board. Thus, we obtain digital values between 0 and 1023. 
+% Scilab Console or Arduino Serial Monitor.
 % redcolor{Arduino Serial Monitor}
 In the experiment explained in this chapter, we shall also use an RGB
 LED mounted on the shield. An RGB LED is a tri-color LED which can
-illuminate in Red, GREEN and Blue colors. It has 4 leads of which one
+illuminate in Red, Green, and Blue colors. It has 4 leads of which one
 lead is connected to ground and other three leads are connected to
-digital I/O pins 9,10 and 11 of Arduino. In order to switch on a
-particular LED, we need to provide HIGH(5V) voltage to the
+digital I/O pins 9, 10, and 11 of Arduino. In order to switch on a
+particular LED, we need to provide HIGH (5V) voltage to the
 corresponding pin of the \arduino\ board.
 
 \section{Connecting a potentiometer with \arduino\ using a breadboard}
@@ -102,8 +102,8 @@ soldering. To know more about the breadboard and other electronic components,
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
-watch the fifth and sixth tutorials, i.e., First Arduino Program and 
-Arduino with Tricolor LED and Push button.
+watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
+{\tt Arduino with Tricolor LED and Push button}.
 
 In case you have a potentiometer, and you want to connect it with \arduino\ on a breadboard, 
 please refer to \figref{fig:pot-led}. The connections given in this figure 
@@ -121,21 +121,24 @@ there is an RGB LED, and its four legs are connected to three different digital 
 \chapref{led}. 
 
 
-
 \section{Reading the potentiometer from the Arduino IDE}
 \subsection{Reading the potentiometer}
-In this section, we shall learn to read the potentiometer input
-through Arduino IDE. Depending on the acquired potentiometer values,
-we will change the state of RGB LED. The Arduino code for this
-experiment is given in \ardref{ard:pot-100}. Lines 1 through 4 are
-used to assign relevant pin numbers to potentiometer and RGB LED. The
-purpose of these lines is to avoid confusion, with the pin numbers,
-for the beginners. Next, we start serial port communication, as on
-line 9, with the baud rate of 115,200 bps. In order to take the
-potentiometer input, we need to initialize the pins by giving the
-following commands:
+In this section, we shall learn how to read the potentiometer 
+input through Arduino IDE. Depending on the acquired potentiometer 
+values, we will change the state of the RGB LED. The shield has to be attached to the \arduino\ board
+before doing this experiment and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}. The reader should go through the
+instructions given in \secref{sec:ard-start} before getting started.
 
-\lstinputlisting[firstline=10,lastline=13]
+The Arduino code for this experiment is given in \ardref{ard:pot-100}. 
+In this code, lines 1 through 4 are used to assign relevant PINs to 
+the potentiometer and RGB LED. The purpose of these lines is to avoid 
+confusion, with the PINs, for beginners. Next, we start serial port 
+communication, as on line 9, with the baud rate of 115200. 
+To take the potentiometer input, we need to initialize the pins by 
+giving the following commands:
+
+\lstinputlisting[firstline=9,lastline=12]
 {\LocPotardcode/pot-threshold/pot-threshold.ino}
 
 where {\tt pinMode} command is used to configure the specified pin as
@@ -143,20 +146,21 @@ an input or an output pin. The first argument for the above command
 corresponds to the pin number and second argument corresponds to the
 mode of operation. In this experiment, we configure digital pin 2 as
 an input pin while digital pins 9, 10, and 11 as output pins. Next, we
-check the value of potentiometer using {\tt analogRead} command 10
+check the value of potentiometer using {\tt analogRead} command for 10
 iterations. These values range from 0 to 1023. Depending on the read
 value, we turn on and turn off the Red, Green or Blue LED. For
 example, when the position of the potentiometer corresponds to the
 values between 0 and 319, inclusive, we turn on the Red LED, keep it
 on for 1000 ms and then turn it off. This functionality is carried out
 by,
-\lstinputlisting[firstline=18,lastline=22]
+\lstinputlisting[firstline=15,lastline=18]
                 {\LocPotardcode/pot-threshold/pot-threshold.ino}
 In a similar manner,
 we check the potentiometer values and correspondingly turn on and off
-the Green and Blue LEDs. Note that, we used {\tt if and else if}
-statements to check the conditions and rotated the potentiometer knob
-to vary the resistance.
+the Green and Blue LEDs. Note that, we have used {\tt if and else if}
+statements to check the conditions. While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED.  
 
 \subsection{Arduino Code}
 \lstset{style=mystyle}
@@ -176,8 +180,13 @@ to vary the resistance.
 \subsection{Reading the potentiometer}
 In this section, we will use a Scilab script to read the potentiometer
 values.  Based on the acquired potentiometer values, we will change
-the state of the RGB LED. As explained earlier, the potentiometer
-values range from 0 to 1023. We will divide this entire range into 3
+the state of the RGB LED. The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:sci-start} before getting started. 
+
+As explained earlier, the potentiometer values range from 0 to 1023. We will divide this entire range into 3
 bands, 0-319, 320-900, and 901-1023. For each read value, we use an
 {\tt if elseif} statement and correspondingly turn on either the Red,
 Green or Blue LED. The code for this experiment is given in
@@ -188,9 +197,17 @@ we read the analog input at pin 2 using,
                 {\LocPotscicode/pot-threshold.sce} where the first
                 argument is for
 %\redcolor {the kit number } 
-the kit number and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=8,lastline=12]
-{\LocPotscicode/pot-threshold.sce} where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). We used {\tt sleep(1000)} to retain the LED in the on state for 1000 milliseconds.  A similar check is done the other two bands. Note that we need to vary the resistance by rotating the knob of the potentiometer.
+the kit number and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set threshold, 
+and then turn on and off the corresponding LED. For example, 
+\lstinputlisting[firstline=5,lastline=8]
+{\LocPotscicode/pot-threshold.sce} where {\tt cmd\_digital\_out} 
+is used to set the pin 11 high (1) or low (0). 
+We used {\tt sleep(1000)} to retain the LED in the on state for 
+1000 milliseconds.  
+A similar check is done for the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED. 
 
 \subsection{Scilab Code}
 \label{sec:pot-scilab-code}
@@ -205,14 +222,17 @@ the kit number and the second argument corresponds to the analog pin to be read.
 \end{scicode}
 
 \section{Reading the potentiometer from Xcos}
-In this section, we discuss how to perform the experiment explained
-above.  When the file required for this experiment is invoked, one
+In this section, we discuss how to read the potentiometer values using
+Xcos blocks. When the file required for this experiment is invoked, one
 gets the GUI as in \figref{fig:pot-threshold}.  In the caption of this
 figure, one can see where to locate the file.  The reader should go
 through the instructions given in \secref{sec:xcos-start} before
 getting started.
 
-The block, Analog Read Pin 2, performs the read operation from pin 2. The threshold is set using the block, Dynamic. Depending on the condition met, a $1$ or $0$ is given to pin 9, 10 or 11.
+In this experiment, the block {\tt Analog Read Pin 2} performs the read 
+operation from pin 2. The threshold is set using the block, {\tt Dynamic}. 
+Depending on the condition met, a $1$ or $0$ is given to pin 9, 10 or 11.
+
 \begin{figure}
   \centering
   \includegraphics[width=\lgfig]{\LocPotfig/pot-threshold.PNG}
@@ -264,35 +284,49 @@ be left unchanged.
     \end{tabular}
   \end{table}
 
-
 Note that, when the potentiometer value read by Scilab crosses either
 of the thresholds, color of the LED changes. This can be observed by
-rotating the potentiometer.
+rotating the knob of the potentiometer.
 
-\paragraph{Exercise:}
+\begin{exercise}
 List out the applications in day to day life where potentiometer is
 being used/can be used? For example, old fan regulators used
 potentiometer to change the fan speed.
+\end{exercise}
 
 \section{Reading the potentiometer from Python}
 \subsection{Reading the potentiometer}
 In this section, we will use a Python script to read the potentiometer
-values.  Based on the acquired potentiometer values, we will change
+values. The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+
+Based on the acquired potentiometer values, we will change
 the state of the RGB LED. As explained earlier, the potentiometer
 values range from 0 to 1023. We will divide this entire range into 3
 bands, 0-319, 320-900, and 901-1023. For each read value, we use an
-{\tt if elseif} statement and correspondingly turn on either the Red,
+{\tt if elif} statement and correspondingly turn on either the Red,
 Green or Blue LED. The code for this experiment is given in
-\pyref{py:pot-100}. We start the experiment by opening the serial port
-for communication between python and the arduino board. Then, we read
-the analog input at pin 2 using,
-\lstinputlisting[firstline=4,lastline=4]
+\pyref{py:pot-100}. As explained earlier in \secref{sec:light-py}, we begin with 
+importing necessary modules followed by setting up the serial port. 
+Then, we read the analog input at pin 2 using,
+\lstinputlisting[firstline=28,lastline=28]
                 {\LocPotpycode/pot-threshold.py} where the first
                 argument is for
 %\redcolor {the kit number } 
-the kit number and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=8,lastline=12]
-{\LocPotpycode/pot-threshold.py} where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). We used {\tt sleep(1000)} to retain the LED in the on state for 1000 milliseconds.  A similar check is done the other two bands. Note that we need to vary the resistance by rotating the knob of the potentiometer.
+the kit number and the second argument corresponds to the analog pin to be read.  
+Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
+\lstinputlisting[firstline=31,lastline=34]
+{\LocPotpycode/pot-threshold.py} where {\tt cmd\_digital\_out} 
+is used to set the pin 11 high (1) or low (0). 
+We used {\tt sleep(1)} to retain the LED in the on state for one second.  
+A similar check is done the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED. 
+
 
 \subsection{Python Code}
 \label{sec:pot-python-code}
@@ -308,15 +342,34 @@ the kit number and the second argument corresponds to the analog pin to be read.
 
 \section{Reading the potentiometer from Julia}
 \subsection{Reading the potentiometer}
-In this section, we will use a Julia script to read the potentiometer values.  Based on the acquired potentiometer values, we will change the state of the RGB LED as explained earlier.The code for this experiment is given in
-\juliaref{julia:pot-100}. We start the experiment by opening the serial port for communication between julia and the arduino board. Then, we read the analog input at pin 2 using,
+In this section, we will use a Julia source file to read 
+the potentiometer values. The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be 
+connected to the computer with a USB cable, 
+as shown in \figref{arduino}. The reader should go through the instructions given in 
+\secref{sec:julia-start} before getting started.
+
+
+Based on the acquired potentiometer values, we will change the 
+state of the RGB LED as explained earlier. 
+The code for this experiment is given in
+\juliaref{julia:pot-100}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
+\cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+Then, we read the analog input at pin 2 using,
 \lstinputlisting[firstline=9,lastline=9]
 {\LocPotjuliacode/pot-threshold.jl} where the first argument is for
 %\redcolor {the kit number } 
-the serial port and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=10,lastline=13]
-{\LocPotjuliacode/pot-threshold.jl} where {\tt digiWrite} is used to set the pin 11 high (1) or low (0). We used {\tt sleep(1000)} to retain the LED in the on state for 1 second.  A similar check is done the other two bands. Note that we need to vary the resistance by rotating the knob of the potentiometer.
-
+the serial port and the second argument corresponds to the analog pin 
+to be read.  Next, we compare the read values with the set range, 
+and then turn on and off the corresponding LED. For example, 
+\lstinputlisting[firstline=11,lastline=14]
+{\LocPotjuliacode/pot-threshold.jl} where {\tt digiWrite} 
+is used to set the pin 11 high (1) or low (0). 
+We used {\tt sleep(1)} to retain the LED in the on state for 1 second.  
+A similar check is done the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED.
 \subsection{Julia Code}
 \label{sec:pot-julia-code}
 \addtocontents{juliad}{\protect\addvspace{\codclr}}
@@ -331,15 +384,30 @@ the serial port and the second argument corresponds to the analog pin to be read
 
 \section{Reading the potentiometer from OpenModelica}
 \subsection{Reading the potentiometer}
-In this section, we will use a OpenModelica script to read the potentiometer values.  Based on the acquired potentiometer values, we will change the state of the RGB LED as explained earlier.The code for this experiment is given in
-\OpenModelicaref{OpenModelica:pot-100}. We start the experiment by opening the serial port for communication between OpenModelica and the arduino board. Then, we read the analog input at pin 2 using,
+In this section, we will use a OpenModelica model to read the potentiometer values.  
+The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
+Based on the acquired potentiometer values, we will change the state of the 
+RGB LED as explained earlier. The code for this experiment is given in
+\OpenModelicaref{OpenModelica:pot-100}. As explained earlier in \secref{sec:light-OpenModelica}, 
+  we begin with importing the two packages: Streams and SerialCommunication followed 
+  by setting up the serial port. Then, we read the analog input at pin 2 using,
 \lstinputlisting[firstline=17,lastline=17]
 {\LocPotOpenModelicacode/pot-threshold.mo} where the first argument is for
 %\redcolor {the kit number } 
 the serial port and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=20,lastline=22]
-{\LocPotOpenModelicacode/pot-threshold.mo} where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). We used {\tt delay(1000)} to retain the LED in the on state for 1 second.  A similar check is done the other two bands. Note that we need to vary the resistance by rotating the knob of the potentiometer.
-
+\lstinputlisting[firstline=19,lastline=22]
+{\LocPotOpenModelicacode/pot-threshold.mo} 
+where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). 
+We used {\tt delay(1000)} to retain the LED in the on state for 1000 milliseconds.  
+A similar check is done the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED.
 \subsection{OpenModelica Code}
 \label{sec:pot-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
