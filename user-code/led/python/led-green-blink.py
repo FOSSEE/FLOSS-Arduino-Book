@@ -26,9 +26,9 @@ class LED_ON_OFF_LOOP:
 		self.red = 11
 		for i in range(5):
 			self.obj_arduino.cmd_digital_out(1, self.green, 1)
-			sleep(2)
+			sleep(1)
 			self.obj_arduino.cmd_digital_out(1, self.green, 0)
-			sleep(2)
+			sleep(1)
 
 	def exit(self):
 		self.obj_arduino.close_serial()
