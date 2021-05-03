@@ -2,9 +2,8 @@ import os
 import sys
 import os 
 import sys
-cwd=os.getcwd()
-(setpath,Examples)=os.path.split(cwd)
-#print setpath
+cwd = os.getcwd()
+(setpath, Examples) = os.path.split(cwd)
 sys.path.append(setpath)
 
 from Arduino.Arduino import Arduino
@@ -12,26 +11,26 @@ from time import sleep
 
 class DCMOTOR_ROTATION:
 	def __init__(self,baudrate):
-		self.baudrate=baudrate
+		self.baudrate = baudrate
 		self.setup()
 		self.run()
 		self.exit()
 
 	def setup(self):
-		self.obj_arduino=Arduino()
-		self.port=self.obj_arduino.locateport()
-		self.obj_arduino.open_serial(1,self.port,self.baudrate)
+		self.obj_arduino = Arduino()
+		self.port = self.obj_arduino.locateport()
+		self.obj_arduino.open_serial(1, self.port, self.baudrate)
 
 	def run(self):
-		self.pin1=9
-		self.pin2=10
+		self.pin1 = 9
+		self.pin2 = 10
 		for i in range(4):
-			self.obj_arduino.cmd_dcmotor_setup(1,3,1,self.pin1,self.pin2)
-			self.obj_arduino.cmd_dcmotor_run(1,1,150)
+			self.obj_arduino.cmd_dcmotor_setup(1, 3, 1, self.pin1, self.pin2)
+			self.obj_arduino.cmd_dcmotor_run(1, 1, 100)
 			sleep(3)
 			self.obj_arduino.cmd_dcmotor_run(1,1,0)
 			sleep(2)
-			self.obj_arduino.cmd_dcmotor_run(1,1,-150)
+			self.obj_arduino.cmd_dcmotor_run(1,1,-100)
 			sleep(2)
 		self.obj_arduino.cmd_dcmotor_release(1,1)
 		
@@ -39,7 +38,7 @@ class DCMOTOR_ROTATION:
 		self.obj_arduino.close_serial()
 
 def main():
-	obj_dcmotor=DCMOTOR_ROTATION(115200)
+	obj_dcmotor = DCMOTOR_ROTATION(115200)
 
-if __name__=='__main__':
+if __name__== '__main__':
 	main()
