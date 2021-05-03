@@ -704,7 +704,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
           Integer ok(fixed = false);
-          Integer analog_in(fixed = false);
+          Integer val(fixed = false);
           Integer digital_out(fixed = false);
           Integer c_ok(fixed = false);
         algorithm
@@ -714,25 +714,22 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
-            analog_in := sComm.cmd_analog_in(1, 2) "read analog pin 2";
-            strm.print("Potentiometer Readings: " + String(analog_in));
-            if analog_in >= 0 and analog_in < 320 then
+            val := sComm.cmd_analog_in(1, 2) "read analog pin 2";
+            strm.print("Potentiometer Readings: " + String(val));
+            if val >= 0 and val < 320 then
               digital_out := sComm.cmd_digital_out(1, 11, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
-            elseif analog_in >= 320 and analog_in <= 900 then
+            elseif val >= 320 and val < 900 then
               digital_out := sComm.cmd_digital_out(1, 10, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
-            elseif analog_in > 900 and analog_in <= 1023 then
+            elseif val > 900 and val <= 1023 then
               digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
             end if;
           end if;
-          digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
-          digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
-          digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
 //Threshold 1
 //Threshold 2
           when time >= 10 then

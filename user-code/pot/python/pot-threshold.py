@@ -26,20 +26,20 @@ class POT:
 		self.red = 11
 		for i in range(20):
 			val = self.obj_arduino.cmd_analog_in(1, self.pot)
-			print (val)
+			print(val)
 
 			if (int(val) >= 0 and int(val) < 320):
-				self.obj_arduino.cmd_digital_out(1, self.blue, 1)
+				self.obj_arduino.cmd_digital_out(1, self.red, 1)
 				sleep(1)
-				self.obj_arduino.cmd_digital_out(1, self.blue, 0)
+				self.obj_arduino.cmd_digital_out(1, self.red, 0)
 			elif (int(val) >= 320 and int(val) < 900):
 				self.obj_arduino.cmd_digital_out(1, self.green, 1)
 				sleep(1)			
 				self.obj_arduino.cmd_digital_out(1, self.green, 0)			
-			else:
-				self.obj_arduino.cmd_digital_out(1, self.red, 1)
+			elif (int(val) >= 900 and int(val) <= 1023):
+				self.obj_arduino.cmd_digital_out(1, self.blue, 1)
 				sleep(1)
-				self.obj_arduino.cmd_digital_out(1, self.red, 0)
+				self.obj_arduino.cmd_digital_out(1, self.blue, 0)
 
 	def exit(self):
 		self.obj_arduino.close_serial()

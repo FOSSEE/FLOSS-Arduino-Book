@@ -1,7 +1,8 @@
 ok = open_serial(1, 2, 115200); // port 2, baud rate 115200
 if ok ~= 0 then error('Unable to open serial port, please check'); end
-for x = 1:10 //Run for 10 iterations
+for x = 1:20 //Run for 20 iterations
     val = cmd_analog_in(1, 2)
+    disp(val)
     if (val >= 0 & val < 320) then        //threshold 1 
         cmd_digital_out(1, 11, 1)
         sleep(1000)

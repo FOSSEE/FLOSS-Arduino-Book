@@ -10,17 +10,18 @@ void setup() {
   pinMode(RGB_RED, OUTPUT);
   pinMode(RGB_GREEN, OUTPUT);
   pinMode(RGB_BLUE, OUTPUT);
-  for(i = 0; i < 10; i++){
+  for(i = 0; i < 20; i++){
      val = analogRead(POT);
+     Serial.println(val); 
   if(val >= 0 & val < 320) {               //threshold 1 
     digitalWrite(RGB_RED, HIGH);
     delay(1000);
     digitalWrite(RGB_RED, LOW);
-  }else if(val >= 320 & val <= 900) {       //threshold 2 
+  }else if(val >= 320 & val < 900) {       //threshold 2 
     digitalWrite(RGB_GREEN, HIGH);
     delay(1000);
     digitalWrite(RGB_GREEN, LOW); 
-  }else if(val > 900 & val <= 1023) {      //threshold 3
+  }else if(val >= 900 & val <= 1023) {      //threshold 3
     digitalWrite(RGB_BLUE, HIGH);
     delay(1000); 
     digitalWrite(RGB_BLUE, LOW); 
