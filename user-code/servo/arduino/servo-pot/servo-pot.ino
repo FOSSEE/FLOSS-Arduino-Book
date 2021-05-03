@@ -5,8 +5,8 @@ int val;        // variable to read the value from the analog pin
 int i;
 void setup(){
   Serial.begin(115200);
-  myservo.attach(9);        // attach the servo object on to pin 9
-  for(i=0;i<5000;++i){
+  myservo.attach(5);        // attach the servo object on to pin 5
+  for(i = 0; i < 50; ++i){
   val = analogRead(potpin); // reads a value in (0,1023) through pot
   val = map(val, 0, 1023, 0, 180); // maps it in the range (0,180) degrees 
   myservo.write(val);       // moves the motor to the mapped degree
@@ -16,4 +16,3 @@ void setup(){
 }
 void loop(){ 
 } 
-
