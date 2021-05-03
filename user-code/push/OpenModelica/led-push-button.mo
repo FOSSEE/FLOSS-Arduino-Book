@@ -9,24 +9,28 @@ model led_push_button "Conrolling LED with PushButton"
 algorithm
   when initial() then
     ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+    sComm.delay(2000);
   end when;
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
-    val := sComm.cmd_digital_in(1, 12) "Read from digital pin 12";
+    val := sComm.cmd_digital_in(1, 12) "";
     if val == 0 then
+      strm.print("0");
       digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
       sComm.delay(200);
     else
+      strm.print("1");
       digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
       sComm.delay(200);
     end if;
   end if;
-  //for i in 1:1000 loop
-  //end for;
-  //strm.print(String(time));
+//for i in 1:1000 loop
+//end for;
+//  strm.print(String(time));
   when terminal() then
     c_ok := sComm.close_serial(1) "To close the connection safely";
   end when;
-  annotation(experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
+  annotation(
+    experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
 end led_push_button;

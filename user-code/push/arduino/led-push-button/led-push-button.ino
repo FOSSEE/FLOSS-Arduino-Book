@@ -1,20 +1,21 @@
 const int sensorPin = 12;    
 const int ledPin = 9;      
-int sensorValue;  
+int sensorValue = 0;  
 int i;
 void setup() {
   Serial.begin(115200);  
-  pinMode(9, OUTPUT);
-  pinMode(12, INPUT);
-  for (i = 0; i < 1000; i++) {
-    sensorValue = digitalRead(12);
+  pinMode(sensorPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  for (i = 0; i < 50; i++) {
+    sensorValue = digitalRead(sensorPin);
+    Serial.println(sensorValue); // print it at the Serial Monitor
     if (sensorValue == 0) {
-      digitalWrite(9, LOW);
-      delay(5);
+      digitalWrite(ledPin, LOW);
+      delay(200);
     } 
     else { 
-     digitalWrite(9, HIGH);
-     delay(5);
+     digitalWrite(ledPin, HIGH);
+     delay(200);
     } 
   }
 }

@@ -24,8 +24,8 @@ class PUSHBUTTON:
 		self.pushbutton = 12
 		for i in range(20):
 			val = self.obj_arduino.cmd_digital_in(1, self.pushbutton)
-			sleep(1)
-			print (val)
+			print(val)
+			sleep(0.5)
 
 	def exit(self):
 		self.obj_arduino.close_serial()

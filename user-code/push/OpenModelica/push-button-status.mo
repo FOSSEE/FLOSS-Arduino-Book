@@ -21,11 +21,12 @@ algorithm
       sComm.delay(200);
     end if;
   end if;
-  //for i in 1:1000 loop
-  //end for;
+//for i in 1:1000 loop
+//end for;
   when terminal() then
     c_ok := sComm.close_serial(1) "To close the connection safely";
   end when;
-  //sComm.cmd_arduino_meter(digital_in);
-  annotation(experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
+//sComm.cmd_arduino_meter(digital_in);
+  annotation(
+    experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
 end push_button_status;
