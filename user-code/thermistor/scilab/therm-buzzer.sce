@@ -1,6 +1,6 @@
 ok = open_serial(1, 2, 115200);    // port 2, baudrate 115200
 if ok ~= 0 then error('Unable to open serial port, please check'); end
-for i = 1:500 //Run for 500 iterations
+for i = 1:20 //Run for 20 iterations
     val = cmd_analog_in(1, 4)       // read analog pin 4 (thermistor)
     disp(val);
     if(val > 550)                  // Setting Threshold value of 550 	
@@ -10,4 +10,5 @@ for i = 1:500 //Run for 500 iterations
     end
     sleep(500);
 end
+cmd_digital_out(1, 3, 0) // Turn OFF BUZZER
 close_serial(1); 

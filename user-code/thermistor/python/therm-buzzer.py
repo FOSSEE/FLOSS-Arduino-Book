@@ -31,7 +31,9 @@ class THERM_BUZZER:
 				self.obj_arduino.cmd_digital_out(1, self.buzzer, 1)				
 			else:
 				self.obj_arduino.cmd_digital_out(1, self.buzzer, 0)
-				sleep(0.5)
+			sleep(0.5)
+		self.obj_arduino.cmd_digital_out(1, self.buzzer, 0)
+
 
 	def exit(self):
 		self.obj_arduino.close_serial()
