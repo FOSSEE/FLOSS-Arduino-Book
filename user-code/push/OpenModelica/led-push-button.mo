@@ -14,7 +14,7 @@ algorithm
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
-    val := sComm.cmd_digital_in(1, 12) "";
+    val := sComm.cmd_digital_in(1, 12);
     if val == 0 then
       strm.print("0");
       digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";

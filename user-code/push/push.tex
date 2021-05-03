@@ -141,7 +141,7 @@ instructions given in \secref{sec:ard-start} before getting started.
   acquiring the values, we print them using,
   \lstinputlisting[firstline=8,lastline=8]
   {\LocPushardcode/push-button-status/push-button-status.ino} We
-  repeat this read and print process 1000 times by putting the
+  repeat this read and print process 50 times by putting the
   commands in a {\tt for} loop. While running this experiment, the readers must press
   and release the pushbutton and observe the values being printed on the
   {\tt Serial Monitor} of Arduino IDE.
@@ -156,7 +156,7 @@ instructions given in \secref{sec:ard-start} before getting started.
   the pusbhutton value from digital pin 12. If the value is ``1'',
   we turn on the LED at pin 9 else we turn it off. The
   condition check is performed using {\tt if else} statements. We run
-  these commands for 1000 iterations. While running this experiment, the readers 
+  these commands for 50 iterations. While running this experiment, the readers 
   must press and release the pushbutton. Accordingly, they can observe whether 
   the LED glows when the pushbutton is pressed. 
   %  \redcolor{Serial monitor}.
@@ -227,7 +227,7 @@ digital pin 12 using the following command:
   for this experiment is given in \sciref{sci:push-200}. After reading
   the pushbutton status, we turn the LED on if the pushbutton is
   pressed, otherwise we turn it off. The following lines,
-  \lstinputlisting[firstline=5,lastline=9]
+  \lstinputlisting[firstline=6,lastline=9]
   {\LocPushscicode/led-push-button.sce} perform the condition check
   and corresponding LED state control operation. While running this experiment, the readers 
   must press and release the pushbutton. Accordingly, they can observe whether 
@@ -463,7 +463,7 @@ printed) by the following lines:
   {\LocPushjuliacode/push-button-status.jl} where {\tt val} contains the pushbutton value acquired by the previous command.
   When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
   when the pushbutton is pressed, {\tt val} will be ``1''. To encourage the user to have a good hands-on, we run these commands in a
-{\tt for} loop for 200 iterations. The readers are encouraged to change the number
+{\tt for} loop for 20 iterations. The readers are encouraged to change the number
 of iterations as per their requirements. While running this experiment, the readers
 must press and release the pushbutton and observe the values being printed
 on the Command Prompt (on Windows) or Terminal (on Linux), as the case
@@ -476,7 +476,7 @@ maybe.
   for this experiment is given in \juliaref{julia:push-200}. After reading
   the pushbutton status, we turn the LED on if the pushbutton is
   pressed, otherwise we turn it off. The following lines, 
-  \lstinputlisting[firstline=7,lastline=12]
+  \lstinputlisting[firstline=10,lastline=13]
   {\LocPushjuliacode/led-push-button.jl} perform the condition check
   and corresponding LED state control operation. While running this experiment, the readers must press and release the push-
   button. Accordingly, they can observe whether the LED glows when the push-
@@ -536,7 +536,7 @@ on the output window of OMEdit, as shown in \figref{om-sim-success}.
   for this experiment is given in \OpenModelicaref{OpenModelica:push-200}. 
   After reading the pushbutton status, we turn the LED on if the pushbutton is
   pressed, otherwise we turn it off. The following lines, 
-  \lstinputlisting[firstline=17,lastline=23]
+  \lstinputlisting[firstline=18,lastline=26]
   {\LocPushOpenModelicacode/led-push-button.mo} perform the condition check
   and corresponding LED state control operation. While running this experiment, the readers must press and release the push-
   button. Accordingly, they can observe whether the LED glows when the push-
