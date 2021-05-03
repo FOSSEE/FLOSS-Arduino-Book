@@ -5,29 +5,29 @@
 \newcommand{\LocLDRfig}{\Origin/user-code/ldr/figures}
 \newcommand{\LocLDRscicode}{\Origin/user-code/ldr/scilab}
 \newcommand{\LocLDRscibrief}[1]{{\tt
-    \seqsplit{Origin/user-code/ldr/scilab/#1}},
-see \fnrefp{fn:file-loc}}
+      \seqsplit{Origin/user-code/ldr/scilab/#1}},
+  see \fnrefp{fn:file-loc}}
 \newcommand{\LocLDRardcode}{\Origin/user-code/ldr/arduino}
 \newcommand{\LocLDRardbrief}[1]{{\tt
-    \seqsplit{Origin/user-code/ldr/arduino/#1}},
-see \fnrefp{fn:file-loc}}
+      \seqsplit{Origin/user-code/ldr/arduino/#1}},
+  see \fnrefp{fn:file-loc}}
 
 %%%%%%%%%python
 \newcommand{\LocLDRpycode}{\Origin/user-code/ldr/python}
 \newcommand{\LocLDRpybrief}[1]{{\tt \seqsplit{%
-    Origin/user-code/ldr/python/#1}}, see \fnrefp{fn:file-loc}}
+        Origin/user-code/ldr/python/#1}}, see \fnrefp{fn:file-loc}}
 %%%%%%python
 
 %%%%%%%%%julia starts
 \newcommand{\LocLDRjuliacode}{\Origin/user-code/ldr/julia}
 \newcommand{\LocLDRjuliabrief}[1]{{\tt \seqsplit{%
-    Origin/user-code/ldr/julia/#1}}, see \fnrefp{fn:file-loc}}
+        Origin/user-code/ldr/julia/#1}}, see \fnrefp{fn:file-loc}}
 %%%%%%julia ends
 
 %%%%%%OpenModelica Starts
 \newcommand{\LocLDROpenModelicacode}{\Origin/user-code/ldr/OpenModelica}  %added for OpenModelica
 \newcommand{\LocLDROpenModelicabrief}[1]{{\tt \seqsplit{%
-    Origin/user-code/led/OpenModelica/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
+        Origin/user-code/led/OpenModelica/#1}}, see \fnrefp{fn:file-loc}} % added for OpenModelica
 
 %%%%%OpenModelcia Ends
 
@@ -56,21 +56,21 @@ experiment are shown in \figref{fig:ldrconn}. However, the user
 doesn't need to connect any wire or component explicitly.
 
 \begin{figure}
-\centering
-\subfloat[Pictorial representation of an LDR]{
-\includegraphics[width=\smfig]{\LocLDRfig/ldr.jpg}
-\label{fig:ldr}} \hfill
-\subfloat[Symbolic representation of an LDR]{
-\includegraphics[width=\smfig]{\LocLDRfig/ldr_sym.png}
-\label{fig:ldrsym}}
-\caption{Light Dependent Resistor}
+  \centering
+  \subfloat[Pictorial representation of an LDR]{
+    \includegraphics[width=\smfig]{\LocLDRfig/ldr.jpg}
+    \label{fig:ldr}} \hfill
+  \subfloat[Symbolic representation of an LDR]{
+    \includegraphics[width=\smfig]{\LocLDRfig/ldr_sym.png}
+    \label{fig:ldrsym}}
+  \caption{Light Dependent Resistor}
 \end{figure}
 
 \begin{figure}
-\centering
-\includegraphics[width=\smfig]{\LocLDRfig/ldr-conn.png}
-\caption{Internal connection diagram for the LDR on the shield}
-\label{fig:ldrconn}
+  \centering
+  \includegraphics[width=\smfig]{\LocLDRfig/ldr-conn.png}
+  \caption{Internal connection diagram for the LDR on the shield}
+  \label{fig:ldrconn}
 \end{figure}
 
 The LDR mounted on the shield is an analog sensor. Hence, the analog voltage, corresponding to the changing resistance, across its terminals needs to be digitized before being sent to the computer. This is taken care of by an onboard Analog to Digital Converter (ADC) of ATmega328 microcontroller on the \arduino\
@@ -92,10 +92,10 @@ A breadboard is a device for holding the components of a circuit and connecting
 them together. We can build an electronic circuit on a breadboard without doing any 
 soldering. To know more about the breadboard and other electronic components, 
 one should watch the Spoken Tutorials on Arduino as published on
-{\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+  {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
 tutorials labeled as Basic. However, we strongly recommend the readers should
 watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
-{\tt Arduino with Tricolor LED and Push button}.
+  {\tt Arduino with Tricolor LED and Push button}.
 
 \begin{figure}
   \centering
@@ -139,55 +139,55 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
 instructions given in \secref{sec:ard-start} before getting started.
 
 \begin{enumerate}
-\item A simple code to read the LDR values is given in
-  \ardref{ard:ldr-read}. As discussed earlier, the 0-5V LDR readings
-  are mapped to 0-1023 through an ADC. The 
-%\redcolor{Arduino IDE}\ 
-  Arduino IDE
-  based command for the analog read functionality is given by,
-  \lstinputlisting[firstline=6,lastline=6]
-  {\LocLDRardcode/ldr-read/ldr-read.ino} where {\tt A5} represents the
-  analog pin 5 to be read and the read LDR values are stored in the
-  variable {\tt val}.  The read values are then displayed using,
-  \lstinputlisting[firstline=7,lastline=7]
-  {\LocLDRardcode/ldr-read/ldr-read.ino} The delay in the code  
-  \lstinputlisting[firstline=8,lastline=8]
-  {\LocLDRardcode/ldr-read/ldr-read.ino} is added so that the readings
-  do not scroll away very fast.  The entire reading and display
-  operation is carried out 20 times. 
-
-  To observe the values, one has to open the {\tt Serial Monitor} of
-  the Arduino IDE.  The numbers displayed are in the range 0 to 1023
-  and depend on the light falling on the LDR.  If one does the
-  experiment in a completely dark room, the reading will be 0.  If on
-  the other hand, a bright light, say for instance the torch light
-  from mobile, is shined, the value displayed is close to 1023.  One
-  will get intermediate values by keeping one's finger on the LDR. 
-  While running this experiment, the readers must keep their fingertips on the LDR and
-  observe the change in values being printed on the
-  {\tt Serial Monitor} of Arduino IDE.
-
-\item This experiment is an extension of the previous
-experiment. Here, depending the resistance of the LDR, we will
-  turn the red LED on.  The program for this is available at
-  \ardref{ard:ldr-led}.  The value of LDR is read and stored in {\tt
-    val}.  In case it is below some threshold (like 300 in \ardref{ard:ldr-led}), 
-    it puts a high in pin number 11.  From \secref{sec:led-pril}, 
-    one can note that this pin is for the red LED.  If the LDR value is below 300, 
-    the red LED will be on, else, it will be turned off.  
-    This loop is repeated 2,000 times. While running this experiment, the readers 
-    must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
-    they can observe whether the red LED is turned on. 
+  \item A simple code to read the LDR values is given in
+        \ardref{ard:ldr-read}. As discussed earlier, the 0-5V LDR readings
+        are mapped to 0-1023 through an ADC. The 
+        %\redcolor{Arduino IDE}\ 
+        Arduino IDE
+        based command for the analog read functionality is given by,
+        \lstinputlisting[firstline=6,lastline=6]
+        {\LocLDRardcode/ldr-read/ldr-read.ino} where {\tt A5} represents the
+        analog pin 5 to be read and the read LDR values are stored in the
+        variable {\tt val}.  The read values are then displayed using,
+        \lstinputlisting[firstline=7,lastline=7]
+        {\LocLDRardcode/ldr-read/ldr-read.ino} The delay in the code  
+        \lstinputlisting[firstline=8,lastline=8]
+        {\LocLDRardcode/ldr-read/ldr-read.ino} is added so that the readings
+        do not scroll away very fast.  The entire reading and display
+        operation is carried out 20 times. 
+        
+        To observe the values, one has to open the {\tt Serial Monitor} of
+        the Arduino IDE.  The numbers displayed are in the range 0 to 1023
+        and depend on the light falling on the LDR.  If one does the
+        experiment in a completely dark room, the reading will be 0.  If on
+        the other hand, a bright light, say for instance the torch light
+        from mobile, is shined, the value displayed is close to 1023.  One
+        will get intermediate values by keeping one's finger on the LDR. 
+        While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on the
+          {\tt Serial Monitor} of Arduino IDE.
+        
+  \item This experiment is an extension of the previous
+        experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \ardref{ard:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \ardref{ard:ldr-led}), 
+        it puts a high in pin number 11.  From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        This loop is repeated 2,000 times. While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
 \end{enumerate}
 
 \begin{exercise}
-Carry out the following exercise:
-\begin{enumerate}
-\item Carry out the experiment in a dark room and check what values
-  get displayed on the {\tt Serial Monitor}.
-\item Carry out the experiment with the torch light from the mobile
-  phone shining on the LDR.
-\end{enumerate}
+  Carry out the following exercise:
+  \begin{enumerate}
+    \item Carry out the experiment in a dark room and check what values
+          get displayed on the {\tt Serial Monitor}.
+    \item Carry out the experiment with the torch light from the mobile
+          phone shining on the LDR.
+  \end{enumerate}
 \end{exercise}
 
 \subsection{Arduino Code}
@@ -195,19 +195,19 @@ Carry out the following exercise:
 \addtocontents{ard}{\protect\addvspace{\codclr}}
 
 \begin{ardcode}
-\acaption{Read and display the LDR values}
-{Read and display the LDR values.  Available at
-  \LocLDRardbrief{ldr-read/ldr-read.ino}.}
-\label{ard:ldr-read}
-\lstinputlisting{\LocLDRardcode/ldr-read/ldr-read.ino}
+  \acaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRardbrief{ldr-read/ldr-read.ino}.}
+  \label{ard:ldr-read}
+  \lstinputlisting{\LocLDRardcode/ldr-read/ldr-read.ino}
 \end{ardcode}
 
 \begin{ardcode}
-\acaption{Turning the red LED on and off}
-{Turning the red LED on and off.  Available at
-  \LocLDRardbrief{ldr-led/ldr-led.ino}.}
-\label{ard:ldr-led}
-\lstinputlisting{\LocLDRardcode/ldr-led/ldr-led.ino}
+  \acaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRardbrief{ldr-led/ldr-led.ino}.}
+  \label{ard:ldr-led}
+  \lstinputlisting{\LocLDRardcode/ldr-led/ldr-led.ino}
 \end{ardcode}
 
 \section{Interfacing the LDR through Scilab}
@@ -229,73 +229,73 @@ The reader should go through the instructions given in
 % where the input argument 1 is fixed for this kit, and the port number corresponds to the analog pin of \arduino that needs to be read.  We will carry out two experiments using Scilab.
 
 \begin{enumerate}
-\item In the first experiment, we will read the LDR values and display it in 
-\scilab\ Console. The code for this experiment is 
-given in  \sciref{sci:ldr-read}. As explained earlier in \secref{sec:light-sci}, 
-we begin with serial port initialization. Then, we read the input coming from
-analog pin 5 using the following command:  
-\lstinputlisting[firstline=4,lastline=4]
-  {\LocLDRscicode/ldr-read.sce}
-  Note that the one leg of the LDR on
-  the shield is connected to analog pin 5 of \arduino\, 
-  as given in \figref{fig:ldrconn}. The read value is displayed in the 
-  \scilab\ Console by the following command: 
-  \lstinputlisting[firstline=5,lastline=5]
-  {\LocLDRscicode/ldr-read.sce} where {\tt val} contains
-  the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
-  reading will be 0. If on the other hand, a bright light, say for instance the torch
-  light from mobile, is shined, the value displayed is close to 1023. One will get
-  intermediate values by keeping one’s finger on the LDR. To
-  encourage the user to have a good hands-on, we run these commands in
-  a {\tt for} loop for 500 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
-  observe the change in values being printed on the \scilab\ Console. 
-
-
-% We use \sciref{sci:ldr-read} to read the LDR values.  We find the
-%   port number from the computer settings and give it as input to the
-%   {\tt open\_serial} command to start serial port communication. In
-%   our case, the port number is 2. Next, we shall fetch LDR values
-%   using the command, {\tt cmd\_analog\_in}, as explained above. This
-%   is indicated on line 4 of the code. We run this command in a {\tt
-%     for} loop 20 times. In each iteration of the {\tt for} loop, we
-%   acquire LDR data fed to analog pin 5, display it in the Scilab
-%   command window and suspend Scilab operation for 500
-%   milliseconds. The output of this experiment is displayed on the Scilab command
-%   window. After reading the values, we close the serial port using the
-%   command, {\tt close\_serial}, of Scilab-Arduino toolbox.
-
-% \item In this experiment, we will observe the saturation point of LDR,
-%   see \sciref{sci:ldr-led}.  We know that as incident light intensity
-%   increases, voltage at analog input of the \arduino\ board
-%   increases. Thus the ADC values being read by the \arduino\ board also
-%   increase. But after certain high intensity, ADC values reach its
-%   maximum. For 10 bit ADC in Arduino, this high intensity corresponds
-%   to 1023.  Beyond this value, the LDR is incapable of sensing the
-%   change in light intensity and is considered to be saturated. To
-%   observe this saturation point, we can do a simple task of exposing
-%   LDR to high intensity. We can put a torch/light source sensor to
-%   close proximity of LDR.
-\item This experiment is an extension of the previous
-experiment. Here, depending the resistance of the LDR, we will
-  turn the red LED on.  The program for this is available at
-  \sciref{sci:ldr-led}.  The value of LDR is read and stored in {\tt
-    val}.  In case it is below some threshold (like 300 in \ardref{ard:ldr-led}), 
-    it puts a high in pin number 11.  From \secref{sec:led-pril}, 
-    one can note that this pin is for the red LED.  If the LDR value is below 300, 
-    the red LED will be on, else, it will be turned off.  
-    This loop is repeated 2,000 times. While running this experiment, the readers 
-    must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
-    they can observe whether the red LED is turned on. 
+  \item In the first experiment, we will read the LDR values and display it in
+        \scilab\ Console. The code for this experiment is 
+        given in  \sciref{sci:ldr-read}. As explained earlier in \secref{sec:light-sci}, 
+        we begin with serial port initialization. Then, we read the input coming from
+        analog pin 5 using the following command:  
+        \lstinputlisting[firstline=4,lastline=4]
+        {\LocLDRscicode/ldr-read.sce}
+        Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed in the 
+        \scilab\ Console by the following command: 
+        \lstinputlisting[firstline=5,lastline=5]
+        {\LocLDRscicode/ldr-read.sce} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one’s finger on the LDR. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 500 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on the \scilab\ Console. 
+        
+        
+        % We use \sciref{sci:ldr-read} to read the LDR values.  We find the
+        %   port number from the computer settings and give it as input to the
+        %   {\tt open\_serial} command to start serial port communication. In
+        %   our case, the port number is 2. Next, we shall fetch LDR values
+        %   using the command, {\tt cmd\_analog\_in}, as explained above. This
+        %   is indicated on line 4 of the code. We run this command in a {\tt
+        %     for} loop 20 times. In each iteration of the {\tt for} loop, we
+        %   acquire LDR data fed to analog pin 5, display it in the Scilab
+        %   command window and suspend Scilab operation for 500
+        %   milliseconds. The output of this experiment is displayed on the Scilab command
+        %   window. After reading the values, we close the serial port using the
+        %   command, {\tt close\_serial}, of Scilab-Arduino toolbox.
+        
+        % \item In this experiment, we will observe the saturation point of LDR,
+        %   see \sciref{sci:ldr-led}.  We know that as incident light intensity
+        %   increases, voltage at analog input of the \arduino\ board
+        %   increases. Thus the ADC values being read by the \arduino\ board also
+        %   increase. But after certain high intensity, ADC values reach its
+        %   maximum. For 10 bit ADC in Arduino, this high intensity corresponds
+        %   to 1023.  Beyond this value, the LDR is incapable of sensing the
+        %   change in light intensity and is considered to be saturated. To
+        %   observe this saturation point, we can do a simple task of exposing
+        %   LDR to high intensity. We can put a torch/light source sensor to
+        %   close proximity of LDR.
+  \item This experiment is an extension of the previous
+        experiment. Here, depending on the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \sciref{sci:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \ardref{ard:ldr-led}), 
+        it puts a high in pin number 11.  From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        This loop is repeated 2,000 times. While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
 \end{enumerate}
 
 \begin{exercise}
-Carry out the exercise below:
-\begin{enumerate}
-\item Carry out the exercise in the previous section. 
-\item Calculate the difference in LDR readings in indoor room
-  before lighting the lamp and after lighting the lamp. You can also
-  record changes in the room lighting at different times of the day.
-\end{enumerate}
+  Carry out the exercise below:
+  \begin{enumerate}
+    \item Carry out the exercise in the previous section.
+    \item Calculate the difference in LDR readings in indoor room
+          before lighting the lamp and after lighting the lamp. You can also
+          record changes in the room lighting at different times of the day.
+  \end{enumerate}
 \end{exercise}
 
 \subsection{Scilab Code}
@@ -303,23 +303,23 @@ Carry out the exercise below:
 \addtocontents{cod}{\protect\addvspace{\codclr}}
 
 \begin{scicode}
-\ccaption{Read and display the LDR values}
-{Read and display the LDR values.  Available at
-  \LocLDRscibrief{ldr-read.sce}.}
-\label{sci:ldr-read}
-\lstinputlisting{\LocLDRscicode/ldr-read.sce}
+  \ccaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRscibrief{ldr-read.sce}.}
+  \label{sci:ldr-read}
+  \lstinputlisting{\LocLDRscicode/ldr-read.sce}
 \end{scicode}
 
 \begin{scicode}
-\ccaption{Turning the red LED on and off}
-{Turning the red LED on and off.  Available at
-  \LocLDRscibrief{ldr-led.sce}.}
-\label{sci:ldr-led}
-\lstinputlisting{\LocLDRscicode/ldr-led.sce}
+  \ccaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRscibrief{ldr-led.sce}.}
+  \label{sci:ldr-led}
+  \lstinputlisting{\LocLDRscicode/ldr-led.sce}
 \end{scicode}
 
 \section{Interfacing the LDR through Xcos}
-Next, we shall perform the above mentioned experiment, to read LDR
+Next, we shall perform the above mentioned experiments, to read LDR
 values, through Xcos.  We will carry out the same two experiments as in the previous
 sections.  For each, will give the location
 of the zcos file and the parameters to set.  The reader should go
@@ -327,133 +327,133 @@ through the instructions given in \secref{sec:xcos-start} before
 getting started.
 
 \begin{enumerate}
-\item First we will read the LDR values and display it.  When the
-file required for this experiment is invoked, one gets the GUI as in
-\figref{fig:ldr-read}.  In the caption of this figure, one
-can see where to locate the file. 
-
-As discussed in earlier chapters, we start with the initialization
-of the serial port. Next, using {\tt Analog Read} block, we read
-the values of LDR connected on analog pin 5. Next, we use a scope to plot the values 
-coming from this pin. When this Xcos file is simulated, a plot is opened, 
-as shown in \figref{fig:ldr-read-plot}. 
-
-  \begin{figure}
-    \centering
-    \includegraphics[width=\smfig]{\LocLDRfig/ldr-read-xcos.PNG}
-    \caption[Xcos diagram to read LDR values]{Xcos diagram to read LDR
-      values.  
-      This is what one sees when 
-      \LocLDRscibrief{ldr-read.zcos}, is invoked.}
-    \label{fig:ldr-read}
-  \end{figure}
-
-  \begin{figure}
-    \centering
-    \includegraphics[width=\hgfig]{\LocLDRfig/ldr-read-plot.PNG}
-    \caption{Plot window in Xcos to read LDR values}
-    \label{fig:ldr-read-plot}
-  \end{figure}
-
-  We will next explain how to set the parameters for this simulation.
-  To set value on any block, one needs to right click and open the
-  {\tt Block Parameters} or double click.  The values for each block
-  is tabulated in \tabref{tab:ldr-read}.  All other parameters are to
-  be left unchanged.
-  \begin{table}
-    \centering
-    \caption{Xcos parameters to read LDR}
-    \label{tab:ldr-read}
-    \begin{tabular}{llc} \hline
-      Name of the block & Parameter name & Value \\ \hline
-      ARDUINO\_SETUP & Identifier of Arduino Card & 1 \\
-      & Serial com port number & 2\portcmd \\ \hline
-      TIME\_SAMPLE & Duration of acquisition(s) & 10 \\
-      & Sampling period(s) & 0.1 \\ \hline
-      ANALOG\_READ\_SB & Analog Pin & 5 \\
-      & Arduino card number & 1 \\ \hline
-      CSCOPE & Ymin & 0 \\ 
-      & Ymax & 1023 \\
-      & Refresh period & 100 \\ \hline
-      CLOCK\_c & Period & 0.1 \\
-      & Initialisation Time & 0 \\ \hline
-    \end{tabular}
-  \end{table}
-
-  During this experiment, we vary the light incident on LDR by using
-   light sources and obstacles such as torch light, paper,
-  hand (or fingertips), etc. and observe the LDR readings in the plot, as shown in 
-  \figref{fig:ldr-read-plot}. We observe that with a constant light source, the LDR output saturates after some time. 
-%The output for this experiment is shown in \figref{fig:ldrsatout}.
-
-%   \begin{figure}
-%     \centering
-%     \includegraphics[width=\lgfig]{\LocLDRfig/ldr-sat-out.png}
-%     \caption[LDR output for varying intensity of incident light, as
-%     seen in Xcos] {LDR output for varying intensity of
-%       incident light, as seen in Xcos.  This is what one sees when
-%       {\tt \LocLDRscibrief/ldr-read-xcos.zcos} is invoked.}
-%     \label{fig:ldrsatout}
-%   \end{figure}
-
-\item In the second experiment, we take a step further and control the
-state of red LED in accordance with the LDR values. When the file required for this
-  experiment is invoked, one gets the GUI as in \figref{fig:ldr-led}.
-  In the caption of this figure, one can see where to locate the file.
-
-  \begin{figure}
-    \centering
-    \includegraphics[width=\lgfig]{\LocLDRfig/ldr-led-2.png}
-%    \includegraphics[width=\smfig]{\LocLDRfig/ldr-led-xcos.PNG}
-    \caption[Xcos diagram to read the value of the LDR, which is used
-    to turn the blue LED on or off] {Xcos diagram to read the value of
-      the LDR, which is used to turn the blue LED on or off.  This is
-      what one sees when \LocLDRscibrief{ldr-led-xcos.zcos}, is
-      invoked.}
-    \label{fig:ldr-led}
-  \end{figure}
-
-  We will next explain how to set the parameters for this simulation.
-  To set value on any block, one needs to right click and open the
-  {\tt Block Parameters} or double click.  The values for each block
-  is tabulated in \tabref{tab:ldr-led}.  In the CSCOPE\_c block, the
-  two values correspond to two graphs, one for digital write and other
-  for analog read values. All other parameters are to be left
-  unchanged. When this Xcos file is simulated, a plot is opened, 
-  as shown in \figref{fig:ldr-led-read-plot}. 
-
-  \begin{figure}
-    \centering
-    \includegraphics[width=\hgfig]{\LocLDRfig/ldr-led-read-plot.PNG}
-    \caption{Plot window in Xcos to read LDR values and the state of LED}
-    \label{fig:ldr-led-read-plot}
-  \end{figure}
-
-  \begin{table}
-    \centering
-    \caption{Xcos parameters to read LDR and regulate blue LED}
-    \label{tab:ldr-led}
-    \begin{tabular}{llc} \hline
-      Name of the block & Parameter name & Value \\ \hline
-      ARDUINO\_SETUP & Identifier of Arduino Card & 1 \\
-      & Serial com port number & 2\portcmd \\ \hline
-      TIME\_SAMPLE & Duration of acquisition(s) & 10 \\
-      & Sampling period(s) & 0.1 \\ \hline
-      ANALOG\_READ\_SB & Analog pin & 5 \\
-      & Arduino card number & 1 \\ \hline
-      CMSCOPE & Ymin & 0 0 \\ 
-      & Ymax & 1 1023 \\
-      & Refresh period & 100 100 \\ \hline
-      CLOCK\_c & Period & 0.1 \\
-      & Initialisation time & 0 \\ \hline
-      SWITCH2\_m & Datatype & 1 \\
-      & threshold & 300 \\
-      & pass first input if field & 0 \\
-      & use zero crossing & 1 \\ \hline
-      DIGITAL\_WRITE\_SB & Digital pin & 9 \\
-      & Arduino card number & 1 \\ \hline
-    \end{tabular}
-  \end{table}
+  \item First we will read the LDR values and display it.  When the
+        file required for this experiment is invoked, one gets the GUI as in
+        \figref{fig:ldr-read}.  In the caption of this figure, one
+        can see where to locate the file. 
+        
+        As discussed in earlier chapters, we start with the initialization
+        of the serial port. Next, using {\tt Analog Read} block, we read
+        the values of LDR connected on analog pin 5. Next, we use a scope to plot the values 
+        coming from this pin. When this Xcos file is simulated, a plot is opened, 
+        as shown in \figref{fig:ldr-read-plot}. 
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\smfig]{\LocLDRfig/ldr-read-xcos.PNG}
+          \caption[Xcos diagram to read LDR values]{Xcos diagram to read LDR
+            values.  
+            This is what one sees when 
+            \LocLDRscibrief{ldr-read.zcos}, is invoked.}
+          \label{fig:ldr-read}
+        \end{figure}
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\hgfig]{\LocLDRfig/ldr-read-plot.PNG}
+          \caption{Plot window in Xcos to read LDR values}
+          \label{fig:ldr-read-plot}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:ldr-read}.  All other parameters are to
+        be left unchanged.
+        \begin{table}
+          \centering
+          \caption{Xcos parameters to read LDR}
+          \label{tab:ldr-read}
+          \begin{tabular}{llc} \hline
+            Name of the block & Parameter name             & Value     \\ \hline
+            ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
+                              & Serial com port number     & 2\portcmd \\ \hline
+            TIME\_SAMPLE      & Duration of acquisition(s) & 10        \\
+                              & Sampling period(s)         & 0.1       \\ \hline
+            ANALOG\_READ\_SB  & Analog Pin                 & 5         \\
+                              & Arduino card number        & 1         \\ \hline
+            CSCOPE            & Ymin                       & 0         \\ 
+                              & Ymax                       & 1023      \\
+                              & Refresh period             & 100       \\ \hline
+            CLOCK\_c          & Period                     & 0.1       \\
+                              & Initialisation Time        & 0         \\ \hline
+          \end{tabular}
+        \end{table}
+        
+        During this experiment, we vary the light incident on LDR by using
+        light sources and obstacles such as torch light, paper,
+        hand (or fingertips), etc. and observe the LDR readings in the plot, as shown in 
+        \figref{fig:ldr-read-plot}. We observe that with a constant light source, the LDR output saturates after some time. 
+        %The output for this experiment is shown in \figref{fig:ldrsatout}.
+        
+        %   \begin{figure}
+        %     \centering
+        %     \includegraphics[width=\lgfig]{\LocLDRfig/ldr-sat-out.png}
+        %     \caption[LDR output for varying intensity of incident light, as
+        %     seen in Xcos] {LDR output for varying intensity of
+        %       incident light, as seen in Xcos.  This is what one sees when
+        %       {\tt \LocLDRscibrief/ldr-read-xcos.zcos} is invoked.}
+        %     \label{fig:ldrsatout}
+        %   \end{figure}
+        
+  \item In the second experiment, we take a step further and control the
+        state of red LED in accordance with the LDR values. When the file required for this
+        experiment is invoked, one gets the GUI as in \figref{fig:ldr-led}.
+        In the caption of this figure, one can see where to locate the file.
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\lgfig]{\LocLDRfig/ldr-led-2.png}
+          %    \includegraphics[width=\smfig]{\LocLDRfig/ldr-led-xcos.PNG}
+          \caption[Xcos diagram to read the value of the LDR, which is used
+            to turn the blue LED on or off] {Xcos diagram to read the value of
+            the LDR, which is used to turn the blue LED on or off.  This is
+            what one sees when \LocLDRscibrief{ldr-led-xcos.zcos}, is
+            invoked.}
+          \label{fig:ldr-led}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:ldr-led}.  In the CSCOPE\_c block, the
+        two values correspond to two graphs, one for digital write and other
+        for analog read values. All other parameters are to be left
+        unchanged. When this Xcos file is simulated, a plot is opened, 
+        as shown in \figref{fig:ldr-led-read-plot}. 
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\hgfig]{\LocLDRfig/ldr-led-read-plot.PNG}
+          \caption{Plot window in Xcos to read LDR values and the state of LED}
+          \label{fig:ldr-led-read-plot}
+        \end{figure}
+        
+        \begin{table}
+          \centering
+          \caption{Xcos parameters to read LDR and regulate blue LED}
+          \label{tab:ldr-led}
+          \begin{tabular}{llc} \hline
+            Name of the block  & Parameter name             & Value     \\ \hline
+            ARDUINO\_SETUP     & Identifier of Arduino Card & 1         \\
+                               & Serial com port number     & 2\portcmd \\ \hline
+            TIME\_SAMPLE       & Duration of acquisition(s) & 10        \\
+                               & Sampling period(s)         & 0.1       \\ \hline
+            ANALOG\_READ\_SB   & Analog pin                 & 5         \\
+                               & Arduino card number        & 1         \\ \hline
+            CMSCOPE            & Ymin                       & 0 0       \\ 
+                               & Ymax                       & 1 1023    \\
+                               & Refresh period             & 100 100   \\ \hline
+            CLOCK\_c           & Period                     & 0.1       \\
+                               & Initialisation time        & 0         \\ \hline
+            SWITCH2\_m         & Datatype                   & 1         \\
+                               & threshold                  & 300       \\
+                               & pass first input if field  & 0         \\
+                               & use zero crossing          & 1         \\ \hline
+            DIGITAL\_WRITE\_SB & Digital pin                & 9         \\
+                               & Arduino card number        & 1         \\ \hline
+          \end{tabular}
+        \end{table}
 \end{enumerate}
 
 \section{Interfacing the LDR through Python}
@@ -467,60 +467,60 @@ The reader should go through the instructions given in
 \secref{sec:python-start} before getting started.
 
 \begin{enumerate}
-\item In the first experiment, we will read the LDR values. The code for this experiment is given in
-\pyref{py:ldr-read}. As explained earlier in \secref{sec:light-py}, we begin with 
-importing necessary modules followed by setting up the serial port. 
-Then, we read the input coming from analog pin 5 using the
-following command:
-\lstinputlisting[firstline=26,lastline=26]
-{\LocLDRpycode/ldr-read.py} Note that the one leg of the LDR on
-the shield is connected to analog pin 5 of \arduino\, 
-as given in \figref{fig:ldrconn}. The read value is displayed 
- by the following command: 
-\lstinputlisting[firstline=27,lastline=27]
-{\LocLDRpycode/ldr-read.py} where {\tt val} contains
-the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
-reading will be 0. If on the other hand, a bright light, say for instance the torch
-light from mobile, is shined, the value displayed is close to 1023. One will get
-intermediate values by keeping one's finger on the LDR. To
-encourage the user to have a good hands-on, we run these commands in
-a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
-observe the change in values being printed on on the
-Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
-
-\item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
-  turn the red LED on.  The program for this is available at
-  \pyref{py:ldr-led}.  The value of LDR is read and stored in {\tt
-    val}.  In case it is below some threshold (like 300 in \pyref{py:ldr-led}), 
-    it puts a high in pin number 11.  From \secref{sec:led-pril}, 
-    one can note that this pin is for the red LED.  If the LDR value is below 300, 
-    the red LED will be on, else, it will be turned off.  
-    This loop is repeated 100 times. While running this experiment, the readers 
-    must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
-    they can observe whether the red LED is turned on. 
-
-
-% In this experiment, we will observe the saturation point of LDR,
-%   see \pyref{py:ldr-led}.  We know that as incident light intensity
-%   increases, voltage at analog input of the \arduino\ board
-%   increases. Thus the ADC values being read by the \arduino\ board also
-%   increase. But after certain high intensity, ADC values reach its
-%   maximum. For 10 bit ADC in Arduino, this high intensity corresponds
-%   to 1023.  Beyond this value, the LDR is incapable of sensing the
-%   change in light intensity and is considered to be saturated. To
-%   observe this saturation point, we can do a simple task of exposing
-%   LDR to high intensity. We can put a torch/light source sensor to
-%   close proximity of LDR.
+  \item In the first experiment, we will read the LDR values. The code for this experiment is given in
+        \pyref{py:ldr-read}. As explained earlier in \secref{sec:light-py}, we begin with 
+        importing necessary modules followed by setting up the serial port. 
+        Then, we read the input coming from analog pin 5 using the
+        following command:
+        \lstinputlisting[firstline=26,lastline=26]
+        {\LocLDRpycode/ldr-read.py} Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed 
+        by the following command: 
+        \lstinputlisting[firstline=27,lastline=27]
+        {\LocLDRpycode/ldr-read.py} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one's finger on the LDR. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+        
+  \item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \pyref{py:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \pyref{py:ldr-led}), 
+        it puts a high in pin number 11.  From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        This loop is repeated 100 times. While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
+        
+        
+        % In this experiment, we will observe the saturation point of LDR,
+        %   see \pyref{py:ldr-led}.  We know that as incident light intensity
+        %   increases, voltage at analog input of the \arduino\ board
+        %   increases. Thus the ADC values being read by the \arduino\ board also
+        %   increase. But after certain high intensity, ADC values reach its
+        %   maximum. For 10 bit ADC in Arduino, this high intensity corresponds
+        %   to 1023.  Beyond this value, the LDR is incapable of sensing the
+        %   change in light intensity and is considered to be saturated. To
+        %   observe this saturation point, we can do a simple task of exposing
+        %   LDR to high intensity. We can put a torch/light source sensor to
+        %   close proximity of LDR.
 \end{enumerate}
 
 \begin{exercise}
-Carry out the exercise below:
-\begin{enumerate}
-\item Carry out the exercise in the previous section. 
-\item Calculate the difference in LDR readings in indoor room
-  before lighting the lamp and after lighting the lamp. You can also
-  record changes in the room lighting at different times of the day.
-\end{enumerate}
+  Carry out the exercise below:
+  \begin{enumerate}
+    \item Carry out the exercise in the previous section.
+    \item Calculate the difference in LDR readings in indoor room
+          before lighting the lamp and after lighting the lamp. You can also
+          record changes in the room lighting at different times of the day.
+  \end{enumerate}
 \end{exercise}
 
 \subsection{Python Code}
@@ -528,19 +528,19 @@ Carry out the exercise below:
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 
 \begin{pycode}
-\pcaption{Read and display the LDR values}
-{Read and display the LDR values.  Available at
-  \LocLDRpybrief{ldr-read.py}.}
-\label{py:ldr-read}
-\lstinputlisting{\LocLDRpycode/ldr-read.py}
+  \pcaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRpybrief{ldr-read.py}.}
+  \label{py:ldr-read}
+  \lstinputlisting{\LocLDRpycode/ldr-read.py}
 \end{pycode}
 
 \begin{pycode}
-\pcaption{Turning the red LED on and off}
-{Turning the red LED on and off.  Available at
-  \LocLDRpybrief{ldr-led.py}.}
-\label{py:ldr-led}
-\lstinputlisting{\LocLDRpycode/ldr-led.py}
+  \pcaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRpybrief{ldr-led.py}.}
+  \label{py:ldr-led}
+  \lstinputlisting{\LocLDRpycode/ldr-led.py}
 \end{pycode}
 
 \section{Interfacing the LDR through Julia}
@@ -554,48 +554,48 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
 
 
 \begin{enumerate}
-\item In the first experiment, we will read the LDR values. The code for this experiment is given in
-\juliaref{julia:ldr-read}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
-\cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
-Then, we read the input coming from analog pin 5 using the 
-following command:
-\lstinputlisting[firstline=6,lastline=6]
-{\LocLDRjuliacode/ldr-read.jl} Note that the one leg of the LDR on
-the shield is connected to analog pin 5 of \arduino\, 
-as given in \figref{fig:ldrconn}. The read value is displayed 
- by the following command: 
-\lstinputlisting[firstline=7,lastline=7]
-{\LocLDRjuliacode/ldr-read.jl} where {\tt val} contains
-the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
-reading will be 0. If on the other hand, a bright light, say for instance the torch
-light from mobile, is shined, the value displayed is close to 1023. One will get
-intermediate values by keeping one's finger on the LDR. To
-encourage the user to have a good hands-on, we run these commands in
-a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
-observe the change in values being printed on on the
-Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
-
-
-\item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
-  turn the red LED on.  The program for this is available at
-  \juliaref{julia:ldr-led}.  The value of LDR is read and stored in {\tt
-    val}.  In case it is below some threshold (like 300 in \juliaref{julia:ldr-led}), 
-    it puts a high in pin number 11. From \secref{sec:led-pril}, 
-    one can note that this pin is for the red LED.  If the LDR value is below 300, 
-    the red LED will be on, else, it will be turned off.  
-    This loop is repeated 500 times. While running this experiment, the readers 
-    must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
-    they can observe whether the red LED is turned on. 
+  \item In the first experiment, we will read the LDR values. The code for this experiment is given in
+        \juliaref{julia:ldr-read}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
+        \cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+        Then, we read the input coming from analog pin 5 using the 
+        following command:
+        \lstinputlisting[firstline=6,lastline=6]
+        {\LocLDRjuliacode/ldr-read.jl} Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed 
+        by the following command: 
+        \lstinputlisting[firstline=7,lastline=7]
+        {\LocLDRjuliacode/ldr-read.jl} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one's finger on the LDR. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+        
+        
+  \item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \juliaref{julia:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \juliaref{julia:ldr-led}), 
+        it puts a high in pin number 11. From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        This loop is repeated 500 times. While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
 \end{enumerate}
 
 \begin{exercise}
-Carry out the exercise below:
-\begin{enumerate}
-\item Carry out the exercise in the previous section. 
-\item Calculate the difference in LDR readings in indoor room
-  before lighting the lamp and after lighting the lamp. You can also
-  record changes in the room lighting at different times of the day.
-\end{enumerate}
+  Carry out the exercise below:
+  \begin{enumerate}
+    \item Carry out the exercise in the previous section.
+    \item Calculate the difference in LDR readings in indoor room
+          before lighting the lamp and after lighting the lamp. You can also
+          record changes in the room lighting at different times of the day.
+  \end{enumerate}
 \end{exercise}
 
 \subsection{Julia Code}
@@ -603,19 +603,19 @@ Carry out the exercise below:
 \addtocontents{juliad}{\protect\addvspace{\codclr}}
 
 \begin{juliacode}
-\jcaption{Read and display the LDR values}
-{Read and display the LDR values.  Available at
-  \LocLDRjuliabrief{ldr-read.jl}.}
-\label{julia:ldr-read}
-\lstinputlisting{\LocLDRjuliacode/ldr-read.jl}
+  \jcaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRjuliabrief{ldr-read.jl}.}
+  \label{julia:ldr-read}
+  \lstinputlisting{\LocLDRjuliacode/ldr-read.jl}
 \end{juliacode}
 
 \begin{juliacode}
-\jcaption{Turning the red LED on and off}
-{Turning the red LED on and off.  Available at
-  \LocLDRjuliabrief{ldr-led.jl}.}
-\label{julia:ldr-led}
-\lstinputlisting{\LocLDRjuliacode/ldr-led.jl}
+  \jcaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRjuliabrief{ldr-led.jl}.}
+  \label{julia:ldr-led}
+  \lstinputlisting{\LocLDRjuliacode/ldr-led.jl}
 \end{juliacode}
 
 \section{Interfacing the LDR through OpenModelica}
@@ -629,33 +629,33 @@ The reader should go through the instructions given in
 \secref{sec:OpenModelica-start} before getting started.
 
 \begin{enumerate}
-\item In the first experiment, we will read the LDR values. The code for this experiment is given in
-\OpenModelicaref{OpenModelica:ldr-read} . As explained earlier in \secref{sec:light-OpenModelica}, 
-  we begin with importing the two packages: Streams and SerialCommunication followed 
-  by setting up the serial port. Then, we read the input coming from analog pin 5 using the 
-following command:
-\lstinputlisting[firstline=15,lastline=15]
-{\LocLDROpenModelicacode/ldr-read.mo} Note that the one leg of the LDR on
-the shield is connected to analog pin 5 of \arduino\, 
-as given in \figref{fig:ldrconn}. The read value is displayed 
- by the following command: 
-\lstinputlisting[firstline=16,lastline=16]
-{\LocLDROpenModelicacode/ldr-read.mo} where {\tt val} contains
-the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
-reading will be 0. If on the other hand, a bright light, say for instance the torch
-light from mobile, is shined, the value displayed is close to 1023. One will get
-intermediate values by keeping one's finger on the LDR. While simulating this experiment, the readers must keep their fingertips on the LDR and
-observe the change in values being printed on on the output window of OMEdit, as shown in \figref{om-sim-success}.
-
-\item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
-  turn the red LED on.  The program for this is available at
-  \OpenModelicaref{OpenModelica:ldr-led}.  The value of LDR is read and stored in {\tt
-    val}.  In case it is below some threshold (like 300 in \OpenModelicaref{OpenModelica:ldr-led}), 
-    it puts a high in pin number 11. From \secref{sec:led-pril}, 
-    one can note that this pin is for the red LED. If the LDR value is below 300, 
-    the red LED will be on, else, it will be turned off. While running this experiment, the readers 
-    must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
-    they can observe whether the red LED is turned on. 
+  \item In the first experiment, we will read the LDR values. The code for this experiment is given in
+        \OpenModelicaref{OpenModelica:ldr-read} . As explained earlier in \secref{sec:light-OpenModelica}, 
+        we begin with importing the two packages: Streams and SerialCommunication followed 
+        by setting up the serial port. Then, we read the input coming from analog pin 5 using the 
+        following command:
+        \lstinputlisting[firstline=15,lastline=15]
+        {\LocLDROpenModelicacode/ldr-read.mo} Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed 
+        by the following command: 
+        \lstinputlisting[firstline=16,lastline=16]
+        {\LocLDROpenModelicacode/ldr-read.mo} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one's finger on the LDR. While simulating this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on on the output window of OMEdit, as shown in \figref{om-sim-success}.
+        
+  \item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \OpenModelicaref{OpenModelica:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \OpenModelicaref{OpenModelica:ldr-led}), 
+        it puts a high in pin number 11. From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED. If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off. While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
 \end{enumerate}
 
 \subsection{OpenModelica Code}
@@ -663,19 +663,19 @@ observe the change in values being printed on on the output window of OMEdit, as
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
-\mcaption{Read and display the LDR values}
-{Read and display the LDR values.  Available at
-  \LocLDROpenModelicabrief{ldr-read.mo}.}
-\label{OpenModelica:ldr-read}
-\lstinputlisting{\LocLDROpenModelicacode/ldr-read.mo}
+  \mcaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDROpenModelicabrief{ldr-read.mo}.}
+  \label{OpenModelica:ldr-read}
+  \lstinputlisting{\LocLDROpenModelicacode/ldr-read.mo}
 \end{OpenModelicacode}
 
 \begin{OpenModelicacode}
-\mcaption{Turning the red LED on and off}
-{Turning the red LED on and off.  Available at
-  \LocLDROpenModelicabrief{ldr-led.mo}.}
-\label{OpenModelica:ldr-led}
-\lstinputlisting{\LocLDROpenModelicacode/ldr-led.mo}
+  \mcaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDROpenModelicabrief{ldr-led.mo}.}
+  \label{OpenModelica:ldr-led}
+  \lstinputlisting{\LocLDROpenModelicacode/ldr-led.mo}
 \end{OpenModelicacode}
 
 

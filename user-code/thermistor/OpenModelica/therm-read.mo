@@ -3,7 +3,7 @@ model therm_read "Thermistor Readings"
   import sComm = Arduino.SerialCommunication.Functions;
   import strm = Modelica.Utilities.Streams;
   Integer ok(fixed = false);
-  Integer analog_in(fixed = false);
+  Integer val(fixed = false);
   Integer c_ok(fixed = false);
 algorithm
   when initial() then
@@ -13,8 +13,8 @@ algorithm
       strm.print("Unable to open serial port, please check");
     else
       for i in 1:20 loop
-        analog_in := sComm.cmd_analog_in(1, 4) "read analog pin 5 (ldr)";
-        strm.print("Thermistor Readings " + " : " + String(analog_in));
+        val := sComm.cmd_analog_in(1, 4) "read analog pin 4 (thermistor)";
+        strm.print("Thermistor Readings: " + String(val));
         sComm.delay(500);
       end for;
     end if;

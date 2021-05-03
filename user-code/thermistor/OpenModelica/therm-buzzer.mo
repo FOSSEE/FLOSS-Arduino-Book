@@ -3,7 +3,7 @@ model therm_buzzer "Sound buzzer depending on thermistor readings"
   import sComm = Arduino.SerialCommunication.Functions;
   import strm = Modelica.Utilities.Streams;
   Integer ok(fixed = false);
-  Integer analog_in(fixed = false);
+  Integer val(fixed = false);
   Integer digital_out(fixed = false);
   Integer c_ok(fixed = false);
 algorithm
@@ -14,13 +14,14 @@ algorithm
       strm.print("Unable to open serial port, please check");
     else
       for i in 1:500 loop
-        analog_in := sComm.cmd_analog_in(1, 4) "read analog pin 4";
-        if analog_in > 500 then
+        val := sComm.cmd_analog_in(1, 4) "read analog pin 4";
+        strm.print("Thermistor Readings: " + String(val));
+        if val > 550 then
           digital_out := sComm.cmd_digital_out(1, 3, 1) "Turn ON Buzzer";
         else
           digital_out := sComm.cmd_digital_out(1, 3, 0) "Turn OFF Buzzer";
         end if;
-        sComm.delay(200);
+        sComm.delay(500);
       end for;
     end if;
   end when;
