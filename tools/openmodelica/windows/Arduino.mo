@@ -640,7 +640,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
           Integer ok(fixed = false);
-          Integer analog_in(fixed = false);
+          Integer val(fixed = false);
           Integer digital_out(fixed = false);
           Integer c_ok(fixed = false);
         algorithm
@@ -651,12 +651,12 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
-            analog_in := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
-            strm.print("LDR Readings: " + String(analog_in));
-            if analog_in < 300 then
-              digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
+            val := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
+            strm.print("LDR Readings: " + String(val));
+            if val < 300 then
+              digital_out := sComm.cmd_digital_out(1, 11, 1) "Turn ON LED";
             else
-              digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
+              digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
             end if;
             sComm.delay(500);
           end if;
@@ -674,7 +674,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
           Integer ok(fixed = false);
-          Integer analog_in(fixed = false);
+          Integer val(fixed = false);
           Integer c_ok(fixed = false);
         algorithm
           when initial() then
@@ -684,8 +684,8 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
-            analog_in := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
-            strm.print("LDR Readings: " + String(analog_in));
+            val := sComm.cmd_analog_in(1, 5) "read analog pin 5 (ldr)";
+            strm.print("LDR Readings: " + String(val));
             sComm.delay(500);
           end if;
           when time >= 10 then

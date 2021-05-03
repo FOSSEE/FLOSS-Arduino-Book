@@ -24,9 +24,9 @@ class LDR:
 		self.blue = 9
 		self.green = 10
 		self.red = 11
-		for i in range(100):
+		for i in range(50):
 			val = self.obj_arduino.cmd_analog_in(1, self.ldr)
-			# print (val)
+			print (val)
 			if int(val) < 300:
 				self.obj_arduino.cmd_digital_out(1, self.red, 1)
 			else:

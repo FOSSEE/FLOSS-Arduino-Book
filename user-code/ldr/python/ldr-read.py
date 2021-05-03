@@ -21,7 +21,7 @@ class LDR:
 
 	def run(self):
 		self.ldr = 5
-		for i in range(20):
+		for i in range(50):
 			val = self.obj_arduino.cmd_analog_in(1, self.ldr)
 			print(val)
 			sleep(0.5) 	
