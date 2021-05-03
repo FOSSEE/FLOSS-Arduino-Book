@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  3 MAY 2021 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  3 MAY 2021 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,9 +1824,7 @@ mo) [131]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-read.
 mo [132])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-led.m
-o)) (./user-code/pot/pot.tex [133] [134
-
-]
+o) [133]) (./user-code/pot/pot.tex [134]
 Chapter 7.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png, 
 id=659, 1576.38937pt x 1305.37688pt>
@@ -1846,9 +1844,11 @@ png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/po
 t/figures/schematic.png  used on input line 68.
 (pdftex.def)             Requested size: 178.86702pt x 179.73206pt.
-[135] [136 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot
-meter.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/sch
-ematic.png>]
+[135
+
+] [136 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmete
+r.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schemat
+ic.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png
 , id=669, 453.695pt x 243.309pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-b
@@ -1927,9 +1927,15 @@ old. Avail-
 hold.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/OpenModelica/pot-thres
 hold.mo) [146]
-Overfull \hbox (7.95369pt too wide) in paragraph at lines 416--420
+Overfull \hbox (7.95369pt too wide) in paragraph at lines 420--424
 []\T1/cmr/m/n/10.95 Turning on LEDs de-pend-ing on the po-ten-tiome-ter thresh-
 
+ []
+
+
+Overfull \hbox (24.30972pt too wide) in paragraph at lines 420--424
+\T1/cmr/m/n/10.95 old. Avail-able at Ar-duino -> Se-ri-al-Com-mu-ni-ca-tion -> 
+Ex-am-ples -> pot -> pot_threshold.
  []
 
 
@@ -2604,10 +2610,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9859 strings out of 481239
- 220042 string characters out of 5920377
+ 9849 strings out of 481239
+ 219957 string characters out of 5920377
  742688 words of memory out of 5000000
- 24304 multiletter control sequences out of 15000+600000
+ 24294 multiletter control sequences out of 15000+600000
  554670 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  50i,11n,53p,363b,1777s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2634,7 +2640,7 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (264 pages, 21056445 bytes).
+Output written on floss-arduino.pdf (264 pages, 21056751 bytes).
 PDF statistics:
  1168 PDF objects out of 1200 (max. 8388607)
  681 compressed objects within 7 object streams

@@ -755,13 +755,18 @@ The reader should go through the instructions given in
 \end{enumerate}
 
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
 \label{sec:therm-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
   \mcaption{Read and display the thermistor values} {Read and display
     the thermistor values.  Available at
-    \LocTHERMOpenModelicabrief{therm-read.mo}.}
+    Arduino -> SerialCommunication -> 
+  Examples -> push -> therm\_read.}
   \label{OpenModelica:therm-read}
   \lstinputlisting{\LocTHERMOpenModelicacode/therm-read.mo}
 \end{OpenModelicacode}
@@ -769,7 +774,9 @@ The reader should go through the instructions given in
 \begin{OpenModelicacode}
   \mcaption{Turning the buzzer on and off using thermistor values}
   {Turning the buzzer on and off using the thermistor values read by
-    ADC.  Available at \LocTHERMOpenModelicabrief{therm-buzzer.mo}.}
+    ADC.  Available at
+    Arduino -> SerialCommunication -> 
+  Examples -> push -> therm\_buzzer.}
   \label{OpenModelica:therm-buzzer}
   \lstinputlisting{\LocTHERMOpenModelicacode/therm-buzzer.mo}
 \end{OpenModelicacode}

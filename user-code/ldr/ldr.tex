@@ -659,13 +659,17 @@ The reader should go through the instructions given in
 \end{enumerate}
 
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
 \label{sec:ldr-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
   \mcaption{Read and display the LDR values}
   {Read and display the LDR values.  Available at
-    \LocLDROpenModelicabrief{ldr-read.mo}.}
+  Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_read.}
   \label{OpenModelica:ldr-read}
   \lstinputlisting{\LocLDROpenModelicacode/ldr-read.mo}
 \end{OpenModelicacode}
@@ -673,7 +677,7 @@ The reader should go through the instructions given in
 \begin{OpenModelicacode}
   \mcaption{Turning the red LED on and off}
   {Turning the red LED on and off.  Available at
-    \LocLDROpenModelicabrief{ldr-led.mo}.}
+  Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_led.}
   \label{OpenModelica:ldr-led}
   \lstinputlisting{\LocLDROpenModelicacode/ldr-led.mo}
 \end{OpenModelicacode}

@@ -409,13 +409,17 @@ While running this experiment,
 the readers must rotate the knob of the potentiometer and observe 
 the change in the color of the RGB LED.
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
 \label{sec:pot-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 \begin{OpenModelicacode}
   \mcaption{Turning on LEDs depending on the potentiometer
     threshold}{Turning on LEDs depending on the potentiometer
-    threshold.  Available at
-  \LocPotOpenModelicabrief{pot-threshold.mo}.}
+    threshold.  Available at Arduino -> SerialCommunication -> 
+  Examples -> pot -> pot\_threshold.}
 \label{OpenModelica:pot-100}
 \lstinputlisting{\LocPotOpenModelicacode/pot-threshold.mo}
 \end{OpenModelicacode}
