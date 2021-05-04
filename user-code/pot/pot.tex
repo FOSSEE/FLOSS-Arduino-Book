@@ -153,7 +153,7 @@ example, when the position of the potentiometer corresponds to the
 values between 0 and 319, inclusive, we turn on the Red LED, keep it
 on for 1000 ms and then turn it off. This functionality is carried out
 by,
-\lstinputlisting[firstline=15,lastline=18]
+\lstinputlisting[firstline=16,lastline=19]
                 {\LocPotardcode/pot-threshold/pot-threshold.ino}
 In a similar manner,
 we check the potentiometer values and correspondingly turn on and off
@@ -199,7 +199,7 @@ we read the analog input at pin 2 using,
 %\redcolor {the kit number } 
 the kit number and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set threshold, 
 and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=5,lastline=8]
+\lstinputlisting[firstline=6,lastline=9]
 {\LocPotscicode/pot-threshold.sce} where {\tt cmd\_digital\_out} 
 is used to set the pin 11 high (1) or low (0). 
 We used {\tt sleep(1000)} to retain the LED in the on state for 
@@ -396,11 +396,11 @@ RGB LED as explained earlier. The code for this experiment is given in
 \OpenModelicaref{OpenModelica:pot-100}. As explained earlier in \secref{sec:light-OpenModelica}, 
   we begin with importing the two packages: Streams and SerialCommunication followed 
   by setting up the serial port. Then, we read the analog input at pin 2 using,
-\lstinputlisting[firstline=17,lastline=17]
+\lstinputlisting[firstline=16,lastline=16]
 {\LocPotOpenModelicacode/pot-threshold.mo} where the first argument is for
 %\redcolor {the kit number } 
 the serial port and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
-\lstinputlisting[firstline=19,lastline=22]
+\lstinputlisting[firstline=18,lastline=21]
 {\LocPotOpenModelicacode/pot-threshold.mo} 
 where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). 
 We used {\tt delay(1000)} to retain the LED in the on state for 1000 milliseconds.  

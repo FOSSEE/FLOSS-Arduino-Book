@@ -22,7 +22,7 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{214}%
 \contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{215}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{216}%
+\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{215}%
 \contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{216}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{236}%

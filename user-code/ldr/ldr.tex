@@ -154,7 +154,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         \lstinputlisting[firstline=8,lastline=8]
         {\LocLDRardcode/ldr-read/ldr-read.ino} is added so that the readings
         do not scroll away very fast.  The entire reading and display
-        operation is carried out 20 times. 
+        operation is carried out 50 times. 
         
         To observe the values, one has to open the {\tt Serial Monitor} of
         the Arduino IDE.  The numbers displayed are in the range 0 to 1023
@@ -174,8 +174,7 @@ instructions given in \secref{sec:ard-start} before getting started.
             val}.  In case it is below some threshold (like 300 in \ardref{ard:ldr-led}), 
         it puts a high in pin number 11.  From \secref{sec:led-pril}, 
         one can note that this pin is for the red LED.  If the LDR value is below 300, 
-        the red LED will be on, else, it will be turned off.  
-        This loop is repeated 2,000 times. While running this experiment, the readers 
+        the red LED will be on, else, it will be turned off.  While running this experiment, the readers 
         must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
         they can observe whether the red LED is turned on. 
 \end{enumerate}
@@ -247,7 +246,7 @@ The reader should go through the instructions given in
         light from mobile, is shined, the value displayed is close to 1023. One will get
         intermediate values by keeping one’s finger on the LDR. To
         encourage the user to have a good hands-on, we run these commands in
-        a {\tt for} loop for 500 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        a {\tt for} loop for 50 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
         observe the change in values being printed on the \scilab\ Console. 
         
         
@@ -283,7 +282,7 @@ The reader should go through the instructions given in
         it puts a high in pin number 11.  From \secref{sec:led-pril}, 
         one can note that this pin is for the red LED.  If the LDR value is below 300, 
         the red LED will be on, else, it will be turned off.  
-        This loop is repeated 2,000 times. While running this experiment, the readers 
+        While running this experiment, the readers 
         must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
         they can observe whether the red LED is turned on. 
 \end{enumerate}
@@ -472,19 +471,19 @@ The reader should go through the instructions given in
         importing necessary modules followed by setting up the serial port. 
         Then, we read the input coming from analog pin 5 using the
         following command:
-        \lstinputlisting[firstline=26,lastline=26]
+        \lstinputlisting[firstline=25,lastline=25]
         {\LocLDRpycode/ldr-read.py} Note that the one leg of the LDR on
         the shield is connected to analog pin 5 of \arduino\, 
         as given in \figref{fig:ldrconn}. The read value is displayed 
         by the following command: 
-        \lstinputlisting[firstline=27,lastline=27]
+        \lstinputlisting[firstline=26,lastline=26]
         {\LocLDRpycode/ldr-read.py} where {\tt val} contains
         the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
         reading will be 0. If on the other hand, a bright light, say for instance the torch
         light from mobile, is shined, the value displayed is close to 1023. One will get
         intermediate values by keeping one's finger on the LDR. To
         encourage the user to have a good hands-on, we run these commands in
-        a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        a {\tt for} loop for 50 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
         observe the change in values being printed on on the
         Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
         
@@ -495,7 +494,7 @@ The reader should go through the instructions given in
         it puts a high in pin number 11.  From \secref{sec:led-pril}, 
         one can note that this pin is for the red LED.  If the LDR value is below 300, 
         the red LED will be on, else, it will be turned off.  
-        This loop is repeated 100 times. While running this experiment, the readers 
+        While running this experiment, the readers 
         must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
         they can observe whether the red LED is turned on. 
         
@@ -571,7 +570,7 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
         light from mobile, is shined, the value displayed is close to 1023. One will get
         intermediate values by keeping one's finger on the LDR. To
         encourage the user to have a good hands-on, we run these commands in
-        a {\tt for} loop for 20 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        a {\tt for} loop for 50 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
         observe the change in values being printed on on the
         Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
         
@@ -583,7 +582,7 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
         it puts a high in pin number 11. From \secref{sec:led-pril}, 
         one can note that this pin is for the red LED.  If the LDR value is below 300, 
         the red LED will be on, else, it will be turned off.  
-        This loop is repeated 500 times. While running this experiment, the readers 
+        While running this experiment, the readers 
         must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
         they can observe whether the red LED is turned on. 
 \end{enumerate}
@@ -634,12 +633,12 @@ The reader should go through the instructions given in
         we begin with importing the two packages: Streams and SerialCommunication followed 
         by setting up the serial port. Then, we read the input coming from analog pin 5 using the 
         following command:
-        \lstinputlisting[firstline=15,lastline=15]
+        \lstinputlisting[firstline=16,lastline=16]
         {\LocLDROpenModelicacode/ldr-read.mo} Note that the one leg of the LDR on
         the shield is connected to analog pin 5 of \arduino\, 
         as given in \figref{fig:ldrconn}. The read value is displayed 
         by the following command: 
-        \lstinputlisting[firstline=16,lastline=16]
+        \lstinputlisting[firstline=17,lastline=17]
         {\LocLDROpenModelicacode/ldr-read.mo} where {\tt val} contains
         the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
         reading will be 0. If on the other hand, a bright light, say for instance the torch
@@ -669,7 +668,7 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 \begin{OpenModelicacode}
   \mcaption{Read and display the LDR values}
   {Read and display the LDR values.  Available at
-  Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_read.}
+    Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_read.}
   \label{OpenModelica:ldr-read}
   \lstinputlisting{\LocLDROpenModelicacode/ldr-read.mo}
 \end{OpenModelicacode}
@@ -677,7 +676,7 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 \begin{OpenModelicacode}
   \mcaption{Turning the red LED on and off}
   {Turning the red LED on and off.  Available at
-  Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_led.}
+    Arduino -> SerialCommunication -> Examples -> ldr -> ldr\_led.}
   \label{OpenModelica:ldr-led}
   \lstinputlisting{\LocLDROpenModelicacode/ldr-led.mo}
 \end{OpenModelicacode}

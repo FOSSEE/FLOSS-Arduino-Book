@@ -30,6 +30,7 @@ class PUSHBUTTON_LED:
 			print(val)
 			self.obj_arduino.cmd_digital_out(1, self.blue, val)
 			sleep(0.5)
+			
 	def exit(self):
 		self.obj_arduino.close_serial()
 

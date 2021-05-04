@@ -28,7 +28,7 @@
 \contentsline {table}{\numberline {9.5}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{186}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {10.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{196}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{202}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{203}%
 \contentsline {table}{\numberline {10.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{204}%
 \contentsline {table}{\numberline {10.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{205}%
 \contentsline {table}{\numberline {10.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{206}%
