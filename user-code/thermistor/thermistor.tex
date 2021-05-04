@@ -167,7 +167,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         thermistor, thereby raising the temperature of the thermistor. Accordingly, they should observe the change in the thermistor values
         on the {\tt Serial Monitor}.
 
-  \item In this experiment, we will turn the buzzer on and off depending
+  \item In this experiment, we will turn the buzzer on depending
         on the temperature sensed by the thermistor. The program for this is
         available at \ardref{ard:therm-buzzer}. We shall use the ADC output
         to carry this out. The buzzer is connected on pin 3 which is a
@@ -214,8 +214,8 @@ instructions given in \secref{sec:ard-start} before getting started.
 \end{ardcode}
 
 \begin{ardcode}
-  \acaption{Turning the buzzer on and off using thermistor values}
-  {Turning the buzzer on and off using the thermistor values read by
+  \acaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
     ADC.  Available at
     \LocTHERMardbrief{therm-buzzer/therm-buzzer.ino}.}
   \label{ard:therm-buzzer}
@@ -281,7 +281,7 @@ The reader should go through the instructions given in
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a \scilab\ script to
-        turn a buzzer on and off using the thermistor values.
+        turn a buzzer on using the thermistor values.
         The program for this is available at
         \sciref{sci:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
@@ -356,8 +356,8 @@ The reader should go through the instructions given in
 \end{scicode}
 
 \begin{scicode}
-  \ccaption{Turning the buzzer on and off using thermistor values}
-  {Turning the buzzer on and off using the thermistor values read by
+  \ccaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
     ADC.  Available at \LocTHERMscibrief{therm-buzzer.sce}.}
   \label{sci:therm-buzzer}
   \lstinputlisting{\LocTHERMscicode/therm-buzzer.sce}
@@ -428,7 +428,7 @@ getting started.
         thermistor, thereby raising the temperature of the thermistor. Accordingly, they should observe the change in the thermistor
         values in the output plot, as shown in \figref{fig:therm-read-output}.
 
-  \item In the second experiment, we will switch on and off a buzzer
+  \item In the second experiment, we will switch on a buzzer
         depending on the thermistor readings (ADC output).
         When the file required for this
         experiment is invoked, one gets the GUI as in \figref{fig:therm-buzzer}.
@@ -438,8 +438,8 @@ getting started.
           \centering
           \includegraphics[width=\lgfig]{\LocTHERMfig/therm-buzzer-xcos.png}
           \caption[Xcos diagram to read the value of thermistor, which is
-            used to turn the buzzer on or off] {Xcos diagram to read the value
-            of the thermistor, which is used to turn the buzzer on or off.
+            used to turn the buzzer on] {Xcos diagram to read the value
+            of the thermistor, which is used to turn the buzzer on.
             This is what one sees when
             \LocTHERMscibrief{therm-buzzer.zcos}, is invoked.}
           \label{fig:therm-buzzer}
@@ -504,7 +504,7 @@ getting started.
 
 \section{Interfacing the Thermistor from Python}
 \subsection{Interfacing the Thermistor}
-n this section, we discuss how to carry out the experiments of the
+In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same two experiments,
 in the same order.  The shield has to be attached to the \arduino\ board
 before doing these experiments and the \arduino\ needs to be connected to the computer
@@ -551,7 +551,7 @@ The reader should go through the instructions given in
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a Python script to
-        turn a buzzer on and off using the thermistor values.
+        turn a buzzer on using the thermistor values.
         The program for this is available at
         \pyref{py:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
@@ -600,8 +600,8 @@ The reader should go through the instructions given in
 \end{pycode}
 
 \begin{pycode}
-  \pcaption{Turning the buzzer on and off using thermistor values}
-  {Turning the buzzer on and off using the thermistor values read by
+  \pcaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
     ADC.  Available at \LocTHERMpybrief{therm-buzzer.py}.}
   \label{py:therm-buzzer}
   \lstinputlisting{\LocTHERMpycode/therm-buzzer.py}
@@ -644,7 +644,7 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a Julia source file to
-        turn a buzzer on and off using the thermistor values.
+        turn a buzzer on using the thermistor values.
         The program for this is available at
         \juliaref{julia:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
@@ -681,8 +681,8 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
 \end{juliacode}
 
 \begin{juliacode}
-  \jcaption{Turning the buzzer on and off using thermistor values}
-  {Turning the buzzer on and off using the thermistor values read by
+  \jcaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
     ADC.  Available at \LocTHERMjuliabrief{therm-buzzer.jl}.}
   \label{julia:therm-buzzer}
   \lstinputlisting{\LocTHERMjuliacode/therm-buzzer.jl}
@@ -720,7 +720,7 @@ The reader should go through the instructions given in
         Accordingly, they should observe the change in values being printed on on the output window of OMEdit, as shown in \figref{om-sim-success}.
 
   \item This experiment is an extension of the previous experiment. Here,
-        we will turn a buzzer on and off using the thermistor values.
+        we will turn a buzzer on using the thermistor values.
         The program for this is available at
         \OpenModelicaref{OpenModelica:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
@@ -762,8 +762,8 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 \end{OpenModelicacode}
 
 \begin{OpenModelicacode}
-  \mcaption{Turning the buzzer on and off using thermistor values}
-  {Turning the buzzer on and off using the thermistor values read by
+  \mcaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
     ADC.  Available at
     Arduino -> SerialCommunication -> 
   Examples -> push -> therm\_buzzer.}

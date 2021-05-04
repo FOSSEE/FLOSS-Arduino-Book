@@ -14,16 +14,16 @@
 \contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{145}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{167}%
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on and off using thermistor values}{167}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{167}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the DC motor}{190}%
-\contentsline {section}{\numberline {9.{2}}Rotating the DC motor in both directions}{191}%
-\contentsline {section}{\numberline {9.{3}}Rotating the DC motor in both directions in a loop}{191}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{190}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{190}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{190}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{191}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the servomotor to a specified degree}{212}%
-\contentsline {section}{\numberline {10.{2}}Rotating the servomotor to a specified degree and reversing}{212}%
-\contentsline {section}{\numberline {10.{3}}Rotating the servomotor in steps of $20^\circ $}{212}%
-\contentsline {section}{\numberline {10.{4}}Rotating the servomotor to a degree specified by the potentiometer}{213}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{214}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{215}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{215}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{235}%
 \contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{235}%

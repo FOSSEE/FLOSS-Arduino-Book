@@ -159,44 +159,44 @@
 \contentsline {subsection}{\numberline {8.8.1}Interfacing the Thermistor}{168}%
 \contentsline {paragraph}{Note:}{169}%
 \contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{169}%
-\contentsline {chapter}{\numberline {9}Controlling a DC motor}{173}%
+\contentsline {chapter}{\numberline {9}Interfacing a Servomotor}{173}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{173}%
-\contentsline {section}{\numberline {9.2}Controlling the DC motor from Arduino}{175}%
-\contentsline {subsection}{\numberline {9.2.1}Controlling the DC motor}{175}%
-\contentsline {subsection}{\numberline {9.2.2}Arduino Code}{177}%
-\contentsline {section}{\numberline {9.3}Controlling the DC motor from Scilab}{178}%
-\contentsline {subsection}{\numberline {9.3.1}Initialization}{178}%
-\contentsline {subsection}{\numberline {9.3.2}Rotation for a specified time}{179}%
-\contentsline {subsection}{\numberline {9.3.3}Using the capabilities of Scilab}{180}%
-\contentsline {subsection}{\numberline {9.3.4}Scilab Code}{181}%
-\contentsline {section}{\numberline {9.4}Controlling the DC Motor from Xcos}{182}%
-\contentsline {section}{\numberline {9.5}Controlling the DC Motor from Python}{185}%
-\contentsline {subsection}{\numberline {9.5.1}Controlling the DC Motor}{185}%
-\contentsline {subsection}{\numberline {9.5.2}Python Code}{187}%
-\contentsline {section}{\numberline {9.6}Controlling the DC Motor from Julia}{190}%
-\contentsline {subsection}{\numberline {9.6.1}Controlling the DC Motor}{190}%
+\contentsline {section}{\numberline {9.2}Controlling the Servometer through the Arduino IDE}{174}%
+\contentsline {subsection}{\numberline {9.2.1}Controlling the Servometer}{174}%
+\contentsline {subsection}{\numberline {9.2.2}Arduino Code}{175}%
+\contentsline {section}{\numberline {9.3}Controlling the Servomotor through Scilab}{177}%
+\contentsline {subsection}{\numberline {9.3.1}Controlling the Servomotor}{177}%
+\contentsline {subsection}{\numberline {9.3.2}Scilab Code}{178}%
+\contentsline {section}{\numberline {9.4}Controling the Servomotor through Xcos}{179}%
+\contentsline {section}{\numberline {9.5}Controlling the Servomotor through Python}{184}%
+\contentsline {subsection}{\numberline {9.5.1}Controlling the Servomotor}{184}%
+\contentsline {subsection}{\numberline {9.5.2}Python Code}{185}%
+\contentsline {section}{\numberline {9.6}Controlling the Servomotor through Julia}{189}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the Servomotor}{189}%
 \contentsline {subsection}{\numberline {9.6.2}Julia Code}{190}%
-\contentsline {section}{\numberline {9.7}Controlling the DC Motor from OpenModelica}{191}%
-\contentsline {subsection}{\numberline {9.7.1}Controlling the DC Motor}{191}%
+\contentsline {section}{\numberline {9.7}Controlling the Servomotor through OpenModelica}{191}%
+\contentsline {subsection}{\numberline {9.7.1}Controlling the Servomotor}{191}%
 \contentsline {subsection}{\numberline {9.7.2}OpenModelica Code}{192}%
-\contentsline {chapter}{\numberline {10}Interfacing a Servomotor}{195}%
-\contentsline {section}{\numberline {10.1}Preliminaries}{195}%
-\contentsline {section}{\numberline {10.2}Controlling the Servometer through the Arduino IDE}{196}%
-\contentsline {subsection}{\numberline {10.2.1}Controlling the Servometer}{196}%
-\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{197}%
-\contentsline {section}{\numberline {10.3}Controlling the Servomotor through Scilab}{199}%
-\contentsline {subsection}{\numberline {10.3.1}Controlling the Servomotor}{199}%
-\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{200}%
-\contentsline {section}{\numberline {10.4}Controling the Servomotor through Xcos}{202}%
-\contentsline {section}{\numberline {10.5}Controlling the Servomotor through Python}{206}%
-\contentsline {subsection}{\numberline {10.5.1}Controlling the Servomotor}{206}%
-\contentsline {subsection}{\numberline {10.5.2}Python Code}{207}%
-\contentsline {section}{\numberline {10.6}Controlling the Servomotor through Julia}{211}%
-\contentsline {subsection}{\numberline {10.6.1}Controlling the Servomotor}{211}%
-\contentsline {subsection}{\numberline {10.6.2}Julia Code}{212}%
-\contentsline {section}{\numberline {10.7}Controlling the Servomotor through OpenModelica}{213}%
-\contentsline {subsection}{\numberline {10.7.1}Controlling the Servomotor}{213}%
-\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{214}%
+\contentsline {chapter}{\numberline {10}Controlling a DC motor}{197}%
+\contentsline {section}{\numberline {10.1}Preliminaries}{197}%
+\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{199}%
+\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{199}%
+\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{201}%
+\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{202}%
+\contentsline {subsection}{\numberline {10.3.1}Initialization}{202}%
+\contentsline {subsection}{\numberline {10.3.2}Rotation for a specified time}{203}%
+\contentsline {subsection}{\numberline {10.3.3}Using the capabilities of Scilab}{204}%
+\contentsline {subsection}{\numberline {10.3.4}Scilab Code}{205}%
+\contentsline {section}{\numberline {10.4}Controlling the DC Motor from Xcos}{206}%
+\contentsline {section}{\numberline {10.5}Controlling the DC Motor from Python}{209}%
+\contentsline {subsection}{\numberline {10.5.1}Controlling the DC Motor}{209}%
+\contentsline {subsection}{\numberline {10.5.2}Python Code}{211}%
+\contentsline {section}{\numberline {10.6}Controlling the DC Motor from Julia}{214}%
+\contentsline {subsection}{\numberline {10.6.1}Controlling the DC Motor}{214}%
+\contentsline {subsection}{\numberline {10.6.2}Julia Code}{214}%
+\contentsline {section}{\numberline {10.7}Controlling the DC Motor from OpenModelica}{215}%
+\contentsline {subsection}{\numberline {10.7.1}Controlling the DC Motor}{215}%
+\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{216}%
 \contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{219}%
 \contentsline {section}{\numberline {11.1}Preliminaries}{219}%
 \contentsline {section}{\numberline {11.2}Objective}{224}%
