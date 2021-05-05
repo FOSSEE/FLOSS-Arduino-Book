@@ -28,11 +28,11 @@ class DCMOTOR_ROTATION:
 			self.obj_arduino.cmd_dcmotor_setup(1, 3, 1, self.pin1, self.pin2)
 			self.obj_arduino.cmd_dcmotor_run(1, 1, 100)
 			sleep(3)
-			self.obj_arduino.cmd_dcmotor_run(1,1,0)
+			self.obj_arduino.cmd_dcmotor_run(1, 1, 0)
 			sleep(2)
-			self.obj_arduino.cmd_dcmotor_run(1,1,-100)
+			self.obj_arduino.cmd_dcmotor_run(1, 1, -100)
 			sleep(2)
-		self.obj_arduino.cmd_dcmotor_release(1,1)
+		self.obj_arduino.cmd_dcmotor_release(1, 1)
 		
 	def exit(self):
 		self.obj_arduino.close_serial()

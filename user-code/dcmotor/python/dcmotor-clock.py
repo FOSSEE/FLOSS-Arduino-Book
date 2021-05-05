@@ -34,7 +34,7 @@ class DCMOTOR_ROTATION:
 		self.obj_arduino.close_serial()
 
 def main():
-	obj_dcmotor=DCMOTOR_ROTATION(115200)
+	obj_dcmotor = DCMOTOR_ROTATION(115200)
 
 if __name__=='__main__':
 	main()
