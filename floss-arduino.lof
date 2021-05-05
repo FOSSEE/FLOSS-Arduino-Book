@@ -110,22 +110,22 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces L293D motor driver board\relax }}{198}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces A schematic of DC motor connections\relax }}{199}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{199}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{206}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{208}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{209}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{200}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{207}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{209}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{210}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{220}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{220}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{221}%
-\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{225}%
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{226}%
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{227}%
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{228}%
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{229}%
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{229}%
-\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{230}%
-\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{230}%
-\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{231}%
-\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{231}%
-\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{232}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{226}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{226}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{227}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{231}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{232}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{233}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{234}%
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{235}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{235}%
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{236}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{236}%
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{237}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{237}%
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{238}%

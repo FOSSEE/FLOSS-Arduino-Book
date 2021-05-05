@@ -106,4 +106,9 @@ Thermistor - wikipedia.
 \newblock https://en.wikipedia.org/wiki/Thermistor.
 \newblock Seen on 2 May 2021.
 
+\bibitem{arduino-pwm}
+Secrets of arduino pwm.
+\newblock https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM.
+\newblock Seen on 5 May 2021.
+
 \end{thebibliography}
