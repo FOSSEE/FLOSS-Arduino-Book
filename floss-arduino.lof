@@ -112,7 +112,7 @@
 \contentsline {figure}{\numberline {10.2}{\ignorespaces A schematic of DC motor connections\relax }}{199}%
 \contentsline {figure}{\numberline {10.3}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{200}%
 \contentsline {figure}{\numberline {10.4}{\ignorespaces Control of DC motor for a specified time from Xcos}}{207}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{209}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{208}%
 \contentsline {figure}{\numberline {10.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{210}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{226}%

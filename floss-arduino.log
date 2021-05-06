@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  5 MAY 2021 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  6 MAY 2021 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2326,39 +2326,40 @@ h.sce)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-loo
 p.sce [206])
 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-cl
-ock.png, id=941, 275.52937pt x 290.58563pt>
+ock.png, id=941, 807.015pt x 738.76pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmot
 or-clock.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmoto
 r-clock.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dc
 motor/figures/dcmotor-clock.png  used on input line 524.
-(pdftex.def)             Requested size: 178.86702pt x 188.64784pt.
+(pdftex.def)             Requested size: 178.86702pt x 163.73386pt.
  [207 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmo
 tor-clock.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-bo
-th.png, id=945, 292.09125pt x 322.95656pt>
+th.png, id=946, 784.9325pt x 716.6775pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmot
 or-both.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmoto
 r-both.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dc
 motor/figures/dcmotor-both.png  used on input line 578.
-(pdftex.def)             Requested size: 178.86702pt x 197.77196pt.
+(pdftex.def)             Requested size: 178.86702pt x 163.3123pt.
+ [208 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmo
+tor-both.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-lo
-op.png, id=946, 281.55188pt x 307.90031pt>
+op.png, id=951, 775.89874pt x 756.8275pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmot
 or-loop.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmoto
 r-loop.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dc
 motor/figures/dcmotor-loop.png  used on input line 622.
-(pdftex.def)             Requested size: 178.86702pt x 195.60847pt.
- [208] [209 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figure
-s/dcmotor-both.png>] [210 </home/fossee/Desktop/floss-scilab-arduino/user-code/
-dcmotor/figures/dcmotor-loop.png>] [211]
+(pdftex.def)             Requested size: 178.86702pt x 174.47084pt.
+ [209] [210 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figure
+s/dcmotor-loop.png>]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/python/dcmotor-clo
-ck.py)
+ck.py) [211]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/python/dcmotor-clo
 ck.py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/python/dcmotor-clo
@@ -2388,27 +2389,27 @@ k.jl) [217]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/julia/dcmotor-both
 .jl)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/julia/dcmotor-cloc
-k.jl [218])
+k.jl)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/julia/dcmotor-both
-.jl)
+.jl [218])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/julia/dcmotor-loop
 .jl) [219]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
+or-clock.mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
+or-clock.mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
+or-clock.mo)
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
 or-clock.mo) [220]
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
-or-clock.mo)
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
-or-clock.mo)
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
-or-clock.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
 or-both.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
 or-both.mo) [221]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
-or-clock.mo [222])
+or-clock.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
-or-both.mo)
+or-both.mo [222])
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmot
 or-loop.mo [223])) (./user-code/modbus/modbus.tex [224]
 Chapter 11.
@@ -2416,7 +2417,7 @@ Chapter 11.
 
 ]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png, i
-d=1007, 672.5125pt x 224.84pt>
+d=1008, 672.5125pt x 224.84pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.pn
@@ -2425,7 +2426,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/fig1.png  used on input line 71.
 (pdftex.def)             Requested size: 357.73405pt x 119.60033pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png, i
-d=1008, 360.34625pt x 375.4025pt>
+d=1009, 360.34625pt x 375.4025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.pn
@@ -2434,7 +2435,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/fig2.png  used on input line 79.
 (pdftex.def)             Requested size: 178.86702pt x 186.33748pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png, i
-d=1009, 481.04718pt x 214.55156pt>
+d=1010, 481.04718pt x 214.55156pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.pn
@@ -2447,7 +2448,7 @@ png (PNG copy)> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/fig
 ures/fig2.png (PNG copy)>] [227 </home/fossee/Desktop/floss-scilab-arduino/user
 -code/modbus/figures/fig3.png (PNG copy)>] [228] [229]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up
-.png, id=1024, 722.7pt x 542.025pt>
+.png, id=1025, 722.7pt x 542.025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-S
 et-Up.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Se
@@ -2457,7 +2458,7 @@ dbus/figures/Full-Set-Up.png  used on input line 300.
 (pdftex.def)             Requested size: 258.36281pt x 193.77246pt.
  [230]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagr
-am.PNG, id=1028, 398.23781pt x 255.95625pt>
+am.PNG, id=1029, 398.23781pt x 255.95625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-
 diagram.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-d
@@ -2466,7 +2467,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/block-diagram.PNG  used on input line 329.
 (pdftex.def)             Requested size: 258.36281pt x 166.06104pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_cod
-e_flowchart.png, id=1029, 327.2225pt x 480.79625pt>
+e_flowchart.png, id=1030, 327.2225pt x 480.79625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduin
 o_code_flowchart.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino
@@ -2477,7 +2478,7 @@ dbus/figures/arduino_code_flowchart.png  used on input line 348.
  [231 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-
 Set-Up.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.p
-ng, id=1034, 482.55281pt x 362.10281pt>
+ng, id=1035, 482.55281pt x 362.10281pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowch
 art.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowcha
@@ -2486,7 +2487,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/flowchart.png  used on input line 376.
 (pdftex.def)             Requested size: 357.73405pt x 268.44914pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-out
-put.png, id=1035, 1028.34187pt x 578.16pt>
+put.png, id=1036, 1028.34187pt x 578.16pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curren
 t-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current
@@ -2495,7 +2496,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/current-output.png  used on input line 393.
 (pdftex.def)             Requested size: 397.48499pt x 223.4789pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-out
-put-setup.jpg, id=1036, 2509.375pt x 1411.2725pt>
+put-setup.jpg, id=1037, 2509.375pt x 1411.2725pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curren
 t-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current
@@ -2504,7 +2505,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/current-output-setup.jpg  used on input line 400.
 (pdftex.def)             Requested size: 258.36281pt x 145.29163pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-out
-put.png, id=1037, 1028.34187pt x 578.16pt>
+put.png, id=1038, 1028.34187pt x 578.16pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltag
 e-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage
@@ -2513,7 +2514,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/voltage-output.png  used on input line 412.
 (pdftex.def)             Requested size: 397.48499pt x 223.4789pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-out
-put-setup.jpg, id=1038, 2509.375pt x 1411.2725pt>
+put-setup.jpg, id=1039, 2509.375pt x 1411.2725pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltag
 e-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage
@@ -2522,7 +2523,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/voltage-output-setup.jpg  used on input line 419.
 (pdftex.def)             Requested size: 258.36281pt x 145.29163pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-powe
-r-output.png, id=1039, 1028.34187pt x 578.16pt>
+r-output.png, id=1040, 1028.34187pt x 578.16pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active
 -power-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-
@@ -2534,7 +2535,7 @@ dbus/figures/active-power-output.png  used on input line 429.
 [232 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-
 diagram.PNG>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-powe
-r-output-setup.jpg, id=1044, 2509.375pt x 1411.2725pt>
+r-output-setup.jpg, id=1045, 2509.375pt x 1411.2725pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active
 -power-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-
@@ -2548,7 +2549,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [233 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/ardui
 no_code_flowchart.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_
-xcos.png, id=1049, 635.37375pt x 455.7025pt>
+xcos.png, id=1050, 635.37375pt x 455.7025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_v
 alue_xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_va
@@ -2664,7 +2665,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  9885 strings out of 481239
  224169 string characters out of 5920377
- 733688 words of memory out of 5000000
+ 750688 words of memory out of 5000000
  24280 multiletter control sequences out of 15000+600000
  554670 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2692,9 +2693,9 @@ sr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (270 pages, 21071979 bytes).
+Output written on floss-arduino.pdf (270 pages, 21277057 bytes).
 PDF statistics:
- 1187 PDF objects out of 1200 (max. 8388607)
+ 1188 PDF objects out of 1200 (max. 8388607)
  694 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
