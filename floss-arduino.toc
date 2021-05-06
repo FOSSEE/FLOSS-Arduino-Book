@@ -179,10 +179,10 @@
 \contentsline {subsection}{\numberline {9.7.2}OpenModelica Code}{192}%
 \contentsline {chapter}{\numberline {10}Controlling a DC motor}{197}%
 \contentsline {section}{\numberline {10.1}Preliminaries}{197}%
-\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{199}%
-\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{199}%
-\contentsline {paragraph}{Note:}{199}%
-\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{201}%
+\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{200}%
+\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{200}%
+\contentsline {paragraph}{Note:}{200}%
+\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{202}%
 \contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{203}%
 \contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{203}%
 \contentsline {paragraph}{Note:}{203}%
@@ -191,17 +191,17 @@
 \contentsline {section}{\numberline {10.4}Controlling the DC Motor from Xcos}{207}%
 \contentsline {section}{\numberline {10.5}Controlling the DC Motor from Python}{210}%
 \contentsline {subsection}{\numberline {10.5.1}Controlling the DC Motor}{210}%
-\contentsline {paragraph}{Note:}{210}%
+\contentsline {paragraph}{Note:}{211}%
 \contentsline {paragraph}{Note:}{212}%
 \contentsline {subsection}{\numberline {10.5.2}Python Code}{213}%
 \contentsline {section}{\numberline {10.6}Controlling the DC Motor from Julia}{216}%
 \contentsline {subsection}{\numberline {10.6.1}Controlling the DC Motor}{216}%
 \contentsline {paragraph}{Note:}{216}%
-\contentsline {paragraph}{Note:}{217}%
+\contentsline {paragraph}{Note:}{218}%
 \contentsline {subsection}{\numberline {10.6.2}Julia Code}{218}%
-\contentsline {section}{\numberline {10.7}Controlling the DC Motor from OpenModelica}{219}%
-\contentsline {subsection}{\numberline {10.7.1}Controlling the DC Motor}{219}%
-\contentsline {paragraph}{Note:}{219}%
+\contentsline {section}{\numberline {10.7}Controlling the DC Motor from OpenModelica}{220}%
+\contentsline {subsection}{\numberline {10.7.1}Controlling the DC Motor}{220}%
+\contentsline {paragraph}{Note:}{220}%
 \contentsline {paragraph}{Note:}{221}%
 \contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{222}%
 \contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{225}%
