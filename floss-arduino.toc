@@ -161,60 +161,61 @@
 \contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{169}%
 \contentsline {chapter}{\numberline {9}Interfacing a Servomotor}{173}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{173}%
-\contentsline {section}{\numberline {9.2}Controlling the Servometer through the Arduino IDE}{174}%
-\contentsline {subsection}{\numberline {9.2.1}Controlling the Servometer}{174}%
-\contentsline {subsection}{\numberline {9.2.2}Arduino Code}{175}%
-\contentsline {section}{\numberline {9.3}Controlling the Servomotor through Scilab}{177}%
-\contentsline {subsection}{\numberline {9.3.1}Controlling the Servomotor}{177}%
-\contentsline {subsection}{\numberline {9.3.2}Scilab Code}{178}%
-\contentsline {section}{\numberline {9.4}Controling the Servomotor through Xcos}{179}%
-\contentsline {section}{\numberline {9.5}Controlling the Servomotor through Python}{184}%
-\contentsline {subsection}{\numberline {9.5.1}Controlling the Servomotor}{184}%
-\contentsline {subsection}{\numberline {9.5.2}Python Code}{185}%
-\contentsline {section}{\numberline {9.6}Controlling the Servomotor through Julia}{189}%
-\contentsline {subsection}{\numberline {9.6.1}Controlling the Servomotor}{189}%
-\contentsline {subsection}{\numberline {9.6.2}Julia Code}{190}%
-\contentsline {section}{\numberline {9.7}Controlling the Servomotor through OpenModelica}{191}%
-\contentsline {subsection}{\numberline {9.7.1}Controlling the Servomotor}{191}%
-\contentsline {subsection}{\numberline {9.7.2}OpenModelica Code}{192}%
-\contentsline {chapter}{\numberline {10}Controlling a DC motor}{197}%
-\contentsline {section}{\numberline {10.1}Preliminaries}{197}%
-\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{200}%
-\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{200}%
-\contentsline {paragraph}{Note:}{200}%
-\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{202}%
-\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{203}%
-\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{203}%
-\contentsline {paragraph}{Note:}{203}%
+\contentsline {section}{\numberline {9.2}Connecting a servomotor with Arduino Uno\ using a breadboard}{174}%
+\contentsline {section}{\numberline {9.3}Controlling the Servomotor through the Arduino IDE}{175}%
+\contentsline {subsection}{\numberline {9.3.1}Controlling the Servomotor}{175}%
+\contentsline {subsection}{\numberline {9.3.2}Arduino Code}{178}%
+\contentsline {section}{\numberline {9.4}Controlling the Servomotor through Scilab}{180}%
+\contentsline {subsection}{\numberline {9.4.1}Controlling the Servomotor}{180}%
+\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{181}%
+\contentsline {section}{\numberline {9.5}Controling the Servomotor through Xcos}{183}%
+\contentsline {section}{\numberline {9.6}Controlling the Servomotor through Python}{186}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the Servomotor}{186}%
+\contentsline {subsection}{\numberline {9.6.2}Python Code}{188}%
+\contentsline {section}{\numberline {9.7}Controlling the Servomotor through Julia}{192}%
+\contentsline {subsection}{\numberline {9.7.1}Controlling the Servomotor}{192}%
+\contentsline {subsection}{\numberline {9.7.2}Julia Code}{193}%
+\contentsline {section}{\numberline {9.8}Controlling the Servomotor through OpenModelica}{194}%
+\contentsline {subsection}{\numberline {9.8.1}Controlling the Servomotor}{194}%
+\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{195}%
+\contentsline {chapter}{\numberline {10}Controlling a DC motor}{199}%
+\contentsline {section}{\numberline {10.1}Preliminaries}{199}%
+\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{202}%
+\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{202}%
+\contentsline {paragraph}{Note:}{202}%
+\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{204}%
+\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{205}%
+\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{205}%
 \contentsline {paragraph}{Note:}{205}%
-\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{206}%
-\contentsline {section}{\numberline {10.4}Controlling the DC Motor from Xcos}{207}%
-\contentsline {section}{\numberline {10.5}Controlling the DC Motor from Python}{210}%
-\contentsline {subsection}{\numberline {10.5.1}Controlling the DC Motor}{210}%
-\contentsline {paragraph}{Note:}{211}%
-\contentsline {paragraph}{Note:}{212}%
-\contentsline {subsection}{\numberline {10.5.2}Python Code}{213}%
-\contentsline {section}{\numberline {10.6}Controlling the DC Motor from Julia}{216}%
-\contentsline {subsection}{\numberline {10.6.1}Controlling the DC Motor}{216}%
-\contentsline {paragraph}{Note:}{216}%
+\contentsline {paragraph}{Note:}{207}%
+\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{208}%
+\contentsline {section}{\numberline {10.4}Controlling the DC Motor from Xcos}{209}%
+\contentsline {section}{\numberline {10.5}Controlling the DC Motor from Python}{212}%
+\contentsline {subsection}{\numberline {10.5.1}Controlling the DC Motor}{212}%
+\contentsline {paragraph}{Note:}{213}%
+\contentsline {paragraph}{Note:}{214}%
+\contentsline {subsection}{\numberline {10.5.2}Python Code}{215}%
+\contentsline {section}{\numberline {10.6}Controlling the DC Motor from Julia}{218}%
+\contentsline {subsection}{\numberline {10.6.1}Controlling the DC Motor}{218}%
 \contentsline {paragraph}{Note:}{218}%
-\contentsline {subsection}{\numberline {10.6.2}Julia Code}{218}%
-\contentsline {section}{\numberline {10.7}Controlling the DC Motor from OpenModelica}{220}%
-\contentsline {subsection}{\numberline {10.7.1}Controlling the DC Motor}{220}%
 \contentsline {paragraph}{Note:}{220}%
-\contentsline {paragraph}{Note:}{221}%
-\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{222}%
-\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{225}%
-\contentsline {section}{\numberline {11.1}Preliminaries}{225}%
-\contentsline {section}{\numberline {11.2}Objective}{230}%
-\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{230}%
-\contentsline {section}{\numberline {11.4}Software}{231}%
-\contentsline {section}{\numberline {11.5}Output}{232}%
-\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{234}%
-\contentsline {section}{\numberline {11.7}Code}{237}%
-\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{237}%
-\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{239}%
-\contentsline {subsection}{\numberline {11.7.3}Python Code}{240}%
-\contentsline {subsection}{\numberline {11.7.4}Julia Code}{241}%
-\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{242}%
-\contentsline {chapter}{\numberline {References}}{245}%
+\contentsline {subsection}{\numberline {10.6.2}Julia Code}{220}%
+\contentsline {section}{\numberline {10.7}Controlling the DC Motor from OpenModelica}{222}%
+\contentsline {subsection}{\numberline {10.7.1}Controlling the DC Motor}{222}%
+\contentsline {paragraph}{Note:}{222}%
+\contentsline {paragraph}{Note:}{223}%
+\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{224}%
+\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{227}%
+\contentsline {section}{\numberline {11.1}Preliminaries}{227}%
+\contentsline {section}{\numberline {11.2}Objective}{232}%
+\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{232}%
+\contentsline {section}{\numberline {11.4}Software}{233}%
+\contentsline {section}{\numberline {11.5}Output}{234}%
+\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{236}%
+\contentsline {section}{\numberline {11.7}Code}{239}%
+\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{239}%
+\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{241}%
+\contentsline {subsection}{\numberline {11.7.3}Python Code}{242}%
+\contentsline {subsection}{\numberline {11.7.4}Julia Code}{243}%
+\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{244}%
+\contentsline {chapter}{\numberline {References}}{247}%

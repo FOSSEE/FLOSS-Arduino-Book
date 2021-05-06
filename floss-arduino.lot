@@ -22,18 +22,18 @@
 \contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{161}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{174}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{180}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{182}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{183}%
-\contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{184}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{184}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{185}%
+\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{186}%
+\contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{187}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Values in the Scilab\ command for different H-Bridge circuits\relax }}{204}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{208}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{209}%
-\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{211}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces Values in the Scilab\ command for different H-Bridge circuits\relax }}{206}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{210}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{211}%
+\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{213}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{228}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{228}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{229}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{229}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{238}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{230}%
+\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{230}%
+\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{231}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{231}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{240}%

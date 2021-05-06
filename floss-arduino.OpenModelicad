@@ -16,15 +16,15 @@
 \contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{169}%
 \contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{170}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{192}%
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{193}%
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{193}%
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{194}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{195}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{196}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{197}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{197}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{222}%
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{223}%
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{223}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{224}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{225}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{225}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{242}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{242}%
-\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{243}%
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{244}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{244}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{245}%

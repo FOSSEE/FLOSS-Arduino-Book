@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: floss-arduino.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-You've used 21 entries,
+You've used 22 entries,
             1791 wiz_defined-function locations,
-            519 strings with 5316 characters,
-and the built_in function-call counts, 2386 in all, are:
-= -- 216
-> -- 30
+            523 strings with 5400 characters,
+and the built_in function-call counts, 2495 in all, are:
+= -- 226
+> -- 31
 < -- 0
-+ -- 24
++ -- 25
 - -- 3
 * -- 2
-:= -- 272
-add.period$ -- 66
-call.type$ -- 21
-change.case$ -- 21
+:= -- 283
+add.period$ -- 69
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 105
-empty$ -- 379
+cite$ -- 22
+duplicate$ -- 110
+empty$ -- 397
 format.name$ -- 3
-if$ -- 619
+if$ -- 648
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 0
-newline$ -- 111
+newline$ -- 116
 num.names$ -- 3
-pop$ -- 165
+pop$ -- 173
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 59
+skip$ -- 62
 stack$ -- 0
 substring$ -- 0
-swap$ -- 21
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 3
-width$ -- 23
-write$ -- 197
+width$ -- 24
+write$ -- 206

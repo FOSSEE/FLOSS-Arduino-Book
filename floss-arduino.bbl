@@ -111,4 +111,9 @@ Secrets of arduino pwm.
 \newblock https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM.
 \newblock Seen on 5 May 2021.
 
+\bibitem{servo-lib}
+Servo.
+\newblock https://www.arduino.cc/reference/en/libraries/servo/.
+\newblock Seen on 6 May 2021.
+
 \end{thebibliography}

@@ -5,7 +5,7 @@ int i = 0;
 void setup() {
   for(i = 1; i < 10; i++) {
     Serial.begin(115200);
-    myservo.attach(5);      // attach the servo object on to pin 9 
+    myservo.attach(5);      // attach the servo object on to pin 5 
     myservo.write(angle*i); // tell servo to rotate by 20 degrees
     delay(1000);            // waits for a sec 
   }
