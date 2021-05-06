@@ -11,7 +11,7 @@ algorithm
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
-      sComm.cmd_servo_attach(1, 1) "Attach the motor to pin 9. 1 means 9";
+      sComm.cmd_servo_attach(1, 1) "Attach the motor to pin 5. 1 means 5";
       sComm.cmd_servo_move(1, 1, 90) "Move the servo to 90 degree";
       sComm.delay(1000) "be there for one second";
       sComm.cmd_servo_move(1, 1, 45) "Move the servo to 45 degree";

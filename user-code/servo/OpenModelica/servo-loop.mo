@@ -11,7 +11,7 @@ algorithm
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
-      sComm.cmd_servo_attach(1, 1) "Attach motor to pin 9. 1 means pin 9.";
+      sComm.cmd_servo_attach(1, 1) "Attach motor to pin 5. 1 means pin 5.";
       sComm.delay(2000);
       angle := 20 "Angle by which it has to move";
       for i in 1:10 loop

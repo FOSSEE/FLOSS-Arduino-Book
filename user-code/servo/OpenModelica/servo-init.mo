@@ -10,7 +10,7 @@ algorithm
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
-      sComm.cmd_servo_attach(1, 1) "To attach the motor to pin 9 of servo1";
+      sComm.cmd_servo_attach(1, 1) "To attach the motor to pin 5 of servo1";
       sComm.cmd_servo_move(1, 1, 30) "tell servo to rotate by 30 degrees";
       sComm.delay(1000);
     end if;
