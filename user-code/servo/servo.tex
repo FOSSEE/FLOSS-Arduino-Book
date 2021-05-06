@@ -967,12 +967,16 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
 \subsection{OpenModelica Code}
 \lstset{style=mystyle}
 \label{sec:servo-OpenModelica-code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
   \mcaption{Rotating the servomotor to a specified degree} {Rotating
-    the servomotor to a specified degree.  Available at
-    \LocSEROpenModelicabrief{servo-init.mo}.}
+    the servomotor to a specified degree. Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_init.}
   \label{OpenModelica:servo-init}
   \lstinputlisting{\LocSEROpenModelicacode/servo-init.mo}
 \end{OpenModelicacode}
@@ -980,16 +984,16 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
 \begin{OpenModelicacode}
   \mcaption{Rotating the servomotor to a specified degree and
     reversing} {Rotating
-    the servomotor to a specified degree and reversing.  Available at
-    \LocSEROpenModelicabrief{servo-reverse.mo}.}
+    the servomotor to a specified degree and reversing.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_reverse.}
   \label{OpenModelica:servo-reverse}
   \lstinputlisting{\LocSEROpenModelicacode/servo-reverse.mo}
 \end{OpenModelicacode}
 
 \begin{OpenModelicacode}
   \mcaption{Rotating the servomotor in steps of $20^\circ$}{Rotating
-    the servomotor in steps of $20^\circ$.  Available at 
-    \LocSERjuliabrief{servo-loop.mo}.}
+    the servomotor in steps of $20^\circ$.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_loop.}
   \label{OpenModelica:servo-loop}
   \lstinputlisting{\LocSEROpenModelicacode/servo-loop.mo}
 \end{OpenModelicacode}
@@ -997,7 +1001,8 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
 \begin{OpenModelicacode}
   \mcaption{Rotating the servomotor to a degree specified by the
     potentiometer} {Rotating the servomotor to a degree specified by
-    the potentiometer.  Available at \LocSEROpenModelicabrief{servo\_pot.mo}.}
+    the potentiometer.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_pot.}
   \label{OpenModelica:servo-pot}
   \lstinputlisting{\LocSEROpenModelicacode/servo-pot.mo}
 \end{OpenModelicacode}
