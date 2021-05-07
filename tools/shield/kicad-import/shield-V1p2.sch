@@ -1,0 +1,850 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Scilab Shield"
+Date "2021-04-09"
+Rev "1.2.1"
+Comp "FOSSEE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6300 2100 6400 2100
+Wire Wire Line
+	6400 2100 6400 2000
+Wire Wire Line
+	6400 2000 6500 2000
+Wire Wire Line
+	6400 2000 6300 2000
+Wire Wire Line
+	2900 2300 6400 2300
+Wire Wire Line
+	6400 2300 6400 2100
+Connection ~ 6400 2000
+Connection ~ 6400 2100
+Wire Wire Line
+	4100 2500 4000 2500
+Wire Wire Line
+	4000 2500 4000 2400
+Wire Wire Line
+	4000 2400 2900 2400
+Wire Wire Line
+	4100 2700 3900 2700
+Wire Wire Line
+	3900 2700 3900 2500
+Wire Wire Line
+	3900 2500 2900 2500
+Wire Wire Line
+	4100 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2600
+Wire Wire Line
+	3800 2600 2900 2600
+Wire Wire Line
+	2900 2700 3300 2700
+Text Label 3100 2700 0    70   ~ 0
+IR1.2
+Wire Wire Line
+	7200 2700 5500 2700
+Wire Wire Line
+	5500 2700 5500 3600
+Wire Wire Line
+	5500 3600 3700 3600
+Wire Wire Line
+	3700 3600 3700 3300
+Wire Wire Line
+	3700 3300 2900 3300
+Wire Wire Line
+	2900 3400 3300 3400
+Wire Wire Line
+	5700 2900 5600 2900
+Wire Wire Line
+	5600 2900 5600 3700
+Wire Wire Line
+	5600 3700 3600 3700
+Wire Wire Line
+	3600 3700 3600 3500
+Wire Wire Line
+	2900 3500 3600 3500
+Wire Wire Line
+	6300 4000 5600 4000
+Wire Wire Line
+	5600 4000 5600 3800
+Wire Wire Line
+	5600 3800 3500 3800
+Wire Wire Line
+	3500 3800 3500 3600
+Wire Wire Line
+	3500 3600 2900 3600
+Wire Wire Line
+	2900 3700 3300 3700
+Wire Wire Line
+	2900 3800 3300 3800
+Wire Wire Line
+	2900 4500 3400 4500
+Wire Wire Line
+	3400 4500 3400 4600
+Wire Wire Line
+	2900 4600 3400 4600
+Wire Wire Line
+	3400 4600 3400 4800
+Connection ~ 3400 4600
+Text Label 2900 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	6900 2000 7000 2000
+Wire Wire Line
+	7000 2000 7000 2100
+Text Label 6900 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 2500 5300 2500
+Wire Wire Line
+	5300 2500 5300 2600
+Text Label 5200 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	5900 5300 5900 5400
+Text Label 5900 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	6500 5100 6400 5100
+Wire Wire Line
+	6400 5100 6400 5400
+Text Label 6500 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 5700 7400 5800
+Text Label 7400 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 5700 8000 5800
+Text Label 8000 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	7000 4300 7000 4200
+Text Label 7000 4300 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 3300 6200 3400
+Text Label 6200 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 2300 7400 2400
+Wire Wire Line
+	7400 2300 7600 2300
+Wire Wire Line
+	7600 2300 7600 2200
+Text Label 7400 2300 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 2100 3400 2100
+Wire Wire Line
+	3400 2100 3400 2800
+Text Label 2900 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	5600 5000 5500 5000
+Wire Wire Line
+	5500 5000 5500 5600
+Wire Wire Line
+	5500 5600 3700 5600
+Wire Wire Line
+	3700 5600 3700 5300
+Wire Wire Line
+	3700 5300 2900 5300
+Wire Wire Line
+	6500 5000 6200 5000
+Wire Wire Line
+	6200 5000 6200 5700
+Wire Wire Line
+	6200 5700 3600 5700
+Wire Wire Line
+	3600 5700 3600 5400
+Wire Wire Line
+	3600 5400 2900 5400
+Wire Wire Line
+	7400 5100 7400 5200
+Wire Wire Line
+	7400 5200 7400 5300
+Wire Wire Line
+	7400 5200 7100 5200
+Wire Wire Line
+	7100 5200 7100 5800
+Wire Wire Line
+	7100 5800 3500 5800
+Wire Wire Line
+	3500 5800 3500 5500
+Wire Wire Line
+	3500 5500 2900 5500
+Connection ~ 7400 5200
+Wire Wire Line
+	2900 5600 3400 5600
+Wire Wire Line
+	3400 5600 3400 6100
+Wire Wire Line
+	3400 6100 7700 6100
+Wire Wire Line
+	7700 6100 7700 5200
+Wire Wire Line
+	8000 5100 8000 5200
+Wire Wire Line
+	8000 5200 8000 5300
+Wire Wire Line
+	7700 5200 8000 5200
+Connection ~ 8000 5200
+Wire Wire Line
+	5800 1900 5800 2000
+Wire Wire Line
+	5800 2000 5800 2100
+Wire Wire Line
+	5800 2100 5900 2100
+Wire Wire Line
+	5900 2000 5800 2000
+Connection ~ 5800 2000
+Text Label 5800 1900 0    10   ~ 0
++5V
+Wire Wire Line
+	2900 4400 3800 4400
+Wire Wire Line
+	3800 4400 3800 4000
+Text Label 2900 4400 0    10   ~ 0
++5V
+Wire Wire Line
+	5900 4700 5900 4600
+Text Label 5900 4700 0    10   ~ 0
++5V
+Wire Wire Line
+	6500 4900 6400 4900
+Wire Wire Line
+	6400 4900 6400 4600
+Text Label 6500 4900 0    10   ~ 0
++5V
+Wire Wire Line
+	7400 4700 7400 4600
+Text Label 7400 4700 0    10   ~ 0
++5V
+Wire Wire Line
+	8000 4700 8000 4600
+Text Label 8000 4700 0    10   ~ 0
++5V
+Wire Wire Line
+	7300 3500 7300 3200
+Wire Wire Line
+	7300 3200 7000 3200
+Wire Wire Line
+	7000 3200 7000 3400
+Wire Wire Line
+	7300 3200 7300 3100
+Connection ~ 7300 3200
+Text Label 7300 3500 0    10   ~ 0
++5V
+Wire Wire Line
+	4600 2500 4500 2500
+Wire Wire Line
+	4600 2700 4500 2700
+Wire Wire Line
+	4600 2900 4500 2900
+Wire Wire Line
+	2900 4300 3500 4300
+Wire Wire Line
+	3500 4300 3500 4000
+Wire Wire Line
+	2900 4700 4100 4700
+Wire Wire Line
+	4100 4700 4100 4000
+Wire Wire Line
+	7300 3700 7000 3700
+Wire Wire Line
+	7000 3700 7000 3800
+Wire Wire Line
+	7000 3600 7000 3700
+Connection ~ 7000 3700
+Wire Wire Line
+	7700 3300 7700 3200
+Wire Wire Line
+	7700 3200 8400 3200
+Wire Wire Line
+	8400 3400 8200 3400
+Wire Wire Line
+	8200 3400 8200 3300
+Wire Wire Line
+	8200 3300 7900 3300
+Wire Wire Line
+	7900 3900 8200 3900
+Wire Wire Line
+	8200 3900 8200 3400
+Connection ~ 8200 3400
+Wire Wire Line
+	8400 3600 8300 3600
+Wire Wire Line
+	8300 3600 8300 4000
+Wire Wire Line
+	8300 4000 7700 4000
+Wire Wire Line
+	7700 4000 7700 3900
+Wire Wire Line
+	6800 4000 6700 4000
+Wire Wire Line
+	2900 2000 3300 2000
+Wire Wire Line
+	6100 2900 6200 2900
+Wire Wire Line
+	6200 2900 6200 3000
+Wire Wire Line
+	2900 3100 3500 3100
+Text Label 3100 3100 0    70   ~ 0
+IR2.1
+Wire Wire Line
+	2900 3200 3500 3200
+Text Label 3100 3200 0    70   ~ 0
+IR2.2
+Wire Wire Line
+	2900 2200 3300 2200
+Text Label 3125 2200 0    70   ~ 0
+IR1.1
+$Comp
+L shield-V1p2-eagle-import:PINHD-1X8 JP1
+U 1 1 2F430EF2
+P 2800 2300
+F 0 "JP1" H 2550 2825 59  0000 L BNN
+F 1 "PINHD-1X8" H 2550 1800 59  0000 L BNN
+F 2 "shield-V1p2:1X08" H 2800 2300 50  0001 C CNN
+F 3 "" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:PINHD-1X8 JP2
+U 1 1 FA93C76E
+P 2800 3400
+F 0 "JP2" H 2550 3925 59  0000 L BNN
+F 1 "PINHD-1X8" H 2550 2900 59  0000 L BNN
+F 2 "shield-V1p2:1X08" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:PINHD-1X6 JP3
+U 1 1 ACD8E5B6
+P 2800 4400
+F 0 "JP3" H 2550 4825 59  0000 L BNN
+F 1 "PINHD-1X6" H 2550 4000 59  0000 L BNN
+F 2 "shield-V1p2:1X06" H 2800 4400 50  0001 C CNN
+F 3 "" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:PINHD-1X6 JP4
+U 1 1 47274FB3
+P 2800 5300
+F 0 "JP4" H 2550 5725 59  0000 L BNN
+F 1 "PINHD-1X6" H 2550 4900 59  0000 L BNN
+F 2 "shield-V1p2:1X06" H 2800 5300 50  0001 C CNN
+F 3 "" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:10-XX BUTTON1
+U 1 1 C09A75D6
+P 6100 2000
+F 0 "BUTTON1" V 5850 1900 59  0000 L BNN
+F 1 "10-XX" V 5950 2125 59  0000 L BNN
+F 2 "shield-V1p2:B3F-10XX" H 6100 2000 50  0001 C CNN
+F 3 "" H 6100 2000 50  0001 C CNN
+	1    6100 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+3V3 #+3V01
+U 1 1 406B5002
+P 3500 3900
+F 0 "#+3V01" H 3500 3900 50  0001 C CNN
+F 1 "+3V3" V 3400 3700 59  0000 L BNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+01
+U 1 1 BCDF72C5
+P 3800 3900
+F 0 "#P+01" H 3800 3900 50  0001 C CNN
+F 1 "+5V" V 3700 3700 59  0000 L BNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 3400 4900
+F 0 "#GND01" H 3400 4900 50  0001 C CNN
+F 1 "GND" H 3300 4800 59  0000 L BNN
+F 2 "" H 3400 4900 50  0001 C CNN
+F 3 "" H 3400 4900 50  0001 C CNN
+	1    3400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 3400 2900
+F 0 "#GND02" H 3400 2900 50  0001 C CNN
+F 1 "GND" H 3300 2800 59  0000 L BNN
+F 2 "" H 3400 2900 50  0001 C CNN
+F 3 "" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:V+ #P+02
+U 1 1 339DE9D3
+P 4100 3900
+F 0 "#P+02" H 4100 3900 50  0001 C CNN
+F 1 "V+" V 4000 3800 59  0000 L BNN
+F 2 "" H 4100 3900 50  0001 C CNN
+F 3 "" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R6
+U 1 1 2DDEC18F
+P 6700 2000
+F 0 "R6" H 6550 2059 59  0000 L BNN
+F 1 "R-US_0207_10" H 6550 1870 59  0000 L BNN
+F 2 "shield-V1p2:0207_10" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND04
+U 1 1 D896219B
+P 7000 2200
+F 0 "#GND04" H 7000 2200 50  0001 C CNN
+F 1 "GND" H 6900 2100 59  0000 L BNN
+F 2 "" H 7000 2200 50  0001 C CNN
+F 3 "" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+04
+U 1 1 A7FDB2D8
+P 5800 1800
+F 0 "#P+04" H 5800 1800 50  0001 C CNN
+F 1 "+5V" V 5700 1600 59  0000 L BNN
+F 2 "" H 5800 1800 50  0001 C CNN
+F 3 "" H 5800 1800 50  0001 C CNN
+	1    5800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:RGBLED_COMMON_CATHODE RGB1
+U 1 1 0BBC8796
+P 4900 2700
+F 0 "RGB1" V 4600 2200 59  0000 R TNN
+F 1 "RGB LED" V 4700 2200 59  0000 R TNN
+F 2 "shield-V1p2:RGB_VERTICAL" H 4900 2700 50  0001 C CNN
+F 3 "" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R1
+U 1 1 0283DCCD
+P 4300 2500
+F 0 "R1" H 4150 2559 59  0000 L BNN
+F 1 "R-US_0207_10" H 4150 2370 59  0001 L BNN
+F 2 "shield-V1p2:0207_10" H 4300 2500 50  0001 C CNN
+F 3 "" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R2
+U 1 1 3A85EE58
+P 4300 2700
+F 0 "R2" H 4150 2759 59  0000 L BNN
+F 1 "R-US_0207_10" H 4150 2570 59  0001 L BNN
+F 2 "shield-V1p2:0207_10" H 4300 2700 50  0001 C CNN
+F 3 "" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R3
+U 1 1 9D3B2993
+P 4300 2900
+F 0 "R3" H 4150 2959 59  0000 L BNN
+F 1 "R-US_0207_10" H 4150 2770 59  0001 L BNN
+F 2 "shield-V1p2:0207_10" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 5300 2700
+F 0 "#GND05" H 5300 2700 50  0001 C CNN
+F 1 "GND" H 5200 2600 59  0000 L BNN
+F 2 "" H 5300 2700 50  0001 C CNN
+F 3 "" H 5300 2700 50  0001 C CNN
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:EVU_POTENTIOMETER POT1
+U 1 1 2D1F1880
+P 5900 5000
+F 0 "POT1" H 6100 4800 56  0000 L BNN
+F 1 "EVU_POTENTIOMETER" H 5900 5000 50  0001 C CNN
+F 2 "shield-V1p2:VERT_POT" H 5900 5000 50  0001 C CNN
+F 3 "" H 5900 5000 50  0001 C CNN
+	1    5900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:SS49E HALL1
+U 1 1 03C06E90
+P 6800 5000
+F 0 "HALL1" H 6700 4700 59  0000 L BNN
+F 1 "SS49E" H 6800 5000 50  0001 C CNN
+F 2 "shield-V1p2:TO_92_SHORT" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0001 C CNN
+	1    6800 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:TSC_1FORMC RELAY1
+U 1 1 53E986CC
+P 7600 3600
+F 0 "RELAY1" H 8000 3600 59  0000 L BNN
+F 1 "TSC_1FORMC" H 7600 3600 50  0001 C CNN
+F 2 "shield-V1p2:TSC_RELAY" H 7600 3600 50  0001 C CNN
+F 3 "" H 7600 3600 50  0001 C CNN
+	1    7600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 5900 5500
+F 0 "#GND08" H 5900 5500 50  0001 C CNN
+F 1 "GND" H 5800 5400 59  0000 L BNN
+F 2 "" H 5900 5500 50  0001 C CNN
+F 3 "" H 5900 5500 50  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+05
+U 1 1 33ACA7EC
+P 5900 4500
+F 0 "#P+05" H 5900 4500 50  0001 C CNN
+F 1 "+5V" V 5800 4300 59  0000 L BNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+06
+U 1 1 B0F39303
+P 6400 4500
+F 0 "#P+06" H 6400 4500 50  0001 C CNN
+F 1 "+5V" V 6300 4300 59  0000 L BNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 6400 5500
+F 0 "#GND09" H 6400 5500 50  0001 C CNN
+F 1 "GND" H 6300 5400 59  0000 L BNN
+F 2 "" H 6400 5500 50  0001 C CNN
+F 3 "" H 6400 5500 50  0001 C CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:THERMISTOR-5 THERM1
+U 1 1 A2D73158
+P 7400 4900
+F 0 "THERM1" H 7300 5050 59  0000 L BNN
+F 1 "Thermistor" H 7300 4650 59  0000 L BNN
+F 2 "shield-V1p2:R-5" H 7400 4900 50  0001 C CNN
+F 3 "" H 7400 4900 50  0001 C CNN
+	1    7400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R7
+U 1 1 D7380F0A
+P 7400 5500
+F 0 "R7" H 7250 5559 59  0000 L BNN
+F 1 "R-US_0207_10" H 7250 5370 59  0000 L BNN
+F 2 "shield-V1p2:0207_10" H 7400 5500 50  0001 C CNN
+F 3 "" H 7400 5500 50  0001 C CNN
+	1    7400 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+07
+U 1 1 BC2DCEA9
+P 7400 4500
+F 0 "#P+07" H 7400 4500 50  0001 C CNN
+F 1 "+5V" V 7300 4300 59  0000 L BNN
+F 2 "" H 7400 4500 50  0001 C CNN
+F 3 "" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 7400 5900
+F 0 "#GND010" H 7400 5900 50  0001 C CNN
+F 1 "GND" H 7300 5800 59  0000 L BNN
+F 2 "" H 7400 5900 50  0001 C CNN
+F 3 "" H 7400 5900 50  0001 C CNN
+	1    7400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:VT2 PHOTO1
+U 1 1 36EEA710
+P 8000 4900
+F 0 "PHOTO1" H 8100 4900 59  0000 L BNN
+F 1 "CdS Photocell" H 8100 4800 59  0000 L BNN
+F 2 "shield-V1p2:TO46-VT200" H 8000 4900 50  0001 C CNN
+F 3 "" H 8000 4900 50  0001 C CNN
+	1    8000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R8
+U 1 1 FAE95852
+P 8000 5500
+F 0 "R8" H 7850 5559 59  0000 L BNN
+F 1 "R-US_0207_10" H 7850 5370 59  0000 L BNN
+F 2 "shield-V1p2:0207_10" H 8000 5500 50  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+	1    8000 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+08
+U 1 1 B54CCCBB
+P 8000 4500
+F 0 "#P+08" H 8000 4500 50  0001 C CNN
+F 1 "+5V" V 7900 4300 59  0000 L BNN
+F 2 "" H 8000 4500 50  0001 C CNN
+F 3 "" H 8000 4500 50  0001 C CNN
+	1    8000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 8000 5900
+F 0 "#GND011" H 8000 5900 50  0001 C CNN
+F 1 "GND" H 7900 5800 59  0000 L BNN
+F 2 "" H 8000 5900 50  0001 C CNN
+F 3 "" H 8000 5900 50  0001 C CNN
+	1    8000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:2N3904 T1
+U 1 1 011D2A96
+P 6900 4000
+F 0 "T1" H 6500 4300 59  0000 L BNN
+F 1 "2N3904" H 6500 4200 59  0000 L BNN
+F 2 "shield-V1p2:TO92" H 6900 4000 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:1N4004 D1
+U 1 1 8D141E84
+P 7000 3500
+F 0 "D1" H 7100 3519 59  0000 L BNN
+F 1 "1N4004" H 7100 3409 59  0000 L BNN
+F 2 "shield-V1p2:DO41-10" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:+5V #P+09
+U 1 1 540F2EFD
+P 7300 3000
+F 0 "#P+09" H 7300 3000 50  0001 C CNN
+F 1 "+5V" V 7200 2800 59  0000 L BNN
+F 2 "" H 7300 3000 50  0001 C CNN
+F 3 "" H 7300 3000 50  0001 C CNN
+	1    7300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND012
+U 1 1 A5F18D96
+P 7000 4400
+F 0 "#GND012" H 7000 4400 50  0001 C CNN
+F 1 "GND" H 6900 4300 59  0000 L BNN
+F 2 "" H 7000 4400 50  0001 C CNN
+F 3 "" H 7000 4400 50  0001 C CNN
+	1    7000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:W237-103 X1
+U 1 1 753049C4
+P 8600 3600
+F 0 "X1" H 8600 3635 59  0000 R TNN
+F 1 "W237-103" H 8500 3455 59  0000 L BNN
+F 2 "shield-V1p2:W237-103" H 8600 3600 50  0001 C CNN
+F 3 "" H 8600 3600 50  0001 C CNN
+	1    8600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:W237-103 X1
+U 2 1 753049C8
+P 8600 3400
+F 0 "X1" H 8600 3435 59  0000 R TNN
+F 1 "W237-103" H 8500 3255 59  0000 L BNN
+F 2 "shield-V1p2:W237-103" H 8600 3400 50  0001 C CNN
+F 3 "" H 8600 3400 50  0001 C CNN
+	2    8600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:W237-103 X1
+U 3 1 753049CC
+P 8600 3200
+F 0 "X1" H 8600 3235 59  0000 R TNN
+F 1 "W237-103" H 8500 3055 59  0000 L BNN
+F 2 "shield-V1p2:W237-103" H 8600 3200 50  0001 C CNN
+F 3 "" H 8600 3200 50  0001 C CNN
+	3    8600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R9
+U 1 1 E6DB434F
+P 6500 4000
+F 0 "R9" H 6350 4059 59  0000 L BNN
+F 1 "R-US_0207_10" H 6350 3870 59  0000 L BNN
+F 2 "shield-V1p2:0207_10" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:R-US_0207_10 R10
+U 1 1 B13F576F
+P 5900 2900
+F 0 "R10" H 5750 2959 59  0000 L BNN
+F 1 "R-US_0207_10" H 5750 2770 59  0000 L BNN
+F 2 "shield-V1p2:0207_10" H 5900 2900 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND013
+U 1 1 9E3D6951
+P 6200 3500
+F 0 "#GND013" H 6200 3500 50  0001 C CNN
+F 1 "GND" H 6100 3400 59  0000 L BNN
+F 2 "" H 6200 3500 50  0001 C CNN
+F 3 "" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:GND #GND014
+U 1 1 109F320A
+P 7400 2500
+F 0 "#GND014" H 7400 2500 50  0001 C CNN
+F 1 "GND" H 7300 2400 59  0000 L BNN
+F 2 "" H 7400 2500 50  0001 C CNN
+F 3 "" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:PS1240P02BT PIEZO1
+U 1 1 590FA19B
+P 6300 3100
+F 0 "PIEZO1" V 6250 3400 59  0000 L BNN
+F 1 "PS1240P02BT" V 6100 3150 59  0000 L BNN
+F 2 "shield-V1p2:PS1240P02BT" H 6300 3100 50  0001 C CNN
+F 3 "" H 6300 3100 50  0001 C CNN
+	1    6300 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L shield-V1p2-eagle-import:JP2E SERVO1
+U 1 1 FA5028AA
+P 7700 2100
+F 0 "SERVO1" V 7550 2100 59  0000 L BNN
+F 1 "JP2E" V 7925 2100 59  0000 L BNN
+F 2 "shield-V1p2:JP2" H 7700 2100 50  0001 C CNN
+F 3 "" H 7700 2100 50  0001 C CNN
+	1    7700 2100
+	0    1    1    0   
+$EndComp
+Text Notes 6520 4750 0    59   ~ 0
+Hall Sensor
+Text Notes 7850 1740 0    59   ~ 0
+Servo
+Text Notes 7340 3920 0    59   ~ 0
+Relay
+Text Notes 5510 4460 0    56   ~ 0
+Potentiometer
+Wire Wire Line
+	7200 2000 7600 2000
+Wire Wire Line
+	7200 2000 7200 2700
+Wire Wire Line
+	7500 2100 7600 2100
+$Comp
+L shield-V1p2-eagle-import:+5V #P+010
+U 1 1 99CC31BE
+P 7400 2050
+F 0 "#P+010" H 7400 2050 50  0001 C CNN
+F 1 "+5V" V 7300 1850 59  0000 L BNN
+F 2 "" H 7400 2050 50  0001 C CNN
+F 3 "" H 7400 2050 50  0001 C CNN
+	1    7400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2150 7400 2200
+Wire Wire Line
+	7400 2200 7500 2200
+Wire Wire Line
+	7500 2100 7500 2200
+Text Label 7500 2100 0    10   ~ 0
++5V
+$EndSCHEMATC

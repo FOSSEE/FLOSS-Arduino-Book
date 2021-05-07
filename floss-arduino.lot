@@ -1,8 +1,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Uno hardware specifications\relax }}{10}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Values of components used in the shield\relax }}{16}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Information on sensors and pin numbers\relax }}{16}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Values of components used in the shield\relax }}{15}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Information on sensors and pin numbers\relax }}{15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Parameters to light the blue LED in Xcos\relax }}{77}%
