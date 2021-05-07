@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  7 MAY 2021 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  8 MAY 2021 04:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -677,7 +677,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/hw-
 
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
- [22 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/launch-arduino-opt.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino-ide.jpg>] [23] [24] (/home/fossee/Desktop/floss-scilab-arduino/tools/arduino-firmware/arduino-firmware.ino) [25] [26]
+ [22 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/launch-arduino-opt.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/hw-env/figures/arduino-ide.jpg>] [23] [24] (/home/fossee/Desktop/floss-scilab-arduino/tools/floss-firmware/floss-firmware.ino) [25] [26]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png, id=202, 787.94376pt x 192.72pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/figures/linux-cd.png>
@@ -1332,12 +1332,7 @@ File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-po
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png  used on input line 133.
 (pdftex.def)             Requested size: 357.73405pt x 229.70891pt.
-
-Overfull \hbox (2.29306pt too wide) in paragraph at lines 138--138
-[]\T1/cmr/bx/n/14.4 Controlling the Ser-vo-mo-tor through the Ar-duino IDE 
- []
-
-[175 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino [176 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png>]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-reverse/servo-reverse.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-pot/servo-pot.ino) [177] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) [178] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-reverse/servo-reverse.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-loop/servo-loop.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-pot/servo-pot.ino [179]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce) [180] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-reverse.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-pot.sce) [181] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce)
+ [175 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) [176 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-reverse/servo-reverse.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-pot/servo-pot.ino) [177] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-init/servo-init.ino) [178] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-reverse/servo-reverse.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-loop/servo-loop.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/arduino/servo-pot/servo-pot.ino [179]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce) [180] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-reverse.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-pot.sce) [181] (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-init.sce)
 Overfull \hbox (2.47322pt too wide) in paragraph at lines 404--408
 []\T1/cmr/m/n/10.95 Rotating the ser-vo-mo-tor to a spec-i-fied de-gree and re-vers-ing. Avail-
  []
@@ -1589,14 +1584,14 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  9847 strings out of 481239
- 227180 string characters out of 5920377
+ 227164 string characters out of 5920377
  735688 words of memory out of 5000000
  24232 multiletter control sequences out of 15000+600000
  554670 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  50i,10n,53p,405b,1758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (274 pages, 31639716 bytes).
+Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (274 pages, 31640017 bytes).
 PDF statistics:
  1204 PDF objects out of 1440 (max. 8388607)
  700 compressed objects within 7 object streams

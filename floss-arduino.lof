@@ -54,19 +54,19 @@
 \contentsline {figure}{\numberline {3.39}{\ignorespaces Opening a model in text view in OMEdit\relax }}{62}%
 \contentsline {figure}{\numberline {3.40}{\ignorespaces Simulating a model in OMEdit\relax }}{62}%
 \contentsline {figure}{\numberline {3.41}{\ignorespaces Output window of OMEdit\relax }}{63}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Examples provied in OpenModelica-Arduino Toolbox\relax }}{65}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Examples provided in the OpenModelica-Arduino toolbox\relax }}{65}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{67}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for LED on the shield\relax }}{68}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for the RGB LED on the shield\relax }}{68}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and shield\relax }}{68}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Interfacing an RGB LED with Arduino Uno using a breadboard\relax }}{69}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An RGB LED with Arduino Uno\ using a breadboard\relax }}{69}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{72}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{77}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{78}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{79}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Connection Diagram\relax }}{96}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Internal connection diagram for the pushbutton on the shield\relax }}{96}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{96}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces A pushbutton to control an LED with Arduino Uno using a breadboard\relax }}{97}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces GUI in Scilab to show the status of the pushbutton\relax }}{101}%
@@ -86,14 +86,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{136}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{136}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Schematic representation of the potentiometer}}}{136}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Internal connection diagram for the potentiometer on the shield}}}{136}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{137}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{141}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{150}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{150}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{150}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Thermistor and buzzer connection diagrams\relax }}{150}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Internal connection diagrams for thermistor and buzzer on the shield\relax }}{150}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{150}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{150}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{151}%
@@ -104,8 +104,8 @@
 \contentsline {figure}{\numberline {8.8}{\ignorespaces Plot window in Xcos to read thermistor values and the state of LED\relax }}{162}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {9.1}{\ignorespaces Connecting servomotor to the shield attached on Arduino Uno\relax }}{174}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Interfacing a servomotor with Arduino Uno\ using a breadboard\relax }}{175}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Interfacing a servomotor and potentiometer with Arduino Uno\ using a breadboard\relax }}{176}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces A servomotor with Arduino Uno\ using a breadboard\relax }}{175}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces A servomotor and a potentiometer with Arduino Uno\ using a breadboard\relax }}{176}%
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Rotating the servomotor by a fixed angle}}{184}%
 \contentsline {figure}{\numberline {9.5}{\ignorespaces Rotating the servomotor forward and then reverse}}{185}%
 \contentsline {figure}{\numberline {9.6}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{186}%
@@ -117,7 +117,7 @@
 \contentsline {figure}{\numberline {10.4}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{206}%
 \contentsline {figure}{\numberline {10.5}{\ignorespaces Control of DC motor for a specified time from Xcos}}{214}%
 \contentsline {figure}{\numberline {10.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{215}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{216}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Xcos control of the DC motor in both directions in a loop}}{216}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{232}%
 \contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{232}%

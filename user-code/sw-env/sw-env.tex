@@ -13,9 +13,9 @@
 \newcommand{\LocSWchkcode}{\Origin/tools/scilab}
 \newcommand{\LocSWchkbrief}[1]{{\tt \seqsplit{
                         Origin/tools/scilab/#1}}, see \fnrefp{fn:file-loc}}
-\newcommand{\LocSWfirmcode}{\Origin/tools/arduino-firmware}
+\newcommand{\LocSWfirmcode}{\Origin/tools/floss-firmware}
 \newcommand{\LocSWfirmbrief}[1]{{\tt \seqsplit{
-                        Origin/tools/arduino-firmware/#1}}, see \fnrefp{fn:file-loc}}
+                        Origin/tools/floss-firmware/#1}}, see \fnrefp{fn:file-loc}}
 
 \newcommand{\LocFIMpycode}{\Origin/tools/python}  %added for python
 \newcommand{\LocFIMpybrief}[1]{{\tt \seqsplit{%
@@ -38,8 +38,8 @@ In this chapter, we shall briefly walk through the software
 environment that needs to be set up before we could start with the
 \arduino\ board-based experiments. We shall start with the \arduino\
 compatible Integrated Development Environment (IDE), termed as Arduino
-IDE, that would be used to load the firmware on to the
-microcontroller. The firmware to be loaded could be developed to serve
+IDE, that would be used to load the FLOSS firmware on to the
+microcontroller. The FLOSS firmware to be loaded could be developed to serve
 different purposes as per the requirement. For example, 
 \begin{itemize}
       \item To run \arduino\ stand-alone, without waiting for any commands
@@ -331,14 +331,14 @@ An inbuilt offline help is available within the IDE. You may access
 the explanation on IDE by navigating to ``Help'' and then
 Environment.
 
-\subsection{Firmware}
-We have provided a code to check whether the Arduino firmware has been
+\subsection{FLOSS Firmware}
+We have provided a code to check whether the FLOSS firmware has been
 properly installed.  The first few lines of this code follow. 
 
 \begin{ardcode}
-      \acaption{First 10 lines of the Arduino firmware}{First 10 lines of
-            the Arduino firmware.  Available at
-            \LocSWfirmbrief{arduino-firmware.ino}. Following the
+      \acaption{First 10 lines of the FLOSS firmware}{First 10 lines of
+            the FLOSS firmware.  Available at
+            \LocSWfirmbrief{floss-firmware.ino}. Following the
             steps given in sections \ref{sec:Arduino-IDE} and 
             \ref{sec:testing-arduino}, open this code in 
             Arduino IDE and upload it to \arduino. 
@@ -346,7 +346,7 @@ properly installed.  The first few lines of this code follow.
             at the bottom of Arduino IDE, as shown in \figref{ard-ide}. }
       \label{ard:firmware}
       \lstinputlisting[firstline=1,lastline=10]
-      {\LocSWfirmcode/arduino-firmware.ino}
+      {\LocSWfirmcode/floss-firmware.ino}
 \end{ardcode}
 
 % \subsection{Arduino firmware to work with scilab toolbox}
@@ -1102,7 +1102,7 @@ In this book, we have created a package named "Arduino" in Python 3.  This packa
 {\tt Origin/tools/python}. This package makes use of the functions available in pyserial \cite{pySerial} to 
 establish serial communication with Arduino. In this package, we have added functions required to run 
 various experiments on \arduino. Using this basic set of functions, the user can define other functions to operate
-upon the Arduino. Please note that the "Arduino" package and the Arduino firmware  given 
+upon the Arduino. Please note that the "Arduino" package and the FLOSS firmware  given 
 in \ardref{ard:firmware} are required to run the experiments. 
 
 Now, we will see how to import (or load) the "Arduino" package inside a Python script to run 
@@ -1120,7 +1120,7 @@ To run a particular experiment, one can follow the steps as given in \secref{py-
 \label{sec:test-firmware-python}
 \addtocontents{pyd}{\protect\addvspace{\codclr}}
 We have provided a Python code to check whether the firmware has been properly installed. That code is listed below.  
-Please ensure that you have uploaded the Arduino firmware given in \ardref{ard:firmware} on the \arduino\ board.
+Please ensure that you have uploaded the FLOSS firmware given in \ardref{ard:firmware} on the \arduino\ board.
 
 \begin{pycode}
       \pcaption{A Python script to check whether the firmware is properly installed
@@ -1385,7 +1385,7 @@ To run a particular experiment, one can follow the steps as given in \secref{jul
 \addtocontents{cod}{\protect\addvspace{\codclr}}
 We have provided a Julia source file (code) to check whether the firmware has been
 properly installed.  That file is listed below.  Please ensure that 
-you have uploaded the Arduino firmware given in \ardref{ard:firmware} on \arduino.
+you have uploaded the FLOSS firmware given in \ardref{ard:firmware} on \arduino.
 
 \begin{juliacode}
       \jcaption{A Julia source file to check whether the firmware is properly installed
@@ -1626,7 +1626,7 @@ Let us now see how to load the OpenModelica Arduino toolbox.
 \begin{figure}
       \centering
       \includegraphics[width=\smfig]{\LocSWfig/om-toolbox-loaded.png}
-      \caption{Examples provied in OpenModelica-Arduino Toolbox}
+      \caption{Examples provided in the OpenModelica-Arduino toolbox}
       \label{om-examples-toolbox}
 \end{figure}
 
@@ -1638,12 +1638,12 @@ Let us now see how to load the OpenModelica Arduino toolbox.
 \addtocontents{cod}{\protect\addvspace{\codclr}}
 We have provided an OpenModelica code/model to check whether the firmware has been
 properly installed.  That code/model is listed below. Please ensure that 
-you have uploaded the Arduino firmware given 
+you have uploaded the FLOSS firmware given 
 in \ardref{ard:firmware} on the \arduino\ board.
 
 
 \begin{OpenModelicacode}
-      \mcaption{An OpenModelica code to check whether the firmware is properly installed
+      \mcaption{An OpenModelica code/model to check whether the firmware is properly installed
             or not}{An OpenModelica code/model to check whether the firmware is properly installed
             or not.  Available at \LocFIMOpenModelicabrief{test\_firmware.mo}. Locate this file 
             inside OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}. Simulate this code/model by following the steps 

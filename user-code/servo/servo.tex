@@ -74,7 +74,7 @@ on the \arduino\ board. On the shield, there is a three-pin header at one of the
 ends. The pins of this header have been marked as $1$, $2$, and $3$. These pins:
 $1$, $2$, and $3$ are internally connected to 5V, PWM pin 5, and GND on \arduino\, respectively.  
 As discussed before, a typical servomotor has three terminals. Thus, the readers need to 
-connect these three terminals with the three-pin header, as shown in \figref{fig:ard-ldr}
+connect these three terminals with the three-pin header, as shown in \figref{fig:servo-shield}
 before running the experiments given in this chapter. 
 
 \begin{figure}
@@ -117,7 +117,7 @@ please refer to \figref{fig:servo-bread}.
 \begin{figure}
   \centering
   \includegraphics[width=\hgfig]{\LocSERfig/servo-bb.png}
-  \caption{Interfacing a servomotor with \arduino\ using a breadboard}
+  \caption{A servomotor with \arduino\ using a breadboard}
   \label{fig:servo-bread}
 \end{figure}
 As shown in \figref{fig:servo-bread}, there is a servomotor with three 
@@ -131,12 +131,12 @@ potentiometer. Rest of the connections are same as that in \figref{fig:servo-bre
 \begin{figure}
   \centering
   \includegraphics[width=\hgfig]{\LocSERfig/servo-pot-bb.png}
-  \caption{Interfacing a servomotor and potentiometer with \arduino\ using a breadboard}
+  \caption{A servomotor and a potentiometer with \arduino\ using a breadboard}
   \label{fig:servo-pot-bread}
 \end{figure}
 
-\section{Controlling the Servomotor through the Arduino IDE}
-\subsection{Controlling the Servomotor}
+\section{Controlling the servomotor through the Arduino IDE}
+\subsection{Controlling the servomotor}
 \label{sec:servo-ard}
 In this section, we will describe some experiments that will help
 rotate the servomotor based on the command given from Arduino IDE.  We
@@ -271,8 +271,8 @@ instructions given in \secref{sec:ard-start} before getting started.
   \lstinputlisting{\LocSERardcode/servo-pot/servo-pot.ino}
 \end{ardcode}
 
-\section{Controlling the Servomotor through Scilab}
-\subsection{Controlling the Servomotor}
+\section{Controlling the servomotor through Scilab}
+\subsection{Controlling the servomotor}
 \label{sec:servo-sci}
 In this section, we discuss how to carry out the experiments of the
 previous section from Scilab. We will list the same four experiments,
@@ -425,7 +425,7 @@ The reader should go through the instructions given in
 \end{scicode}
 
 
-\section{Controling the Servomotor through Xcos}
+\section{Controling the servomotor through Xcos}
 \label{sec:servo-xcos}
 In this section, we will see how to rotate the servomotor from Scilab
 Xcos.  We will carry out experiments similar to the ones in earlier
@@ -591,8 +591,8 @@ given in \secref{sec:xcos-start} before getting started.
 \end{enumerate}
 
 
-\section{Controlling the Servomotor through Python}
-\subsection{Controlling the Servomotor}
+\section{Controlling the servomotor through Python}
+\subsection{Controlling the servomotor}
 \label{sec:servo-py}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same four experiments,
@@ -760,8 +760,8 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
   \lstinputlisting{\LocSERpycode/servo-pot.py}
 \end{pycode}
 
-\section{Controlling the Servomotor through Julia}
-\subsection{Controlling the Servomotor}
+\section{Controlling the servomotor through Julia}
+\subsection{Controlling the servomotor}
 \label{sec:servo-julia}
 In this section, we discuss how to carry out the experiments of the
 previous section from Julia.  We will list the same four experiments,
@@ -883,8 +883,8 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
   \lstinputlisting{\LocSERjuliacode/servo-pot.jl}
 \end{juliacode}
 
-\section{Controlling the Servomotor through OpenModelica}
-\subsection{Controlling the Servomotor}
+\section{Controlling the servomotor through OpenModelica}
+\subsection{Controlling the servomotor}
 \label{sec:servo-OpenModelica}
 In this section, we discuss how to carry out the experiments of the
 previous section from OpenModelica.  We will list the same four experiments,

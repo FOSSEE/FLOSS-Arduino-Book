@@ -61,7 +61,7 @@ is usually provided by the manufacturer in the datasheet.
 \begin{figure}
 \centering
 \includegraphics[width=\smfig]{\LocPushfig/pushbutton-conn.png}
-\caption{Connection Diagram}
+\caption{Internal connection diagram for the pushbutton on the shield}
 %\redcolor{connected on pin no. D12}}
 \label{fig:pushbuttonconn}
 \end{figure}
@@ -113,8 +113,8 @@ depending on the status of the pushbutton. As shown in \figref{fig:switch-led}, 
 pin 9 on \arduino\ is connected to the rightmost leg of the RGB LED. Rest of the connections
 are same as that in \figref{fig:switch-bread}. 
 
-\section{Reading the Pushbutton Status from the Arduino IDE}
-\subsection{Reading the Pushbutton Status}
+\section{Reading the pushbutton status from the Arduino IDE}
+\subsection{Reading the pushbutton status}
 In this section, we shall describe an experiment that will help 
 to read the status of a pushbutton through Arduino IDE. 
 Later, we shall change the state of an LED depending on the status of the pushbutton. The shield has to be attached to the \arduino\ board
@@ -185,8 +185,8 @@ instructions given in \secref{sec:ard-start} before getting started.
 \end{ardcode}
 
 
-\section{Reading the Pushbutton Status from Scilab}
-\subsection{Reading the Pushbutton Status}
+\section{Reading the pushbutton Status from Scilab}
+\subsection{Reading the pushbutton Status}
 In this section, we discuss how to carry out the experiments of the
 previous section from Scilab. We will list the same two experiments,
 in the same order.  The shield has to be attached to the \arduino\ board
@@ -257,7 +257,7 @@ digital pin 12 using the following command:
 
 
 
-\section{Accessing the Pushbutton from Xcos}
+\section{Accessing the pushbutton from Xcos}
 \label{sec:push-xcos}
 In this section, we will see how to access the pushbutton from Scilab
 Xcos.  We will carry out the same two experiments as in the previous
@@ -369,8 +369,8 @@ Let us carry out the following exercise:
 \end{exercise}
 
 %%%%%%%%%%%%python description starts
-\section{Reading the Pushbutton Status from Python}
-\subsection{Reading the Pushbutton Status}
+\section{Reading the pushbutton status from Python}
+\subsection{Reading the pushbutton status}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same two experiments,
 in the same order.  The shield has to be attached to the \arduino\ board
@@ -437,8 +437,8 @@ The reader should go through the instructions given in
 \end{pycode}
 
 
-\section{Reading the Pushbutton Status from Julia}
-\subsection{Reading the Pushbutton Status} 
+\section{Reading the pushbutton status from Julia}
+\subsection{Reading the pushbutton status} 
 In this section, we discuss how to carry out the experiments of the
 previous section from Julia.  We will list the same two experiments,
 in the same order.  The shield has to be attached to the \arduino\ board
@@ -501,8 +501,8 @@ maybe.
 \lstinputlisting{\LocPushjuliacode/led-push-button.jl}
 \end{juliacode}
 
-\section{Reading the Pushbutton Status from OpenModelica}
-\subsection{Reading the Pushbutton Status}
+\section{Reading the pushbutton status from OpenModelica}
+\subsection{Reading the pushbutton status}
 In this section, we discuss how to carry out the experiments of the
 previous section from OpenModelica.  We will list the same two experiments,
 in the same order.  The shield has to be attached to the \arduino\ board
@@ -561,8 +561,8 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
 \begin{OpenModelicacode}
-\mcaption{Read the status of the pushbutton and displaying on the
-  serial monitor}{Read the status of the pushbutton and display it on the output window.  
+\mcaption{Read the status of the pushbutton and display it on the 
+output window}{Read the status of the pushbutton and display it on the output window.  
   Available at Arduino -> SerialCommunication -> 
   Examples -> push -> push\_button\_status. }
 \label{OpenModelica:push-100}

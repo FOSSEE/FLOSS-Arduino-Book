@@ -1,4 +1,4 @@
-\chapter{Controlling a DC motor}
+\chapter{Interfacing a DC Motor}
 \thispagestyle{empty}
 \label{dcmotor}
 \newcommand{\LocDCMfig}{\Origin/user-code/dcmotor/figures}
@@ -507,7 +507,7 @@ of the DC motor while running the experiments. 
   \lstinputlisting{\LocDCMscicode/dcmotor-loop.sce}
 \end{scicode}
 
-\section{Controlling the DC Motor from Xcos}
+\section{Controlling the DC motor from Xcos}
 In this section, we will see how to drive the DC motor from Scilab Xcos. 
 We will carry out the same three experiments as in the previous
 sections. For each experiment, we will give the location of the zcos file and the
@@ -627,9 +627,8 @@ given in \secref{sec:xcos-start} before getting started.
         \begin{figure}
           \centering
           \includegraphics[width=\smfig]{\LocDCMfig/dcmotor-loop.png}
-          \caption[Xcos control of the DC motor in forward and reverse
-            directions]{Xcos control of the DC motor in forward and reverse
-            directions.  This is what one sees when
+          \caption[Xcos control of the DC motor in both directions in a loop]
+          {Xcos control of the DC motor in both directions in a loop.  This is what one sees when
             \LocDCMscibrief{dcmotor-loop.zcos}, is invoked.}
           \label{fig:dcmotor-loop}
         \end{figure}
@@ -712,8 +711,8 @@ given in \secref{sec:xcos-start} before getting started.
   \end{enumerate}
 \end{exercise}
 
-\section{Controlling the DC Motor from Python}
-\subsection{Controlling the DC Motor}
+\section{Controlling the DC motor from Python}
+\subsection{Controlling the DC motor}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same three experiments,
 in the same order. As mentioned earlier, the shield must be removed from 
@@ -875,8 +874,8 @@ of the DC motor while running the experiments. 
   \lstinputlisting{\LocDCMpycode/dcmotor-loop.py}
 \end{pycode}
 
-\section{Controlling the DC Motor from Julia}
-\subsection{Controlling the DC Motor}
+\section{Controlling the DC motor from Julia}
+\subsection{Controlling the DC motor}
 In this section, we discuss how to carry out the experiments of the
 previous section from Julia.  We will list the same three experiments,
 in the same order. As mentioned earlier, the shield must be removed from 
@@ -1004,8 +1003,8 @@ of the DC motor while running the experiments.
 \end{juliacode}
 
 
-\section{Controlling the DC Motor from OpenModelica}
-\subsection{Controlling the DC Motor}
+\section{Controlling the DC motor from OpenModelica}
+\subsection{Controlling the DC motor}
 In this section, we discuss how to carry out the experiments of the
 previous section from OpenModelica.  We will list the same three experiments,
 in the same order.  As mentioned earlier, the shield must be removed from 
