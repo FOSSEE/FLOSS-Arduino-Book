@@ -32,8 +32,10 @@
 \contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{215}%
 \contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{217}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{234}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{234}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{235}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{235}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{244}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{233}%
+\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{234}%
+\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{234}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{235}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{236}%
+\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{237}%
+\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{248}%

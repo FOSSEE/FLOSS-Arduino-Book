@@ -1448,157 +1448,109 @@
 \@writefile{OpenModelicad}{\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{229}\protected@file@percent }
 \newlabel{OpenModelica:dcmotor-loop}{{10.{3}}{229}}
 \@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/OpenModelica/dcmotor\textendash loop.mo}{229}\protected@file@percent }
+\citation{modbus}
+\citation{simplymodbus}
 \@writefile{toc}{\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{231}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{modbus}{{11}{231}}
 \@writefile{toc}{\contentsline {section}{\numberline {11.1}Preliminaries}{231}\protected@file@percent }
-\newlabel{fig:mod-block}{{\caption@xref {fig:mod-block}{ on input line 72}}{232}}
+\citation{simplymodbus}
 \@writefile{lof}{\contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{232}\protected@file@percent }
+\newlabel{mod-block}{{11.1}{232}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{232}\protected@file@percent }
-\newlabel{fig:mod-master-slave}{{11.2}{232}}
+\newlabel{mod-master-slave}{{11.2}{232}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{233}\protected@file@percent }
+\newlabel{tab:rs-485-pins}{{11.1}{233}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{233}\protected@file@percent }
-\newlabel{fig:rs-485}{{11.3}{233}}
-\@writefile{lot}{\contentsline {table}{\numberline {11.1}{\ignorespaces Interpretation of a request packet\relax }}{234}\protected@file@percent }
-\newlabel{tab:request-packet}{{11.1}{234}}
-\@writefile{lot}{\contentsline {table}{\numberline {11.2}{\ignorespaces Interpretation of a response packet\relax }}{234}\protected@file@percent }
-\newlabel{tab:response-packet}{{11.2}{234}}
-\@writefile{lot}{\contentsline {table}{\numberline {11.3}{\ignorespaces Hexadecimal to Decimal\relax }}{235}\protected@file@percent }
-\newlabel{tab:ieee-decimal}{{11.3}{235}}
-\@writefile{lot}{\contentsline {table}{\numberline {11.4}{\ignorespaces Single and Double Precision Representation\relax }}{235}\protected@file@percent }
-\newlabel{tab:single-precision}{{11.4}{235}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.2}Objective}{236}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{236}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.4}{\ignorespaces MODBUS Set Up for Energy Meter\relax }}{237}\protected@file@percent }
-\newlabel{fig:full-set-up}{{11.4}{237}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.4}Software}{237}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.5}{\ignorespaces Block Diagram for Energy Meter Setup\relax }}{238}\protected@file@percent }
-\newlabel{fig:block-diagram}{{11.5}{238}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.5}Output}{238}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{239}\protected@file@percent }
-\newlabel{fig:modbus-firmware}{{11.6}{239}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.7}{\ignorespaces Flow Chart of the Modbus Energy Meter Implementation\relax }}{240}\protected@file@percent }
-\newlabel{fig:flow-chart}{{11.7}{240}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{240}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.8}{\ignorespaces Single Phase Current Output on Scilab Console\relax }}{241}\protected@file@percent }
-\newlabel{fig:current-console}{{11.8}{241}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.9}{\ignorespaces Single Phase Current Output on Energy Meter\relax }}{241}\protected@file@percent }
-\newlabel{fig:current-meter}{{11.9}{241}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.10}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{242}\protected@file@percent }
-\newlabel{fig:voltage-console}{{11.10}{242}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.11}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{242}\protected@file@percent }
-\newlabel{fig:voltage-meter}{{11.11}{242}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.12}{\ignorespaces Single Phase Voltage Output on Scilab Console\relax }}{243}\protected@file@percent }
-\newlabel{fig:power-console}{{11.12}{243}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11.13}{\ignorespaces Single Phase Voltage Output on Energy Meter\relax }}{243}\protected@file@percent }
-\newlabel{fig:power-meter}{{11.13}{243}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.7}Code}{243}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{243}\protected@file@percent }
-\newlabel{sec:firmware-modbus}{{11.7.1}{243}}
+\newlabel{rs-485}{{11.3}{233}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.1}Energy meter}{233}\protected@file@percent }
+\newlabel{sec:energy-meter}{{11.1.1}{233}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{234}\protected@file@percent }
+\newlabel{tab:modbus-fun-codes}{{11.2}{234}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{234}\protected@file@percent }
+\newlabel{tab:params-addr}{{11.3}{234}}
+\citation{online-crc}
+\@writefile{lot}{\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{235}\protected@file@percent }
+\newlabel{tab:params-rq}{{11.4}{235}}
+\@writefile{toc}{\contentsline {paragraph}{Note:}{235}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{236}\protected@file@percent }
+\newlabel{tab:params-rp}{{11.5}{236}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1.2}Endianness}{236}\protected@file@percent }
+\citation{ieee-754-conv}
+\@writefile{lot}{\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{237}\protected@file@percent }
+\newlabel{tab:memory-storage}{{11.6}{237}}
+\citation{modbus-paper}
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Objective}{238}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}Manifestation of Modbus protocol with Arduino Uno\ and energy meter}{238}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.4}{\ignorespaces Block diagram for reading the parameters in energy meter\relax }}{239}\protected@file@percent }
+\newlabel{fig:block-diagram}{{11.4}{239}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.5}{\ignorespaces Experimental set up for reading energy meter\relax }}{239}\protected@file@percent }
+\newlabel{fig:full-set-up}{{11.5}{239}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.1}Software}{240}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{241}\protected@file@percent }
+\newlabel{fig:modbus-firmware}{{11.6}{241}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.2}Output in the Scilab Console}{241}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.7}{\ignorespaces Flowchart of the steps happening in Scilab code\relax }}{242}\protected@file@percent }
+\newlabel{fig:flow-chart}{{11.7}{242}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.8}{\ignorespaces Single phase current output on Scilab Console\relax }}{242}\protected@file@percent }
+\newlabel{fig:current-console}{{11.8}{242}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.9}{\ignorespaces Single phase current output in energy meter\relax }}{243}\protected@file@percent }
+\newlabel{fig:current-meter}{{11.9}{243}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.10}{\ignorespaces Single phase voltage output on Scilab Console\relax }}{243}\protected@file@percent }
+\newlabel{fig:voltage-console}{{11.10}{243}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.11}{\ignorespaces Single phase voltage output in energy meter\relax }}{244}\protected@file@percent }
+\newlabel{fig:voltage-meter}{{11.11}{244}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.12}{\ignorespaces Single phase active power output on Scilab Console\relax }}{244}\protected@file@percent }
+\newlabel{fig:power-console}{{11.12}{244}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.4}Accessing the electrical parameters from Scilab}{244}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.1}Accessing the electrical parameters}{244}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.13}{\ignorespaces Single phase active power output in energy meter\relax }}{245}\protected@file@percent }
+\newlabel{fig:power-meter}{{11.13}{245}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.2}Arduino Firmware}{245}\protected@file@percent }
+\newlabel{sec:firmware-modbus}{{11.4.2}{245}}
 \@writefile{ard}{\addvspace {10pt}}
-\@writefile{thm}{\contentsline {ardmass}{{Arduino Code}{11.{1}}{}}{243}\protected@file@percent }
-\@writefile{ard}{\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{243}\protected@file@percent }
-\newlabel{146@xvr}{{}{243}}
-\newlabel{146@vr}{{}{243}}
-\newlabel{ard:firmware-modbus}{{11.{1}}{243}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/arduino/send\textunderscore packet.ino}{243}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{244}\protected@file@percent }
-\newlabel{145@xvr}{{}{244}}
-\newlabel{145@vr}{{}{244}}
-\newlabel{fig:mod-read}{{11.14}{244}}
-\@writefile{lot}{\contentsline {table}{\numberline {11.5}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{244}\protected@file@percent }
-\newlabel{tab:mod-xcos-read}{{11.5}{244}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{245}\protected@file@percent }
-\newlabel{sec:modbus-scilab-code}{{11.7.2}{245}}
+\@writefile{thm}{\contentsline {ardmass}{{Arduino Code}{11.{1}}{}}{245}\protected@file@percent }
+\@writefile{ard}{\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{245}\protected@file@percent }
+\newlabel{144@xvr}{{}{245}}
+\newlabel{144@vr}{{}{245}}
+\newlabel{ard:firmware-modbus}{{11.{1}}{245}}
+\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/arduino/send\textunderscore packet.ino}{245}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.4.3}Scilab Code}{246}\protected@file@percent }
+\newlabel{sec:modbus-scilab-code}{{11.4.3}{246}}
 \@writefile{cod}{\addvspace {10pt}}
-\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{1}}{}}{245}\protected@file@percent }
-\@writefile{cod}{\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{245}\protected@file@percent }
-\newlabel{147@xvr}{{}{245}}
-\newlabel{147@vr}{{}{245}}
-\newlabel{sci:current-modbus}{{11.{1}}{245}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore val.sce}{245}\protected@file@percent }
-\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{2}}{}}{245}\protected@file@percent }
-\@writefile{cod}{\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for Single Phase Current Output}{245}\protected@file@percent }
-\newlabel{148@xvr}{{}{245}}
-\newlabel{148@vr}{{}{245}}
-\newlabel{sci:current-modbus}{{11.{2}}{245}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore current.sci}{245}\protected@file@percent }
-\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{3}}{}}{245}\protected@file@percent }
-\@writefile{cod}{\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Voltage Output}{245}\protected@file@percent }
-\newlabel{149@xvr}{{}{245}}
-\newlabel{149@vr}{{}{245}}
-\newlabel{sci:voltage-modbus}{{11.{3}}{245}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore voltage.sci}{245}\protected@file@percent }
-\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{4}}{}}{246}\protected@file@percent }
-\@writefile{cod}{\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{246}\protected@file@percent }
-\newlabel{150@xvr}{{}{246}}
-\newlabel{150@vr}{{}{246}}
-\newlabel{sci:modbus-power}{{11.{4}}{246}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore active\textunderscore power.sci}{246}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.7.3}Python Code}{246}\protected@file@percent }
-\newlabel{sec:modbus-python-code}{{11.7.3}{246}}
-\@writefile{pyd}{\addvspace {10pt}}
-\@writefile{thm}{\contentsline {pymass}{{Python Code}{11.{1}}{}}{246}\protected@file@percent }
-\@writefile{pyd}{\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{246}\protected@file@percent }
-\newlabel{151@xvr}{{}{246}}
-\newlabel{151@vr}{{}{246}}
-\newlabel{py:current-modbus}{{11.{1}}{246}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read\textunderscore current.py}{246}\protected@file@percent }
-\@writefile{thm}{\contentsline {pymass}{{Python Code}{11.{2}}{}}{246}\protected@file@percent }
-\@writefile{pyd}{\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{246}\protected@file@percent }
-\newlabel{152@xvr}{{}{246}}
-\newlabel{152@vr}{{}{246}}
-\newlabel{py:voltage-modbus}{{11.{2}}{246}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read\textunderscore voltage.py}{246}\protected@file@percent }
-\@writefile{thm}{\contentsline {pymass}{{Python Code}{11.{3}}{}}{247}\protected@file@percent }
-\@writefile{pyd}{\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{247}\protected@file@percent }
-\newlabel{153@xvr}{{}{247}}
-\newlabel{153@vr}{{}{247}}
-\newlabel{py:modbus-power}{{11.{3}}{247}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read\textunderscore active\textunderscore power.py}{247}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.7.4}Julia Code}{247}\protected@file@percent }
-\newlabel{sec:modbus-julia-code}{{11.7.4}{247}}
-\@writefile{juliad}{\addvspace {10pt}}
-\@writefile{thm}{\contentsline {juliamass}{{Julia Code}{11.{1}}{}}{247}\protected@file@percent }
-\@writefile{juliad}{\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{247}\protected@file@percent }
-\newlabel{154@xvr}{{}{247}}
-\newlabel{154@vr}{{}{247}}
-\newlabel{julia:current-modbus}{{11.{1}}{247}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readCurrent.jl}{247}\protected@file@percent }
-\@writefile{thm}{\contentsline {juliamass}{{Julia Code}{11.{2}}{}}{247}\protected@file@percent }
-\@writefile{juliad}{\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{247}\protected@file@percent }
-\newlabel{155@xvr}{{}{247}}
-\newlabel{155@vr}{{}{247}}
-\newlabel{julia:voltage-modbus}{{11.{2}}{247}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readVoltage.jl}{247}\protected@file@percent }
-\@writefile{thm}{\contentsline {juliamass}{{Julia Code}{11.{3}}{}}{248}\protected@file@percent }
-\@writefile{juliad}{\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Active Power Output}{248}\protected@file@percent }
-\newlabel{156@xvr}{{}{248}}
-\newlabel{156@vr}{{}{248}}
-\newlabel{julia:modbus-power}{{11.{3}}{248}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readPower.jl}{248}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{248}\protected@file@percent }
-\newlabel{sec:modbus-OpenModelica-code}{{11.7.5}{248}}
-\@writefile{OpenModelicad}{\addvspace {10pt}}
-\@writefile{thm}{\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{1}}{}}{248}\protected@file@percent }
-\@writefile{OpenModelicad}{\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{248}\protected@file@percent }
-\newlabel{157@xvr}{{}{248}}
-\newlabel{157@vr}{{}{248}}
-\newlabel{OpenModelica:current-modbus}{{11.{1}}{248}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readCurrent.mo}{248}\protected@file@percent }
-\@writefile{thm}{\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{2}}{}}{248}\protected@file@percent }
-\@writefile{OpenModelicad}{\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{248}\protected@file@percent }
-\newlabel{158@xvr}{{}{248}}
-\newlabel{158@vr}{{}{248}}
-\newlabel{OpenModelica:voltage-modbus}{{11.{2}}{248}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readVoltage.mo}{248}\protected@file@percent }
+\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{1}}{}}{246}\protected@file@percent }
+\@writefile{cod}{\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{246}\protected@file@percent }
+\newlabel{145@xvr}{{}{246}}
+\newlabel{145@vr}{{}{246}}
+\newlabel{sci:current-modbus}{{11.{1}}{246}}
+\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore val.sce}{246}\protected@file@percent }
+\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{2}}{}}{246}\protected@file@percent }
+\@writefile{cod}{\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for Single Phase Current Output}{246}\protected@file@percent }
+\newlabel{146@xvr}{{}{246}}
+\newlabel{146@vr}{{}{246}}
+\newlabel{sci:current-modbus}{{11.{2}}{246}}
+\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore current.sci}{246}\protected@file@percent }
+\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{3}}{}}{246}\protected@file@percent }
+\@writefile{cod}{\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Voltage Output}{246}\protected@file@percent }
+\newlabel{147@xvr}{{}{246}}
+\newlabel{147@vr}{{}{246}}
+\newlabel{sci:voltage-modbus}{{11.{3}}{246}}
+\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore voltage.sci}{246}\protected@file@percent }
+\@writefile{thm}{\contentsline {codemass}{{Scilab Code}{11.{4}}{}}{247}\protected@file@percent }
+\@writefile{cod}{\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for Single Phase Active Power Output}{247}\protected@file@percent }
+\newlabel{148@xvr}{{}{247}}
+\newlabel{148@vr}{{}{247}}
+\newlabel{sci:modbus-power}{{11.{4}}{247}}
+\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read\textunderscore active\textunderscore power.sci}{247}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11.5}Reading Parameters from Xcos}{247}\protected@file@percent }
 \bibdata{bibliography.bib}
-\@writefile{thm}{\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{3}}{}}{249}\protected@file@percent }
-\@writefile{OpenModelicad}{\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{249}\protected@file@percent }
-\newlabel{159@xvr}{{}{249}}
-\newlabel{159@vr}{{}{249}}
-\newlabel{OpenModelica:modbus-power}{{11.{3}}{249}}
-\@writefile{lol}{\contentsline {lstlisting}{/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readPower.mo}{249}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{248}\protected@file@percent }
+\newlabel{150@xvr}{{}{248}}
+\newlabel{150@vr}{{}{248}}
+\newlabel{fig:mod-read}{{11.14}{248}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{248}\protected@file@percent }
+\newlabel{tab:mod-xcos-read}{{11.7}{248}}
 \bibcite{CNES-Scilab}{1}
 \bibcite{scilab-arduino}{2}
 \bibcite{oshw-ref}{3}
@@ -1613,7 +1565,7 @@
 \bibcite{scilab-ref}{12}
 \bibcite{scilab-interop}{13}
 \bibcite{xcos-ref}{14}
-\@writefile{toc}{\contentsline {chapter}{\numberline {References}}{251}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {References}}{249}\protected@file@percent }
 \bibcite{python-ref}{15}
 \bibcite{pySerial}{16}
 \bibcite{julia-ref}{17}
@@ -1622,3 +1574,8 @@
 \bibcite{therm-wiki}{20}
 \bibcite{arduino-pwm}{21}
 \bibcite{servo-lib}{22}
+\bibcite{modbus}{23}
+\bibcite{simplymodbus}{24}
+\bibcite{online-crc}{25}
+\bibcite{ieee-754-conv}{26}
+\bibcite{modbus-paper}{27}

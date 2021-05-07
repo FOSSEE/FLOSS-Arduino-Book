@@ -207,15 +207,16 @@
 \contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{228}%
 \contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{231}%
 \contentsline {section}{\numberline {11.1}Preliminaries}{231}%
-\contentsline {section}{\numberline {11.2}Objective}{236}%
-\contentsline {section}{\numberline {11.3}Energy Meter set up for Modbus protocol with Arduino Uno}{236}%
-\contentsline {section}{\numberline {11.4}Software}{237}%
-\contentsline {section}{\numberline {11.5}Output}{238}%
-\contentsline {section}{\numberline {11.6}Reading Parameters from Xcos}{240}%
-\contentsline {section}{\numberline {11.7}Code}{243}%
-\contentsline {subsection}{\numberline {11.7.1}Arduino Code}{243}%
-\contentsline {subsection}{\numberline {11.7.2}Scilab Code}{245}%
-\contentsline {subsection}{\numberline {11.7.3}Python Code}{246}%
-\contentsline {subsection}{\numberline {11.7.4}Julia Code}{247}%
-\contentsline {subsection}{\numberline {11.7.5}OpenModelica Code}{248}%
-\contentsline {chapter}{\numberline {References}}{251}%
+\contentsline {subsection}{\numberline {11.1.1}Energy meter}{233}%
+\contentsline {paragraph}{Note:}{235}%
+\contentsline {subsection}{\numberline {11.1.2}Endianness}{236}%
+\contentsline {section}{\numberline {11.2}Objective}{238}%
+\contentsline {section}{\numberline {11.3}Manifestation of Modbus protocol with Arduino Uno\ and energy meter}{238}%
+\contentsline {subsection}{\numberline {11.3.1}Software}{240}%
+\contentsline {subsection}{\numberline {11.3.2}Output in the Scilab Console}{241}%
+\contentsline {section}{\numberline {11.4}Accessing the electrical parameters from Scilab}{244}%
+\contentsline {subsection}{\numberline {11.4.1}Accessing the electrical parameters}{244}%
+\contentsline {subsection}{\numberline {11.4.2}Arduino Firmware}{245}%
+\contentsline {subsection}{\numberline {11.4.3}Scilab Code}{246}%
+\contentsline {section}{\numberline {11.5}Reading Parameters from Xcos}{247}%
+\contentsline {chapter}{\numberline {References}}{249}%

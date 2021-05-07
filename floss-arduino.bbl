@@ -116,4 +116,32 @@ Servo.
 \newblock https://www.arduino.cc/reference/en/libraries/servo/.
 \newblock Seen on 6 May 2021.
 
+\bibitem{modbus}
+Modbus.
+\newblock https://modbus.org/.
+\newblock Seen on 6 May 2021.
+
+\bibitem{simplymodbus}
+Simply modbus.
+\newblock https://simplymodbus.ca/.
+\newblock Seen on 6 May 2021.
+
+\bibitem{online-crc}
+Online crc.
+\newblock https://www.lammertbies.nl/comm/info/crc-calculation.
+\newblock Seen on 2 May 2021.
+
+\bibitem{ieee-754-conv}
+Floating point converter.
+\newblock https://www.h-schmidt.net/FloatConverter/IEEE754.html.
+\newblock Seen on 6 May 2021.
+
+\bibitem{modbus-paper}
+Paavni Shukla, Sonal Singh, Tanmayee Joshi, Sudhakar Kumar, Samrudha Kelkar,
+  Manas~R. Das, and Kannan~M. Moudgalya.
+\newblock Design and development of a modbus automation system for industrial
+  applications.
+\newblock In {\em 2017 6th International Conference on Computer Applications In
+  Electrical Engineering-Recent Advances (CERA)}, pages 515--520, 2017.
+
 \end{thebibliography}
