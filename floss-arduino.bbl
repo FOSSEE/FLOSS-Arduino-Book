@@ -97,7 +97,7 @@ Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
 \newblock Seen on 15 April 2021.
 
 \bibitem{om-ref}
-python.org.
+Openmodelica.
 \newblock https://www.openmodelica.org/.
 \newblock Seen on 2 April 2021.
 

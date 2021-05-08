@@ -219,4 +219,7 @@
 \contentsline {subsection}{\numberline {11.4.2}Arduino Firmware}{245}%
 \contentsline {subsection}{\numberline {11.4.3}Scilab Code}{246}%
 \contentsline {section}{\numberline {11.5}Reading Parameters from Xcos}{247}%
-\contentsline {chapter}{\numberline {References}}{249}%
+\contentsline {subsection}{\numberline {11.5.1}Python Code}{249}%
+\contentsline {subsection}{\numberline {11.5.2}Julia Code}{250}%
+\contentsline {subsection}{\numberline {11.5.3}OpenModelica Code}{251}%
+\contentsline {chapter}{\numberline {References}}{253}%

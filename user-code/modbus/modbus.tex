@@ -751,103 +751,104 @@ packet received may have one or more spaces at the starting or the
 ending and that is the reason why we may have to shift our indexing
 for analyzing data.
 
-The functionalities performed by scilab code have also been implemetned in 
-python and julia and OpenModelica.
+The functionalities performed by \scilab\ have also been implemented in other 
+FLOSSs like Python, Julia, and OpenModelica. However, 
+the codes for these FLOSSs were tested on the older versions. 
+Now, these codes may require minor changes in the newer versions. 
+We invite the experts to contribute the revised version of the code.
 
+\subsection{Python Code}
+\label{sec:modbus-python-code}
+\addtocontents{pyd}{\protect\addvspace{\codclr}}
 
+\begin{pycode}
+  \pcaption{Code for Single Phase Current Output}
+  {Code for Single Phase Current Output.
+    Available at \LocMODpybrief{read\_current.py}.}
+  \label{py:current-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODpycode/read_current.py}
+\end{pycode}
 
-% \subsection{Python Code}
-% \label{sec:modbus-python-code}
-% \addtocontents{pyd}{\protect\addvspace{\codclr}}
+\begin{pycode}
+  \pcaption{Code for Single Phase Voltage Output}
+  {Code for Single Phase Voltage Output.
+    Available at \LocMODpybrief{read\_voltage.py}.}
+  \label{py:voltage-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODpycode/read_voltage.py}
+\end{pycode}
 
-% \begin{pycode}
-%   \pcaption{Code for Single Phase Current Output}
-%   {Code for Single Phase Current Output.
-%     Available at \LocMODpybrief{read\_current.py}.}
-%   \label{py:current-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODpycode/read_current.py}
-% \end{pycode}
+\begin{pycode}
+  \pcaption{Code for Single Phase Active Power
+    Output}{Code for Single Phase Active Power
+    Output.  Available at
+    \LocMODpybrief{read\_active\_power.py}.}
+  \label{py:modbus-power}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODpycode/read_active_power.py}
+\end{pycode}
 
-% \begin{pycode}
-%   \pcaption{Code for Single Phase Voltage Output}
-%   {Code for Single Phase Voltage Output.
-%     Available at \LocMODpybrief{read\_voltage.py}.}
-%   \label{py:voltage-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODpycode/read_voltage.py}
-% \end{pycode}
+\subsection{Julia Code}
+\label{sec:modbus-julia-code}
+\addtocontents{juliad}{\protect\addvspace{\codclr}}
 
-% \begin{pycode}
-%   \pcaption{Code for Single Phase Active Power
-%     Output}{Code for Single Phase Active Power
-%     Output.  Available at
-%     \LocMODpybrief{read\_active\_power.py}.}
-%   \label{py:modbus-power}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODpycode/read_active_power.py}
-% \end{pycode}
+\begin{juliacode}
+  \jcaption{Code for Single Phase Current Output}
+  {Code for Single Phase Current Output.
+    Available at \LocMODjuliabrief{readCurrent.jl}.}
+  \label{julia:current-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODjuliacode/readCurrent.jl}
+\end{juliacode}
 
-% \subsection{Julia Code}
-% \label{sec:modbus-julia-code}
-% \addtocontents{juliad}{\protect\addvspace{\codclr}}
+\begin{juliacode}
+  \jcaption{Code for Single Phase Voltage Output}
+  {Code for Single Phase Voltage Output.
+    Available at \LocMODjuliabrief{readVoltage.jl}.}
+  \label{julia:voltage-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODjuliacode/readVoltage.jl}
+\end{juliacode}
 
-% \begin{juliacode}
-%   \jcaption{Code for Single Phase Current Output}
-%   {Code for Single Phase Current Output.
-%     Available at \LocMODjuliabrief{readCurrent.jl}.}
-%   \label{julia:current-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODjuliacode/readCurrent.jl}
-% \end{juliacode}
+\begin{juliacode}
+  \jcaption{First 10 lines of the code for Single Phase Active Power
+    Output}{First 10 lines of the code for Single Phase Active Power
+    Output.  Available at
+    \LocMODjuliabrief{readPower.jl}.}
+  \label{julia:modbus-power}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODjuliacode/readPower.jl}
+\end{juliacode}
 
-% \begin{juliacode}
-%   \jcaption{Code for Single Phase Voltage Output}
-%   {Code for Single Phase Voltage Output.
-%     Available at \LocMODjuliabrief{readVoltage.jl}.}
-%   \label{julia:voltage-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODjuliacode/readVoltage.jl}
-% \end{juliacode}
+\subsection{OpenModelica Code}
+\label{sec:modbus-OpenModelica-code}
+\addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 
-% \begin{juliacode}
-%   \jcaption{First 10 lines of the code for Single Phase Active Power
-%     Output}{First 10 lines of the code for Single Phase Active Power
-%     Output.  Available at
-%     \LocMODjuliabrief{readPower.jl}.}
-%   \label{julia:modbus-power}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODjuliacode/readPower.jl}
-% \end{juliacode}
+\begin{OpenModelicacode}
+  \mcaption{Code for Single Phase Current Output}
+  {Code for Single Phase Current Output.
+    Available at \LocMODOpenModelicabrief{readCurrent.mo}.}
+  \label{OpenModelica:current-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODOpenModelicacode/readCurrent.mo}
+\end{OpenModelicacode}
 
-% \subsection{OpenModelica Code}
-% \label{sec:modbus-OpenModelica-code}
-% \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
+\begin{OpenModelicacode}
+  \mcaption{Code for Single Phase Voltage Output}
+  {Code for Single Phase Voltage Output.
+    Available at \LocMODOpenModelicabrief{readVoltage.mo}.}
+  \label{OpenModelica:voltage-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODOpenModelicacode/readVoltage.mo}
+\end{OpenModelicacode}
 
-% \begin{OpenModelicacode}
-%   \mcaption{Code for Single Phase Current Output}
-%   {Code for Single Phase Current Output.
-%     Available at \LocMODOpenModelicabrief{readCurrent.mo}.}
-%   \label{OpenModelica:current-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODOpenModelicacode/readCurrent.mo}
-% \end{OpenModelicacode}
-
-% \begin{OpenModelicacode}
-%   \mcaption{Code for Single Phase Voltage Output}
-%   {Code for Single Phase Voltage Output.
-%     Available at \LocMODOpenModelicabrief{readVoltage.mo}.}
-%   \label{OpenModelica:voltage-modbus}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODOpenModelicacode/readVoltage.mo}
-% \end{OpenModelicacode}
-
-% \begin{OpenModelicacode}
-%   \mcaption{Code for Single Phase Active Power
-%     Output}{Code for Single Phase Active Power
-%     Output.  Available at
-%     \LocMODOpenModelicabrief{readPower.mo}.}
-%   \label{OpenModelica:modbus-power}
-%   \lstinputlisting[firstline=1,lastline=10]
-%   {\LocMODOpenModelicacode/readPower.mo}
-% \end{OpenModelicacode}
+\begin{OpenModelicacode}
+  \mcaption{Code for Single Phase Active Power
+    Output}{Code for Single Phase Active Power
+    Output.  Available at
+    \LocMODOpenModelicabrief{readPower.mo}.}
+  \label{OpenModelica:modbus-power}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODOpenModelicacode/readPower.mo}
+\end{OpenModelicacode}

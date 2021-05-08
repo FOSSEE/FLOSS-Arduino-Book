@@ -24,3 +24,7 @@
 \contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{228}%
 \contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{229}%
 \contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{229}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{251}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{251}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{251}%
