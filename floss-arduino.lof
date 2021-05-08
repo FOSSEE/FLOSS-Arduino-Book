@@ -100,8 +100,8 @@
 \contentsline {figure}{\numberline {8.4}{\ignorespaces A thermistor to control a buzzer with Arduino Uno using a breadboard\relax }}{152}%
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Xcos diagram to read thermistor values}}{159}%
 \contentsline {figure}{\numberline {8.6}{\ignorespaces Plot window in Xcos to read thermistor values\relax }}{160}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on}}{160}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Plot window in Xcos to read thermistor values and the state of LED\relax }}{162}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on}}{161}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Plot window in Xcos to read thermistor values and the state of LED\relax }}{163}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {9.1}{\ignorespaces Connecting servomotor to the shield attached on Arduino Uno\relax }}{174}%
 \contentsline {figure}{\numberline {9.2}{\ignorespaces A servomotor with Arduino Uno\ using a breadboard\relax }}{175}%

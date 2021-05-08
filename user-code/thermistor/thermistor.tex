@@ -168,12 +168,24 @@ instructions given in \secref{sec:ard-start} before getting started.
         on the {\tt Serial Monitor}.
 
   \item In this experiment, we will turn the buzzer on depending
-        on the temperature sensed by the thermistor. The program for this is
+        on the temperature sensed by the thermistor. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
+        The program for this is
         available at \ardref{ard:therm-buzzer}. We shall use the ADC output
-        to carry this out. The buzzer is connected on pin 3 which is a
+        to carry this out. The buzzer is connected to pin 3, which is a
         digital output pin. The ADC output value is displayed on the serial
-        monitor. At the same time it is compared with value 550. As
-        soon as the ADC output exceeds 550, the buzzer is given a digital
+        monitor. At the same time, it is compared with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \ardref{ard:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \ardref{ard:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+        In this experiment, as soon as the ADC output exceeds 550, the buzzer is given a digital
         high signal, turning it on. The following lines of code perform this
         comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
         \lstinputlisting[firstline=14,lastline=21]{\LocTHERMardcode/therm-buzzer/therm-buzzer.ino}
@@ -281,13 +293,24 @@ The reader should go through the instructions given in
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a \scilab\ script to
-        turn a buzzer on using the thermistor values.
+        turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
         The program for this is available at
         \sciref{sci:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
         ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
-        volts. In this experiment we compare the ADC output value with 550
-        and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \sciref{sci:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \sciref{sci:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+        In this experiment, as soon as the value exceeds 550, the buzzer is turned on. The following lines of code perform this
         comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
         \lstinputlisting[firstline=6,lastline=10]{\LocTHERMscicode/therm-buzzer.sce}
         A delay of half a second is introduced
@@ -551,12 +574,24 @@ The reader should go through the instructions given in
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a Python script to
-        turn a buzzer on using the thermistor values.
+        turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
         The program for this is available at
         \pyref{py:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
         ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
-        volts. In this experiment we compare the ADC output value with 550
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \pyref{py:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \pyref{sci:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+        In this experiment we compare the ADC output value with 550
         and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
         comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
         \lstinputlisting[firstline=30,lastline=34]{\LocTHERMpycode/therm-buzzer.py}
@@ -644,12 +679,25 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
 
   \item This experiment is an extension of the previous
         experiment. Here, we will use a Julia source file to
-        turn a buzzer on using the thermistor values.
+        turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
         The program for this is available at
         \juliaref{julia:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
         ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
-        volts. In this experiment we compare the ADC output value with 550
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \juliaref{julia:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \juliaref{julia:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+
+        In this experiment we compare the ADC output value with 550
         and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
         comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
         \lstinputlisting[firstline=9,lastline=13]{\LocTHERMjuliacode/therm-buzzer.jl}
@@ -720,17 +768,29 @@ The reader should go through the instructions given in
         Accordingly, they should observe the change in values being printed on on the output window of OMEdit, as shown in \figref{om-sim-success}.
 
   \item This experiment is an extension of the previous experiment. Here,
-        we will turn a buzzer on using the thermistor values.
+        we will turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
         The program for this is available at
         \OpenModelicaref{OpenModelica:therm-buzzer}.  As explained earlier,
         the ADC maps the thermistor voltage readings in to values
         ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
-        volts. In this experiment we compare the ADC output value with 550
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \OpenModelicaref{OpenModelica:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \OpenModelicaref{OpenModelica:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+        In this experiment we compare the ADC output value with 550
         and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
         comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
         \lstinputlisting[firstline=19,lastline=23]{\LocTHERMOpenModelicacode/therm-buzzer.mo}
         A delay of 500 milliseconds is introduced
-        before the next value is read. While simulating this model, 
+        before the next value is read. While simulating this model,
         the readers should try holding (or rubbing) the thermistor with their fingertips.
         Doing so will transfer heat from the person holding the
         thermistor, thereby raising the temperature of the thermistor.
@@ -745,9 +805,9 @@ The reader should go through the instructions given in
 \end{enumerate}
 
 \subsection{OpenModelica Code}
-Unlike other code files, the code/ model for running experiments using OpenModelica are 
+Unlike other code files, the code/ model for running experiments using OpenModelica are
 available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
-Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments.
 
 \label{sec:therm-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
@@ -755,8 +815,8 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 \begin{OpenModelicacode}
   \mcaption{Read and display the thermistor values} {Read and display
     the thermistor values.  Available at
-    Arduino -> SerialCommunication -> 
-  Examples -> push -> therm\_read.}
+    Arduino -> SerialCommunication ->
+    Examples -> push -> therm\_read.}
   \label{OpenModelica:therm-read}
   \lstinputlisting{\LocTHERMOpenModelicacode/therm-read.mo}
 \end{OpenModelicacode}
@@ -765,8 +825,8 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
   \mcaption{Turning the buzzer on using thermistor values}
   {Turning the buzzer on using the thermistor values read by
     ADC.  Available at
-    Arduino -> SerialCommunication -> 
-  Examples -> push -> therm\_buzzer.}
+    Arduino -> SerialCommunication ->
+    Examples -> push -> therm\_buzzer.}
   \label{OpenModelica:therm-buzzer}
   \lstinputlisting{\LocTHERMOpenModelicacode/therm-buzzer.mo}
 \end{OpenModelicacode}

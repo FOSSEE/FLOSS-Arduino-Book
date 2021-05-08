@@ -139,26 +139,26 @@
 \contentsline {section}{\numberline {8.2}Connecting a thermistor with Arduino Uno\ using a breadboard}{150}%
 \contentsline {section}{\numberline {8.3}Interfacing the thermistor from the Arduino IDE}{152}%
 \contentsline {subsection}{\numberline {8.3.1}Interfacing the thermistor}{152}%
-\contentsline {paragraph}{Note:}{153}%
+\contentsline {paragraph}{Note:}{154}%
 \contentsline {subsection}{\numberline {8.3.2}Arduino Code}{154}%
 \contentsline {section}{\numberline {8.4}Interfacing the thermistor from Scilab}{155}%
 \contentsline {subsection}{\numberline {8.4.1}Interfacing the thermistor}{155}%
-\contentsline {paragraph}{Note:}{156}%
-\contentsline {subsection}{\numberline {8.4.2}Scilab Code}{157}%
-\contentsline {section}{\numberline {8.5}Interfacing the thermistor from Xcos}{158}%
+\contentsline {paragraph}{Note:}{157}%
+\contentsline {subsection}{\numberline {8.4.2}Scilab Code}{158}%
+\contentsline {section}{\numberline {8.5}Interfacing the thermistor from Xcos}{159}%
 \contentsline {paragraph}{Note:}{161}%
 \contentsline {section}{\numberline {8.6}Interfacing the thermistor from Python}{162}%
 \contentsline {subsection}{\numberline {8.6.1}Interfacing the thermistor}{162}%
-\contentsline {paragraph}{Note:}{163}%
+\contentsline {paragraph}{Note:}{164}%
 \contentsline {subsection}{\numberline {8.6.2}Python Code}{164}%
 \contentsline {section}{\numberline {8.7}Interfacing the thermistor from Julia}{166}%
 \contentsline {subsection}{\numberline {8.7.1}Interfacing the thermistor}{166}%
-\contentsline {paragraph}{Note:}{167}%
-\contentsline {subsection}{\numberline {8.7.2}Julia Code}{167}%
-\contentsline {section}{\numberline {8.8}Interfacing the thermistor from OpenModelica}{168}%
-\contentsline {subsection}{\numberline {8.8.1}Interfacing the thermistor}{168}%
-\contentsline {paragraph}{Note:}{169}%
-\contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{169}%
+\contentsline {paragraph}{Note:}{168}%
+\contentsline {subsection}{\numberline {8.7.2}Julia Code}{168}%
+\contentsline {section}{\numberline {8.8}Interfacing the thermistor from OpenModelica}{169}%
+\contentsline {subsection}{\numberline {8.8.1}Interfacing the thermistor}{169}%
+\contentsline {paragraph}{Note:}{170}%
+\contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{171}%
 \contentsline {chapter}{\numberline {9}Interfacing a Servomotor}{173}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{173}%
 \contentsline {section}{\numberline {9.2}Connecting a servomotor with Arduino Uno\ using a breadboard}{174}%
