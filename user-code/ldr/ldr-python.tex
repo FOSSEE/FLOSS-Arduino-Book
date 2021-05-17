@@ -1,0 +1,87 @@
+\section{Interfacing the LDR through Python}
+\subsection{Interfacing the LDR}
+In this section, we discuss how to carry out the experiments of the
+previous section from Python.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+
+\begin{enumerate}
+  \item In the first experiment, we will read the LDR values. The code for this experiment is given in
+        \pyref{py:ldr-read}. As explained earlier in \secref{sec:light-py}, we begin with 
+        importing necessary modules followed by setting up the serial port. 
+        Then, we read the input coming from analog pin 5 using the
+        following command:
+        \lstinputlisting[firstline=25,lastline=25]
+        {\LocLDRpycode/ldr-read.py} Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed 
+        by the following command: 
+        \lstinputlisting[firstline=26,lastline=26]
+        {\LocLDRpycode/ldr-read.py} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one's finger on the LDR. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 50 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+        
+  \item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \pyref{py:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \pyref{py:ldr-led}), 
+        it puts a high in pin number 11.  From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
+        
+        
+        % In this experiment, we will observe the saturation point of LDR,
+        %   see \pyref{py:ldr-led}.  We know that as incident light intensity
+        %   increases, voltage at analog input of the \arduino\ board
+        %   increases. Thus the ADC values being read by the \arduino\ board also
+        %   increase. But after certain high intensity, ADC values reach its
+        %   maximum. For 10 bit ADC in Arduino, this high intensity corresponds
+        %   to 1023.  Beyond this value, the LDR is incapable of sensing the
+        %   change in light intensity and is considered to be saturated. To
+        %   observe this saturation point, we can do a simple task of exposing
+        %   LDR to high intensity. We can put a torch/light source sensor to
+        %   close proximity of LDR.
+\end{enumerate}
+
+\begin{exercise}
+  Carry out the exercise below:
+  \begin{enumerate}
+    \item Carry out the exercise in the previous section.
+    \item Calculate the difference in LDR readings in indoor room
+          before lighting the lamp and after lighting the lamp. You can also
+          record changes in the room lighting at different times of the day.
+  \end{enumerate}
+\end{exercise}
+
+\subsection{Python Code}
+\label{sec:ldr-python-code}
+\addtocontents{pyd}{\protect\addvspace{\codclr}}
+
+\begin{pycode}
+  \pcaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRpybrief{ldr-read.py}.}
+  \label{py:ldr-read}
+  \lstinputlisting{\LocLDRpycode/ldr-read.py}
+\end{pycode}
+
+\begin{pycode}
+  \pcaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRpybrief{ldr-led.py}.}
+  \label{py:ldr-led}
+  \lstinputlisting{\LocLDRpycode/ldr-led.py}
+\end{pycode}
+

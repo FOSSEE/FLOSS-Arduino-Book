@@ -1,0 +1,69 @@
+%%%%%%%%%%%%python description starts
+\section{Reading the pushbutton status from Python}
+\subsection{Reading the pushbutton status}
+In this section, we discuss how to carry out the experiments of the
+previous section from Python.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+
+\begin{enumerate}
+\item In the first experiment, we will read the pushbutton status. The code for this experiment is given in
+  \pyref{py:push-100}. As explained earlier in \secref{sec:light-py}, we begin with 
+  importing necessary modules followed by setting up the serial port. 
+  Then, we read the input coming from digital pin 12 using the
+  following command:
+  \lstinputlisting[firstline=26,lastline=26]
+  {\LocPushpycode/push-button-status.py} Note that the one leg of the pushbutton on
+  the shield is connected to digital pin 12 of \arduino\, 
+  as given in \figref{fig:pushbuttonconn}. The read value is displayed (or printed) 
+ by the following lines: 
+   \lstinputlisting[firstline=25,lastline=28]
+  {\LocPushpycode/push-button-status.py} where {\tt val} contains
+  the pushbutton value acquired by the previous command. When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''.
+  To encourage the user to have a good hands-on, we run these commands in
+  a {\tt for} loop for 20 iterations. The readers are encouraged to change the number 
+  of iterations as per their requirements. While running this experiment, the readers must press
+  and release the pushbutton and observe the values being printed on the
+  Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+
+
+\item This experiment is an extension of the previous
+  experiment. Here, we control the state of an LED as per the status
+  of the pushbutton. In other words, digital output to an LED is
+  decided by the digital input received from the pushbutton. The code
+  for this experiment is given in \pyref{py:push-200}. After reading
+  the pushbutton status, we turn the LED on if the pushbutton is
+  pressed, otherwise we turn it off. The following lines,
+  \lstinputlisting[firstline=28,lastline=31]
+  {\LocPushpycode/led-push-button.py} control the LED state based on the status 
+  of the pushbutton. While running this experiment, the readers must press and release the 
+  pushbutton. Accordingly, they can observe whether the LED glows when the pushbutton is pressed.
+\end{enumerate}
+
+\subsection{Python Code}
+\lstset{style=mystyle}
+\label{sec:push-python-code}
+\addtocontents{pyd}{\protect\addvspace{\codclr}}
+
+\begin{pycode}
+\pcaption{Read the status of the pushbutton and display it on the
+  Command Prompt or the Terminal}{Read the status of the pushbutton and display it on
+  Command Prompt or the Terminal.  Available at
+  \LocPushpybrief{push-button-status.py}.}
+\label{py:push-100}
+\lstinputlisting{\LocPushpycode/push-button-status.py}
+\end{pycode}
+
+\begin{pycode}
+\pcaption{Turning the LED on or off depending on the pushbutton}
+  {Turning the LED on or off depending on the pushbutton.  Available at
+  \LocPushpybrief{led-push-button.py}.}
+\label{py:push-200}
+\lstinputlisting{\LocPushpycode/led-push-button.py}
+\end{pycode}
+
+

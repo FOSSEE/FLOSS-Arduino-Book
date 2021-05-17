@@ -1,0 +1,142 @@
+\section{Lighting the LED from Python}
+\subsection{Lighting the LED}
+\label{sec:light-py}
+In this section, we discuss how to carry out the experiments of the
+previous section from Python.  We will list the same four experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+\begin{enumerate}
+  \item In the first experiment, we will light up the blue LED on the
+    shield.  The code for this is given in \pyref{py:led-blue}. It begins with importing 
+    necessary modules, as given below: 
+    \lstinputlisting[firstline=1,lastline=2]{\LocLEDpycode/led-blue.py}
+
+    Here, {\tt os} module provides functions for interacting with the operating system. On the 
+    other hand, the {\tt sys} module provides access to some variables used or maintained by the interpreter
+    and functions that interact strongly with the interpreter. Next, the following lines of code are used to get the current directory 
+    followed by splitting it and appending the path to {\tt PYTHONPATH} environment: 
+    \lstinputlisting[firstline=3,lastline=5]{\LocLEDpycode/led-blue.py}
+    
+    After importing the necessary modules, following line imports the Arduino module from the Python-Arduino
+    toolbox, as explained in \secref{sec:python-toolbox}:
+    \lstinputlisting[firstline=7,lastline=7]{\LocLEDpycode/led-blue.py}
+
+    Next, we will import {\tt sleep} module, which is a function available in the package pyserial \cite{pySerial}.
+    For the sake of simplicity, we have configured each experiment as a class. In \pyref{py:led-blue},
+    we have defined the experiment as {\tt class LED\_ON}. The following lines of code 
+    initilize the parameters and functions available in this class. 
+    \lstinputlisting[firstline=10,lastline=15]{\LocLEDpycode/led-blue.py}
+
+    The function {\tt setup} creates an object of the Arduino class
+    through which we can call all the methods available in the base class. 
+    Along with this, it locates the port to which \arduino\ is connected 
+    and opens the port for serial communication. Similar to the Scilab experiments 
+    given in \secref{sec:light-sci}, we require port number and BAUD RATE for opening the serial port. 
+        
+        % self.obj\_arduino = Arduino() :- It creates an object of the arduino class
+        % through which we can call all the methods available in the base class.Here 
+        % obj\_arduino is the object created for Arduino class.Then we will call the locateport().\\
+        % self.port = self.obj\_arduino.locateport() :-This method auto-detects to which port 
+        % arduino is connected and assigns the port no. to the variable to self.port. Once 
+        % serial port is assigned, then we will call the open\_serial() to open the serial 
+        % port for communication.This is done in the next step \\
+        % self.obj\_arduino.open\_serial(1, self.port,self.baudrate) :- This opens the 
+        % serial port and it needs 3 parameters such as :
+        
+        % i. 1st arguement:- This is the board no. (1 by default) for every experiment \\
+        % ii.self.port :- This is the port no. to which arduino is connected \\
+        % iii.baudrate :- It sets the baudrate for serial communication \\
+        
+        % Then we will define the 2nd method run() in which we will define pin no. to which components are connected also apply digital or analog inputs to it depending on the digital or analog nature of the component.
+    The function {\tt run} is used to define the functionality of the experiment. In this experiment, 
+    we have to switch on the blue LED. For this, we define the pin number (which is 9 in this case) 
+    and send the required signal to this pin. Following lines are used to implement this functionality:
+    \lstinputlisting[firstline=22,lastline=24]{\LocLEDpycode/led-blue.py}
+
+    
+    At last, the function {\tt exit} is invoked to close the serial port. 
+  % \item def run(self):- This method is to define the functionality of the experiment \\
+  %       self.blue=9 :- pin no. to which led is connected \\
+  %       self.obj\_arduino.cmd\_digital\_out(1,self.blue,1) :- As led works on digital input so we will use cmd\_digital\_out() which will switch on/off the blue colour of RGB led .
+  %       This method needs 3 parameters such as : \\
+  %       1st parameter:- This is the board no. (1 by default) for every experiment.
+  %       2nd parameter :- pin no. to which led is connected
+  %       3rd parameter :- It applies digital logic i.e. if 1, then switch on led 
+  %       0, then switch off led \\
+  %       Once all the functionalities are defined and the experiments are performed accordingly then we will close the serial port which  is done by the exit function.
+  % \item def exit(self):- This function closes the serial port \\
+        % self.obj\_arduino.close\_serial() :- this function is called from Arduino class which closes the serial port properly.
+      
+      Once all the parameters and functions available in {\tt class LED\_ON} have been 
+      initialized, we create a main method and call it, as given below: 
+      \lstinputlisting[firstline=29,lastline=33]{\LocLEDpycode/led-blue.py}
+
+  % \item def main():- Here we will create the main method \\
+  %       obj\_led=LED\_ON(115200) :- It creates an object of the class with baudrate of 115200.
+  % \item if \_\_name\_\_== '\_\_main\_\_':- At last we will check for the main module
+  %       whether its directly run from the file or being imported from another module \\
+  %       main() :- It calls the main module and which in turn calls the object of the 
+  %       class and performs the experiment.
+
+  \item \pyref{py:led-blue-delay} does the same thing as what \ardref{ard:led-blue-delay} does. 
+        It does two more things than what \pyref{py:led-blue} does: It makes the blue LED light up for two
+        seconds.  This is achieved by the command
+        \lstinputlisting[firstline=25,lastline=25]{\LocLEDpycode/led-blue-delay.py}
+        The second thing this code does is to turn the blue LED off.  This
+        is achieved by the command
+        \lstinputlisting[firstline=26,lastline=26]{\LocLEDpycode/led-blue-delay.py}
+        As evident, this line of code puts a 0 on pin 9.
+  \item \pyref{py:led-blue-red} does the same thing as what \ardref{ard:led-blue-red} does. 
+         It turns blue and red LEDs on for five seconds.  After that, it turns off blue 
+         first.  After 3 seconds, it turns off red also.  So, when the program ends, 
+         no LED is lit up.
+  
+  \item \pyref{py:led-green-blink} does exactly what its counterpart in the Arduino IDE does.  
+        It makes the green LED blink five times.
+\end{enumerate}
+
+\begin{exercise}
+  Repeat the exercise of the previous section.
+\end{exercise}
+
+\subsection{Python Code}
+\lstset{style=mystyle}
+\label{sec:led-python-code}
+\addtocontents{pyd}{\protect\addvspace{\codclr}}
+
+\begin{pycode}
+  \pcaption{Turning on the blue LED}
+  {Turning on the blue LED. Available at
+    \LocLEDpybrief{led-blue.py}.}
+  \label{py:led-blue}
+  \lstinputlisting{\LocLEDpycode/led-blue.py}
+\end{pycode}
+
+\begin{pycode}
+  \pcaption{Turning on the blue LED and turning it off after two
+    seconds}{Turning on the blue LED and turning it off after two
+    seconds.  Available  
+    at \LocLEDpybrief{led-blue-delay.py}.}
+  \label{py:led-blue-delay}
+  \lstinputlisting{\LocLEDpycode/led-blue-delay.py}
+\end{pycode}
+
+\begin{pycode}
+  \pcaption{Turning on blue and red LEDs for 5 seconds and then turning
+    them off one by one}{Turning on blue and red LEDs for 5 seconds and
+    then turning them off one by one.  Available at
+    \LocLEDpybrief{led-blue-red.py}.}
+  \label{py:led-blue-red}
+  \lstinputlisting{\LocLEDpycode/led-blue-red.py}
+\end{pycode}
+
+\begin{pycode}
+  \pcaption{Blinking the green LED}{Blinking the green LED.  Available
+    at \LocLEDpybrief{led-green-blink.py}.}
+  \label{py:led-green-blink}
+  \lstinputlisting{\LocLEDpycode/led-green-blink.py}
+\end{pycode}
+

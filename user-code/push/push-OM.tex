@@ -1,0 +1,76 @@
+\section{Reading the pushbutton status from OpenModelica}
+\subsection{Reading the pushbutton status}
+In this section, we discuss how to carry out the experiments of the
+previous section from OpenModelica.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
+\begin{enumerate}
+\item In the first experiment, we will read the pushbutton status. The code for this experiment is given in
+  \OpenModelicaref{OpenModelica:push-100}. As explained earlier in \secref{sec:light-OpenModelica}, 
+  we begin with importing the two packages: Streams and SerialCommunication followed 
+  by setting up the serial port. Then, we read the input coming
+ from digital pin 12 using the following command: 
+ \lstinputlisting[firstline=15,lastline=15]
+  {\LocPushOpenModelicacode/push-button-status.mo}
+  Note that the one leg of the pushbutton on the shield is connected to digital
+pin 12 of Arduino Uno as given in \figref{fig:pushbuttonconn}. The read value is displayed (or
+printed) by the following lines:
+\lstinputlisting[firstline=16,lastline=22]
+  {\LocPushOpenModelicacode/push-button-status.mo} where {\tt val} contains the pushbutton value acquired by the previous command.
+  When the pushbutton is not pressed, {\tt val} will be ``0''. On the other hand,
+  when the pushbutton is pressed, {\tt val} will be ``1''. While executing this model in OpenModelica, 
+the readers must press and release the pushbutton and observe the values being printed
+on the output window of OMEdit, as shown in \figref{om-sim-success}.
+\item This experiment is an extension of the previous
+  experiment. Here, we control the state of an LED as per the status
+  of the pushbutton. In other words, digital output to an LED is
+  decided by the digital input received from the pushbutton. The code
+  for this experiment is given in \OpenModelicaref{OpenModelica:push-200}. 
+  After reading the pushbutton status, we turn the LED on if the pushbutton is
+  pressed, otherwise we turn it off. The following lines, 
+  \lstinputlisting[firstline=18,lastline=26]
+  {\LocPushOpenModelicacode/led-push-button.mo} perform the condition check
+  and corresponding LED state control operation. While running this experiment, the readers must press and release the push-
+  button. Accordingly, they can observe whether the LED glows when the push-
+  button is pressed.
+\end{enumerate}
+%%%%%%%%%%%%OpenModelica decription ends
+
+% \section{Do we need all these? \redcolor{Manas, please answer}}
+% \subsection{Troubleshooting}
+% You can check whether pushbutton is working correctly or not by
+% checking the connections. If pushbutton is working correctly, all the
+% 4 terminals show electrical short. You can check this with digital
+% multimeter (DMM). When pushbutton is released two pairs of terminals are
+% not connected to the other 2 terminals on the other side. However,
+% each pair is still shorted. 
+
+
+\subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+\label{sec:led-OpenModelica-code}
+\addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
+
+\begin{OpenModelicacode}
+\mcaption{Read the status of the pushbutton and display it on the 
+output window}{Read the status of the pushbutton and display it on the output window.  
+  Available at Arduino -> SerialCommunication -> 
+  Examples -> push -> push\_button\_status. }
+\label{OpenModelica:push-100}
+\lstinputlisting{\LocPushOpenModelicacode/push-button-status.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+\mcaption{Turning the LED on or off depending on the pushbutton}
+  {Turning the LED on or off depending on the pushbutton.  Available at Arduino -> SerialCommunication -> 
+  Examples -> push -> led\_push\_button.}
+\label{OpenModelica:push-200}
+\lstinputlisting{\LocPushOpenModelicacode/led-push-button.mo}
+\end{OpenModelicacode}
+%%%%%%%%%%%%%%%%%OpenModelica ends

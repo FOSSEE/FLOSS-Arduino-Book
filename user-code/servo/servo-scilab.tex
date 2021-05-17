@@ -1,0 +1,320 @@
+\section{Controlling the servomotor through Scilab}
+\subsection{Controlling the servomotor}
+\label{sec:servo-sci}
+In this section, we discuss how to carry out the experiments of the
+previous section from Scilab. We will list the same four experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:sci-start} before getting started. 
+
+% In this section, we will carry out the servomotor control experiments
+% using \scilab.  We will follow the same order as in
+% \secref{sec:servo-ard}.  We assume that the shield is attached to the
+% \arduino\ board while doing these experiments.  They will work without
+% the shield also, but in this case, our comments on colour LEDs
+% lighting will not be applicable.  The reader should go through the
+% instructions given in \secref{sec:sci-start} before getting started.
+\begin{enumerate}
+  \item The first experiment makes the servomotor move by $30^\circ$. The code for this experiment is
+        given in \sciref{sci:servo-init}. As explained earlier in \secref{sec:light-sci}, 
+        we begin with serial port initialization.
+        % It first opens com port 2 in \arduino\ card number 1 with baud rate
+        % of 115200.  If the port opening is unsuccessful {\tt ok} will not be
+        % 0 and the program terminates, asking the user to correct the
+        % problem.  Else If the port opening is successful, {\tt ok} will be 0
+        % and the program proceeds.  
+        Next, we attach the servomotor by issuing the command given below:
+        \lstinputlisting[firstline=3,lastline=3]{\LocSERscicode/servo-init.sce}
+        As shown above, the servomotor is attached on board 1 (the first argument)
+        to pin 1 (the second argument).  In the Scilab-Arduino toolbox discussed 
+        in \secref{sec:sci-ard-toolbox}, pin 1 and pin 5 are connected. As a result, we connect the wire physically to
+        pin 5, which is achieved by the shield as discussed in \secref{sec:servo-pril}.
+        
+        With this, we issue the command to move the servomotor by $30^\circ$ followed by a delay of 
+        1000 milliseconds:
+        \lstinputlisting[firstline=4,lastline=5]
+        {\LocSERscicode/servo-init.sce}
+        At last, we  detach the servomotor followed by closing the serial port. 
+        
+        Once this code is executed, the servomotor would move by
+        $30^\circ$, as commanded.  What happens if this code is executed
+        once again?  The motor will not move at all.  What is the reason?
+        Recall that what we assign to the motor are absolute positions, with
+        respect to a fixed origin.  As a result, there will be no change at
+        all. 
+        
+  \item In the second experiment, we move the servomotor by $90^\circ$ in the
+        forward direction and $45^\circ$ in the reverse direction.  This
+        code is given in \sciref{sci:servo-reverse}.  In this code, 
+        we have added a delay of 1000 milliseconds between the two instances of 
+        moving the servomotor: 
+        \lstinputlisting[firstline=4,lastline=6]
+        {\LocSERscicode/servo-reverse.sce}
+        What is the reason behind this delay?  If the delay were not
+        there, the motor will move only by the net angle of $90-45 = 45$
+        degrees.  The reader should verify this by commenting on the delay
+        command. 
+        
+        % In \sciref{sci:servo-reverse}, we make the servomotor rotate
+        % to $90^\circ$, wait for a second and go to $45^\circ$.  As mentioned
+        % earlier, the angles are absolute with respect to a fixed reference
+        % point and not relative.  
+        
+        
+  \item In the third experiment, we move the motor in increments of
+        $20^\circ$.  This is achieved by the {\tt for} loop, as in
+        \sciref{sci:servo-loop}. The code helps the motor move in steps of $20^\circ$ all
+        the way to $180^\circ$.  
+        
+  \item Finally, in the last experiment, we read the potentiometer value
+        from the shield and use it to drive the servomotor, see
+        \sciref{sci:servo-pot}.  The resistance of the potentiometer is
+        represented in 10 bits.  As a result, the resistance value could be
+        any one of 1024 values, from 0 to 1023.  This entire range is
+        mapped to $180^\circ$, as shown below:
+        \lstinputlisting[firstline=5,lastline=7]
+        {\LocSERscicode/servo-pot.sce}
+        By rotating the potentiometer, one can make
+        the motor move by different amounts.
+        
+        As mentioned in \chapref{potmeter}, the potentiometer on the shield is connected 
+        to analog pin 2 on \arduino. Through this pin, the resistance of the potentiometer, in the range of 0 to 1023,
+        depending on its position, is read.  Thus, by rotating the
+        potentiometer, we make different values appear on pin 2.  This value
+        is used to move the servo.  For example, if the resistance is half
+        of the total, the servomotor will go to $90^\circ$ and so on.  The
+        servomotor stops for 500 milliseconds after every move.  The loop is
+        executed for 50 iterations. During this period, the servomotor keeps moving as dictated by the
+        resistance of the potentiometer. While running this experiment, the readers 
+        must rotate the knob of the potentiometer by a fixed amount and observe 
+        the change in the position (or angle) of the servomotor.   
+        
+        
+        % \item In the next experiment, we rotate the servomotor in discrete
+        %       steps of $20^\circ$.  This is achieved by multiplying $20^\circ$ by
+        %       an integer {\tt i}, which varies from 0 to 10.  Once the maximum
+        %       angle reaches $180^\circ$, it stops.  
+        
+        % \item Finally, in the last experiment, we position the servomotor
+        %       through the potentiometer in the code \sciref{sci:servo-pot}.  As we
+        %       rotate the potentiometer, the servomotor's angle also changes.  The
+        %       potentiometer value is read through pin 2, in line number 5, as
+        %       below:
+        %       \lstinputlisting[firstline=5,lastline=5]{\LocSERscicode/servo-pot.sce}
+        %       This value is mapped into a value between 0 and $180^\circ$ by
+        %       multiplying with $180/1023$ in line 6:
+        %       \lstinputlisting[firstline=6,lastline=6]{\LocSERscicode/servo-pot.sce}
+        %       The {\tt floor} function gets the integer part of the number by
+        %       truncation.  This is the angle by which the potentiometer is to be
+        %       moved.  Truncation is a not a crucial calculation, however.  In
+        %       every iteration, the servomotor's position is calculated, and placed
+        %       for half a second.  This loop is iterated upon 5,000 times.
+\end{enumerate}
+
+\subsection{Scilab Code}
+\lstset{style=mystyle}
+\label{sec:servo-scilab-code}
+\addtocontents{cod}{\protect\addvspace{\codclr}}
+
+\begin{scicode}
+  \ccaption{Rotating the servomotor to a specified degree} {Rotating
+    the servomotor to a specified degree.  Available at
+    \LocSERscibrief{servo-init.sce}.}
+  \label{sci:servo-init}
+  \lstinputlisting{\LocSERscicode/servo-init.sce}
+\end{scicode}
+
+\begin{scicode}
+  \ccaption{Rotating the servomotor to a specified degree and
+    reversing} {Rotating
+    the servomotor to a specified degree and reversing.  Available at
+    \LocSERscibrief{servo-reverse.sce}.}
+  \label{sci:servo-reverse}
+  \lstinputlisting{\LocSERscicode/servo-reverse.sce}
+\end{scicode}
+
+\begin{scicode}
+  \ccaption{Rotating the servomotor in steps of $20^\circ$}{Rotating
+    the servomotor in steps of $20^\circ$.  Available at 
+    \LocSERscibrief{servo-loop.sce}.}
+  \label{sci:servo-loop}
+  \lstinputlisting{\LocSERscicode/servo-loop.sce}
+\end{scicode}
+
+\begin{scicode}
+  \ccaption{Rotating the servomotor to a degree specified by the
+    potentiometer} {Rotating the servomotor to a degree specified by
+    the potentiometer.  Available at \LocSERscibrief{servo-pot.sce}.}
+  \label{sci:servo-pot}
+  \lstinputlisting{\LocSERscicode/servo-pot.sce}
+\end{scicode}
+
+
+\section{Controling the servomotor through Xcos}
+\label{sec:servo-xcos}
+In this section, we will see how to rotate the servomotor from Scilab
+Xcos.  We will carry out experiments similar to the ones in earlier
+sections.  For each, we will give the location of the zcos file and
+the parameters to set.  The reader should go through the instructions
+given in \secref{sec:xcos-start} before getting started.
+
+\begin{enumerate}
+  \item First we will rotate the servomotor by $30^\circ$.  When
+        the file required for this experiment is invoked, one gets the GUI
+        as in \figref{fig:servo-init}.  In the caption of this figure, one can
+        see where to locate the file.
+        \begin{figure}
+          \centering
+          \includegraphics[width=\smfig]{\LocSERfig/servo-init.png}
+          \caption[Rotating the servomotor by a fixed angle]{Rotating the
+            servomotor by a fixed angle.  This is what one sees when
+            \LocLEDscibrief{servo-init.zcos}, is invoked.}
+          \label{fig:servo-init}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:servo-init}.  All other parameters are to
+        be left unchanged.
+        \begin{table}
+          \centering
+          \caption{Parameters to rotate the servomotor by $30^\circ$}
+          \label{tab:servo-init}
+          \begin{tabular}{llc} \hline
+            Name of the block & Parameter name             & Value     \\ \hline
+            ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
+                              & Serial com port number     & 2\portcmd \\ \hline
+            TIME\_SAMPLE      & Duration of acquisition(s) & 10        \\
+                              & Sampling period(s)         & 0.1       \\ \hline
+            SERVO\_WRITE\_SB  & Servo number               & 1         \\
+                              & Arduino card number        & 1         \\ \hline
+            CONST\_m          & Constant value             & 30        \\ \hline
+          \end{tabular}
+        \end{table}
+        
+  \item Next, we will rotate the servomotor by $90^\circ$ and bring it
+        to $45^\circ$, all absolute values.  When the file required for this
+        experiment is invoked, one gets the GUI as in
+        \figref{fig:servo-reverse}.  In the caption of this figure, one can
+        see where to locate the file.
+        \begin{figure}
+          \centering
+          \includegraphics[width=\smfig]{\LocSERfig/servo-reverse.png}
+          \caption[Rotating the servomotor forward and then
+            reverse]{Rotating the servomotor forward and then reverse.  This
+            is what one sees when \LocLEDscibrief{servo-reverse.zcos},
+            is invoked.}
+          \label{fig:servo-reverse}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:servo-reverse}.  All other parameters
+        are to be left unchanged.
+        \begin{table}
+          \centering
+          \caption{Parameters to rotate the servomotor forward and reverse}
+          \label{tab:servo-reverse}
+          \begin{tabular}{llc} \hline
+            Name of the block & Parameter name             & Value     \\ \hline
+            ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
+                              & Serial com port number     & 2\portcmd \\ \hline
+            TIME\_SAMPLE      & Duration of acquisition(s) & 10        \\
+                              & Sampling period(s)         & 0.1       \\ \hline
+            SERVO\_WRITE\_SB  & Servo number               & 1         \\
+                              & Arduino card number        & 1         \\ \hline
+            STEP\_FUNCTION    & Step time                  & 1         \\ 
+                              & Initial value              & 90        \\
+                              & Final value                & 45        \\ \hline
+          \end{tabular}
+        \end{table}
+        
+  \item Next, we will rotate the servomotor in increments of
+        $20^\circ$.  When the file required for this
+        experiment is invoked, one gets the GUI as in
+        \figref{fig:servo-loop}.  In the caption of this figure, one can
+        see where to locate the file.
+        \begin{figure}
+          \centering
+          \includegraphics[width=\smfig]{\LocSERfig/servo-loop.png}
+          \caption[Rotating the servomotor in increments of $20^\circ$]
+          {Rotating the servomotor in increments of $20^\circ$.  This is what
+            one sees when \LocLEDscibrief{servo-loop.zcos}, is invoked.}
+          \label{fig:servo-loop}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:servo-loop}.  {\tt Do on Overflow 0}
+        means that we need to do nothing when there is an overflow.
+        All other parameters are to be left unchanged.
+        \begin{table}
+          \centering
+          \caption{Parameters to make the servomotor to sweep the entire
+            range in increments}
+          \label{tab:servo-loop}
+          \begin{tabular}{llc} \hline
+            Name of the block & Parameter name             & Value     \\ \hline
+            ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
+                              & Serial com port number     & 2\portcmd \\ \hline
+            TIME\_SAMPLE      & Duration of acquisition(s) & 10        \\
+                              & Sampling period(s)         & 0.1       \\ \hline
+            SERVO\_WRITE\_SB  & Servo number               & 1         \\ \hline
+            CLOCK\_c          & Period                     & 1         \\
+                              & Initialization time        & 0.1       \\ \hline
+            Counter           & Minimum value              & 0         \\
+                              & Maximum value              & 10        \\ 
+                              & Rule                       & 1         \\ \hline
+            GAINBLK           & Gain                       & 20        \\
+                              & Do on overflow             & 0         \\ \hline
+          \end{tabular}
+        \end{table}
+        
+  \item Finally, we will use Xcos to rotate the servomotor as per the
+        input received from the potentiometer.  When the file required for
+        this experiment is invoked, one gets the GUI as in
+        \figref{fig:servo-pot}.  In the caption of this figure, one can see
+        where to locate the file.
+        \begin{figure}
+          \centering
+          \includegraphics[width=\smfig]{\LocSERfig/servo-pot.png}
+          \caption[Rotating the servomotor as suggested by the
+            potentiometer]{Rotating the servomotor as suggested by the
+            potentiometer.  This is what
+            one sees when \LocLEDscibrief{servo-pot.zcos}, is invoked.}
+          \label{fig:servo-pot}
+        \end{figure}
+        
+        We will next explain how to set the parameters for this simulation.
+        To set value on any block, one needs to right click and open the
+          {\tt Block Parameters} or double click.  The values for each block
+        is tabulated in \tabref{tab:servo-pot}.  All other parameters are to
+        be left unchanged.  The {\tt ANALOG\_READ\_SB} block reads the value
+        of potentiometer. Next, {\tt GAIN\_f} is used to convert the 
+        potentiometer values into rotation angle by multiplying the values 
+        with $180/1023$. 
+        \begin{table}
+          \centering
+          \caption{Parameters to rotate the servomotor based on the input
+            from the potentiometer}
+          \label{tab:servo-pot}
+          \begin{tabular}{llc} \hline
+            Name of the block & Parameter name                 & Value     \\ \hline
+            ARDUINO\_SETUP    & Identifier of Arduino Card     & 1         \\
+                              & Serial com port number         & 2\portcmd \\ \hline
+            TIME\_SAMPLE      & The duration of acquisition(s) & 100       \\
+                              & Sampling period(s)             & 0.1       \\ \hline
+            SERVO\_WRITE\_SB  & Servo number                   & 1         \\ \hline
+            ANALOG\_READ\_SB  & Analog Pin                     & 2         \\ 
+                              & Arduino card number            & 1         \\ \hline
+            GAIN\_f           & Gain                           & 180/1023  \\ \hline
+          \end{tabular}
+        \end{table}
+\end{enumerate}
+
+

@@ -1,0 +1,115 @@
+\section{Lighting the LED from OpenModelica}
+\subsection{Lighting the LED}
+\label{sec:light-OpenModelica}
+In this section, we discuss how to carry out the experiments of the
+previous section from OpenModelica.  We will list the same four experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
+\begin{enumerate}
+  \item In the first experiment, we will light up the blue LED on the
+        shield.  The code for this is given in \OpenModelicaref{OpenModelica:led-blue}.
+        It begins with importing the two packages: Streams and SerialCommunication from the toolbox, as 
+        given in \secref{sec:load-om-toolbox}. Following line imports this package: 
+        \lstinputlisting[firstline=3,lastline=4]{\LocLEDOpenModelicacode/led-blue.mo}
+
+    We define some variables to collect the results coming from different functions. Following 
+    lines are used for these:
+    \lstinputlisting[firstline=5,lastline=7]{\LocLEDOpenModelicacode/led-blue.mo}
+
+    Now, we have a command of the form 
+        \begin{lstlisting}[style=nonumbers]
+     ok := sComm.open_serial(1, PORT NUMBER, BAUD RATE)
+  \end{lstlisting}
+        We have used 2 for {\tt PORT NUMBER} and 115200 for {\tt BAUD RATE}.
+        As a result, this command becomes 
+        \lstinputlisting[firstline=10,lastline=10]{\LocLEDOpenModelicacode/led-blue.mo}
+        This command is used to open the serial port.  When the port is
+        opened successfully, it returns a value of 0, which gets stored in
+        the variable {\tt ok}.
+        
+        Sometimes, the serial port does not open, as mentioned in the above
+        command.  This is typically due to not closing the serial port
+        properly in a previous experiment.  If this condition is not
+        trapped, the program will wait forever, without any information
+        about this difficulty.  One way to address this difficulty is to
+        terminate the program if the serial port does not open.  This is
+        achieved using the error message of the following form:
+        \begin{lstlisting}[style=nonumbers]
+            if ok <> 0 then strm.print(Error Message in Quotes);
+        \end{lstlisting}
+
+        We turn the LED on in the upcoming lines.  This is achieved using a
+        command of the form
+        \begin{lstlisting}[style=nonumbers]
+          digital_out := sComm.cmd_digital_out(1, PIN NUMBER, VALUE)
+  \end{lstlisting}
+        As we want to turn on the blue light in the shield, as discussed in
+        \secref{sec:light-ard}, we choose {\tt PIN NUMBER} as 9.  We can put
+        any positive integer in the place of {\tt VALUE}.  We arrive at the
+        following command:
+        \lstinputlisting[firstline=15,lastline=15]{\LocLEDOpenModelicacode/led-blue.mo}
+        Subsequently, we close the serial port and then define the simulation parameters. 
+  \item \OpenModelicaref{OpenModelica:led-blue-delay} does the same thing as what
+        \ardref{ard:led-blue-delay} does.  It does two more things than what
+        \OpenModelicaref{OpenModelica:led-blue} does: It makes the blue LED light up for two
+        seconds.  This is achieved by the command
+        \lstinputlisting[firstline=16,lastline=16]{\LocLEDOpenModelicacode/led-blue-delay.mo}
+        The second thing this code does is to turn the blue LED off.  This
+        is achieved by the command
+        \lstinputlisting[firstline=17,lastline=17]{\LocLEDOpenModelicacode/led-blue-delay.mo}
+        It is easy to see that this code puts a 0 on pin 9.
+        
+  \item \OpenModelicaref{OpenModelica:led-blue-red} does the same thing as what
+        \ardref{ard:led-blue-red} does.  It turns blue and red LEDs on for
+        five seconds.  After that, it turns off blue first.  After 3
+        seconds, it turns off red also.  So, when the program ends, no LED is
+        lit up.
+        
+  \item \OpenModelicaref{OpenModelica:led-green-blink} does exactly what its counterpart
+        in the Arduino IDE does.  It makes the green LED blink five times.
+  \end{enumerate}
+
+\subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+\lstset{style=mystyle}
+\label{sec:led-OpenModelica-code}
+\addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
+
+\begin{OpenModelicacode}
+  \mcaption{Turning on the blue LED}
+  {Turning on the blue LED. Available at Arduino -> SerialCommunication -> 
+  Examples -> led -> led\_blue.}
+  \label{OpenModelica:led-blue}
+  \lstinputlisting{\LocLEDOpenModelicacode/led-blue.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Turning on the blue LED and turning it off after two
+    seconds}{Turning on the blue LED and turning it off after two
+    seconds.  Available at Arduino -> SerialCommunication -> Examples -> led 
+    -> led\_blue\_delay.}
+  \label{OpenModelica:led-blue-delay}
+  \lstinputlisting{\LocLEDOpenModelicacode/led-blue-delay.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Turning on blue and red LEDs for 5 seconds and then turning
+    them off one by one}{Turning on blue and red LEDs for 5 seconds and
+    then turning them off one by one.  Available at Arduino -> SerialCommunication -> Examples -> led -> led\_blue\_red.}
+  \label{OpenModelica:led-blue-red}
+  \lstinputlisting{\LocLEDOpenModelicacode/led-blue-red.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Blinking the green LED}{Blinking the green LED.  Available at Arduino -> SerialCommunication -> Examples -> led -> led\_green\_blink.}
+  \label{OpenModelica:led-green-blink}
+  \lstinputlisting{\LocLEDOpenModelicacode/led-green-blink.mo}
+\end{OpenModelicacode}
+
+%%%%%end OpenModelicamo

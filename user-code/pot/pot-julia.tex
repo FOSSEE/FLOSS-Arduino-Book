@@ -1,0 +1,42 @@
+\section{Reading the potentiometer from Julia}
+\subsection{Reading the potentiometer}
+In this section, we will use a Julia source file to read 
+the potentiometer values. The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be 
+connected to the computer with a USB cable, 
+as shown in \figref{arduino}. The reader should go through the instructions given in 
+\secref{sec:julia-start} before getting started.
+
+
+Based on the acquired potentiometer values, we will change the 
+state of the RGB LED as explained earlier. 
+The code for this experiment is given in
+\juliaref{julia:pot-100}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
+\cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+Then, we read the analog input at pin 2 using,
+\lstinputlisting[firstline=9,lastline=9]
+{\LocPotjuliacode/pot-threshold.jl} where the first argument is for
+%\redcolor {the kit number } 
+the serial port and the second argument corresponds to the analog pin 
+to be read.  Next, we compare the read values with the set range, 
+and then turn on and off the corresponding LED. For example, 
+\lstinputlisting[firstline=11,lastline=14]
+{\LocPotjuliacode/pot-threshold.jl} where {\tt digiWrite} 
+is used to set the pin 11 high (1) or low (0). 
+We used {\tt sleep(1)} to retain the LED in the on state for 1 second.  
+A similar check is done the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED.
+\subsection{Julia Code}
+\label{sec:pot-julia-code}
+\addtocontents{juliad}{\protect\addvspace{\codclr}}
+\begin{juliacode}
+  \jcaption{Turning on LEDs depending on the potentiometer
+    threshold}{Turning on LEDs depending on the potentiometer
+    threshold.  Available at
+  \LocPotjuliabrief{pot-threshold.jl}.}
+\label{julia:pot-100}
+\lstinputlisting{\LocPotjuliacode/pot-threshold.jl}
+\end{juliacode}
+

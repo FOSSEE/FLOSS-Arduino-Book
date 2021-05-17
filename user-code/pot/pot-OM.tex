@@ -1,0 +1,41 @@
+\section{Reading the potentiometer from OpenModelica}
+\subsection{Reading the potentiometer}
+In this section, we will use a OpenModelica model to read the potentiometer values.  
+The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
+Based on the acquired potentiometer values, we will change the state of the 
+RGB LED as explained earlier. The code for this experiment is given in
+\OpenModelicaref{OpenModelica:pot-100}. As explained earlier in \secref{sec:light-OpenModelica}, 
+  we begin with importing the two packages: Streams and SerialCommunication followed 
+  by setting up the serial port. Then, we read the analog input at pin 2 using,
+\lstinputlisting[firstline=16,lastline=16]
+{\LocPotOpenModelicacode/pot-threshold.mo} where the first argument is for
+%\redcolor {the kit number } 
+the serial port and the second argument corresponds to the analog pin to be read.  Next, we compare the read values with the set range, and then turn on and off the corresponding LED. For example, 
+\lstinputlisting[firstline=18,lastline=21]
+{\LocPotOpenModelicacode/pot-threshold.mo} 
+where {\tt cmd\_digital\_out} is used to set the pin 11 high (1) or low (0). 
+We used {\tt delay(1000)} to retain the LED in the on state for 1000 milliseconds.  
+A similar check is done the other two bands. 
+While running this experiment, 
+the readers must rotate the knob of the potentiometer and observe 
+the change in the color of the RGB LED.
+\subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
+\label{sec:pot-OpenModelica-code}
+\addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
+\begin{OpenModelicacode}
+  \mcaption{Turning on LEDs depending on the potentiometer
+    threshold}{Turning on LEDs depending on the potentiometer
+    threshold.  Available at Arduino -> SerialCommunication -> 
+  Examples -> pot -> pot\_threshold.}
+\label{OpenModelica:pot-100}
+\lstinputlisting{\LocPotOpenModelicacode/pot-threshold.mo}
+\end{OpenModelicacode}

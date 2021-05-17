@@ -8,13 +8,13 @@
 %\newcommand{\Origin}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 %\newcommand{\Home}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 
-% \newcommand{\Home}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
-% \newcommand{\Origin}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Home}
+{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Origin}
+{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
 
-\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
-\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
+%\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
+%\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
 
 
 
@@ -31,8 +31,9 @@
 \usepackage{fancyhdr}
 \pagestyle{headings}
 \usepackage{amsmath,graphicx,makeidx}
-\usepackage{fancybox,url}
+\usepackage{fancybox}
 \usepackage{cite}
+\usepackage{hyperref}
 %\usepackage{appendix}
 \counterwithout{footnote}{chapter}
 \usepackage{subfig}
@@ -105,6 +106,14 @@
 \hyphenation{Ashu-tosh pr-ess}
 
 \makeindex
+
+% Comment one of the next two lines
+\def\EntireReport{} %% EntireReport is set to true
+% \let\EntireReport\undefined %% EntireReport is set to false
+% If the entire report is not prepared, choose one of scilab, python,
+% julia, or OM
+\newcommand{\Software}{OM}
+
 \begin{document}
 \pagestyle{plain}
 \pagestyle{empty}
@@ -137,14 +146,78 @@
 \input{suppl/intro.tex}
 \input{user-code/hw-env/hw-env.tex}
 \input{user-code/sw-env/sw-env.tex}
-\input{user-code/led/led.tex}
-\input{user-code/push/push.tex}
-\input{user-code/ldr/ldr.tex}
-\input{user-code/pot/pot.tex}
-\input{user-code/thermistor/thermistor.tex}
-\input{user-code/servo/servo.tex}
-\input{user-code/dcmotor/dcmotor.tex}
+
+\ifdefined\EntireReport
+
+\input{user-code/led/led-base.tex}
+\input{user-code/led/led-scilab.tex}
+\input{user-code/led/led-python.tex}
+\input{user-code/led/led-julia.tex}
+\input{user-code/led/led-OM.tex}
+
+\input{user-code/push/push-base.tex}
+\input{user-code/push/push-scilab.tex}
+\input{user-code/push/push-python.tex}
+\input{user-code/push/push-julia.tex}
+\input{user-code/push/push-OM.tex}
+
+\input{user-code/ldr/ldr-base.tex}
+\input{user-code/ldr/ldr-scilab.tex}
+\input{user-code/ldr/ldr-python.tex}
+\input{user-code/ldr/ldr-julia.tex}
+\input{user-code/ldr/ldr-OM.tex}
+
+\input{user-code/pot/pot-base.tex}
+\input{user-code/pot/pot-scilab.tex}
+\input{user-code/pot/pot-python.tex}
+\input{user-code/pot/pot-julia.tex}
+\input{user-code/pot/pot-OM.tex}
+
+\input{user-code/thermistor/thermistor-base.tex}
+\input{user-code/thermistor/thermistor-scilab.tex}
+\input{user-code/thermistor/thermistor-python.tex}
+\input{user-code/thermistor/thermistor-julia.tex}
+\input{user-code/thermistor/thermistor-OM.tex}
+
+\input{user-code/servo/servo-base.tex}
+\input{user-code/servo/servo-scilab.tex}
+\input{user-code/servo/servo-python.tex}
+\input{user-code/servo/servo-julia.tex}
+\input{user-code/servo/servo-OM.tex}
+
+\input{user-code/dcmotor/dcmotor-base.tex}
+\input{user-code/dcmotor/dcmotor-scilab.tex}
+\input{user-code/dcmotor/dcmotor-python.tex}
+\input{user-code/dcmotor/dcmotor-julia.tex}
+\input{user-code/dcmotor/dcmotor-OM.tex}
+
+\else 
+
+\input{user-code/led/led-base.tex}
+\input{user-code/led/led-\Software.tex}
+
+\input{user-code/push/push-base.tex}
+\input{user-code/push/push-\Software.tex}
+
+\input{user-code/ldr/ldr-base.tex}
+\input{user-code/ldr/ldr-\Software.tex}
+
+\input{user-code/pot/pot-base.tex}
+\input{user-code/pot/pot-\Software.tex}
+
+\input{user-code/thermistor/thermistor-base.tex}
+\input{user-code/thermistor/thermistor-\Software.tex}
+
+\input{user-code/servo/servo-base.tex}
+\input{user-code/servo/servo-\Software.tex}
+
+\input{user-code/dcmotor/dcmotor-base.tex}
+\input{user-code/dcmotor/dcmotor-\Software.tex}
+
+\fi
+
 \input{user-code/modbus/modbus.tex}
+
 %\input{texfiles/servo.tex}
 %\input{texfiles/Appendix.tex}
 %\appendix

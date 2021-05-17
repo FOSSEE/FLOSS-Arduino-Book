@@ -1,0 +1,273 @@
+\chapter {Interfacing a Servomotor}
+\thispagestyle{empty}
+\label{sec:servo}
+\newcommand{\LocSERfig}{\Origin/user-code/servo/figures}
+\newcommand{\LocSERscicode}{\Origin/user-code/servo/scilab}
+\newcommand{\LocSERscibrief}[1]{{\tt \seqsplit{%
+        Origin/user-code/servo/scilab/#1}},
+  see \fnrefp{fn:file-loc}}
+
+\newcommand{\LocSERardcode}{\Origin/user-code/servo/arduino}
+\newcommand{\LocSERardbrief}[1]{{\tt \seqsplit{%
+        Origin/user-code/servo/arduino/#1}},
+  see \fnrefp{fn:file-loc}}
+
+%%%%%%%%%%%%%%%python starts
+\newcommand{\LocSERpycode}{\Origin/user-code/servo/python}
+\newcommand{\LocSERpybrief}[1]{{\tt \seqsplit{%
+        Origin/user-code/servo/python/#1}},
+  see \fnrefp{fn:file-loc}}
+%%%%%%%%%%%%%%%python ends
+
+%%%%%%%%%%%%%%%julia starts
+\newcommand{\LocSERjuliacode}{\Origin/user-code/servo/julia}
+\newcommand{\LocSERjuliabrief}[1]{{\tt \seqsplit{%
+        Origin/user-code/servo/julia/#1}},
+  see \fnrefp{fn:file-loc}}
+%%%%%%%%%%%%%%%julia ends
+
+%%%%%%%%%%%%%%% OpenModelica starts
+\newcommand{\LocSEROpenModelicacode}{\Origin/user-code/servo/OpenModelica}
+\newcommand{\LocSEROpenModelicabrief}[1]{{\tt \seqsplit{%
+        Origin/user-code/servo/OpenModelica/#1}},
+  see \fnrefp{fn:file-loc}}
+%%%%%%%%%%%%%%% OpenModelica ends
+
+A servomotor is a very useful industrial control mechanism.  Learning
+to control it will be extremely useful for practitioners.  In this
+chapter, we will explain how to control a servomotor using the
+\arduino\ board.  We will begin with preliminaries of servomotors and
+explain how to connect a typical servomotor to the \arduino\ board and
+shield.  We will then explain how to control it through the Arduino IDE,
+Scilab scripts, Scilab Xcos, Python, Julia, and OpenModelica. 
+We will provide code for all the experiments.
+
+\section{Preliminaries}
+\label{sec:servo-pril}
+A servomotor is a rotary control mechanism.  It can be commanded to
+rotate to a specified angle.  It can rotate in positive or negative
+direction.  Using servomotors, one can control
+angular position, velocity and acceleration.  Servomotors are useful
+in many applications.  Some examples are robotics, industrial motors
+and printers.
+
+Typical servomotors have a maximum range of $180^\circ$, although some
+have different ranges\footnote{All the angles in a servomotor are
+  absolute angles, with respect to a fixed reference point, which can
+  be taken as $0^\circ$.}.
+Servomotors typically have a position sensor,
+using which, rotate to the commanded angle.  The minimum angle to
+which a servomotor can be rotated is its least count, which varies
+from one model to another.  Low cost servomotors have a large least
+count, say, of the order of $10^\circ$.
+
+A servomotor typically comes with three terminals for the
+following three signals: position signal, Vcc and ground. 
+Position signal means that this terminal should be connected to 
+one of the PWM (Pulse Width Modulation) pins \cite{arduino-pwm} on \arduino. 
+This book uses PWM pin 5 for this purpose. 
+Rest two terminals (Vcc and ground) need to be connected to 5V and GND on \arduino. 
+\tabref{tab:servo-connect} summarizes these connections. 
+
+We now explain how to connect a typical servomotor to the shield attached 
+on the \arduino\ board. On the shield, there is a three-pin header at one of the 
+ends. The pins of this header have been marked as $1$, $2$, and $3$. These pins:
+$1$, $2$, and $3$ are internally connected to 5V, PWM pin 5, and GND on \arduino\, respectively.  
+As discussed before, a typical servomotor has three terminals. Thus, the readers need to 
+connect these three terminals with the three-pin header, as shown in \figref{fig:servo-shield}
+before running the experiments given in this chapter. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\lgfig]{\LocSERfig/servo-uno-shield.jpg}
+  \caption{Connecting servomotor to the shield attached on \arduino}
+  \label{fig:servo-shield}
+\end{figure}
+
+
+\begin{table}
+  \centering
+  \caption{Connecting a typical servomotor to \arduino\ board}
+  \label{tab:servo-connect}
+  \begin{tabular}{lc}\hline
+    Servomotor terminal                & Arduino board \\ \hline
+    Position signal (orange or yellow) & 5             \\
+    Vcc (red or orange)                & 5V            \\
+    Ground (black or brown)            & GND           \\ 
+    \hline
+  \end{tabular}
+\end{table}
+
+
+\section{Connecting a servomotor with \arduino\ using a breadboard}
+This section is useful for those who either don't have a shield or don't want to use the shield
+for performing the experiments given in this chapter. 
+
+A breadboard is a device for holding the components of a circuit and connecting 
+them together. We can build an electronic circuit on a breadboard without doing any 
+soldering. To know more about the breadboard and other electronic components, 
+one should watch the Spoken Tutorials on Arduino as published on
+  {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
+tutorials labeled as Basic. However, we strongly recommend the readers should
+watch the fifth and sixth tutorials, i.e., {\tt First Arduino Program} and 
+  {\tt Arduino with Tricolor LED and Push button}.
+
+In case you have a servomotor and want to connect it with \arduino\ on a breadboard, 
+please refer to \figref{fig:servo-bread}. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocSERfig/servo-bb.png}
+  \caption{A servomotor with \arduino\ using a breadboard}
+  \label{fig:servo-bread}
+\end{figure}
+As shown in \figref{fig:servo-bread}, there is a servomotor with three 
+terminals. These terminals are used for the same three signals, as that explained 
+in \secref{sec:servo-pril}. The connections shown in \figref{fig:servo-pot-bread} can 
+be used to control the position of the servomotor, depending on the 
+values coming from a potentiometer. As shown in \figref{fig:servo-pot-bread}, 
+analog pin 2 on \arduino\ is connected to the middle leg of the 
+potentiometer. Rest of the connections are same as that in \figref{fig:servo-bread}. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocSERfig/servo-pot-bb.png}
+  \caption{A servomotor and a potentiometer with \arduino\ using a breadboard}
+  \label{fig:servo-pot-bread}
+\end{figure}
+
+\section{Controlling the servomotor through the Arduino IDE}
+\subsection{Controlling the servomotor}
+\label{sec:servo-ard}
+In this section, we will describe some experiments that will help
+rotate the servomotor based on the command given from Arduino IDE.  We
+will also give the necessary code.  We will present four experiments
+in this section.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}. The reader should go through the
+instructions given in \secref{sec:ard-start} before getting started.
+
+\begin{enumerate}
+  %\setcounter{enumi}{-1}
+  \item In the first experiment, we will move the servomotor by
+        $30^\circ$. \ardref{ard:servo-init} has the required code for this.  
+        This code makes use of a library named {\tt Servo} \cite{servo-lib}. 
+        Thus, we include its header file at the top of \ardref{ard:servo-init}:
+        \lstinputlisting[firstline=1,lastline=1]
+        {\LocSERardcode/servo-init/servo-init.ino}
+        Next, we create a {\tt Servo} object and call it {\tt myservo}, as shown below:
+        \lstinputlisting[firstline=2,lastline=2]
+        {\LocSERardcode/servo-init/servo-init.ino}
+        Most Arduino boards allow the creation of 12 servo objects. Next, we initialize the port for serial communication at
+        data rate of 115200 bits per second. Following to this, we mention the 
+        pin to which the servo is attached, as shown below:
+        \lstinputlisting[firstline=5,lastline=5]
+        {\LocSERardcode/servo-init/servo-init.ino}
+        With this, we issue the command to rotate the servomotor by $30^\circ$ followed by a delay of 
+        1000 milliseconds:
+        \lstinputlisting[firstline=6,lastline=7]
+        {\LocSERardcode/servo-init/servo-init.ino}
+        At last, we  detach the servomotor.    
+        
+        Once this code is executed, the servomotor would move by
+        $30^\circ$, as commanded.  What happens if this code is executed
+        once again?  The motor will not move at all.  What is the reason?
+        Recall that what we assign to the motor are absolute positions, with
+        respect to a fixed origin.  As a result, there will be no change at
+        all. 
+        
+  \item In the second experiment, we move the motor by $90^\circ$ in the
+        forward direction and $45^\circ$ in the reverse direction.  This
+        code is given in \ardref{ard:servo-reverse}.  In this code, 
+        we have added a delay of 1000 milliseconds between the two instances of 
+        rotating the servomotor: 
+        \lstinputlisting[firstline=6,lastline=8]
+        {\LocSERardcode/servo-reverse/servo-reverse.ino}
+        What is the reason behind this delay?  If the delay were not
+        there, the motor will move only by the net angle of $90-45 = 45$
+        degrees.  The reader should verify this by commenting on the delay
+        command.
+        
+  \item In the third experiment, we move the motor in increments of
+        $20^\circ$.  This is achieved by the {\tt for} loop, as in
+        \ardref{ard:servo-loop}.  Both {\tt i}, the loop variable and {\tt
+            angle}, the variable to store angle, are declared as {\tt int} in
+        this code.  The code helps the motor move in steps of $20^\circ$ all
+        the way to $180^\circ$.  
+        
+  \item Finally, in the last experiment, we read the potentiometer value
+        from the shield and use it to drive the servomotor, see
+        \ardref{ard:servo-pot}.  The resistance of the potentiometer is
+        represented in 10 bits.  As a result, the resistance value could be
+        any one of 1024 values, from 0 to 1023.  This entire range is
+        mapped to $180^\circ$, as shown below:
+        \lstinputlisting[firstline=10,lastline=12]
+        {\LocSERardcode/servo-pot/servo-pot.ino}
+        By rotating the potentiometer, one can make
+        the motor move by different amounts.
+        
+        As mentioned in \chapref{potmeter}, the potentiometer on the shield is connected 
+        to analog pin 2 on \arduino. Through this pin, the resistance of the potentiometer, in the range of 0 to 1023,
+        depending on its position, is read.  Thus, by rotating the
+        potentiometer, we make different values appear on pin 2.  This value
+        is used to move the servo.  For example, if the resistance is half
+        of the total, the servomotor will go to $90^\circ$ and so on.  The
+        servomotor stops for 500 milliseconds after every move.  The loop is
+        executed for 50 iterations. During this period, the servomotor keeps moving as dictated by the
+        resistance of the potentiometer. While running this experiment, the readers 
+        must rotate the knob of the potentiometer and observe 
+        the change in the position (or angle) of the servomotor.   
+        
+\end{enumerate}
+
+\begin{exercise}
+  Let us carry out this exercise:
+  \begin{enumerate}
+    \item In \ardref{ard:servo-loop}, the loop parameter {\tt i} starts
+          from 1.  From what angle will the motor start?  If one wants the
+          motor to start from $0^\circ$, what should one do?
+    \item How does one find the least count of the servomotor?  If the
+          variable {\tt angle} is chosen to be less than this least count in
+          \ardref{ard:servo-loop}, what happens?
+    \item What happens if 180 in Line 10 of \ardref{ard:servo-pot} is
+          changed to 90?  What does the change 180 to 90 mean?
+  \end{enumerate}
+\end{exercise}
+
+\subsection{Arduino Code}
+\lstset{style=mystyle}
+\label{sec:servo-arduino-code}
+\addtocontents{ard}{\protect\addvspace{\codclr}}
+
+\begin{ardcode}
+  \acaption{Rotating the servomotor to a specified degree} {Rotating
+    the servomotor to a specified degree.  Available at
+    \LocSERardbrief{servo-init/servo-init.ino}.}
+  \label{ard:servo-init}
+  \lstinputlisting{\LocSERardcode/servo-init/servo-init.ino}
+\end{ardcode}
+
+\begin{ardcode}
+  \acaption{Rotating the servomotor to a specified degree and
+    reversing} {Rotating
+    the servomotor to a specified degree and reversing.  Available at
+    \LocSERardbrief{servo-reverse/servo-reverse.ino}.}
+  \label{ard:servo-reverse}
+  \lstinputlisting{\LocSERardcode/servo-reverse/servo-reverse.ino}
+\end{ardcode}
+
+\begin{ardcode}
+  \acaption{Rotating the servomotor in increments} {Rotating the
+    servomotor in increments.  Available at
+    \LocSERardbrief{servo-loop/servo-loop.ino}.}
+  \label{ard:servo-loop}
+  \lstinputlisting{\LocSERardcode/servo-loop/servo-loop.ino}
+\end{ardcode}
+
+\begin{ardcode}
+  \acaption{Rotating the servomotor through the potentiometer}
+  {Rotating the servomotor through the potentiometer.  Available at
+    \LocSERardbrief{servo-pot/servo-pot.ino}.}
+  \label{ard:servo-pot}
+  \lstinputlisting{\LocSERardcode/servo-pot/servo-pot.ino}
+\end{ardcode}
+

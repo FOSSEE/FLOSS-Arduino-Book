@@ -1,0 +1,75 @@
+\section{Interfacing the LDR through Julia}
+\subsection{Interfacing the LDR}
+In this section, we discuss how to carry out the experiments of the
+previous section from Julia.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in \secref{sec:julia-start} before getting started.
+
+
+\begin{enumerate}
+  \item In the first experiment, we will read the LDR values. The code for this experiment is given in
+        \juliaref{julia:ldr-read}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts 
+        \cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+        Then, we read the input coming from analog pin 5 using the 
+        following command:
+        \lstinputlisting[firstline=6,lastline=6]
+        {\LocLDRjuliacode/ldr-read.jl} Note that the one leg of the LDR on
+        the shield is connected to analog pin 5 of \arduino\, 
+        as given in \figref{fig:ldrconn}. The read value is displayed 
+        by the following command: 
+        \lstinputlisting[firstline=7,lastline=7]
+        {\LocLDRjuliacode/ldr-read.jl} where {\tt val} contains
+        the LDR values ranging from 0 to 1023. If one does the experiment in a completely dark room, the
+        reading will be 0. If on the other hand, a bright light, say for instance the torch
+        light from mobile, is shined, the value displayed is close to 1023. One will get
+        intermediate values by keeping one's finger on the LDR. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 50 iterations. While running this experiment, the readers must keep their fingertips on the LDR and
+        observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+        
+        
+  \item This experiment is an extension of the previous experiment. Here, depending the resistance of the LDR, we will
+        turn the red LED on.  The program for this is available at
+        \juliaref{julia:ldr-led}.  The value of LDR is read and stored in {\tt
+            val}.  In case it is below some threshold (like 300 in \juliaref{julia:ldr-led}), 
+        it puts a high in pin number 11. From \secref{sec:led-pril}, 
+        one can note that this pin is for the red LED.  If the LDR value is below 300, 
+        the red LED will be on, else, it will be turned off.  
+        While running this experiment, the readers 
+        must keep their fingertips on the LDR so that the threshold is achieved. Accordingly, 
+        they can observe whether the red LED is turned on. 
+\end{enumerate}
+
+\begin{exercise}
+  Carry out the exercise below:
+  \begin{enumerate}
+    \item Carry out the exercise in the previous section.
+    \item Calculate the difference in LDR readings in indoor room
+          before lighting the lamp and after lighting the lamp. You can also
+          record changes in the room lighting at different times of the day.
+  \end{enumerate}
+\end{exercise}
+
+\subsection{Julia Code}
+\label{sec:ldr-julia-code}
+\addtocontents{juliad}{\protect\addvspace{\codclr}}
+
+\begin{juliacode}
+  \jcaption{Read and display the LDR values}
+  {Read and display the LDR values.  Available at
+    \LocLDRjuliabrief{ldr-read.jl}.}
+  \label{julia:ldr-read}
+  \lstinputlisting{\LocLDRjuliacode/ldr-read.jl}
+\end{juliacode}
+
+\begin{juliacode}
+  \jcaption{Turning the red LED on and off}
+  {Turning the red LED on and off.  Available at
+    \LocLDRjuliabrief{ldr-led.jl}.}
+  \label{julia:ldr-led}
+  \lstinputlisting{\LocLDRjuliacode/ldr-led.jl}
+\end{juliacode}
+

@@ -1,0 +1,94 @@
+\section{Interfacing the thermistor from Julia}
+\subsection{Interfacing the thermistor}
+In this section, we discuss how to carry out the experiments of the
+previous section from Julia.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in \secref{sec:julia-start} before getting started.
+
+
+\begin{enumerate}
+  \item In the first experiment, we will read the thermistor values.
+        The code for this experiment is given in
+        \juliaref{julia:therm-read}. As explained earlier in \secref{sec:light-julia}, we begin with importing the SerialPorts
+        \cite{julia-serial-ports} package and the module ArduinoTools followed by setting up the serial port.
+        Then, we read the input coming from analog pin 4 using the
+        following command:
+        \lstinputlisting[firstline=7,lastline=7]
+        {\LocTHERMjuliacode/therm-read.jl} Note that the one leg of the thermistor on
+        the shield is connected to analog pin 4 of \arduino\,
+        as given in \figref{fig:therm-conn}. The read value is displayed
+        by the following command:
+        \lstinputlisting[firstline=8,lastline=8]
+        {\LocTHERMjuliacode/therm-read.jl} where {\tt val} contains
+        the thermistor values ranging from 0 to 1023. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 20 iterations.
+
+        While running this experiment,
+        the readers should try holding (or rubbing) the thermistor with their fingertips.
+        Doing so will transfer heat from the person holding the
+        thermistor, thereby raising the temperature of the thermistor.
+        Accordingly, they should observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+
+  \item This experiment is an extension of the previous
+        experiment. Here, we will use a Julia source file to
+        turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
+        The program for this is available at
+        \juliaref{julia:therm-buzzer}.  As explained earlier,
+        the ADC maps the thermistor voltage readings in to values
+        ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \juliaref{julia:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \juliaref{julia:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+
+        In this experiment we compare the ADC output value with 550
+        and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
+        comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
+        \lstinputlisting[firstline=9,lastline=13]{\LocTHERMjuliacode/therm-buzzer.jl}
+        A delay of half a second is introduced
+        before the next value is read. While running this experiment,
+        the readers should try holding (or rubbing) the thermistor with their fingertips.
+        Doing so will transfer heat from the person holding the
+        thermistor, thereby raising the temperature of the thermistor.
+        Accordingly, they should observe whether the threshold of 550 is achieved
+        and the buzzer is enabled.
+
+        \paragraph{Note:} Once the thermistor value reaches 550 (the threshold), the value will remain the same
+        (unless it is cooled). Therefore, the buzzer will continuously produce the sound, which might be
+        a bit annoying. To get rid of this, the readers are advised to
+        execute some other code on \arduino\ like \juliaref{julia:therm-read}.
+
+\end{enumerate}
+
+\subsection{Julia Code}
+\label{sec:therm-julia-code}
+\addtocontents{juliad}{\protect\addvspace{\codclr}}
+
+\begin{juliacode}
+  \jcaption{Read and display the thermistor values} {Read and display
+    the thermistor values. Available at
+    \LocTHERMjuliabrief{therm-read.jl}.}
+  \label{julia:therm-read}
+  \lstinputlisting{\LocTHERMjuliacode/therm-read.jl}
+\end{juliacode}
+
+\begin{juliacode}
+  \jcaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
+    ADC.  Available at \LocTHERMjuliabrief{therm-buzzer.jl}.}
+  \label{julia:therm-buzzer}
+  \lstinputlisting{\LocTHERMjuliacode/therm-buzzer.jl}
+\end{juliacode}
+

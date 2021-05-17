@@ -1,0 +1,117 @@
+\section{Interfacing the thermistor from Python}
+\subsection{Interfacing the thermistor}
+In this section, we discuss how to carry out the experiments of the
+previous section from Python.  We will list the same two experiments,
+in the same order.  The shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer
+with a USB cable, as shown in \figref{arduino}.
+The reader should go through the instructions given in
+\secref{sec:python-start} before getting started.
+
+\begin{enumerate}
+  \item In the first experiment, we will read the thermistor values.
+        The code for this experiment is given in \pyref{py:therm-read}.
+        As explained earlier in \secref{sec:light-py}, we begin with
+        importing necessary modules followed by setting up the serial port.
+        Then, we read the input coming from analog pin 4 using the
+        following command:
+        \lstinputlisting[firstline=26,lastline=26]
+        {\LocTHERMpycode/therm-read.py} Note that the one leg of the thermistor on
+        the shield is connected to analog pin 4 of \arduino\,
+        as given in \figref{fig:therm-conn}. The read value is displayed
+        by the following command:
+        \lstinputlisting[firstline=27,lastline=27]
+        {\LocTHERMpycode/therm-read.py} where {\tt val} contains
+        the thermistor values ranging from 0 to 1023. To
+        encourage the user to have a good hands-on, we run these commands in
+        a {\tt for} loop for 20 iterations.
+
+        While running this experiment,
+        the readers should try holding (or rubbing) the thermistor with their fingertips.
+        Doing so will transfer heat from the person holding the
+        thermistor, thereby raising the temperature of the thermistor.
+        Accordingly, they should observe the change in values being printed on on the
+        Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.
+
+        % In the first experiment, \pyref{py:therm-read} is used to read
+        % values from thermistor. First the serial port is opened using the
+        % command {\tt open\_serial} and passing the correct port number to
+        % it. The command {\tt cmd\_analog\_in} is used to read from the
+        % analog pin. The pin number is passed to this command as an
+        % argument. The read value is stored in some variable. The value is
+        % then displayed on the scilab console. A sleep of 500 millisecond is
+        % executed using the {\tt sleep} command and then the reading process
+        % is repeated 20 times by putting it in a {\tt for} loop. After the
+        % loop is finished the serial port is closed using the {\tt
+        %     close\_serial} command.
+
+  \item This experiment is an extension of the previous
+        experiment. Here, we will use a Python script to
+        turn a buzzer on using the thermistor values. This experiment
+        can be considered as a simple fire alarm circuit that
+        detects fires based on a sudden change in temperature and
+        activates the buzzer.
+
+        The program for this is available at
+        \pyref{py:therm-buzzer}.  As explained earlier,
+        the ADC maps the thermistor voltage readings in to values
+        ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
+        volts. In this experiment we compare the ADC output value with a user-defined
+        threshold, which has been set as 550 in this experiment. One may note that
+        this threshold would vary according to the location and time of performing
+        this experiment. Accordingly, the readers are advised to change this threshold
+        in \pyref{py:therm-buzzer}. For testing purposes, one may note the
+        normal thermistor readings generated from the execution of \pyref{sci:therm-read}
+        and set a threshold that is approximately 10 more than these readings.
+
+        In this experiment we compare the ADC output value with 550
+        and as soon as the value exceeds 550 the buzzer is turned on. The following lines of code perform this
+        comparison and sending a {HIGH} signal to digital pin 3 on \arduino:
+        \lstinputlisting[firstline=30,lastline=34]{\LocTHERMpycode/therm-buzzer.py}
+        A delay of half a second is introduced
+        before the next value is read. While running this experiment,
+        the readers should try holding (or rubbing) the thermistor with their fingertips.
+        Doing so will transfer heat from the person holding the
+        thermistor, thereby raising the temperature of the thermistor.
+        Accordingly, they should observe whether the threshold of 550 is achieved
+        and the buzzer is enabled.
+
+        \paragraph{Note:} Once the thermistor value reaches 550 (the threshold), the value will remain the same
+        (unless it is cooled). Therefore, the buzzer will continuously produce the sound, which might be
+        a bit annoying. To get rid of this, the readers are advised to
+        execute some other code on \arduino\ like \pyref{py:therm-read}.
+
+        % In the second experiment, we will use the python script to
+        %       turn a buzzer on and off using the thermistor values. The changes in
+        %       the thermistor resistance is sensed as a voltage change between 0 to
+        %       5V. The ADC maps the thermistor voltage readings in to values
+        %       ranging from 0 to 1023. This means 0 for 0 volts and 1023 for 5
+        %       volts. In this experiment we compare the ADC output value with 550
+        %       and as soon as the value exceeds 550 the buzzer is turned on. See
+        %       \sciref{py:therm-buzzer} for the complete code. We use {\tt if}
+        %       loop to achieve this functionality. Command {\tt cmd\_digital\_out}
+        %       is used to turn the buzzer on and off.  The correct port number on
+        %       which the buzzer is connected is passed to this command as an
+        %       argument. The entire process is repeated 500 times.
+\end{enumerate}
+
+\subsection{Python Code}
+\label{sec:therm-pyhton-code}
+\addtocontents{pyd}{\protect\addvspace{\codclr}}
+
+\begin{pycode}
+  \pcaption{Read and display the thermistor values} {Read and display
+    the thermistor values.  Available at
+    \LocTHERMpybrief{therm-read.py}.}
+  \label{py:therm-read}
+  \lstinputlisting{\LocTHERMpycode/therm-read.py}
+\end{pycode}
+
+\begin{pycode}
+  \pcaption{Turning the buzzer on using thermistor values}
+  {Turning the buzzer on using the thermistor values read by
+    ADC.  Available at \LocTHERMpybrief{therm-buzzer.py}.}
+  \label{py:therm-buzzer}
+  \lstinputlisting{\LocTHERMpycode/therm-buzzer.py}
+\end{pycode}
+

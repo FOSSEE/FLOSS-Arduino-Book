@@ -1,0 +1,123 @@
+\section{Controlling the servomotor through OpenModelica}
+\subsection{Controlling the servomotor}
+\label{sec:servo-OpenModelica}
+In this section, we discuss how to carry out the experiments of the
+previous section from OpenModelica.  We will list the same four experiments,
+in the same order.  As mentioned earlier, the shield must be removed from 
+the \arduino\ and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}. The reader should go through the instructions given in
+\secref{sec:OpenModelica-start} before getting started.
+
+\begin{enumerate}
+
+  \item The first experiment makes the servomotor move by $30^\circ$. The code for this experiment is
+        given in \OpenModelicaref{OpenModelica:servo-init}. As explained earlier in \secref{sec:light-OpenModelica}, 
+        we begin with importing the two packages: Streams and SerialCommunication followed 
+        by setting up the serial port. Next, we attach the servomotor by issuing the command given below:
+        
+        \lstinputlisting[firstline=13,lastline=13]{\LocSEROpenModelicacode/servo-init.mo}
+        As shown above, the servomotor is attached on board 1 (the first argument)
+        to pin 1 (the second argument).  In the OpenModelica-Arduino toolbox discussed 
+        in \secref{sec:load-om-toolbox}, pin 1 and pin 5 are connected. As a result, we connect the wire physically to
+        pin 5, which is achieved by the shield as discussed in \secref{sec:servo-pril}.
+        
+        With this, we issue the command to move the servomotor by $30^\circ$ followed by a delay of 
+        1 second:
+        \lstinputlisting[firstline=14,lastline=14]
+        {\LocSEROpenModelicacode/servo-init.mo}
+        At last, we  detach the servomotor followed by closing the serial port. 
+        
+        Once this code is executed, the servomotor would move by
+        $30^\circ$, as commanded.  What happens if this code is executed
+        once again?  The motor will not move at all.  What is the reason?
+        Recall that what we assign to the motor are absolute positions, with
+        respect to a fixed origin.  As a result, there will be no change at
+        all. 
+        
+  \item In the second experiment, we move the servomotor by $90^\circ$ in the
+        forward direction and $45^\circ$ in the reverse direction.  This
+        code is given in \OpenModelicaref{OpenModelica:servo-reverse}.  As mentioned
+        earlier, the angles are absolute with respect to a fixed reference
+        point and not relative.   In this code, 
+        we have added a delay of 1000 milliseconds between the two instances of 
+        moving the servomotor: 
+        \lstinputlisting[firstline=15,lastline=17]
+        {\LocSEROpenModelicacode/servo-reverse.mo}
+        What is the reason behind this delay?  If the delay were not
+        there, the motor will move only by the net angle of $90-45 = 45$
+        degrees.  The reader should verify this by commenting on the delay
+        command. 
+        
+        
+  \item In the third experiment, we move the motor in increments of
+        $20^\circ$.  This is achieved by the {\tt for} loop, as in
+        \OpenModelicaref{OpenModelica:servo-loop}. The code helps the motor move in steps of $20^\circ$ all
+        the way to $180^\circ$.  
+        
+  \item Finally, in the last experiment, we read the potentiometer value
+        from the shield and use it to drive the servomotor, see
+        \OpenModelicaref{OpenModelica:servo-pot}.  The resistance of the potentiometer is
+        represented in 10 bits.  As a result, the resistance value could be
+        any one of 1024 values, from 0 to 1023.  This entire range is
+        mapped to $180^\circ$, as shown below:
+        \lstinputlisting[firstline=17,lastline=19]
+        {\LocSEROpenModelicacode/servo-pot.mo}
+        By rotating the potentiometer, one can make
+        the motor move by different amounts.
+        
+        As mentioned in \chapref{potmeter}, the potentiometer on the shield is connected 
+        to analog pin 2 on \arduino. Through this pin, the resistance of the potentiometer, in the range of 0 to 1023,
+        depending on its position, is read.  Thus, by rotating the
+        potentiometer, we make different values appear on pin 2.  This value
+        is used to move the servo.  For example, if the resistance is half
+        of the total, the servomotor will go to $90^\circ$ and so on.  The
+        servomotor stops for 500 milliseconds after every move.  The loop is
+        executed for 50 iterations. During this period, the servomotor keeps moving as dictated by the
+        resistance of the potentiometer. While running this experiment, the readers 
+        must rotate the knob of the potentiometer by a fixed amount and observe 
+        the change in the position (or angle) of the servomotor. 
+        
+\end{enumerate}
+
+\subsection{OpenModelica Code}
+\lstset{style=mystyle}
+\label{sec:servo-OpenModelica-code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are 
+available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}.
+Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
+\addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
+
+\begin{OpenModelicacode}
+  \mcaption{Rotating the servomotor to a specified degree} {Rotating
+    the servomotor to a specified degree. Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_init.}
+  \label{OpenModelica:servo-init}
+  \lstinputlisting{\LocSEROpenModelicacode/servo-init.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Rotating the servomotor to a specified degree and
+    reversing} {Rotating
+    the servomotor to a specified degree and reversing.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_reverse.}
+  \label{OpenModelica:servo-reverse}
+  \lstinputlisting{\LocSEROpenModelicacode/servo-reverse.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Rotating the servomotor in steps of $20^\circ$}{Rotating
+    the servomotor in steps of $20^\circ$.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_loop.}
+  \label{OpenModelica:servo-loop}
+  \lstinputlisting{\LocSEROpenModelicacode/servo-loop.mo}
+\end{OpenModelicacode}
+
+\begin{OpenModelicacode}
+  \mcaption{Rotating the servomotor to a degree specified by the
+    potentiometer} {Rotating the servomotor to a degree specified by
+    the potentiometer.  Available at Arduino -> 
+    SerialCommunication -> Examples -> servo -> servo\_pot.}
+  \label{OpenModelica:servo-pot}
+  \lstinputlisting{\LocSEROpenModelicacode/servo-pot.mo}
+\end{OpenModelicacode}
