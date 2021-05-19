@@ -8,13 +8,13 @@
 %\newcommand{\Origin}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 %\newcommand{\Home}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 
-\newcommand{\Home}
-{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
-\newcommand{\Origin}
-{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+% \newcommand{\Home}
+% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+% \newcommand{\Origin}
+% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
 
-%\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
-%\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
+\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
+\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
 
 
 
@@ -108,11 +108,11 @@
 \makeindex
 
 % Comment one of the next two lines
-\def\EntireReport{} %% EntireReport is set to true
+% \def\EntireReport{} %% EntireReport is set to true
 % \let\EntireReport\undefined %% EntireReport is set to false
 % If the entire report is not prepared, choose one of scilab, python,
 % julia, or OM
-\newcommand{\Software}{OM}
+\newcommand{\Software}{scilab}
 
 \begin{document}
 \pagestyle{plain}
@@ -145,9 +145,15 @@
 %\input{texfiles/sciaurint.tex}
 \input{suppl/intro.tex}
 \input{user-code/hw-env/hw-env.tex}
-\input{user-code/sw-env/sw-env.tex}
+% \input{user-code/sw-env/sw-env.tex}
 
 \ifdefined\EntireReport
+
+\input{user-code/sw-env/sw-env-base.tex}
+\input{user-code/sw-env/sw-env-scilab.tex}
+\input{user-code/sw-env/sw-env-python.tex}
+\input{user-code/sw-env/sw-env-julia.tex}
+\input{user-code/sw-env/sw-env-OM.tex}
 
 \input{user-code/led/led-base.tex}
 \input{user-code/led/led-scilab.tex}
@@ -193,6 +199,9 @@
 
 \else 
 
+\input{user-code/sw-env/sw-env-base.tex}
+\input{user-code/sw-env/sw-env-\Software.tex}
+
 \input{user-code/led/led-base.tex}
 \input{user-code/led/led-\Software.tex}
 
@@ -214,9 +223,11 @@
 \input{user-code/dcmotor/dcmotor-base.tex}
 \input{user-code/dcmotor/dcmotor-\Software.tex}
 
+\input{user-code/modbus/modbus-\Software.tex}
+
 \fi
 
-\input{user-code/modbus/modbus.tex}
+% \input{user-code/modbus/modbus.tex}
 
 %\input{texfiles/servo.tex}
 %\input{texfiles/Appendix.tex}
