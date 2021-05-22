@@ -8,13 +8,13 @@
 %\newcommand{\Origin}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 %\newcommand{\Home}{/home/fossee/Desktop/scilab-arduino-final/scilab-arduino}
 
-% \newcommand{\Home}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
-% \newcommand{\Origin}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Home}
+{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Origin}
+{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
 
-\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
-\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
+%\newcommand{\Home}{/home/fossee/Desktop/floss-scilab-arduino}
+%\newcommand{\Origin}{/home/fossee/Desktop/floss-scilab-arduino}
 
 
 
@@ -108,11 +108,16 @@
 \makeindex
 
 % Comment one of the next two lines
-\def\EntireReport{} %% EntireReport is set to true
-% \let\EntireReport\undefined %% EntireReport is set to false
+% \def\EntireReport{} %% EntireReport is set to true
+\let\EntireReport\undefined %% EntireReport is set to false
 % If the entire report is not prepared, choose one of scilab, python,
 % julia, or OM
-% \newcommand{\Software}{OM}
+ \newcommand{\Software}{OM}
+
+\newcommand{\sscilab}{scilab}
+\newcommand{\python}{python}
+\newcommand{\julia}{julia}
+\newcommand{\OM}{OM}
 
 \begin{document}
 \pagestyle{plain}
@@ -126,10 +131,19 @@
 \listoffigures
 \listoftables
 \listofard
-\listofcode
-\listofpyd
-\listofjuliad
-\listofOpenModelicad
+
+\ifdefined\EntireReport
+ \listofcode
+ \listofpyd
+ \listofjuliad
+ \listofOpenModelicad
+\else
+ \ifx\Software\sscilab \listofcode \fi
+ \ifx\Software\python \listofpyd \fi
+ \ifx\Software\julia \listofjuliad \fi
+ \ifx\Software\OM \listofOpenModelicad \fi
+\fi
+
 %\thispagestyle{empty}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 %\input{suppl/preface}

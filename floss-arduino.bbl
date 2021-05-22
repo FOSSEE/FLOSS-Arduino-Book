@@ -61,41 +61,6 @@ Shield.
 \newblock http://codeshield.diyode.com/about/schematics/.
 \newblock Seen on 28 June 2015.
 
-\bibitem{scilab-ref}
-scilab.org.
-\newblock http://www.scilab.org/scilab/about.
-\newblock Seen on 28 June 2015.
-
-\bibitem{scilab-interop}
-scilab.org.
-\newblock http://www.scilab.org/scilab/interoperability.
-\newblock Seen on 28 June 2015.
-
-\bibitem{xcos-ref}
-scilab.org.
-\newblock http://www.scilab.org/scilab/features/xcos.
-\newblock Seen on 28 June 2015.
-
-\bibitem{python-ref}
-python.org.
-\newblock https://www.python.org/doc/essays/blurb/.
-\newblock Seen on 24 February 2021.
-
-\bibitem{pySerial}
-pyserial - pypi.
-\newblock https://pypi.org/project/pyserial/.
-\newblock Seen on 21 April 2021.
-
-\bibitem{julia-ref}
-julialang.org/.
-\newblock https://julialang.org/.
-\newblock Seen on 12 April 2021.
-
-\bibitem{julia-serial-ports}
-Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
-\newblock https://github.com/JuliaIO/SerialPorts.jl.
-\newblock Seen on 15 April 2021.
-
 \bibitem{om-ref}
 Openmodelica.
 \newblock https://www.openmodelica.org/.

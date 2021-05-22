@@ -1,41 +1,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Uno hardware specifications\relax }}{10}{table.caption.14}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Values of components used in the shield\relax }}{15}{table.caption.25}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Information on sensors and pin numbers\relax }}{15}{table.caption.26}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Uno hardware specifications\relax }}{10}{table.caption.11}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Values of components used in the shield\relax }}{15}{table.caption.22}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Information on sensors and pin numbers\relax }}{15}{table.caption.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Parameters to light the blue LED in Xcos\relax }}{77}{table.caption.78}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Parameters to light the blue LED in Xcos for two seconds\relax }}{78}{table.caption.80}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{79}{table.caption.82}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{80}{table.caption.84}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the push button status on the display block\relax }}{103}{table.caption.90}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{104}{table.caption.92}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{124}{table.caption.99}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{126}{table.caption.102}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{142}{table.caption.106}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{160}{table.caption.114}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{162}{table.caption.117}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{174}{table.caption.124}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{183}{table.caption.128}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{185}{table.caption.130}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{186}{table.caption.132}%
-\contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{187}{table.caption.134}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{90}{table.caption.63}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Values in the Scilab\ command for different H-Bridge circuits\relax }}{210}{table.caption.141}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{214}{table.caption.144}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{215}{table.caption.146}%
-\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{217}{table.caption.148}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{233}{table.caption.157}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{234}{table.caption.159}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{234}{table.caption.160}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{235}{table.caption.162}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{236}{table.caption.163}%
-\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{237}{table.caption.164}%
-\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{248}{table.caption.177}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{117}{table.caption.75}
+\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{118}{table.caption.77}
+\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{118}{table.caption.78}
+\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{119}{table.caption.80}
+\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{120}{table.caption.81}
+\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{121}{table.caption.82}
