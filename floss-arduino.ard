@@ -1,28 +1,34 @@
 \contentsline {section}{\numberline {3.{1}}First 10 lines of the FLOSS firmware}{25}{ardmass.3.1}
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{42}{ardmass.4.1}
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{42}{ardmass.4.2}
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{43}{ardmass.4.3}
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{43}{ardmass.4.4}
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{72}{ardmass.4.1}
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{72}{ardmass.4.2}
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{73}{ardmass.4.3}
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{73}{ardmass.4.4}
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the Serial Monitor}{53}{ardmass.5.1}
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{53}{ardmass.5.2}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the Serial Monitor}{99}{ardmass.5.1}
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{99}{ardmass.5.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{64}{ardmass.6.1}
-\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{64}{ardmass.6.2}
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{120}{ardmass.6.1}
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{120}{ardmass.6.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{72}{ardmass.7.1}
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{138}{ardmass.7.1}
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{82}{ardmass.8.1}
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{83}{ardmass.8.2}
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{154}{ardmass.8.1}
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{155}{ardmass.8.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{94}{ardmass.9.1}
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{95}{ardmass.9.2}
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in increments}{95}{ardmass.9.3}
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor through the potentiometer}{95}{ardmass.9.4}
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{178}{ardmass.9.1}
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{179}{ardmass.9.2}
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in increments}{179}{ardmass.9.3}
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor through the potentiometer}{179}{ardmass.9.4}
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{108}{ardmass.10.1}
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{108}{ardmass.10.2}
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{109}{ardmass.10.3}
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{208}{ardmass.10.1}
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{208}{ardmass.10.2}
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{209}{ardmass.10.3}
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{126}{ardmass.11.1}
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the firmware for Modbus Energy Meter experiment}{242}{ardmass.11.1}
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{2}}First 10 lines of the firmware for Modbus Energy Meter experiment}{251}{ardmass.11.2}
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the firmware for Modbus Energy Meter experiment}{256}{ardmass.11.3}
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{4}}First 10 lines of the firmware for Modbus Energy Meter experiment}{261}{ardmass.11.4}
