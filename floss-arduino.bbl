@@ -76,6 +76,31 @@ scilab.org.
 \newblock http://www.scilab.org/scilab/features/xcos.
 \newblock Seen on 28 June 2015.
 
+\bibitem{python-ref}
+python.org.
+\newblock https://www.python.org/doc/essays/blurb/.
+\newblock Seen on 24 February 2021.
+
+\bibitem{pySerial}
+pyserial - pypi.
+\newblock https://pypi.org/project/pyserial/.
+\newblock Seen on 21 April 2021.
+
+\bibitem{julia-ref}
+julialang.org/.
+\newblock https://julialang.org/.
+\newblock Seen on 12 April 2021.
+
+\bibitem{julia-serial-ports}
+Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
+\newblock https://github.com/JuliaIO/SerialPorts.jl.
+\newblock Seen on 15 April 2021.
+
+\bibitem{om-ref}
+Openmodelica.
+\newblock https://www.openmodelica.org/.
+\newblock Seen on 2 April 2021.
+
 \bibitem{therm-wiki}
 Thermistor - wikipedia.
 \newblock https://en.wikipedia.org/wiki/Thermistor.
@@ -96,6 +121,14 @@ Modbus.
 \newblock https://modbus.org/.
 \newblock Seen on 6 May 2021.
 
+\bibitem{modbus-paper}
+Paavni Shukla, Sonal Singh, Tanmayee Joshi, Sudhakar Kumar, Samrudha Kelkar,
+  Manas~R. Das, and Kannan~M. Moudgalya.
+\newblock Design and development of a modbus automation system for industrial
+  applications.
+\newblock In {\em 2017 6th International Conference on Computer Applications In
+  Electrical Engineering-Recent Advances (CERA)}, pages 515--520, 2017.
+
 \bibitem{simplymodbus}
 Simply modbus.
 \newblock https://simplymodbus.ca/.
@@ -110,13 +143,5 @@ Online crc.
 Floating point converter.
 \newblock https://www.h-schmidt.net/FloatConverter/IEEE754.html.
 \newblock Seen on 6 May 2021.
-
-\bibitem{modbus-paper}
-Paavni Shukla, Sonal Singh, Tanmayee Joshi, Sudhakar Kumar, Samrudha Kelkar,
-  Manas~R. Das, and Kannan~M. Moudgalya.
-\newblock Design and development of a modbus automation system for industrial
-  applications.
-\newblock In {\em 2017 6th International Conference on Computer Applications In
-  Electrical Engineering-Recent Advances (CERA)}, pages 515--520, 2017.
 
 \end{thebibliography}

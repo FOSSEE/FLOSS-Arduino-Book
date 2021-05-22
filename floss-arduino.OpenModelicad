@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {3.{1}}An OpenModelica code/model to check whether the firmware is properly installed or not}{65}{OpenModelicamass.3.1}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{91}{OpenModelicamass.4.1}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{91}{OpenModelicamass.4.2}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{92}{OpenModelicamass.4.3}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{93}{OpenModelicamass.4.4}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the output window}{111}{OpenModelicamass.5.1}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{112}{OpenModelicamass.5.2}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{132}{OpenModelicamass.6.1}%
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{133}{OpenModelicamass.6.2}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{147}{OpenModelicamass.7.1}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{171}{OpenModelicamass.8.1}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{172}{OpenModelicamass.8.2}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{198}{OpenModelicamass.9.1}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{199}{OpenModelicamass.9.2}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{199}{OpenModelicamass.9.3}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{200}{OpenModelicamass.9.4}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{228}{OpenModelicamass.10.1}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{229}{OpenModelicamass.10.2}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{229}{OpenModelicamass.10.3}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{261}{OpenModelicamass.11.1}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{261}{OpenModelicamass.11.2}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{262}{OpenModelicamass.11.3}%

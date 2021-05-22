@@ -33,43 +33,30 @@
 
 %%%%OpenModelica ends
 
-In this chapter, we will learn one of the advanced applications that
-can be built using the Scilab-Arduino toolbox, presented in 
-\secref{sec:sci-ard-toolbox}. Recall \scilab, by default, 
-does not have the capability to connect to
-Arduino. All such add-on functionalities are added to \scilab\ using
-toolboxes. Beginners might want to
-skip this chapter in the first reading. This experiment enables
-interfacing Modbus-based devices with the Scilab-Arduino toolbox. This
-functionality has a wide number of applications in the industrial
-sector.
+In the previous chapters, we have discussed the programs to experiment with the sensors and actuators that come with the shield, a DC motor, and a servomotor. One may categorize these programs as either basic or intermediate.  In this chapter, we will learn one of the advanced applications that can be built using the toolbox. Recall the FLOSS discussed in the book, by default, does not have the capability to connect to Arduino. All such add-on functionalities are added to the FLOSS using toolboxes. Beginners might want to skip this chapter in the first reading. This experiment enables interfacing Modbus-based devices with the FLOSS-Arduino toolbox. This functionality has a wide number of applications in the industrial sector. 
 
 
 \section{Preliminaries}
 Modbus is an open serial communication protocol developed and
-published by Modicon in 1979 \cite{modbus}. Because of ease of deployment and
-maintenance, it finds wide applications in industries. The Modbus
-protocol provides a means to transmit information over serial lines
+published by Modicon in 1979 \cite{modbus} \cite{modbus-paper}. Because of ease of deployment and maintenance, it finds wide applications in industries. The Modbus protocol provides a means to transmit information over serial lines
 between several electronic devices to control and monitor
 them. The controlling device requests for reading or writing
 information and is known as the Modbus master/client. On the other
 hand, the device supplying the information is called
 Modbus slave/server. All the slaves/servers have a unique id and
-address. Typically, there is one master, and a maximum of 247 slaves \cite{simplymodbus}.
-\figref{mod-block} shows a representation of Modbus protocol. 
+address. Typically, there is one master, and a maximum of 247 slaves \cite{simplymodbus}. \figref{mod-block} shows a representation of Modbus protocol. 
 
 During the communications on a Modbus network, the protocol determines
 how the controller gets to know its device address, recognizes the
-message provided and decides the action to be taken and accordingly
-extracts data and information contained in the message. A typical structure 
-of the communication protcol is shown in \figref{mod-master-slave}.  The data is
+the message provided and decides the action to be taken, and accordingly
+extracts data and information contained in the message. A typical structure of the communication protocol is shown in \figref{mod-master-slave}.  The data is
 sent as a series of zeros and ones, \ie\ bits wherein zeros are sent
 as positive voltages and ones as negative. 
 
 Different versions of Modbus protocol exist on serial lines, namely
 Modbus RTU, ASCII, and TCP \cite{simplymodbus}. 
-The energy meter used in this experiment
-supports Modbus RTU protocol. In Modbus RTU, the data is coded in
+The energy meter used in this chapter
+supports the Modbus RTU protocol. In Modbus RTU, the data is coded in
 binary and requires only one communication byte. This is ideal for use
 over RS232 or RS485 networks at baud rates between 1200 and 115K.
 
@@ -146,7 +133,7 @@ reads various parameters such as phase voltage, current, active power,
 reactive power, power factor, etc. Before using the meter, one has to
 program system configuration, PT, CT ratios, communication parameters
 through front panel keys. The reason behind using this energy meter is 
-the fact that it supports the Modbus protocol for communication.
+the fact that it supports the Modbus RTU protocol for communication.
 
 Multiple operations can be performed with devices supporting Modbus. 
 Every operation has its own fixed function code (coil status - 01, 
@@ -207,14 +194,14 @@ for three individual parameters, which will be accessed in this chapter.
 % energy meter is a slave. 
 % As discussed before, slave addresses can be set between 1 and 247. 
 
-In Modbus protcol, the master needs to send a request packet (referred as RQ hereafter) 
+In Modbus protocol, the master needs to send a request packet (referred as RQ hereafter) 
 to the slave to read any of the slave's parameters. When the 
 slave receives an RQ, it needs to come up with a response packet 
 (referred as RP hereafter), which contains the value requested 
 by the master. In other words, an RQ is a message from the 
 master to a slave and an RP is a message from the slave back to the 
 master. We will first explain the structure of an RQ, followed by an example. 
-An RQ consists of following fields:
+An RQ consists of the following fields:
 \begin{enumerate}
   \item Slave id: The first byte of every Modbus message is a slave id.
         The master specifies the id of the slave to which the request message 
@@ -234,7 +221,7 @@ An RQ consists of following fields:
         Every byte in the message is used to calculate the CRC. 
         The receiving device also calculates the CRC and compares it to the 
         CRC from the sending device. If even one bit in the message is 
-        received incorrectly, the CRCs will be different and an error will result. 
+        received incorrectly, the CRCs will be different, resulting in an error.
         
         \paragraph{Note:} There are some online tools \cite{online-crc} by which one can calculate 
         the CRC bytes. However, one should note that the calculated CRC bytes 
@@ -244,12 +231,11 @@ An RQ consists of following fields:
 \end{enumerate}
 
 Let us say, we want to access V1 (Voltage phase 1 to neutral) in the 
-energy meter. From \tabref{tab:params-addr}, it may be noted that the address of V1 is 
-3927. The size of each Modbus register is 16 bits and all EM6400 readings
+energy meter. From \tabref{tab:params-addr}, it may be noted that the address of V1 is 3927. The size of each Modbus register is 16 bits and all EM6400 readings
 are of 32 bits. So, each reading occupies two consecutive Modbus
 registers. Thus, we need to access two consective holding registers 
 (starting from 3926) to get V1. \tabref{tab:params-rq} summarizes the 
-values for the various fields in an RQ. 
+values for the various fields in the RQ required to read/access V1.  
 \begin{table}
   \centering
   \caption{A request packet to access V1 in EM6400}
@@ -346,25 +332,20 @@ Most of the numeric values to be stored in the computer are more than
 one byte long. Thus, there arises a question of how to store the
 multibyte values on the computer machines where each byte has its own
 address \ie\ which byte gets stored at the ``first'' (lower) memory
-location and which bytes follow in higher memory locations. For
-example, let us picture this. A two-byte integer 0x5E5F is stored on the 
-disk by one machine with the 0x5E (MSB) stored at the lower 
-memory address and the 0x5F (LSB) stored at a higher memory address. 
-But there is a different machine which reads this integer by 
-picking 0x5F for the MSB and 0x5E for the LSB, giving 0x5F5E. 
-Hence, it results into a disagreement on the value of the integer 
-between the two machines. However, there is no so called ``right'' 
+location and which bytes follow in higher memory locations. For
+example, let us picture this. A two-byte integer 0x5E5F is stored on the disk by one machine, with the 0x5E (MSB) stored at the lower memory address and the 0x5F (LSB) stored at a higher memory address. 
+But there is a different machine that reads this integer by picking 0x5F for the MSB and 0x5E for the LSB, giving 0x5F5E. 
+Hence, it results in a disagreement on the value of the integer between the two machines. However, there is no so-called ``right'' 
 ordering to store the bytes in the case of multibyte quantities. 
-Hardware is built to store the bytes in a particular fashion and as long as compatible
-hardware reads the bytes in the same fashion, things are
-fine. Following are the two major types of storing the bytes: 
+Hardware is built to store the bytes in a particular fashion, and as long as compatible hardware reads the bytes in the same fashion, things are
+fine. Following are the two major types of storing the bytes: 
 
 \begin{enumerate}
-  \item Little Endian:
+  \item Little-endian:
         If the hardware is designed so that the LSB of a multibyte integer is stored ``first''at the lowest memory address, then the hardware is said to be little-endian. In this format, the ''little'' end of the integer gets stored
         first and the next bytes are stored in higher (increasing) memory
         locations.  
-  \item Big Endian:
+  \item Big-endian:
         Here, the hardware is designed so that the MSB of a multibyte integer is stored ``first''at the lowest memory address. Thus, the ``big'' end of the integer gets
         stored first and accordingly the next bytes get stored in higher
         (increasing) memory locations.  
@@ -372,8 +353,8 @@ fine. Following are the two major types of storing the bytes:
 For example, let us take a four-byte integer 0x436B84A3. Considering 
 that the read holding registers in Modbus protocol are 16-bits each, the 
 LSB (or the little end) of this integer is 0x84A3, and the MSB (or the big end) 
-of this integer is 0x436B.  Then, the memory storage patterns
-for the integer would be as that shown in \tabref{tab:memory-storage}.
+of this integer is 0x436B.  Then, the memory storage patterns
+for the integer would be like that shown in \tabref{tab:memory-storage}.
 \begin{table}
   \centering
   \caption{Memory storage of a four-byte integer in little-endian and big-endian}
@@ -419,12 +400,8 @@ registers into user friendly decimal (floating point) values, we
 follow IEEE 754 standard. Most common standards for representing
 floating point numbers are:
 \begin{enumerate}
-  \item Single precision: In this standard, 32 bits are used to represent floating-point number.
-        Out of these 32 bits, one bit is for the sign bit, 8 bits for exponent and the remaining
-        23 bits for mantissa.
-  \item Double precision: Here, 64 bits are used to represent floating-point number.
-        Out of these 64 bits, one bit represents the sign bit, 11 bits for exponent and the 
-        remaining 52 bits for mantissa. As the name indicates, this standard is used where precision matters more.
+  \item Single precision: In this standard, 32 bits are used to represent a floating-point number. Out of these 32 bits, one bit is for the sign bit, 8 bits for the exponent, and the remaining 23 bits for mantissa.
+  \item Double precision: Here, 64 bits are used to represent a floating-point number. Out of these 64 bits, one bit represents the sign bit, 11 bits for the exponent, and the remaining 52 bits for mantissa. As the name indicates, this standard is used where precision matters more.
 \end{enumerate}
 % Decimal Value = $( - 1) * \text{sign} * 2^{exponent}* \text{Mantissa}$.
 % Hence, for 32 bit values, the sign is stored in bit 32. The exponent
@@ -435,39 +412,10 @@ floating point numbers are:
 % between 1.0 and 2. At last, the decimal value is calculated using the
 % above mentioned equation. 
 There are several online converters \cite{ieee-754-conv} which peform the
-IEEE 754 floating point conversion. In this chapter, a function has been formulated in
-Scilab for this conversion.   
+IEEE 754 floating point conversion. In this chapter, a function has been formulated for this conversion, wherever needed.    
 
 
-\section{Objective}
-The objective of this experiment is to make the user acquainted with
-the use of Modbus protocol through the Scilab-Arduino toolbox \cite{modbus-paper}. 
-It gives an insight on how to acquire readings from the energy meter and 
-interpret them accordingly. As explained in \secref{sec:energy-meter}, 
-an energy meter is a device that gives us different electrical parameters including voltage, current,
-and power, consumed by a device. Here, we aim to obtain these values
-using Scilab-Arduino toolbox. For data transmission, we have used an
-RS485 module.
-
-Scilab is used for giving the required parameters to \arduino. For
-example, the user will tell the required slave address to be accessed
-and the number of registers to be read from or written to. Here,
-\arduino\ acts as a master and energy meter as a slave. Therefore,
-referring to a particular slave address will refer to the registers
-that hold the desired electrical parameters (current, voltage, power
-etc.), which we want to read from the energy meter.
-
-In this experiment, \arduino\ is connected to the energy meter via 
-an RS485 module which facilitates long distance communication. 
-\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
-energy meter. The energy meter then accesses the values in the
-required addresses in its memory and transfers them back. This again,
-is in the form of another packet called RP. In this packet, the data is stored in 
-little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the 
-decimal value from this data. 
-
-
-
+\section{Setup for the experiment}
 \begin{figure}
   \centering
   \includegraphics[width=\lgfig]{\LocMODfig/block-diagram.PNG}
@@ -482,44 +430,60 @@ decimal value from this data.
   \label{fig:full-set-up}
 \end{figure}
 
-\section{Manifestation of Modbus protocol with \arduino\ and energy meter}
-In this section, we discuss the setup which we follow for configuring 
+This section discusses the setup for configuring 
 \arduino\ as Modbus master and energy meter as the slave. 
-The block diagram is being shown in \figref{fig:block-diagram} , 
+The block diagram is shown in \figref{fig:block-diagram} , 
 whereas \figref{fig:full-set-up} presents the 
-actual setup. Following steps discuss the various connections of this setup:  
+actual setup. The following steps discuss the various connections of this setup:  
 \begin{enumerate}
-  \item We know that \arduino\ has only one serial port. It communicates on
+  \item \arduino\ has only one serial port. It communicates on
         the digital pins 0 and 1 as well as on the computer via USB. Since
-        we want a serial communication which shouldn't be disturbed by the USB
+        we want serial communication which shouldn't be disturbed by the USB
         port and the Serial Monitor, we use the Software Serial
-        library. Using this library we can assign any digital pins as RX and
-        TX and use it for serial communication. In this experiment, pin 10 (used as RX) and pin
-        11 (used as TX) is connected to RO (Receive Out) and DI (Data In)
-        pins of RS485 module respectively.
+        library. Using this library, we can assign any digital pins as RX and
+        TX and use it for serial communication. 
+        In this experiment, pin 10 (used as RX) and pin 11 (used as TX) are connected to RO (Receive Out) and DI (Data In) pins of the RS485 module respectively.
   \item DE (Data Enable) and RE (Receive Enable) pins of RS 485 are
         shorted and connected to digital pin 3 of the \arduino\ board. 
-        This serves as a control pin which will control when to receive and transmit
-        serially.
+        This serves as a control pin that will control when to receive and transmit serially.
   \item Vcc and GND of the RS485 module are connected to Vcc and GND of
         the \arduino\ board.
   \item A and B pins of RS485 module are connected to A (Pin 7) and B (Pin 14)
         pins of the energy meter. These two pins of the energy meter are meant for RS485 communication.
-  \item A $120k\Omega$ termination resistor is connected in between
-        pins A and B to avoid reflection losses in transmission line.
+  \item A $120k\Omega$ termination resistor is connected between
+        pins A and B to avoid reflection losses in the transmission line.
 \end{enumerate}
 
 
-\subsection{Software}
-Apart from the Scilab-Arduino toolbox, the software for the 
-manifestation of Modbus protocol comprises two parts:
+
+
+\section{Manifestation of Modbus protocol through \scilab}
+The objective of this experiment is to make the user acquainted with
+the demonstration of Modbus protocol through the Scilab-Arduino toolbox. 
+It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter}, 
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Scilab-Arduino toolbox. For data transmission, we have used an RS485 module.
+
+Scilab is used for giving the required parameters to \arduino. For
+example, the user will tell the required slave address to be accessed
+and the number of registers to be read from or written to. Here,
+\arduino\ acts as a master and energy meter as a slave. Therefore,
+referring to a particular slave address will refer to the registers
+that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
+
+In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication. 
+\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+energy meter. The energy meter then accesses the values in the
+required addresses in its memory and transfers them back. This again
+is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data. 
+
+
+\subsection{Software for the experiment}
+Apart from the Scilab-Arduino toolbox, the software for this experiment comprises two parts:
 \begin{enumerate}
-\item  Firmware for \arduino: This code is written to communicate
+\item  Firmware for \arduino: This firmware is needed to communicate
 with Scilab (using serial interface), and with RS485 module (using
 Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. 
-The overall implementation of this firmware is demonstrated in
-\figref{fig:modbus-firmware}.
+transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
 
 \begin{figure}
   \centering
@@ -528,26 +492,25 @@ The overall implementation of this firmware is demonstrated in
   \label{fig:modbus-firmware}
 \end{figure}
 
-\item Scilab code: This code requests for the paramenters in energy meter
-by sending a RQ to \arduino\ from Scilab. Then it waits till
-a RP is available from the \arduino. After receiving the RP, it extracts 
+\item Scilab code: This code requests the parameters in the energy meter
+by sending an RQ to \arduino\ from Scilab. Then it waits till
+an RP is available from the \arduino. After receiving the RP, it extracts 
 the data from this packet and converts it into IEEE
-754 floating point format. The overall implementation is being
+754 floating-point format. The overall implementation is being
 described below:
-
 \begin {enumerate}
-\item Frame a RQ to be sent to the energy meter (slave) in ASCII coded decimal
+\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
 format. 
 \item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module
-\item Let the energy meter send the RP to \arduino\ via RS485 module
-\item Read the RP available on \arduino\
-\item Extract the data stored in holding registers from the RP
+\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+\item Let the energy meter send the RP to \arduino\ via RS485 module. 
+\item Read the RP available on \arduino. 
+\item Extract the data stored in holding registers from the RP. 
 \item Assuming this data to be stored in little-endian format, 
-convert this data in floating point values using IEEE 754 standard. 
+convert this data in floating-point values using IEEE 754 standard. 
 \item Display the value in the \scilab\ Console. 
 \end{enumerate}
-This implementation is also being shown in \figref{fig:flow-chart}. 
+\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
 \begin{figure}
   \centering
   \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
@@ -557,71 +520,6 @@ This implementation is also being shown in \figref{fig:flow-chart}.
 
 \end{enumerate}
 
-\subsection{Output in the Scilab Console}
-In this section, we present the results. In this experiment, the three parameters: 
-voltage, current, and active power in the energy meter have been accessed and displayed
-on the Scilab console. For each of these three parameters, we present two image: one showing 
-the reading being shown in the energy meter and the another showing the 
-value being read in the Scilab Console. 
-\begin{enumerate}
-  \item Single phase current output: \figref{fig:current-console} and
-        \figref{fig:current-meter} show Scilab code output of current in
-        Amperes and corresponding snapshot of energy meter display with a
-        single load rated 60W-230V.
-        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\linewidth]{\LocMODfig/current-output.png}
-          \caption{Single phase current output on Scilab Console}
-          \label{fig:current-console}
-        \end{figure}
-        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\lgfig]{\LocMODfig/current-output-setup.jpg}
-          \caption{Single phase current output in energy meter}
-          \label{fig:current-meter}
-        \end{figure}
-        
-  \item Single phase voltage output: \figref{fig:voltage-console} and
-        \figref{fig:voltage-meter} show Scilab code output of voltage in
-        Volts and corresponding snapshot of energy meter display with a
-        single load rated 60W-230V.
-        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\linewidth]{\LocMODfig/voltage-output.png}
-          \caption{Single phase voltage output on Scilab Console}
-          \label{fig:voltage-console}
-        \end{figure}
-        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\lgfig]{\LocMODfig/voltage-output-setup.jpg}
-          \caption{Single phase voltage output in energy meter}
-          \label{fig:voltage-meter}
-        \end{figure}
-        
-  \item Single phase active power output:  \figref{fig:power-console} and \figref{fig:power-meter} show Scilab code output of active power  
-  in Watts and corresponding snapshot of energy meter display with a
-  single load rated 60W-230V.        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\linewidth]{\LocMODfig/active-power-output.png}
-          \caption{Single phase active power output on Scilab Console}
-          \label{fig:power-console}
-        \end{figure}
-        
-        \begin{figure}
-          \centering
-          \includegraphics[width=\lgfig]{\LocMODfig/active-power-output-setup.jpg}
-          \caption{Single phase active power output in energy meter}
-          \label{fig:power-meter}
-        \end{figure}
-        
-\end{enumerate}
-
-
 % In output, user could see the requested energy parameter on Scilab
 % console. For demonstration we have taken single phase current, single
 % phase voltage and single phase active power reading. We can always
@@ -629,18 +527,13 @@ value being read in the Scilab Console.
 % Meter display screen.
 
 
-\section{Accessing the electrical parameters from Scilab}
-\subsection{Accessing the electrical parameters}
-In this section, we will show how to access the three parameters (voltage, current, and active power)
-in the energy meter. As dicussed above, we will send a RQ from Scilab to \arduino. In lieu of this, 
-\arduino\ will provide us with a RP, which can be decoded to extract the 
-desired parameter. The reader should go through the instructions given in
-\secref{sec:sci-start} before getting started. 
+\section{Reading the electrical parameters from Scilab}
+\subsection{Reading the electrical parameters}
+In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Scilab to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:sci-start} before getting started. 
 
 \subsection{Arduino Firmware}
 \label{sec:firmware-modbus}
 \addtocontents{ard}{\protect\addvspace{\codclr}}
-
 \begin{ardcode}
   \acaption{First 10 lines of the firmware for Modbus Energy Meter
     experiment}
@@ -692,7 +585,71 @@ desired parameter. The reader should go through the instructions given in
   {\LocMODscicode/read_active_power.sci}
 \end{scicode}
 
-\section{Reading Parameters from Xcos}
+\paragraph{Note: } After we send the RQ from Scilab to the energy meter, we will receive an RP from the energy meter. RP contains the data requested. This data
+is read serially in Scilab and the bytes so received are stored in a variable. On analyzing the bytes received, we observe some blank spaces received along with the data. So the required data starts from the fourth byte available, excluding spaces. For example, If there are {\tt n} spaces received before the packet, so the required data would be available from {\tt (n+4)}th position onwards. It means that we have to analyze the four bytes starting at {\tt (n+4)}th position. Note that the RP may have one or more spaces at the start or the end. That's why we may have to shift our index to extract the desired data. 
+
+\subsection{Output in the Scilab Console}
+In this section, we present the results. In this experiment, the three parameters: voltage, current, and active power in the energy meter have been accessed and displayed on the Scilab console. For each of these three parameters, we present two image: one showing the reading being shown in the energy meter and the another showing the value being displayed in the Scilab Console. 
+\begin{enumerate}
+  \item Single phase current output: \figref{fig:current-console} and
+        \figref{fig:current-meter} show Scilab code output of current in
+        Amperes and corresponding snapshot of energy meter display with a
+        single load rated 60W-230V.
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{\LocMODfig/current-output.png}
+          \caption{Single phase current output on Scilab Console}
+          \label{fig:current-console}
+        \end{figure}
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\lgfig]{\LocMODfig/current-output-setup.jpg}
+          \caption{Single phase current output in energy meter}
+          \label{fig:current-meter}
+        \end{figure}
+        
+  \item Single phase voltage output: \figref{fig:voltage-console} and
+        \figref{fig:voltage-meter} show Scilab code output of voltage in
+        Volts and corresponding snapshot of energy meter display with a
+        single load rated 60W-230V.
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{\LocMODfig/voltage-output.png}
+          \caption{Single phase voltage output on Scilab Console}
+          \label{fig:voltage-console}
+        \end{figure}
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\lgfig]{\LocMODfig/voltage-output-setup.jpg}
+          \caption{Single phase voltage output in energy meter}
+          \label{fig:voltage-meter}
+        \end{figure}
+        
+  \item Single phase active power output:  \figref{fig:power-console} and \figref{fig:power-meter} show Scilab code output of active power
+        in Watts and corresponding snapshot of energy meter display with a
+        single load rated 60W-230V.        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{\LocMODfig/active-power-output.png}
+          \caption{Single phase active power output on Scilab Console}
+          \label{fig:power-console}
+        \end{figure}
+        
+        \begin{figure}
+          \centering
+          \includegraphics[width=\lgfig]{\LocMODfig/active-power-output-setup.jpg}
+          \caption{Single phase active power output in energy meter}
+          \label{fig:power-meter}
+        \end{figure}
+        
+\end{enumerate}
+
+
+\section{Reading the electrical parameters from Xcos}
 In this section we will carry out the same experiments discussed in
 the previous sections but through Xcos. One should go through
 \secref{sec:xcos-start} before continuing.
@@ -736,26 +693,90 @@ the previous sections but through Xcos. One should go through
         \end{table}
 \end{enumerate}
 
-After we send the query using Modbus protocol from Scilab (using
-write\_serial command) to the Energy Meter, we will receive a packet
-from the Energy Meter which will contain the data requested. This data
-is read serially using (read\_serial command) in Scilab and the bytes
-so received are stored in the 'buf' variable. On analyzing the bytes
-received (by observing the value of ASCII(buf) or myresult) we see
-that there might be some spaces(value 32 in myresult) received. So the
-required data starts from the fourth byte available excluding
-spaces.For example, If there are n spaces received before the packet,
-so the required data would be starting at n+4 position(i.e., we have
-to analyse the four bytes starting at (n+4)th position). Note that the
-packet received may have one or more spaces at the starting or the
-ending and that is the reason why we may have to shift our indexing
-for analyzing data.
 
-The functionalities performed by \scilab\ have also been implemented in other 
-FLOSSs like Python, Julia, and OpenModelica. However, 
-the codes for these FLOSSs were tested on the older versions. 
-Now, these codes may require minor changes in the newer versions. 
-We invite the experts to contribute the revised version of the code.
+
+\section{Manifestation of Modbus protocol through Python}
+The objective of this experiment is to make the user acquainted with
+the demonstration of Modbus protocol through the Python-Arduino toolbox. 
+It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter}, 
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Python-Arduino toolbox. For data transmission, we have used an RS485 module.
+
+Python is used for giving the required parameters to \arduino. For
+example, the user will tell the required slave address to be accessed
+and the number of registers to be read from or written to. Here,
+\arduino\ acts as a master and energy meter as a slave. Therefore,
+referring to a particular slave address will refer to the registers
+that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
+
+In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication. 
+\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+energy meter. The energy meter then accesses the values in the
+required addresses in its memory and transfers them back. This again
+is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data. 
+
+\paragraph{Note: } The Python code files presented in this section were tested on the older versions. Now, these codes may require minor changes in
+the newer versions. We invite the experts to contribute the revised version of the code.
+
+
+\subsection{Software for the experiment}
+Apart from the Python-Arduino toolbox, the software for this experiment comprises two parts:
+\begin{enumerate}
+\item  Firmware for \arduino: This firmware is needed to communicate
+with Python (using serial interface), and with RS485 module (using
+Software Serial interface). Control logic to enable receive and
+transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+  \caption{Flowchart of Arduino firmware}
+  \label{fig:modbus-firmware}
+\end{figure}
+
+\item Python code: This code requests the parameters in the energy meter
+by sending an RQ to \arduino\ from Python. Then it waits till
+an RP is available from the \arduino. After receiving the RP, it extracts 
+the data from this packet and converts it into IEEE
+754 floating-point format. The overall implementation is being
+described below:
+\begin {enumerate}
+\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+format. 
+\item Send the RQ serially to \arduino. 
+\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+\item Let the energy meter send the RP to \arduino\ via RS485 module. 
+\item Read the RP available on \arduino. 
+\item Extract the data stored in holding registers from the RP. 
+\item Assuming this data to be stored in little-endian format, 
+convert this data in floating-point values using IEEE 754 standard. 
+\item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
+\end{enumerate}
+\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+  \caption{Flowchart of the steps happening in Python code}
+  \label{fig:flow-chart}
+\end{figure}
+\end{enumerate}
+
+
+\section{Reading the electrical parameters from Python}
+\subsection{Reading the electrical parameters}
+In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Python to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:python-start} before getting started. 
+
+\subsection{Arduino Firmware}
+\label{sec:firmware-modbus}
+\addtocontents{ard}{\protect\addvspace{\codclr}}
+\begin{ardcode}
+  \acaption{First 10 lines of the firmware for Modbus Energy Meter
+    experiment}
+  {First 10 lines of the firmware for Modbus.  Available at
+    \LocMODardbrief{send\_packet.ino}.}
+  \label{ard:firmware-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODardcode/send_packet.ino}
+\end{ardcode}
 
 \subsection{Python Code}
 \label{sec:modbus-python-code}
@@ -789,6 +810,90 @@ We invite the experts to contribute the revised version of the code.
   {\LocMODpycode/read_active_power.py}
 \end{pycode}
 
+
+\section{Manifestation of Modbus protocol through Julia}
+The objective of this experiment is to make the user acquainted with
+the demonstration of Modbus protocol through the Julia-Arduino toolbox. 
+It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter}, 
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Python-Arduino toolbox. For data transmission, we have used an RS485 module.
+
+Julia is used for giving the required parameters to \arduino. For
+example, the user will tell the required slave address to be accessed
+and the number of registers to be read from or written to. Here,
+\arduino\ acts as a master and energy meter as a slave. Therefore,
+referring to a particular slave address will refer to the registers
+that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
+
+In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication. 
+\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+energy meter. The energy meter then accesses the values in the
+required addresses in its memory and transfers them back. This again
+is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data. 
+
+\paragraph{Note: } The Julia source files presented in this section were tested on the older versions. Now, these codes may require minor changes in
+the newer versions. We invite the experts to contribute the revised version of the code.
+
+
+\subsection{Software for the experiment}
+Apart from the Julia-Arduino toolbox, the software for this experiment comprises two parts:
+\begin{enumerate}
+\item  Firmware for \arduino: This firmware is needed to communicate
+with Julia (using serial interface), and with RS485 module (using
+Software Serial interface). Control logic to enable receive and
+transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+  \caption{Flowchart of Arduino firmware}
+  \label{fig:modbus-firmware}
+\end{figure}
+
+\item Julia source file: It requests the parameters in the energy meter
+by sending an RQ to \arduino\ from Julia. Then it waits till
+an RP is available from the \arduino. After receiving the RP, it extracts 
+the data from this packet and converts it into IEEE
+754 floating-point format. The overall implementation is being
+described below:
+\begin {enumerate}
+\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+format. 
+\item Send the RQ serially to \arduino. 
+\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+\item Let the energy meter send the RP to \arduino\ via RS485 module. 
+\item Read the RP available on \arduino. 
+\item Extract the data stored in holding registers from the RP. 
+\item Assuming this data to be stored in little-endian format, 
+convert this data in floating-point values using IEEE 754 standard. 
+\item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
+\end{enumerate}
+\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+  \caption{Flowchart of the steps happening in Julia code}
+  \label{fig:flow-chart}
+\end{figure}
+\end{enumerate}
+
+
+\section{Reading the electrical parameters from Julia}
+\subsection{Reading the electrical parameters}
+In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Julia to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:julia-start} before getting started. 
+
+\subsection{Arduino Firmware}
+\label{sec:firmware-modbus}
+\addtocontents{ard}{\protect\addvspace{\codclr}}
+\begin{ardcode}
+  \acaption{First 10 lines of the firmware for Modbus Energy Meter
+    experiment}
+  {First 10 lines of the firmware for Modbus.  Available at
+    \LocMODardbrief{send\_packet.ino}.}
+  \label{ard:firmware-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODardcode/send_packet.ino}
+\end{ardcode}
+
 \subsection{Julia Code}
 \label{sec:modbus-julia-code}
 \addtocontents{juliad}{\protect\addvspace{\codclr}}
@@ -820,6 +925,90 @@ We invite the experts to contribute the revised version of the code.
   \lstinputlisting[firstline=1,lastline=10]
   {\LocMODjuliacode/readPower.jl}
 \end{juliacode}
+
+
+\section{Manifestation of Modbus protocol through OpenModelica}
+The objective of this experiment is to make the user acquainted with
+the demonstration of Modbus protocol through the OpenModelica-Arduino toolbox. 
+It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter}, 
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Python-Arduino toolbox. For data transmission, we have used an RS485 module.
+
+OpenModelica is used for giving the required parameters to \arduino. For
+example, the user will tell the required slave address to be accessed
+and the number of registers to be read from or written to. Here,
+\arduino\ acts as a master and energy meter as a slave. Therefore,
+referring to a particular slave address will refer to the registers
+that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
+
+In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication. 
+\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+energy meter. The energy meter then accesses the values in the
+required addresses in its memory and transfers them back. This again
+is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data. 
+
+\paragraph{Note: } The OpenModelica models presented in this section were tested on the older versions. Now, these codes may require minor changes in
+the newer versions. We invite the experts to contribute the revised version of the code.
+
+
+\subsection{Software for the experiment}
+Apart from the OpenModelica-Arduino toolbox, the software for this experiment comprises two parts:
+\begin{enumerate}
+\item  Firmware for \arduino: This firmware is needed to communicate
+with Julia (using serial interface), and with RS485 module (using
+Software Serial interface). Control logic to enable receive and
+transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+  \caption{Flowchart of Arduino firmware}
+  \label{fig:modbus-firmware}
+\end{figure}
+
+\item OpenModelica model: This model requests the parameters in the energy meter
+by sending an RQ to \arduino\ from OpenModelica. Then it waits till
+an RP is available from the \arduino. After receiving the RP, it extracts 
+the data from this packet and converts it into IEEE
+754 floating-point format. The overall implementation is being
+described below:
+\begin {enumerate}
+\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+format. 
+\item Send the RQ serially to \arduino. 
+\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+\item Let the energy meter send the RP to \arduino\ via RS485 module. 
+\item Read the RP available on \arduino. 
+\item Extract the data stored in holding registers from the RP. 
+\item Assuming this data to be stored in little-endian format, 
+convert this data in floating-point values using IEEE 754 standard. 
+\item Display the value in output window of OMEdit. 
+\end{enumerate}
+\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+  \caption{Flowchart of the steps happening in OpenModelica model}
+  \label{fig:flow-chart}
+\end{figure}
+\end{enumerate}
+
+
+\section{Reading the electrical parameters from OpenModelica}
+\subsection{Reading the electrical parameters}
+In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from OpenModelica to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:OpenModelica-start} before getting started. 
+
+\subsection{Arduino Firmware}
+\label{sec:firmware-modbus}
+\addtocontents{ard}{\protect\addvspace{\codclr}}
+\begin{ardcode}
+  \acaption{First 10 lines of the firmware for Modbus Energy Meter
+    experiment}
+  {First 10 lines of the firmware for Modbus.  Available at
+    \LocMODardbrief{send\_packet.ino}.}
+  \label{ard:firmware-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODardcode/send_packet.ino}
+\end{ardcode}
 
 \subsection{OpenModelica Code}
 \label{sec:modbus-OpenModelica-code}
