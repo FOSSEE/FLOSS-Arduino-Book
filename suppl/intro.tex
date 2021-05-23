@@ -3,7 +3,7 @@
 \label{sec:intro}
 Microcontrollers are the foundation for a modern, manufacturing based,
 economy.  One cannot fulfill the dreams of one's citizens without a
-thriving manufacturing sector.  As it is open source, Arduino is of
+thriving manufacturing sector.  As it is open source, \arduino\ is of
 particular interest to hobbyists, students, small and medium scale
 manufacturers, and people from developing countries, in particular.
 
@@ -15,39 +15,60 @@ it?  If many of India's satellites can be placed in their precise
 orbits by the Ariane rockets launched by CNES through Scilab
 calculations, why can't others use Scilab?
 
-Although Arduino and Scilab are versatile, powerful and free, there
-has not been much literature that teaches how to integrate them.  To
-address this gap, we have written this book.  Xcos is a GUI based
-system building tool for Scilab, somewhat similar to
-Simulink$^{\text{\textregistered}}$\footnote{Simulink$^{\text{\textregistered}}$ is
-  a registered trademark of Mathworks, Inc.}.  Through Xcos, it is
+The above argument can be extended to other open source software
+systems Python, Julia and OpenModelica.  Python is a versatile
+programming language with a high degree of expressiveness, which
+allows code written in it to be small.  Python is also the preferred
+language in emerging areas, such as machine learning.  Julia is also
+highly expressive, just as Scilab and Python.  The only difference is
+that Julia is generally faster to execute, compared to Scilab and
+Python.
+
+OpenModelica implements the Modelica language.  It is especially
+created for modelling. It is an object oriented programming language,
+especially when it comes to modelling.  It has a GUI that lends itself
+to connecting different building blocks to create models.  Models in
+OpenModelica are solved by collecting equations from different
+building blocks, and solving them simultaneously.
+
+Xcos is a GUI based system building tool for Scilab, somewhat similar
+to
+Simulink$^{\text{\textregistered}}$\footnote{Simulink$^{\text{\textregistered}}$
+is a registered trademark of Mathworks, Inc.}.  Through Xcos, it is
 possible to build interconnected systems graphically.  Xcos also is an
-open source software tool.  In this book, we provide Xcos code to
-drive \arduino\ board.
+open source software tool.
+
+Although Scilab, Xcos, Python, Julia and OpenModelica are powerful and
+free, there has not been much literature that teaches how to use them
+to program the versatile \arduino.  To address this gap, we have
+written this series of books.  We have provided code written in all of
+these open source software.  The reader is recommended to go through
+the book that covers a particular software.
 
 The only way we can become versatile in hardware is through hands-on
 training.  To this end, we make use of the easily available low cost
 \arduino\ board to introduce the reader to computer interfacing.  We
-also make available the details of a shield that makes the Arduino use
-extremely easy and intuitive.  We tell the user how to install the
-firmware to make the \arduino\ board communicate with the computer.
-We explain how to control the peripherals on the \arduino\ board with
-user developed software.
+also make available the details of a shield that makes the
+\arduino\ use extremely easy and intuitive.  We tell the user how to
+install the firmware to make the \arduino\ board communicate with the
+computer.  We explain how to control the peripherals on the
+\arduino\ board with user developed software.
 
-The Scilab Arduino toolbox is already available for Windows
+The Scilab \arduino\ toolbox is already available for Windows
 \cite{scilab-arduino}.  We have suitably modified it, so that it works
-on Linux also.  In addition to these toolboxes, we provide the
-firmware and a program to check it.  Finally, we give the required
-programs to experiment with the sensors and actuators that come with
-the shield, a DC motor and a servomotor.  These programs are available
-for all of the following three environments: Arduino IDE, Scilab
-scripts and Xcos.
+on Linux also.  We give the required programs to experiment with the
+sensors and actuators that come with the shield, a DC motor and a
+servomotor.  These programs are available for all of the following
+environments: Arduino IDE, Scilab, Xcos, Python, Julia and
+OpenModelica.  In addition to these toolboxes, we provide the firmware
+for each software and a program to check its working.
 
 This book teaches how to access the following sensors and actuators:
 LED, pushbutton, DC motor, Potentiometer and Servo motor.  A set of
-two to five programs are given for each.  These are given for Arduino
-IDE, Scilab and Xcos.  We explain where to find these programs and how
-to execute them for each experiment.
+two to five programs are given for each.  These are given for all the
+software mentioned above.  The reader has to see the book devoted to
+the appropriate software.  We also explain where to find these
+programs and how to execute them for each experiment.
 
 This book is written for self learners and hobbyists.  It has been
 field tested by 250 people who attended a hands-on workshop conducted
