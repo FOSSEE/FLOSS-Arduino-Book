@@ -1,7 +1,7 @@
 INFO: latexindent version 3.7.1, 2019-09-07, a script to indent .tex files
       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-      Sat May 22 05:39:09 2021
-      Filename: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/__latexindent_temp.tex
+      Sun May 23 06:19:36 2021
+      Filename: /home/fossee/Desktop/floss-scilab-arduino/user-code/sw-env/__latexindent_temp.tex
 INFO: Processing switches:
       -y|--yaml: YAML settings specified via command line
       -c|--cruft: cruft directory
@@ -13,7 +13,7 @@ INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
       To specify user settings you would put indentconfig.yaml here: /home/fossee/indentconfig.yaml
       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/fossee/.indentconfig.yaml
 INFO: YAML settings read: -y switch
-      Updating masterSettings with defaultIndent:     
+      Updating masterSettings with defaultIndent:       
 INFO: Phase 1: searching for objects
 INFO: Phase 2: finding surrounding indentation
 INFO: Phase 3: indenting objects

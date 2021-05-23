@@ -2,80 +2,80 @@
 \subsection{Controlling the DC motor}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same three experiments,
-in the same order. As mentioned earlier, the shield must be removed from 
-the \arduino\ and the \arduino\ needs to be connected to the computer 
+in the same order. As mentioned earlier, the shield must be removed from
+the \arduino\ and the \arduino\ needs to be connected to the computer
 with a USB cable, as shown in \figref{arduino}. The reader should go through the instructions given in
 \secref{sec:python-start} before getting started.
 
-\paragraph{Note:} The readers are advised to affix a small 
-(very lightweight) piece of paper at the tip of the shaft of the DC motor. 
-That will help them observe the direction of rotation 
-of the DC motor while running the experiments. 
+\paragraph{Note:} The readers are advised to affix a small
+(very lightweight) piece of paper at the tip of the shaft of the DC motor.
+That will help them observe the direction of rotation
+of the DC motor while running the experiments.
 
 \begin{enumerate}
   \item In the first experiment, we will learn how to drive the DC motor
-        from Python. The code for this experiment is 
-        given in  \pyref{py:dcmotor-clock}. As explained earlier in \secref{sec:light-py}, we begin with 
-        importing necessary modules followed by setting up the serial port. 
-        Next, the code has a command of the following form: 
+        from Python. The code for this experiment is
+        given in  \pyref{py:dcmotor-clock}. As explained earlier in \secref{sec:light-py}, we begin with
+        importing necessary modules followed by setting up the serial port.
+        Next, the code has a command of the following form:
         \begin{lstlisting}[style=nonumbers]
               cmd_dcmotor_setup(1, H-Bridge type, Motor number, PWM pin 1, PWM pin 2)
         \end{lstlisting}
-        As mentioned earlier, this chapter makes use of an H-Bridge circuit which 
+        As mentioned earlier, this chapter makes use of an H-Bridge circuit which
         allows direction of the current passing through the DC motor to be changed.
         We are using L293D as an H-Bridge circuit in this book. Thus, we will pass the value 3 for
-        H-Bridge type. The Python-Arduino toolbox, as explained in \secref{sec:python-toolbox}, 
+        H-Bridge type. The Python-Arduino toolbox, as explained in \secref{sec:python-toolbox},
         supports three types of H-Bridge circuit. \tabref{table:convention}
-        provides the values to be passed for different H-Bridge circuits. 
-        Next argument in the command given above is Motor number. Here, we pass the value 1. 
-        Finally, we provide the PWM pins to which the DC motor is connected. As 
+        provides the values to be passed for different H-Bridge circuits.
+        Next argument in the command given above is Motor number. Here, we pass the value 1.
+        Finally, we provide the PWM pins to which the DC motor is connected. As
         shown in \figref{fig:dcmotorconn}, pins 9 and 10 are connected to the
         input of the breakout board. As a result, the command {\tt cmd\_dcmotor\_setup} becomes
         \lstinputlisting[firstline=27,lastline=27]
         {\LocDCMpycode/dcmotor-clock.py}
-        
-        The next line of \pyref{py:dcmotor-clock} is of the following form: 
+
+        The next line of \pyref{py:dcmotor-clock} is of the following form:
         \begin{lstlisting}[style=nonumbers]
           cmd_dcmotor_run(1, Motor number, [sign] PWM value)
         \end{lstlisting}
-        Here, we will pass the value 1 in Motor number.  As mentioned earlier, 
+        Here, we will pass the value 1 in Motor number.  As mentioned earlier,
         for each of the PWM pins on \arduino\ board, the input can come from 8 bits.
         Thus, these pins can supply values between $- 255$ and $+ 255$. Positive values correspond to clockwise
-        rotation while negative values correspond to anti-clockwise rotation. Based on the PWM value and polarity, 
-        corresponding analog voltage is generated.  
-        We put a PWM value of 100 to make the DC motor run at an intermediate speed.  
+        rotation while negative values correspond to anti-clockwise rotation. Based on the PWM value and polarity,
+        corresponding analog voltage is generated.
+        We put a PWM value of 100 to make the DC motor run at an intermediate speed.
         As a result, the command {\tt cmd\_dcmotor\_run} becomes
         \lstinputlisting[firstline=28,lastline=28]
         {\LocDCMpycode/dcmotor-clock.py}
-        
+
         The above-mentioned command does not say for how long the motor should run.  This is taken care of
         by the {\tt sleep} command, as given below:
         \lstinputlisting[firstline=29,lastline=29]{\LocDCMpycode/dcmotor-clock.py}
-        With this, the DC motor will run for or 3 seconds. At last, 
+        With this, the DC motor will run for or 3 seconds. At last,
         we release the DC motor, as shown below:
         \lstinputlisting[firstline=30,lastline=30]{\LocDCMpycode/dcmotor-clock.py}
         With the execution of this command, the PWM functionality on the \arduino\ pins
         is ceased.  This has the motor number as an input
-        parameter. At last, we close the serial port. 
-        
-        
-        \paragraph{Note:} If the sleep command (at line 29 of \pyref{py:dcmotor-clock}) 
-        were not present, the DC motor will not even run: soon after putting the value 100, 
+        parameter. At last, we close the serial port.
+
+
+        \paragraph{Note:} If the sleep command (at line 29 of \pyref{py:dcmotor-clock})
+        were not present, the DC motor will not even run: soon after putting the value 100,
         the DC motor would be released, leaving no time in between.  On the other hand, if
-        the DC motor is not released (\ie\ line number 30 of \pyref{py:dcmotor-clock} being commented), 
-        the DC motor will go on rotating. That's why, it may be inferred that 
+        the DC motor is not released (\ie\ line number 30 of \pyref{py:dcmotor-clock} being commented),
+        the DC motor will go on rotating. That's why, it may be inferred that
         line number 30 of \pyref{py:dcmotor-clock} is mandatory
-        for every program. We encourage the readers to run  \pyref{sci:dcmotor-clock} by commenting
+        for every program. We encourage the readers to run  \pyref{py:dcmotor-clock} by commenting
         any one or two of the lines numbered 29 and 30.  Go ahead and do it - you will not break
         anything.  At the most, you may have to unplug the USB cable connected to \arduino\ and
         restart the whole thing from the beginning.
-        
+
   \item It is easy to make the DC motor run in the reverse direction by
         changing the sign of PWM value being written.  This is done in
         \pyref{py:dcmotor-both}.  In this code, we make the DC motor
         run in one direction for 3 seconds and then make it rotate in the
         reverse direction for 2 seconds.  The rotation in reverse direction
-        is achieved by putting $- 100$ in the command {\tt cmd\_dcmotor\_run}, 
+        is achieved by putting $- 100$ in the command {\tt cmd\_dcmotor\_run},
         as shown below:
         \lstinputlisting[firstline=28,lastline=28]
         {\LocDCMpycode/dcmotor-both.py}
@@ -84,17 +84,17 @@ of the DC motor while running the experiments. 
         the command {\tt cmd\_dcmotor\_release}, followed by closing the serial port:
         \lstinputlisting[firstline=30,lastline=30]
         {\LocDCMpycode/dcmotor-both.py}
-        With this, the motor comes to a halt.  
+        With this, the motor comes to a halt.
         % This turns the green LED off as well.
-        
+
   \item Next, we make the DC motor run in forward and reverse
         directions, in a loop.  This is done through
         \pyref{py:dcmotor-loop}.  We first write PWM $+100$ for 3
-        seconds.  After that, halt the motor for 2 seconds by writing zero PWM value.  
-        Next, make the motor rotate in the reverse direction by writing PWM $-100$ for two seconds.  
+        seconds.  After that, halt the motor for 2 seconds by writing zero PWM value.
+        Next, make the motor rotate in the reverse direction by writing PWM $-100$ for two seconds.
         Next, we make the motor stop for one second. This procedure is put in a {\tt for} loop which runs for 4 iterations.
         At last, we release the motor by issuing the command {\tt cmd\_dcmotor\_release}, followed by closing the serial port
-        
+
 \end{enumerate}
 
 % Initialization: In all the experiments in this section, we need to

@@ -44,9 +44,9 @@ them. The controlling device requests for reading or writing
 information and is known as the Modbus master/client. On the other
 hand, the device supplying the information is called
 Modbus slave/server. All the slaves/servers have a unique id and
-address. Typically, there is one master, and a maximum of 247 slaves \cite{simplymodbus}. \figref{mod-block} shows a representation of Modbus protocol. 
+address. Typically, there is one master and a maximum of 247 slaves \cite{simplymodbus}. \figref{mod-block} shows a representation of Modbus protocol. 
 
-During the communications on a Modbus network, the protocol determines
+During the communication on a Modbus network, the protocol determines
 how the controller gets to know its device address, recognizes the
 the message provided and decides the action to be taken, and accordingly
 extracts data and information contained in the message. A typical structure of the communication protocol is shown in \figref{mod-master-slave}.  The data is
@@ -76,15 +76,13 @@ over RS232 or RS485 networks at baud rates between 1200 and 115K.
   \label{mod-master-slave}
 \end{figure}
 
-The RS485 is one of the most widely used bus standards for industrial
+RS485 is one of the most widely used bus standards for industrial
 applications. It uses differential communication lines to communicate
 over long distances and requires a dedicated pair of signal lines, say
 A and B, to exchange information. Here, the voltage on one line equals
 to the inverse of the voltage on the other line. In other words, the
 output is 1, if A - B \textgreater $\;$ 200mV, and 0, if B - A \textgreater $\;$
-200mV. \figref{rs-485} shows the pins available
-on a typical RS485 module. As shown in \figref{rs-485}, there are four pins on each side 
-of the module. \tabref{tab:rs-485-pins} summarizes the usage of these pins. 
+200mV. \figref{rs-485} shows the pins available on a typical RS485 module. As shown in \figref{rs-485}, there are four pins on each side of the module. \tabref{tab:rs-485-pins} summarizes the usage of these pins. 
 
 \begin{table}
   \centering
@@ -454,8 +452,61 @@ actual setup. The following steps discuss the various connections of this setup:
         pins A and B to avoid reflection losses in the transmission line.
 \end{enumerate}
 
+\section{Software required for this experiment}
+Apart from the FLOSS-Arduino toolbox, the software for this experiment comprises two parts:
+\begin{enumerate}
+\item  Firmware for \arduino: This firmware is needed to communicate
+with the FLOSS (using serial interface), and with RS485 module (using
+Software Serial interface). Control logic to enable receive and
+transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware. The firmware is provided in \secref{sec:firmware-modbus}. 
 
+\begin{figure}
+  \centering
+  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+  \caption{Flowchart of Arduino firmware}
+  \label{fig:modbus-firmware}
+\end{figure}
 
+\item FLOSS code: This code requests the parameters in the energy meter
+by sending an RQ to \arduino\ from the FLOSS. Then it waits till
+an RP is available from the \arduino. After receiving the RP, it extracts 
+the data from this packet and converts it into IEEE
+754 floating-point format. The overall implementation is being
+described below:
+\begin {enumerate}
+\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+format. 
+\item Send the RQ serially to \arduino. 
+\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+\item Let the energy meter send the RP to \arduino\ via RS485 module. 
+\item Read the RP available on \arduino. 
+\item Extract the data stored in holding registers from the RP. 
+\item Assuming this data to be stored in little-endian format, 
+convert this data in floating-point values using IEEE 754 standard. 
+\item Display the value in the Console, output window, Command Prompt (on Windows) or Terminal (on Linux), as the case maybe.  
+\end{enumerate}
+\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+  \caption{Flowchart of the steps happening in the FLOSS code}
+  \label{fig:flow-chart}
+\end{figure}
+
+\end{enumerate}
+
+\subsection{Arduino Firmware}
+\label{sec:firmware-modbus}
+\addtocontents{ard}{\protect\addvspace{\codclr}}
+\begin{ardcode}
+  \acaption{First 10 lines of the firmware for Modbus Energy Meter
+    experiment}
+  {First 10 lines of the firmware for Modbus.  Available at
+    \LocMODardbrief{send\_packet.ino}.}
+  \label{ard:firmware-modbus}
+  \lstinputlisting[firstline=1,lastline=10]
+  {\LocMODardcode/send_packet.ino}
+\end{ardcode}
 
 \section{Manifestation of Modbus protocol through \scilab}
 The objective of this experiment is to make the user acquainted with
@@ -477,48 +528,48 @@ required addresses in its memory and transfers them back. This again
 is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data. 
 
 
-\subsection{Software for the experiment}
-Apart from the Scilab-Arduino toolbox, the software for this experiment comprises two parts:
-\begin{enumerate}
-\item  Firmware for \arduino: This firmware is needed to communicate
-with Scilab (using serial interface), and with RS485 module (using
-Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+% \subsection{Software for the experiment}
+% Apart from the Scilab-Arduino toolbox, the software for this experiment comprises two parts:
+% \begin{enumerate}
+% \item  Firmware for \arduino: This firmware is needed to communicate
+% with Scilab (using serial interface), and with RS485 module (using
+% Software Serial interface). Control logic to enable receive and
+% transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
-  \caption{Flowchart of Arduino firmware}
-  \label{fig:modbus-firmware}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+%   \caption{Flowchart of Arduino firmware}
+%   \label{fig:modbus-firmware}
+% \end{figure}
 
-\item Scilab code: This code requests the parameters in the energy meter
-by sending an RQ to \arduino\ from Scilab. Then it waits till
-an RP is available from the \arduino. After receiving the RP, it extracts 
-the data from this packet and converts it into IEEE
-754 floating-point format. The overall implementation is being
-described below:
-\begin {enumerate}
-\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
-format. 
-\item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
-\item Let the energy meter send the RP to \arduino\ via RS485 module. 
-\item Read the RP available on \arduino. 
-\item Extract the data stored in holding registers from the RP. 
-\item Assuming this data to be stored in little-endian format, 
-convert this data in floating-point values using IEEE 754 standard. 
-\item Display the value in the \scilab\ Console. 
-\end{enumerate}
-\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
-\begin{figure}
-  \centering
-  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
-  \caption{Flowchart of the steps happening in Scilab code}
-  \label{fig:flow-chart}
-\end{figure}
+% \item Scilab code: This code requests the parameters in the energy meter
+% by sending an RQ to \arduino\ from Scilab. Then it waits till
+% an RP is available from the \arduino. After receiving the RP, it extracts 
+% the data from this packet and converts it into IEEE
+% 754 floating-point format. The overall implementation is being
+% described below:
+% \begin {enumerate}
+% \item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+% format. 
+% \item Send the RQ serially to \arduino. 
+% \item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+% \item Let the energy meter send the RP to \arduino\ via RS485 module. 
+% \item Read the RP available on \arduino. 
+% \item Extract the data stored in holding registers from the RP. 
+% \item Assuming this data to be stored in little-endian format, 
+% convert this data in floating-point values using IEEE 754 standard. 
+% \item Display the value in the \scilab\ Console. 
+% \end{enumerate}
+% \figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+%   \caption{Flowchart of the steps happening in Scilab code}
+%   \label{fig:flow-chart}
+% \end{figure}
 
-\end{enumerate}
+% \end{enumerate}
 
 % In output, user could see the requested energy parameter on Scilab
 % console. For demonstration we have taken single phase current, single
@@ -531,18 +582,18 @@ convert this data in floating-point values using IEEE 754 standard.
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Scilab to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:sci-start} before getting started. 
 
-\subsection{Arduino Firmware}
-\label{sec:firmware-modbus}
-\addtocontents{ard}{\protect\addvspace{\codclr}}
-\begin{ardcode}
-  \acaption{First 10 lines of the firmware for Modbus Energy Meter
-    experiment}
-  {First 10 lines of the firmware for Modbus.  Available at
-    \LocMODardbrief{send\_packet.ino}.}
-  \label{ard:firmware-modbus}
-  \lstinputlisting[firstline=1,lastline=10]
-  {\LocMODardcode/send_packet.ino}
-\end{ardcode}
+% \subsection{Arduino Firmware}
+% \label{sec:firmware-modbus}
+% \addtocontents{ard}{\protect\addvspace{\codclr}}
+% \begin{ardcode}
+%   \acaption{First 10 lines of the firmware for Modbus Energy Meter
+%     experiment}
+%   {First 10 lines of the firmware for Modbus.  Available at
+%     \LocMODardbrief{send\_packet.ino}.}
+%   \label{ard:firmware-modbus}
+%   \lstinputlisting[firstline=1,lastline=10]
+%   {\LocMODardcode/send_packet.ino}
+% \end{ardcode}
 
 \subsection{Scilab Code}
 \label{sec:modbus-scilab-code}
@@ -552,7 +603,7 @@ In this section, we will show how to access the three parameters (voltage, curre
   \ccaption{First 10 lines of the function for scifunc block}
   {First 10 lines of the Scifunc block function.  Available at
     \LocMODscibrief{read\_val.sci}.}
-  \label{sci:current-modbus}
+  \label{sci:val-modbus}
   \lstinputlisting[firstline=1,lastline=10]
   {\LocMODscicode/read_val.sce}
 \end{scicode}
@@ -718,65 +769,65 @@ is in the form of another packet called RP. In this packet, the data is stored i
 the newer versions. We invite the experts to contribute the revised version of the code.
 
 
-\subsection{Software for the experiment}
-Apart from the Python-Arduino toolbox, the software for this experiment comprises two parts:
-\begin{enumerate}
-\item  Firmware for \arduino: This firmware is needed to communicate
-with Python (using serial interface), and with RS485 module (using
-Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+% \subsection{Software for the experiment}
+% Apart from the Python-Arduino toolbox, the software for this experiment comprises two parts:
+% \begin{enumerate}
+% \item  Firmware for \arduino: This firmware is needed to communicate
+% with Python (using serial interface), and with RS485 module (using
+% Software Serial interface). Control logic to enable receive and
+% transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
-  \caption{Flowchart of Arduino firmware}
-  \label{fig:modbus-firmware}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+%   \caption{Flowchart of Arduino firmware}
+%   \label{fig:modbus-firmware}
+% \end{figure}
 
-\item Python code: This code requests the parameters in the energy meter
-by sending an RQ to \arduino\ from Python. Then it waits till
-an RP is available from the \arduino. After receiving the RP, it extracts 
-the data from this packet and converts it into IEEE
-754 floating-point format. The overall implementation is being
-described below:
-\begin {enumerate}
-\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
-format. 
-\item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
-\item Let the energy meter send the RP to \arduino\ via RS485 module. 
-\item Read the RP available on \arduino. 
-\item Extract the data stored in holding registers from the RP. 
-\item Assuming this data to be stored in little-endian format, 
-convert this data in floating-point values using IEEE 754 standard. 
-\item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
-\end{enumerate}
-\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
-\begin{figure}
-  \centering
-  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
-  \caption{Flowchart of the steps happening in Python code}
-  \label{fig:flow-chart}
-\end{figure}
-\end{enumerate}
+% \item Python code: This code requests the parameters in the energy meter
+% by sending an RQ to \arduino\ from Python. Then it waits till
+% an RP is available from the \arduino. After receiving the RP, it extracts 
+% the data from this packet and converts it into IEEE
+% 754 floating-point format. The overall implementation is being
+% described below:
+% \begin {enumerate}
+% \item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+% format. 
+% \item Send the RQ serially to \arduino. 
+% \item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+% \item Let the energy meter send the RP to \arduino\ via RS485 module. 
+% \item Read the RP available on \arduino. 
+% \item Extract the data stored in holding registers from the RP. 
+% \item Assuming this data to be stored in little-endian format, 
+% convert this data in floating-point values using IEEE 754 standard. 
+% \item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
+% \end{enumerate}
+% \figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+%   \caption{Flowchart of the steps happening in Python code}
+%   \label{fig:flow-chart}
+% \end{figure}
+% \end{enumerate}
 
 
 \section{Reading the electrical parameters from Python}
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Python to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:python-start} before getting started. 
 
-\subsection{Arduino Firmware}
-\label{sec:firmware-modbus}
-\addtocontents{ard}{\protect\addvspace{\codclr}}
-\begin{ardcode}
-  \acaption{First 10 lines of the firmware for Modbus Energy Meter
-    experiment}
-  {First 10 lines of the firmware for Modbus.  Available at
-    \LocMODardbrief{send\_packet.ino}.}
-  \label{ard:firmware-modbus}
-  \lstinputlisting[firstline=1,lastline=10]
-  {\LocMODardcode/send_packet.ino}
-\end{ardcode}
+% \subsection{Arduino Firmware}
+% \label{sec:firmware-modbus}
+% \addtocontents{ard}{\protect\addvspace{\codclr}}
+% \begin{ardcode}
+%   \acaption{First 10 lines of the firmware for Modbus Energy Meter
+%     experiment}
+%   {First 10 lines of the firmware for Modbus.  Available at
+%     \LocMODardbrief{send\_packet.ino}.}
+%   \label{ard:firmware-modbus}
+%   \lstinputlisting[firstline=1,lastline=10]
+%   {\LocMODardcode/send_packet.ino}
+% \end{ardcode}
 
 \subsection{Python Code}
 \label{sec:modbus-python-code}
@@ -834,65 +885,52 @@ is in the form of another packet called RP. In this packet, the data is stored i
 the newer versions. We invite the experts to contribute the revised version of the code.
 
 
-\subsection{Software for the experiment}
-Apart from the Julia-Arduino toolbox, the software for this experiment comprises two parts:
-\begin{enumerate}
-\item  Firmware for \arduino: This firmware is needed to communicate
-with Julia (using serial interface), and with RS485 module (using
-Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+% \subsection{Software for the experiment}
+% Apart from the Julia-Arduino toolbox, the software for this experiment comprises two parts:
+% \begin{enumerate}
+% \item  Firmware for \arduino: This firmware is needed to communicate
+% with Julia (using serial interface), and with RS485 module (using
+% Software Serial interface). Control logic to enable receive and
+% transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
-  \caption{Flowchart of Arduino firmware}
-  \label{fig:modbus-firmware}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+%   \caption{Flowchart of Arduino firmware}
+%   \label{fig:modbus-firmware}
+% \end{figure}
 
-\item Julia source file: It requests the parameters in the energy meter
-by sending an RQ to \arduino\ from Julia. Then it waits till
-an RP is available from the \arduino. After receiving the RP, it extracts 
-the data from this packet and converts it into IEEE
-754 floating-point format. The overall implementation is being
-described below:
-\begin {enumerate}
-\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
-format. 
-\item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
-\item Let the energy meter send the RP to \arduino\ via RS485 module. 
-\item Read the RP available on \arduino. 
-\item Extract the data stored in holding registers from the RP. 
-\item Assuming this data to be stored in little-endian format, 
-convert this data in floating-point values using IEEE 754 standard. 
-\item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
-\end{enumerate}
-\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
-\begin{figure}
-  \centering
-  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
-  \caption{Flowchart of the steps happening in Julia code}
-  \label{fig:flow-chart}
-\end{figure}
-\end{enumerate}
+% \item Julia source file: It requests the parameters in the energy meter
+% by sending an RQ to \arduino\ from Julia. Then it waits till
+% an RP is available from the \arduino. After receiving the RP, it extracts 
+% the data from this packet and converts it into IEEE
+% 754 floating-point format. The overall implementation is being
+% described below:
+% \begin {enumerate}
+% \item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+% format. 
+% \item Send the RQ serially to \arduino. 
+% \item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+% \item Let the energy meter send the RP to \arduino\ via RS485 module. 
+% \item Read the RP available on \arduino. 
+% \item Extract the data stored in holding registers from the RP. 
+% \item Assuming this data to be stored in little-endian format, 
+% convert this data in floating-point values using IEEE 754 standard. 
+% \item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
+% \end{enumerate}
+% \figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+%   \caption{Flowchart of the steps happening in Julia code}
+%   \label{fig:flow-chart}
+% \end{figure}
+% \end{enumerate}
 
 
 \section{Reading the electrical parameters from Julia}
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Julia to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:julia-start} before getting started. 
-
-\subsection{Arduino Firmware}
-\label{sec:firmware-modbus}
-\addtocontents{ard}{\protect\addvspace{\codclr}}
-\begin{ardcode}
-  \acaption{First 10 lines of the firmware for Modbus Energy Meter
-    experiment}
-  {First 10 lines of the firmware for Modbus.  Available at
-    \LocMODardbrief{send\_packet.ino}.}
-  \label{ard:firmware-modbus}
-  \lstinputlisting[firstline=1,lastline=10]
-  {\LocMODardcode/send_packet.ino}
-\end{ardcode}
 
 \subsection{Julia Code}
 \label{sec:modbus-julia-code}
@@ -950,67 +988,13 @@ is in the form of another packet called RP. In this packet, the data is stored i
 the newer versions. We invite the experts to contribute the revised version of the code.
 
 
-\subsection{Software for the experiment}
-Apart from the OpenModelica-Arduino toolbox, the software for this experiment comprises two parts:
-\begin{enumerate}
-\item  Firmware for \arduino: This firmware is needed to communicate
-with Julia (using serial interface), and with RS485 module (using
-Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
-  \caption{Flowchart of Arduino firmware}
-  \label{fig:modbus-firmware}
-\end{figure}
-
-\item OpenModelica model: This model requests the parameters in the energy meter
-by sending an RQ to \arduino\ from OpenModelica. Then it waits till
-an RP is available from the \arduino. After receiving the RP, it extracts 
-the data from this packet and converts it into IEEE
-754 floating-point format. The overall implementation is being
-described below:
-\begin {enumerate}
-\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
-format. 
-\item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
-\item Let the energy meter send the RP to \arduino\ via RS485 module. 
-\item Read the RP available on \arduino. 
-\item Extract the data stored in holding registers from the RP. 
-\item Assuming this data to be stored in little-endian format, 
-convert this data in floating-point values using IEEE 754 standard. 
-\item Display the value in output window of OMEdit. 
-\end{enumerate}
-\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
-\begin{figure}
-  \centering
-  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
-  \caption{Flowchart of the steps happening in OpenModelica model}
-  \label{fig:flow-chart}
-\end{figure}
-\end{enumerate}
-
-
 \section{Reading the electrical parameters from OpenModelica}
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from OpenModelica to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:OpenModelica-start} before getting started. 
 
-\subsection{Arduino Firmware}
-\label{sec:firmware-modbus}
-\addtocontents{ard}{\protect\addvspace{\codclr}}
-\begin{ardcode}
-  \acaption{First 10 lines of the firmware for Modbus Energy Meter
-    experiment}
-  {First 10 lines of the firmware for Modbus.  Available at
-    \LocMODardbrief{send\_packet.ino}.}
-  \label{ard:firmware-modbus}
-  \lstinputlisting[firstline=1,lastline=10]
-  {\LocMODardcode/send_packet.ino}
-\end{ardcode}
-
 \subsection{OpenModelica Code}
+Unlike other code files, the code/ model for running experiments using OpenModelica are available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}. Please refer to \figref{om-examples-toolbox} to know how to locate the experiments. 
+
 \label{sec:modbus-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}
 

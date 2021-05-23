@@ -22,65 +22,65 @@ is in the form of another packet called RP. In this packet, the data is stored i
 the newer versions. We invite the experts to contribute the revised version of the code.
 
 
-\subsection{Software for the experiment}
-Apart from the Python-Arduino toolbox, the software for this experiment comprises two parts:
-\begin{enumerate}
-\item  Firmware for \arduino: This firmware is needed to communicate
-with Python (using serial interface), and with RS485 module (using
-Software Serial interface). Control logic to enable receive and
-transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
+% \subsection{Software for the experiment}
+% Apart from the Python-Arduino toolbox, the software for this experiment comprises two parts:
+% \begin{enumerate}
+% \item  Firmware for \arduino: This firmware is needed to communicate
+% with Python (using serial interface), and with RS485 module (using
+% Software Serial interface). Control logic to enable receive and
+% transmit modes of MAX485 chip is also present in this firmware. \figref{fig:modbus-firmware} demonstrates the overall implementation of this firmware.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
-  \caption{Flowchart of Arduino firmware}
-  \label{fig:modbus-firmware}
-\end{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\lgfig]{\LocMODfig/arduino_code_flowchart.png}
+%   \caption{Flowchart of Arduino firmware}
+%   \label{fig:modbus-firmware}
+% \end{figure}
 
-\item Python code: This code requests the parameters in the energy meter
-by sending an RQ to \arduino\ from Python. Then it waits till
-an RP is available from the \arduino. After receiving the RP, it extracts 
-the data from this packet and converts it into IEEE
-754 floating-point format. The overall implementation is being
-described below:
-\begin {enumerate}
-\item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
-format. 
-\item Send the RQ serially to \arduino. 
-\item Let \arduino\ send the RQ to the energy meter via RS485 module. 
-\item Let the energy meter send the RP to \arduino\ via RS485 module. 
-\item Read the RP available on \arduino. 
-\item Extract the data stored in holding registers from the RP. 
-\item Assuming this data to be stored in little-endian format, 
-convert this data in floating-point values using IEEE 754 standard. 
-\item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
-\end{enumerate}
-\figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
-\begin{figure}
-  \centering
-  \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
-  \caption{Flowchart of the steps happening in Python code}
-  \label{fig:flow-chart}
-\end{figure}
-\end{enumerate}
+% \item Python code: This code requests the parameters in the energy meter
+% by sending an RQ to \arduino\ from Python. Then it waits till
+% an RP is available from the \arduino. After receiving the RP, it extracts 
+% the data from this packet and converts it into IEEE
+% 754 floating-point format. The overall implementation is being
+% described below:
+% \begin {enumerate}
+% \item Frame an RQ to be sent to the energy meter (slave) in ASCII coded decimal
+% format. 
+% \item Send the RQ serially to \arduino. 
+% \item Let \arduino\ send the RQ to the energy meter via RS485 module. 
+% \item Let the energy meter send the RP to \arduino\ via RS485 module. 
+% \item Read the RP available on \arduino. 
+% \item Extract the data stored in holding registers from the RP. 
+% \item Assuming this data to be stored in little-endian format, 
+% convert this data in floating-point values using IEEE 754 standard. 
+% \item Display the value in the Command Prompt (on Windows) or Terminal (on Linux), as the case maybe. 
+% \end{enumerate}
+% \figref{fig:flow-chart} presents the sequence in which the steps mentioned above are executed. 
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\hgfig]{\LocMODfig/flowchart.png}
+%   \caption{Flowchart of the steps happening in Python code}
+%   \label{fig:flow-chart}
+% \end{figure}
+% \end{enumerate}
 
 
 \section{Reading the electrical parameters from Python}
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Python to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:python-start} before getting started. 
 
-\subsection{Arduino Firmware}
-\label{sec:firmware-modbus}
-\addtocontents{ard}{\protect\addvspace{\codclr}}
-\begin{ardcode}
-  \acaption{First 10 lines of the firmware for Modbus Energy Meter
-    experiment}
-  {First 10 lines of the firmware for Modbus.  Available at
-    \LocMODardbrief{send\_packet.ino}.}
-  \label{ard:firmware-modbus}
-  \lstinputlisting[firstline=1,lastline=10]
-  {\LocMODardcode/send_packet.ino}
-\end{ardcode}
+% \subsection{Arduino Firmware}
+% \label{sec:firmware-modbus}
+% \addtocontents{ard}{\protect\addvspace{\codclr}}
+% \begin{ardcode}
+%   \acaption{First 10 lines of the firmware for Modbus Energy Meter
+%     experiment}
+%   {First 10 lines of the firmware for Modbus.  Available at
+%     \LocMODardbrief{send\_packet.ino}.}
+%   \label{ard:firmware-modbus}
+%   \lstinputlisting[firstline=1,lastline=10]
+%   {\LocMODardcode/send_packet.ino}
+% \end{ardcode}
 
 \subsection{Python Code}
 \label{sec:modbus-python-code}
@@ -113,4 +113,3 @@ In this section, we will show how to access the three parameters (voltage, curre
   \lstinputlisting[firstline=1,lastline=10]
   {\LocMODpycode/read_active_power.py}
 \end{pycode}
-

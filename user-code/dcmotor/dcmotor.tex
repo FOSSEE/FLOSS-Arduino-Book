@@ -61,7 +61,7 @@ L293D, L298, etc.  Often they provide small \index{PCB breakout
 PCB breakout boards.  These modules also provide an extra supply that
 is needed to drive the DC motor.  \figref{fig:motordriverboard} shows
 the diagram of a typical breakout board containing IC L293D, which will
-be used in this book. \par
+be used in this book. One may note that the toolboxes presented in this book supports three types of H-Bridge circuit. \tabref{table:convention} provides the values to be passed for different H-Bridge circuits. \par
 
 \begin{figure}
   \centering
@@ -69,6 +69,18 @@ be used in this book. \par
   \caption{L293D motor driver board}
   \label{fig:motordriverboard}
 \end{figure}
+
+\begin{table}
+  \centering
+  \caption{Values in the \scilab\ command for different H-Bridge circuits}
+  \label{table:convention}
+  \begin{tabular}{llc}\hline
+    Type of H-Bridge circuit & Value \\ \hline
+    MotorShield Rev3         & 1                             \\ \hline 
+    PMODHB5/L298             & 2                             \\ \hline 
+    L293D                    & 3                             \\ \hline
+  \end{tabular}
+\end{table}
 
 Input from \arduino\ to H-bridge IC is in \index{pulse width
   modulation, PWM}%
@@ -272,17 +284,17 @@ of the DC motor while running the experiments. 
         \lstinputlisting[firstline=2,lastline=2]
         {\LocDCMscicode/dcmotor-clock.sce}
         
-        \begin{table}
-          \centering
-          \caption{Values in the \scilab\ command for different H-Bridge circuits}
-          \label{table:convention}
-          \begin{tabular}{llc}\hline
-            Type of H-Bridge circuit & Value \\ \hline
-            MotorShield Rev3         & 1                             \\ \hline 
-            PMODHB5/L298             & 2                             \\ \hline 
-            L293D                    & 3                             \\ \hline
-          \end{tabular}
-        \end{table}
+        % \begin{table}
+        %   \centering
+        %   \caption{Values in the \scilab\ command for different H-Bridge circuits}
+        %   \label{table:convention}
+        %   \begin{tabular}{llc}\hline
+        %     Type of H-Bridge circuit & Value \\ \hline
+        %     MotorShield Rev3         & 1     \\ \hline 
+        %     PMODHB5/L298             & 2     \\ \hline 
+        %     L293D                    & 3     \\ \hline
+        %   \end{tabular}
+        % \end{table}
         
         The next line of \sciref{sci:dcmotor-clock} is of the following form: 
         \begin{lstlisting}[style=nonumbers]
@@ -1183,8 +1195,8 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 
 \begin{OpenModelicacode}
   \mcaption{Rotating the DC motor}
-  {Rotating the DC motor.  
-  Available at Arduino -> SerialCommunication -> Examples -> dcmotor 
+  {Rotating the DC motor.
+    Available at Arduino -> SerialCommunication -> Examples -> dcmotor 
     -> dcmotor\_clock.}
   \label{OpenModelica:dcmotor-clock}
   \lstinputlisting{\LocDCMOpenModelicacode/dcmotor-clock.mo}
@@ -1192,7 +1204,7 @@ Please refer to \figref{om-examples-toolbox} to know how to locate the experimen
 
 \begin{OpenModelicacode}
   \mcaption{Rotating the DC motor in both directions}
-  {Rotating DC motor in both directions.  Available at Arduino -> SerialCommunication -> Examples -> dcmotor 
+  {Rotating DC motor in both directions.  Available at Arduino -> SerialCommunication -> Examples -> dcmotor
     -> dcmotor\_both.}
   \label{OpenModelica:dcmotor-both}
   \lstinputlisting{\LocDCMOpenModelicacode/dcmotor-both.mo}
