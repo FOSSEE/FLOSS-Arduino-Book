@@ -13,7 +13,7 @@ referring to a particular slave address will refer to the registers
 that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
 
 In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication.
-\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+OpenModelica sends the RQ to the \arduino\, which in turn sends it to the
 energy meter. The energy meter then accesses the values in the
 required addresses in its memory and transfers them back. This again
 is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data.
