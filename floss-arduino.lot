@@ -23,11 +23,11 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{174}{table.caption.126}%
 \contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{183}{table.caption.130}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{185}{table.caption.132}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{184}{table.caption.132}%
 \contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{186}{table.caption.134}%
 \contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{187}{table.caption.136}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Values in the Scilab\ command for different H-Bridge circuits\relax }}{204}{table.caption.138}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces Values to be passed for different H-Bridge circuits\relax }}{204}{table.caption.138}%
 \contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{214}{table.caption.146}%
 \contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{215}{table.caption.148}%
 \contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{217}{table.caption.150}%

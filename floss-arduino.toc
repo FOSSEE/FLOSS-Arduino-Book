@@ -169,12 +169,12 @@
 \contentsline {subsection}{\numberline {9.4.1}Controlling the servomotor}{180}{subsection.9.4.1}%
 \contentsline {subsection}{\numberline {9.4.2}Scilab Code}{182}{subsection.9.4.2}%
 \contentsline {section}{\numberline {9.5}Controling the servomotor through Xcos}{183}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{188}{section.9.6}%
-\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{188}{subsection.9.6.1}%
+\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{187}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{187}{subsection.9.6.1}%
 \contentsline {subsection}{\numberline {9.6.2}Python Code}{189}{subsection.9.6.2}%
 \contentsline {section}{\numberline {9.7}Controlling the servomotor through Julia}{193}{section.9.7}%
 \contentsline {subsection}{\numberline {9.7.1}Controlling the servomotor}{193}{subsection.9.7.1}%
-\contentsline {subsection}{\numberline {9.7.2}Julia Code}{195}{subsection.9.7.2}%
+\contentsline {subsection}{\numberline {9.7.2}Julia Code}{194}{subsection.9.7.2}%
 \contentsline {section}{\numberline {9.8}Controlling the servomotor through OpenModelica}{196}{section.9.8}%
 \contentsline {subsection}{\numberline {9.8.1}Controlling the servomotor}{196}{subsection.9.8.1}%
 \contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{198}{subsection.9.8.2}%
@@ -182,24 +182,24 @@
 \contentsline {section}{\numberline {10.1}Preliminaries}{203}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{205}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{205}{subsection.10.2.1}%
-\contentsline {paragraph}{Note:}{207}{section*.142}%
+\contentsline {paragraph}{Note:}{206}{section*.142}%
 \contentsline {subsection}{\numberline {10.2.2}Arduino Code}{208}{subsection.10.2.2}%
-\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{210}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{210}{subsection.10.3.1}%
+\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{209}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{209}{subsection.10.3.1}%
 \contentsline {paragraph}{Note:}{210}{section*.143}%
 \contentsline {paragraph}{Note:}{211}{section*.144}%
 \contentsline {subsection}{\numberline {10.3.2}Scilab Code}{212}{subsection.10.3.2}%
 \contentsline {section}{\numberline {10.4}Controlling the DC motor from Xcos}{213}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Controlling the DC motor from Python}{217}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Controlling the DC motor}{217}{subsection.10.5.1}%
+\contentsline {section}{\numberline {10.5}Controlling the DC motor from Python}{216}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Controlling the DC motor}{216}{subsection.10.5.1}%
 \contentsline {paragraph}{Note:}{217}{section*.151}%
-\contentsline {paragraph}{Note:}{219}{section*.152}%
+\contentsline {paragraph}{Note:}{218}{section*.152}%
 \contentsline {subsection}{\numberline {10.5.2}Python Code}{219}{subsection.10.5.2}%
 \contentsline {section}{\numberline {10.6}Controlling the DC motor from Julia}{222}{section.10.6}%
 \contentsline {subsection}{\numberline {10.6.1}Controlling the DC motor}{222}{subsection.10.6.1}%
 \contentsline {paragraph}{Note:}{222}{section*.153}%
 \contentsline {paragraph}{Note:}{224}{section*.154}%
-\contentsline {subsection}{\numberline {10.6.2}Julia Code}{225}{subsection.10.6.2}%
+\contentsline {subsection}{\numberline {10.6.2}Julia Code}{224}{subsection.10.6.2}%
 \contentsline {section}{\numberline {10.7}Controlling the DC motor from OpenModelica}{226}{section.10.7}%
 \contentsline {subsection}{\numberline {10.7.1}Controlling the DC motor}{226}{subsection.10.7.1}%
 \contentsline {paragraph}{Note:}{226}{section*.155}%

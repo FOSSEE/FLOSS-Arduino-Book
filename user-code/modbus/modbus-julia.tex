@@ -3,7 +3,8 @@
 The objective of this experiment is to make the user acquainted with
 the demonstration of Modbus protocol through the Julia-Arduino toolbox.
 It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter},
-an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Python-Arduino toolbox. For data transmission, we have used an RS485 module.
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device.
+Here, we aim to obtain these values using the Julia-Arduino toolbox. For data transmission, we have used an RS485 module.
 
 Julia is used for giving the required parameters to \arduino. For
 example, the user will tell the required slave address to be accessed
@@ -13,7 +14,7 @@ referring to a particular slave address will refer to the registers
 that hold the desired electrical parameters (current, voltage, power, etc.), which we want to read from the energy meter.
 
 In this experiment, \arduino\ is connected to the energy meter via an RS485 module which facilitates long-distance communication.
-\scilab\ sends the RQ to the \arduino\, which in turn sends it to the
+Julia sends the RQ to the \arduino\, which in turn sends it to the
 energy meter. The energy meter then accesses the values in the
 required addresses in its memory and transfers them back. This again
 is in the form of another packet called RP. In this packet, the data is stored in a little-endian hexadecimal format. Thus, we make use of IEEE 754 to obtain the decimal value from this data.

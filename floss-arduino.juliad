@@ -16,12 +16,12 @@
 \contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{168}{juliamass.8.1}%
 \contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{169}{juliamass.8.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{195}{juliamass.9.1}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{194}{juliamass.9.1}%
 \contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{195}{juliamass.9.2}%
 \contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{195}{juliamass.9.3}%
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{196}{juliamass.9.4}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{195}{juliamass.9.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{225}{juliamass.10.1}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{224}{juliamass.10.1}%
 \contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{225}{juliamass.10.2}%
 \contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{225}{juliamass.10.3}%
 \addvspace {10pt}
