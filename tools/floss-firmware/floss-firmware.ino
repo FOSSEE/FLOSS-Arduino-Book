@@ -1,4 +1,4 @@
-/* This file is meant to be used with the SCILAB arduino  
+/* This file is meant to be used with the FLOSS-Arduino  
    toolbox, however, it can be used from the IDE environment
    (or any other serial terminal) by typing commands like:
    

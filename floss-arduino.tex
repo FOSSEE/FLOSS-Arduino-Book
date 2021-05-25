@@ -100,7 +100,7 @@
 % \let\EntireReport\undefined %% EntireReport is set to false
 % If the entire report is not prepared, choose one of scilab, python,
 % julia, or OM
-%  \newcommand{\Software}{OM}
+% \newcommand{\Software}{OM}
 
 \newcommand{\sscilab}{scilab}
 \newcommand{\python}{python}
@@ -122,15 +122,15 @@
 
 
 \ifdefined\EntireReport
- \listofcode
- \listofpyd
- \listofjuliad
- \listofOpenModelicad
+    \listofcode
+    \listofpyd
+    \listofjuliad
+    \listofOpenModelicad
 \else
- \ifx\Software\sscilab \listofcode \fi
- \ifx\Software\python \listofpyd \fi
- \ifx\Software\julia \listofjuliad \fi
- \ifx\Software\OM \listofOpenModelicad \fi
+    \ifx\Software\sscilab \listofcode \fi
+    \ifx\Software\python \listofpyd \fi
+    \ifx\Software\julia \listofjuliad \fi
+    \ifx\Software\OM \listofOpenModelicad \fi
 \fi
 
 %\thispagestyle{empty}
@@ -152,89 +152,89 @@
 
 \ifdefined\EntireReport
 
-\input{user-code/sw-env/sw-env-base.tex}
-\input{user-code/sw-env/sw-env-scilab.tex}
-\input{user-code/sw-env/sw-env-python.tex}
-\input{user-code/sw-env/sw-env-julia.tex}
-\input{user-code/sw-env/sw-env-OM.tex}
+    \input{user-code/sw-env/sw-env-base.tex}
+    \input{user-code/sw-env/sw-env-scilab.tex}
+    \input{user-code/sw-env/sw-env-python.tex}
+    \input{user-code/sw-env/sw-env-julia.tex}
+    \input{user-code/sw-env/sw-env-OM.tex}
 
-\input{user-code/led/led-base.tex}
-\input{user-code/led/led-scilab.tex}
-\input{user-code/led/led-python.tex}
-\input{user-code/led/led-julia.tex}
-\input{user-code/led/led-OM.tex}
+    \input{user-code/led/led-base.tex}
+    \input{user-code/led/led-scilab.tex}
+    \input{user-code/led/led-python.tex}
+    \input{user-code/led/led-julia.tex}
+    \input{user-code/led/led-OM.tex}
 
-\input{user-code/push/push-base.tex}
-\input{user-code/push/push-scilab.tex}
-\input{user-code/push/push-python.tex}
-\input{user-code/push/push-julia.tex}
-\input{user-code/push/push-OM.tex}
+    \input{user-code/push/push-base.tex}
+    \input{user-code/push/push-scilab.tex}
+    \input{user-code/push/push-python.tex}
+    \input{user-code/push/push-julia.tex}
+    \input{user-code/push/push-OM.tex}
 
-\input{user-code/ldr/ldr-base.tex}
-\input{user-code/ldr/ldr-scilab.tex}
-\input{user-code/ldr/ldr-python.tex}
-\input{user-code/ldr/ldr-julia.tex}
-\input{user-code/ldr/ldr-OM.tex}
+    \input{user-code/ldr/ldr-base.tex}
+    \input{user-code/ldr/ldr-scilab.tex}
+    \input{user-code/ldr/ldr-python.tex}
+    \input{user-code/ldr/ldr-julia.tex}
+    \input{user-code/ldr/ldr-OM.tex}
 
-\input{user-code/pot/pot-base.tex}
-\input{user-code/pot/pot-scilab.tex}
-\input{user-code/pot/pot-python.tex}
-\input{user-code/pot/pot-julia.tex}
-\input{user-code/pot/pot-OM.tex}
+    \input{user-code/pot/pot-base.tex}
+    \input{user-code/pot/pot-scilab.tex}
+    \input{user-code/pot/pot-python.tex}
+    \input{user-code/pot/pot-julia.tex}
+    \input{user-code/pot/pot-OM.tex}
 
-\input{user-code/thermistor/thermistor-base.tex}
-\input{user-code/thermistor/thermistor-scilab.tex}
-\input{user-code/thermistor/thermistor-python.tex}
-\input{user-code/thermistor/thermistor-julia.tex}
-\input{user-code/thermistor/thermistor-OM.tex}
+    \input{user-code/thermistor/thermistor-base.tex}
+    \input{user-code/thermistor/thermistor-scilab.tex}
+    \input{user-code/thermistor/thermistor-python.tex}
+    \input{user-code/thermistor/thermistor-julia.tex}
+    \input{user-code/thermistor/thermistor-OM.tex}
 
-\input{user-code/servo/servo-base.tex}
-\input{user-code/servo/servo-scilab.tex}
-\input{user-code/servo/servo-python.tex}
-\input{user-code/servo/servo-julia.tex}
-\input{user-code/servo/servo-OM.tex}
+    \input{user-code/servo/servo-base.tex}
+    \input{user-code/servo/servo-scilab.tex}
+    \input{user-code/servo/servo-python.tex}
+    \input{user-code/servo/servo-julia.tex}
+    \input{user-code/servo/servo-OM.tex}
 
-\input{user-code/dcmotor/dcmotor-base.tex}
-\input{user-code/dcmotor/dcmotor-scilab.tex}
-\input{user-code/dcmotor/dcmotor-python.tex}
-\input{user-code/dcmotor/dcmotor-julia.tex}
-\input{user-code/dcmotor/dcmotor-OM.tex}
+    \input{user-code/dcmotor/dcmotor-base.tex}
+    \input{user-code/dcmotor/dcmotor-scilab.tex}
+    \input{user-code/dcmotor/dcmotor-python.tex}
+    \input{user-code/dcmotor/dcmotor-julia.tex}
+    \input{user-code/dcmotor/dcmotor-OM.tex}
 
-\input{user-code/modbus/modbus-base.tex}
-\input{user-code/modbus/modbus-scilab.tex}
-\input{user-code/modbus/modbus-python.tex}
-\input{user-code/modbus/modbus-julia.tex}
-\input{user-code/modbus/modbus-OM.tex}
+    \input{user-code/modbus/modbus-base.tex}
+    \input{user-code/modbus/modbus-scilab.tex}
+    \input{user-code/modbus/modbus-python.tex}
+    \input{user-code/modbus/modbus-julia.tex}
+    \input{user-code/modbus/modbus-OM.tex}
 
 
-\else 
+\else
 
-\input{user-code/sw-env/sw-env-base.tex}
-\input{user-code/sw-env/sw-env-\Software.tex}
+    \input{user-code/sw-env/sw-env-base.tex}
+    \input{user-code/sw-env/sw-env-\Software.tex}
 
-\input{user-code/led/led-base.tex}
-\input{user-code/led/led-\Software.tex}
+    \input{user-code/led/led-base.tex}
+    \input{user-code/led/led-\Software.tex}
 
-\input{user-code/push/push-base.tex}
-\input{user-code/push/push-\Software.tex}
+    \input{user-code/push/push-base.tex}
+    \input{user-code/push/push-\Software.tex}
 
-\input{user-code/ldr/ldr-base.tex}
-\input{user-code/ldr/ldr-\Software.tex}
+    \input{user-code/ldr/ldr-base.tex}
+    \input{user-code/ldr/ldr-\Software.tex}
 
-\input{user-code/pot/pot-base.tex}
-\input{user-code/pot/pot-\Software.tex}
+    \input{user-code/pot/pot-base.tex}
+    \input{user-code/pot/pot-\Software.tex}
 
-\input{user-code/thermistor/thermistor-base.tex}
-\input{user-code/thermistor/thermistor-\Software.tex}
+    \input{user-code/thermistor/thermistor-base.tex}
+    \input{user-code/thermistor/thermistor-\Software.tex}
 
-\input{user-code/servo/servo-base.tex}
-\input{user-code/servo/servo-\Software.tex}
+    \input{user-code/servo/servo-base.tex}
+    \input{user-code/servo/servo-\Software.tex}
 
-\input{user-code/dcmotor/dcmotor-base.tex}
-\input{user-code/dcmotor/dcmotor-\Software.tex}
+    \input{user-code/dcmotor/dcmotor-base.tex}
+    \input{user-code/dcmotor/dcmotor-\Software.tex}
 
-\input{user-code/modbus/modbus-base.tex}
-\input{user-code/modbus/modbus-\Software.tex}
+    \input{user-code/modbus/modbus-base.tex}
+    \input{user-code/modbus/modbus-\Software.tex}
 
 
 \fi
