@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  26 MAY 2021 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  26 MAY 2021 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2663,43 +2663,43 @@ dbus/figures/Full-Set-Up.png  used on input line 426.
 [238 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-
 diagram.PNG>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_cod
-e_flowchart.png, id=6657, 327.2225pt x 480.79625pt>
+e_flowchart.png, id=6657, 645.41125pt x 1114.1625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduin
 o_code_flowchart.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino
 _code_flowchart.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/arduino_code_flowchart.png  used on input line 465.
-(pdftex.def)             Requested size: 258.36281pt x 379.61945pt.
+(pdftex.def)             Requested size: 258.36281pt x 445.99712pt.
  [239 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-
-Set-Up.png>] [240 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/f
-igures/arduino_code_flowchart.png>]
+Set-Up.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [240 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/ardui
+no_code_flowchart.png (PNG copy)>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.p
-ng, id=6678, 482.55281pt x 362.10281pt>
+ng, id=6674, 786.94pt x 800.9925pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowch
 art.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowcha
 rt.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/flowchart.png  used on input line 491.
-(pdftex.def)             Requested size: 357.73405pt x 268.44914pt.
+(pdftex.def)             Requested size: 357.73405pt x 364.12216pt.
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/arduino/send_packet
-.ino [241 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/f
-lowchart.png (PNG copy)>])) (./user-code/modbus/modbus-scilab.tex
-Underfull \vbox (badness 2951) has occurred while \output is active []
-
- [242]
+.ino)) (./user-code/modbus/modbus-scilab.tex [241] [242 </home/fossee/Desktop/f
+loss-scilab-arduino/user-code/modbus/figures/flowchart.png (PNG copy)>]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_val.sce
 )
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_current
-.sci)
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_voltage
 .sci [243])
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_voltage
+.sci)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_active_
 power.sci) [244]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-out
-put.png, id=6765, 490.83376pt x 170.13562pt>
+put.png, id=6764, 490.83376pt x 170.13562pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curren
 t-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current
@@ -2708,7 +2708,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/current-output.png  used on input line 143.
 (pdftex.def)             Requested size: 397.48499pt x 137.78313pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-out
-put-setup.jpg, id=6766, 277.035pt x 248.127pt>
+put-setup.jpg, id=6765, 277.035pt x 248.127pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curren
 t-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current
@@ -2716,11 +2716,8 @@ t-output-setup.jpg Graphic file (type jpg)
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/current-output-setup.jpg  used on input line 150.
 (pdftex.def)             Requested size: 258.36281pt x 231.40312pt.
- [245 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curre
-nt-output.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figu
-res/current-output-setup.jpg>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-out
-put.png, id=6776, 487.8225pt x 155.07938pt>
+put.png, id=6768, 487.8225pt x 155.07938pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltag
 e-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage
@@ -2729,7 +2726,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/voltage-output.png  used on input line 162.
 (pdftex.def)             Requested size: 397.48499pt x 126.36134pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-out
-put-setup.jpg, id=6777, 261.1356pt x 269.808pt>
+put-setup.jpg, id=6769, 261.1356pt x 269.808pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltag
 e-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage
@@ -2738,7 +2735,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/voltage-output-setup.jpg  used on input line 169.
 (pdftex.def)             Requested size: 258.36281pt x 266.95018pt.
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-powe
-r-output.png, id=6780, 492.33937pt x 185.94469pt>
+r-output.png, id=6772, 492.33937pt x 185.94469pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active
 -power-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-
@@ -2746,11 +2743,8 @@ power-output.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/active-power-output.png  used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 150.12634pt.
- [246 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/volta
-ge-output.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figu
-res/voltage-output-setup.jpg>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-powe
-r-output-setup.jpg, id=6786, 306.9066pt x 264.99pt>
+r-output-setup.jpg, id=6773, 306.9066pt x 264.99pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active
 -power-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-
@@ -2759,11 +2753,12 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/active-power-output-setup.jpg  used on input line 186.
 (pdftex.def)             Requested size: 258.36281pt x 223.0955pt.
 
-[247 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active
--power-output.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/
-figures/active-power-output-setup.jpg>]
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [245 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curre
+nt-output.png>]
 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_
-xcos.png, id=6794, 635.37375pt x 455.7025pt>
+xcos.png, id=6784, 635.37375pt x 455.7025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_v
 alue_xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_va
@@ -2772,42 +2767,49 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mo
 dbus/figures/read_value_xcos.png  used on input line 207.
 (pdftex.def)             Requested size: 258.36281pt x 185.30946pt.
 
-Underfull \hbox (badness 1259) in paragraph at lines 210--210
-[]\T1/cmr/m/n/10.95 Figure 11.14: |Xcos di-a-gram to read En-ergy Me-ter val-ue
-s. This is what
+Underfull \hbox (badness 1412) in paragraph at lines 210--210
+\T1/cmr/m/n/10.95 sees when \T1/fvm/m/n/10.95 O r i g i n / u s e r - c o d e /
+ m o d b u s / s c i l a b, see Footnote []2[][] on
  []
 
-
+[246 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/curren
+t-output-setup.jpg> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus
+/figures/voltage-output.png>]
 Overfull \hbox (16.70493pt too wide) in paragraph at lines 223--235
  [][] 
  []
 
-) (./user-code/modbus/modbus-python.tex
-Underfull \vbox (badness 1270) has occurred while \output is active []
+[247 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltag
+e-output-setup.jpg> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus
+/figures/active-power-output.png>]) (./user-code/modbus/modbus-python.tex
+Underfull \vbox (badness 6658) has occurred while \output is active []
 
- [248 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_
-value_xcos.png>]
-Underfull \vbox (badness 2680) has occurred while \output is active []
-
- [249]
+ [248 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/activ
+e-power-output-setup.jpg> </home/fossee/Desktop/floss-scilab-arduino/user-code/
+modbus/figures/read_value_xcos.png>] [249]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read_current
 .py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read_voltage
 .py)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/python/read_active_
-power.py)) (./user-code/modbus/modbus-julia.tex [250]
+power.py [250])) (./user-code/modbus/modbus-julia.tex [251]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readCurrent.j
-l [251])
+l)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readVoltage.j
 l)
-(/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readPower.jl)
-) (./user-code/modbus/modbus-OM.tex [252] [253]
+(/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/julia/readPower.jl
+[252])) (./user-code/modbus/modbus-OM.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [253]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readCu
 rrent.mo)
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readVo
-ltage.mo)
+ltage.mo) [254]
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/OpenModelica/readPo
-wer.mo)) (./floss-arduino.bbl [254]
+wer.mo)) (./floss-arduino.bbl [255] [256
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 []\T1/cmr/m/n/10.95 T. Mar-tin.  Use of scilab for space mis-sion anal-y-sis.
  []
@@ -2836,9 +2838,7 @@ Overfull \hbox (15.39987pt too wide) in paragraph at lines 49--53
 /Skittles_M%26M%27s
  []
 
-[255
-
-]
+[257]
 Underfull \hbox (badness 1577) in paragraph at lines 95--98
 []\T1/cmr/m/n/10.95 Juliaio/serialports.jl: Se-ri-al-port io streams in ju-lia 
 backed by py-se-rial.
@@ -2860,7 +2860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--146
 \openout14 = `floss-arduino.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
- [256]
+ [258]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./floss-arduino.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
@@ -2870,13 +2870,13 @@ Package rerunfilecheck Info: File `floss-arduino.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 17660 strings out of 481239
- 347360 string characters out of 5920377
+ 17662 strings out of 481239
+ 347376 string characters out of 5920377
  820065 words of memory out of 5000000
  27975 multiletter control sequences out of 15000+600000
  556115 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 50i,10n,53p,807b,1950s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,10n,53p,807b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/
 enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
@@ -2899,10 +2899,10 @@ pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on floss-arduino.pdf (282 pages, 31877260 bytes).
+Output written on floss-arduino.pdf (284 pages, 31980528 bytes).
 PDF statistics:
- 7837 PDF objects out of 8907 (max. 8388607)
- 7238 compressed objects within 73 object streams
- 3853 named destinations out of 4296 (max. 500000)
+ 7845 PDF objects out of 8907 (max. 8388607)
+ 7245 compressed objects within 73 object streams
+ 3855 named destinations out of 4296 (max. 500000)
  2297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

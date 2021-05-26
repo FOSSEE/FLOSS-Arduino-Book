@@ -213,26 +213,26 @@
 \contentsline {section}{\numberline {11.2}Setup for the experiment}{238}{section.11.2}%
 \contentsline {section}{\numberline {11.3}Software required for this experiment}{239}{section.11.3}%
 \contentsline {subsection}{\numberline {11.3.1}Arduino Firmware}{241}{subsection.11.3.1}%
-\contentsline {section}{\numberline {11.4}Manifestation of Modbus protocol through Scilab}{242}{section.11.4}%
+\contentsline {section}{\numberline {11.4}Manifestation of Modbus protocol through Scilab}{241}{section.11.4}%
 \contentsline {section}{\numberline {11.5}Reading the electrical parameters from Scilab}{243}{section.11.5}%
 \contentsline {subsection}{\numberline {11.5.1}Reading the electrical parameters}{243}{subsection.11.5.1}%
 \contentsline {subsection}{\numberline {11.5.2}Scilab Code}{243}{subsection.11.5.2}%
 \contentsline {paragraph}{Note: }{244}{section*.171}%
-\contentsline {subsection}{\numberline {11.5.3}Output in the Scilab Console}{244}{subsection.11.5.3}%
-\contentsline {section}{\numberline {11.6}Reading the electrical parameters from Xcos}{247}{section.11.6}%
+\contentsline {subsection}{\numberline {11.5.3}Output in the Scilab Console}{245}{subsection.11.5.3}%
+\contentsline {section}{\numberline {11.6}Reading the electrical parameters from Xcos}{246}{section.11.6}%
 \contentsline {section}{\numberline {11.7}Manifestation of Modbus protocol through Python}{249}{section.11.7}%
 \contentsline {paragraph}{Note: }{249}{section*.180}%
-\contentsline {section}{\numberline {11.8}Reading the electrical parameters from Python}{249}{section.11.8}%
-\contentsline {subsection}{\numberline {11.8.1}Reading the electrical parameters}{249}{subsection.11.8.1}%
+\contentsline {section}{\numberline {11.8}Reading the electrical parameters from Python}{250}{section.11.8}%
+\contentsline {subsection}{\numberline {11.8.1}Reading the electrical parameters}{250}{subsection.11.8.1}%
 \contentsline {subsection}{\numberline {11.8.2}Python Code}{250}{subsection.11.8.2}%
-\contentsline {section}{\numberline {11.9}Manifestation of Modbus protocol through Julia}{250}{section.11.9}%
+\contentsline {section}{\numberline {11.9}Manifestation of Modbus protocol through Julia}{251}{section.11.9}%
 \contentsline {paragraph}{Note: }{251}{section*.181}%
 \contentsline {section}{\numberline {11.10}Reading the electrical parameters from Julia}{251}{section.11.10}%
 \contentsline {subsection}{\numberline {11.10.1}Reading the electrical parameters}{251}{subsection.11.10.1}%
-\contentsline {subsection}{\numberline {11.10.2}Julia Code}{251}{subsection.11.10.2}%
-\contentsline {section}{\numberline {11.11}Manifestation of Modbus protocol through OpenModelica}{252}{section.11.11}%
+\contentsline {subsection}{\numberline {11.10.2}Julia Code}{252}{subsection.11.10.2}%
+\contentsline {section}{\numberline {11.11}Manifestation of Modbus protocol through OpenModelica}{253}{section.11.11}%
 \contentsline {paragraph}{Note: }{253}{section*.182}%
-\contentsline {section}{\numberline {11.12}Reading the electrical parameters from OpenModelica}{253}{section.11.12}%
-\contentsline {subsection}{\numberline {11.12.1}Reading the electrical parameters}{253}{subsection.11.12.1}%
-\contentsline {subsection}{\numberline {11.12.2}OpenModelica Code}{253}{subsection.11.12.2}%
-\contentsline {chapter}{\numberline {References}}{255}{chapter*.183}%
+\contentsline {section}{\numberline {11.12}Reading the electrical parameters from OpenModelica}{254}{section.11.12}%
+\contentsline {subsection}{\numberline {11.12.1}Reading the electrical parameters}{254}{subsection.11.12.1}%
+\contentsline {subsection}{\numberline {11.12.2}OpenModelica Code}{254}{subsection.11.12.2}%
+\contentsline {chapter}{\numberline {References}}{257}{chapter*.183}%

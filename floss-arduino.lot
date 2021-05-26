@@ -38,4 +38,4 @@
 \contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{235}{table.caption.164}%
 \contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{236}{table.caption.165}%
 \contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{237}{table.caption.166}%
-\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read Energy Meter\relax }}{248}{table.caption.179}%
+\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read energy meter values\relax }}{249}{table.caption.179}%

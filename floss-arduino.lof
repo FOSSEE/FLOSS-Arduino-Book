@@ -122,16 +122,16 @@
 \contentsline {figure}{\numberline {10.7}{\ignorespaces Xcos control of the DC motor in both directions in a loop}}{216}{figure.caption.149}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{232}{figure.caption.157}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Master-Slave Query-Response Cycle\relax }}{232}{figure.caption.158}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Cycle of query-response between master and slave\relax }}{232}{figure.caption.158}%
 \contentsline {figure}{\numberline {11.3}{\ignorespaces Pins in RS485 module\relax }}{233}{figure.caption.160}%
 \contentsline {figure}{\numberline {11.4}{\ignorespaces Block diagram for reading the parameters in energy meter\relax }}{238}{figure.caption.167}%
 \contentsline {figure}{\numberline {11.5}{\ignorespaces Experimental set up for reading energy meter\relax }}{239}{figure.caption.168}%
 \contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{240}{figure.caption.169}%
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Flowchart of the steps happening in the FLOSS code\relax }}{241}{figure.caption.170}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Flowchart of the steps happening in the FLOSS code\relax }}{242}{figure.caption.170}%
 \contentsline {figure}{\numberline {11.8}{\ignorespaces Single phase current output on Scilab Console\relax }}{245}{figure.caption.172}%
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Single phase current output in energy meter\relax }}{245}{figure.caption.173}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single phase current output in energy meter\relax }}{246}{figure.caption.173}%
 \contentsline {figure}{\numberline {11.10}{\ignorespaces Single phase voltage output on Scilab Console\relax }}{246}{figure.caption.174}%
-\contentsline {figure}{\numberline {11.11}{\ignorespaces Single phase voltage output in energy meter\relax }}{246}{figure.caption.175}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single phase voltage output in energy meter\relax }}{247}{figure.caption.175}%
 \contentsline {figure}{\numberline {11.12}{\ignorespaces Single phase active power output on Scilab Console\relax }}{247}{figure.caption.176}%
-\contentsline {figure}{\numberline {11.13}{\ignorespaces Single phase active power output in energy meter\relax }}{247}{figure.caption.177}%
-\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read Energy Meter values}}{248}{figure.caption.178}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single phase active power output in energy meter\relax }}{248}{figure.caption.177}%
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read energy meter values}}{248}{figure.caption.178}%
