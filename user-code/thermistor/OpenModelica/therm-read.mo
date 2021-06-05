@@ -13,7 +13,7 @@ algorithm
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
   else
-    val := sComm.cmd_analog_in(1, 4) "read analog pin 5 (ldr)";
+    val := sComm.cmd_analog_in(1, 4) "read analog pin 4 (thermistor)";
     strm.print("Thermistor Readings: " + String(val));
     sComm.delay(500);
   end if;

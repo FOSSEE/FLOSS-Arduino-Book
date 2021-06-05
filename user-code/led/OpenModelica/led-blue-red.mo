@@ -12,12 +12,12 @@ algorithm
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
-      digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn the blue LED";
-      digital_out := sComm.cmd_digital_out(1, 11, 1) "This will turn the red LED";
+      digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
+      digital_out := sComm.cmd_digital_out(1, 11, 1) "This will turn ON the red LED";
       sComm.delay(5000) "Delay for 5 seconds";
-      digital_out := sComm.cmd_digital_out(1, 9, 0) "This turns off the blue Led";
+      digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
       sComm.delay(3000) "Delay for 3 seconds";
-      digital_out := sComm.cmd_digital_out(1, 11, 0) "This turns off the red Led";
+      digital_out := sComm.cmd_digital_out(1, 11, 0) "This will turn OFF the red LED";
     end if;
     c_ok := sComm.close_serial(1) "To close the connection safely";
   end when;
