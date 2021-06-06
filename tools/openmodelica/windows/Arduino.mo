@@ -463,6 +463,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -493,6 +494,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
               sComm.delay(2000) "let the blue LED be on for two seconds";
               digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
+              sComm.delay(2000) "let the blue LED be off for two seconds";
             end if;
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
@@ -515,6 +517,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
+              sComm.delay(2000);
               digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
               digital_out := sComm.cmd_digital_out(1, 11, 1) "This will turn ON the red LED";
               sComm.delay(5000) "Delay for 5 seconds";
@@ -577,7 +580,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
-            val := sComm.cmd_digital_in(1, 12) "";
+            val := sComm.cmd_digital_in(1, 12) "Read from digital pin 12";
             if val == 0 then
               strm.print("0");
               digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
@@ -608,6 +611,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+            sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
@@ -710,6 +714,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+            sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
@@ -724,7 +729,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               digital_out := sComm.cmd_digital_out(1, 10, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
-            elseif val > 900 and val <= 1023 then
+            elseif val >= 900 and val <= 1023 then
               digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
@@ -795,7 +800,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
           else
-            val := sComm.cmd_analog_in(1, 4) "read analog pin 5 (ldr)";
+            val := sComm.cmd_analog_in(1, 4) "read analog pin 4 (thermistor)";
             strm.print("Thermistor Readings: " + String(val));
             sComm.delay(500);
           end if;
@@ -875,7 +880,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               strm.print("Unable to open serial port, please check");
             else
               sComm.cmd_dcmotor_setup(1, 3, 1, 9, 10) "Setup DC motor of type 3 (L293D), motor 1, pins 9 and 10";
-              for i in 1:4 loop
+              for i in 0:4 loop
                 sComm.cmd_dcmotor_run(1, 1, 100) "Motor 1 runs at PWM 100";
                 sComm.delay(3000) "for 3 seconds";
                 sComm.cmd_dcmotor_run(1, 1, 0) "Halt the motor";
@@ -895,7 +900,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
       package servo
         extends Modelica.Icons.ExamplesPackage;
 
-        model servo_init "Rotate Servo Motor "
+        model servo_init "Rotate Servo Motor by 30 degrees and then reset"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
@@ -904,9 +909,11 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
+              sComm.delay(2000);
               sComm.cmd_servo_attach(1, 1) "To attach the motor to pin 9 of servo1";
               sComm.cmd_servo_move(1, 1, 30) "tell servo to rotate by 30 degrees";
               sComm.delay(1000);
@@ -928,9 +935,11 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
+              sComm.delay(2000);
               sComm.cmd_servo_attach(1, 1) "Attach motor to pin 9. 1 means pin 9.";
               sComm.delay(2000);
               angle := 20 "Angle by which it has to move";
@@ -982,6 +991,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -989,9 +999,9 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               sComm.delay(2000);
               for i in 1:50 loop
                 val := sComm.cmd_analog_in(1, 2) "Read potentiometer value";
-                val := integer(val * 180 / 1023);
+                val := integer(val * 180 / 1023) "Scale Potentiometer value to 0-180";
                 sComm.cmd_servo_move(1, 1, val) "Command the servo motor";
-                sComm.delay(500) "sleep for 1000 milliseconds";
+                sComm.delay(500) "sleep for 500 milliseconds";
               end for;
               sComm.cmd_servo_detach(1, 1) "Detach the motor";
             end if;

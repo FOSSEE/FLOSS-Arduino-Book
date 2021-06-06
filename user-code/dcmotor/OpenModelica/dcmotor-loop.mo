@@ -12,7 +12,7 @@ algorithm
       strm.print("Unable to open serial port, please check");
     else
       sComm.cmd_dcmotor_setup(1, 3, 1, 9, 10) "Setup DC motor of type 3 (L293D), motor 1, pins 9 and 10";
-      for i in 0:4 loop
+      for i in 1:4 loop
         sComm.cmd_dcmotor_run(1, 1, 100) "Motor 1 runs at PWM 100";
         sComm.delay(3000) "for 3 seconds";
         sComm.cmd_dcmotor_run(1, 1, 0) "Halt the motor";

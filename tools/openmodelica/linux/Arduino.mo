@@ -508,9 +508,9 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
+              sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
             end if;
-            strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
@@ -536,7 +536,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               digital_out := sComm.cmd_digital_out(1, 9, 0) "This will turn OFF the blue LED";
               sComm.delay(2000) "let the blue LED be off for two seconds";
             end if;
-            strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
@@ -553,6 +552,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -564,7 +564,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               sComm.delay(3000) "Delay for 3 seconds";
               digital_out := sComm.cmd_digital_out(1, 11, 0) "This will turn OFF the red LED";
             end if;
-            strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
@@ -581,7 +580,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
-            sComm.delay(1000);
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -592,7 +591,6 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
                 sComm.delay(1000) "Delay for 1 second";
               end for;
             end if;
-            strm.print(String(time));
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
@@ -614,6 +612,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
+            sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
@@ -636,7 +635,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
-            experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.01));
+            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end led_push_button;
 
         model push_button_status "Checking Status of PushButton"
@@ -650,6 +649,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
+            sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
@@ -670,7 +670,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           end when;
 //sComm.cmd_arduino_meter(digital_in);
           annotation(
-            experiment(StartTime = 0, StopTime = 1, Tolerance = 1e-6, Interval = 0.01));
+            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end push_button_status;
       end push;
 
@@ -700,7 +700,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             else
               digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
             end if;
-            sComm.delay(200);
+            sComm.delay(500);
           end if;
 //for i in 1:500 loop
 //end for;
@@ -711,7 +711,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
 //Run for 500 iterations
 //Setting Threshold value of 300
           annotation(
-            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.02));
+            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.2));
         end ldr_led;
 
         model ldr_read "Reading light intensity using ldr"
@@ -758,7 +758,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "At port 0 with baudrate of 115200";
-            sComm.delay(1000);
+            sComm.delay(2000);
           end when;
           if ok <> 0 then
             strm.print("Unable to open serial port, please check");
@@ -769,11 +769,11 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               digital_out := sComm.cmd_digital_out(1, 11, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 11, 0) "Turn OFF LED";
-            elseif val >= 320 and val <= 900 then
+            elseif val >= 320 and val < 900 then
               digital_out := sComm.cmd_digital_out(1, 10, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
-            elseif val > 900 and val <= 1023 then
+            elseif val >= 900 and val <= 1023 then
               digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
               sComm.delay(1000);
               digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";
@@ -788,7 +788,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
 //Threshold 1
 //Threshold 2
           annotation(
-            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.01));
+            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 1));
         end pot_threshold;
       end pot;
 
@@ -812,13 +812,13 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             val := sComm.cmd_analog_in(1, 4) "read analog pin 4";
-            strm.print("Thermistor Readings " + " : " + String(val));
+            strm.print("Thermistor Readings: " + String(val));
             if val > 550 then
               digital_out := sComm.cmd_digital_out(1, 3, 1) "Turn ON Buzzer";
             else
               digital_out := sComm.cmd_digital_out(1, 3, 0) "Turn OFF Buzzer";
             end if;
-            sComm.delay(200);
+            sComm.delay(500);
           end if;
           digital_out := sComm.cmd_digital_out(1, 3, 0) "Turn OFF Buzzer";
 //for i in 1:500 loop
@@ -829,7 +829,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
           annotation(
-            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.02));
+            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.1));
         end therm_buzzer;
 
         model therm_read "Thermistor Readings"
@@ -848,7 +848,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             strm.print("Unable to open serial port, please check");
           else
             val := sComm.cmd_analog_in(1, 4) "read analog pin 4 (thermistor)";
-            strm.print("Thermistor Readings " + " : " + String(val));
+            strm.print("Thermistor Readings: " + String(val));
             sComm.delay(500);
           end if;
 //for i in 1:20 loop
@@ -858,7 +858,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
           end when;
 //Run for 20 iterations
           annotation(
-            experiment(StartTime = 0, StopTime = 10, Tolerance = 1e-6, Interval = 0.5));
+            experiment(StartTime = 0, StopTime = 20, Tolerance = 1e-6, Interval = 1));
         end therm_read;
       end thermistor;
 
@@ -925,19 +925,20 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "COM port is 0 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Unable to open serial port, please check");
             else
+              sComm.cmd_dcmotor_setup(1, 3, 1, 9, 10) "Setup DC motor of type 3 (L293D), motor 1, pins 9 and 10";
               for i in 0:4 loop
-                sComm.cmd_dcmotor_setup(1, 3, 1, 9, 10) "Setup DC motor of type 3 (L293D), motor 1, pins 9 and 10";
                 sComm.cmd_dcmotor_run(1, 1, 100) "Motor 1 runs at PWM 100";
                 sComm.delay(3000) "for 3 seconds";
                 sComm.cmd_dcmotor_run(1, 1, 0) "Halt the motor";
                 sComm.delay(2000) "for 2 seconds";
                 sComm.cmd_dcmotor_run(1, 1, -100) "Run it at PWM 100 in reverse direction";
                 sComm.delay(2000) "for 2 seconds";
-                sComm.cmd_dcmotor_release(1, 1) "Motor 1 is released";
               end for;
+              sComm.cmd_dcmotor_release(1, 1) "Motor 1 is released";
             end if;
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
@@ -949,7 +950,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
       package servo
         extends Modelica.Icons.ExamplesPackage;
 
-        model servo_init "Rotate Servo Motor by 30 degrees.After the roataion reset it by 0"
+        model servo_init "Rotate Servo Motor by 30 degrees and then reset"
           extends Modelica.Icons.Example;
           import sComm = Arduino.SerialCommunication.Functions;
           import strm = Modelica.Utilities.Streams;
@@ -958,6 +959,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "COM port is 0 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -968,6 +970,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
             end if;
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
+          sComm.cmd_servo_detach(1, 1);
           annotation(
             experiment(StartTime = 0, StopTime = 5, Tolerance = 1e-6, Interval = 5));
         end servo_init;
@@ -982,6 +985,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "COM port is 0 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -1011,6 +1015,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "COM port is 0 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
@@ -1019,8 +1024,8 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
               sComm.delay(1000) "be there for one second";
               sComm.cmd_servo_move(1, 1, 45) "Move the servo to 45 degree";
               sComm.delay(1000) "be there for one second";
+              sComm.cmd_servo_detach(1, 1) "Detach the motor";
             end if;
-            sComm.cmd_servo_detach(1, 1) "Detach the motor";
             c_ok := sComm.close_serial(1) "To close the connection safely";
           end when;
 //      sComm.delay(1000);
@@ -1040,6 +1045,7 @@ Arduino.SerialCommunication.Functions.<b>ieeesingle2num</b>(hexa);
         algorithm
           when initial() then
             ok := sComm.open_serial(1, 0, 115200) "COM port is 0 and baud rate is 115200";
+            sComm.delay(2000);
             if ok <> 0 then
               strm.print("Check the serial port and try again");
             else
