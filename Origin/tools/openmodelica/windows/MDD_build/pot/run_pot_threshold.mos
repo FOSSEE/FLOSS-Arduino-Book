@@ -1,0 +1,11 @@
+loadModel(Modelica);
+getErrorString();
+
+loadFile("D:/Modelica_DeviceDrivers/package.mo");
+getErrorString();
+
+loadFile("D:/Arduino.mo");
+getErrorString();
+
+translateModel(Arduino.SerialCommunication.MDD_Examples.MDD_pot.MDD_pot_threshold, fileNamePrefix="MDD_pot_threshold");
+getErrorString();

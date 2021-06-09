@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name shield-V1p2)(type KiCad)(uri "$(KIPRJMOD)/shield-V1p2.pretty")(options "")(descr ""))
+)

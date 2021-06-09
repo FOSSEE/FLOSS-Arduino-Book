@@ -1,0 +1,14 @@
+Compiling sources:
+gcc -c -Wall -fPIC filename.c
+gcc -shared -fPIC -o libfilename.so file1.o file2.o ....
+
+MDD:
+Executing Blink example within MOdelica_DeviceDrivers EmbeddedTargets Package:-
+Put the runMDDAvr.mos file in a (build) directory and execute following commands on the command line:
+
+omc --simCodeTarget=ExperimentalEmbeddedC runMDDAvr.mos
+
+avr-gcc -Os -std=c11 -ffunction-sections -fdata-sections -mmcu=atmega328p -DF_CPU=16000000UL -Wl,--gc-sections Blink_main.c -o Blink -I /path_to_MDD/Modelica_DeviceDrivers/Resources/Include -I /usr/include/omc/c
+
+avr-objcopy -O ihex -R .eeprom Blink Blink.hex
+avrdude -F -V -c arduino -p ATMEGA328P -P /dev/ttyACM0 -b 115200 -U flash:w:Blink.hex

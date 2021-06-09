@@ -1,0 +1,85 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>open_serial</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="cmd_servo_move.html">&lt;&lt; cmd_servo_move</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path"><a href="index.html">Arduino toolbox</a> &gt;&gt; <a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a> &gt; open_serial</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">open_serial</h1>
+    <p class="refpurpose">Command to initialize the serial port which is connected to Arduino</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">res</span><span class="default">=</span><span class="functionid">open_serial</span><span class="default">(</span><span class="default">nHandle</span><span class="default">, </span><span class="default">nPort</span><span class="default">,</span><span class="default">baudrate</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">nHandle :</span>
+      <dd><p class="para">Board number, reserved for future use. For this version, any number would do</p></dd></dt>
+   <dt><span class="term">nPort :</span>
+      <dd><p class="para">Com port in which the Arduino is connected to</p></dd></dt>
+   <dt><span class="term">baudrate :</span>
+      <dd><p class="para">baudrate for the serial comminication</p></dd></dt>
+   <dt><span class="term">res :</span>
+      <dd><p class="para">0 if the connection is successful, else the connection fail</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">To connect to the Arduino board. To check the port number, do to the device manager or check it from the Arduino software</p>
+   <p class="para"></p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">ok</span> <span class="scilaboperator">=</span> <span class="scilabid">open_serial</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">9</span><span class="scilabdefault">,</span><span class="scilabnumber">115200</span><span class="scilabopenclose">)</span>
+<span class="scilabid">close_serial</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabopenclose">)</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">See also</h3>
+   <ul class="itemizedlist"><li class="member"><a href="close_serial.html" class="link">close_serial</a></li></ul></div>
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Bruno JOFRET</li></ul></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="cmd_servo_move.html">&lt;&lt; cmd_servo_move</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_0065f243e2d913ab014332454f9a0ca0.html">Arduino toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

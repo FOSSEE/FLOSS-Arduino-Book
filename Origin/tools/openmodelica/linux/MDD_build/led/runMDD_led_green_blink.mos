@@ -1,0 +1,11 @@
+loadModel(Modelica);
+getErrorString();
+
+loadFile("/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/package.mo");
+getErrorString();
+
+loadFile("/home/souradip/OpenModelica/Arduino.mo");
+getErrorString();
+
+translateModel(Arduino.SerialCommunication.MDD_Examples.MDD_led.MDD_led_green_blink, fileNamePrefix="led_green_blink");
+getErrorString();
