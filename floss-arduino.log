@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  6 JUN 2021 06:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  9 JUN 2021 05:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,16 +1153,16 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 267--280
  [][] 
  []
 
-[79 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-red-com-2.png>]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-python.tex [80 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-blink-com-2.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) [81] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py) [82] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py [83]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-red.py [84]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-green-blink.py [85])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-julia.tex (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) [86] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) [87] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-red.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-green-blink.jl)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-OM.tex [88] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) [89] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo) [90] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo [91]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-red.mo [92]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-green-blink.mo)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/push-base.tex [93] [94
+[79 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-blue-red-com-2.png>]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-python.tex [80 </home/fossee/Desktop/floss-scilab-arduino/user-code/led/figures/led-green-blink-com-2.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) [81] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py) [82] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-delay.py [83]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-blue-red.py [84]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/python/led-green-blink.py [85])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-julia.tex (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) [86] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue.jl) [87] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-delay.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-blue-red.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/julia/led-green-blink.jl)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/led-OM.tex [88] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) [89] (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue.mo [90]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-delay.mo [91]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-blue-red.mo [92]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/led/OpenModelica/led-green-blink.mo)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/push-base.tex [93] [94
 
 ]
 Chapter 5.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png, id=3305, 415.5525pt x 438.63875pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png, id=3308, 415.5525pt x 438.63875pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png  used on input line 63.
 (pdftex.def)             Requested size: 178.86702pt x 188.80507pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png, id=3306, 453.695pt x 239.294pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png, id=3309, 453.695pt x 239.294pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png  used on input line 72.
@@ -1171,7 +1171,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pus
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
  [96 </home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/pushbutton-conn.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch-led.png, id=3320, 453.695pt x 266.596pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch-led.png, id=3323, 453.695pt x 266.596pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch-led.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch-led.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/switch-led.png  used on input line 106.
@@ -1185,7 +1185,7 @@ Overfull \hbox (0.16989pt too wide) in paragraph at lines 181--184
  []
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/arduino/led-push-button/led-push-button.ino [99])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/push-scilab.tex (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/push-button-status.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/push-button-status.sce)
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/sci-ard-meter.png, id=3384, 428.60126pt x 442.65375pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/sci-ard-meter.png, id=3387, 428.60126pt x 442.65375pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/sci-ard-meter.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/sci-ard-meter.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/sci-ard-meter.png  used on input line 31.
@@ -1196,7 +1196,7 @@ Overfull \hbox (0.145pt too wide) in paragraph at lines 64--67
  []
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/push/scilab/led-push-button.sce)
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-button-status.PNG, id=3428, 264.99pt x 268.00125pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-button-status.PNG, id=3431, 264.99pt x 268.00125pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-button-status.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-button-status.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/push-button-status.PNG  used on input line 95.
@@ -1207,7 +1207,7 @@ Overfull \hbox (6.968pt too wide) in paragraph at lines 113--123
  []
 
 [102]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-button.PNG, id=3456, 298.86656pt x 264.99pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-button.PNG, id=3459, 298.86656pt x 264.99pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-button.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-button.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/push/figures/led-push-button.PNG  used on input line 138.
@@ -1221,17 +1221,17 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 155--166
 
 ]
 Chapter 6.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg, id=3780, 106.89937pt x 94.85437pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg, id=3784, 106.89937pt x 94.85437pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg  used on input line 62.
 (pdftex.def)             Requested size: 178.86702pt x 158.72462pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png, id=3781, 1009.52156pt x 741.52031pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png, id=3785, 1009.52156pt x 741.52031pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png  used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 131.37468pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png, id=3782, 415.5525pt x 450.68375pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png, id=3786, 415.5525pt x 450.68375pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png  used on input line 71.
@@ -1245,24 +1245,24 @@ Overfull \hbox (0.60098pt too wide) in paragraph at lines 87--87
 Underfull \vbox (badness 3333) has occurred while \output is active []
 
  [116 </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr.jpg> </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr_sym.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-conn.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png, id=3795, 455.301pt x 208.78pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png, id=3799, 455.301pt x 208.78pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png  used on input line 102.
 (pdftex.def)             Requested size: 397.48499pt x 182.27425pt.
  [117 </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png, id=3808, 455.301pt x 257.763pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png, id=3812, 455.301pt x 257.763pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png  used on input line 125.
 (pdftex.def)             Requested size: 397.48499pt x 225.03864pt.
  (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino) [118 </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/LDR-led.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-read/ldr-read.ino [119]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/arduino/ldr-led/ldr-led.ino)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/ldr-scilab.tex [120] (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/scilab/ldr-read.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/scilab/ldr-read.sce) [121] (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/scilab/ldr-read.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/scilab/ldr-led.sce) [122]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG, id=3932, 257.46187pt x 304.13625pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG, id=3936, 257.46187pt x 304.13625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG  used on input line 131.
 (pdftex.def)             Requested size: 178.86702pt x 211.2975pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.PNG, id=3935, 1284.8pt x 571.13374pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.PNG, id=3939, 1284.8pt x 571.13374pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.PNG  used on input line 141.
@@ -1271,12 +1271,12 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr
 Underfull \vbox (badness 3849) has occurred while \output is active []
 
  [123 </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-xcos.PNG> </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-read-plot.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png, id=3946, 764.8575pt x 743.77875pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png, id=3950, 764.8575pt x 743.77875pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png  used on input line 194.
 (pdftex.def)             Requested size: 258.36281pt x 251.2358pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.PNG, id=3951, 1284.8pt x 571.13374pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.PNG, id=3955, 1284.8pt x 571.13374pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.PNG  used on input line 215.
@@ -1294,12 +1294,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [125 </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-2.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/figures/ldr-led-read-plot.png>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/python/ldr-read.py) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/python/ldr-read.py [126]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/python/ldr-read.py [127]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/python/ldr-led.py [128])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/ldr-julia.tex (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/julia/ldr-read.jl [129]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/julia/ldr-read.jl) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/julia/ldr-read.jl [130]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/julia/ldr-led.jl)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/ldr-OM.tex [131] (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-read.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-read.mo) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-read.mo [132]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/ldr/OpenModelica/ldr-led.mo [133])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/pot-base.tex [134]
 Chapter 7.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png, id=4229, 1576.38937pt x 1305.37688pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png, id=4233, 1576.38937pt x 1305.37688pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png  used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 148.11337pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png, id=4230, 415.5525pt x 417.56pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png, id=4234, 415.5525pt x 417.56pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png  used on input line 68.
@@ -1307,7 +1307,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot
 [135
 
 ] [136 </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/potmeter.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/schematic.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png, id=4247, 453.695pt x 243.309pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png, id=4251, 453.695pt x 243.309pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/POT-led-bb.png  used on input line 113.
@@ -1323,7 +1323,7 @@ Overfull \hbox (6.93184pt too wide) in paragraph at lines 39--43
  []
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/scilab/pot-threshold.sce) [140]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot-threshold-1.PNG, id=4350, 1008.76875pt x 719.68875pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot-threshold-1.PNG, id=4354, 1008.76875pt x 719.68875pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot-threshold-1.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot-threshold-1.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/pot/figures/pot-threshold-1.PNG  used on input line 60.
@@ -1356,22 +1356,22 @@ Overfull \hbox (24.30972pt too wide) in paragraph at lines 36--40
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/pot/OpenModelica/pot-threshold.mo [147])) (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/thermistor-base.tex [148]
 Chapter 8.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg, id=4553, 139.9629pt x 126.2316pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg, id=4558, 139.9629pt x 126.2316pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg  used on input line 70.
 (pdftex.def)             Requested size: 178.86702pt x 161.32933pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png, id=4556, 1284.8pt x 913.4125pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png, id=4561, 1284.8pt x 913.4125pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png  used on input line 73.
 (pdftex.def)             Requested size: 119.2467pt x 84.76808pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf, id=4557, 329.23pt x 422.57875pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf, id=4562, 329.23pt x 422.57875pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf Graphic file (type pdf)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf  used on input line 83.
 (pdftex.def)             Requested size: 178.86702pt x 229.58835pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf, id=4558, 307.1475pt x 366.36874pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf, id=4563, 307.1475pt x 366.36874pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf Graphic file (type pdf)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf  used on input line 87.
@@ -1382,12 +1382,12 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/the
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [150 </home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/NTC-bead.jpg> </home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-sym.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/THERMISTOR-Diagram-crop.pdf> </home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/BUZZER-Diagram-crop.pdf>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor.png, id=4588, 453.695pt x 236.885pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor.png, id=4593, 453.695pt x 236.885pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor.png  used on input line 110.
 (pdftex.def)             Requested size: 397.48499pt x 207.53772pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor-buzzer.png, id=4592, 453.695pt x 240.097pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor-buzzer.png, id=4597, 453.695pt x 240.097pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor-buzzer.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor-buzzer.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/thermistor-buzzer.png  used on input line 124.
@@ -1396,17 +1396,17 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/the
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
  [155] (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/scilab/therm-read.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/scilab/therm-read.sce) [156] (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/scilab/therm-buzzer.sce) [157] (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/scilab/therm-read.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/scilab/therm-buzzer.sce [158])
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png, id=4755, 617.30624pt x 548.0475pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png, id=4760, 617.30624pt x 548.0475pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read-xcos.png  used on input line 174.
 (pdftex.def)             Requested size: 194.76982pt x 172.91183pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read.png, id=4760, 632.3625pt x 529.98pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read.png, id=4765, 632.3625pt x 529.98pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-read.png  used on input line 207.
 (pdftex.def)             Requested size: 194.76982pt x 163.23271pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png, id=4763, 627.34375pt x 530.98375pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png, id=4768, 627.34375pt x 530.98375pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer-xcos.png  used on input line 226.
@@ -1416,7 +1416,7 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 248--268
  [][] 
  []
 
-</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer.png, id=4796, 612.2875pt x 589.20125pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer.png, id=4801, 612.2875pt x 589.20125pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/thermistor/figures/therm-buzzer.png  used on input line 272.
@@ -1426,18 +1426,18 @@ Chapter 9.
 [173
 
 ]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg, id=5119, 1110.0672pt x 508.7808pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg, id=5124, 1110.0672pt x 508.7808pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg  used on input line 82.
 (pdftex.def)             Requested size: 258.36281pt x 118.41452pt.
  [174 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-uno-shield.jpg>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png, id=5125, 446.468pt x 316.382pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png, id=5130, 446.468pt x 316.382pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-bb.png  used on input line 119.
 (pdftex.def)             Requested size: 357.73405pt x 253.51628pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png, id=5131, 446.468pt x 286.671pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png, id=5136, 446.468pt x 286.671pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot-bb.png  used on input line 133.
@@ -1448,24 +1448,24 @@ Overfull \hbox (2.47322pt too wide) in paragraph at lines 131--135
  []
 
 (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-reverse.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-loop.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/servo/scilab/servo-pot.sce [182])
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png, id=5336, 265.74281pt x 309.40594pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png, id=5341, 265.74281pt x 309.40594pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png  used on input line 170.
 (pdftex.def)             Requested size: 178.86702pt x 208.2593pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-reverse.png, id=5342, 244.66406pt x 281.55188pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-reverse.png, id=5347, 244.66406pt x 281.55188pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-reverse.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-reverse.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-reverse.png  used on input line 205.
 (pdftex.def)             Requested size: 178.86702pt x 205.84047pt.
  [183]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-loop.png, id=5366, 281.55188pt x 347.04657pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-loop.png, id=5372, 281.55188pt x 347.04657pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-loop.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-loop.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-loop.png  used on input line 243.
 (pdftex.def)             Requested size: 178.86702pt x 220.47803pt.
  [184 </home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-init.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot.png, id=5377, 286.06876pt x 292.09125pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot.png, id=5382, 286.06876pt x 292.09125pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/servo/figures/servo-pot.png  used on input line 285.
@@ -1482,24 +1482,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 10.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png, id=5874, 247.92625pt x 232.87pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png, id=5883, 247.92625pt x 232.87pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png  used on input line 68.
 (pdftex.def)             Requested size: 258.36281pt x 242.69075pt.
 [203]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/uno-pwm.jpg, id=5882, 426.8748pt x 319.9152pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/uno-pwm.jpg, id=5891, 426.8748pt x 319.9152pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/uno-pwm.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/uno-pwm.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/uno-pwm.jpg  used on input line 106.
 (pdftex.def)             Requested size: 258.36281pt x 193.63959pt.
  [204 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor_board.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png, id=5890, 415.5525pt x 467.7475pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png, id=5899, 415.5525pt x 467.7475pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png  used on input line 129.
 (pdftex.def)             Requested size: 178.86702pt x 201.33447pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg, id=5891, 2469.97781pt x 1973.12157pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg, id=5900, 2469.97781pt x 1973.12157pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg  used on input line 135.
@@ -1508,18 +1508,18 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcm
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
  [206 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/schematic.png> </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dc_motor_description.jpg>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-clock/dcmotor-clock.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-clock/dcmotor-clock.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-clock/dcmotor-clock.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-both/dcmotor-both.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-both/dcmotor-both.ino) [207] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-clock/dcmotor-clock.ino) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-both/dcmotor-both.ino [208]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/arduino/dcmotor-loop/dcmotor-loop.ino)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/dcmotor-scilab.tex [209] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-clock.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-clock.sce) [210] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-clock.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-clock.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-both.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-both.sce) [211] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-clock.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-both.sce) [212] (/home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/scilab/dcmotor-loop.sce)
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png, id=6078, 807.015pt x 738.76pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png, id=6087, 807.015pt x 738.76pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png  used on input line 294.
 (pdftex.def)             Requested size: 178.86702pt x 163.73386pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png, id=6084, 784.9325pt x 716.6775pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png, id=6093, 784.9325pt x 716.6775pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-both.png  used on input line 348.
 (pdftex.def)             Requested size: 178.86702pt x 163.3123pt.
  [213] [214 </home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-clock.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png, id=6120, 775.89874pt x 756.8275pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png, id=6129, 775.89874pt x 756.8275pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/dcmotor/figures/dcmotor-loop.png  used on input line 392.
@@ -1529,35 +1529,35 @@ Chapter 11.
 [231
 
 ]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png, id=6583, 672.5125pt x 224.84pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png, id=6593, 672.5125pt x 224.84pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png  used on input line 66.
 (pdftex.def)             Requested size: 357.73405pt x 119.60033pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png, id=6584, 360.34625pt x 375.4025pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png, id=6594, 360.34625pt x 375.4025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png  used on input line 74.
 (pdftex.def)             Requested size: 178.86702pt x 186.33748pt.
  [232 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig1.png (PNG copy)> </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig2.png (PNG copy)>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png, id=6593, 481.04718pt x 214.55156pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png, id=6602, 481.04718pt x 214.55156pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png  used on input line 120.
 (pdftex.def)             Requested size: 357.73405pt x 159.55464pt.
  [233 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/fig3.png (PNG copy)>] [234] [235] [236] [237]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG, id=6643, 398.23781pt x 255.95625pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG, id=6652, 398.23781pt x 255.95625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG  used on input line 419.
 (pdftex.def)             Requested size: 258.36281pt x 166.06104pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up.png, id=6644, 722.7pt x 542.025pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up.png, id=6653, 722.7pt x 542.025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/Full-Set-Up.png  used on input line 426.
 (pdftex.def)             Requested size: 258.36281pt x 193.77246pt.
  [238 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/block-diagram.PNG>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png, id=6657, 645.41125pt x 1114.1625pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png, id=6666, 645.41125pt x 1114.1625pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png  used on input line 465.
@@ -1566,38 +1566,38 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mod
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [240 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/arduino_code_flowchart.png (PNG copy)>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png, id=6674, 786.94pt x 800.9925pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png, id=6683, 786.94pt x 800.9925pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png  used on input line 491.
 (pdftex.def)             Requested size: 357.73405pt x 364.12216pt.
  (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/arduino/send_packet.ino)) (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/modbus-scilab.tex [241] [242 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/flowchart.png (PNG copy)>] (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_val.sce) (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_current.sci [243]) (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_voltage.sci) (/home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/scilab/read_active_power.sci) [244]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png, id=6764, 490.83376pt x 170.13562pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png, id=6773, 490.83376pt x 170.13562pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png  used on input line 143.
 (pdftex.def)             Requested size: 397.48499pt x 137.78313pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output-setup.jpg, id=6765, 277.035pt x 248.127pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output-setup.jpg, id=6774, 277.035pt x 248.127pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output-setup.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output-setup.jpg  used on input line 150.
 (pdftex.def)             Requested size: 258.36281pt x 231.40312pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output.png, id=6768, 487.8225pt x 155.07938pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output.png, id=6777, 487.8225pt x 155.07938pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output.png  used on input line 162.
 (pdftex.def)             Requested size: 397.48499pt x 126.36134pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg, id=6769, 261.1356pt x 269.808pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg, id=6778, 261.1356pt x 269.808pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/voltage-output-setup.jpg  used on input line 169.
 (pdftex.def)             Requested size: 258.36281pt x 266.95018pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output.png, id=6772, 492.33937pt x 185.94469pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output.png, id=6781, 492.33937pt x 185.94469pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output.png  used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 150.12634pt.
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg, id=6773, 306.9066pt x 264.99pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg, id=6782, 306.9066pt x 264.99pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/active-power-output-setup.jpg  used on input line 186.
@@ -1606,7 +1606,7 @@ Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/mod
 Underfull \vbox (badness 1642) has occurred while \output is active []
 
  [245 </home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/current-output.png>]
-</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_xcos.png, id=6784, 635.37375pt x 455.7025pt>
+</home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_xcos.png, id=6794, 635.37375pt x 455.7025pt>
 File: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_xcos.png>
 Package pdftex.def Info: /home/fossee/Desktop/floss-scilab-arduino/user-code/modbus/figures/read_value_xcos.png  used on input line 207.
@@ -1684,18 +1684,18 @@ Package rerunfilecheck Info: File `floss-arduino.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 17673 strings out of 481239
- 353169 string characters out of 5920377
- 820065 words of memory out of 5000000
+ 17682 strings out of 481239
+ 353318 string characters out of 5920377
+ 819065 words of memory out of 5000000
  27975 multiletter control sequences out of 15000+600000
  556115 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  50i,10n,53p,849b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (284 pages, 31980454 bytes).
+Output written on /home/fossee/Desktop/floss-scilab-arduino/floss-arduino.pdf (284 pages, 31980950 bytes).
 PDF statistics:
- 7845 PDF objects out of 8907 (max. 8388607)
- 7245 compressed objects within 73 object streams
- 3855 named destinations out of 4296 (max. 500000)
+ 7855 PDF objects out of 8907 (max. 8388607)
+ 7255 compressed objects within 73 object streams
+ 3864 named destinations out of 4296 (max. 500000)
  2297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

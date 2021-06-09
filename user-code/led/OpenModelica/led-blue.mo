@@ -8,6 +8,7 @@ model led_blue "Turn on Blue LED"
 algorithm
   when initial() then
     ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+    sComm.delay(2000);
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else

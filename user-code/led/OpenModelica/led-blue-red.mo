@@ -11,7 +11,8 @@ algorithm
     sComm.delay(2000);
     if ok <> 0 then
       strm.print("Check the serial port and try again");
-    else
+    else 
+      sComm.delay(2000);
       digital_out := sComm.cmd_digital_out(1, 9, 1) "This will turn ON the blue LED";
       digital_out := sComm.cmd_digital_out(1, 11, 1) "This will turn ON the red LED";
       sComm.delay(5000) "Delay for 5 seconds";

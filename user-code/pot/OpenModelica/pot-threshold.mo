@@ -9,6 +9,7 @@ model pot_threshold
 algorithm
   when initial() then
     ok := sComm.open_serial(1, 2, 115200) "At port 2 with baudrate of 115200";
+    sComm.delay(2000);
   end when;
   if ok <> 0 then
     strm.print("Unable to open serial port, please check");
@@ -23,7 +24,7 @@ algorithm
       digital_out := sComm.cmd_digital_out(1, 10, 1) "Turn ON LED";
       sComm.delay(1000);
       digital_out := sComm.cmd_digital_out(1, 10, 0) "Turn OFF LED";
-    elseif val > 900 and val <= 1023 then
+    elseif val >= 900 and val <= 1023 then
       digital_out := sComm.cmd_digital_out(1, 9, 1) "Turn ON LED";
       sComm.delay(1000);
       digital_out := sComm.cmd_digital_out(1, 9, 0) "Turn OFF LED";

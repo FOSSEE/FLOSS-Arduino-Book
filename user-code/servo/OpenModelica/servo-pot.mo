@@ -8,6 +8,7 @@ model servo_pot "Control Servo Motor using Potentiometer"
 algorithm
   when initial() then
     ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
+    sComm.delay(2000);
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
@@ -15,9 +16,9 @@ algorithm
       sComm.delay(2000);
       for i in 1:50 loop
         val := sComm.cmd_analog_in(1, 2) "Read potentiometer value";
-        val := integer(val * 180 / 1023);
+        val := integer(val * 180 / 1023) "Scale Potentiometer value to 0-180";
         sComm.cmd_servo_move(1, 1, val) "Command the servo motor";
-        sComm.delay(500) "sleep for 1000 milliseconds";
+        sComm.delay(500) "sleep for 500 milliseconds";
       end for;
       sComm.cmd_servo_detach(1, 1) "Detach the motor";
     end if;

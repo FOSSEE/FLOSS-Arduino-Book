@@ -9,7 +9,8 @@ algorithm
     ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
     if ok <> 0 then
       strm.print("Check the serial port and try again");
-    else
+    else 
+      sComm.delay(2000);
       sComm.cmd_servo_attach(1, 1) "To attach the motor to pin 5 of servo1";
       sComm.cmd_servo_move(1, 1, 30) "tell servo to rotate by 30 degrees";
       sComm.delay(1000);

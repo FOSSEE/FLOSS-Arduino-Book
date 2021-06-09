@@ -8,9 +8,11 @@ model servo_loop "Rotate servo motor by 20 degrees 10 times"
 algorithm
   when initial() then
     ok := sComm.open_serial(1, 2, 115200) "COM port is 2 and baud rate is 115200";
+    sComm.delay(2000);
     if ok <> 0 then
       strm.print("Check the serial port and try again");
     else
+      sComm.delay(2000);
       sComm.cmd_servo_attach(1, 1) "Attach motor to pin 5. 1 means pin 5.";
       sComm.delay(2000);
       angle := 20 "Angle by which it has to move";
