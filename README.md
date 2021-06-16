@@ -7,11 +7,11 @@ The books are as given below:
 * [Microcontroller programming with Arduino and OpenModelica](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/Microcontroller-programming-with-Arduino-and-OpenModelica.pdf)
 * [Microcontroller programming with Arduino and Python](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/Microcontroller-programming-with-Arduino-and-Python.pdf)
 
-The consolidated book (which covers all the four tools mentioned above) is available at [FLOSS-Arduino](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/floss-arduino.pdf), and the code mentioned in the book are available at [Origin](https://github.com/FOSSEE/FLOSS-Arduino-Book/tree/master/Origin). 
+The consolidated book (which covers all the four FLOSSs mentioned above) is available at [FLOSS-Arduino](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/floss-arduino.pdf), and the code mentioned in the book are available at [Origin](https://github.com/FOSSEE/FLOSS-Arduino-Book/tree/master/Origin). 
 
 
 ## Source files to compile the book 
-The books have been prepared using [LaTeX](https://github.com/FOSSEE/FLOSS-Arduino-Book/tree/master/Origin). The main LaTeX file is available [here](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/floss-arduino.tex). While compiling, one needs to modify the two paths (`Home` and `Origin`), as mentioned at the top of this file. 
+The books have been prepared using [LaTeX](https://www.latex-project.org/). The main LaTeX file is available [here](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/floss-arduino.tex). While compiling, one needs to modify the two paths (`Home` and `Origin`), as mentioned at the top of this file. 
 
 
 ## Reporting an issue 
