@@ -1,17 +1,15 @@
 \documentclass[a4paper,11pt]{book}
 
-% \newcommand{\Home}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
-% \newcommand{\Origin}
-% {/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Home}{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
+\newcommand{\Origin}{/Users/kannan/FOSS/scilab-arduino/floss-arduino-clone}
 
-\newcommand{\Home}{/home/fossee/Desktop/FLOSS-Arduino-Book}
-\newcommand{\Origin}{/home/fossee/Desktop/FLOSS-Arduino-Book}
+%\newcommand{\Home}{/home/fossee/Desktop/FLOSS-Arduino-Book}
+%\newcommand{\Origin}{/home/fossee/Desktop/FLOSS-Arduino-Book}
 
 \newcommand{\bluecolor}[1]{\color{blue}#1\color{black}}
 \usepackage{color}
 \usepackage{layouts}
-\usepackage{cclicenses}
+%\usepackage{ccicons}
 \usepackage{morefloats}
 \usepackage{paralist}
 \usepackage{chngcntr}
@@ -100,7 +98,7 @@
 % \let\EntireReport\undefined %% EntireReport is set to false
 % If the entire report is not prepared, choose one of scilab, python,
 % julia, or OM
-% \newcommand{\Software}{julia}
+%\newcommand{\Software}{OM}
 
 \newcommand{\sscilab}{scilab}
 \newcommand{\python}{python}
@@ -112,7 +110,15 @@
 \pagestyle{empty}
 \frontmatter
 \thispagestyle{empty}
-%\input{suppl/dedicate}
+\ifdefined\EntireReport
+    \input{suppl/title-all}
+\else
+    \ifx\Software\sscilab \input{suppl/title-scilab} \fi
+    \ifx\Software\python \input{suppl/title-python} \fi
+    \ifx\Software\julia \input{suppl/title-julia} \fi
+    \ifx\Software\OM \input{suppl/title-OM} \fi
+\fi
+\input{suppl/license.tex}
 \pagestyle{headings}
 \tableofcontents
 
