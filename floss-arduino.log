@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  21 JUN 2021 04:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  21 JUN 2021 08:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,32 +602,32 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./suppl/title-all.tex
-</Users/kannan/cdeep/talks/fossee_logo_hi.png, id=856, 753.2943pt x 277.9986pt>
-File: /Users/kannan/cdeep/talks/fossee_logo_hi.png Graphic file (type png)
-<use /Users/kannan/cdeep/talks/fossee_logo_hi.png>
-Package pdftex.def Info: /Users/kannan/cdeep/talks/fossee_logo_hi.png used on i
-nput line 14.
+<suppl/fossee_logo_hi.png, id=856, 753.2943pt x 277.9986pt>
+File: suppl/fossee_logo_hi.png Graphic file (type png)
+
+<use suppl/fossee_logo_hi.png>
+Package pdftex.def Info: suppl/fossee_logo_hi.png used on input line 13.
 (pdftex.def)             Requested size: 119.2467pt x 44.00558pt.
 
-</Users/kannan/cdeep/talks/IITB-logo-HighRes.png, id=858, 716.91461pt x 687.039
-22pt>
-File: /Users/kannan/cdeep/talks/IITB-logo-HighRes.png Graphic file (type png)
- <use /Users/kannan/cdeep/talks/IITB-logo-HighRes.png>
-Package pdftex.def Info: /Users/kannan/cdeep/talks/IITB-logo-HighRes.png used o
-n input line 16.
+<suppl/IITB-logo-HighRes.png, id=858, 716.91461pt x 687.03922pt>
+File: suppl/IITB-logo-HighRes.png Graphic file (type png)
+
+<use suppl/IITB-logo-HighRes.png>
+Package pdftex.def Info: suppl/IITB-logo-HighRes.png used on input line 14.
 (pdftex.def)             Requested size: 79.49577pt x 76.18257pt.
 
-<by-nc-sa.png, id=859, 97.0827pt x 33.9669pt>
-File: by-nc-sa.png Graphic file (type png)
- <use by-nc-sa.png>
-Package pdftex.def Info: by-nc-sa.png used on input line 20.
+<suppl/by-nc-sa.png, id=859, 97.0827pt x 33.9669pt>
+File: suppl/by-nc-sa.png Graphic file (type png)
+ <use suppl/by-nc-sa.png>
+Package pdftex.def Info: suppl/by-nc-sa.png used on input line 17.
 (pdftex.def)             Requested size: 59.62032pt x 20.85971pt.
- [1
+
+[1
 
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/
-kannan/cdeep/talks/fossee_logo_hi.png> </Users/kannan/cdeep/talks/IITB-logo-Hig
-hRes.png> <./by-nc-sa.png>]) (./suppl/license.tex [2
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./suppl
+/fossee_logo_hi.png> <./suppl/IITB-logo-HighRes.png> <./suppl/by-nc-sa.png>]) (
+./suppl/license.tex [2
 
 ]) (./floss-arduino.toc
 Overfull \hbox (60.41727pt too wide) detected at line 1
@@ -3102,8 +3102,8 @@ Package rerunfilecheck Info: File `floss-arduino.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  ) 
 Here is how much of TeX's memory you used:
- 16665 strings out of 492995
- 329628 string characters out of 6132705
+ 16664 strings out of 492995
+ 329466 string characters out of 6132705
  527591 words of memory out of 5000000
  15300 multiletter control sequences out of 15000+600000
  25723 words of font info for 57 fonts, out of 8000000 for 9000
