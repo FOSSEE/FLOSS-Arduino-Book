@@ -1,8 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: floss-arduino.aux
 The style file: unsrt.bst
-Database file #1: bibliography.bib.bib
+Database file #1: bibliography.bib
 You've used 27 entries,
             1791 wiz_defined-function locations,
             542 strings with 5999 characters,
