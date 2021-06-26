@@ -1,20 +1,20 @@
 # Fdb version 3
-["bibtex floss-arduino"] 1624605359 "floss-arduino.aux" "floss-arduino.bbl" "floss-arduino" 1624605370
+["bibtex floss-arduino"] 1624605359 "floss-arduino.aux" "floss-arduino.bbl" "floss-arduino" 1624612020
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   "bibliography.bib" 1620434363 6034 f6dc0004d2871e4ca7419c08dc204c04 ""
   "floss-arduino.aux" 1624605370 181679 a3b6beabbe9139ec35e4289aae1ef99c "pdflatex"
   (generated)
-  "floss-arduino.bbl"
   "floss-arduino.blg"
-["makeindex floss-arduino.idx"] 1624605348 "floss-arduino.idx" "floss-arduino.ind" "floss-arduino" 1624605370
+  "floss-arduino.bbl"
+["makeindex floss-arduino.idx"] 1624605348 "floss-arduino.idx" "floss-arduino.ind" "floss-arduino" 1624612020
   "floss-arduino.idx" 1624605370 237 2b0c63ab27d5c1b698757397b5c69953 "pdflatex"
   (generated)
   "floss-arduino.ilg"
   "floss-arduino.ind"
-["pdflatex"] 1624605359 "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.tex" "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.pdf" "floss-arduino" 1624605370
+["pdflatex"] 1624605359 "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.tex" "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.pdf" "floss-arduino" 1624612020
   "/etc/texmf/web2c/texmf.cnf" 1602253014 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.aux" 1624605370 181679 a3b6beabbe9139ec35e4289aae1ef99c ""
-  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.tex" 1624605336 7526 a01d4c5162f7e298c9ab16d15ea2ac4f ""
+  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.tex" 1624612019 7526 a01d4c5162f7e298c9ab16d15ea2ac4f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -171,7 +171,7 @@
   "floss-arduino.lot" 1624605370 4422 6f5139900d2e4a7028e2cf8a7e17c8fd "pdflatex"
   "floss-arduino.out" 1624605370 16111 5b3e12da3b8f1fd705d7aea671c7b61f "pdflatex"
   "floss-arduino.pyd" 1624605370 2593 f6953c6c110126e07da216023e95df49 "pdflatex"
-  "floss-arduino.tex" 1624605336 7526 a01d4c5162f7e298c9ab16d15ea2ac4f ""
+  "floss-arduino.tex" 1624612019 7526 a01d4c5162f7e298c9ab16d15ea2ac4f ""
   "floss-arduino.toc" 1624605370 21128 9c67780687daf54eeca8b9c495dc114f "pdflatex"
   "suppl/IITB-logo-HighRes.png" 1624246500 200217 01027e8bbcaf3f25de3bab2374d3adda ""
   "suppl/acr.tex" 1615963613 1926 fd6481c4666ee0d60331b7d4cc24b645 ""
@@ -457,19 +457,19 @@
   "user-code/thermistor/thermistor-python.tex" 1621730586 6690 dcd0b9c6629922cc2675da1a8eec8d97 ""
   "user-code/thermistor/thermistor-scilab.tex" 1621455775 15817 4f8b0a1727ee952a36196e611ce5308c ""
   (generated)
+  "floss-arduino.out"
+  "floss-arduino.pdf"
   "floss-arduino.idx"
-  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.pdf"
-  "floss-arduino.pyd"
+  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.log"
+  "floss-arduino.OpenModelicad"
+  "floss-arduino.log"
   "floss-arduino.thm"
-  "floss-arduino.lof"
+  "floss-arduino.ard"
+  "floss-arduino.juliad"
+  "floss-arduino.lot"
   "floss-arduino.aux"
   "floss-arduino.toc"
   "floss-arduino.cod"
-  "floss-arduino.ard"
-  "floss-arduino.OpenModelicad"
-  "floss-arduino.out"
-  "floss-arduino.log"
-  "floss-arduino.lot"
-  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.log"
-  "floss-arduino.juliad"
-  "floss-arduino.pdf"
+  "floss-arduino.lof"
+  "floss-arduino.pyd"
+  "/home/fossee/Desktop/FLOSS-Arduino-Book/floss-arduino.pdf"
