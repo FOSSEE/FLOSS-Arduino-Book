@@ -235,4 +235,5 @@
 \contentsline {section}{\numberline {11.12}Reading the electrical parameters from OpenModelica}{254}{section.11.12}%
 \contentsline {subsection}{\numberline {11.12.1}Reading the electrical parameters}{254}{subsection.11.12.1}%
 \contentsline {subsection}{\numberline {11.12.2}OpenModelica Code}{254}{subsection.11.12.2}%
-\contentsline {chapter}{\numberline {References}}{257}{chapter*.183}%
+\contentsline {chapter}{\numberline {A}About the Shield}{257}{appendix.A}%
+\contentsline {chapter}{\numberline {References}}{259}{appendix*.183}%
