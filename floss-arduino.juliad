@@ -1,30 +1,30 @@
-\contentsline {section}{\numberline {3.{1}}A Julia source file to check whether the firmware is properly installed or not}{55}{juliamass.3.1}
+\contentsline {section}{\numberline {3.{1}}A Julia source file to check whether the firmware is properly installed or not}{57}{juliamass.3.1}
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{87}{juliamass.4.1}
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{88}{juliamass.4.2}
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{88}{juliamass.4.3}
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{88}{juliamass.4.4}
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{89}{juliamass.4.1}
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{90}{juliamass.4.2}
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{90}{juliamass.4.3}
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{90}{juliamass.4.4}
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on Command Prompt or the Terminal.}{109}{juliamass.5.1}
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{109}{juliamass.5.2}
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on Command Prompt or the Terminal.}{111}{juliamass.5.1}
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{111}{juliamass.5.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{130}{juliamass.6.1}
-\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{131}{juliamass.6.2}
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{132}{juliamass.6.1}
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{133}{juliamass.6.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{145}{juliamass.7.1}
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{147}{juliamass.7.1}
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{168}{juliamass.8.1}
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{169}{juliamass.8.2}
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{170}{juliamass.8.1}
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{171}{juliamass.8.2}
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{194}{juliamass.9.1}
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{195}{juliamass.9.2}
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{195}{juliamass.9.3}
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{195}{juliamass.9.4}
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{196}{juliamass.9.1}
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{197}{juliamass.9.2}
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{197}{juliamass.9.3}
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{197}{juliamass.9.4}
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{224}{juliamass.10.1}
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{225}{juliamass.10.2}
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{225}{juliamass.10.3}
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{226}{juliamass.10.1}
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{227}{juliamass.10.2}
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{227}{juliamass.10.3}
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{252}{juliamass.11.1}
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{252}{juliamass.11.2}
-\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Active Power Output}{252}{juliamass.11.3}
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{254}{juliamass.11.1}
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{254}{juliamass.11.2}
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for Single Phase Active Power Output}{254}{juliamass.11.3}
