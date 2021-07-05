@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  1 JUL 2021 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.1)  5 JUL 2021 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,20 +530,20 @@ Writing index file floss-arduino.idx
 (./floss-arduino.aux)
 \openout1 = `floss-arduino.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -576,14 +576,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 109.
+Package layouts Warning: Layout scale set to 0.5 on input line 110.
 
 \AtBeginShipoutBox=\box34
 
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 110.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -593,15 +593,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 \c@section@level=\count275
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
 
 (./floss-arduino.out) (./floss-arduino.out)
 \@outlinefile=\write5
 \openout5 = `floss-arduino.out'.
 
-LaTeX Info: Redefining \Ref on input line 109.
+LaTeX Info: Redefining \Ref on input line 110.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
@@ -3055,12 +3055,12 @@ elica/readPower.mo)) (./suppl/appendix.tex [257] [258
 ]
 Appendix A.
 
-Underfull \hbox (badness 1558) in paragraph at lines 22--22
+Underfull \hbox (badness 1558) in paragraph at lines 23--23
 []\T1/cmr/m/n/10.95 Components for the shield,
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 24--25
+Underfull \hbox (badness 5878) in paragraph at lines 25--26
 []\T1/cmr/m/n/10.95 External ac-tu-a-tors (mo-tor,
  []
 
@@ -3116,15 +3116,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--146
 \tf@thm=\write14
 \openout14 = `floss-arduino.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
  [262]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (./floss-arduino.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `floss-arduino.out' has not changed.
 (rerunfilecheck)             Checksum: ABFFE68F306217455AED65C08CB91682;16259.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
  16698 strings out of 492995
@@ -3161,10 +3161,10 @@ r/sfrm1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
 sfsi1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
 ss1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti
 1095.pfb></Users/kannan/Library/texmf/fonts/type1/tfrupee/tfrupee.pfb>
-Output written on floss-arduino.pdf (290 pages, 32382343 bytes).
+Output written on floss-arduino.pdf (290 pages, 32381629 bytes).
 PDF statistics:
- 7912 PDF objects out of 8907 (max. 8388607)
- 7299 compressed objects within 73 object streams
+ 7913 PDF objects out of 8907 (max. 8388607)
+ 7300 compressed objects within 73 object streams
  3877 named destinations out of 4296 (max. 500000)
  2328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
