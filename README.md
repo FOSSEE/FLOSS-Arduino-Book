@@ -15,7 +15,7 @@ The books have been prepared using [LaTeX](https://www.latex-project.org/). The 
 
 
 ## Reporting an issue 
-Any issues faced while executing the code for running the experiments can be reported by opening a `New issue` in the repository. However, the readers are recommended to glance at the existing issues to check whether their issues have alraedy been reported / addressed. 
+Any issues faced while executing the code for running the experiments can be reported by opening a `New issue` in the repository. However, the readers are recommended to glance at the existing issues to check whether their issues have already been reported/addressed. One may also write to `FLOSS-arduino@fossee.in` for any queries.
 
 ## License 
 The soft-copy/electronic-version of these books is released under Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND)
