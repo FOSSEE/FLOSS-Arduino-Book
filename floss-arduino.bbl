@@ -144,4 +144,16 @@ Floating point converter.
 \newblock https://www.h-schmidt.net/FloatConverter/IEEE754.html.
 \newblock Seen on 6 May 2021.
 
+\bibitem{amazon-shield}
+Ecolight® sensor shield v-1.2 compatible with arduino uno r3.
+\newblock https://www.amazon.in/dp/B09G8BWDDD/.
+\newblock Seen on 8 Jan 2022.
+
+\bibitem{flipkart-shield}
+Ecolight sensor shield v-1.2 compatible with arduino uno educational electronic
+  hobby kit.
+\newblock
+  https://www.flipkart.com/ecolight-sensor-shield-v-1-2-compatible-arduino-uno-educational-electronic-hobby-kit/p/itm73d12ca9ae129.
+\newblock Seen on 8 Jan 2022.
+
 \end{thebibliography}
