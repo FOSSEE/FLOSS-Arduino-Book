@@ -122,6 +122,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/seqsplit/seqsplit.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/seqsplit/seqsplit.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /home/fossee/Desktop/FLOSS-Arduino-Book/suppl/styles.tex
 INPUT /home/fossee/Desktop/FLOSS-Arduino-Book/suppl/styles.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ntheorem/ntheorem.sty
