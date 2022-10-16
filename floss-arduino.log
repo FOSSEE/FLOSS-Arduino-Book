@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  17 SEP 2022 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  17 OCT 2022 01:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,10 +1232,7 @@ Package hyperref Info: bookmark level for unknown pymass defaults to 0 on input
  line 207.
 
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/python/test_firmware.py))
-(./user-code/sw-env/sw-env-julia.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
+(./user-code/sw-env/sw-env-julia.tex [48]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-downloa
 d.png, id=2335, 670.00313pt x 277.035pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-do
@@ -1243,7 +1240,7 @@ wnload.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-dow
 nload.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-download.png  used on input line 37.
+nv/figures/julia-download.png  used on input line 36.
 (pdftex.def)             Requested size: 397.48499pt x 164.34962pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-windows
 -install.png, id=2336, 756.8275pt x 632.3625pt>
@@ -1252,26 +1249,26 @@ ndows-install.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-win
 dows-install.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-windows-install.png  used on input line 44.
+nv/figures/julia-windows-install.png  used on input line 43.
 (pdftex.def)             Requested size: 258.36281pt x 215.86882pt.
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/windows-
 cmd.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/windows-c
 md.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/windows-cmd.png  used on input line 51.
+nv/figures/windows-cmd.png  used on input line 50.
 (pdftex.def)             Requested size: 258.36281pt x 152.75406pt.
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/win-comm
 and-prompt.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/win-comma
 nd-prompt.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/win-command-prompt.png  used on input line 58.
+nv/figures/win-command-prompt.png  used on input line 57.
 (pdftex.def)             Requested size: 258.36281pt x 55.19925pt.
-
-[49] [50 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/juli
-a-download.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figur
-es/julia-windows-install.png>] [51]
+ [49] [50 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/jul
+ia-download.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figu
+res/julia-windows-install.png>]
+[51]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-repl-wi
 ndows.png, id=2368, 1354.05875pt x 768.8725pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-re
@@ -1279,7 +1276,7 @@ pl-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-rep
 l-windows.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-repl-windows.png  used on input line 105.
+nv/figures/julia-repl-windows.png  used on input line 104.
 (pdftex.def)             Requested size: 397.48499pt x 225.70088pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg-win
 dows.png, id=2370, 1353.055pt x 768.8725pt>
@@ -1288,18 +1285,18 @@ g-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg
 -windows.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-pkg-windows.png  used on input line 114.
+nv/figures/julia-pkg-windows.png  used on input line 113.
 (pdftex.def)             Requested size: 397.48499pt x 225.86513pt.
  [52 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-re
 pl-windows.png>]
-Overfull \hbox (5.34262pt too wide) in paragraph at lines 138--140
+Overfull \hbox (5.34262pt too wide) in paragraph at lines 137--139
 []\T1/cmr/m/n/10.95 First, up-date your sys-tem. Open the Ter-mi-nal. Type \T1/
 fvm/m/n/10.95 sudo apt-get update
  []
 
 [53 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg
 -windows.png>]
-Overfull \hbox (12.2196pt too wide) in paragraph at lines 155--159
+Overfull \hbox (12.2196pt too wide) in paragraph at lines 154--158
 \T1/fvm/m/n/10.95 sudo ln -s /opt/julia-1.6.0/bin/julia /usr/local/bin/julia 
  []
 
@@ -1311,7 +1308,7 @@ rminal-repl.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-ter
 minal-repl.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-terminal-repl.png  used on input line 186.
+nv/figures/julia-terminal-repl.png  used on input line 185.
 (pdftex.def)             Requested size: 397.48499pt x 274.37646pt.
  [55 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-te
 rminal-repl.png>]
@@ -1322,12 +1319,12 @@ g.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg
 .png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
-nv/figures/julia-pkg.png  used on input line 216.
+nv/figures/julia-pkg.png  used on input line 215.
 (pdftex.def)             Requested size: 397.48499pt x 274.37646pt.
  [56 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pk
 g.png>]
 Package hyperref Info: bookmark level for unknown juliamass defaults to 0 on in
-put line 265.
+put line 264.
 
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/julia/test_firmware.jl [57]))
 (./user-code/sw-env/sw-env-OM.tex [58]
@@ -2915,7 +2912,7 @@ f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/tfrupee/tfrupee.pfb>
-Output written on floss-arduino.pdf (291 pages, 32375674 bytes).
+Output written on floss-arduino.pdf (291 pages, 32375622 bytes).
 PDF statistics:
  7928 PDF objects out of 8907 (max. 8388607)
  7314 compressed objects within 74 object streams
