@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  17 OCT 2022 01:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.5)  13 NOV 2022 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,22 +529,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./floss-arduino.aux)
 \openout1 = `floss-arduino.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -569,14 +569,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 
-Package layouts Warning: Layout scale set to 0.5 on input line 114.
+Package layouts Warning: Layout scale set to 0.5 on input line 117.
 
 \AtBeginShipoutBox=\box54
 
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 117.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -589,32 +589,32 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count346
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
 
 (./floss-arduino.out) (./floss-arduino.out)
 \@outlinefile=\write5
 \openout5 = `floss-arduino.out'.
 
-LaTeX Info: Redefining \Ref on input line 114.
+LaTeX Info: Redefining \Ref on input line 117.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count347
  (./suppl/title-all.tex
-<suppl/fossee_logo_hi.png, id=864, 753.2943pt x 277.9986pt>
+<suppl/fossee_logo_hi.png, id=868, 753.2943pt x 277.9986pt>
 File: suppl/fossee_logo_hi.png Graphic file (type png)
 <use suppl/fossee_logo_hi.png>
 Package pdftex.def Info: suppl/fossee_logo_hi.png  used on input line 13.
 (pdftex.def)             Requested size: 119.2467pt x 44.00558pt.
-<suppl/IITB-logo-HighRes.png, id=866, 716.91461pt x 687.03922pt>
+<suppl/IITB-logo-HighRes.png, id=870, 716.91461pt x 687.03922pt>
 File: suppl/IITB-logo-HighRes.png Graphic file (type png)
 <use suppl/IITB-logo-HighRes.png>
 Package pdftex.def Info: suppl/IITB-logo-HighRes.png  used on input line 14.
 (pdftex.def)             Requested size: 79.49577pt x 76.18257pt.
-<suppl/by-nc-nd.png, id=867, 97.0827pt x 33.9669pt>
+<suppl/by-nc-nd.png, id=871, 97.0827pt x 33.9669pt>
 File: suppl/by-nc-nd.png Graphic file (type png)
 <use suppl/by-nc-nd.png>
 Package pdftex.def Info: suppl/by-nc-nd.png  used on input line 17.
@@ -633,42 +633,47 @@ Overfull \hbox (1.74817pt too wide) in paragraph at lines 3--7
 [2
 
 ]) (./floss-arduino.toc
-Overfull \hbox (60.41727pt too wide) detected at line 1
+Overfull \hbox (24.23697pt too wide) detected at line 1
+\T1/cmr/bx/n/10.95 Preface 
+ []
+
+
+Overfull \hbox (60.41727pt too wide) detected at line 2
 \T1/cmr/bx/n/10.95 List of Figures 
  []
 
 
-Overfull \hbox (54.91568pt too wide) detected at line 2
+Overfull \hbox (54.91568pt too wide) detected at line 3
 \T1/cmr/bx/n/10.95 List of Tables 
  []
 
 
-Overfull \hbox (99.11014pt too wide) detected at line 3
+Overfull \hbox (99.11014pt too wide) detected at line 4
 \T1/cmr/bx/n/10.95 List of Arduino  Code 
  []
 
 
-Overfull \hbox (83.67537pt too wide) detected at line 4
+Overfull \hbox (83.67537pt too wide) detected at line 5
 \T1/cmr/bx/n/10.95 List of Scilab Code 
  []
 
 
-Overfull \hbox (94.12968pt too wide) detected at line 5
+Overfull \hbox (94.12968pt too wide) detected at line 6
 \T1/cmr/bx/n/10.95 List of Python  Code 
  []
 
 
-Overfull \hbox (77.6248pt too wide) detected at line 6
+Overfull \hbox (77.6248pt too wide) detected at line 7
 \T1/cmr/bx/n/10.95 List of Julia Code 
  []
 
 
-Overfull \hbox (130.26814pt too wide) detected at line 7
+Overfull \hbox (130.26814pt too wide) detected at line 8
 \T1/cmr/bx/n/10.95 List of OpenModelica Code 
  []
 
 
-Overfull \hbox (74.6947pt too wide) detected at line 9
+Overfull \hbox (74.6947pt too wide) detected at line 10
 \T1/cmr/bx/n/10.95 List of Acronyms 
  []
 
@@ -676,7 +681,7 @@ Overfull \hbox (74.6947pt too wide) detected at line 9
 
 
 ] [4] [5] [6] [7] [8]
-Overfull \hbox (42.2769pt too wide) detected at line 240
+Overfull \hbox (42.2769pt too wide) detected at line 241
 \T1/cmr/bx/n/10.95 References 
  []
 
@@ -684,64 +689,80 @@ Overfull \hbox (42.2769pt too wide) detected at line 240
 \tf@toc=\write6
 \openout6 = `floss-arduino.toc'.
 
- [9] [10
+ (./suppl/preface.tex [9] [10
 
-] (./floss-arduino.lof [11] [12]
+]
+Underfull \hbox (badness 5403) in paragraph at lines 16--17
+[]\T1/cmr/m/n/10.95 Microcontroller pro-gram-ming with Ar-duino and
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 39
+.
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+) [11]
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
+
+ []
+
+) [12] (./floss-arduino.lof [13
+
+] [14]
 Overfull \hbox (4.98741pt too wide) in paragraph at lines 93--93
  [][] [][]\T1/cmr/m/n/10.95 Turning LEDs on through Xcos de-pend-ing on the po-
 ten-tiome-ter thresh- 
  []
 
-[13])
+[15])
 \tf@lof=\write7
 \openout7 = `floss-arduino.lof'.
 
- [14] (./floss-arduino.lot [15
+ [16] (./floss-arduino.lot [17
 
 ])
 \tf@lot=\write8
 \openout8 = `floss-arduino.lot'.
 
- [16] (./floss-arduino.ard)
+ [18] (./floss-arduino.ard)
 \tf@ard=\write9
 \openout9 = `floss-arduino.ard'.
 
- [17
+ [19
 
-] [18
+] [20
 
 ]
-(./floss-arduino.cod [19])
+(./floss-arduino.cod [21])
 \tf@cod=\write10
 \openout10 = `floss-arduino.cod'.
 
- [20] (./floss-arduino.pyd [21
+ [22] (./floss-arduino.pyd [23
 
 ])
 \tf@pyd=\write11
 \openout11 = `floss-arduino.pyd'.
 
- [22]
+ [24]
 (./floss-arduino.juliad)
 \tf@juliad=\write12
 \openout12 = `floss-arduino.juliad'.
 
- [23
+ [25
 
-] [24] (./floss-arduino.OpenModelicad)
+] [26] (./floss-arduino.OpenModelicad)
 \tf@OpenModelicad=\write13
 \openout13 = `floss-arduino.OpenModelicad'.
 
 
-(./suppl/acr.tex [25
+(./suppl/acr.tex [27
 
-] [26])
+] [28])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [29
 
 ]
-[28] (./suppl/intro.tex
+[30] (./suppl/intro.tex
 Chapter 1.
 
 Overfull \hbox (16.66084pt too wide) in paragraph at lines 33--39
@@ -752,19 +773,13 @@ Overfull \hbox (16.66084pt too wide) in paragraph at lines 33--39
 [1
 
 
-]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 78
-.
- (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-))
-(./user-code/hw-env/hw-env.tex [2]
+]) (./user-code/hw-env/hw-env.tex [2]
 Chapter 2.
 [3
 
 ]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/miccontblk.pn
-g, id=1788, 419.6478pt x 413.3844pt>
+g, id=1803, 419.6478pt x 413.3844pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/miccontb
 lk.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/miccontbl
@@ -775,7 +790,7 @@ nv/figures/miccontblk.png  used on input line 50.
  [4 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/miccontbl
 k.png>] [5]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/resolution.pn
-g, id=1802, 207.77625pt x 330.23375pt>
+g, id=1817, 207.77625pt x 330.23375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/resoluti
 on.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/resolutio
@@ -786,7 +801,7 @@ nv/figures/resolution.png  used on input line 127.
  [6 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/resolutio
 n.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/OSHW-138px.pn
-g, id=1816, 138.5175pt x 145.54375pt>
+g, id=1831, 138.5175pt x 145.54375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/OSHW-138
 px.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/OSHW-138p
@@ -797,7 +812,7 @@ nv/figures/OSHW-138px.png  used on input line 182.
  [7 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/OSHW-138p
 x.png>] [8]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino.png, 
-id=1845, 585.18625pt x 221.82875pt>
+id=1862, 585.18625pt x 221.82875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino.p
@@ -811,7 +826,7 @@ Overfull \hbox (3.40561pt too wide) in paragraph at lines 261--281
  []
 
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/mega.jpg, id=
-1848, 481.8pt x 316.7835pt>
+1865, 481.8pt x 316.7835pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/mega.jpg
  Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/mega.jpg>
@@ -820,7 +835,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-e
 nv/figures/mega.jpg  used on input line 293.
 (pdftex.def)             Requested size: 258.36281pt x 169.87627pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/lily.jpg, id=
-1851, 321.2pt x 321.2pt>
+1868, 321.2pt x 321.2pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/lily.jpg
  Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/lily.jpg>
@@ -831,7 +846,7 @@ nv/figures/lily.jpg  used on input line 304.
 [9 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino.pn
 g>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-phone
-.jpg, id=1863, 230.15924pt x 153.5162pt>
+.jpg, id=1878, 230.15924pt x 153.5162pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-
 phone.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-p
@@ -842,7 +857,7 @@ nv/figures/arduino-phone.jpg  used on input line 323.
  [10 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/mega.jpg
 >]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-3d-pr
-inter.jpg, id=1873, 770.88pt x 364.36125pt>
+inter.jpg, id=1888, 770.88pt x 364.36125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-
 3d-printer.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-3
@@ -853,15 +868,15 @@ nv/figures/arduino-3d-printer.jpg  used on input line 337.
  [11 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/lily.jpg
 > </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-pho
 ne.jpg>]
-</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/pcb_board_V1p2.png, id=18
-88, 608.2725pt x 534.99875pt>
+</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/pcb_board_V1p2.png, id=19
+03, 608.2725pt x 534.99875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/pcb_board_V1p2.png G
 raphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/pcb_board_V1p2.png>
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/p
 cb_board_V1p2.png  used on input line 370.
 (pdftex.def)             Requested size: 258.36281pt x 227.24492pt.
-</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.png, id=1890,
+</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.png, id=1905,
  819.06pt x 599.23875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.png Grap
 hic file (type png)
@@ -869,7 +884,7 @@ hic file (type png)
 Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/s
 hield-V1p2.png  used on input line 379.
 (pdftex.def)             Requested size: 397.48499pt x 290.81331pt.
-</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.jpg, id=1892,
+</home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.jpg, id=1907,
  494.59781pt x 376.40625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/shield-V1p2.jpg Grap
 hic file (type jpg)
@@ -878,7 +893,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/tools/shield/s
 hield-V1p2.jpg  used on input line 388.
 (pdftex.def)             Requested size: 238.49341pt x 181.5pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/shield-crop.j
-pg, id=1898, 608.2725pt x 443.6575pt>
+pg, id=1913, 608.2725pt x 443.6575pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/shield-c
 rop.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/shield-cr
@@ -898,7 +913,7 @@ OSS-Arduino-Book/tools/shield/shield-V1p2.jpg>] [16 </home/fossee/Desktop/FLOSS
 Chapter 3.
 [19]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/hw-device-man
-ager.jpg, id=1952, 793.96625pt x 579.16376pt>
+ager.jpg, id=1968, 793.96625pt x 579.16376pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/hw-devic
 e-manager.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/hw-device
@@ -907,7 +922,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-e
 nv/figures/hw-device-manager.jpg  used on input line 110.
 (pdftex.def)             Requested size: 397.48499pt x 289.95233pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-manage
-r-com.png, id=1953, 1175.39125pt x 863.225pt>
+r-com.png, id=1969, 1175.39125pt x 863.225pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-m
 anager-com.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-ma
@@ -916,7 +931,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/device-manager-com.png  used on input line 117.
 (pdftex.def)             Requested size: 397.48499pt x 291.912pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/update-driver
-.png, id=1954, 635.37375pt x 423.5825pt>
+.png, id=1970, 635.37375pt x 423.5825pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/update-d
 river.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/update-dr
@@ -928,7 +943,7 @@ nv/figures/update-driver.png  used on input line 124.
 device-manager.jpg>] [22 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-
 env/figures/device-manager-com.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/launch-arduin
-o-opt.png, id=1990, 751.80875pt x 313.17pt>
+o-opt.png, id=2005, 751.80875pt x 313.17pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/launch-a
 rduino-opt.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/launch-ar
@@ -939,7 +954,7 @@ nv/figures/launch-arduino-opt.png  used on input line 219.
  [23 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/update-d
 river.png (PNG copy)>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-ide.j
-pg, id=2000, 856.19875pt x 657.45625pt>
+pg, id=2015, 856.19875pt x 657.45625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-
 ide.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/hw-env/figures/arduino-i
@@ -961,7 +976,7 @@ nput line 350.
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/floss-firmware/floss-firmware.in
 o)) (./user-code/sw-env/sw-env-scilab.tex [27] [28]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-cd.png,
- id=2076, 787.94376pt x 192.72pt>
+ id=2091, 787.94376pt x 192.72pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-cd
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-cd.
@@ -972,7 +987,7 @@ nv/figures/linux-cd.png  used on input line 75.
  [29 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-cd
 .png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/browse-direct
-ory.png, id=2088, 450.18187pt x 327.47343pt>
+ory.png, id=2103, 450.18187pt x 327.47343pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/browse-d
 irectory.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/browse-di
@@ -987,7 +1002,7 @@ Overfull \hbox (19.3647pt too wide) in paragraph at lines 114--124
  []
 
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/builder.png, 
-id=2091, 600.74437pt x 421.575pt>
+id=2106, 600.74437pt x 421.575pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/builder.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/builder.p
@@ -1004,7 +1019,7 @@ Overfull \hbox (1.53204pt too wide) in paragraph at lines 130--140
 [30 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/browse-di
 rectory.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/loader.png, i
-d=2102, 600.74437pt x 421.575pt>
+d=2117, 600.74437pt x 421.575pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/loader.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/loader.pn
@@ -1015,7 +1030,7 @@ nv/figures/loader.png  used on input line 152.
  [31 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/builder.
 png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-manage
-r.png, id=2110, 602.25pt x 451.6875pt>
+r.png, id=2126, 602.25pt x 451.6875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-m
 anager.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/device-ma
@@ -1024,7 +1039,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/device-manager.png  used on input line 180.
 (pdftex.def)             Requested size: 397.48499pt x 298.12845pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/com-propertie
-s.png, id=2114, 602.25pt x 451.6875pt>
+s.png, id=2130, 602.25pt x 451.6875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/com-prop
 erties.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/com-prope
@@ -1035,7 +1050,7 @@ nv/figures/com-properties.png  used on input line 201.
  [32 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/loader.p
 ng>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-port.pn
-g, id=2121, 634.37pt x 246.9225pt>
+g, id=2137, 634.37pt x 246.9225pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-po
 rt.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/linux-por
@@ -1056,7 +1071,7 @@ rties.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/li
 nux-port.png>]
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/scilab/test_firmware.sce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/test-console.
-png, id=2140, 600.74437pt x 421.575pt>
+png, id=2155, 600.74437pt x 421.575pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/test-con
 sole.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/test-cons
@@ -1065,7 +1080,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/test-console.png  used on input line 276.
 (pdftex.def)             Requested size: 300.37144pt x 210.78697pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/table_functio
-ns_crop.pdf, id=2143, 1055.945pt x 543.02875pt>
+ns_crop.pdf, id=2158, 1055.945pt x 543.02875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/table_fu
 nctions_crop.pdf Graphic file (type pdf)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/table_fun
@@ -1084,7 +1099,7 @@ sole.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/tab
 le_functions_crop.pdf>]
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/scilab/test_firmware.sce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-blk.png,
- id=2170, 376.40625pt x 376.40625pt>
+ id=2185, 376.40625pt x 376.40625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-blk
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-blk.
@@ -1096,7 +1111,7 @@ nv/figures/sine-blk.png  used on input line 351.
 [37] [38 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine
 -blk.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/plot-blk.png,
- id=2192, 310.15875pt x 109.1578pt>
+ id=2208, 310.15875pt x 109.1578pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/plot-blk
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/plot-blk.
@@ -1105,7 +1120,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/plot-blk.png  used on input line 403.
 (pdftex.def)             Requested size: 357.73405pt x 125.90192pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/clock-blk.png
-, id=2194, 307.90031pt x 108.405pt>
+, id=2210, 307.90031pt x 108.405pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/clock-bl
 k.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/clock-blk
@@ -1114,7 +1129,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/clock-blk.png  used on input line 417.
 (pdftex.def)             Requested size: 357.73405pt x 125.95995pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-gen.png,
- id=2196, 207.77625pt x 253.69781pt>
+ id=2212, 207.77625pt x 253.69781pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-gen
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-gen.
@@ -1126,7 +1141,7 @@ nv/figures/sine-gen.png  used on input line 438.
 .png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/clock-b
 lk.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-output.p
-ng, id=2203, 383.18156pt x 184.43906pt>
+ng, id=2218, 383.18156pt x 184.43906pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-out
 put.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-outp
@@ -1135,7 +1150,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/sine-output.png  used on input line 449.
 (pdftex.def)             Requested size: 258.36281pt x 124.36716pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/cscope-config
-.png, id=2205, 310.15875pt x 289.08pt>
+.png, id=2220, 310.15875pt x 289.08pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/cscope-c
 onfig.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/cscope-co
@@ -1153,7 +1168,7 @@ Overfull \hbox (0.16797pt too wide) in paragraph at lines 468--477
 png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sine-out
 put.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sim-setup.png
-, id=2211, 333.49594pt x 225.84375pt>
+, id=2226, 333.49594pt x 225.84375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sim-setu
 p.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/sim-setup
@@ -1167,7 +1182,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [41 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/cscope-c
 onfig.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/arduino-palet
-te.png, id=2218, 292.84406pt x 107.65219pt>
+te.png, id=2233, 292.84406pt x 107.65219pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/arduino-
 palette.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/arduino-p
@@ -1176,7 +1191,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/arduino-palette.png  used on input line 511.
 (pdftex.def)             Requested size: 258.36281pt x 94.98553pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/xcos-help.png
-, id=2219, 617.30624pt x 466.74374pt>
+, id=2234, 617.30624pt x 466.74374pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/xcos-hel
 p.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/xcos-help
@@ -1192,7 +1207,7 @@ p.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/arduin
 o-palette.png>] [43 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/f
 igures/xcos-help.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/python-window
-s-install.JPG, id=2232, 514.17094pt x 316.93407pt>
+s-install.JPG, id=2248, 514.17094pt x 316.93407pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/python-w
 indows-install.JPG Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/python-wi
@@ -1201,7 +1216,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/python-windows-install.JPG  used on input line 36.
 (pdftex.def)             Requested size: 258.36281pt x 159.25491pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/windows-cmd.p
-ng, id=2235, 572.1375pt x 338.26375pt>
+ng, id=2251, 572.1375pt x 338.26375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/windows-
 cmd.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/windows-c
@@ -1210,7 +1225,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/windows-cmd.png  used on input line 55.
 (pdftex.def)             Requested size: 258.36281pt x 152.75406pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/win-command-p
-rompt.png, id=2236, 1353.055pt x 289.08pt>
+rompt.png, id=2252, 1353.055pt x 289.08pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/win-comm
 and-prompt.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/win-comma
@@ -1234,7 +1249,7 @@ Package hyperref Info: bookmark level for unknown pymass defaults to 0 on input
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/python/test_firmware.py))
 (./user-code/sw-env/sw-env-julia.tex [48]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-downloa
-d.png, id=2335, 670.00313pt x 277.035pt>
+d.png, id=2350, 670.00313pt x 277.035pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-do
 wnload.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-dow
@@ -1243,7 +1258,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/julia-download.png  used on input line 36.
 (pdftex.def)             Requested size: 397.48499pt x 164.34962pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-windows
--install.png, id=2336, 756.8275pt x 632.3625pt>
+-install.png, id=2351, 756.8275pt x 632.3625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-wi
 ndows-install.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-win
@@ -1270,7 +1285,7 @@ ia-download.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figu
 res/julia-windows-install.png>]
 [51]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-repl-wi
-ndows.png, id=2368, 1354.05875pt x 768.8725pt>
+ndows.png, id=2383, 1354.05875pt x 768.8725pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-re
 pl-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-rep
@@ -1279,7 +1294,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/julia-repl-windows.png  used on input line 104.
 (pdftex.def)             Requested size: 397.48499pt x 225.70088pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg-win
-dows.png, id=2370, 1353.055pt x 768.8725pt>
+dows.png, id=2385, 1353.055pt x 768.8725pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pk
 g-windows.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg
@@ -1302,7 +1317,7 @@ Overfull \hbox (12.2196pt too wide) in paragraph at lines 154--158
 
 [54]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-termina
-l-repl.png, id=2401, 949.5475pt x 655.44875pt>
+l-repl.png, id=2417, 949.5475pt x 655.44875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-te
 rminal-repl.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-ter
@@ -1313,7 +1328,7 @@ nv/figures/julia-terminal-repl.png  used on input line 185.
  [55 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-te
 rminal-repl.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg.png
-, id=2413, 949.5475pt x 655.44875pt>
+, id=2429, 949.5475pt x 655.44875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pk
 g.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/julia-pkg
@@ -1329,7 +1344,7 @@ put line 264.
 (/home/fossee/Desktop/FLOSS-Arduino-Book/tools/julia/test_firmware.jl [57]))
 (./user-code/sw-env/sw-env-OM.tex [58]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/openmodelica-
-run-anyway.png, id=2457, 812.03375pt x 749.80125pt>
+run-anyway.png, id=2472, 812.03375pt x 749.80125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/openmode
 lica-run-anyway.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/openmodel
@@ -1344,7 +1359,7 @@ on-nec-tion Ed-i-tor (OMEdit)
  []
 
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-librar
-ies.png, id=2461, 664.4825pt x 546.04pt>
+ies.png, id=2476, 664.4825pt x 546.04pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-l
 ibraries.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-li
@@ -1362,7 +1377,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [60 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-l
 ibraries.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-UI.png
-, id=2481, 996.1215pt x 597.9138pt>
+, id=2496, 996.1215pt x 597.9138pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-U
 I.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/OMEdit-UI
@@ -1371,7 +1386,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/OMEdit-UI.png  used on input line 97.
 (pdftex.def)             Requested size: 397.48499pt x 238.5865pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-open-model
-.png, id=2483, 1087.06125pt x 792.9625pt>
+.png, id=2498, 1087.06125pt x 792.9625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-open-
 model.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-open-m
@@ -1380,7 +1395,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/om-open-model.png  used on input line 111.
 (pdftex.def)             Requested size: 397.48499pt x 289.94313pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-Modeling.p
-ng, id=2484, 1368.11125pt x 791.95876pt>
+ng, id=2499, 1368.11125pt x 791.95876pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-Model
 ing.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-Modeli
@@ -1389,7 +1404,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/om-Modeling.png  used on input line 118.
 (pdftex.def)             Requested size: 397.48499pt x 230.08511pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-modeling-v
-iews.png, id=2485, 673.01437pt x 373.395pt>
+iews.png, id=2500, 673.01437pt x 373.395pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-model
 ing-views.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-modeli
@@ -1398,7 +1413,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/om-modeling-views.png  used on input line 126.
 (pdftex.def)             Requested size: 397.48499pt x 220.52904pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-text-view.
-png, id=2486, 1370.11874pt x 796.9775pt>
+png, id=2501, 1370.11874pt x 796.9775pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-text-
 view.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-text-v
@@ -1408,7 +1423,7 @@ nv/figures/om-text-view.png  used on input line 134.
 (pdftex.def)             Requested size: 397.48499pt x 231.20267pt.
  [61]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-simulate.p
-ng, id=2502, 673.01437pt x 373.395pt>
+ng, id=2518, 673.01437pt x 373.395pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-simul
 ate.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-simula
@@ -1417,7 +1432,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-e
 nv/figures/om-simulate.png  used on input line 163.
 (pdftex.def)             Requested size: 397.48499pt x 220.52904pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-sim-succes
-s.png, id=2503, 647.41875pt x 516.93124pt>
+s.png, id=2519, 647.41875pt x 516.93124pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-sim-s
 uccess.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-sim-su
@@ -1464,7 +1479,7 @@ est_firmware.mo.
 [66 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-sim-su
 ccess.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-toolbox-lo
-aded.png, id=2545, 325.215pt x 735.74875pt>
+aded.png, id=2560, 325.215pt x 735.74875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-toolb
 ox-loaded.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/sw-env/figures/om-toolbo
@@ -1479,7 +1494,7 @@ Package hyperref Info: bookmark level for unknown OpenModelicamass defaults to
 are.mo [67])) (./user-code/led/led-base.tex [68 </home/fossee/Desktop/FLOSS-Ard
 uino-Book/user-code/sw-env/figures/om-toolbox-loaded.png>]
 Chapter 4.
-</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led.png, id=2586
+</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led.png, id=2602
 , 149.8097pt x 84.315pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led.png Gra
 phic file (type png)
@@ -1488,7 +1503,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/
 figures/led.png  used on input line 52.
 (pdftex.def)             Requested size: 79.49577pt x 44.74203pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/schematic.png, i
-d=2588, 415.5525pt x 456.70625pt>
+d=2604, 415.5525pt x 456.70625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/schematic.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/schematic.pn
@@ -1500,7 +1515,7 @@ figures/schematic.png  used on input line 65.
 
  </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/arduino-new-shie
-ld.jpeg, id=2595, 305.7021pt x 172.0026pt>
+ld.jpeg, id=2610, 305.7021pt x 172.0026pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/arduino-new
 -shield.jpeg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/arduino-new-
@@ -1513,7 +1528,7 @@ figures/arduino-new-shield.jpeg  used on input line 79.
 g> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/arduino-new-s
 hield.jpeg>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/rgb-led-bb.png, 
-id=2603, 451.286pt x 236.082pt>
+id=2618, 451.286pt x 236.082pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/rgb-led-bb.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/rgb-led-bb.p
@@ -1532,7 +1547,7 @@ ed-blue-delay.ino)
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/arduino/led-blue-delay/l
 ed-blue-delay.ino) [72]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led_output.png, 
-id=2633, 3035.34pt x 1947.275pt>
+id=2648, 3035.34pt x 1947.275pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led_output.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led_output.p
@@ -1572,7 +1587,7 @@ e [77])
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/scilab/led-green-blink.s
 ce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-com-2.p
-ng, id=2770, 766.865pt x 696.6025pt>
+ng, id=2785, 766.865pt x 696.6025pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-co
 m-2.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-com
@@ -1586,7 +1601,7 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 152--161
  []
 
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-delay-c
-om-2.png, id=2807, 848.16875pt x 694.595pt>
+om-2.png, id=2822, 848.16875pt x 694.595pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-de
 lay-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-del
@@ -1602,7 +1617,7 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 186--198
 [79 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-com
 -2.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-red-com
--2.png, id=2821, 829.0975pt x 805.0075pt>
+-2.png, id=2837, 829.0975pt x 805.0075pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-re
 d-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-red
@@ -1618,7 +1633,7 @@ Overfull \hbox (13.85292pt too wide) in paragraph at lines 225--242
 [80 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-blue-del
 ay-com-2.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-green-blink-
-com-2.png, id=2834, 869.2475pt x 678.535pt>
+com-2.png, id=2851, 869.2475pt x 678.535pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-green-b
 link-com-2.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/led/figures/led-green-bl
@@ -1687,7 +1702,7 @@ link.mo)) (./user-code/push/push-base.tex [95] [96
 ]
 Chapter 5.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/pushbutton-conn
-.png, id=3348, 415.5525pt x 438.63875pt>
+.png, id=3363, 415.5525pt x 438.63875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/pushbutton
 -conn.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/pushbutton-
@@ -1696,7 +1711,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push
 /figures/pushbutton-conn.png  used on input line 63.
 (pdftex.def)             Requested size: 178.86702pt x 188.80507pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch.png, id=
-3349, 453.695pt x 239.294pt>
+3364, 453.695pt x 239.294pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch.png>
@@ -1711,7 +1726,7 @@ Underfull \vbox (badness 3098) has occurred while \output is active []
 -conn.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/swit
 ch.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch-led.png,
- id=3362, 453.695pt x 266.596pt>
+ id=3378, 453.695pt x 266.596pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch-led
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/switch-led.
@@ -1745,7 +1760,7 @@ us.sce)
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/scilab/push-button-stat
 us.sce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/sci-ard-meter.p
-ng, id=3426, 428.60126pt x 442.65375pt>
+ng, id=3441, 428.60126pt x 442.65375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/sci-ard-me
 ter.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/sci-ard-met
@@ -1769,7 +1784,7 @@ Overfull \hbox (0.145pt too wide) in paragraph at lines 64--67
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/scilab/led-push-button.
 sce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/push-button-sta
-tus.PNG, id=3469, 264.99pt x 268.00125pt>
+tus.PNG, id=3485, 264.99pt x 268.00125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/push-butto
 n-status.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/push-button
@@ -1784,7 +1799,7 @@ Overfull \hbox (6.968pt too wide) in paragraph at lines 113--123
 
 [104]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/led-push-button
-.PNG, id=3497, 298.86656pt x 264.99pt>
+.PNG, id=3513, 298.86656pt x 264.99pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/led-push-b
 utton.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/push/figures/led-push-bu
@@ -1833,7 +1848,7 @@ utton.mo [114])) (./user-code/ldr/ldr-base.tex [115] [116
 
 ]
 Chapter 6.
-</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr.jpg, id=3822
+</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr.jpg, id=3838
 , 106.89937pt x 94.85437pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr.jpg Gra
 phic file (type jpg)
@@ -1842,7 +1857,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/
 figures/ldr.jpg  used on input line 62.
 (pdftex.def)             Requested size: 178.86702pt x 158.72462pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr_sym.png, id=
-3823, 1009.52156pt x 741.52031pt>
+3839, 1009.52156pt x 741.52031pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr_sym.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr_sym.png>
@@ -1851,7 +1866,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/
 figures/ldr_sym.png  used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 131.37468pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-conn.png, id
-=3824, 415.5525pt x 450.68375pt>
+=3840, 415.5525pt x 450.68375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-conn.pn
 g Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-conn.png
@@ -1870,7 +1885,7 @@ Underfull \vbox (badness 3333) has occurred while \output is active []
  [118 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr.jpg> <
 /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr_sym.png> </ho
 me/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-conn.png>]
-</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR.png, id=3838
+</home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR.png, id=3854
 , 455.301pt x 208.78pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR.png Gra
 phic file (type png)
@@ -1880,7 +1895,7 @@ figures/LDR.png  used on input line 102.
 (pdftex.def)             Requested size: 397.48499pt x 182.27425pt.
  [119 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR-led.png, id=
-3852, 455.301pt x 257.763pt>
+3867, 455.301pt x 257.763pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR-led.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/LDR-led.png>
@@ -1907,7 +1922,7 @@ ino)) (./user-code/ldr/ldr-scilab.tex [122]
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/scilab/ldr-led.sce)
 [124]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-xcos.PN
-G, id=3975, 257.46187pt x 304.13625pt>
+G, id=3990, 257.46187pt x 304.13625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-xc
 os.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-xco
@@ -1916,7 +1931,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/
 figures/ldr-read-xcos.PNG  used on input line 131.
 (pdftex.def)             Requested size: 178.86702pt x 211.2975pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-plot.PN
-G, id=3978, 1284.8pt x 571.13374pt>
+G, id=3993, 1284.8pt x 571.13374pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-pl
 ot.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-read-plo
@@ -1931,7 +1946,7 @@ Underfull \vbox (badness 3849) has occurred while \output is active []
 cos.PNG> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-rea
 d-plot.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-2.png, i
-d=3989, 764.8575pt x 743.77875pt>
+d=4004, 764.8575pt x 743.77875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-2.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-2.pn
@@ -1940,7 +1955,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/
 figures/ldr-led-2.png  used on input line 194.
 (pdftex.def)             Requested size: 258.36281pt x 251.2358pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-read-plo
-t.PNG, id=3994, 1284.8pt x 571.13374pt>
+t.PNG, id=4009, 1284.8pt x 571.13374pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-rea
 d-plot.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ldr/figures/ldr-led-read
@@ -1983,7 +1998,7 @@ read.py)
 [135])) (./user-code/pot/pot-base.tex [136]
 Chapter 7.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/potmeter.png, id
-=4273, 1576.38937pt x 1305.37688pt>
+=4288, 1576.38937pt x 1305.37688pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/potmeter.pn
 g Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/potmeter.png
@@ -1992,7 +2007,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/
 figures/potmeter.png  used on input line 65.
 (pdftex.def)             Requested size: 178.86702pt x 148.11337pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/schematic.png, i
-d=4274, 415.5525pt x 417.56pt>
+d=4289, 415.5525pt x 417.56pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/schematic.p
 ng Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/schematic.pn
@@ -2006,7 +2021,7 @@ figures/schematic.png  used on input line 68.
 png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/schematic.p
 ng>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/POT-led-bb.png, 
-id=4290, 453.695pt x 243.309pt>
+id=4305, 453.695pt x 243.309pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/POT-led-bb.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/POT-led-bb.p
@@ -2040,7 +2055,7 @@ old. Avail-
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/scilab/pot-threshold.sce
 ) [142]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/pot-threshold-1.
-PNG, id=4393, 1008.76875pt x 719.68875pt>
+PNG, id=4408, 1008.76875pt x 719.68875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/pot-thresho
 ld-1.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/pot/figures/pot-threshol
@@ -2094,7 +2109,7 @@ Ex-am-ples -> pot -> pot_threshold.
 ld.mo [149])) (./user-code/thermistor/thermistor-base.tex [150]
 Chapter 8.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/NTC-bead.
-jpg, id=4597, 139.9629pt x 126.2316pt>
+jpg, id=4612, 139.9629pt x 126.2316pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/NTC-
 bead.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/NTC-b
@@ -2103,7 +2118,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/NTC-bead.jpg  used on input line 70.
 (pdftex.def)             Requested size: 178.86702pt x 161.32933pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm-sym
-.png, id=4600, 1284.8pt x 913.4125pt>
+.png, id=4615, 1284.8pt x 913.4125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 m-sym.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2112,7 +2127,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/therm-sym.png  used on input line 73.
 (pdftex.def)             Requested size: 119.2467pt x 84.76808pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/THERMISTO
-R-Diagram-crop.pdf, id=4601, 329.23pt x 422.57875pt>
+R-Diagram-crop.pdf, id=4616, 329.23pt x 422.57875pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/THER
 MISTOR-Diagram-crop.pdf Graphic file (type pdf)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/THERM
@@ -2121,7 +2136,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/THERMISTOR-Diagram-crop.pdf  used on input line 83.
 (pdftex.def)             Requested size: 178.86702pt x 229.58835pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/BUZZER-Di
-agram-crop.pdf, id=4602, 307.1475pt x 366.36874pt>
+agram-crop.pdf, id=4617, 307.1475pt x 366.36874pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/BUZZ
 ER-Diagram-crop.pdf Graphic file (type pdf)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/BUZZE
@@ -2140,7 +2155,7 @@ s/therm-sym.png> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/
 figures/THERMISTOR-Diagram-crop.pdf> </home/fossee/Desktop/FLOSS-Arduino-Book/u
 ser-code/thermistor/figures/BUZZER-Diagram-crop.pdf>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/thermisto
-r.png, id=4631, 453.695pt x 236.885pt>
+r.png, id=4647, 453.695pt x 236.885pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 mistor.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2149,7 +2164,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/thermistor.png  used on input line 110.
 (pdftex.def)             Requested size: 397.48499pt x 207.53772pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/thermisto
-r-buzzer.png, id=4635, 453.695pt x 240.097pt>
+r-buzzer.png, id=4651, 453.695pt x 240.097pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 mistor-buzzer.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2186,7 +2201,7 @@ er.sce) [159]
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/scilab/therm-buzz
 er.sce [160])
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm-rea
-d-xcos.png, id=4799, 617.30624pt x 548.0475pt>
+d-xcos.png, id=4814, 617.30624pt x 548.0475pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 m-read-xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2195,7 +2210,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/therm-read-xcos.png  used on input line 174.
 (pdftex.def)             Requested size: 194.76982pt x 172.91183pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm-rea
-d.png, id=4804, 632.3625pt x 529.98pt>
+d.png, id=4819, 632.3625pt x 529.98pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 m-read.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2204,7 +2219,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/ther
 mistor/figures/therm-read.png  used on input line 207.
 (pdftex.def)             Requested size: 194.76982pt x 163.23271pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm-buz
-zer-xcos.png, id=4807, 627.34375pt x 530.98375pt>
+zer-xcos.png, id=4822, 627.34375pt x 530.98375pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 m-buzzer-xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2219,7 +2234,7 @@ Overfull \hbox (4.77844pt too wide) in paragraph at lines 248--268
  []
 
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm-buz
-zer.png, id=4840, 612.2875pt x 589.20125pt>
+zer.png, id=4855, 612.2875pt x 589.20125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/ther
 m-buzzer.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/thermistor/figures/therm
@@ -2267,7 +2282,7 @@ Chapter 9.
 
 ]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-uno-shie
-ld.jpg, id=5162, 1110.0672pt x 508.7808pt>
+ld.jpg, id=5178, 1110.0672pt x 508.7808pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-uno
 -shield.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-uno-
@@ -2278,7 +2293,7 @@ o/figures/servo-uno-shield.jpg  used on input line 82.
  [176 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-un
 o-shield.jpg>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-bb.png, 
-id=5168, 446.468pt x 316.382pt>
+id=5185, 446.468pt x 316.382pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-bb.
 png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-bb.p
@@ -2287,7 +2302,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/serv
 o/figures/servo-bb.png  used on input line 119.
 (pdftex.def)             Requested size: 357.73405pt x 253.51628pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot-bb.p
-ng, id=5174, 446.468pt x 286.671pt>
+ng, id=5191, 446.468pt x 286.671pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot
 -bb.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot-
@@ -2339,7 +2354,7 @@ ce)
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/scilab/servo-pot.sce
 [184])
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-init.png
-, id=5381, 265.74281pt x 309.40594pt>
+, id=5396, 265.74281pt x 309.40594pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-ini
 t.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-init
@@ -2348,7 +2363,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/serv
 o/figures/servo-init.png  used on input line 170.
 (pdftex.def)             Requested size: 178.86702pt x 208.2593pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-reverse.
-png, id=5387, 244.66406pt x 281.55188pt>
+png, id=5402, 244.66406pt x 281.55188pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-rev
 erse.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-reve
@@ -2358,7 +2373,7 @@ o/figures/servo-reverse.png  used on input line 205.
 (pdftex.def)             Requested size: 178.86702pt x 205.84047pt.
  [185]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-loop.png
-, id=5411, 281.55188pt x 347.04657pt>
+, id=5426, 281.55188pt x 347.04657pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-loo
 p.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-loop
@@ -2369,7 +2384,7 @@ o/figures/servo-loop.png  used on input line 243.
  [186 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-in
 it.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot.png,
- id=5421, 286.06876pt x 292.09125pt>
+ id=5436, 286.06876pt x 292.09125pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot
 .png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/servo/figures/servo-pot.
@@ -2434,7 +2449,7 @@ p.mo [201])
 ]
 Chapter 10.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor_boar
-d.png, id=5922, 247.92625pt x 232.87pt>
+d.png, id=5937, 247.92625pt x 232.87pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor
 _board.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor_
@@ -2444,7 +2459,7 @@ tor/figures/dcmotor_board.png  used on input line 68.
 (pdftex.def)             Requested size: 258.36281pt x 242.69075pt.
 [205]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/uno-pwm.jpg,
- id=5929, 426.8748pt x 319.9152pt>
+ id=5945, 426.8748pt x 319.9152pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/uno-pwm
 .jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/uno-pwm.
@@ -2455,7 +2470,7 @@ tor/figures/uno-pwm.jpg  used on input line 106.
  [206 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmoto
 r_board.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/schematic.pn
-g, id=5937, 415.5525pt x 467.7475pt>
+g, id=5953, 415.5525pt x 467.7475pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/schemat
 ic.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/schemati
@@ -2464,7 +2479,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmo
 tor/figures/schematic.png  used on input line 129.
 (pdftex.def)             Requested size: 178.86702pt x 201.33447pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dc_motor_des
-cription.jpg, id=5938, 2469.97781pt x 1973.12157pt>
+cription.jpg, id=5954, 2469.97781pt x 1973.12157pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dc_moto
 r_description.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dc_motor
@@ -2514,7 +2529,7 @@ sce) [214]
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/scilab/dcmotor-loop.
 sce)
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-cloc
-k.png, id=6126, 807.015pt x 738.76pt>
+k.png, id=6141, 807.015pt x 738.76pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor
 -clock.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-
@@ -2523,7 +2538,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmo
 tor/figures/dcmotor-clock.png  used on input line 294.
 (pdftex.def)             Requested size: 178.86702pt x 163.73386pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-both
-.png, id=6132, 784.9325pt x 716.6775pt>
+.png, id=6147, 784.9325pt x 716.6775pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor
 -both.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-
@@ -2534,7 +2549,7 @@ tor/figures/dcmotor-both.png  used on input line 348.
  [215] [216 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/
 dcmotor-clock.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-loop
-.png, id=6168, 775.89874pt x 756.8275pt>
+.png, id=6183, 775.89874pt x 756.8275pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor
 -loop.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/dcmotor/figures/dcmotor-
@@ -2605,7 +2620,7 @@ Chapter 11.
 
 ]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig1.png, id=
-6632, 672.5125pt x 224.84pt>
+6647, 672.5125pt x 224.84pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig1.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig1.png>
@@ -2614,7 +2629,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/fig1.png  used on input line 66.
 (pdftex.def)             Requested size: 357.73405pt x 119.60033pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig2.png, id=
-6633, 360.34625pt x 375.4025pt>
+6648, 360.34625pt x 375.4025pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig2.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig2.png>
@@ -2626,7 +2641,7 @@ us/figures/fig2.png  used on input line 74.
 g (PNG copy)> </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures
 /fig2.png (PNG copy)>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig3.png, id=
-6641, 481.04718pt x 214.55156pt>
+6656, 481.04718pt x 214.55156pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig3.png
  Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig3.png>
@@ -2637,7 +2652,7 @@ us/figures/fig3.png  used on input line 120.
  [235 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/fig3.pn
 g (PNG copy)>] [236] [237] [238] [239]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/block-diagram
-.PNG, id=6691, 398.23781pt x 255.95625pt>
+.PNG, id=6707, 398.23781pt x 255.95625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/block-di
 agram.PNG Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/block-dia
@@ -2646,7 +2661,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/block-diagram.PNG  used on input line 419.
 (pdftex.def)             Requested size: 258.36281pt x 166.06104pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/Full-Set-Up.p
-ng, id=6692, 722.7pt x 542.025pt>
+ng, id=6708, 722.7pt x 542.025pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/Full-Set
 -Up.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/Full-Set-
@@ -2657,7 +2672,7 @@ us/figures/Full-Set-Up.png  used on input line 426.
  [240 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/block-d
 iagram.PNG>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/arduino_code_
-flowchart.png, id=6706, 645.41125pt x 1114.1625pt>
+flowchart.png, id=6721, 645.41125pt x 1114.1625pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/arduino_
 code_flowchart.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/arduino_c
@@ -2673,7 +2688,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [242 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/arduino
 _code_flowchart.png (PNG copy)>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/flowchart.png
-, id=6722, 786.94pt x 800.9925pt>
+, id=6738, 786.94pt x 800.9925pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/flowchar
 t.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/flowchart
@@ -2693,7 +2708,7 @@ ci)
 (/home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/scilab/read_active_po
 wer.sci) [246]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-outpu
-t.png, id=6813, 490.83376pt x 170.13562pt>
+t.png, id=6828, 490.83376pt x 170.13562pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-
 output.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-o
@@ -2702,7 +2717,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/current-output.png  used on input line 143.
 (pdftex.def)             Requested size: 397.48499pt x 137.78313pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-outpu
-t-setup.jpg, id=6814, 277.035pt x 248.127pt>
+t-setup.jpg, id=6829, 277.035pt x 248.127pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-
 output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current-o
@@ -2711,7 +2726,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/current-output-setup.jpg  used on input line 150.
 (pdftex.def)             Requested size: 258.36281pt x 231.40312pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-outpu
-t.png, id=6817, 487.8225pt x 155.07938pt>
+t.png, id=6832, 487.8225pt x 155.07938pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-
 output.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-o
@@ -2720,7 +2735,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/voltage-output.png  used on input line 162.
 (pdftex.def)             Requested size: 397.48499pt x 126.36134pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-outpu
-t-setup.jpg, id=6818, 261.1356pt x 269.808pt>
+t-setup.jpg, id=6833, 261.1356pt x 269.808pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-
 output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/voltage-o
@@ -2729,7 +2744,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/voltage-output-setup.jpg  used on input line 169.
 (pdftex.def)             Requested size: 258.36281pt x 266.95018pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-power-
-output.png, id=6821, 492.33937pt x 185.94469pt>
+output.png, id=6836, 492.33937pt x 185.94469pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-p
 ower-output.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-po
@@ -2738,7 +2753,7 @@ Package pdftex.def Info: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modb
 us/figures/active-power-output.png  used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 150.12634pt.
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-power-
-output-setup.jpg, id=6822, 306.9066pt x 264.99pt>
+output-setup.jpg, id=6837, 306.9066pt x 264.99pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-p
 ower-output-setup.jpg Graphic file (type jpg)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/active-po
@@ -2752,7 +2767,7 @@ Underfull \vbox (badness 1642) has occurred while \output is active []
  [247 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/current
 -output.png>]
 </home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/read_value_xc
-os.png, id=6832, 635.37375pt x 455.7025pt>
+os.png, id=6848, 635.37375pt x 455.7025pt>
 File: /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/read_val
 ue_xcos.png Graphic file (type png)
 <use /home/fossee/Desktop/FLOSS-Arduino-Book/user-code/modbus/figures/read_valu
@@ -2871,23 +2886,23 @@ ld v-1.2 com-pat-i-ble with ar-duino uno r3.
 \tf@thm=\write14
 \openout14 = `floss-arduino.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
  [263]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./floss-arduino.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `floss-arduino.out' has not changed.
-(rerunfilecheck)             Checksum: ABFFE68F306217455AED65C08CB91682;16259.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+(rerunfilecheck)             Checksum: 2FBAB44F63C640F24AD1E63867AB79A3;16298.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 17674 strings out of 481239
- 345671 string characters out of 5920377
- 817931 words of memory out of 5000000
- 27948 multiletter control sequences out of 15000+600000
+ 17683 strings out of 481239
+ 345781 string characters out of 5920377
+ 817932 words of memory out of 5000000
+ 27950 multiletter control sequences out of 15000+600000
  556543 words of font info for 73 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  50i,10n,53p,807b,1947s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/
@@ -2912,10 +2927,10 @@ f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/tfrupee/tfrupee.pfb>
-Output written on floss-arduino.pdf (291 pages, 32375622 bytes).
+Output written on floss-arduino.pdf (293 pages, 32379286 bytes).
 PDF statistics:
- 7928 PDF objects out of 8907 (max. 8388607)
- 7314 compressed objects within 74 object streams
- 3881 named destinations out of 4296 (max. 500000)
- 2328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7944 PDF objects out of 8907 (max. 8388607)
+ 7328 compressed objects within 74 object streams
+ 3884 named destinations out of 4296 (max. 500000)
+ 2336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

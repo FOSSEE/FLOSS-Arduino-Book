@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book [
 <!--Begin Entities-->
-<!ENTITY a09f87684776f20ad0dc05ee5c3113239 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/ANALOG_READ_SB.xml">
-<!ENTITY ab932dea47c27fb2fce54c88a6ee32a77 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/ANALOG_WRITE_SB.xml">
-<!ENTITY a7456951c81703447dc50bba9d4b9a2e0 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/ARDUINO_SETUP.xml">
-<!ENTITY a391d28605967d4e89ae9c0bded26d0f9 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/DCMOTOR_SB.xml">
-<!ENTITY a8037b2500be1f98f2fcb9e05abaf6be6 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/DIGITAL_READ_SB.xml">
-<!ENTITY a808f10b53873bc73bc0f79fd4235c1b5 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/DIGITAL_WRITE_SB.xml">
-<!ENTITY ad85d8bcc7672a7bdbde6ea0488903679 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/ENCODER_SB.xml">
-<!ENTITY aa702da4c82dd12aa90bde13bf5b1a10d SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/INTERRUPT_SB.xml">
-<!ENTITY a6c5d13471016315a62eea33b123847fb SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/SERVO_WRITE_SB.xml">
-<!ENTITY a980bb6ebc1eab08d057966d3d2133e95 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/TIME_SAMPLE.xml">
-<!ENTITY a8c7c54d1b05b847fee4c000e1dced771 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/close_serial.xml">
-<!ENTITY a41525798a65670612b570f88d5e44ab8 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_analog_in.xml">
-<!ENTITY af052af97d8ed5e91743d2be3f62b2e41 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_analog_in_volt.xml">
-<!ENTITY ad7980727d5da972ce84f0e231cbe1fd8 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_analog_out.xml">
-<!ENTITY a47201a688c1ef6b63a839767117c87cb SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_analog_out_volt.xml">
-<!ENTITY a361ea49aa87b54ef6a1167399c869094 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_arduino_a_control.xml">
-<!ENTITY a287226a4ce675bfdedf8b0e1b187fc86 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_arduino_d_control.xml">
-<!ENTITY a7722556a3ee9f1626d824ee80fd7f24c SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_arduino_meter.xml">
-<!ENTITY a0ce24c6dfcdc5e75a404d107011ce404 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_dcmotor_release.xml">
-<!ENTITY a090247425f10099ceb255b2518f701bc SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_dcmotor_run.xml">
-<!ENTITY a0f1ae730a3e10d95b05fe2d18d43fcd8 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_dcmotor_setup.xml">
-<!ENTITY a065f5a59eda1db329ea7361baeb7769f SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_digital_in.xml">
-<!ENTITY aeed0e7a3c58bceea460669c99a64cb85 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_digital_out.xml">
-<!ENTITY aeef33ef0b14b0b4a785949297e6fc52c SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_servo_attach.xml">
-<!ENTITY a6d6cc6ce6b782a4853fc30df829e03d6 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_servo_detach.xml">
-<!ENTITY a5c64817358edd38d5b63f2b8abe70fa2 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/cmd_servo_move.xml">
-<!ENTITY a638c0a30453e51f19692c387040c0c90 SYSTEM "/home/fossee/Desktop/floss-scilab-arduino/tools/scilab/linux/help/en_US/open_serial.xml">
+<!ENTITY ad7d0b41b26cd407c3de77cbdc71a7684 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/ANALOG_READ_SB.xml">
+<!ENTITY a2e299c52520892b11598ce442e841e42 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/ANALOG_WRITE_SB.xml">
+<!ENTITY adea783358a6ad89576dff73d6ad0f610 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/ARDUINO_SETUP.xml">
+<!ENTITY a04d883b86feba55b58b1681807536bdd SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/DCMOTOR_SB.xml">
+<!ENTITY ab5110fe0632666aba28064f656db9294 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/DIGITAL_READ_SB.xml">
+<!ENTITY a6dd9f266c88e722bd32797e506ea0ab1 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/DIGITAL_WRITE_SB.xml">
+<!ENTITY a4ba635b493adfa2052ecdd152fddd8e5 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/ENCODER_SB.xml">
+<!ENTITY a2e17485de10591c4bb9d46e48f9de7cf SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/INTERRUPT_SB.xml">
+<!ENTITY a4b05b8ded1a13b737a8b1436348e09a5 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/SERVO_WRITE_SB.xml">
+<!ENTITY a5b51a122765f5de017d2e013d2d9d8be SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/TIME_SAMPLE.xml">
+<!ENTITY a8de2a9c713a78586715a30f0f684d80f SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/close_serial.xml">
+<!ENTITY a138e3684b6106e365f26302eb6e5ec04 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_analog_in.xml">
+<!ENTITY a9ad137166d371c20d5e7144d6393d9f5 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_analog_in_volt.xml">
+<!ENTITY a1f296f3a9cc77f064a34e44da6df3e71 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_analog_out.xml">
+<!ENTITY aa02d166fe7b2209347c792c2ae040a41 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_analog_out_volt.xml">
+<!ENTITY a32660f5654c40f2a8a17fd14375f9142 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_arduino_a_control.xml">
+<!ENTITY aa1deb4c1dbcf4e49dcd44fb4e41066b0 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_arduino_d_control.xml">
+<!ENTITY a6afeb3d0563fe30eefa1c892f2934ef3 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_arduino_meter.xml">
+<!ENTITY aaaf37eab74a719ab335c7d8f0363b075 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_dcmotor_release.xml">
+<!ENTITY a7bfefcb06ccb9690141b387af167ff5e SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_dcmotor_run.xml">
+<!ENTITY a8f114484422090f0c48e06e0ea473104 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_dcmotor_setup.xml">
+<!ENTITY a9beb956bf5af08ff7f929f7504a1f772 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_digital_in.xml">
+<!ENTITY a68704d46172c1b2aee7f918a5c71026b SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_digital_out.xml">
+<!ENTITY aae92e4a0c1a7ef53770db5c0070cce2e SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_servo_attach.xml">
+<!ENTITY a90fe034160e3bb38e5b127f32c7e8440 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_servo_detach.xml">
+<!ENTITY ab751f20387d6c40e39a9419993a30ae4 SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/cmd_servo_move.xml">
+<!ENTITY ae59fb5ae5699c8894bf5f80f7a52214f SYSTEM "/home/fossee/Desktop/FLOSS-Arduino-Book/Origin/tools/scilab/linux/help/en_US/open_serial.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -42,34 +42,34 @@
     <title>Arduino toolbox</title>
   </info>
 
-<part xml:id='section_0065f243e2d913ab014332454f9a0ca0'>
+<part xml:id='section_fc3cd973cf4a27ea499c5b08282ee1f1'>
 <title>Arduino toolbox</title>
-&a09f87684776f20ad0dc05ee5c3113239;
-&ab932dea47c27fb2fce54c88a6ee32a77;
-&a7456951c81703447dc50bba9d4b9a2e0;
-&a391d28605967d4e89ae9c0bded26d0f9;
-&a8037b2500be1f98f2fcb9e05abaf6be6;
-&a808f10b53873bc73bc0f79fd4235c1b5;
-&ad85d8bcc7672a7bdbde6ea0488903679;
-&aa702da4c82dd12aa90bde13bf5b1a10d;
-&a6c5d13471016315a62eea33b123847fb;
-&a980bb6ebc1eab08d057966d3d2133e95;
-&a8c7c54d1b05b847fee4c000e1dced771;
-&a41525798a65670612b570f88d5e44ab8;
-&af052af97d8ed5e91743d2be3f62b2e41;
-&ad7980727d5da972ce84f0e231cbe1fd8;
-&a47201a688c1ef6b63a839767117c87cb;
-&a361ea49aa87b54ef6a1167399c869094;
-&a287226a4ce675bfdedf8b0e1b187fc86;
-&a7722556a3ee9f1626d824ee80fd7f24c;
-&a0ce24c6dfcdc5e75a404d107011ce404;
-&a090247425f10099ceb255b2518f701bc;
-&a0f1ae730a3e10d95b05fe2d18d43fcd8;
-&a065f5a59eda1db329ea7361baeb7769f;
-&aeed0e7a3c58bceea460669c99a64cb85;
-&aeef33ef0b14b0b4a785949297e6fc52c;
-&a6d6cc6ce6b782a4853fc30df829e03d6;
-&a5c64817358edd38d5b63f2b8abe70fa2;
-&a638c0a30453e51f19692c387040c0c90;
+&ad7d0b41b26cd407c3de77cbdc71a7684;
+&a2e299c52520892b11598ce442e841e42;
+&adea783358a6ad89576dff73d6ad0f610;
+&a04d883b86feba55b58b1681807536bdd;
+&ab5110fe0632666aba28064f656db9294;
+&a6dd9f266c88e722bd32797e506ea0ab1;
+&a4ba635b493adfa2052ecdd152fddd8e5;
+&a2e17485de10591c4bb9d46e48f9de7cf;
+&a4b05b8ded1a13b737a8b1436348e09a5;
+&a5b51a122765f5de017d2e013d2d9d8be;
+&a8de2a9c713a78586715a30f0f684d80f;
+&a138e3684b6106e365f26302eb6e5ec04;
+&a9ad137166d371c20d5e7144d6393d9f5;
+&a1f296f3a9cc77f064a34e44da6df3e71;
+&aa02d166fe7b2209347c792c2ae040a41;
+&a32660f5654c40f2a8a17fd14375f9142;
+&aa1deb4c1dbcf4e49dcd44fb4e41066b0;
+&a6afeb3d0563fe30eefa1c892f2934ef3;
+&aaaf37eab74a719ab335c7d8f0363b075;
+&a7bfefcb06ccb9690141b387af167ff5e;
+&a8f114484422090f0c48e06e0ea473104;
+&a9beb956bf5af08ff7f929f7504a1f772;
+&a68704d46172c1b2aee7f918a5c71026b;
+&aae92e4a0c1a7ef53770db5c0070cce2e;
+&a90fe034160e3bb38e5b127f32c7e8440;
+&ab751f20387d6c40e39a9419993a30ae4;
+&ae59fb5ae5699c8894bf5f80f7a52214f;
 </part>
 </book>

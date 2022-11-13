@@ -1,198 +1,61 @@
-\chapter*{Preface\markboth{\bf Preface}{}}
-\thispagestyle{empty}
+\chapter*{Preface}
 \addcontentsline{toc}{chapter}{\protect\numberline{Preface}}
-
-Seeds for Oscad were sown when the National Mission on Education
-through ICT (NMEICT) was launched: the mission document identified
-\emph{Adaption \& deployment of open source simulation packages
-  equivalent to Matlab, OrCAD, etc.}, as one of the areas NMEICT would
-concentrate on.  
-The FOSSEE (free and open source software in science and engineering
-education) group at IIT Bombay, of which we are a part of, initially
-started working on Python and Scilab.  The Standing Committee of
-NMEICT encouraged us to contribute to other open source software as
-well.  This push helped us develop Oscad, an open source alternative
-to OrCAD.
-
-Oscad is an electronic design automation (EDA) tool, developed using
-KiCad, Ngspice and Scilab.  We have made the netlist files generated
-by KiCad suitable for simulation through Ngspice.  In order to provide
-an explanation facility, we have developed a method to automatically
-generate differential equations that describe a given analog circuit
-and to solve them using Scilab.  Once satisfied with simulation
-results, the user can create a Gerber file for PCB fabrication.
-
-While working on Scilab and Python, the FOSSEE group, jointly with the
-Spoken Tutorial team, created a large number of Spoken Tutorials
-\cite{kmm11-csi}.  Spoken Tutorials are audio-video tutorials in the
-IT and simulation areas, created for self learning using screencast
-technology.  This instructional material has been used to train more
-than 20,000 college students on Scilab and Python in the past two
-years.
-
-We have created seven spoken tutorials of ten minutes each, using
-which, a beginner level SELF workshop can be conducted on Oscad.  We
-plan to conduct these workshops in about 100 colleges in the next one
-year, free of cost.
-
-The FOSSEE team has also created more than 160 Scilab Textbook
-Companions, each of which contains Scilab code for worked out examples
-of standard textbooks, mostly in engineering and science.  These have
-been created by the students and professors from various
-educational institutions in India.  These textbooks can be downloaded
-free of cost from \cite{scilab}.  They can also be executed remotely
-on GARUDA cloud \cite{GARUDA}.
-
-We are embarking on a similar methodology for Oscad as well: we have
-solved most of the worked out examples of \cite{sedra} and given the
-solution in Appendix~\ref{ch:appen}.  We hope to create Oscad Textbook
-Companions for all other relevant standard textbooks as well in the
-near future, once again through students and other volunteers.
-
-Solving the worked out examples of \cite{sedra} was a good exercise,
-as it helped identify and
-include some missing features.  The yet to be created Oscad Textbook
-Companions are expected to help in this regard, while simultaneously
-increasing the available documentation.
-
-Lab migration is another important activity that the FOSSEE team is
-involved in.  It provides equivalent Scilab code for Matlab based
-labs.  This is also carried out through students and volunteers.  We
-are starting this activity for Oscad as well: we will try to provide
-equivalent Oscad based solution to all circuit design labs that
-currently use proprietary software.
-
-We have successfully ported Oscad on Aakash, the world's lowest cost
-computing tablet.  As Ubuntu 12.10 runs on native mode on Aakash, we
-could port Oscad to it.  \chapref{chap11} explains this activity,
-along with a few screenshots.  As the Aakash tablet costs Rs. 2,263,
-and hence, for less than Rs. 2,500 (including a keyboard and a mouse),
-one can get access to a powerful EDA system.  This is expected to help
-the students who are enthusiastic about circuit design, but cannot
-afford expensive hardware and software.
-
-Porting of Oscad demonstrates the power of the concept of Aakash: an
-unlimited number of open source educational software systems can be
-made available even in a low cost device.  Aakash can serve the dual
-purpose of a tablet and a computing device.  This is the only way to
-address the aspirations of the millions of poor students who cannot
-afford even a computer system or an expensive tablet, let alone
-both.
-
-The FOSSEE team is currently working on the promotion/development of
-the following open source software systems as well: 
-\begin{inparaenum}
-\item OpenFOAM, a CFD solver and an open source alternative to Fluent
-  and StarCD.
-\item COIN-OR, an open source software suite for optimisation
-  problems. 
-\item OpenFormal for formal verification of computer software.  
-\end{inparaenum}
-About ten professors and 25 full time staff members and students are
-working on FOSSEE projects at IIT Bombay.  Many more are expected to
-join in the near future.  
-
-Another important project supported by NMEICT is the Teach 10,000
-Teachers (T10KT) programme.  This methodology, pioneered at IIT Bombay
-\cite{T10KT,T10KT-kal} has demonstrated that it is possible for the best people
-in the field to provide extremely high quality training to a large
-number of learners simultaneously.  Oscad is expected to be used in
-the forthcoming T10KT course on Analog Electronics, organised by IIT
-Kharagpur \cite{T10KT-kgp}.
-
-We invite all EDA enthusiasts to work with us through the following
-resources:
-\begin{inparaenum}
-\item URL for all FOSSEE activities: http://fossee.in
-\item URL for all Oscad resources: http://oscad.in 
-\item Textbook companion: textbook-companion@oscad.in
-\item Lab migration: lab-migration@oscad.in
-\item SELF workshops: SELF-workshop@oscad.in
-\item Oscad development and enhancing its capabilities:
-  Oscad-dev@oscad.in 
-\item Feedback on this book: Oscad-textbook@oscad.in.
-\end{inparaenum}
-We also hope to establish forum based discussion services for
-Oscad.  
-
-Finally, an electronic version of this book is available for
-noncommercial purposes at http://oscad.in.
-
-\clearpage
-\section*{Acknowledgements}
-\addcontentsline{toc}{chapter}{\protect\numberline{Acknowledgements}}
-We would first like to thank Mr. N. K. Sinha, IAS, for without him,
-there would have been no National Mission on Education through ICT
-(NMEICT), without which, there would have been no FOSSEE, without
-which, there would have been no Oscad.  The idealistic guiding
-principles of NMEICT, namely, reliance on open source software,
-providing free access to e-content, Internet connectivity for all
-educational institutions and providing a low cost access device to
-every student through Aakash, egged us to contribute our best and one
-of the outcomes is Oscad.
-
-We would like to thank the former Human Resource Development Minister
-(HRM) Mr. Arjun Singh for getting NMEICT started.  We would like to
-acknowledge the former HRM Mr. Kapil Sibal for his unstinting support
-and the faith he had in the NMEICT administration team.  We would like
-to thank the current HRM Dr. Pallam Raju for extending the tenure of
-NMEICT by five more years.
-
-We want to thank the Members of the Standing Committee of NMEICT who
-met once in two weeks for almost two years to review project proposals
-and to recommend them for funding or giving suggestions for
-improvement.  We also want to thank them for urging us to work on more
-FOSS systems than what we were prepared for.  Without this kind of
-active support, the ecosystem required for projects like Oscad to
-flourish, established at IIT Bombay through the many projects funded
-through NMEICT, would not have materialised.
-
-We want to thank the FOSSEE faculty members Profs. Prabhu
-Ramachandran, Madhu Belur, Mani Bhushan, Shiva Gopalakrishnan,
-Jayendran Venkateswaran, Ashutosh Mahajan and Supratik Chakraborty for
-establishing a vibrant FOSSEE group at IIT Bombay.  We want to thank
-Prof. D. B. Phatak for being a constant source of inspiration and
-encouragement and for supporting our activities directly and
-indirectly through the Teach 10,000 Teacher Programme \cite{T10KT} and
-the Aakash \cite{aakash} Project.  We want to thank other faculty
-members with NMEICT projects at IIT Bombay, namely, Profs. Kavi Arya,
-Ravi Poovaiah, Santosh Noronha, Anil Kulkarni, Sridhar Iyer, Sahana
-Murthy and Shishir Jha for sharing their dreams, processes and
-facilities.  We want to thank the staff members of all NMEICT projects
-at IIT Bombay in general and of FOSSEE and Spoken Tutorial projects in
-particular, for providing a wonderful work environment.
-
-We want to thank the IIT Bombay administration in general and R\&D
-office in particular for providing us with an excellent environment to
-make us work efficiently.  We want to thank the researchers and
-faculty members in our departments for providing us with necessary
-space and for putting up with our tantrums.
-
-We would like to thank the professors, staff and students affiliated
-with the Wadhwani Electronics lab at IIT Bombay for trying out Oscad
-in lab courses and for the useful suggestions.  We would like to thank
-Abhishek Pawar  for creating Spoken Tutorials on KiCad.  We would like
-to thank Saket Choudhary for making the netlist files generated by
-KiCad compatible with Ngspice.  We want to thank Hardik for his help
-in implementing the current GUI of Oscad.  We want to thank Kiran for
-designing the logo of Oscad.  We want to thank Bella for helping with
-the coordination of FOSSEE in general and Oscad in particular.  We
-want to thank Mr.~Sunil Shastri of Shroff Publishers for
-bringing out this book in a short time.
-
-Finally, we want to thank our family members for allowing us to work
-extended hours and for bearing with us. \\ [1cm]
-
-\setlength{\tabcolsep}{0.5cm}
+Microcontrollers are extensively used in the
+industry, automobiles and home appliances, to list a few. 
+Arduino is a popular open source microcontroller available today.
+Arduino comes with its own software, Arduino IDE, short for Integrated
+Development Environment.  Using Arduino IDE, one can program Arduino
+for different purposes.  Some times, one may want to program Arduino
+using high level programming languages.  We have explained Arduino
+programming with the following high level languages through separate
+books. 
 \begin{center}
-\begin{tabular}{ccc}
-Yogesh Save & Rakhi R & Shambhulingayya N. D. \\ [1mm]
-Rupak M. Rokade & Ambikeshwar Srivastava & Manas Ranjan Das \\ [1mm] 
-Lavitha Pereira & Sachin Patil & Srikant Patnaik \\ [1mm]
-& Kannan M. Moudgalya \\ [5mm]
-& IIT Bombay \\
-& 22 May 2013
+\begin{tabular}{llp{9cm}}
+1 & Scilab and Xcos: & Microcontroller programming with Arduino,
+Scilab, and Xcos \\
+2 & Python: & Microcontroller programming with Arduino and Python \\
+3 & OpenModelica: & Microcontroller programming with Arduino and
+OpenModelica \\ 
+4 & Julia: & Microcontroller programming with Arduino and Julia \\
 \end{tabular}
 \end{center}
 
-\cleardoublepage
+Each of these four books concentrates on one topic.  Such a compact
+book may be of interest to those who are interested in only one
+programming language.  We are bringing out a fifth book that combines
+all of these languages for the benefit of readers 
+who may be interested in two or more languages.
+
+All code explained in the book are made freely downloadable and their
+URL are provided at appropriate places.  The user will need the
+Arduino Uno board and a Shield to carry out the experiments explained
+in this book.  It is easy to procure Arduino UNO, which is available
+through many vendors.  The location of the Gerber file and details of
+the components required to assemble the Shield are provided in the
+book.  Alternatively, one can buy the Shield directly from vendors,
+details of whom are also provided in the book.
+
+This work is supported by the FOSSEE (Free/Libre and Open Source
+Software for Education) project (\url{https://fossee.in}) at IIT
+Bombay.  This project is funded by the National Mission on Education
+through ICT, Ministry of Education, Govt. of India.  FOSSEE promotes
+software, such as Scilab, Python, eSim, OpenFOAM, OpenModelica, DWSIM,
+Osdag, R, GIMP, Blender, Inkscape, ChemCollective Virtual Lab, and
+Jmol.  It trains students on these software to the level they can
+contribute, curates such contributions, and releases them to the
+public.  It also conducts various competitions/hackathons/marathons,
+handholds the motivated who need help, and recognises the best
+contributions.  Students who have participated in FOSSEE projects have
+benefited in terms of internship, employment, and admission to higher
+studies with schloarship.
+
+The FOSSEE project provides support to the Arduino activity through
+the website \url{https://floss-arduino.fossee.in/}.  It has a lot of
+useful information, such as Spoken Tutorials, and links to download
+soft copies of these books.  We invite the learners to try out these
+books and give their feedback.  \\ [0.25in]
+
+
+\noindent{Kannan Moudgalya} \\
+\noindent{IIT Bombay} \\
+\noindent{2 October 2022}
