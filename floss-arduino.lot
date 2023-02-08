@@ -23,8 +23,8 @@
 \contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{164}{table.caption.121}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{176}{table.caption.128}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{185}{table.caption.132}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{186}{table.caption.134}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{186}{table.caption.132}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{187}{table.caption.134}%
 \contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{188}{table.caption.136}%
 \contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{189}{table.caption.138}%
 \addvspace {10\p@ }

@@ -169,10 +169,10 @@
 \contentsline {subsection}{\numberline {9.3.2}Arduino Code}{180}{subsection.9.3.2}%
 \contentsline {section}{\numberline {9.4}Controlling the servomotor through Scilab}{182}{section.9.4}%
 \contentsline {subsection}{\numberline {9.4.1}Controlling the servomotor}{182}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{184}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.2}Scilab Code}{183}{subsection.9.4.2}%
 \contentsline {section}{\numberline {9.5}Controling the servomotor through Xcos}{185}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{189}{section.9.6}%
-\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{189}{subsection.9.6.1}%
+\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{188}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{188}{subsection.9.6.1}%
 \contentsline {subsection}{\numberline {9.6.2}Python Code}{191}{subsection.9.6.2}%
 \contentsline {section}{\numberline {9.7}Controlling the servomotor through Julia}{195}{section.9.7}%
 \contentsline {subsection}{\numberline {9.7.1}Controlling the servomotor}{195}{subsection.9.7.1}%

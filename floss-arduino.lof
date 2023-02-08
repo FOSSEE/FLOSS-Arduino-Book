@@ -108,9 +108,9 @@
 \contentsline {figure}{\numberline {9.1}{\ignorespaces Connecting servomotor to the shield attached on Arduino Uno\relax }}{176}{figure.caption.127}%
 \contentsline {figure}{\numberline {9.2}{\ignorespaces A servomotor with Arduino Uno\ using a breadboard\relax }}{177}{figure.caption.129}%
 \contentsline {figure}{\numberline {9.3}{\ignorespaces A servomotor and a potentiometer with Arduino Uno\ using a breadboard\relax }}{178}{figure.caption.130}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Rotating the servomotor by a fixed angle}}{186}{figure.caption.131}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Rotating the servomotor forward and then reverse}}{187}{figure.caption.133}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{188}{figure.caption.135}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Rotating the servomotor by a fixed angle}}{185}{figure.caption.131}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Rotating the servomotor forward and then reverse}}{186}{figure.caption.133}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{187}{figure.caption.135}%
 \contentsline {figure}{\numberline {9.7}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{189}{figure.caption.137}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces L293D motor driver board\relax }}{206}{figure.caption.139}%
