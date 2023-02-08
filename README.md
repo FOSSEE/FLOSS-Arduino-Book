@@ -4,7 +4,7 @@
 The books are as given below:
 * [Microcontroller programming with Arduino, Scilab, and Xcos](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/scilab.pdf)
 * [Microcontroller programming with Arduino and Julia](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/julia.pdf)
-* [Microcontroller programming with Arduino and OpenModelica](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/OpenModelica.pdf)
+* [Microcontroller programming with Arduino and OpenModelica](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/openmodelica.pdf)
 * [Microcontroller programming with Arduino and Python](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/python.pdf)
 
 The consolidated book (which covers all the four FLOSSs mentioned above) is available at [FLOSS-Arduino](https://github.com/FOSSEE/FLOSS-Arduino-Book/blob/master/floss-arduino.pdf), and the code mentioned in the book are available at [Origin](https://github.com/FOSSEE/FLOSS-Arduino-Book/tree/master/Origin). 
