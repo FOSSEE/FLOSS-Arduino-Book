@@ -14,17 +14,17 @@
 \contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{149}{OpenModelicamass.7.1}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{173}{OpenModelicamass.8.1}%
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{174}{OpenModelicamass.8.2}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{173}{OpenModelicamass.8.2}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{200}{OpenModelicamass.9.1}%
 \contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{200}{OpenModelicamass.9.2}%
 \contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{201}{OpenModelicamass.9.3}%
 \contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{202}{OpenModelicamass.9.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{230}{OpenModelicamass.10.1}%
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{231}{OpenModelicamass.10.2}%
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{231}{OpenModelicamass.10.3}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{228}{OpenModelicamass.10.1}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{229}{OpenModelicamass.10.2}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{229}{OpenModelicamass.10.3}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{256}{OpenModelicamass.11.1}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{256}{OpenModelicamass.11.2}%
-\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{257}{OpenModelicamass.11.3}%
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{254}{OpenModelicamass.11.1}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{254}{OpenModelicamass.11.2}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{255}{OpenModelicamass.11.3}%

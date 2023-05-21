@@ -41,22 +41,22 @@
 \contentsline {section}{\numberline {3.3}Xcos}{37}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Downloading, installing and testing}{37}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Use case}{38}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Xcos-Arduino}{42}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Python}{43}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.3}Xcos-Arduino}{41}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Python}{42}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Downloading and installing on Windows}{43}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Downloading and installing on GNU/Linux Ubuntu}{46}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Python-Arduino toolbox}{47}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Firmware}{48}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Julia}{49}{section.3.5}%
+\contentsline {subsection}{\numberline {3.4.4}Firmware}{47}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Julia}{48}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Downloading and installing on Windows}{49}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Downloading and installing GNU/Linux Ubuntu}{53}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Julia-Arduino toolbox}{57}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}Julia-Arduino toolbox}{56}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Firmware}{57}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}OpenModelica}{58}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Downloading and installing on Windows}{58}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Downloading and installing on GNU/Linux Ubuntu}{60}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Simulating models in OpenModelica}{61}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}OpenModelica-Arduino toolbox}{63}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.2}Downloading and installing on GNU/Linux Ubuntu}{59}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Simulating models in OpenModelica}{60}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}OpenModelica-Arduino toolbox}{64}{subsection.3.6.4}%
 \contentsline {subsection}{\numberline {3.6.5}Firmware}{67}{subsection.3.6.5}%
 \contentsline {chapter}{\numberline {4}Interfacing a Light Emitting Diode}{69}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Preliminaries}{69}{section.4.1}%
@@ -126,7 +126,7 @@
 \contentsline {section}{\numberline {7.4}Reading the potentiometer from Scilab}{141}{section.7.4}%
 \contentsline {subsection}{\numberline {7.4.1}Reading the potentiometer}{141}{subsection.7.4.1}%
 \contentsline {subsection}{\numberline {7.4.2}Scilab Code}{142}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Reading the potentiometer from Xcos}{143}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Reading the potentiometer from Xcos}{142}{section.7.5}%
 \contentsline {section}{\numberline {7.6}Reading the potentiometer from Python}{145}{section.7.6}%
 \contentsline {subsection}{\numberline {7.6.1}Reading the potentiometer}{145}{subsection.7.6.1}%
 \contentsline {subsection}{\numberline {7.6.2}Python Code}{145}{subsection.7.6.2}%
@@ -152,14 +152,14 @@
 \contentsline {section}{\numberline {8.6}Interfacing the thermistor from Python}{164}{section.8.6}%
 \contentsline {subsection}{\numberline {8.6.1}Interfacing the thermistor}{164}{subsection.8.6.1}%
 \contentsline {paragraph}{Note:}{166}{section*.124}%
-\contentsline {subsection}{\numberline {8.6.2}Python Code}{167}{subsection.8.6.2}%
-\contentsline {section}{\numberline {8.7}Interfacing the thermistor from Julia}{169}{section.8.7}%
-\contentsline {subsection}{\numberline {8.7.1}Interfacing the thermistor}{169}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.6.2}Python Code}{166}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}Interfacing the thermistor from Julia}{168}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Interfacing the thermistor}{168}{subsection.8.7.1}%
 \contentsline {paragraph}{Note:}{170}{section*.125}%
 \contentsline {subsection}{\numberline {8.7.2}Julia Code}{170}{subsection.8.7.2}%
 \contentsline {section}{\numberline {8.8}Interfacing the thermistor from OpenModelica}{171}{section.8.8}%
 \contentsline {subsection}{\numberline {8.8.1}Interfacing the thermistor}{171}{subsection.8.8.1}%
-\contentsline {paragraph}{Note:}{173}{section*.126}%
+\contentsline {paragraph}{Note:}{172}{section*.126}%
 \contentsline {subsection}{\numberline {8.8.2}OpenModelica Code}{173}{subsection.8.8.2}%
 \contentsline {chapter}{\numberline {9}Interfacing a Servomotor}{175}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Preliminaries}{175}{section.9.1}%
@@ -171,71 +171,71 @@
 \contentsline {subsection}{\numberline {9.4.1}Controlling the servomotor}{182}{subsection.9.4.1}%
 \contentsline {subsection}{\numberline {9.4.2}Scilab Code}{183}{subsection.9.4.2}%
 \contentsline {section}{\numberline {9.5}Controling the servomotor through Xcos}{185}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{188}{section.9.6}%
-\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{188}{subsection.9.6.1}%
+\contentsline {section}{\numberline {9.6}Controlling the servomotor through Python}{189}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Controlling the servomotor}{189}{subsection.9.6.1}%
 \contentsline {subsection}{\numberline {9.6.2}Python Code}{191}{subsection.9.6.2}%
-\contentsline {section}{\numberline {9.7}Controlling the servomotor through Julia}{195}{section.9.7}%
-\contentsline {subsection}{\numberline {9.7.1}Controlling the servomotor}{195}{subsection.9.7.1}%
+\contentsline {section}{\numberline {9.7}Controlling the servomotor through Julia}{194}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Controlling the servomotor}{194}{subsection.9.7.1}%
 \contentsline {subsection}{\numberline {9.7.2}Julia Code}{196}{subsection.9.7.2}%
 \contentsline {section}{\numberline {9.8}Controlling the servomotor through OpenModelica}{198}{section.9.8}%
 \contentsline {subsection}{\numberline {9.8.1}Controlling the servomotor}{198}{subsection.9.8.1}%
-\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{200}{subsection.9.8.2}%
-\contentsline {chapter}{\numberline {10}Interfacing a DC Motor}{205}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Preliminaries}{205}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{207}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{207}{subsection.10.2.1}%
-\contentsline {paragraph}{Note:}{208}{section*.144}%
-\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{210}{subsection.10.2.2}%
-\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{211}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{211}{subsection.10.3.1}%
-\contentsline {paragraph}{Note:}{212}{section*.145}%
-\contentsline {paragraph}{Note:}{213}{section*.146}%
-\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{214}{subsection.10.3.2}%
-\contentsline {section}{\numberline {10.4}Controlling the DC motor from Xcos}{215}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Controlling the DC motor from Python}{218}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Controlling the DC motor}{218}{subsection.10.5.1}%
-\contentsline {paragraph}{Note:}{219}{section*.153}%
-\contentsline {paragraph}{Note:}{220}{section*.154}%
-\contentsline {subsection}{\numberline {10.5.2}Python Code}{221}{subsection.10.5.2}%
-\contentsline {section}{\numberline {10.6}Controlling the DC motor from Julia}{224}{section.10.6}%
-\contentsline {subsection}{\numberline {10.6.1}Controlling the DC motor}{224}{subsection.10.6.1}%
-\contentsline {paragraph}{Note:}{224}{section*.155}%
-\contentsline {paragraph}{Note:}{226}{section*.156}%
-\contentsline {subsection}{\numberline {10.6.2}Julia Code}{226}{subsection.10.6.2}%
-\contentsline {section}{\numberline {10.7}Controlling the DC motor from OpenModelica}{228}{section.10.7}%
-\contentsline {subsection}{\numberline {10.7.1}Controlling the DC motor}{228}{subsection.10.7.1}%
-\contentsline {paragraph}{Note:}{228}{section*.157}%
-\contentsline {paragraph}{Note:}{229}{section*.158}%
-\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{230}{subsection.10.7.2}%
-\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{233}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Preliminaries}{233}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Energy meter}{235}{subsection.11.1.1}%
-\contentsline {paragraph}{Note:}{237}{section*.165}%
-\contentsline {subsection}{\numberline {11.1.2}Endianness}{238}{subsection.11.1.2}%
-\contentsline {section}{\numberline {11.2}Setup for the experiment}{240}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Software required for this experiment}{241}{section.11.3}%
-\contentsline {subsection}{\numberline {11.3.1}Arduino Firmware}{243}{subsection.11.3.1}%
-\contentsline {section}{\numberline {11.4}Manifestation of Modbus protocol through Scilab}{243}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Reading the electrical parameters from Scilab}{245}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}Reading the electrical parameters}{245}{subsection.11.5.1}%
-\contentsline {subsection}{\numberline {11.5.2}Scilab Code}{245}{subsection.11.5.2}%
-\contentsline {paragraph}{Note: }{246}{section*.173}%
-\contentsline {subsection}{\numberline {11.5.3}Output in the Scilab Console}{247}{subsection.11.5.3}%
-\contentsline {section}{\numberline {11.6}Reading the electrical parameters from Xcos}{248}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Manifestation of Modbus protocol through Python}{251}{section.11.7}%
-\contentsline {paragraph}{Note: }{251}{section*.182}%
-\contentsline {section}{\numberline {11.8}Reading the electrical parameters from Python}{252}{section.11.8}%
-\contentsline {subsection}{\numberline {11.8.1}Reading the electrical parameters}{252}{subsection.11.8.1}%
-\contentsline {subsection}{\numberline {11.8.2}Python Code}{252}{subsection.11.8.2}%
-\contentsline {section}{\numberline {11.9}Manifestation of Modbus protocol through Julia}{253}{section.11.9}%
-\contentsline {paragraph}{Note: }{253}{section*.183}%
-\contentsline {section}{\numberline {11.10}Reading the electrical parameters from Julia}{253}{section.11.10}%
-\contentsline {subsection}{\numberline {11.10.1}Reading the electrical parameters}{253}{subsection.11.10.1}%
-\contentsline {subsection}{\numberline {11.10.2}Julia Code}{254}{subsection.11.10.2}%
-\contentsline {section}{\numberline {11.11}Manifestation of Modbus protocol through OpenModelica}{255}{section.11.11}%
-\contentsline {paragraph}{Note: }{255}{section*.184}%
-\contentsline {section}{\numberline {11.12}Reading the electrical parameters from OpenModelica}{256}{section.11.12}%
-\contentsline {subsection}{\numberline {11.12.1}Reading the electrical parameters}{256}{subsection.11.12.1}%
-\contentsline {subsection}{\numberline {11.12.2}OpenModelica Code}{256}{subsection.11.12.2}%
-\contentsline {chapter}{\numberline {A}Procuring the Hardware}{259}{appendix.A}%
-\contentsline {chapter}{\numberline {References}}{261}{appendix*.186}%
+\contentsline {subsection}{\numberline {9.8.2}OpenModelica Code}{199}{subsection.9.8.2}%
+\contentsline {chapter}{\numberline {10}Interfacing a DC Motor}{203}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Preliminaries}{203}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Controlling the DC motor from Arduino}{205}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Controlling the DC motor}{205}{subsection.10.2.1}%
+\contentsline {paragraph}{Note:}{206}{section*.144}%
+\contentsline {subsection}{\numberline {10.2.2}Arduino Code}{208}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}Controlling the DC motor from Scilab}{209}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Controlling the DC motor}{209}{subsection.10.3.1}%
+\contentsline {paragraph}{Note:}{210}{section*.145}%
+\contentsline {paragraph}{Note:}{211}{section*.146}%
+\contentsline {subsection}{\numberline {10.3.2}Scilab Code}{212}{subsection.10.3.2}%
+\contentsline {section}{\numberline {10.4}Controlling the DC motor from Xcos}{213}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Controlling the DC motor from Python}{216}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Controlling the DC motor}{216}{subsection.10.5.1}%
+\contentsline {paragraph}{Note:}{217}{section*.153}%
+\contentsline {paragraph}{Note:}{218}{section*.154}%
+\contentsline {subsection}{\numberline {10.5.2}Python Code}{219}{subsection.10.5.2}%
+\contentsline {section}{\numberline {10.6}Controlling the DC motor from Julia}{222}{section.10.6}%
+\contentsline {subsection}{\numberline {10.6.1}Controlling the DC motor}{222}{subsection.10.6.1}%
+\contentsline {paragraph}{Note:}{222}{section*.155}%
+\contentsline {paragraph}{Note:}{224}{section*.156}%
+\contentsline {subsection}{\numberline {10.6.2}Julia Code}{224}{subsection.10.6.2}%
+\contentsline {section}{\numberline {10.7}Controlling the DC motor from OpenModelica}{225}{section.10.7}%
+\contentsline {subsection}{\numberline {10.7.1}Controlling the DC motor}{225}{subsection.10.7.1}%
+\contentsline {paragraph}{Note:}{226}{section*.157}%
+\contentsline {paragraph}{Note:}{227}{section*.158}%
+\contentsline {subsection}{\numberline {10.7.2}OpenModelica Code}{228}{subsection.10.7.2}%
+\contentsline {chapter}{\numberline {11}Implementation of Modbus Protocol}{231}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Preliminaries}{231}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Energy meter}{233}{subsection.11.1.1}%
+\contentsline {paragraph}{Note:}{235}{section*.165}%
+\contentsline {subsection}{\numberline {11.1.2}Endianness}{236}{subsection.11.1.2}%
+\contentsline {section}{\numberline {11.2}Setup for the experiment}{238}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Software required for this experiment}{239}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Arduino Firmware}{241}{subsection.11.3.1}%
+\contentsline {section}{\numberline {11.4}Manifestation of Modbus protocol through Scilab}{241}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Reading the electrical parameters from Scilab}{243}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Reading the electrical parameters}{243}{subsection.11.5.1}%
+\contentsline {subsection}{\numberline {11.5.2}Scilab Code}{243}{subsection.11.5.2}%
+\contentsline {paragraph}{Note: }{244}{section*.173}%
+\contentsline {subsection}{\numberline {11.5.3}Output in the Scilab Console}{245}{subsection.11.5.3}%
+\contentsline {section}{\numberline {11.6}Reading the electrical parameters from Xcos}{246}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Manifestation of Modbus protocol through Python}{249}{section.11.7}%
+\contentsline {paragraph}{Note: }{249}{section*.182}%
+\contentsline {section}{\numberline {11.8}Reading the electrical parameters from Python}{250}{section.11.8}%
+\contentsline {subsection}{\numberline {11.8.1}Reading the electrical parameters}{250}{subsection.11.8.1}%
+\contentsline {subsection}{\numberline {11.8.2}Python Code}{250}{subsection.11.8.2}%
+\contentsline {section}{\numberline {11.9}Manifestation of Modbus protocol through Julia}{251}{section.11.9}%
+\contentsline {paragraph}{Note: }{251}{section*.183}%
+\contentsline {section}{\numberline {11.10}Reading the electrical parameters from Julia}{251}{section.11.10}%
+\contentsline {subsection}{\numberline {11.10.1}Reading the electrical parameters}{251}{subsection.11.10.1}%
+\contentsline {subsection}{\numberline {11.10.2}Julia Code}{252}{subsection.11.10.2}%
+\contentsline {section}{\numberline {11.11}Manifestation of Modbus protocol through OpenModelica}{253}{section.11.11}%
+\contentsline {paragraph}{Note: }{253}{section*.184}%
+\contentsline {section}{\numberline {11.12}Reading the electrical parameters from OpenModelica}{254}{section.11.12}%
+\contentsline {subsection}{\numberline {11.12.1}Reading the electrical parameters}{254}{subsection.11.12.1}%
+\contentsline {subsection}{\numberline {11.12.2}OpenModelica Code}{254}{subsection.11.12.2}%
+\contentsline {chapter}{\numberline {A}Procuring the Hardware}{257}{appendix.A}%
+\contentsline {chapter}{\numberline {References}}{259}{appendix*.186}%
