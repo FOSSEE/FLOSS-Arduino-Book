@@ -1,32 +1,34 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {3.{1}}A Scilab code to check whether the firmware is properly installed or not}{36}{codemass.3.1}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{53}{codemass.4.1}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{54}{codemass.4.2}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{54}{codemass.4.3}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{54}{codemass.4.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the GUI}{65}{codemass.5.1}%
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{66}{codemass.5.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{76}{codemass.6.1}%
-\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{76}{codemass.6.2}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{77}{codemass.4.1}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{78}{codemass.4.2}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{78}{codemass.4.3}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{78}{codemass.4.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{86}{codemass.7.1}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the GUI}{103}{codemass.5.1}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{104}{codemass.5.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{98}{codemass.8.1}%
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{98}{codemass.8.2}%
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{124}{codemass.6.1}%
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{124}{codemass.6.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{113}{codemass.9.1}%
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{114}{codemass.9.2}%
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{114}{codemass.9.3}%
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{114}{codemass.9.4}%
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{142}{codemass.7.1}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{130}{codemass.10.1}%
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{130}{codemass.10.2}%
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{131}{codemass.10.3}%
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{160}{codemass.8.1}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{160}{codemass.8.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{149}{codemass.11.1}%
-\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for single phase current output}{149}{codemass.11.2}%
-\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for single phase voltage output}{150}{codemass.11.3}%
-\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for single phase active power output}{150}{codemass.11.4}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{183}{codemass.9.1}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{184}{codemass.9.2}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{184}{codemass.9.3}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{184}{codemass.9.4}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{212}{codemass.10.1}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{212}{codemass.10.2}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{213}{codemass.10.3}%
+\addvspace {10pt}
+\contentsline {section}{\numberline {11.{1}}First 10 lines of the function for scifunc block}{243}{codemass.11.1}%
+\contentsline {section}{\numberline {11.{2}}First 10 lines of the code for single phase current output}{243}{codemass.11.2}%
+\contentsline {section}{\numberline {11.{3}}First 10 lines of the code for single phase voltage output}{244}{codemass.11.3}%
+\contentsline {section}{\numberline {11.{4}}First 10 lines of the code for single phase active power output}{244}{codemass.11.4}%
