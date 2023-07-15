@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: floss-arduino.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-You've used 29 entries,
+You've used 24 entries,
             1791 wiz_defined-function locations,
-            549 strings with 6359 characters,
-and the built_in function-call counts, 3562 in all, are:
-= -- 319
-> -- 60
+            528 strings with 5933 characters,
+and the built_in function-call counts, 3017 in all, are:
+= -- 269
+> -- 55
 < -- 1
-+ -- 39
++ -- 34
 - -- 10
 * -- 29
-:= -- 406
-add.period$ -- 90
-call.type$ -- 29
-change.case$ -- 29
+:= -- 351
+add.period$ -- 75
+call.type$ -- 24
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 161
-empty$ -- 543
+cite$ -- 24
+duplicate$ -- 136
+empty$ -- 453
 format.name$ -- 10
-if$ -- 922
+if$ -- 777
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 24
 missing$ -- 1
-newline$ -- 151
+newline$ -- 126
 num.names$ -- 4
-pop$ -- 227
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 96
+skip$ -- 81
 stack$ -- 0
 substring$ -- 28
-swap$ -- 39
+swap$ -- 34
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 6
-width$ -- 31
-write$ -- 271
+width$ -- 26
+write$ -- 226

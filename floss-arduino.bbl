@@ -9,7 +9,7 @@ T.~Martin.
 
 \bibitem{scilab-arduino}
 B.~Jofret.
-\newblock Scilab arduino toolbox.
+\newblock Scilab {Arduino} {Toolbox}.
 \newblock http://atoms.scilab.org/.
 \newblock Seen on 28 June 2015.
 
@@ -25,18 +25,18 @@ Mateo Zlatar.
 \newblock Seen on 28 June 2015.
 
 \bibitem{uno-ref}
-Arduino uno.
+Arduino {Uno}.
 \newblock https://www.arduino.cc/en/uploads/Main/ArduinoUnoFront240.jpg.
 \newblock Seen on 28 June 2015.
 
 \bibitem{mega-ref}
-Arduino mega.
+Arduino {Mega}.
 \newblock https://www.arduino.cc/en/uploads/Main/ArduinoMega2560\_R3
   \_Fronte.jpg.
 \newblock Seen on 28 June 2015.
 
 \bibitem{lily-ref}
-Lilypod arduino.
+Lilypod {Arduino}.
 \newblock https://www.arduino.cc/en/uploads/Main/LilyPad\_5.jpg.
 \newblock Seen on 28 June 2015.
 
@@ -76,38 +76,13 @@ scilab.org.
 \newblock http://www.scilab.org/scilab/features/xcos.
 \newblock Seen on 28 June 2015.
 
-\bibitem{python-ref}
-python.org.
-\newblock https://www.python.org/doc/essays/blurb/.
-\newblock Seen on 24 February 2021.
-
-\bibitem{pySerial}
-pyserial - pypi.
-\newblock https://pypi.org/project/pyserial/.
-\newblock Seen on 21 April 2021.
-
-\bibitem{julia-ref}
-julialang.org/.
-\newblock https://julialang.org/.
-\newblock Seen on 12 April 2021.
-
-\bibitem{julia-serial-ports}
-Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
-\newblock https://github.com/JuliaIO/SerialPorts.jl.
-\newblock Seen on 15 April 2021.
-
-\bibitem{om-ref}
-Openmodelica.
-\newblock https://www.openmodelica.org/.
-\newblock Seen on 2 April 2021.
-
 \bibitem{therm-wiki}
 Thermistor - wikipedia.
 \newblock https://en.wikipedia.org/wiki/Thermistor.
 \newblock Seen on 2 May 2021.
 
 \bibitem{arduino-pwm}
-Secrets of arduino pwm.
+Secrets of {Arduino} {PWM}.
 \newblock https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM.
 \newblock Seen on 5 May 2021.
 
@@ -117,25 +92,25 @@ Servo.
 \newblock Seen on 6 May 2021.
 
 \bibitem{modbus}
-Modbus.
+{Modbus}.
 \newblock https://modbus.org/.
 \newblock Seen on 6 May 2021.
 
 \bibitem{modbus-paper}
 Paavni Shukla, Sonal Singh, Tanmayee Joshi, Sudhakar Kumar, Samrudha Kelkar,
   Manas~R. Das, and Kannan~M. Moudgalya.
-\newblock Design and development of a modbus automation system for industrial
+\newblock Design and development of a {Modbus} automation system for industrial
   applications.
 \newblock In {\em 2017 6th International Conference on Computer Applications In
   Electrical Engineering-Recent Advances (CERA)}, pages 515--520, 2017.
 
 \bibitem{simplymodbus}
-Simply modbus.
+Simply {Modbus}.
 \newblock https://simplymodbus.ca/.
 \newblock Seen on 6 May 2021.
 
 \bibitem{online-crc}
-Online crc.
+Online {CRC}.
 \newblock https://www.lammertbies.nl/comm/info/crc-calculation.
 \newblock Seen on 2 May 2021.
 
@@ -145,13 +120,13 @@ Floating point converter.
 \newblock Seen on 6 May 2021.
 
 \bibitem{amazon-shield}
-Ecolight® sensor shield v-1.2 compatible with arduino uno r3.
+Ecolight® sensor shield v-1.2 compatible with {Arduino} {Uno} r3.
 \newblock https://www.amazon.in/dp/B09G8BWDDD/.
 \newblock Seen on 8 Jan 2022.
 
 \bibitem{flipkart-shield}
-Ecolight sensor shield v-1.2 compatible with arduino uno educational electronic
-  hobby kit.
+Ecolight sensor shield v-1.2 compatible with {Arduino} {Uno} educational
+  electronic hobby kit.
 \newblock
   https://www.flipkart.com/ecolight-sensor-shield-v-1-2-compatible-arduino-uno-educational-electronic-hobby-kit/p/itm73d12ca9ae129.
 \newblock Seen on 8 Jan 2022.
