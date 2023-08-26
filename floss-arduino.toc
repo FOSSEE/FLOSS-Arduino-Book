@@ -11,19 +11,19 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Hardware Environment}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Microcontroller}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Organization of a Microcontroller}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Organization of a Microcontroller}{4}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Microcontroller Peripherals}{5}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Open Source Hardware (OSHW)}{7}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Arduino}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Brief History}{8}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Arduino Uno Board}{9}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Popular Arduino Projects}{9}{subsection.2.3.3}%
-\contentsline {paragraph}{Arduino phone:}{10}{section*.18}%
+\contentsline {subsection}{\numberline {2.3.3}Popular Arduino Projects}{10}{subsection.2.3.3}%
+\contentsline {paragraph}{Arduino phone:}{11}{section*.18}%
 \contentsline {paragraph}{Candy sorting machine:}{11}{section*.20}%
 \contentsline {paragraph}{3D printers:}{11}{section*.21}%
-\contentsline {section}{\numberline {2.4}Shield}{11}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Experimental Test Bed}{12}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Doing the Experiments with a Breadboard}{13}{section.2.6}%
+\contentsline {section}{\numberline {2.4}Shield}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Experimental Test Bed}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Doing the Experiments with a Breadboard}{14}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Communication between Software and Arduino}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Arduino IDE}{19}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Downloading and installing on Windows}{20}{subsection.3.1.1}%
