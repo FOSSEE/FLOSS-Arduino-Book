@@ -3,7 +3,7 @@
 \label{sec:servo-py}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same four experiments,
-in the same order. As mentioned earlier, the shield must be removed from 
+in the same order. As mentioned earlier, the Shield must be removed from 
 the \arduino\ and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}. The reader should go through the instructions given in
 \secref{sec:python-start} before getting started.
@@ -25,7 +25,7 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
         As shown above, the servomotor is attached on board 1 (the first argument)
         to pin 1 (the second argument).  In the Python-Arduino toolbox discussed 
         in \secref{sec:python-toolbox}, pin 1 and pin 5 are connected. As a result, we connect the wire physically to
-        pin 5, which is achieved by the shield as discussed in \secref{sec:servo-pril}.
+        pin 5, which is achieved by the Shield as discussed in \secref{sec:servo-pril}.
         
         With this, we issue the command to move the servomotor by $30^\circ$ followed by a delay of 
         1 second:
@@ -64,7 +64,7 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
         the way to $180^\circ$.  
         
   \item Finally, in the last experiment, we read the potentiometer value
-        from the shield and use it to drive the servomotor, see
+        from the Shield and use it to drive the servomotor, see
         \pyref{py:servo-pot}.  The resistance of the potentiometer is
         represented in 10 bits.  As a result, the resistance value could be
         any one of 1024 values, from 0 to 1023.  This entire range is
@@ -74,7 +74,7 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
         By rotating the potentiometer, one can make
         the motor move by different amounts.
         
-        As mentioned in \chapref{potmeter}, the potentiometer on the shield is connected 
+        As mentioned in \chapref{potmeter}, the potentiometer on the Shield is connected 
         to analog pin 2 on \arduino. Through this pin, the resistance of the potentiometer, in the range of 0 to 1023,
         depending on its position, is read.  Thus, by rotating the
         potentiometer, we make different values appear on pin 2.  This value

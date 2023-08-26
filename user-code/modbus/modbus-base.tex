@@ -33,7 +33,7 @@
 
 %%%%OpenModelica ends
 
-In the previous chapters, we have discussed the programs to experiment with the sensors and actuators that come with the shield, a DC motor, and a servomotor. One may categorize these programs as either basic or intermediate.  In this chapter, we will learn one of the advanced applications that can be built using the toolbox. Recall the FLOSS discussed in the book, by default, does not have the capability to connect to Arduino. All such add-on functionalities are added to the FLOSS using toolboxes. Beginners might want to skip this chapter in the first reading. This experiment enables interfacing Modbus-based devices with the FLOSS-Arduino toolbox. This functionality has a wide number of applications in the industrial sector.
+In the previous chapters, we have discussed the programs to experiment with the sensors and actuators that come with the Shield, a DC motor, and a servomotor. One may categorize these programs as either basic or intermediate.  In this chapter, we will learn one of the advanced applications that can be built using the toolbox. Recall the FLOSS discussed in the book, by default, does not have the capability to connect to Arduino. All such add-on functionalities are added to the FLOSS using toolboxes. Beginners might want to skip this chapter in the first reading. This experiment enables interfacing Modbus-based devices with the FLOSS-Arduino toolbox. This functionality has a wide number of applications in the industrial sector.
 
 
 \section{Preliminaries}
@@ -142,7 +142,7 @@ All the parameter values are stored in the output holding registers.
 Different holding registers hold the values of different parameters.
 \tabref{tab:modbus-fun-codes} summarizes the various operations which
 Modbus RTU supports. One can locate the addresses of individual parameters
-in the user manual for EM6400. \tabref{tab:params-addr} provides the addresses
+in the user manual for EM6400. \tabref{tab:params-addr} provides the addresses
 for three individual parameters, which will be accessed in this chapter.
 
 
@@ -351,7 +351,7 @@ fine. Following are the two major types of storing the bytes:
 For example, let us take a four-byte integer 0x436B84A3. Considering
 that the read holding registers in Modbus protocol are 16-bits each, the
 LSB (or the little end) of this integer is 0x84A3, and the MSB (or the big end)
-of this integer is 0x436B.  Then, the memory storage patterns
+of this integer is 0x436B. Then, the memory storage patterns
 for the integer would be like that shown in \tabref{tab:memory-storage}.
 \begin{table}
   \centering

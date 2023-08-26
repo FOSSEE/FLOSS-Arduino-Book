@@ -38,7 +38,7 @@ to control it will be extremely useful for practitioners.  In this
 chapter, we will explain how to control a servomotor using the
 \arduino\ board.  We will begin with preliminaries of servomotors and
 explain how to connect a typical servomotor to the \arduino\ board and
-shield.  We will then explain how to control it through the Arduino IDE and other open-source software tools. 
+Shield.  We will then explain how to control it through the Arduino IDE and other open source software tools. 
 % Scilab scripts, Scilab Xcos, Python, Julia, and OpenModelica. 
 We will provide code for all the experiments.
 
@@ -69,8 +69,8 @@ This book uses PWM pin 5 for this purpose.
 Rest two terminals (Vcc and ground) need to be connected to 5V and GND on \arduino. 
 \tabref{tab:servo-connect} summarizes these connections. 
 
-We now explain how to connect a typical servomotor to the shield attached 
-on the \arduino\ board. On the shield, there is a three-pin header at one of the 
+We now explain how to connect a typical servomotor to the Shield attached 
+on the \arduino\ board. On the Shield, there is a three-pin header at one of the 
 ends. The pins of this header have been marked as $1$, $2$, and $3$. These pins:
 $1$, $2$, and $3$ are internally connected to 5V, PWM pin 5, and GND on \arduino\, respectively.  
 As discussed before, a typical servomotor has three terminals. Thus, the readers need to 
@@ -80,7 +80,7 @@ before running the experiments given in this chapter.
 \begin{figure}
   \centering
   \includegraphics[width=\lgfig]{\LocSERfig/servo-uno-shield.jpg}
-  \caption{Connecting servomotor to the shield attached on \arduino}
+  \caption{Connecting servomotor to the Shield attached on \arduino}
   \label{fig:servo-shield}
 \end{figure}
 
@@ -100,11 +100,11 @@ before running the experiments given in this chapter.
 
 
 \section{Connecting a servomotor with \arduino\ using a breadboard}
-This section is useful for those who either don't have a shield or don't want to use the shield
-for performing the experiments given in this chapter. 
+This section is useful for those who either don't have a Shield or don't want to use the Shield
+for performing the experiments given in this chapter.
 
 A breadboard is a device for holding the components of a circuit and connecting 
-them together. We can build an electronic circuit on a breadboard without doing any 
+them together. We can build an electronic circuit on a breadboard without doing any 
 soldering. To know more about the breadboard and other electronic components, 
 one should watch the Spoken Tutorials on Arduino as published on
   {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
@@ -141,7 +141,7 @@ potentiometer. Rest of the connections are same as that in \figref{fig:servo-bre
 In this section, we will describe some experiments that will help
 rotate the servomotor based on the command given from Arduino IDE.  We
 will also give the necessary code.  We will present four experiments
-in this section.  The shield has to be attached to the \arduino\ board
+in this section.  The Shield has to be attached to the \arduino\ board
 before doing these experiments and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}. The reader should go through the
 instructions given in \secref{sec:ard-start} before getting started.
@@ -195,7 +195,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         the way to $180^\circ$.  
         
   \item Finally, in the last experiment, we read the potentiometer value
-        from the shield and use it to drive the servomotor, see
+        from the Shield and use it to drive the servomotor, see
         \ardref{ard:servo-pot}.  The resistance of the potentiometer is
         represented in 10 bits.  As a result, the resistance value could be
         any one of 1024 values, from 0 to 1023.  This entire range is
@@ -205,7 +205,7 @@ instructions given in \secref{sec:ard-start} before getting started.
         By rotating the potentiometer, one can make
         the motor move by different amounts.
         
-        As mentioned in \chapref{potmeter}, the potentiometer on the shield is connected 
+        As mentioned in \chapref{potmeter}, the potentiometer on the Shield is connected 
         to analog pin 2 on \arduino. Through this pin, the resistance of the potentiometer, in the range of 0 to 1023,
         depending on its position, is read.  Thus, by rotating the
         potentiometer, we make different values appear on pin 2.  This value

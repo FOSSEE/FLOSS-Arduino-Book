@@ -25,8 +25,8 @@
 
 %%%%%OpenModelcia Ends
 
-In this chapter, we will learn how to control the LEDs on the shield
-and on the \arduino\ board.  We will do this through the Arduino IDE and other open-source software tools. 
+In this chapter, we will learn how to control the LEDs on the Shield
+and on the \arduino\ board.  We will do this through the Arduino IDE and other open source software tools. 
 % We will do this through the Arduino IDE, Scilab scripts, Scilab Xcos, Python, Julia, and OpenModelica.  
 These are beginner level experiments,
 and often referred to as the \emph{hello world} task of Arduino.
@@ -55,15 +55,15 @@ RGB LED that actually has three LEDs: red, green and blue.
 \end{figure}
 
 %\subsection{Connection diagram}
-An RGB LED is present on the shield provided in the kit.  In this
+An RGB LED is present on the Shield provided in the kit.  In this
 section, we will see how to light each of the LEDs present in the RGB
 LED.  As a matter of fact, it is possible to create many colours by
-combining these three.  A schematic of the RGB LED in the shield is
+combining these three.  A schematic of the RGB LED in the Shield is
 given in \figref{fig:ledblock}.
 \begin{figure}
   \centering
   \includegraphics[width=\smfig]{\LocLEDfig/schematic.png}
-  \caption{Internal connection diagram for the RGB LED on the shield}
+  \caption{Internal connection diagram for the RGB LED on the Shield}
   \label{fig:ledblock}
 \end{figure}
 The anode pins of red, green, and blue are connected to pins 11, 10, and 9, 
@@ -77,23 +77,23 @@ putting a high voltage on the corresponding anode pin.
 \begin{figure}
   \centering
   \includegraphics[width=\lgfig]{\LocLEDfig/arduino-new-shield.jpeg}
-  \caption{Connecting \arduino\ and shield}
+  \caption{Connecting \arduino\ and Shield}
   \label{fig:uno-shield-connect}
 \end{figure}
 
-One should remember to connect the shield on to the \arduino\ board, as
+One should remember to connect the Shield on to the \arduino\ board, as
 shown in \figref{fig:uno-shield-connect}. All the experiments in this
-chapter assume that the shield is connected to the \arduino\ board.
-It is also possible to do some of the experiments without the shield,
+chapter assume that the Shield is connected to the \arduino\ board.
+It is also possible to do some of the experiments without the Shield,
 which is pointed out in the next section. 
 
 \section{Connecting an RGB LED with \arduino\ using a breadboard}
 \label{sec:led-bread}
-This section is useful for those who either don't have a shield or don't want to use the shield
-for performing the experiments given in this chapter. 
+This section is useful for those who either don't have a Shield or don't want to use the Shield
+for performing the experiments given in this chapter.
 
 A breadboard is a device for holding the components of a circuit and connecting 
-them together. We can build an electronic circuit on a breadboard without doing any 
+them together. We can build an electronic circuit on a breadboard without doing any 
 soldering. To know more about the breadboard and other electronic components, 
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
@@ -123,14 +123,14 @@ Common cathode is connected to the ground (GND) terminal of Arduino Uno.
 In this section, we will describe some experiments that will help the
 LED light up based on the command given from the Arduino IDE.  We will
 also give the necessary code.  We will present four experiments in
-this section.  The shield has to be attached to the \arduino\ board
+this section.  The Shield has to be attached to the \arduino\ board
 before doing these experiments and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}. The reader should go through the
 instructions given in \secref{sec:ard-start} before getting started.
 \begin{enumerate}
   \item First, we will see how to light up the LED in different
         colours.  An extremely simple code is given in \ardref{ard:led-blue}.
-        On uploading this code, you can see that the LED on the shield turns
+        On uploading this code, you can see that the LED on the Shield turns
         blue.  It is extremely easy to explain this code.  Recall from the
         above discussion that we have to put a high voltage (5V) on pin 9 to
         turn the blue light on.  This is achieved by the following command:
@@ -186,8 +186,8 @@ instructions given in \secref{sec:ard-start} before getting started.
 
 \paragraph{Note:}
 All the above four experiments have been done with
-the shield affixed to the \arduino\ board.  One may run these
-experiments without the shield as well.  But in this case, pin number
+the Shield affixed to the \arduino\ board.  One may run these
+experiments without the Shield as well.  But in this case, pin number
 13 has to be used in all experiments, as pin 13 lights up the LED that
 is on the \arduino\ board.  For example, in \ardref{ard:led-blue}, one
 has to replace both occurrences of number 9 with 13.  In this case,
@@ -197,7 +197,7 @@ one will get the LED of \arduino\ board light up, as shown in
   \centering
   \includegraphics[width=\hgfig]{\LocLEDfig/led_output.png}
   \caption{LED experiments directly on \arduino\ board, without the
-    shield}
+    Shield}
   \label{fig:led-uno}
 \end{figure}
 
@@ -205,7 +205,7 @@ one will get the LED of \arduino\ board light up, as shown in
 \paragraph{Note:} It should also be pointed out that only one colour
 is available in \arduino\ board.  As a result, it is not possible to
 conduct the experiments that produce different colours if the
-shield is not used.
+Shield is not used.
 
 \begin{exercise}
   Carry out the following exercise:

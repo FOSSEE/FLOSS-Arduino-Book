@@ -8,10 +8,10 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces LilyPad Arduino Board\relax }}{11}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Arduino Phone\relax }}{11}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces 3D printer\relax }}{12}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces PCB image of the shield}}{13}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Pictorial representation of the schematic of the shield\relax }}{14}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces PCB of the shield\relax }}{15}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Picture of the shield with all components\relax }}{16}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces PCB image of the Shield}}{13}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pictorial representation of the schematic of the Shield\relax }}{14}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces PCB of the Shield\relax }}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Picture of the Shield with all components\relax }}{16}{figure.caption.28}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Windows device manager\relax }}{21}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Windows device manager\relax }}{22}{figure.caption.31}%
@@ -59,16 +59,16 @@
 \contentsline {figure}{\numberline {3.44}{\ignorespaces Examples provided in the OpenModelica-Arduino toolbox\relax }}{67}{figure.caption.73}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Light Emitting Diode\relax }}{69}{figure.caption.74}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for the RGB LED on the shield\relax }}{70}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and shield\relax }}{70}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Internal connection diagram for the RGB LED on the Shield\relax }}{70}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Connecting Arduino Uno\ and Shield\relax }}{70}{figure.caption.76}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces An RGB LED with Arduino Uno\ using a breadboard\relax }}{71}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the shield\relax }}{74}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the Shield\relax }}{74}{figure.caption.79}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{79}{figure.caption.81}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{80}{figure.caption.83}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{81}{figure.caption.85}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{82}{figure.caption.87}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Internal connection diagram for the pushbutton on the shield\relax }}{98}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Internal connection diagram for the pushbutton on the Shield\relax }}{98}{figure.caption.89}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{98}{figure.caption.90}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces A pushbutton to control an LED with Arduino Uno using a breadboard\relax }}{99}{figure.caption.91}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces GUI in Scilab to show the status of the pushbutton\relax }}{103}{figure.caption.92}%
@@ -78,7 +78,7 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Light Dependent Resistor\relax }}{118}{figure.caption.97}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of an LDR}}}{118}{subfigure.1.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of an LDR}}}{118}{subfigure.1.2}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the shield\relax }}{118}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Internal connection diagram for the LDR on the Shield\relax }}{118}{figure.caption.98}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces An LDR to read its values with Arduino Uno\ using a breadboard\relax }}{119}{figure.caption.99}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces An LDR to control an LED with Arduino Uno using a breadboard\relax }}{120}{figure.caption.100}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{125}{figure.caption.101}%
@@ -86,16 +86,16 @@
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{127}{figure.caption.104}%
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Plot window in Xcos to read LDR values and the state of LED\relax }}{127}{figure.caption.105}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the shield\relax }}{138}{figure.caption.107}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the Shield\relax }}{138}{figure.caption.107}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{138}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Internal connection diagram for the potentiometer on the shield}}}{138}{subfigure.1.2}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Internal connection diagram for the potentiometer on the Shield}}}{138}{subfigure.1.2}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces A potentiometer to control an LED with Arduino Uno using a breadboard\relax }}{139}{figure.caption.108}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Turning LEDs on through Xcos depending on the potentiometer threshold}}{143}{figure.caption.109}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Pictorial and symbolic representation of a thermistor\relax }}{152}{figure.caption.111}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a thermistor\cite {therm-wiki}}}}{152}{subfigure.1.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Symbolic representation of a thermistor}}}{152}{subfigure.1.2}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Internal connection diagrams for thermistor and buzzer on the shield\relax }}{152}{figure.caption.112}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Internal connection diagrams for thermistor and buzzer on the Shield\relax }}{152}{figure.caption.112}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Thermistor connection diagram}}}{152}{subfigure.2.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Buzzer connection diagram}}}{152}{subfigure.2.2}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces A thermistor to read its values with Arduino Uno using a breadboard\relax }}{153}{figure.caption.113}%
@@ -105,7 +105,7 @@
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Xcos diagram to read the value of thermistor, which is used to turn the buzzer on}}{163}{figure.caption.120}%
 \contentsline {figure}{\numberline {8.8}{\ignorespaces Plot window in Xcos to read thermistor values and the state of LED\relax }}{165}{figure.caption.122}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Connecting servomotor to the shield attached on Arduino Uno\relax }}{176}{figure.caption.127}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Connecting servomotor to the Shield attached on Arduino Uno\relax }}{176}{figure.caption.127}%
 \contentsline {figure}{\numberline {9.2}{\ignorespaces A servomotor with Arduino Uno\ using a breadboard\relax }}{177}{figure.caption.129}%
 \contentsline {figure}{\numberline {9.3}{\ignorespaces A servomotor and a potentiometer with Arduino Uno\ using a breadboard\relax }}{178}{figure.caption.130}%
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Rotating the servomotor by a fixed angle}}{185}{figure.caption.131}%

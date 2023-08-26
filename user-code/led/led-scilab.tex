@@ -3,14 +3,14 @@
 \label{sec:light-sci}
 In this section, we discuss how to carry out the experiments of the
 previous section from Scilab.  We will list the same four experiments,
-in the same order.  The shield has to be attached to the \arduino\ board
+in the same order.  The Shield has to be attached to the \arduino\ board
 before doing these experiments and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}.
 The reader should go through the instructions given in
 \secref{sec:sci-start} before getting started. 
 \begin{enumerate}
   \item In the first experiment, we will light up the blue LED on the
-        shield.  The code for this is given in \sciref{sci:led-blue}.  It
+        Shield.  The code for this is given in \sciref{sci:led-blue}.  It
         begins with a command of the form
         \begin{lstlisting}[style=nonumbers]
      ok = open_serial(1, PORT NUMBER, BAUD RATE)
@@ -42,7 +42,7 @@ The reader should go through the instructions given in
         \begin{lstlisting}[style=nonumbers]
     cmd_digital_out(1, PIN NUMBER, VALUE)
   \end{lstlisting}
-        As we want to turn on the blue light in the shield, as discussed in
+        As we want to turn on the blue light in the Shield, as discussed in
         \secref{sec:light-ard}, we choose {\tt PIN NUMBER} as 9.  We can put
         any positive integer in the place of {\tt VALUE}.  We arrive at the
         following command:

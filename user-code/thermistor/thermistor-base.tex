@@ -49,7 +49,7 @@ with the \arduino\ board.
 \section{Preliminaries}
 A typical thermistor and its symbolic representation are shown in
 \ref{fig:therm} and \ref{fig:thermsym} respectively. The thermistor is
-available on the shield provided with the kit.  It is a bead type
+available on the Shield provided with the kit.  It is a bead type
 thermistor having a resistance of 10k at room temperature. A voltage
 divider network is formed using thermistor and another fixed 10k
 resistor. A voltage of 5 volts is applied across the series
@@ -59,7 +59,7 @@ across the fixed resistor is sensed and is given to the ADC via pin
 resulting in dividing the 5V equally. A buzzer is also connected on
 pin 3 which is a digital output pin.
 Connections for this experiment are shown in \ref{fig:therm-conn}
-and \ref{fig:buzzer-conn}.  Nevertheless, the user doesn't need to
+and \ref{fig:buzzer-conn}. Nevertheless, the user doesn't need to
 connect any wire or component explicitly.
 
 
@@ -85,15 +85,15 @@ connect any wire or component explicitly.
     \includegraphics[width=\smfig]
     {\LocTHERMfig/BUZZER-Diagram-crop.pdf}
     \label{fig:buzzer-conn}}
-  \caption{Internal connection diagrams for thermistor and buzzer on the shield}
+  \caption{Internal connection diagrams for thermistor and buzzer on the Shield}
 \end{figure}
 
 \section{Connecting a thermistor with \arduino\ using a breadboard}
-This section is useful for those who either don't have a shield or don't want to use the shield
+This section is useful for those who either don't have a Shield or don't want to use the Shield
 for performing the experiments given in this chapter.
 
 A breadboard is a device for holding the components of a circuit and connecting
-them together. We can build an electronic circuit on a breadboard without doing any
+them together. We can build an electronic circuit on a breadboard without doing any
 soldering. To know more about the breadboard and other electronic components,
 one should watch the Spoken Tutorials on Arduino as published on
   {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
@@ -113,7 +113,7 @@ board.
   \label{fig:ard-therm-bread}
 \end{figure}
 As shown in \figref{fig:ard-therm-bread}, one leg of the thermistor is connected
-to 5V on \arduino\ and the other leg to the analog pin 4 on  \arduino. A resistor is also
+to 5V on \arduino\ and the other leg to the analog pin 4 on \arduino. A resistor is also
 connected to the same leg and grounded. From \figref{fig:therm-conn} and \figref{fig:ard-therm-bread}, one can infer that a resistor
 along with the thermistor is used to create a voltage divider circuit. The varying
 resistance of the thermistor is converted to a varying voltage. Finally, this voltage is used
@@ -136,7 +136,7 @@ leg of the buzzer is connected to GND of \arduino.
 \subsection{Interfacing the thermistor}
 In this section we will learn how to read values from the thermistor
 connected at pin 4 of the \arduino\ board. We shall also see how to
-drive a buzzer depending upon the thermistor values. The shield has to be attached to the \arduino\ board
+drive a buzzer depending upon the thermistor values. The Shield has to be attached to the \arduino\ board
 before doing these experiments and the \arduino\ needs to be connected to the computer
 with a USB cable, as shown in \figref{arduino}. The reader should go through the
 instructions given in \secref{sec:ard-start} before getting started.
@@ -208,7 +208,7 @@ instructions given in \secref{sec:ard-start} before getting started.
   Carry out the following exercise:
   \begin{enumerate}
     \item Put the thermistor in the vicinity of an Ice bowl. Take care not
-          to wet the shield while doing so. Note down the ADC output value for
+          to wet the Shield while doing so. Note down the ADC output value for
           0$^{\circ}$Celsius.
   \end{enumerate}
 \end{exercise}

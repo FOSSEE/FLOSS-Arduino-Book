@@ -43,12 +43,12 @@ in volume control, calibration and tuning circuits, motion control,
 joysticks, etc.
 
 In this chapter, we will perform an experiment to read the analog
-values from a potentiometer mounted on the shield of \arduino\
+values from a potentiometer mounted on the Shield of \arduino\
 board. The analog values read from the potentiometer will then be
 used to control the actuation of other components.
 
 \section{Preliminaries}
-The shield provided with the kit has a 1K potentiometer mounted on
+The Shield provided with the kit has a 1K potentiometer mounted on
 it. The mechanical contact at the middle terminal is rotated to vary
 the resistance across the middle terminal and the two ends of the
 potentiometer. With the fixed voltage across the two terminals of the
@@ -63,16 +63,16 @@ also available.
 \subfloat[Pictorial representation of a potentiometer]{
 \includegraphics[width=\smfig]{\LocPotfig/potmeter.png}
 \label{fig:pot}} \hfill
-\subfloat[Internal connection diagram for the potentiometer on the shield]{
+\subfloat[Internal connection diagram for the potentiometer on the Shield]{
 \includegraphics[width=\smfig]{\LocPotfig/schematic.png}
 \label{fig:potsch}}
-\caption{Potentiometer's schematic on the shield}
+\caption{Potentiometer's schematic on the Shield}
 \label{fig:potmeterconn}
 \end{figure}
 
-The potentiometer used in the kit can be seen on the shield in
+The potentiometer used in the kit can be seen on the Shield in
 \figrefp{fig:uno-shield-connect}.  It is
-mounted on the shield. The two end terminals of the potentiometer are
+mounted on the Shield. The two end terminals of the potentiometer are
 connected to 5V supply and ground. The middle terminal is connected to
 analog pin 2 of the \arduino\ board. The resistance between the middle
 terminal and either of the two ends can be varied by rotating the
@@ -85,7 +85,7 @@ The reading of a potentiometer is an analog voltage varying from 0 to
 % Scilab Console or Arduino Serial Monitor.
 % redcolor{Arduino Serial Monitor}
 In the experiment explained in this chapter, we shall also use an RGB
-LED mounted on the shield. An RGB LED is a tri-color LED which can
+LED mounted on the Shield. An RGB LED is a tri-color LED which can
 illuminate in Red, Green, and Blue colors. It has 4 leads of which one
 lead is connected to ground and other three leads are connected to
 digital I/O pins 9, 10, and 11 of Arduino. In order to switch on a
@@ -93,11 +93,11 @@ particular LED, we need to provide HIGH (5V) voltage to the
 corresponding pin of the \arduino\ board.
 
 \section{Connecting a potentiometer with \arduino\ using a breadboard}
-This section is useful for those who either don't have a shield or don't want to use the shield
-for performing the experiments given in this chapter. 
+This section is useful for those who either don't have a Shield or don't want to use the Shield
+for performing the experiments given in this chapter.
 
 A breadboard is a device for holding the components of a circuit and connecting 
-them together. We can build an electronic circuit on a breadboard without doing any 
+them together. We can build an electronic circuit on a breadboard without doing any 
 soldering. To know more about the breadboard and other electronic components, 
 one should watch the Spoken Tutorials on Arduino as published on
 {\tt https://spoken-tutorial.org/}. Ideally, one should go through all the
@@ -116,16 +116,16 @@ can be used to control an RGB LED depending upon the values from the potentiomet
   \label{fig:pot-led}
 \end{figure}
 As shown in \figref{fig:pot-led}, the three legs of the potentiometer are connected to 
-5V, analog pin 2, and GND on \arduino. Depending upon how much the potentiometer's shaft is rotated, one can get a value on analog pin 2. On the other hand, 
+5V, analog pin 2, and GND on \arduino. Depending upon how much the potentiometer's shaft is rotated, one can get a value on analog pin 2. On the other hand, 
 there is an RGB LED, and its four legs are connected to three different digital pins and GND on \arduino\, as discussed in 
-\chapref{led}. 
+\chapref{led}.
 
 
 \section{Reading the potentiometer from the Arduino IDE}
 \subsection{Reading the potentiometer}
 In this section, we shall learn how to read the potentiometer 
 input through Arduino IDE. Depending on the acquired potentiometer 
-values, we will change the state of the RGB LED. The shield has to be attached to the \arduino\ board
+values, we will change the state of the RGB LED. The Shield has to be attached to the \arduino\ board
 before doing this experiment and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}. The reader should go through the
 instructions given in \secref{sec:ard-start} before getting started.

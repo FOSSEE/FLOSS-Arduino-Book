@@ -14,7 +14,7 @@ In this book, we shall use an \arduino\ board and associated circuitry
 to perform several experiments on data acquisition and control. This
 chapter will briefly take you through the hardware environment needed
 to perform these experiments. We will start with the introduction to a
-microcontroller followed by a brief on Open Source Hardware. Then, we
+microcontroller followed by a brief on open source hardware. Then, we
 shall go through the history and hardware specifications of the
 \arduino\ board and the schema and uses of the shield provided in
 the kit.
@@ -165,7 +165,7 @@ will review them briefly.
 
 \section{Open Source Hardware (OSHW)}
 \label{sec:oshw}
-In this section, we will introduce the reader to Open Source Hardware
+In this section, we will introduce the reader to open source hardware
 (OSHW), which is
 \emph{defined} as follows \cite{oshw-ref}:
 \begin{quote}
@@ -183,9 +183,9 @@ in \figref{fig:OSHW-logo} \cite{OSHW-logo-ref}.
   \caption{The logo of Open Source Hardware}
   \label{fig:OSHW-logo}
 \end{figure}
-The open-source hardware initiative is popular in the electronic,
+The open source hardware initiative is popular in the electronic,
 computing hardware and automation industry.  Here are some examples of
-open-source hardware projects:
+open source hardware projects:
 \begin{enumerate}
   \item The ``open compute project'' at Facebook shares the design of
         data center products.
@@ -198,7 +198,7 @@ open-source hardware projects:
   \item ``NetFPGA'' is a prototyping of computer network devices.
   \item ``OpenROV'' project (Open Source Remotely Operated Vehicle)
         aims at affordable underwater exploration.
-  \item ``OpenMoko'' project set the foundation for open-source mobile
+  \item ``OpenMoko'' project set the foundation for open source mobile
         phones. ``Neo 1973'' was the first smartphone released in 2007
         with Linux based operating system, it had 128MB RAM and 64MB ROM.
 \end{enumerate}
@@ -211,7 +211,7 @@ the trend has certainly started and is going strong.  There are now
 many robotics startups taking full use of OSHW.
 
 \section {Arduino}
-Arduino is an open-source microcontroller board and a software
+Arduino is an open source microcontroller board and a software
 development environment. Arduino language is a \emph{C} like
 programming language which is easy to learn and understand.  Arduino
 has two components, open source hardware and open source software.  We
@@ -245,8 +245,8 @@ Based on ATmega328, the \arduino\ board has 14 digital input/output
 pins, 6 analog inputs, 6 PWM pins, a 16 MHz ceramic resonator, a power
 jack, an ICSP (In-Circuit Serial Programming) header, and a reset
 button. It has an on-board USB to serial converter and can be connected
-to a PC using a USB cable.  \figref{arduino} has a picture of this board
-\cite{uno-ref}.  \tabref{micro-table} has the specifications of the
+to a PC using a USB cable. \figref{arduino} has a picture of this board
+\cite{uno-ref}. \tabref{micro-table} has the specifications of the
 \arduino\ board.
 
 \begin{figure}
@@ -328,7 +328,7 @@ be built in a few hours \cite{phone-ref}.
 \paragraph{Candy sorting machine:} As the name suggests, this machine
 can sort candy based on its color to separate jars \cite{candy-ref}.
 
-\paragraph{3D printers:} There are open-source 3D printers based on
+\paragraph{3D printers:} There are open source 3D printers based on
 Arduino and  Raspberry Pi. Although 3D printers, shown in \figref{3dprinter},
 are relatively slow and lack precision, they can be ideal for building prototypes by
 hobbyists \cite{3d-printer-ref}.
@@ -340,44 +340,44 @@ hobbyists \cite{3d-printer-ref}.
 \end{figure}
 
 \section{Shield}\label{shield-hw}
-The shield that we use in this book is a modified version of the Diyode Codeshield
+The Shield that we use in this book is a modified version of the Diyode Codeshield
 board \cite{shield-ref}, which makes it easy to perform
-experiments on the \arduino\ board.  The shield is a printed circuit
+experiments on the \arduino\ board.  The Shield is a printed circuit
 board (PCB) with a large number of sensors, already wired and hence,
 ready to use.  It obviates the need for a breadboard as an
 intermediate tool for electronics circuit prototyping, which is quite
-cumbersome for beginners.  The shield provides the user a faster way
+cumbersome for beginners.  The Shield provides the user a faster way
 of circuit prototyping without worrying much about troubleshooting.
 
-The numbering on the shield is identical to that on
-the \arduino\ board.  The shield fits snugly on to the \arduino\
+The numbering on the Shield is identical to that on
+the \arduino\ board.  The Shield fits snugly on to the \arduino\
 board, obviating the need to do the wiring in many experiments.  One
-can even say that shields have made the hardware experiments involving
+can even say that Shields have made the hardware experiments involving
 Arduino boards as easy as writing software.
 
 All the experiments in this book have been verified with the use of a
 modified version of Diyode Codeshield, as mentioned above.  We make
-available all the required information to make a shield, thus making
+available all the required information to make a Shield, thus making
 this an OSHW, see \secref{sec:oshw}.
 
-We now explain where the required files to make our shield are given.
-The gerber file to make the shield is given in
+We now explain where the required files to make our Shield are given.
+The gerber file to make the Shield is given in
 \LocSHbrief{gerber-V1.2}. The image of the PCB file is given in
 \figref{fig:PCB-image}. The PCB project files are available in a
 folder at \LocSHbrief{kicad-import}.
 \begin{figure}
   \centering
   \includegraphics[width=\lgfig]{\LocSH/pcb_board_V1p2.png}
-  \caption[PCB image of the shield]{PCB image of the shield}
+  \caption[PCB image of the Shield]{PCB image of the Shield}
   % The PCB file can be found at \LocSHbrief{shield-V1p2.brd}.
   \label{fig:PCB-image}
 \end{figure}
-The pictorial representation of the schematic for the shield is given
+The pictorial representation of the schematic for the Shield is given
 in \figref{fig:sch-shield}.
 \begin{figure}
   \centering
   \includegraphics[width=\linewidth]{\LocSH/shield-V1p2.png}
-  \caption{Pictorial representation of the schematic of the shield}
+  \caption{Pictorial representation of the schematic of the Shield}
   \label{fig:sch-shield}
 \end{figure}
 A photograph of the PCB after fabrication is given in
@@ -386,14 +386,14 @@ A photograph of the PCB after fabrication is given in
 \begin{figure}
   \centering
   \includegraphics[width=0.6\linewidth]{\LocSH/shield-V1p2.jpg}
-  \caption{PCB of the shield}
+  \caption{PCB of the Shield}
   \label{fig:shield-photo}
 \end{figure}
-The values of the various components used in the shield are given in
+The values of the various components used in the Shield are given in
 \tabref{tab:shield-values}.
 \begin{table}
   \centering
-  \caption{Values of components used in the shield}
+  \caption{Values of components used in the Shield}
   \label{tab:shield-values}
   \begin{tabular}{llc} \hline
     Name       & Description                     & Quantity \\ \hline
@@ -424,7 +424,7 @@ The values of the various components used in the shield are given in
   \end{tabular}
 \end{table}
 \tabref{shield-table} provides information about various sensors,
-components on shield and its corresponding pin on \arduino\ board
+components on Shield and its corresponding pin on \arduino\ board
 \cite{shield-ref}.
 \begin{table}
   \centering
@@ -448,11 +448,11 @@ components on shield and its corresponding pin on \arduino\ board
     \hline
   \end{tabular}
 \end{table}
-A picture of the completed shield is in \figref{shield}. The information on purchasing this shield is given in Appendix \ref{shield-appendix}.
+A picture of the completed Shield is in \figref{shield}. The information on purchasing this Shield is given in Appendix \ref{shield-appendix}.
 \begin{figure}
   \centering
   \includegraphics[width=\linewidth]{\LocHWfig/shield-crop.jpg}
-  \caption{Picture of the shield with all components}
+  \caption{Picture of the Shield with all components}
   \label{shield}
 \end{figure}
 
@@ -474,7 +474,7 @@ this book.
   \item Energy meter with Modbus interface
 \end{enumerate}
 
-The \arduino\ board is easily available in the market.  The shield is
+The \arduino\ board is easily available in the market.  The Shield is
 designed by us.  Details of most of these units are provided in the
 previous sections.  Information on all of these is available in the
 file, mentioned in \fnref{fn:file-loc}, and in the Appendix.
