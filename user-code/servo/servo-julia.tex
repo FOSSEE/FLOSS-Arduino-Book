@@ -3,9 +3,9 @@
 \label{sec:servo-julia}
 In this section, we discuss how to carry out the experiments of the
 previous section from Julia.  We will list the same four experiments,
-in the same order. As mentioned earlier, the Shield must be removed from 
-the \arduino\ and the \arduino\ needs to be connected to the computer 
-with a USB cable, as shown in \figref{arduino}. 
+in the same order. The Shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
+with a USB cable, as shown in \figref{arduino}.
 The reader should go through the instructions given in \secref{sec:julia-start} before getting started.
 
 
@@ -16,7 +16,7 @@ The reader should go through the instructions given in \secref{sec:julia-start} 
         Next, we attach the servomotor by issuing the command given below:
         \lstinputlisting[firstline=5,lastline=5]{\LocSERjuliacode/servo-init.jl}
         As shown above, the servomotor is attached on the serial port (the first argument)
-        to pin 1 (the second argument).  In the Julia-Arduino toolbox discussed 
+        to pin 1 (the second argument).  In Julia-Arduino toolbox discussed 
         in \secref{sec:julia-toolbox}, pin 1 and pin 5 are connected. As a result, we connect the wire physically to
         pin 5, which is achieved by the Shield as discussed in \secref{sec:servo-pril}.
         

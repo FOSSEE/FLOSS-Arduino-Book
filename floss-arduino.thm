@@ -84,42 +84,42 @@
 \contentsline {pymass}{{Python Code}{9.{3}}{}}{193}{pymass.9.3}%
 \contentsline {pymass}{{Python Code}{9.{4}}{}}{193}{pymass.9.4}%
 \contentsline {juliamass}{{Julia Code}{9.{1}}{}}{196}{juliamass.9.1}%
-\contentsline {juliamass}{{Julia Code}{9.{2}}{}}{196}{juliamass.9.2}%
+\contentsline {juliamass}{{Julia Code}{9.{2}}{}}{197}{juliamass.9.2}%
 \contentsline {juliamass}{{Julia Code}{9.{3}}{}}{197}{juliamass.9.3}%
 \contentsline {juliamass}{{Julia Code}{9.{4}}{}}{197}{juliamass.9.4}%
 \contentsline {OpenModelicamass}{{OpenModelica Code}{9.{1}}{}}{200}{OpenModelicamass.9.1}%
 \contentsline {OpenModelicamass}{{OpenModelica Code}{9.{2}}{}}{200}{OpenModelicamass.9.2}%
 \contentsline {OpenModelicamass}{{OpenModelica Code}{9.{3}}{}}{201}{OpenModelicamass.9.3}%
 \contentsline {OpenModelicamass}{{OpenModelica Code}{9.{4}}{}}{202}{OpenModelicamass.9.4}%
-\contentsline {egmass}{{Exercise}{10.{1}}{}}{208}{egmass.10.1}%
-\contentsline {ardmass}{{Arduino Code}{10.{1}}{}}{208}{ardmass.10.1}%
-\contentsline {ardmass}{{Arduino Code}{10.{2}}{}}{208}{ardmass.10.2}%
-\contentsline {ardmass}{{Arduino Code}{10.{3}}{}}{209}{ardmass.10.3}%
-\contentsline {egmass}{{Exercise}{10.{2}}{}}{212}{egmass.10.2}%
-\contentsline {codemass}{{Scilab Code}{10.{1}}{}}{212}{codemass.10.1}%
-\contentsline {codemass}{{Scilab Code}{10.{2}}{}}{212}{codemass.10.2}%
-\contentsline {codemass}{{Scilab Code}{10.{3}}{}}{213}{codemass.10.3}%
-\contentsline {egmass}{{Exercise}{10.{3}}{}}{215}{egmass.10.3}%
-\contentsline {pymass}{{Python Code}{10.{1}}{}}{219}{pymass.10.1}%
-\contentsline {pymass}{{Python Code}{10.{2}}{}}{220}{pymass.10.2}%
-\contentsline {pymass}{{Python Code}{10.{3}}{}}{221}{pymass.10.3}%
-\contentsline {juliamass}{{Julia Code}{10.{1}}{}}{224}{juliamass.10.1}%
-\contentsline {juliamass}{{Julia Code}{10.{2}}{}}{225}{juliamass.10.2}%
-\contentsline {juliamass}{{Julia Code}{10.{3}}{}}{225}{juliamass.10.3}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{1}}{}}{228}{OpenModelicamass.10.1}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{2}}{}}{229}{OpenModelicamass.10.2}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{3}}{}}{229}{OpenModelicamass.10.3}%
-\contentsline {ardmass}{{Arduino Code}{11.{1}}{}}{241}{ardmass.11.1}%
-\contentsline {codemass}{{Scilab Code}{11.{1}}{}}{243}{codemass.11.1}%
-\contentsline {codemass}{{Scilab Code}{11.{2}}{}}{243}{codemass.11.2}%
-\contentsline {codemass}{{Scilab Code}{11.{3}}{}}{244}{codemass.11.3}%
-\contentsline {codemass}{{Scilab Code}{11.{4}}{}}{244}{codemass.11.4}%
-\contentsline {pymass}{{Python Code}{11.{1}}{}}{250}{pymass.11.1}%
-\contentsline {pymass}{{Python Code}{11.{2}}{}}{250}{pymass.11.2}%
-\contentsline {pymass}{{Python Code}{11.{3}}{}}{250}{pymass.11.3}%
-\contentsline {juliamass}{{Julia Code}{11.{1}}{}}{252}{juliamass.11.1}%
-\contentsline {juliamass}{{Julia Code}{11.{2}}{}}{252}{juliamass.11.2}%
-\contentsline {juliamass}{{Julia Code}{11.{3}}{}}{252}{juliamass.11.3}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{1}}{}}{254}{OpenModelicamass.11.1}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{2}}{}}{254}{OpenModelicamass.11.2}%
-\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{3}}{}}{255}{OpenModelicamass.11.3}%
+\contentsline {egmass}{{Exercise}{10.{1}}{}}{210}{egmass.10.1}%
+\contentsline {ardmass}{{Arduino Code}{10.{1}}{}}{210}{ardmass.10.1}%
+\contentsline {ardmass}{{Arduino Code}{10.{2}}{}}{210}{ardmass.10.2}%
+\contentsline {ardmass}{{Arduino Code}{10.{3}}{}}{211}{ardmass.10.3}%
+\contentsline {egmass}{{Exercise}{10.{2}}{}}{214}{egmass.10.2}%
+\contentsline {codemass}{{Scilab Code}{10.{1}}{}}{214}{codemass.10.1}%
+\contentsline {codemass}{{Scilab Code}{10.{2}}{}}{214}{codemass.10.2}%
+\contentsline {codemass}{{Scilab Code}{10.{3}}{}}{215}{codemass.10.3}%
+\contentsline {egmass}{{Exercise}{10.{3}}{}}{217}{egmass.10.3}%
+\contentsline {pymass}{{Python Code}{10.{1}}{}}{221}{pymass.10.1}%
+\contentsline {pymass}{{Python Code}{10.{2}}{}}{222}{pymass.10.2}%
+\contentsline {pymass}{{Python Code}{10.{3}}{}}{223}{pymass.10.3}%
+\contentsline {juliamass}{{Julia Code}{10.{1}}{}}{226}{juliamass.10.1}%
+\contentsline {juliamass}{{Julia Code}{10.{2}}{}}{227}{juliamass.10.2}%
+\contentsline {juliamass}{{Julia Code}{10.{3}}{}}{227}{juliamass.10.3}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{1}}{}}{230}{OpenModelicamass.10.1}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{2}}{}}{231}{OpenModelicamass.10.2}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{10.{3}}{}}{231}{OpenModelicamass.10.3}%
+\contentsline {ardmass}{{Arduino Code}{11.{1}}{}}{243}{ardmass.11.1}%
+\contentsline {codemass}{{Scilab Code}{11.{1}}{}}{245}{codemass.11.1}%
+\contentsline {codemass}{{Scilab Code}{11.{2}}{}}{245}{codemass.11.2}%
+\contentsline {codemass}{{Scilab Code}{11.{3}}{}}{246}{codemass.11.3}%
+\contentsline {codemass}{{Scilab Code}{11.{4}}{}}{246}{codemass.11.4}%
+\contentsline {pymass}{{Python Code}{11.{1}}{}}{252}{pymass.11.1}%
+\contentsline {pymass}{{Python Code}{11.{2}}{}}{252}{pymass.11.2}%
+\contentsline {pymass}{{Python Code}{11.{3}}{}}{252}{pymass.11.3}%
+\contentsline {juliamass}{{Julia Code}{11.{1}}{}}{254}{juliamass.11.1}%
+\contentsline {juliamass}{{Julia Code}{11.{2}}{}}{254}{juliamass.11.2}%
+\contentsline {juliamass}{{Julia Code}{11.{3}}{}}{254}{juliamass.11.3}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{1}}{}}{256}{OpenModelicamass.11.1}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{2}}{}}{256}{OpenModelicamass.11.2}%
+\contentsline {OpenModelicamass}{{OpenModelica Code}{11.{3}}{}}{257}{OpenModelicamass.11.3}%

@@ -1,9 +1,9 @@
 
 \section{Manifestation of Modbus protocol through OpenModelica}
 The objective of this experiment is to make the user acquainted with
-the demonstration of Modbus protocol through the OpenModelica-Arduino toolbox.
+the demonstration of Modbus protocol through OpenModelica-Arduino toolbox.
 It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter},
-an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using the Python-Arduino toolbox. For data transmission, we have used an RS485 module.
+an energy meter is a device that gives us different electrical parameters, including voltage, current, and power, consumed by a device. Here, we aim to obtain these values using OpenModelica-Arduino toolbox. For data transmission, we have used an RS485 module.
 
 OpenModelica is used for giving the required parameters to \arduino. For
 example, the user will tell the required slave address to be accessed
@@ -27,7 +27,7 @@ the newer versions. We invite the experts to contribute the revised version of t
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from OpenModelica to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:OpenModelica-start} before getting started.
 
 \subsection{OpenModelica Code}
-Unlike other code files, the code/model for running experiments using OpenModelica are available inside the OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}. Please refer to \figref{om-examples-toolbox} to know how to locate the experiments.
+Unlike other code files, the code/model for running experiments using OpenModelica are available inside OpenModelica-Arduino toolbox, as explained in \secref{sec:load-om-toolbox}. Please refer to \figref{om-examples-toolbox} to know how to locate the experiments.
 
 \label{sec:modbus-OpenModelica-code}
 \addtocontents{OpenModelicad}{\protect\addvspace{\codclr}}

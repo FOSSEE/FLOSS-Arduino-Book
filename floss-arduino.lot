@@ -11,7 +11,7 @@
 \contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{81}{table.caption.86}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{82}{table.caption.88}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the push button status on the display block\relax }}{105}{table.caption.94}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the pushbutton status on the display block\relax }}{105}{table.caption.94}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{106}{table.caption.96}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{126}{table.caption.103}%
@@ -28,17 +28,17 @@
 \contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{188}{table.caption.136}%
 \contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{189}{table.caption.138}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Values to be passed for different H-Bridge circuits\relax }}{204}{table.caption.140}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{214}{table.caption.148}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{215}{table.caption.150}%
-\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{217}{table.caption.152}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces Values to be passed for different H-Bridge circuits\relax }}{206}{table.caption.140}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{216}{table.caption.148}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{217}{table.caption.150}%
+\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{219}{table.caption.152}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{233}{table.caption.161}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{234}{table.caption.163}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{234}{table.caption.164}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{235}{table.caption.166}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{236}{table.caption.167}%
-\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{237}{table.caption.168}%
-\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read energy meter values\relax }}{249}{table.caption.181}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{235}{table.caption.161}%
+\contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{236}{table.caption.163}%
+\contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{236}{table.caption.164}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{237}{table.caption.166}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{238}{table.caption.167}%
+\contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{239}{table.caption.168}%
+\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read energy meter values\relax }}{251}{table.caption.181}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Approximate cost of the components\relax }}{257}{table.caption.185}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Approximate cost of the components\relax }}{259}{table.caption.185}%

@@ -3,8 +3,8 @@
 \label{sec:servo-py}
 In this section, we discuss how to carry out the experiments of the
 previous section from Python.  We will list the same four experiments,
-in the same order. As mentioned earlier, the Shield must be removed from 
-the \arduino\ and the \arduino\ needs to be connected to the computer 
+in the same order. The Shield has to be attached to the \arduino\ board
+before doing these experiments and the \arduino\ needs to be connected to the computer 
 with a USB cable, as shown in \figref{arduino}. The reader should go through the instructions given in
 \secref{sec:python-start} before getting started.
 
@@ -23,7 +23,7 @@ with a USB cable, as shown in \figref{arduino}. The reader should go through the
         Next, we attach the servomotor by issuing the command given below:
         \lstinputlisting[firstline=24,lastline=24]{\LocSERpycode/servo-init.py}
         As shown above, the servomotor is attached on board 1 (the first argument)
-        to pin 1 (the second argument).  In the Python-Arduino toolbox discussed 
+        to pin 1 (the second argument).  In Python-Arduino toolbox discussed 
         in \secref{sec:python-toolbox}, pin 1 and pin 5 are connected. As a result, we connect the wire physically to
         pin 5, which is achieved by the Shield as discussed in \secref{sec:servo-pril}.
         
