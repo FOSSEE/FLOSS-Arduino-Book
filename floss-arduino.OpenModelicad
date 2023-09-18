@@ -1,30 +1,30 @@
-\contentsline {section}{\numberline {3.{1}}An OpenModelica code/model to check whether the firmware is properly installed or not}{67}{OpenModelicamass.3.1}%
+\contentsline {section}{\numberline {3.{1}}An OpenModelica code/model to check whether the firmware is properly installed or not}{76}{OpenModelicamass.3.1}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{93}{OpenModelicamass.4.1}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{93}{OpenModelicamass.4.2}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{94}{OpenModelicamass.4.3}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{95}{OpenModelicamass.4.4}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{108}{OpenModelicamass.4.1}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{109}{OpenModelicamass.4.2}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{110}{OpenModelicamass.4.3}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{111}{OpenModelicamass.4.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the output window}{113}{OpenModelicamass.5.1}%
-\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{114}{OpenModelicamass.5.2}%
+\contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the output window}{133}{OpenModelicamass.5.1}%
+\contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{134}{OpenModelicamass.5.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{134}{OpenModelicamass.6.1}%
-\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{135}{OpenModelicamass.6.2}%
+\contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{158}{OpenModelicamass.6.1}%
+\contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{159}{OpenModelicamass.6.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{149}{OpenModelicamass.7.1}%
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{176}{OpenModelicamass.7.1}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{173}{OpenModelicamass.8.1}%
-\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{173}{OpenModelicamass.8.2}%
+\contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{206}{OpenModelicamass.8.1}%
+\contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{207}{OpenModelicamass.8.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{200}{OpenModelicamass.9.1}%
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{200}{OpenModelicamass.9.2}%
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{201}{OpenModelicamass.9.3}%
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{202}{OpenModelicamass.9.4}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{240}{OpenModelicamass.9.1}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{241}{OpenModelicamass.9.2}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{242}{OpenModelicamass.9.3}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{242}{OpenModelicamass.9.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{230}{OpenModelicamass.10.1}%
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{231}{OpenModelicamass.10.2}%
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{231}{OpenModelicamass.10.3}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{276}{OpenModelicamass.10.1}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{277}{OpenModelicamass.10.2}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{278}{OpenModelicamass.10.3}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{256}{OpenModelicamass.11.1}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{256}{OpenModelicamass.11.2}%
-\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{257}{OpenModelicamass.11.3}%
+\contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{308}{OpenModelicamass.11.1}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{308}{OpenModelicamass.11.2}%
+\contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{309}{OpenModelicamass.11.3}%
