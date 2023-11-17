@@ -1,10 +1,10 @@
 \addvspace {10pt}
 \contentsline {section}{\numberline {3.{1}}A Python script to check whether the firmware is properly installed or not}{54}{pymass.3.1}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{98}{pymass.4.1}%
-\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{99}{pymass.4.2}%
-\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{100}{pymass.4.3}%
-\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{101}{pymass.4.4}%
+\contentsline {section}{\numberline {4.{1}}Turning on the blue LED}{99}{pymass.4.1}%
+\contentsline {section}{\numberline {4.{2}}Turning on the blue LED and turning it off after two seconds}{100}{pymass.4.2}%
+\contentsline {section}{\numberline {4.{3}}Turning on blue and red LEDs for 5 seconds and then turning them off one by one}{101}{pymass.4.3}%
+\contentsline {section}{\numberline {4.{4}}Blinking the green LED}{102}{pymass.4.4}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {5.{1}}Read the status of the pushbutton and display it on the Command Prompt or the Terminal}{127}{pymass.5.1}%
 \contentsline {section}{\numberline {5.{2}}Turning the LED on or off depending on the pushbutton}{128}{pymass.5.2}%
@@ -12,20 +12,20 @@
 \contentsline {section}{\numberline {6.{1}}Read and display the LDR values}{152}{pymass.6.1}%
 \contentsline {section}{\numberline {6.{2}}Turning the red LED on and off}{153}{pymass.6.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{171}{pymass.7.1}%
+\contentsline {section}{\numberline {7.{1}}Turning on LEDs depending on the potentiometer threshold}{170}{pymass.7.1}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {8.{1}}Read and display the thermistor values}{198}{pymass.8.1}%
 \contentsline {section}{\numberline {8.{2}}Turning the buzzer on using thermistor values}{199}{pymass.8.2}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{229}{pymass.9.1}%
-\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{230}{pymass.9.2}%
-\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{231}{pymass.9.3}%
-\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{232}{pymass.9.4}%
+\contentsline {section}{\numberline {9.{1}}Rotating the servomotor to a specified degree}{230}{pymass.9.1}%
+\contentsline {section}{\numberline {9.{2}}Rotating the servomotor to a specified degree and reversing}{231}{pymass.9.2}%
+\contentsline {section}{\numberline {9.{3}}Rotating the servomotor in steps of $20^\circ $}{232}{pymass.9.3}%
+\contentsline {section}{\numberline {9.{4}}Rotating the servomotor to a degree specified by the potentiometer}{233}{pymass.9.4}%
 \addvspace {10pt}
-\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{265}{pymass.10.1}%
-\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{266}{pymass.10.2}%
-\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{267}{pymass.10.3}%
+\contentsline {section}{\numberline {10.{1}}Rotating the DC motor}{266}{pymass.10.1}%
+\contentsline {section}{\numberline {10.{2}}Rotating the DC motor in both directions}{267}{pymass.10.2}%
+\contentsline {section}{\numberline {10.{3}}Rotating the DC motor in both directions in a loop}{268}{pymass.10.3}%
 \addvspace {10pt}
 \contentsline {section}{\numberline {11.{1}}Code for Single Phase Current Output}{303}{pymass.11.1}%
-\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{303}{pymass.11.2}%
+\contentsline {section}{\numberline {11.{2}}Code for Single Phase Voltage Output}{304}{pymass.11.2}%
 \contentsline {section}{\numberline {11.{3}}Code for Single Phase Active Power Output}{304}{pymass.11.3}%

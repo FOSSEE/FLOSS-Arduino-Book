@@ -1,4 +1,4 @@
-\section{Interfacing the thermistor from \scilab}
+\section{Interfacing thermistor from \scilab}
 \subsection{Interfacing the thermistor}
 In this section we will explain a \scilab\ script to read the thermistor
 values. Based on the acquired values, we will change
@@ -150,7 +150,7 @@ The reader should go through the instructions given in
   \lstinputlisting{\LocTHERMscicode/therm-buzzer.sce}
 \end{scicode}
 
-\section{Interfacing the thermistor from Xcos}
+\section{Interfacing thermistor from Xcos}
 In this section, we discuss how to read and use the thermistor values using
 Xcos blocks. The reader should go
 through the instructions given in \secref{sec:xcos-start} before
@@ -187,7 +187,7 @@ getting started.
           \centering
           \caption{Xcos parameters to read thermistor}
           \label{tab:therm-read}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.2cm}} \hline
             Name of the block & Parameter name             & Value     \\ \hline
             ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
                               & Serial com port number     & 2\portcmd \\ \hline
@@ -245,7 +245,7 @@ getting started.
           \centering
           \caption{Xcos parameters to read thermistor and switch the buzzer}
           \label{tab:therm-buzzer}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.2cm}} \hline
             Name of the block  & Parameter name             & Value     \\ \hline
             ARDUINO\_SETUP     & Identifier of Arduino Card & 1         \\
                                & Serial com port number     & 2\portcmd \\ \hline

@@ -1,4 +1,4 @@
-\section{Reading the potentiometer from Scilab}
+\section{Reading potentiometer from Scilab}
 \subsection{Reading the potentiometer}
 In this section, we will use a Scilab script to read the potentiometer
 values.  Based on the acquired potentiometer values, we will change
@@ -43,7 +43,7 @@ the change in the color of the RGB LED.
 \lstinputlisting{\LocPotscicode/pot-threshold.sce}
 \end{scicode}
 
-\section{Reading the potentiometer from Xcos}
+\section{Reading potentiometer from Xcos}
 In this section, we discuss how to read the potentiometer values using
 Xcos blocks. When the file required for this experiment is invoked, one
 gets the GUI as in \figref{fig:pot-threshold}.  In the caption of this
@@ -75,7 +75,7 @@ be left unchanged.
     \caption{Xcos parameters to turn on different LEDs depending on the
       potentiometer value}
     \label{tab:pot-threshold}
-    \begin{tabular}{llc} \hline
+    \begin{tabular}{lp{2.5cm}p{2.5cm}} \hline
       Name of the block & Parameter name & Value \\ \hline
       ARDUINO\_SETUP & Identifier of Arduino Card & 1 \\
       & Serial com port number & 2\portcmd \\ \hline

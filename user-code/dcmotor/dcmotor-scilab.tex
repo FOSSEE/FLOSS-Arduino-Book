@@ -1,4 +1,4 @@
-\section{Controlling the DC motor from Scilab}
+\section{Controlling DC motor from Scilab}
 \label{sec:dcm-sci}
 \subsection{Controlling the DC motor}
 In this section, we discuss how to carry out the experiments of the
@@ -270,7 +270,7 @@ of the DC motor while running the experiments. 
   \lstinputlisting{\LocDCMscicode/dcmotor-loop.sce}
 \end{scicode}
 
-\section{Controlling the DC motor from Xcos}
+\section{Controlling DC motor from Xcos}
 In this section, we will see how to drive the DC motor from Scilab Xcos. 
 We will carry out the same three experiments as in the previous
 sections. For each experiment, we will give the location of the zcos file and the
@@ -312,7 +312,7 @@ given in \secref{sec:xcos-start} before getting started.
           \centering
           \caption{Xcos parameters to drive the DC motor for a specified time}
           \label{tab:dcmotor-clock}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.5cm}} \hline
             Name of the block & Parameter name             & Value     \\ \hline
             ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
                               & Serial com port number     & 2\portcmd \\ \hline
@@ -363,7 +363,7 @@ given in \secref{sec:xcos-start} before getting started.
           \caption{Xcos parameters to drive the DC motor in forward and
             reverse directions}
           \label{tab:dcmotor-both}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.5cm}} \hline
             Name of the block & Parameter name             & Value     \\ \hline
             ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
                               & Serial com port number     & 2\portcmd \\ \hline
@@ -405,7 +405,7 @@ given in \secref{sec:xcos-start} before getting started.
           \centering
           \caption{Xcos parameters to drive the DC motor in a loop}
           \label{tab:dcmotor-loop}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.5cm}} \hline
             Name of the block & Parameter name             & Value     \\ \hline
             ARDUINO\_SETUP    & Identifier of Arduino Card & 1         \\
                               & Serial com port number     & 2\portcmd \\ \hline

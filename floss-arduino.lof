@@ -50,9 +50,9 @@
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Allowing Microsoft Defender to run the executable file\relax }}{68}{figure.caption.64}%
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Setup of Modelica Standard Library version\relax }}{69}{figure.caption.65}%
 \contentsline {figure}{\numberline {3.37}{\ignorespaces User Interface of OMEdit\relax }}{71}{figure.caption.66}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Opening a model in OMEdit\relax }}{72}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Opening a model in OMEdit\relax }}{71}{figure.caption.67}%
 \contentsline {figure}{\numberline {3.39}{\ignorespaces Opening a model in diagram view in OMEdit\relax }}{72}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Different views of a model in OMEdit\relax }}{73}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Different views of a model in OMEdit\relax }}{72}{figure.caption.69}%
 \contentsline {figure}{\numberline {3.41}{\ignorespaces Opening a model in text view in OMEdit\relax }}{73}{figure.caption.70}%
 \contentsline {figure}{\numberline {3.42}{\ignorespaces Simulating a model in OMEdit\relax }}{74}{figure.caption.71}%
 \contentsline {figure}{\numberline {3.43}{\ignorespaces Output window of OMEdit\relax }}{74}{figure.caption.72}%
@@ -64,9 +64,9 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces An RGB LED with Arduino Uno\ using a breadboard\relax }}{82}{figure.caption.77}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces LED experiments directly on Arduino Uno\ board, without the Shield\relax }}{85}{figure.caption.79}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Turning the blue LED on through Xcos}}{92}{figure.caption.81}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{92}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Turning the blue LED on through Xcos for two seconds}}{93}{figure.caption.83}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Turning the blue and red LEDs on through Xcos and turning them off one by one}}{94}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{95}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Blinking the green LED every second through Xcos}}{94}{figure.caption.87}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Internal connection diagram for the pushbutton on the Shield\relax }}{114}{figure.caption.89}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces A pushbutton to read its status with Arduino Uno using a breadboard\relax }}{114}{figure.caption.90}%
@@ -84,7 +84,7 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Xcos diagram to read LDR values}}{147}{figure.caption.101}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Plot window in Xcos to read LDR values\relax }}{147}{figure.caption.102}%
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Xcos diagram to read the value of the LDR, which is used to turn the blue LED on or off}}{149}{figure.caption.104}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Plot window in Xcos to read LDR values and the state of LED\relax }}{149}{figure.caption.105}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Plot window in Xcos to read LDR values and the state of LED\relax }}{150}{figure.caption.105}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Potentiometer's schematic on the Shield\relax }}{162}{figure.caption.107}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pictorial representation of a potentiometer}}}{162}{subfigure.1.1}%
@@ -110,7 +110,7 @@
 \contentsline {figure}{\numberline {9.3}{\ignorespaces A servomotor and a potentiometer with Arduino Uno\ using a breadboard\relax }}{212}{figure.caption.130}%
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Rotating the servomotor by a fixed angle}}{223}{figure.caption.131}%
 \contentsline {figure}{\numberline {9.5}{\ignorespaces Rotating the servomotor forward and then reverse}}{224}{figure.caption.133}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{225}{figure.caption.135}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Rotating the servomotor in increments of $20^\circ $}}{226}{figure.caption.135}%
 \contentsline {figure}{\numberline {9.7}{\ignorespaces Rotating the servomotor as suggested by the potentiometer}}{226}{figure.caption.137}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {10.1}{\ignorespaces L293D motor driver board\relax }}{246}{figure.caption.139}%
@@ -119,7 +119,7 @@
 \contentsline {figure}{\numberline {10.4}{\ignorespaces How to connect the DC motor to the Arduino Uno\ board\relax }}{248}{figure.caption.143}%
 \contentsline {figure}{\numberline {10.5}{\ignorespaces Control of DC motor for a specified time from Xcos}}{258}{figure.caption.147}%
 \contentsline {figure}{\numberline {10.6}{\ignorespaces Xcos control of the DC motor in forward and reverse directions}}{260}{figure.caption.149}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Xcos control of the DC motor in both directions in a loop}}{261}{figure.caption.151}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Xcos control of the DC motor in both directions in a loop}}{262}{figure.caption.151}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Block diagram representation of the Protocol\relax }}{282}{figure.caption.159}%
 \contentsline {figure}{\numberline {11.2}{\ignorespaces Cycle of query-response between master and slave\relax }}{283}{figure.caption.160}%
@@ -129,10 +129,10 @@
 \contentsline {figure}{\numberline {11.6}{\ignorespaces Flowchart of Arduino firmware\relax }}{292}{figure.caption.171}%
 \contentsline {figure}{\numberline {11.7}{\ignorespaces Flowchart of the steps happening in the FLOSS code\relax }}{294}{figure.caption.172}%
 \contentsline {figure}{\numberline {11.8}{\ignorespaces Single phase current output on Scilab Console\relax }}{298}{figure.caption.174}%
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Single phase current output in energy meter\relax }}{298}{figure.caption.175}%
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Single phase current output in energy meter\relax }}{299}{figure.caption.175}%
 \contentsline {figure}{\numberline {11.10}{\ignorespaces Single phase voltage output on Scilab Console\relax }}{299}{figure.caption.176}%
-\contentsline {figure}{\numberline {11.11}{\ignorespaces Single phase voltage output in energy meter\relax }}{299}{figure.caption.177}%
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Single phase voltage output in energy meter\relax }}{300}{figure.caption.177}%
 \contentsline {figure}{\numberline {11.12}{\ignorespaces Single phase active power output on Scilab Console\relax }}{300}{figure.caption.178}%
-\contentsline {figure}{\numberline {11.13}{\ignorespaces Single phase active power output in energy meter\relax }}{300}{figure.caption.179}%
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Single phase active power output in energy meter\relax }}{301}{figure.caption.179}%
 \contentsline {figure}{\numberline {11.14}{\ignorespaces Xcos diagram to read energy meter values}}{301}{figure.caption.180}%
 \addvspace {10\p@ }

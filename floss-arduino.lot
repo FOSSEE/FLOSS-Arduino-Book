@@ -8,37 +8,37 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Parameters to light the blue LED in Xcos\relax }}{92}{table.caption.82}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Parameters to light the blue LED in Xcos for two seconds\relax }}{93}{table.caption.84}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{94}{table.caption.86}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{95}{table.caption.88}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Parameters to turn the blue and red LEDs on and then turn them off one by one\relax }}{95}{table.caption.86}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Parameters to make the green LED blink every second\relax }}{96}{table.caption.88}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Parameters to print the pushbutton status on the display block\relax }}{123}{table.caption.94}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{124}{table.caption.96}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Xcos parameters to turn the LED on through the pushbutton\relax }}{125}{table.caption.96}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces Xcos parameters to read LDR\relax }}{148}{table.caption.103}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{150}{table.caption.106}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Xcos parameters to read LDR and regulate blue LED\relax }}{151}{table.caption.106}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{170}{table.caption.110}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Xcos parameters to turn on different LEDs depending on the potentiometer value\relax }}{177}{table.caption.110}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Xcos parameters to read thermistor\relax }}{193}{table.caption.118}%
 \contentsline {table}{\numberline {8.2}{\ignorespaces Xcos parameters to read thermistor and switch the buzzer\relax }}{195}{table.caption.121}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Connecting a typical servomotor to Arduino Uno\ board\relax }}{211}{table.caption.128}%
 \contentsline {table}{\numberline {9.2}{\ignorespaces Parameters to rotate the servomotor by $30^\circ $\relax }}{223}{table.caption.132}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{224}{table.caption.134}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{225}{table.caption.136}%
-\contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{227}{table.caption.138}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Parameters to rotate the servomotor forward and reverse\relax }}{225}{table.caption.134}%
+\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters to make the servomotor to sweep the entire range in increments\relax }}{227}{table.caption.136}%
+\contentsline {table}{\numberline {9.5}{\ignorespaces Parameters to rotate the servomotor based on the input from the potentiometer\relax }}{228}{table.caption.138}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {10.1}{\ignorespaces Values to be passed for different H-Bridge circuits\relax }}{246}{table.caption.140}%
 \contentsline {table}{\numberline {10.2}{\ignorespaces Xcos parameters to drive the DC motor for a specified time\relax }}{259}{table.caption.148}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{260}{table.caption.150}%
-\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{262}{table.caption.152}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces Xcos parameters to drive the DC motor in forward and reverse directions\relax }}{261}{table.caption.150}%
+\contentsline {table}{\numberline {10.4}{\ignorespaces Xcos parameters to drive the DC motor in a loop\relax }}{263}{table.caption.152}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {11.1}{\ignorespaces Pins available on RS485 and their usage\relax }}{283}{table.caption.161}%
 \contentsline {table}{\numberline {11.2}{\ignorespaces Operations supported by Modbus RTU\relax }}{285}{table.caption.163}%
 \contentsline {table}{\numberline {11.3}{\ignorespaces Individual parameter address in EM6400\relax }}{285}{table.caption.164}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{286}{table.caption.166}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{287}{table.caption.167}%
+\contentsline {table}{\numberline {11.4}{\ignorespaces A request packet to access V1 in EM6400\relax }}{287}{table.caption.166}%
+\contentsline {table}{\numberline {11.5}{\ignorespaces A response packet to access V1 in EM6400\relax }}{288}{table.caption.167}%
 \contentsline {table}{\numberline {11.6}{\ignorespaces Memory storage of a four-byte integer in little-endian and big-endian\relax }}{289}{table.caption.168}%
-\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read energy meter values\relax }}{301}{table.caption.181}%
+\contentsline {table}{\numberline {11.7}{\ignorespaces Xcos parameters to read energy meter values\relax }}{302}{table.caption.181}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {A.1}{\ignorespaces Approximate cost of the components\relax }}{312}{table.caption.185}%

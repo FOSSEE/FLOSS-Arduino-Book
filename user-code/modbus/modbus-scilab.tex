@@ -1,5 +1,5 @@
 
-\section{Manifestation of Modbus protocol through \scilab}
+\section{Implementing Modbus protocol using \scilab}
 The objective of this experiment is to make the user acquainted with
 the demonstration of Modbus protocol through the Scilab-Arduino toolbox.
 It gives an insight into how to acquire readings from the energy meter and interpret them accordingly. As explained in \secref{sec:energy-meter},
@@ -69,7 +69,7 @@ is in the form of another packet called RP. In this packet, the data is stored i
 % Meter display screen.
 
 
-\section{Reading the electrical parameters from Scilab}
+\section{Reading electrical parameters from Scilab}
 \subsection{Reading the electrical parameters}
 In this section, we will show how to access the three parameters (voltage, current, and active power) in the energy meter. As discussed above, we will send an RQ from Scilab to \arduino. Subsequently, \arduino\ will provide us with an RP, which can be decoded to extract the desired parameter. The reader should go through the instructions given in \secref{sec:sci-start} before getting started.
 
@@ -191,7 +191,7 @@ In this section, we present the results. In this experiment, the three parameter
 \end{enumerate}
 
 
-\section{Reading the electrical parameters from Xcos}
+\section{Reading electrical parameters from Xcos}
 In this section we will carry out the same experiments discussed in
 the previous sections but through Xcos. One should go through
 \secref{sec:xcos-start} before continuing.
@@ -220,7 +220,7 @@ the previous sections but through Xcos. One should go through
           \centering
           \caption{Xcos parameters to read energy meter values}
           \label{tab:mod-xcos-read}
-          \begin{tabular}{llc} \hline
+          \begin{tabular}{lp{2.5cm}p{2.7cm}} \hline
             Name of the block & Parameter name                               & Value           \\ \hline
             CONST\_m          & Address byte for voltage                     & 86              \\
                               & Address byte for current                     & 88              \\

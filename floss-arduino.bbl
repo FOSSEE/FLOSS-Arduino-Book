@@ -4,121 +4,122 @@
 T.~Martin.
 \newblock Use of {Scilab} for space mission analysis.
 \newblock
-  https://www.scilab.org/community/scilabtec/2009/Use-of-Scilab-for-space-mission-analysis.
+  \url{https://www.scilab.org/community/scilabtec/2009/Use-of-Scilab-for-space-mission-analysis}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{scilab-arduino}
 B.~Jofret.
 \newblock Scilab-{Arduino} {Toolbox}.
-\newblock http://atoms.scilab.org/.
+\newblock \url{http://atoms.scilab.org/}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{oshw-ref}
 oshwa.org.
-\newblock http://www.oshwa.org/definition.
+\newblock \url{http://www.oshwa.org/definition}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{OSHW-logo-ref}
 Mateo Zlatar.
 \newblock Open source hardware logo.
-\newblock http://www.oshwa.org/open-source-hardware-logo.
+\newblock \url{http://www.oshwa.org/open-source-hardware-logo}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{uno-ref}
 Arduino {Uno}.
-\newblock https://www.arduino.cc/en/uploads/Main/ArduinoUnoFront240.jpg.
+\newblock \url{https://www.arduino.cc/en/uploads/Main/ArduinoUnoFront240.jpg}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{mega-ref}
 Arduino {Mega}.
-\newblock https://www.arduino.cc/en/uploads/Main/ArduinoMega2560\_R3
-  \_Fronte.jpg.
+\newblock
+  \url{https://www.arduino.cc/en/uploads/Main/ArduinoMega2560_R3_Fronte.jpg}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{lily-ref}
 Lilypod {Arduino}.
-\newblock https://www.arduino.cc/en/uploads/Main/LilyPad\_5.jpg.
+\newblock \url{https://www.arduino.cc/en/uploads/Main/LilyPad_5.jpg}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{phone-ref}
 Arduino phone.
-\newblock http://www.instructables.com/id/ArduinoPhone/.
+\newblock \url{https://www.instructables.com/ArduinoPhone/}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{candy-ref}
 Candy sorting machine.
-\newblock http://beta.ivc.no/wiki/index.php/Skittles\_M\%26M\%27s
-  \_Sorting\_Machine.
+\newblock
+  \url{https://beta.ivc.no/wiki/index.php/Skittles_M&M's_Sorting_Machine}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{3d-printer-ref}
 3d printer.
-\newblock http://www.instructables.com/id/Arduino-Controlled-CNC-3D-Printer/.
+\newblock
+  \url{http://www.instructables.com/id/Arduino-Controlled-CNC-3D-Printer/}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{shield-ref}
 Shield.
-\newblock http://codeshield.diyode.com/about/schematics/.
+\newblock \url{http://codeshield.diyode.com/about/schematics/}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{scilab-ref}
 scilab.org.
-\newblock http://www.scilab.org/scilab/about.
-\newblock Seen on 28 June 2015.
+\newblock \url{https://www.scilab.org/about/scilab-open-source-software}.
+\newblock Seen on 17 November 2023.
 
 \bibitem{scilab-interop}
 scilab.org.
-\newblock http://www.scilab.org/scilab/interoperability.
+\newblock \url{http://www.scilab.org/scilab/interoperability}.
 \newblock Seen on 28 June 2015.
 
 \bibitem{xcos-ref}
 scilab.org.
-\newblock http://www.scilab.org/scilab/features/xcos.
-\newblock Seen on 28 June 2015.
+\newblock \url{https://www.scilab.org/software/xcos}.
+\newblock Seen on 17 November 2023.
 
 \bibitem{python-ref}
 python.org.
-\newblock https://www.python.org/doc/essays/blurb/.
+\newblock \url{https://www.python.org/doc/essays/blurb/}.
 \newblock Seen on 24 February 2021.
 
 \bibitem{pySerial}
 pyserial - pypi.
-\newblock https://pypi.org/project/pyserial/.
+\newblock \url{https://pypi.org/project/pyserial/}.
 \newblock Seen on 21 April 2021.
 
 \bibitem{julia-ref}
 julialang.org/.
-\newblock https://julialang.org/.
+\newblock \url{https://julialang.org/}.
 \newblock Seen on 12 April 2021.
 
 \bibitem{julia-serial-ports}
 Juliaio/serialports.jl: Serialport io streams in julia backed by pyserial.
-\newblock https://github.com/JuliaIO/SerialPorts.jl.
+\newblock \url{https://github.com/JuliaIO/SerialPorts.jl}.
 \newblock Seen on 15 April 2021.
 
 \bibitem{om-ref}
 {OpenModelica}.
-\newblock https://www.openmodelica.org/.
+\newblock \url{https://www.openmodelica.org/}.
 \newblock Seen on 2 April 2021.
 
 \bibitem{therm-wiki}
 Thermistor - wikipedia.
-\newblock https://en.wikipedia.org/wiki/Thermistor.
+\newblock \url{https://en.wikipedia.org/wiki/Thermistor}.
 \newblock Seen on 2 May 2021.
 
 \bibitem{arduino-pwm}
 Secrets of {Arduino} {PWM}.
-\newblock https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM.
+\newblock \url{https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM}.
 \newblock Seen on 5 May 2021.
 
 \bibitem{servo-lib}
 Servo.
-\newblock https://www.arduino.cc/reference/en/libraries/servo/.
+\newblock \url{https://www.arduino.cc/reference/en/libraries/servo/}.
 \newblock Seen on 6 May 2021.
 
 \bibitem{modbus}
 {Modbus}.
-\newblock https://modbus.org/.
+\newblock \url{https://modbus.org/}.
 \newblock Seen on 6 May 2021.
 
 \bibitem{modbus-paper}
@@ -131,22 +132,22 @@ Paavni Shukla, Sonal Singh, Tanmayee Joshi, Sudhakar Kumar, Samrudha Kelkar,
 
 \bibitem{simplymodbus}
 Simply {Modbus}.
-\newblock https://simplymodbus.ca/.
+\newblock \url{https://simplymodbus.ca/}.
 \newblock Seen on 6 May 2021.
 
 \bibitem{online-crc}
 Online {CRC}.
-\newblock https://www.lammertbies.nl/comm/info/crc-calculation.
+\newblock \url{https://www.lammertbies.nl/comm/info/crc-calculation}.
 \newblock Seen on 2 May 2021.
 
 \bibitem{ieee-754-conv}
 Floating point converter.
-\newblock https://www.h-schmidt.net/FloatConverter/IEEE754.html.
+\newblock \url{https://www.h-schmidt.net/FloatConverter/IEEE754.html}.
 \newblock Seen on 6 May 2021.
 
 \bibitem{amazon-shield}
 Ecolight® sensor shield v-1.2 compatible with {Arduino} {Uno} r3.
-\newblock https://www.amazon.in/dp/B09G8BWDDD/.
+\newblock \url{https://www.amazon.in/dp/B09G8BWDDD/}.
 \newblock Seen on 8 Jan 2022.
 
 \bibitem{flipkart-shield}

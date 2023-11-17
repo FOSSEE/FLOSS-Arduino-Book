@@ -52,7 +52,7 @@ in OMEdit, the readers are advised to refer to \secref{OpenModelica-code-executi
 
 
 \subsection{Downloading and installing on GNU/Linux Ubuntu} \label{openmodelica-install-linux}
-On Linux, we can install OpenModelica from the terminal. The readers are advised to visit 
+On Linux, we can install OpenModelica from the terminal. The readers are advised to explore the official website and visit 
 {\tt https://openmodelica.org/download/download-linux} and follow the instructions for installing OpenModelica.
 We recommend the readers should install the latest stable version of OpenModelica. 
 Once OpenModelica has been installed successfully, OpenModelica Connection Editor (OMEdit) can be launched
@@ -62,7 +62,7 @@ Modelica Standard Library version, as shown in \figref{om-help}. Here, you
 should choose the option "Load MSL v3.2.3" and click OK.  
 \begin{figure}
       \centering
-      \includegraphics[scale=0.55]{\LocSWfig/OMEdit-libraries.png}
+      \includegraphics[width=\hgfig]{\LocSWfig/OMEdit-libraries.png}
       \caption{Setup of Modelica Standard Library version}
       \label{om-help}
 \end{figure}
@@ -77,7 +77,7 @@ By default, OMEdit gets launched in the Welcome Perspective. We now briefly desc
 of these Perspectives, as given below:
 \begin{enumerate}
       \item Welcome Perspective: It shows the list of recent files and the list of the 
-      latest news from {\tt https://www.openmodelica.org}.
+      latest news from the official website {\tt https://www.openmodelica.org}.
       \item Modeling Perpective: It provides the interface where users can 
       create and design their models.
       \item Plotting Perspective: It shows the simulation results of the models. 
@@ -180,9 +180,9 @@ we would not have received this message.
 \subsection{OpenModelica-Arduino toolbox}\label{sec:load-om-toolbox}
 OpenModelica, by default, does not have the capability to connect to Arduino. 
 All such add-on functionalities are added to OpenModelica using toolboxes.  
-OpenModelica-Arduino toolbox can be found inside {\tt Origin/tools/\\openmodelica/windows} or {\tt Origin/tools/openmodelica/linux} directory,
+OpenModelica-Arduino toolbox can be found in {\tt Origin/tools/openmodelica/windows} or {\tt Origin/tools/openmodelica/linux} directory,
 see \fnrefp{fn:file-loc}.  Use the one depending upon
-which operating system you are using. The OpenModelica codes for various
+which operating system you are using. OpenModelica codes for various
 experiments mentioned throughout this book can be found in {\tt Origin/user-code} directory. The {\tt user-code} directory will have
 many sub-directories as per the experiments. 
 
@@ -196,12 +196,12 @@ Let us now see how to load OpenModelica-Arduino toolbox.
             toolbox. To do so, go to the menu bar of OMEdit. 
             Click on {\tt File} and then click on
             the {\tt Open Model/Library File(s)} option as shown in \figref{om-model-open}.
-      \item Navigate to {\tt Origin/tools/openmodelica/windows} or {\tt Origin/tools/\\openmodelica/linux}, as the case maybe.
-            Select {\tt Arduino.mo} and \\{\tt test\_firmware.mo}, and click Open. The toolbox should now be loaded and available for use. 
+      \item Navigate to either {\tt Origin/tools/openmodelica/windows} or {\tt Origin/tools/openmodelica/linux}, as the case maybe.
+            Select both {\tt Arduino.mo} and {\tt test\_firmware.mo}, and click Open. The toolbox should now be loaded and available for use. 
       \item \label{itm:library} We will check whether the toolbox has been loaded successfully or not. 
             In OMEdit, under Libraries Browser, look for three new libraries: Arduino,
-            Modelica\_Synchronous, Modelica\_DeviceDrivers, and one model test\_firmware.mo. 
-            If you are able to view these files, it means that OpenModelica-Arduino toolbox has been loaded successfully. 
+            Modelica\_Synch-\\ronous, Modelica\_DeviceDrivers, and one model named test\_firmware.mo. 
+            If you are able to view these files, it means that the toolbox has been loaded successfully. 
             Please note that each time you launch OMEdit, you need to load this toolbox for
             performing the experiments. 
       % \item The {\tt test\_firmware.mo} in the step \ref{itm:library} is the same file which has been mentioned in \secref{om-firmware}.
